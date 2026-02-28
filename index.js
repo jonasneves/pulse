@@ -386,7 +386,7 @@ async function runTurn() {
   let   text   = '';
 
   abortCtrl = new AbortController();
-  chatSend.disabled = true;
+  chatSend.hidden   = true;
   chatAbort.hidden  = false;
 
   try {
@@ -427,7 +427,11 @@ async function runTurn() {
 
     // Finalize text
     text = contentBlocks.filter(b => b.type === 'text').map(b => b.text).join('');
-    updateBubble(bubble, text || '\u200b', false);
+    if (text) {
+      updateBubble(bubble, text, false);
+    } else {
+      bubble.closest('.chat-msg')?.remove();
+    }
 
     // Build assistant message for history
     const assistantContent = contentBlocks
@@ -467,9 +471,9 @@ async function runTurn() {
     }
   } finally {
     turnDepth--;
-    abortCtrl         = null;
-    chatSend.disabled = false;
-    chatAbort.hidden  = true;
+    abortCtrl        = null;
+    chatSend.hidden  = false;
+    chatAbort.hidden = true;
     if (turnDepth === 0) autoSave();
   }
 }
@@ -477,7 +481,7 @@ async function runTurn() {
 // ── Send message ──────────────────────────────────────────────────────────
 async function sendMessage() {
   const text = chatInput.value.trim();
-  if (!text || chatSend.disabled) return;
+  if (!text || chatSend.hidden) return;
 
   // Build user content — include focused item context if any
   let userText = text;
@@ -618,6 +622,14 @@ function initChatDrag() {
     handle.addEventListener('pointerup', onUp);
   });
 }
+
+// ── Global keypress → focus chat input ───────────────────────────────────
+document.addEventListener('keydown', e => {
+  if (e.metaKey || e.ctrlKey || e.altKey) return;
+  if (document.activeElement?.matches('input, textarea, [contenteditable]')) return;
+  if (e.key.length !== 1) return; // ignore arrows, Escape, F-keys, etc.
+  chatInput.focus();
+});
 
 // ── Init ──────────────────────────────────────────────────────────────────
 initApiKeyPanel();
