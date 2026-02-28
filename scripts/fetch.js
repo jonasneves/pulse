@@ -97,7 +97,7 @@ async function fetchGitHub() {
 async function fetchHuggingFace() {
   console.log('Fetching HuggingFace trending…');
   const { status, body } = await get(
-    'https://huggingface.co/api/models?sort=trending&limit=30&full=false',
+    'https://huggingface.co/api/models?sort=downloads&direction=-1&limit=30',
     { Accept: 'application/json' }
   );
   if (status !== 200) throw new Error(`HuggingFace API returned HTTP ${status}`);
@@ -122,12 +122,14 @@ async function main() {
 
   const [ghResult, hfResult] = await Promise.allSettled([fetchGitHub(), fetchHuggingFace()]);
 
+  let anyFailed = false;
+
   if (ghResult.status === 'fulfilled') {
     fs.writeFileSync(path.join(dataDir, 'github.json'), JSON.stringify(ghResult.value, null, 2));
     console.log('Wrote data/github.json');
   } else {
     console.error('GitHub fetch failed:', ghResult.reason.message);
-    process.exitCode = 1;
+    anyFailed = true;
   }
 
   if (hfResult.status === 'fulfilled') {
@@ -135,6 +137,11 @@ async function main() {
     console.log('Wrote data/huggingface.json');
   } else {
     console.error('HuggingFace fetch failed:', hfResult.reason.message);
+    anyFailed = true;
+  }
+
+  // Only fail hard if both sources failed — partial data is better than no commit
+  if (anyFailed && ghResult.status !== 'fulfilled' && hfResult.status !== 'fulfilled') {
     process.exitCode = 1;
   }
 }
