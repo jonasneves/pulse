@@ -79,6 +79,7 @@ function initProxyBadge() {
         badge.hidden = false;
         render(true);
         hint.remove();
+        collapseConnectionPanel();
         showToast('Using Claude Code proxy');
       });
       form.appendChild(hint);
@@ -127,6 +128,13 @@ function tryRestoreSession() {
       if (data.messages?.length) restoreMessages(data.messages);
     }
   } catch {}
+}
+
+function collapseConnectionPanel() {
+  const panel  = document.getElementById('api-key-panel');
+  const toggle = document.getElementById('api-key-toggle');
+  delete panel.dataset.open;
+  toggle.setAttribute('aria-expanded', 'false');
 }
 
 // ── API key management ────────────────────────────────────────────────────
@@ -528,23 +536,23 @@ chatInput.addEventListener('keydown', e => {
   }
 });
 
-// Esc × 2 to clear chat
-let escCount = 0;
-chatInput.addEventListener('keydown', e => {
-  if (e.key === 'Escape') {
-    escCount++;
-    if (escCount >= 2) {
+// Esc × 2 to clear chat (document-level, timestamp-based, guarded during streaming)
+let lastEscTime = 0;
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Escape') return;
+  const now = Date.now();
+  if (now - lastEscTime < 600 && !abortCtrl) {
+    lastEscTime = 0;
+    if (confirm('Clear chat history?')) {
       messages = [];
       chatMessages.innerHTML = '';
       const wrap = document.getElementById('suggestions-wrap');
       wrap.hidden = true;
       delete wrap.dataset.open;
       try { localStorage.removeItem(SESSION_KEY); } catch {}
-      escCount = 0;
     }
-    setTimeout(() => { escCount = 0; }, 800);
   } else {
-    escCount = 0;
+    lastEscTime = now;
   }
 });
 

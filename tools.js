@@ -86,12 +86,17 @@ function executeTool(name, input) {
 
     if (chips.length > 0) {
       if (countEl) countEl.textContent = `${chips.length} suggestion${chips.length > 1 ? 's' : ''}`;
+      const wasHidden = wrap.hidden;
       wrap.hidden = false;
-      wrap.dataset.open = '';
-      if (toggleBtn) toggleBtn.setAttribute('aria-expanded', 'true');
+      // Auto-expand only on first appearance; after that preserve user's open/closed choice
+      if (wasHidden) {
+        wrap.dataset.open = '';
+        if (toggleBtn) toggleBtn.setAttribute('aria-expanded', 'true');
+      }
     } else {
       wrap.hidden = true;
       delete wrap.dataset.open;
+      if (toggleBtn) toggleBtn.setAttribute('aria-expanded', 'false');
     }
     return 'Suggestions updated.';
   }
