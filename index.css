@@ -646,29 +646,32 @@ a:hover { text-decoration: underline; }
 
 #item-context-clear:hover { opacity: 1; }
 
-/* Proxy badge — hidden until proxy is detected */
+/* Proxy badge — lives inside api-key-body, hidden until proxy detected */
 .proxy-badge {
   display: flex;
   align-items: center;
-  gap: 5px;
-  font-size: 10px;
+  gap: 6px;
+  width: 100%;
+  font-size: 11px;
   font-family: var(--font-mono);
   color: var(--text-muted);
-  background: var(--bg-3);
+  background: var(--bg-2);
   border: 1px solid var(--border);
-  border-radius: 99px;
-  padding: 3px 9px;
+  border-radius: var(--radius);
+  padding: 6px 10px;
+  margin-bottom: 10px;
   cursor: pointer;
-  align-self: flex-end;
-  transition: color 0.15s, border-color 0.15s;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
   user-select: none;
+  text-align: left;
 }
 
-.proxy-badge:hover { color: var(--text); }
+.proxy-badge:hover { color: var(--text); border-color: var(--text-muted); }
 
 .proxy-badge.active {
   color: var(--green);
   border-color: var(--green);
+  background: var(--green-dim);
 }
 
 .proxy-dot {
@@ -681,6 +684,9 @@ a:hover { text-decoration: underline; }
 }
 
 .proxy-badge.active .proxy-dot { opacity: 1; }
+
+/* Hide API key form when proxy is active */
+.api-key-panel[data-use-proxy] #api-key-form { display: none; }
 
 /* Input pill — border wraps textarea + buttons */
 .chat-input-wrap {

@@ -40,17 +40,23 @@
     <div id="api-key-panel" class="api-key-panel">
       <button id="api-key-toggle" class="api-key-header" aria-expanded="false" aria-controls="api-key-body">
         <span class="api-key-status" aria-hidden="true"></span>
-        <span class="api-key-header-label">API Key</span>
+        <span class="api-key-header-label">Connection</span>
         <svg class="chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
           <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </button>
       <div class="api-key-body" id="api-key-body" role="region">
         <div class="api-key-body-inner">
-          <p>Enter your <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">Anthropic API key</a> to enable chat. Stored in your browser only.</p>
-          <div class="api-key-row">
-            <input id="api-key-input" type="password" placeholder="sk-ant-…" autocomplete="off" spellcheck="false">
-            <button id="api-key-save" class="btn-primary">Save</button>
+          <button id="proxy-badge" class="proxy-badge" hidden aria-label="Toggle Claude Code proxy">
+            <span class="proxy-dot"></span>
+            <span id="proxy-label">Claude Code</span>
+          </button>
+          <div id="api-key-form">
+            <p>Enter your <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">Anthropic API key</a> to enable chat. Stored in your browser only.</p>
+            <div class="api-key-row">
+              <input id="api-key-input" type="password" placeholder="sk-ant-…" autocomplete="off" spellcheck="false">
+              <button id="api-key-save" class="btn-primary">Save</button>
+            </div>
           </div>
         </div>
       </div>
@@ -96,10 +102,6 @@
           </button>
         </div>
       </div>
-      <button id="proxy-badge" class="proxy-badge" hidden aria-label="Toggle Claude Code proxy" title="Click to switch API source">
-        <span class="proxy-dot"></span>
-        <span id="proxy-label">Claude Code</span>
-      </button>
     </div>
   </aside>
 </div>

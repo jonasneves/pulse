@@ -43,13 +43,24 @@ async function checkProxy() {
   }
 }
 
+// Shared connection status — called by both initApiKeyPanel and initProxyBadge
+function updateConnectionStatus() {
+  const panel  = document.getElementById('api-key-panel');
+  const active = getApiKey() || useProxy();
+  if (active) panel.dataset.hasKey = '';
+  else        delete panel.dataset.hasKey;
+  if (useProxy()) panel.dataset.useProxy = '';
+  else            delete panel.dataset.useProxy;
+}
+
 function initProxyBadge() {
-  const badge  = document.getElementById('proxy-badge');
-  const label  = document.getElementById('proxy-label');
+  const badge = document.getElementById('proxy-badge');
+  const label = document.getElementById('proxy-label');
 
   function render(active) {
     badge.classList.toggle('active', active);
-    label.textContent = active ? 'Claude Code (on)' : 'Claude Code';
+    label.textContent = active ? 'Claude Code — enabled' : 'Claude Code — click to use';
+    updateConnectionStatus();
   }
 
   checkProxy().then(available => {
@@ -119,14 +130,8 @@ function initApiKeyPanel() {
     toggle.setAttribute('aria-expanded', String(open));
   }
 
-  function updateStatus() {
-    if (getApiKey()) panel.dataset.hasKey = '';
-    else             delete panel.dataset.hasKey;
-  }
-
-  updateStatus();
-  // Open by default only if no key yet
-  setOpen(!getApiKey());
+  updateConnectionStatus();
+  setOpen(!getApiKey() && !useProxy());
 
   toggle.addEventListener('click', () => setOpen(!panel.hasAttribute('data-open')));
 
@@ -138,7 +143,7 @@ function initApiKeyPanel() {
     }
     setApiKey(key);
     input.value = '';
-    updateStatus();
+    updateConnectionStatus();
     setOpen(false);
     showToast('API key saved');
   });
