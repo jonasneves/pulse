@@ -49,8 +49,12 @@ const TOOLS = [
 // Returns a string result to send back as tool_result content.
 function executeTool(name, input) {
   if (name === 'set_suggestions') {
-    const chips = input.suggestions || [];
+    const chips     = input.suggestions || [];
+    const wrap      = document.getElementById('suggestions-wrap');
     const container = document.getElementById('suggestions');
+    const countEl   = document.getElementById('suggestions-count');
+    const toggleBtn = document.getElementById('suggestions-toggle');
+
     container.innerHTML = '';
     chips.forEach(text => {
       const btn = document.createElement('button');
@@ -60,12 +64,20 @@ function executeTool(name, input) {
         const ta = document.getElementById('chat-input');
         ta.value = text;
         ta.focus();
-        // Trigger send
         document.getElementById('chat-send').click();
       });
       container.appendChild(btn);
     });
-    container.hidden = chips.length === 0;
+
+    if (chips.length > 0) {
+      if (countEl) countEl.textContent = `${chips.length} suggestion${chips.length > 1 ? 's' : ''}`;
+      wrap.hidden = false;
+      wrap.dataset.open = '';
+      if (toggleBtn) toggleBtn.setAttribute('aria-expanded', 'true');
+    } else {
+      wrap.hidden = true;
+      delete wrap.dataset.open;
+    }
     return 'Suggestions updated.';
   }
 

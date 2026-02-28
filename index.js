@@ -65,18 +65,70 @@ function initProxyBadge() {
   });
 }
 
+// ── Session persistence ───────────────────────────────────────────────────
+const SESSION_KEY = 'pulse-session';
+
+function autoSave() {
+  try {
+    localStorage.setItem(SESSION_KEY, JSON.stringify({ messages, savedAt: new Date().toISOString() }));
+  } catch {}
+}
+
+function restoreMessages(saved) {
+  messages = saved;
+  const banner = document.createElement('div');
+  banner.className = 'session-restore-banner';
+  banner.textContent = '— restored —';
+  chatMessages.appendChild(banner);
+  for (const msg of saved) {
+    if (msg.role === 'user' && typeof msg.content === 'string') {
+      appendMessage('user', msg.content);
+    } else if (msg.role === 'assistant' && Array.isArray(msg.content)) {
+      const textBlock = msg.content.find(c => c.type === 'text');
+      if (textBlock?.text) appendMessage('assistant', textBlock.text);
+    }
+  }
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+}
+
+function tryRestoreSession() {
+  try {
+    const raw = localStorage.getItem(SESSION_KEY);
+    if (raw) {
+      const data = JSON.parse(raw);
+      if (data.messages?.length) restoreMessages(data.messages);
+    }
+  } catch {}
+}
+
 // ── API key management ────────────────────────────────────────────────────
 const KEY_STORE = 'pulse-api-key';
 
 function getApiKey()    { try { return localStorage.getItem(KEY_STORE) || ''; } catch { return ''; } }
 function setApiKey(key) { try { localStorage.setItem(KEY_STORE, key); } catch {} }
 
-function initApiKeyBanner() {
-  const banner   = document.getElementById('api-key-banner');
-  const input    = document.getElementById('api-key-input');
-  const saveBtn  = document.getElementById('api-key-save');
+function initApiKeyPanel() {
+  const panel   = document.getElementById('api-key-panel');
+  const toggle  = document.getElementById('api-key-toggle');
+  const input   = document.getElementById('api-key-input');
+  const saveBtn = document.getElementById('api-key-save');
 
-  if (!getApiKey()) banner.hidden = false;
+  function setOpen(open) {
+    if (open) panel.dataset.open = '';
+    else      delete panel.dataset.open;
+    toggle.setAttribute('aria-expanded', String(open));
+  }
+
+  function updateStatus() {
+    if (getApiKey()) panel.dataset.hasKey = '';
+    else             delete panel.dataset.hasKey;
+  }
+
+  updateStatus();
+  // Open by default only if no key yet
+  setOpen(!getApiKey());
+
+  toggle.addEventListener('click', () => setOpen(!panel.hasAttribute('data-open')));
 
   saveBtn.addEventListener('click', () => {
     const key = input.value.trim();
@@ -85,8 +137,9 @@ function initApiKeyBanner() {
       return;
     }
     setApiKey(key);
-    banner.hidden = true;
     input.value = '';
+    updateStatus();
+    setOpen(false);
     showToast('API key saved');
   });
 
@@ -310,8 +363,20 @@ async function callAPI(msgs, signal) {
   return res.body;
 }
 
+// ── Suggestions collapse helpers ──────────────────────────────────────────
+function collapseSuggestions() {
+  const wrap = document.getElementById('suggestions-wrap');
+  if (!wrap.hidden) {
+    delete wrap.dataset.open;
+    wrap.querySelector('#suggestions-toggle')?.setAttribute('aria-expanded', 'false');
+  }
+}
+
 // ── Conversation turn ─────────────────────────────────────────────────────
+let turnDepth = 0;
+
 async function runTurn() {
+  turnDepth++;
   const bubble = appendMessage('assistant', '', true);
   let   text   = '';
 
@@ -396,9 +461,11 @@ async function runTurn() {
       showToast(err.message, 'error');
     }
   } finally {
-    abortCtrl     = null;
+    turnDepth--;
+    abortCtrl         = null;
     chatSend.disabled = false;
     chatAbort.hidden  = true;
+    if (turnDepth === 0) autoSave();
   }
 }
 
@@ -418,7 +485,7 @@ async function sendMessage() {
 
   chatInput.value = '';
   chatInput.style.height = '';
-  document.getElementById('suggestions').hidden = true;
+  collapseSuggestions();
 
   appendMessage('user', text); // show clean text in UI
   messages.push({ role: 'user', content: userText });
@@ -443,7 +510,10 @@ chatInput.addEventListener('keydown', e => {
     if (escCount >= 2) {
       messages = [];
       chatMessages.innerHTML = '';
-      document.getElementById('suggestions').hidden = true;
+      const wrap = document.getElementById('suggestions-wrap');
+      wrap.hidden = true;
+      delete wrap.dataset.open;
+      try { localStorage.removeItem(SESSION_KEY); } catch {}
       escCount = 0;
     }
     setTimeout(() => { escCount = 0; }, 800);
@@ -462,7 +532,20 @@ chatAbort.addEventListener('click', () => {
   abortCtrl?.abort();
 });
 
+document.getElementById('suggestions-toggle').addEventListener('click', () => {
+  const wrap = document.getElementById('suggestions-wrap');
+  const isOpen = wrap.hasAttribute('data-open');
+  if (isOpen) {
+    delete wrap.dataset.open;
+    document.getElementById('suggestions-toggle').setAttribute('aria-expanded', 'false');
+  } else {
+    wrap.dataset.open = '';
+    document.getElementById('suggestions-toggle').setAttribute('aria-expanded', 'true');
+  }
+});
+
 // ── Init ──────────────────────────────────────────────────────────────────
-initApiKeyBanner();
+initApiKeyPanel();
 initProxyBadge();
+tryRestoreSession();
 loadData();

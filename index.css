@@ -15,7 +15,7 @@
   --font:       'Inter', system-ui, sans-serif;
   --font-mono:  'JetBrains Mono', 'Fira Code', monospace;
   --header-h:   44px;
-  --chat-w:     360px;
+  --chat-w:     400px;
   --radius:     6px;
   --radius-lg:  10px;
 }
@@ -319,17 +319,71 @@ a:hover { text-decoration: underline; }
   overflow: hidden;
 }
 
-/* ── API key banner ──────────────────────────────────────────────────────── */
-.api-key-banner {
-  padding: 14px 16px;
+/* ── API key panel (collapsable) ─────────────────────────────────────────── */
+.api-key-panel {
   border-bottom: 1px solid var(--border);
   background: var(--bg-3);
 }
 
-.api-key-banner p {
+.api-key-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 9px 14px;
+  font-size: 11px;
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: color 0.15s;
+}
+
+.api-key-header:hover { color: var(--text); }
+
+.api-key-status {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #f85149;
+  flex-shrink: 0;
+}
+
+.api-key-panel[data-has-key] .api-key-status { background: var(--green); }
+
+.api-key-header-label { flex: 1; }
+
+.chevron {
+  color: var(--text-muted);
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.api-key-panel[data-open] .chevron { transform: rotate(180deg); }
+
+/* Grid-based collapse — no max-height hacks */
+.api-key-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.2s ease;
+}
+
+.api-key-panel[data-open] .api-key-body { grid-template-rows: 1fr; }
+
+.api-key-body-inner {
+  overflow: hidden;
+  padding: 0 14px;
+}
+
+.api-key-panel[data-open] .api-key-body-inner { padding-bottom: 12px; }
+
+.api-key-body p {
   font-size: 12px;
   color: var(--text-muted);
   margin-bottom: 10px;
+  margin-top: 2px;
   line-height: 1.5;
 }
 
@@ -368,6 +422,16 @@ a:hover { text-decoration: underline; }
 }
 
 .btn-primary:hover { opacity: 0.85; }
+
+/* ── Session restore banner ───────────────────────────────────────────────── */
+.session-restore-banner {
+  text-align: center;
+  font-size: 11px;
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  padding: 6px 0 2px;
+  opacity: 0.6;
+}
 
 /* ── Chat messages ───────────────────────────────────────────────────────── */
 #chat-messages {
@@ -473,12 +537,48 @@ a:hover { text-decoration: underline; }
 
 @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
 
-/* ── Suggestions ─────────────────────────────────────────────────────────── */
+/* ── Suggestions (collapsable) ───────────────────────────────────────────── */
+.suggestions-wrap {
+  border-top: 1px solid var(--border);
+}
+
+.suggestions-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  padding: 7px 14px;
+  font-size: 11px;
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: color 0.15s;
+}
+
+.suggestions-toggle:hover { color: var(--text); }
+.suggestions-count { flex: 1; }
+
+.suggestions-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.2s ease;
+}
+
+.suggestions-wrap[data-open] .suggestions-body { grid-template-rows: 1fr; }
+.suggestions-wrap[data-open] .chevron { transform: rotate(180deg); }
+
+.suggestions-body-inner {
+  overflow: hidden;
+}
+
 .suggestions {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  padding: 10px 16px 0;
+  padding: 2px 14px 10px;
 }
 
 .suggestion-chip {
