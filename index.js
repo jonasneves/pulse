@@ -6,7 +6,9 @@ let huggingfaceData = null;
 let messages      = [];
 let abortCtrl     = null;
 
-const MODEL = 'claude-sonnet-4-6';
+const MODEL       = 'claude-sonnet-4-6';
+const LOCAL_PROXY = 'http://127.0.0.1:7337/claude';
+const PROXY_KEY   = 'pulse-use-proxy';
 
 // ── Elements ──────────────────────────────────────────────────────────────
 const cardList       = document.getElementById('card-list');
@@ -18,6 +20,50 @@ const itemContext    = document.getElementById('item-context');
 const itemContextTxt = document.getElementById('item-context-text');
 const updatedLabel   = document.getElementById('updated-label');
 const toastContainer = document.getElementById('toast-container');
+
+// ── Proxy detection ───────────────────────────────────────────────────────
+function useProxy() {
+  return localStorage.getItem(PROXY_KEY) === 'true';
+}
+
+async function checkProxy() {
+  try {
+    const ac = new AbortController();
+    const timer = setTimeout(() => ac.abort(), 2000);
+    await fetch(LOCAL_PROXY, {
+      method: 'POST',
+      signal: ac.signal,
+      headers: { 'content-type': 'application/json' },
+      body: '{}',
+    });
+    clearTimeout(timer);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function initProxyBadge() {
+  const badge  = document.getElementById('proxy-badge');
+  const label  = document.getElementById('proxy-label');
+
+  function render(active) {
+    badge.classList.toggle('active', active);
+    label.textContent = active ? 'Claude Code (on)' : 'Claude Code';
+  }
+
+  checkProxy().then(available => {
+    if (!available) return;
+    badge.hidden = false;
+    render(useProxy());
+    badge.addEventListener('click', () => {
+      const next = !useProxy();
+      localStorage.setItem(PROXY_KEY, String(next));
+      render(next);
+      showToast(next ? 'Using Claude Code proxy' : 'Using direct API');
+    });
+  });
+}
 
 // ── API key management ────────────────────────────────────────────────────
 const KEY_STORE = 'pulse-api-key';
@@ -232,33 +278,29 @@ async function* parseSSE(body) {
 
 // ── API call ──────────────────────────────────────────────────────────────
 async function callAPI(msgs, signal) {
-  const key = getApiKey();
-  if (!key) throw new Error('No API key — click the banner above to add one.');
+  const system  = buildSystem({ tab: activeTab, focused: focusedItem, githubData, huggingfaceData });
+  const payload = { model: MODEL, max_tokens: 2048, stream: true, system, tools: TOOLS, messages: msgs };
 
-  const system = buildSystem({
-    tab: activeTab,
-    focused: focusedItem,
-    githubData,
-    huggingfaceData,
-  });
-
-  const res = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    signal,
-    headers: {
-      'x-api-key':         key,
-      'anthropic-version': '2023-06-01',
-      'content-type':      'application/json',
-    },
-    body: JSON.stringify({
-      model: MODEL,
-      max_tokens: 2048,
-      stream: true,
-      system,
-      tools: TOOLS,
-      messages: msgs,
-    }),
-  });
+  let res;
+  if (useProxy()) {
+    res = await fetch(LOCAL_PROXY, {
+      method: 'POST', signal,
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+  } else {
+    const key = getApiKey();
+    if (!key) throw new Error('No API key — click the banner above to add one.');
+    res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST', signal,
+      headers: {
+        'x-api-key':         key,
+        'anthropic-version': '2023-06-01',
+        'content-type':      'application/json',
+      },
+      body: JSON.stringify(payload),
+    });
+  }
 
   if (!res.ok) {
     const text = await res.text();
@@ -422,4 +464,5 @@ chatAbort.addEventListener('click', () => {
 
 // ── Init ──────────────────────────────────────────────────────────────────
 initApiKeyBanner();
+initProxyBadge();
 loadData();

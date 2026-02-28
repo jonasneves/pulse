@@ -546,37 +546,85 @@ a:hover { text-decoration: underline; }
 
 #item-context-clear:hover { opacity: 1; }
 
+/* Proxy badge — hidden until proxy is detected */
+.proxy-badge {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  background: var(--bg-3);
+  border: 1px solid var(--border);
+  border-radius: 99px;
+  padding: 3px 9px;
+  cursor: pointer;
+  align-self: flex-end;
+  transition: color 0.15s, border-color 0.15s;
+  user-select: none;
+}
+
+.proxy-badge:hover { color: var(--text); }
+
+.proxy-badge.active {
+  color: var(--green);
+  border-color: var(--green);
+}
+
+.proxy-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+
+.proxy-badge.active .proxy-dot { opacity: 1; }
+
+/* Input pill — border wraps textarea + buttons */
 .chat-input-wrap {
   display: flex;
-  gap: 6px;
   align-items: flex-end;
+  gap: 6px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 8px 8px 8px 12px;
+  transition: border-color 0.15s;
 }
+
+.chat-input-wrap:focus-within { border-color: var(--accent); }
 
 #chat-input {
   flex: 1;
   font-family: var(--font);
   font-size: 13px;
   line-height: 1.5;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
+  background: transparent;
+  border: none;
   color: var(--text);
-  padding: 8px 12px;
+  padding: 0;
   resize: none;
   outline: none;
-  transition: border-color 0.15s;
   scrollbar-width: thin;
+  min-height: 20px;
 }
 
-#chat-input:focus { border-color: var(--accent); }
 #chat-input::placeholder { color: var(--text-muted); }
+
+.chat-btn-group {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}
 
 #chat-send, #chat-abort {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   border-radius: var(--radius);
   border: none;
   cursor: pointer;

@@ -59,18 +59,24 @@
         </button>
       </div>
       <div class="chat-input-wrap">
-        <textarea id="chat-input" rows="3" placeholder="Ask about trending repos and models… (Esc×2 clears)" aria-label="Chat message"></textarea>
-        <button id="chat-send" aria-label="Send message" title="Send (Enter)">
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-            <path d="M8 13V3M3.5 7.5L8 3l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </button>
-        <button id="chat-abort" hidden aria-label="Stop generating" title="Stop">
-          <svg width="11" height="11" viewBox="0 0 11 11" aria-hidden="true">
-            <rect width="11" height="11" rx="2" fill="currentColor"/>
-          </svg>
-        </button>
+        <textarea id="chat-input" rows="2" placeholder="Ask about trending repos and models… (Esc×2 clears)" aria-label="Chat message"></textarea>
+        <div class="chat-btn-group">
+          <button id="chat-abort" hidden aria-label="Stop generating" title="Stop">
+            <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true">
+              <rect width="10" height="10" rx="2" fill="currentColor"/>
+            </svg>
+          </button>
+          <button id="chat-send" aria-label="Send message" title="Send (Enter)">
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <path d="M8 13V3M3.5 7.5L8 3l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
       </div>
+      <button id="proxy-badge" class="proxy-badge" hidden aria-label="Toggle Claude Code proxy" title="Click to switch API source">
+        <span class="proxy-dot"></span>
+        <span id="proxy-label">Claude Code</span>
+      </button>
     </div>
   </aside>
 </div>
