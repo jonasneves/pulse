@@ -1,0 +1,425 @@
+// ── State ─────────────────────────────────────────────────────────────────
+let activeTab     = 'github';
+let focusedItem   = null;
+let githubData    = null;
+let huggingfaceData = null;
+let messages      = [];
+let abortCtrl     = null;
+
+const MODEL = 'claude-sonnet-4-6';
+
+// ── Elements ──────────────────────────────────────────────────────────────
+const cardList       = document.getElementById('card-list');
+const chatMessages   = document.getElementById('chat-messages');
+const chatInput      = document.getElementById('chat-input');
+const chatSend       = document.getElementById('chat-send');
+const chatAbort      = document.getElementById('chat-abort');
+const itemContext    = document.getElementById('item-context');
+const itemContextTxt = document.getElementById('item-context-text');
+const updatedLabel   = document.getElementById('updated-label');
+const toastContainer = document.getElementById('toast-container');
+
+// ── API key management ────────────────────────────────────────────────────
+const KEY_STORE = 'pulse-api-key';
+
+function getApiKey()    { try { return localStorage.getItem(KEY_STORE) || ''; } catch { return ''; } }
+function setApiKey(key) { try { localStorage.setItem(KEY_STORE, key); } catch {} }
+
+function initApiKeyBanner() {
+  const banner   = document.getElementById('api-key-banner');
+  const input    = document.getElementById('api-key-input');
+  const saveBtn  = document.getElementById('api-key-save');
+
+  if (!getApiKey()) banner.hidden = false;
+
+  saveBtn.addEventListener('click', () => {
+    const key = input.value.trim();
+    if (!key.startsWith('sk-ant-')) {
+      showToast('Key should start with sk-ant-', 'error');
+      return;
+    }
+    setApiKey(key);
+    banner.hidden = true;
+    input.value = '';
+    showToast('API key saved');
+  });
+
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter') saveBtn.click();
+  });
+}
+
+// ── Theme toggle ──────────────────────────────────────────────────────────
+document.getElementById('theme-toggle').addEventListener('click', () => {
+  const current = document.documentElement.dataset.theme;
+  const isDark  = current === 'dark' || (!current && !window.matchMedia('(prefers-color-scheme: light)').matches);
+  const next    = isDark ? 'light' : 'dark';
+  document.documentElement.dataset.theme = next;
+  try { localStorage.setItem('pulse-theme', next); } catch {}
+});
+
+// ── Tab switching ─────────────────────────────────────────────────────────
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    if (btn.dataset.tab === activeTab) return;
+    activeTab = btn.dataset.tab;
+
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.toggle('active', b.dataset.tab === activeTab);
+      b.setAttribute('aria-selected', b.dataset.tab === activeTab);
+    });
+
+    clearFocus();
+    renderCurrentTab();
+    updateTimestamp();
+  });
+});
+
+// ── Data loading ──────────────────────────────────────────────────────────
+async function loadData() {
+  const [gh, hf] = await Promise.allSettled([
+    fetch('data/github.json').then(r => r.ok ? r.json() : null),
+    fetch('data/huggingface.json').then(r => r.ok ? r.json() : null),
+  ]);
+
+  if (gh.status === 'fulfilled') githubData = gh.value;
+  if (hf.status === 'fulfilled') huggingfaceData = hf.value;
+
+  renderCurrentTab();
+  updateTimestamp();
+}
+
+function updateTimestamp() {
+  const data = activeTab === 'github' ? githubData : huggingfaceData;
+  if (data?.updated) {
+    const d = new Date(data.updated);
+    updatedLabel.textContent = `updated ${d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`;
+  } else {
+    updatedLabel.textContent = '';
+  }
+}
+
+// ── Card rendering ────────────────────────────────────────────────────────
+function renderCurrentTab() {
+  if (activeTab === 'github') {
+    renderGitHubCards(githubData, cardList, handleCardSelect);
+  } else {
+    renderHFCards(huggingfaceData, cardList, handleCardSelect);
+  }
+}
+
+function handleCardSelect(cardEl, item) {
+  const isActive = cardEl.classList.contains('active');
+
+  // Deselect all cards
+  document.querySelectorAll('#card-list [data-rank]').forEach(c => c.classList.remove('active'));
+
+  if (isActive) {
+    clearFocus();
+    return;
+  }
+
+  cardEl.classList.add('active');
+  focusedItem = item;
+
+  const label = activeTab === 'github'
+    ? (item.fullName || item.name)
+    : item.id;
+  itemContextTxt.textContent = label;
+  itemContext.hidden = false;
+
+  chatInput.focus();
+}
+
+function clearFocus() {
+  focusedItem = null;
+  itemContext.hidden = true;
+  document.querySelectorAll('#card-list [data-rank]').forEach(c => c.classList.remove('active'));
+}
+
+document.getElementById('item-context-clear').addEventListener('click', clearFocus);
+
+// ── Markdown rendering ────────────────────────────────────────────────────
+function escapeHtmlChat(str) {
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function renderMd(text) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.use({
+      renderer: {
+        link(token) {
+          const href = escapeHtmlChat(token.href || '');
+          const title = token.title ? ` title="${escapeHtmlChat(token.title)}"` : '';
+          const inner = this.parser ? this.parser.parseInline(token.tokens) : (token.text || href);
+          return `<a href="${href}"${title} target="_blank" rel="noopener noreferrer">${inner}</a>`;
+        },
+        image(token) {
+          return token.text ? `[${escapeHtmlChat(token.text)}]` : '';
+        },
+      },
+    });
+    return DOMPurify.sanitize(marked.parse(text), { ADD_ATTR: ['target', 'rel'] });
+  }
+  return text.split(/\n{2,}/).map(p => `<p>${escapeHtmlChat(p)}</p>`).join('');
+}
+
+// ── Chat messages ─────────────────────────────────────────────────────────
+function appendMessage(role, content, streaming = false) {
+  const wrapper = document.createElement('div');
+  wrapper.className = `chat-msg chat-msg-${role}`;
+
+  const label = document.createElement('div');
+  label.className = 'chat-msg-label';
+  label.textContent = role === 'user' ? 'you' : 'claude';
+
+  const bubble = document.createElement('div');
+  bubble.className = 'chat-msg-bubble' + (streaming ? ' chat-cursor' : '');
+
+  if (role === 'user') {
+    bubble.textContent = content;
+  } else {
+    bubble.innerHTML = renderMd(content);
+  }
+
+  wrapper.appendChild(label);
+  wrapper.appendChild(bubble);
+  chatMessages.appendChild(wrapper);
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+
+  return bubble;
+}
+
+function updateBubble(bubble, text, streaming = false) {
+  bubble.innerHTML = renderMd(text);
+  if (streaming) bubble.classList.add('chat-cursor');
+  else           bubble.classList.remove('chat-cursor');
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+}
+
+// ── Toast ─────────────────────────────────────────────────────────────────
+function showToast(msg, type = '') {
+  const el = document.createElement('div');
+  el.className = 'toast' + (type ? ` ${type}` : '');
+  el.textContent = msg;
+  toastContainer.appendChild(el);
+  setTimeout(() => el.remove(), 4000);
+}
+
+// ── SSE parser ────────────────────────────────────────────────────────────
+async function* parseSSE(body) {
+  const reader  = body.getReader();
+  const decoder = new TextDecoder();
+  let buffer = '', currentEvent = null;
+
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    buffer += decoder.decode(value, { stream: true });
+    const lines = buffer.split('\n');
+    buffer = lines.pop();
+    for (const line of lines) {
+      if (line.startsWith('event: '))      { currentEvent = line.slice(7).trim(); }
+      else if (line.startsWith('data: ') && currentEvent) {
+        const raw = line.slice(6);
+        if (raw === '[DONE]') return;
+        try { yield { event: currentEvent, data: JSON.parse(raw) }; } catch {}
+        currentEvent = null;
+      }
+    }
+  }
+}
+
+// ── API call ──────────────────────────────────────────────────────────────
+async function callAPI(msgs, signal) {
+  const key = getApiKey();
+  if (!key) throw new Error('No API key — click the banner above to add one.');
+
+  const system = buildSystem({
+    tab: activeTab,
+    focused: focusedItem,
+    githubData,
+    huggingfaceData,
+  });
+
+  const res = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    signal,
+    headers: {
+      'x-api-key':         key,
+      'anthropic-version': '2023-06-01',
+      'content-type':      'application/json',
+    },
+    body: JSON.stringify({
+      model: MODEL,
+      max_tokens: 2048,
+      stream: true,
+      system,
+      tools: TOOLS,
+      messages: msgs,
+    }),
+  });
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`API ${res.status}: ${text.slice(0, 300)}`);
+  }
+
+  return res.body;
+}
+
+// ── Conversation turn ─────────────────────────────────────────────────────
+async function runTurn() {
+  const bubble = appendMessage('assistant', '', true);
+  let   text   = '';
+
+  abortCtrl = new AbortController();
+  chatSend.disabled = true;
+  chatAbort.hidden  = false;
+
+  try {
+    const body = await callAPI(messages, abortCtrl.signal);
+    const contentBlocks = []; // accumulate for final assistant message
+
+    let currentBlock = null;
+    let toolUses     = [];
+
+    for await (const { event, data } of parseSSE(body)) {
+      if (event === 'content_block_start') {
+        currentBlock = { type: data.content_block.type, id: data.content_block.id, text: '', inputJson: '' };
+        if (data.content_block.type === 'tool_use') {
+          currentBlock.name = data.content_block.name;
+        }
+      }
+      else if (event === 'content_block_delta') {
+        if (!currentBlock) continue;
+        if (data.delta.type === 'text_delta') {
+          currentBlock.text += data.delta.text;
+          text = contentBlocks.filter(b => b.type === 'text').map(b => b.text).join('') + currentBlock.text;
+          updateBubble(bubble, text, true);
+        } else if (data.delta.type === 'input_json_delta') {
+          currentBlock.inputJson += data.delta.partial_json;
+        }
+      }
+      else if (event === 'content_block_stop') {
+        if (currentBlock) {
+          contentBlocks.push(currentBlock);
+          if (currentBlock.type === 'tool_use') toolUses.push(currentBlock);
+          currentBlock = null;
+        }
+      }
+      else if (event === 'message_stop') {
+        break;
+      }
+    }
+
+    // Finalize text
+    text = contentBlocks.filter(b => b.type === 'text').map(b => b.text).join('');
+    updateBubble(bubble, text || '\u200b', false);
+
+    // Build assistant message for history
+    const assistantContent = contentBlocks
+      .filter(b => b.type === 'text' || b.type === 'tool_use')
+      .map(b => {
+        if (b.type === 'text') return { type: 'text', text: b.text };
+        let input = {};
+        try { input = JSON.parse(b.inputJson || '{}'); } catch {}
+        return { type: 'tool_use', id: b.id, name: b.name, input };
+      });
+
+    messages.push({ role: 'assistant', content: assistantContent });
+
+    // Execute tools and continue if needed
+    if (toolUses.length > 0) {
+      const toolResults = toolUses.map(tu => {
+        let input = {};
+        try { input = JSON.parse(tu.inputJson || '{}'); } catch {}
+        const result = executeTool(tu.name, input);
+        return { type: 'tool_result', tool_use_id: tu.id, content: result };
+      });
+
+      messages.push({ role: 'user', content: toolResults });
+
+      // Continue conversation after tool use (no new user bubble)
+      await runTurn();
+    }
+
+  } catch (err) {
+    if (err.name === 'AbortError') {
+      updateBubble(bubble, text || '*(stopped)*', false);
+      messages.push({ role: 'assistant', content: [{ type: 'text', text: text || '(stopped)' }] });
+    } else {
+      updateBubble(bubble, `**Error:** ${err.message}`, false);
+      messages.push({ role: 'assistant', content: [{ type: 'text', text: `Error: ${err.message}` }] });
+      showToast(err.message, 'error');
+    }
+  } finally {
+    abortCtrl     = null;
+    chatSend.disabled = false;
+    chatAbort.hidden  = true;
+  }
+}
+
+// ── Send message ──────────────────────────────────────────────────────────
+async function sendMessage() {
+  const text = chatInput.value.trim();
+  if (!text || chatSend.disabled) return;
+
+  // Build user content — include focused item context if any
+  let userText = text;
+  if (focusedItem) {
+    const label = activeTab === 'github'
+      ? focusedItem.fullName
+      : focusedItem.id;
+    userText = `[Regarding: ${label}]\n${text}`;
+  }
+
+  chatInput.value = '';
+  chatInput.style.height = '';
+  document.getElementById('suggestions').hidden = true;
+
+  appendMessage('user', text); // show clean text in UI
+  messages.push({ role: 'user', content: userText });
+
+  await runTurn();
+}
+
+chatSend.addEventListener('click', sendMessage);
+
+chatInput.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    sendMessage();
+  }
+});
+
+// Esc × 2 to clear chat
+let escCount = 0;
+chatInput.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    escCount++;
+    if (escCount >= 2) {
+      messages = [];
+      chatMessages.innerHTML = '';
+      document.getElementById('suggestions').hidden = true;
+      escCount = 0;
+    }
+    setTimeout(() => { escCount = 0; }, 800);
+  } else {
+    escCount = 0;
+  }
+});
+
+// Auto-resize textarea
+chatInput.addEventListener('input', () => {
+  chatInput.style.height = 'auto';
+  chatInput.style.height = Math.min(chatInput.scrollHeight, 160) + 'px';
+});
+
+chatAbort.addEventListener('click', () => {
+  abortCtrl?.abort();
+});
+
+// ── Init ──────────────────────────────────────────────────────────────────
+initApiKeyBanner();
+loadData();
