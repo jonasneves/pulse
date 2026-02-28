@@ -357,6 +357,31 @@ a:hover { text-decoration: underline; }
 
 .chat-drag-handle:hover .drag-grip { background: var(--text-muted); }
 
+/* ── Resize grip ─────────────────────────────────────────────────────────── */
+.chat-resize-grip {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 18px;
+  height: 18px;
+  cursor: nwse-resize;
+  z-index: 10;
+  /* diagonal lines like a native resize corner */
+  background:
+    linear-gradient(135deg,
+      transparent 40%,
+      var(--border) 40%, var(--border) 55%,
+      transparent 55%),
+    linear-gradient(135deg,
+      transparent 60%,
+      var(--border) 60%, var(--border) 75%,
+      transparent 75%);
+  opacity: 0.5;
+  border-radius: 0 0 var(--radius-lg) 0;
+  transition: opacity 0.15s;
+}
+.chat-resize-grip:hover { opacity: 1; }
+
 /* ── API key panel (collapsable) ─────────────────────────────────────────── */
 .api-key-panel {
   border-bottom: 1px solid var(--border);

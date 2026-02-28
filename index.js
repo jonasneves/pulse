@@ -584,6 +584,9 @@ const CHAT_POS_KEY = 'pulse-chat-pos';
 function initChatDrag() {
   const panel  = document.getElementById('chat-panel');
   const handle = panel.querySelector('.chat-drag-handle');
+  const grip   = panel.querySelector('.chat-resize-grip');
+
+  const MIN_W = 280, MIN_H = 300;
 
   function clamp(val, min, max) { return Math.max(min, Math.min(val, max)); }
 
@@ -594,6 +597,11 @@ function initChatDrag() {
     panel.style.top    = clamp(y, 4, maxY) + 'px';
     panel.style.right  = 'auto';
     panel.style.bottom = 'auto';
+  }
+
+  function applySize(w, h) {
+    panel.style.width  = clamp(w, MIN_W, window.innerWidth  * 0.8) + 'px';
+    panel.style.height = clamp(h, MIN_H, window.innerHeight * 0.9) + 'px';
   }
 
   function namedToCoords(name) {
@@ -614,15 +622,17 @@ function initChatDrag() {
   window.setChatPosition = (name) => {
     const { x, y } = namedToCoords(name);
     applyCoords(x, y);
-    try { localStorage.setItem(CHAT_POS_KEY, JSON.stringify({ named: name })); } catch {}
+    const prev = (() => { try { return JSON.parse(localStorage.getItem(CHAT_POS_KEY) || '{}'); } catch { return {}; } })();
+    try { localStorage.setItem(CHAT_POS_KEY, JSON.stringify({ ...prev, named: name, x: undefined, y: undefined })); } catch {}
   };
 
-  // Restore saved position
+  // Restore saved position + size
   try {
     const saved = JSON.parse(localStorage.getItem(CHAT_POS_KEY) || 'null');
-    if (saved?.named)       window.setChatPosition(saved.named);
+    if (saved?.w) applySize(saved.w, saved.h);
+    if (saved?.named)          window.setChatPosition(saved.named);
     else if (saved?.x != null) applyCoords(saved.x, saved.y);
-    else                    window.setChatPosition('bottom-right');
+    else                       window.setChatPosition('bottom-right');
   } catch { window.setChatPosition('bottom-right'); }
 
   // Drag
@@ -640,12 +650,37 @@ function initChatDrag() {
       handle.removeEventListener('pointermove', onMove);
       handle.removeEventListener('pointerup', onUp);
       const r = panel.getBoundingClientRect();
-      try { localStorage.setItem(CHAT_POS_KEY, JSON.stringify({ x: Math.round(r.left), y: Math.round(r.top) })); } catch {}
+      saveState({ x: Math.round(r.left), y: Math.round(r.top) });
     }
 
     handle.addEventListener('pointermove', onMove);
     handle.addEventListener('pointerup', onUp);
   });
+
+  // Resize grip
+  grip.addEventListener('pointerdown', e => {
+    e.preventDefault();
+    const startX = e.clientX, startY = e.clientY;
+    const startW = panel.offsetWidth, startH = panel.offsetHeight;
+    grip.setPointerCapture(e.pointerId);
+
+    function onMove(e) { applySize(startW + e.clientX - startX, startH + e.clientY - startY); }
+    function onUp() {
+      grip.removeEventListener('pointermove', onMove);
+      grip.removeEventListener('pointerup', onUp);
+      saveState({});
+    }
+
+    grip.addEventListener('pointermove', onMove);
+    grip.addEventListener('pointerup', onUp);
+  });
+
+  function saveState(posOverride) {
+    const r = panel.getBoundingClientRect();
+    const prev = (() => { try { return JSON.parse(localStorage.getItem(CHAT_POS_KEY) || '{}'); } catch { return {}; } })();
+    const next = { ...prev, w: Math.round(r.width), h: Math.round(r.height), ...posOverride };
+    try { localStorage.setItem(CHAT_POS_KEY, JSON.stringify(next)); } catch {}
+  }
 }
 
 // ── Global keypress → focus chat input ───────────────────────────────────
