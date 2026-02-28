@@ -43,6 +43,21 @@ const TOOLS = [
       required: ['url'],
     },
   },
+  {
+    name: 'set_chat_position',
+    description: "Move the floating chat panel to avoid blocking content the user is reading. Use proactively when focusing a card — e.g. if the card is on the right side, move chat to the left. Positions: 'bottom-right' (default), 'bottom-left', 'top-right', 'top-left', 'center-right', 'center-left'.",
+    input_schema: {
+      type: 'object',
+      properties: {
+        position: {
+          type: 'string',
+          enum: ['bottom-right', 'bottom-left', 'top-right', 'top-left', 'center-right', 'center-left'],
+          description: 'Named position for the chat panel',
+        },
+      },
+      required: ['position'],
+    },
+  },
 ];
 
 // executeTool is called by index.js after receiving a tool_use block.
@@ -102,6 +117,14 @@ function executeTool(name, input) {
       return `Opened ${url}.`;
     }
     return 'URL not allowed (only github.com and huggingface.co).';
+  }
+
+  if (name === 'set_chat_position') {
+    if (typeof window.setChatPosition === 'function') {
+      window.setChatPosition(input.position);
+      return `Moved chat to ${input.position}.`;
+    }
+    return 'Position function not available.';
   }
 
   return `Unknown tool: ${name}`;

@@ -85,5 +85,6 @@ ${hfSummary}
 ## Tools — use proactively
 - set_suggestions: call after EVERY response with 2–4 relevant follow-up questions.
 - set_focus(index): highlight a specific card in the list (1-based, matches current tab).
-- open_url(url): open a GitHub repo or HuggingFace model page in a new tab when the user wants to see more.`;
+- open_url(url): open a GitHub repo or HuggingFace model page in a new tab when the user wants to see more.
+- set_chat_position(position): move the floating chat panel so it doesn't block content. Call this when focusing a card — if the card is on the right, move chat to a left position, and vice versa. Positions: 'bottom-right' (default), 'bottom-left', 'top-right', 'top-left', 'center-right', 'center-left'.`;
 }

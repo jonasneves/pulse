@@ -549,8 +549,79 @@ document.getElementById('suggestions-toggle').addEventListener('click', () => {
   }
 });
 
+// ── Floating chat drag + positioning ─────────────────────────────────────
+const CHAT_POS_KEY = 'pulse-chat-pos';
+
+function initChatDrag() {
+  const panel  = document.getElementById('chat-panel');
+  const handle = panel.querySelector('.chat-drag-handle');
+
+  function clamp(val, min, max) { return Math.max(min, Math.min(val, max)); }
+
+  function applyCoords(x, y) {
+    const maxX = window.innerWidth  - panel.offsetWidth  - 4;
+    const maxY = window.innerHeight - panel.offsetHeight - 4;
+    panel.style.left   = clamp(x, 4, maxX) + 'px';
+    panel.style.top    = clamp(y, 4, maxY) + 'px';
+    panel.style.right  = 'auto';
+    panel.style.bottom = 'auto';
+  }
+
+  function namedToCoords(name) {
+    const W = window.innerWidth, H = window.innerHeight;
+    const pw = panel.offsetWidth, ph = panel.offsetHeight;
+    const gap = 20, hh = 44;
+    return ({
+      'bottom-right': { x: W - pw - gap, y: H - ph - gap },
+      'bottom-left':  { x: gap,          y: H - ph - gap },
+      'top-right':    { x: W - pw - gap, y: hh + gap     },
+      'top-left':     { x: gap,          y: hh + gap     },
+      'center-right': { x: W - pw - gap, y: Math.round((H - ph) / 2) },
+      'center-left':  { x: gap,          y: Math.round((H - ph) / 2) },
+    })[name] || { x: W - pw - gap, y: H - ph - gap };
+  }
+
+  // Exposed for tools.js executeTool
+  window.setChatPosition = (name) => {
+    const { x, y } = namedToCoords(name);
+    applyCoords(x, y);
+    try { localStorage.setItem(CHAT_POS_KEY, JSON.stringify({ named: name })); } catch {}
+  };
+
+  // Restore saved position
+  try {
+    const saved = JSON.parse(localStorage.getItem(CHAT_POS_KEY) || 'null');
+    if (saved?.named)       window.setChatPosition(saved.named);
+    else if (saved?.x != null) applyCoords(saved.x, saved.y);
+    else                    window.setChatPosition('bottom-right');
+  } catch { window.setChatPosition('bottom-right'); }
+
+  // Drag
+  handle.addEventListener('pointerdown', e => {
+    e.preventDefault();
+    const rect = panel.getBoundingClientRect();
+    const ox = e.clientX - rect.left;
+    const oy = e.clientY - rect.top;
+    handle.setPointerCapture(e.pointerId);
+    handle.classList.add('dragging');
+
+    function onMove(e) { applyCoords(e.clientX - ox, e.clientY - oy); }
+    function onUp() {
+      handle.classList.remove('dragging');
+      handle.removeEventListener('pointermove', onMove);
+      handle.removeEventListener('pointerup', onUp);
+      const r = panel.getBoundingClientRect();
+      try { localStorage.setItem(CHAT_POS_KEY, JSON.stringify({ x: Math.round(r.left), y: Math.round(r.top) })); } catch {}
+    }
+
+    handle.addEventListener('pointermove', onMove);
+    handle.addEventListener('pointerup', onUp);
+  });
+}
+
 // ── Init ──────────────────────────────────────────────────────────────────
 initApiKeyPanel();
 initProxyBadge();
+initChatDrag();
 tryRestoreSession();
 loadData();
