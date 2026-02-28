@@ -65,11 +65,28 @@ function initProxyBadge() {
 
   checkProxy().then(available => {
     if (!available) return;
-    badge.hidden = false;
-    render(useProxy());
+    if (useProxy()) {
+      badge.hidden = false;
+      render(true);
+    } else {
+      // Proxy detected but not enabled — show a subtle enable link in the key form
+      const form = document.getElementById('api-key-form');
+      const hint = document.createElement('button');
+      hint.className = 'proxy-hint';
+      hint.textContent = 'Claude Code detected — click to use';
+      hint.addEventListener('click', () => {
+        localStorage.setItem(PROXY_KEY, 'true');
+        badge.hidden = false;
+        render(true);
+        hint.remove();
+        showToast('Using Claude Code proxy');
+      });
+      form.appendChild(hint);
+    }
     badge.addEventListener('click', () => {
       const next = !useProxy();
       localStorage.setItem(PROXY_KEY, String(next));
+      badge.hidden = !next;
       render(next);
       showToast(next ? 'Using Claude Code proxy' : 'Using direct API');
     });
