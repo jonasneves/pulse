@@ -701,6 +701,7 @@ function initToolsPanel() {
   const dropdown = document.getElementById('webmcp-dropdown');
   const list     = document.getElementById('tools-list');
   const count    = document.getElementById('tools-count');
+  if (!btn || !dropdown || !list) return;
 
   TOOL_DEFS.forEach(t => {
     const item = document.createElement('div');
@@ -735,7 +736,7 @@ function initToolsPanel() {
 
   // Close on outside click
   document.addEventListener('click', e => {
-    if (!document.getElementById('webmcp-wrap').contains(e.target)) {
+    if (!document.getElementById('webmcp-wrap')?.contains(e.target)) {
       dropdown.hidden = true;
       btn.setAttribute('aria-expanded', 'false');
     }
