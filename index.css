@@ -339,7 +339,13 @@ a:hover { text-decoration: underline; }
   transition: background 0.2s;
 }
 
-.webmcp-dot.active { background: var(--accent); }
+.webmcp-dot.connected { background: var(--accent); }
+
+.webmcp-btn:has(.webmcp-dot.connected) {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-dim);
+}
 
 .webmcp-dropdown {
   position: absolute;
@@ -420,6 +426,28 @@ a:hover { text-decoration: underline; }
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.webmcp-footer {
+  padding: 10px 12px;
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  border-top: 1px solid var(--border);
+  background: var(--bg-3);
+}
+
+.webmcp-footer code {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--accent);
+  background: var(--accent-dim);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+.webmcp-footer-active {
+  color: var(--green);
 }
 
 /* ── Toast ───────────────────────────────────────────────────────────────── */

@@ -1,6 +1,7 @@
 /* ── Tool surface (WebMCP) ────────────────────────────────────────────────
    Declarative manifest of tools this page exposes to AI agents.
-   Each entry declares trust annotations and a JSON schema.
+   Each entry declares trust annotations, a JSON schema, and an execute
+   handler used when registering with navigator.modelContext.
    ──────────────────────────────────────────────────────────────────────── */
 
 const TOOL_DEFS = [
@@ -20,6 +21,17 @@ const TOOL_DEFS = [
       },
       required: ['index'],
     },
+    execute(input) {
+      const cards = document.querySelectorAll('#card-list [data-rank]');
+      cards.forEach(c => c.classList.remove('active'));
+      const target = document.querySelector(`#card-list [data-rank="${input.index}"]`);
+      if (target) {
+        target.classList.add('active');
+        target.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        return { ok: true, focused: input.index };
+      }
+      return { ok: false, error: `Item #${input.index} not found` };
+    },
   },
   {
     name: 'open_url',
@@ -33,6 +45,13 @@ const TOOL_DEFS = [
         url: { type: 'string', description: 'Full URL to open' },
       },
       required: ['url'],
+    },
+    execute(input) {
+      if (/^https:\/\/(github\.com|huggingface\.co)\//.test(input.url)) {
+        window.open(input.url, '_blank', 'noopener,noreferrer');
+        return { ok: true, opened: input.url };
+      }
+      return { ok: false, error: 'URL not allowed (only github.com and huggingface.co)' };
     },
   },
   {
@@ -51,6 +70,11 @@ const TOOL_DEFS = [
         },
       },
       required: ['tab'],
+    },
+    execute(input) {
+      const btn = document.querySelector(`.tab-btn[data-tab="${input.tab}"]`);
+      if (btn) { btn.click(); return { ok: true, tab: input.tab }; }
+      return { ok: false, error: `Unknown tab: ${input.tab}` };
     },
   },
 ];

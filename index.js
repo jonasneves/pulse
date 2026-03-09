@@ -77,6 +77,39 @@ function showToast(msg, type = '') {
   setTimeout(() => el.remove(), 4000);
 }
 
+// ── WebMCP registration ───────────────────────────────────────────────────
+let webmcpRegistered = 0;
+
+function updateWebMCPBadge(registered) {
+  const dot  = document.querySelector('.webmcp-dot');
+  const text = document.getElementById('webmcp-status-text');
+  webmcpRegistered = registered;
+  if (dot)  dot.classList.toggle('connected', registered > 0);
+  if (text) text.textContent = registered > 0 ? `WebMCP · ${registered} tools` : 'WebMCP · inactive';
+}
+
+function registerWebMCPTools() {
+  if (!navigator.modelContext) {
+    updateWebMCPBadge(0);
+    return;
+  }
+  let count = 0;
+  for (const t of TOOL_DEFS) {
+    try {
+      navigator.modelContext.registerTool({
+        name: t.name,
+        description: t.description,
+        inputSchema: t.schema,
+        execute: t.execute,
+      });
+      count++;
+    } catch (e) {
+      console.warn(`[WebMCP] Failed to register ${t.name}:`, e);
+    }
+  }
+  updateWebMCPBadge(count);
+}
+
 // ── WebMCP tools dropdown ─────────────────────────────────────────────────
 function initToolsPanel() {
   const btn      = document.getElementById('webmcp-btn');
@@ -85,6 +118,7 @@ function initToolsPanel() {
   const count    = document.getElementById('tools-count');
   if (!btn || !dropdown || !list) return;
 
+  // Tool list
   TOOL_DEFS.forEach(t => {
     const item = document.createElement('div');
     item.className = 'tool-item';
@@ -106,8 +140,16 @@ function initToolsPanel() {
 
   if (count) count.textContent = `${TOOL_DEFS.length} tools`;
 
+  // Status footer — updated after registerWebMCPTools() runs
+  const footer = document.createElement('div');
+  footer.className = 'webmcp-footer';
+  footer.id = 'webmcp-footer';
+  dropdown.appendChild(footer);
+
   btn.addEventListener('click', () => {
     const open = dropdown.hidden;
+    // Refresh footer each time the popover opens
+    if (open) renderWebMCPFooter();
     dropdown.hidden = !open;
     btn.setAttribute('aria-expanded', String(open));
   });
@@ -120,6 +162,17 @@ function initToolsPanel() {
   });
 }
 
+function renderWebMCPFooter() {
+  const footer = document.getElementById('webmcp-footer');
+  if (!footer) return;
+  if (webmcpRegistered > 0) {
+    footer.innerHTML = `<span class="webmcp-footer-active">&#x2713; ${webmcpRegistered} tools registered with browser AI context.</span>`;
+  } else {
+    footer.innerHTML = `To expose these tools to external agents, enable the browser flag:<br><code>chrome://flags/#webmcp-for-testing</code><br>Requires Chrome 146+ Canary.`;
+  }
+}
+
 // ── Init ──────────────────────────────────────────────────────────────────
 initToolsPanel();
+registerWebMCPTools();
 loadData();
