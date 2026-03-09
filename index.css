@@ -328,6 +328,7 @@ a:hover { text-decoration: underline; }
   overflow: hidden;
   z-index: 40;
   transition: box-shadow 0.15s;
+  visibility: hidden; /* hidden until initChatDrag positions it */
 }
 
 /* ── Drag handle ─────────────────────────────────────────────────────────── */

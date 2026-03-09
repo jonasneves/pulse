@@ -629,7 +629,7 @@ function initChatDrag() {
     try { localStorage.setItem(CHAT_POS_KEY, JSON.stringify({ ...prev, named: name, x: undefined, y: undefined })); } catch {}
   };
 
-  // Restore saved position + size
+  // Restore saved position + size, then reveal
   try {
     const saved = JSON.parse(localStorage.getItem(CHAT_POS_KEY) || 'null');
     if (saved?.w) applySize(saved.w, saved.h);
@@ -637,6 +637,7 @@ function initChatDrag() {
     else if (saved?.x != null) applyCoords(saved.x, saved.y);
     else                       window.setChatPosition('bottom-right');
   } catch { window.setChatPosition('bottom-right'); }
+  panel.style.visibility = '';
 
   // Drag
   handle.addEventListener('pointerdown', e => {
