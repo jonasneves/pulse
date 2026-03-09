@@ -23,6 +23,16 @@
   </nav>
   <div class="header-right">
     <span id="updated-label" class="updated-label" aria-live="polite"></span>
+    <div class="webmcp-wrap" id="webmcp-wrap">
+      <button id="webmcp-btn" class="webmcp-btn" aria-expanded="false" aria-haspopup="true" title="WebMCP tools">
+        <span class="webmcp-dot" aria-hidden="true"></span>
+        <span>WebMCP</span>
+      </button>
+      <div class="webmcp-dropdown" id="webmcp-dropdown" hidden>
+        <div class="tools-count-header" id="tools-count"></div>
+        <div id="tools-list"></div>
+      </div>
+    </div>
     <button id="theme-toggle" class="btn-icon" aria-label="Toggle theme" title="Toggle dark/light">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
         <path d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -61,20 +71,6 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div id="tools-panel" class="tools-panel">
-      <button id="tools-toggle" class="tools-toggle" aria-expanded="false" aria-controls="tools-body">
-        <span class="webmcp-dot" aria-hidden="true"></span>
-        <span class="tools-label">WebMCP</span>
-        <span class="tools-count" id="tools-count"></span>
-        <svg class="chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
-          <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
-      <div class="tools-body" id="tools-body" role="region">
-        <div class="tools-body-inner" id="tools-list"></div>
       </div>
     </div>
 

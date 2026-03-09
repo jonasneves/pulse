@@ -51,8 +51,8 @@ function updateConnectionStatus() {
   else        delete panel.dataset.hasKey;
   if (useProxy()) panel.dataset.useProxy = '';
   else            delete panel.dataset.useProxy;
-  // Update WebMCP dot if tools panel is already rendered
-  const dot = document.querySelector('.webmcp-dot');
+  // Update WebMCP dot
+  const dot = document.getElementById('webmcp-btn')?.querySelector('.webmcp-dot');
   if (dot) dot.classList.toggle('active', !!active);
 }
 
@@ -405,21 +405,6 @@ function collapseSuggestions() {
   }
 }
 
-// ── Tool call cards ───────────────────────────────────────────────────────
-function appendToolCards(toolUses, toolResults) {
-  const wrap = document.createElement('div');
-  wrap.className = 'tool-calls';
-  toolUses.forEach((tu, i) => {
-    const result = toolResults[i]?.content ?? '';
-    const card = document.createElement('div');
-    card.className = 'tool-call';
-    card.innerHTML = `<span class="tool-call-icon">✓</span><span class="tool-call-name">${tu.name}</span><span class="tool-call-result">${result}</span>`;
-    wrap.appendChild(card);
-  });
-  chatMessages.appendChild(wrap);
-  chatMessages.scrollTop = chatMessages.scrollHeight;
-}
-
 // ── Conversation turn ─────────────────────────────────────────────────────
 let turnDepth = 0;
 
@@ -497,7 +482,6 @@ async function runTurn() {
         return { type: 'tool_result', tool_use_id: tu.id, content: result };
       });
 
-      appendToolCards(toolUses, toolResults);
       messages.push({ role: 'user', content: toolResults });
 
       // Continue conversation after tool use (no new user bubble)
@@ -710,12 +694,12 @@ document.addEventListener('keydown', e => {
   chatInput.focus();
 });
 
-// ── WebMCP tools panel ────────────────────────────────────────────────────
+// ── WebMCP header dropdown ────────────────────────────────────────────────
 function initToolsPanel() {
-  const panel  = document.getElementById('tools-panel');
-  const toggle = document.getElementById('tools-toggle');
-  const list   = document.getElementById('tools-list');
-  const count  = document.getElementById('tools-count');
+  const btn      = document.getElementById('webmcp-btn');
+  const dropdown = document.getElementById('webmcp-dropdown');
+  const list     = document.getElementById('tools-list');
+  const count    = document.getElementById('tools-count');
 
   TOOL_DEFS.forEach(t => {
     const item = document.createElement('div');
@@ -739,14 +723,21 @@ function initToolsPanel() {
   if (count) count.textContent = `${TOOL_DEFS.length} tools`;
 
   // Sync dot with current connection state
-  const dot = panel.querySelector('.webmcp-dot');
+  const dot = btn.querySelector('.webmcp-dot');
   if (dot) dot.classList.toggle('active', !!(getApiKey() || useProxy()));
 
-  toggle.addEventListener('click', () => {
-    const isOpen = panel.hasAttribute('data-open');
-    if (isOpen) delete panel.dataset.open;
-    else        panel.dataset.open = '';
-    toggle.setAttribute('aria-expanded', String(!isOpen));
+  btn.addEventListener('click', () => {
+    const open = dropdown.hidden;
+    dropdown.hidden = !open;
+    btn.setAttribute('aria-expanded', String(open));
+  });
+
+  // Close on outside click
+  document.addEventListener('click', e => {
+    if (!document.getElementById('webmcp-wrap').contains(e.target)) {
+      dropdown.hidden = true;
+      btn.setAttribute('aria-expanded', 'false');
+    }
   });
 }
 
