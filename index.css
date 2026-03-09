@@ -339,12 +339,12 @@ a:hover { text-decoration: underline; }
   transition: background 0.2s;
 }
 
-.webmcp-dot.connected { background: var(--accent); }
+.webmcp-dot.connected { background: var(--green); }
 
 .webmcp-btn:has(.webmcp-dot.connected) {
-  color: var(--accent);
-  border-color: var(--accent);
-  background: var(--accent-dim);
+  color: var(--green);
+  border-color: var(--green);
+  background: var(--green-dim);
 }
 
 .webmcp-dropdown {

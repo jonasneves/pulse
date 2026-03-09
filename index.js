@@ -90,6 +90,7 @@ function updateWebMCPBadge(registered) {
 
 function registerWebMCPTools() {
   if (!navigator.modelContext) {
+    console.info('[WebMCP] navigator.modelContext not available — enable chrome://flags/#webmcp-for-testing');
     updateWebMCPBadge(0);
     return;
   }
