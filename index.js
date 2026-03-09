@@ -51,6 +51,9 @@ function updateConnectionStatus() {
   else        delete panel.dataset.hasKey;
   if (useProxy()) panel.dataset.useProxy = '';
   else            delete panel.dataset.useProxy;
+  // Update WebMCP dot if tools panel is already rendered
+  const dot = document.querySelector('.webmcp-dot');
+  if (dot) dot.classList.toggle('active', !!active);
 }
 
 function initProxyBadge() {
@@ -362,7 +365,7 @@ async function* parseSSE(body) {
 // ── API call ──────────────────────────────────────────────────────────────
 async function callAPI(msgs, signal) {
   const system  = buildSystem({ tab: activeTab, focused: focusedItem, githubData, huggingfaceData });
-  const payload = { model: MODEL, max_tokens: 2048, stream: true, system, tools: TOOLS, messages: msgs };
+  const payload = { model: MODEL, max_tokens: 2048, stream: true, system, tools: getClaudeTools(), messages: msgs };
 
   let res;
   if (useProxy()) {
@@ -400,6 +403,21 @@ function collapseSuggestions() {
     delete wrap.dataset.open;
     wrap.querySelector('#suggestions-toggle')?.setAttribute('aria-expanded', 'false');
   }
+}
+
+// ── Tool call cards ───────────────────────────────────────────────────────
+function appendToolCards(toolUses, toolResults) {
+  const wrap = document.createElement('div');
+  wrap.className = 'tool-calls';
+  toolUses.forEach((tu, i) => {
+    const result = toolResults[i]?.content ?? '';
+    const card = document.createElement('div');
+    card.className = 'tool-call';
+    card.innerHTML = `<span class="tool-call-icon">✓</span><span class="tool-call-name">${tu.name}</span><span class="tool-call-result">${result}</span>`;
+    wrap.appendChild(card);
+  });
+  chatMessages.appendChild(wrap);
+  chatMessages.scrollTop = chatMessages.scrollHeight;
 }
 
 // ── Conversation turn ─────────────────────────────────────────────────────
@@ -479,6 +497,7 @@ async function runTurn() {
         return { type: 'tool_result', tool_use_id: tu.id, content: result };
       });
 
+      appendToolCards(toolUses, toolResults);
       messages.push({ role: 'user', content: toolResults });
 
       // Continue conversation after tool use (no new user bubble)
@@ -691,9 +710,50 @@ document.addEventListener('keydown', e => {
   chatInput.focus();
 });
 
+// ── WebMCP tools panel ────────────────────────────────────────────────────
+function initToolsPanel() {
+  const panel  = document.getElementById('tools-panel');
+  const toggle = document.getElementById('tools-toggle');
+  const list   = document.getElementById('tools-list');
+  const count  = document.getElementById('tools-count');
+
+  TOOL_DEFS.forEach(t => {
+    const item = document.createElement('div');
+    item.className = 'tool-item';
+
+    const badges = [];
+    if (t.readOnlyHint)    badges.push('<span class="tool-ann read-only">read-only</span>');
+    if (t.idempotentHint)  badges.push('<span class="tool-ann idempotent">idempotent</span>');
+    if (t.destructiveHint) badges.push('<span class="tool-ann destructive">destructive</span>');
+
+    item.innerHTML = `
+      <div class="tool-item-header">
+        <span class="tool-item-name">${t.name}</span>
+        ${badges.join('')}
+      </div>
+      <div class="tool-item-desc">${t.description}</div>
+    `;
+    list.appendChild(item);
+  });
+
+  if (count) count.textContent = `${TOOL_DEFS.length} tools`;
+
+  // Sync dot with current connection state
+  const dot = panel.querySelector('.webmcp-dot');
+  if (dot) dot.classList.toggle('active', !!(getApiKey() || useProxy()));
+
+  toggle.addEventListener('click', () => {
+    const isOpen = panel.hasAttribute('data-open');
+    if (isOpen) delete panel.dataset.open;
+    else        panel.dataset.open = '';
+    toggle.setAttribute('aria-expanded', String(!isOpen));
+  });
+}
+
 // ── Init ──────────────────────────────────────────────────────────────────
 initApiKeyPanel();
 initProxyBadge();
+initToolsPanel();
 initChatDrag();
 tryRestoreSession();
 loadData();
