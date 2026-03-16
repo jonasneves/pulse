@@ -14,7 +14,6 @@ Flat files, no build step. Keep concerns in separate files.
 | `data/huggingface.json` | Committed by Action. Never edit by hand. |
 | `index.html` | Shell + layout |
 | `index.css` | All styles. CSS custom properties for theming. |
-| `system-prompt.js` | `buildSystem(state)` — dynamic prompt aware of tab + focused item |
 | `tools.js` | `TOOLS` array + `executeTool(name, input)` |
 | `github.js` | `renderGitHubCards(data, container, onSelect)` + card builder |
 | `huggingface.js` | `renderHFCards(data, container, onSelect)` + card builder |
@@ -43,7 +42,6 @@ npx serve .
 
 1. Add schema to `TOOLS` array in `tools.js`
 2. Add handler case in `executeTool` in `tools.js`
-3. Document it in `system-prompt.js` under "Tools — use proactively"
 
 ## GitHub Action notes
 

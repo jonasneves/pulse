@@ -53,7 +53,7 @@ function buildRepoCard(repo, onSelect) {
     <div class="card-header">
       <span class="card-rank">#${repo.rank}</span>
       <span class="card-name">
-        <a href="${repo.url}" target="_blank" rel="noopener noreferrer" tabindex="-1">${repo.fullName}</a>
+        <a href="${escapeHtml(repo.url)}" target="_blank" rel="noopener noreferrer" tabindex="-1">${escapeHtml(repo.fullName)}</a>
       </span>
       ${repo.starsToday ? `<span class="card-today">▲ ${repo.starsToday} today</span>` : ''}
     </div>

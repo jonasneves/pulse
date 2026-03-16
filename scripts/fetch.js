@@ -7,7 +7,7 @@ const https = require('https');
 const fs    = require('fs');
 const path  = require('path');
 
-function get(url, extraHeaders = {}) {
+function get(url, extraHeaders = {}, maxRedirects = 5) {
   return new Promise((resolve, reject) => {
     const u = new URL(url);
     const options = {
@@ -23,7 +23,8 @@ function get(url, extraHeaders = {}) {
     };
     https.request(options, res => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        return get(res.headers.location, extraHeaders).then(resolve).catch(reject);
+        if (maxRedirects <= 0) return reject(new Error(`Too many redirects: ${url}`));
+        return get(res.headers.location, extraHeaders, maxRedirects - 1).then(resolve).catch(reject);
       }
       let body = '';
       res.on('data', c => body += c);
