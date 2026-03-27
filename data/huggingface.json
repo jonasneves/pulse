@@ -1,13 +1,13 @@
 {
-  "updated": "2026-03-27T06:31:47.415Z",
+  "updated": "2026-03-27T09:21:51.280Z",
   "models": [
     {
       "rank": 1,
       "id": "sentence-transformers/all-MiniLM-L6-v2",
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 206851696,
-      "likes": 4612,
+      "downloads": 206907723,
+      "likes": 4613,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -23,7 +23,7 @@
       "id": "google-bert/bert-base-uncased",
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
-      "downloads": 72094944,
+      "downloads": 71689523,
       "likes": 2592,
       "tags": [
         "transformers",
@@ -40,7 +40,7 @@
       "id": "google/electra-base-discriminator",
       "url": "https://huggingface.co/google/electra-base-discriminator",
       "pipelineTag": null,
-      "downloads": 50814924,
+      "downloads": 50692326,
       "likes": 86,
       "tags": [
         "transformers",
@@ -57,7 +57,7 @@
       "id": "Falconsai/nsfw_image_detection",
       "url": "https://huggingface.co/Falconsai/nsfw_image_detection",
       "pipelineTag": "image-classification",
-      "downloads": 41090312,
+      "downloads": 40993861,
       "likes": 1019,
       "tags": [
         "transformers",
@@ -74,7 +74,7 @@
       "id": "sentence-transformers/all-mpnet-base-v2",
       "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 28530025,
+      "downloads": 28878710,
       "likes": 1262,
       "tags": [
         "sentence-transformers",
@@ -91,7 +91,7 @@
       "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 26285689,
+      "downloads": 26483425,
       "likes": 1170,
       "tags": [
         "sentence-transformers",
@@ -108,7 +108,7 @@
       "id": "laion/clap-htsat-fused",
       "url": "https://huggingface.co/laion/clap-htsat-fused",
       "pipelineTag": "audio-classification",
-      "downloads": 26199683,
+      "downloads": 25990286,
       "likes": 65,
       "tags": [
         "transformers",
@@ -125,7 +125,7 @@
       "id": "openai/clip-vit-large-patch14",
       "url": "https://huggingface.co/openai/clip-vit-large-patch14",
       "pipelineTag": "zero-shot-image-classification",
-      "downloads": 22931313,
+      "downloads": 23269454,
       "likes": 1976,
       "tags": [
         "transformers",
@@ -139,27 +139,10 @@
     },
     {
       "rank": 9,
-      "id": "timm/mobilenetv3_small_100.lamb_in1k",
-      "url": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
-      "pipelineTag": "image-classification",
-      "downloads": 20888895,
-      "likes": 54,
-      "tags": [
-        "timm",
-        "pytorch",
-        "safetensors",
-        "image-classification",
-        "transformers",
-        "dataset:imagenet-1k"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 10,
       "id": "FacebookAI/xlm-roberta-base",
       "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
       "pipelineTag": "fill-mask",
-      "downloads": 20683287,
+      "downloads": 20793614,
       "likes": 798,
       "tags": [
         "transformers",
@@ -172,11 +155,11 @@
       "lastModified": null
     },
     {
-      "rank": 11,
+      "rank": 10,
       "id": "openai/clip-vit-base-patch32",
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
-      "downloads": 20344905,
+      "downloads": 20484262,
       "likes": 889,
       "tags": [
         "transformers",
@@ -189,12 +172,29 @@
       "lastModified": null
     },
     {
+      "rank": 11,
+      "id": "timm/mobilenetv3_small_100.lamb_in1k",
+      "url": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
+      "pipelineTag": "image-classification",
+      "downloads": 20334454,
+      "likes": 54,
+      "tags": [
+        "timm",
+        "pytorch",
+        "safetensors",
+        "image-classification",
+        "transformers",
+        "dataset:imagenet-1k"
+      ],
+      "lastModified": null
+    },
+    {
       "rank": 12,
       "id": "Qwen/Qwen2.5-7B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 19513095,
-      "likes": 1157,
+      "downloads": 19095515,
+      "likes": 1159,
       "tags": [
         "transformers",
         "safetensors",
@@ -207,27 +207,10 @@
     },
     {
       "rank": 13,
-      "id": "Bingsu/adetailer",
-      "url": "https://huggingface.co/Bingsu/adetailer",
-      "pipelineTag": null,
-      "downloads": 18512065,
-      "likes": 672,
-      "tags": [
-        "ultralytics",
-        "pytorch",
-        "dataset:wider_face",
-        "dataset:skytnt/anime-segmentation",
-        "doi:10.57967/hf/3633",
-        "license:apache-2.0"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 14,
       "id": "FacebookAI/roberta-large",
       "url": "https://huggingface.co/FacebookAI/roberta-large",
       "pipelineTag": "fill-mask",
-      "downloads": 17849397,
+      "downloads": 18653342,
       "likes": 269,
       "tags": [
         "transformers",
@@ -240,12 +223,29 @@
       "lastModified": null
     },
     {
+      "rank": 14,
+      "id": "Bingsu/adetailer",
+      "url": "https://huggingface.co/Bingsu/adetailer",
+      "pipelineTag": null,
+      "downloads": 18271242,
+      "likes": 672,
+      "tags": [
+        "ultralytics",
+        "pytorch",
+        "dataset:wider_face",
+        "dataset:skytnt/anime-segmentation",
+        "doi:10.57967/hf/3633",
+        "license:apache-2.0"
+      ],
+      "lastModified": null
+    },
+    {
       "rank": 15,
       "id": "BAAI/bge-m3",
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
-      "downloads": 15341081,
-      "likes": 2853,
+      "downloads": 15125553,
+      "likes": 2854,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -261,7 +261,7 @@
       "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
       "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
       "pipelineTag": "text-ranking",
-      "downloads": 14413361,
+      "downloads": 14576052,
       "likes": 202,
       "tags": [
         "sentence-transformers",
@@ -278,7 +278,7 @@
       "id": "FacebookAI/roberta-base",
       "url": "https://huggingface.co/FacebookAI/roberta-base",
       "pipelineTag": "fill-mask",
-      "downloads": 14403591,
+      "downloads": 14525919,
       "likes": 574,
       "tags": [
         "transformers",
@@ -295,7 +295,7 @@
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
-      "downloads": 13856871,
+      "downloads": 13886452,
       "likes": 1156,
       "tags": [
         "transformers",
@@ -309,27 +309,10 @@
     },
     {
       "rank": 19,
-      "id": "pyannote/wespeaker-voxceleb-resnet34-LM",
-      "url": "https://huggingface.co/pyannote/wespeaker-voxceleb-resnet34-LM",
-      "pipelineTag": null,
-      "downloads": 13287893,
-      "likes": 108,
-      "tags": [
-        "pyannote-audio",
-        "pytorch",
-        "pyannote",
-        "pyannote-audio-model",
-        "wespeaker",
-        "audio"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 20,
       "id": "colbert-ir/colbertv2.0",
       "url": "https://huggingface.co/colbert-ir/colbertv2.0",
       "pipelineTag": null,
-      "downloads": 12787339,
+      "downloads": 13134408,
       "likes": 315,
       "tags": [
         "transformers",
@@ -342,11 +325,28 @@
       "lastModified": null
     },
     {
+      "rank": 20,
+      "id": "pyannote/wespeaker-voxceleb-resnet34-LM",
+      "url": "https://huggingface.co/pyannote/wespeaker-voxceleb-resnet34-LM",
+      "pipelineTag": null,
+      "downloads": 13082603,
+      "likes": 108,
+      "tags": [
+        "pyannote-audio",
+        "pytorch",
+        "pyannote",
+        "pyannote-audio-model",
+        "wespeaker",
+        "audio"
+      ],
+      "lastModified": null
+    },
+    {
       "rank": 21,
       "id": "omni-research/Tarsier2-Recap-7b",
       "url": "https://huggingface.co/omni-research/Tarsier2-Recap-7b",
       "pipelineTag": null,
-      "downloads": 12648476,
+      "downloads": 12545025,
       "likes": 23,
       "tags": [
         "safetensors",
@@ -361,8 +361,8 @@
       "id": "pyannote/segmentation-3.0",
       "url": "https://huggingface.co/pyannote/segmentation-3.0",
       "pipelineTag": "voice-activity-detection",
-      "downloads": 12632013,
-      "likes": 869,
+      "downloads": 12354138,
+      "likes": 870,
       "tags": [
         "pyannote-audio",
         "pytorch",
@@ -378,7 +378,7 @@
       "id": "amazon/chronos-2",
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
-      "downloads": 12538508,
+      "downloads": 12056168,
       "likes": 207,
       "tags": [
         "chronos-forecasting",
@@ -392,28 +392,11 @@
     },
     {
       "rank": 24,
-      "id": "pyannote/speaker-diarization-3.1",
-      "url": "https://huggingface.co/pyannote/speaker-diarization-3.1",
-      "pipelineTag": "automatic-speech-recognition",
-      "downloads": 11842865,
-      "likes": 1688,
-      "tags": [
-        "pyannote-audio",
-        "pyannote",
-        "pyannote-audio-pipeline",
-        "audio",
-        "voice",
-        "speech"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 25,
       "id": "openai-community/gpt2",
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
-      "downloads": 11785973,
-      "likes": 3145,
+      "downloads": 11777674,
+      "likes": 3146,
       "tags": [
         "transformers",
         "pytorch",
@@ -425,11 +408,28 @@
       "lastModified": null
     },
     {
+      "rank": 25,
+      "id": "pyannote/speaker-diarization-3.1",
+      "url": "https://huggingface.co/pyannote/speaker-diarization-3.1",
+      "pipelineTag": "automatic-speech-recognition",
+      "downloads": 11743148,
+      "likes": 1690,
+      "tags": [
+        "pyannote-audio",
+        "pyannote",
+        "pyannote-audio-pipeline",
+        "audio",
+        "voice",
+        "speech"
+      ],
+      "lastModified": null
+    },
+    {
       "rank": 26,
       "id": "autogluon/chronos-bolt-small",
       "url": "https://huggingface.co/autogluon/chronos-bolt-small",
       "pipelineTag": "time-series-forecasting",
-      "downloads": 11076549,
+      "downloads": 11094451,
       "likes": 24,
       "tags": [
         "safetensors",
@@ -446,7 +446,7 @@
       "id": "BAAI/bge-small-en-v1.5",
       "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "pipelineTag": "feature-extraction",
-      "downloads": 10511056,
+      "downloads": 10858834,
       "likes": 427,
       "tags": [
         "sentence-transformers",
@@ -463,8 +463,8 @@
       "id": "nomic-ai/nomic-embed-text-v1.5",
       "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
       "pipelineTag": "sentence-similarity",
-      "downloads": 10258288,
-      "likes": 782,
+      "downloads": 10308176,
+      "likes": 783,
       "tags": [
         "sentence-transformers",
         "onnx",
@@ -480,8 +480,8 @@
       "id": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
       "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
       "pipelineTag": null,
-      "downloads": 10148149,
-      "likes": 639,
+      "downloads": 10026166,
+      "likes": 640,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -491,15 +491,18 @@
     },
     {
       "rank": 30,
-      "id": "Kijai/WanVideo_comfy",
-      "url": "https://huggingface.co/Kijai/WanVideo_comfy",
-      "pipelineTag": null,
-      "downloads": 9625681,
-      "likes": 2203,
+      "id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 9481869,
+      "likes": 649,
       "tags": [
-        "diffusion-single-file",
-        "comfyui",
-        "region:us"
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "chat",
+        "conversational"
       ],
       "lastModified": null
     }
