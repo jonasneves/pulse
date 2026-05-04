@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-04T07:09:05.696Z",
+  "updated": "2026-05-04T09:51:00.478Z",
   "models": [
     {
       "rank": 1,
@@ -23,7 +23,7 @@
       "id": "Qwen/Qwen3-VL-2B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct",
       "pipelineTag": "image-text-to-text",
-      "downloads": 186849929,
+      "downloads": 186836733,
       "likes": 385,
       "tags": [
         "transformers",
@@ -41,7 +41,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 59794691,
-      "likes": 2640,
+      "likes": 2641,
       "tags": [
         "transformers",
         "pytorch",
@@ -156,23 +156,6 @@
     },
     {
       "rank": 10,
-      "id": "Falconsai/nsfw_image_detection",
-      "url": "https://huggingface.co/Falconsai/nsfw_image_detection",
-      "pipelineTag": "image-classification",
-      "downloads": 23176008,
-      "likes": 1064,
-      "tags": [
-        "transformers",
-        "pytorch",
-        "safetensors",
-        "vit",
-        "image-classification",
-        "license:apache-2.0"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 11,
       "id": "timm/mobilenetv3_small_100.lamb_in1k",
       "url": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
       "pipelineTag": "image-classification",
@@ -189,12 +172,29 @@
       "lastModified": null
     },
     {
+      "rank": 11,
+      "id": "Falconsai/nsfw_image_detection",
+      "url": "https://huggingface.co/Falconsai/nsfw_image_detection",
+      "pipelineTag": "image-classification",
+      "downloads": 22345189,
+      "likes": 1064,
+      "tags": [
+        "transformers",
+        "pytorch",
+        "safetensors",
+        "vit",
+        "image-classification",
+        "license:apache-2.0"
+      ],
+      "lastModified": null
+    },
+    {
       "rank": 12,
       "id": "amazon/chronos-2",
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
-      "downloads": 21656333,
-      "likes": 260,
+      "downloads": 21698637,
+      "likes": 263,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -244,7 +244,7 @@
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
-      "downloads": 19369646,
+      "downloads": 19054066,
       "likes": 1221,
       "tags": [
         "transformers",
@@ -363,7 +363,7 @@
       "id": "nomic-ai/nomic-embed-text-v1.5",
       "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
       "pipelineTag": "sentence-similarity",
-      "downloads": 15016753,
+      "downloads": 15162184,
       "likes": 811,
       "tags": [
         "sentence-transformers",
@@ -431,7 +431,7 @@
       "id": "Qwen/Qwen2.5-7B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 13784608,
+      "downloads": 13910173,
       "likes": 1256,
       "tags": [
         "transformers",
@@ -481,7 +481,7 @@
       "id": "deepseek-ai/DeepSeek-V3.2",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2",
       "pipelineTag": "text-generation",
-      "downloads": 11349614,
+      "downloads": 11484038,
       "likes": 1426,
       "tags": [
         "transformers",
