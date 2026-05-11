@@ -43,6 +43,7 @@ function buildRepoCard(repo, onSelect, history) {
   const card = document.createElement('div');
   card.className = 'repo-card';
   card.dataset.rank = repo.rank;
+  card.dataset.itemId = repo.fullName;
   card.setAttribute('role', 'button');
   card.setAttribute('tabindex', '0');
   card.setAttribute('aria-label', `${repo.fullName} — ${repo.starsToday} stars today`);

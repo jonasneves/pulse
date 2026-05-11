@@ -161,7 +161,7 @@ a:hover { text-decoration: underline; }
 #card-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
   max-width: 720px;
   margin: 0 auto;
 }
@@ -228,7 +228,7 @@ a:hover { text-decoration: underline; }
   background: var(--bg-2);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 14px 16px;
+  padding: 16px 18px;
   cursor: pointer;
   transition: border-color 0.15s, background 0.15s, box-shadow 0.15s;
   user-select: none;
@@ -343,6 +343,9 @@ a:hover { text-decoration: underline; }
 }
 
 .spaces-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
   margin-bottom: 24px;
 }
 
@@ -353,7 +356,7 @@ a:hover { text-decoration: underline; }
   text-transform: uppercase;
   color: var(--text-muted);
   padding: 0 0 8px 0;
-  margin: 0 0 4px 0;
+  margin: 0;
   border-bottom: 1px solid var(--border);
 }
 

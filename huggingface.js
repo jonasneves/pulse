@@ -38,6 +38,7 @@ function buildModelCard(model, onSelect, history) {
   const card = document.createElement('div');
   card.className = 'model-card';
   card.dataset.rank = model.rank;
+  card.dataset.itemId = model.id;
   card.setAttribute('role', 'button');
   card.setAttribute('tabindex', '0');
   card.setAttribute('aria-label', `${model.id} — ${hfFmtNum(model.downloads)} downloads`);

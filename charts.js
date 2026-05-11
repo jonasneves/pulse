@@ -131,7 +131,12 @@ function renderVelocityChart(items, historyMap, container, opts = {}) {
       type: 'bar',
       data: reversed.map(m => m.delta),
       itemStyle: { color: colors.accent, borderRadius: [0, 3, 3, 0] },
+      cursor: 'pointer',
       barWidth: 14,
+      emphasis: {
+        focus: 'self',
+        itemStyle: { color: colors.accent, shadowBlur: 6, shadowColor: colors.accent },
+      },
       label: {
         show: true,
         position: 'right',
@@ -142,6 +147,14 @@ function renderVelocityChart(items, historyMap, container, opts = {}) {
       },
     }],
   });
+
+  // Click bar → caller's handler (typically: scroll to and highlight the matching card)
+  if (typeof opts.onItemClick === 'function') {
+    chart.on('click', { seriesType: 'bar' }, params => {
+      const mover = reversed[params.dataIndex];
+      if (mover) opts.onItemClick(mover.id, mover);
+    });
+  }
 
   // Resize handling
   const ro = new ResizeObserver(() => chart.resize());

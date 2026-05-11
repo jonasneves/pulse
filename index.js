@@ -88,7 +88,18 @@ function renderTabVelocity(source, items, history) {
     spaces:      { idKey: 'id',       labelKey: 'id',       metricLabel: 'likes' },
   }[source];
   const mapped = items.map(it => ({ id: it[config.idKey], label: it[config.labelKey] }));
-  renderVelocityChart(mapped, history, velocityPane, { metricLabel: config.metricLabel });
+  renderVelocityChart(mapped, history, velocityPane, {
+    metricLabel:   config.metricLabel,
+    onItemClick:   focusCardByItemId,
+  });
+}
+
+function focusCardByItemId(id) {
+  const target = cardList.querySelector(`[data-item-id="${CSS.escape(id)}"]`);
+  if (!target) return;
+  cardList.querySelectorAll('[data-item-id]').forEach(c => c.classList.remove('active'));
+  target.classList.add('active');
+  target.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
 function handleCardSelect(cardEl) {

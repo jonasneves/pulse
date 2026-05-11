@@ -28,6 +28,7 @@ function buildSpaceCard(space, onSelect, history) {
   const card = document.createElement('div');
   card.className = 'model-card';
   card.dataset.rank = space.rank;
+  card.dataset.itemId = space.id;
   card.setAttribute('role', 'button');
   card.setAttribute('tabindex', '0');
   card.setAttribute('aria-label', `${space.id} — ${spacesFmtNum(space.likes)} likes`);
