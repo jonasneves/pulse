@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11T16:02:25.397Z",
+  "updated": "2026-05-11T18:42:44.293Z",
   "models": [
     {
       "rank": 1,
@@ -79,7 +79,7 @@
       "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
       "pipelineTag": "text-ranking",
       "downloads": 46870445,
-      "likes": 234,
+      "likes": 235,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -313,7 +313,7 @@
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
       "downloads": 17696259,
-      "likes": 276,
+      "likes": 277,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -403,7 +403,7 @@
       "url": "https://huggingface.co/Falconsai/nsfw_image_detection",
       "pipelineTag": "image-classification",
       "downloads": 15384704,
-      "likes": 1065,
+      "likes": 1066,
       "tags": [
         "transformers",
         "pytorch",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Qwen/WebWorld-8B",
       "pipelineTag": "text-generation",
       "downloads": 279,
-      "likes": 23,
+      "likes": 24,
       "tags": [
         "transformers",
         "safetensors",
@@ -567,7 +567,7 @@
       "url": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
       "pipelineTag": "text-generation",
       "downloads": 178233,
-      "likes": 130,
+      "likes": 131,
       "tags": [
         "transformers",
         "safetensors",
@@ -585,7 +585,7 @@
       "url": "https://huggingface.co/ibm-granite/granite-4.1-8b",
       "pipelineTag": "text-generation",
       "downloads": 34216,
-      "likes": 165,
+      "likes": 166,
       "tags": [
         "transformers",
         "safetensors",
@@ -603,7 +603,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 9389311,
-      "likes": 5811,
+      "likes": 5810,
       "tags": [
         "transformers",
         "safetensors",
@@ -795,21 +795,21 @@
     },
     {
       "rank": 15,
-      "id": "AIDC-AI/Marco-DeepResearch-8B",
-      "url": "https://huggingface.co/AIDC-AI/Marco-DeepResearch-8B",
+      "id": "faunix/QwenSeek-2B-GGUF",
+      "url": "https://huggingface.co/faunix/QwenSeek-2B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 88,
-      "likes": 10,
+      "downloads": 4726,
+      "likes": 13,
       "tags": [
         "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "deep-research",
-        "agent"
+        "gguf",
+        "qwen3_5",
+        "deepseek",
+        "reasoning",
+        "faunix"
       ],
       "lastModified": null,
-      "description": "Marco DeepResearch is an efficient 8B-scale deep research agent developed by Alibaba International Digital Commerce (AIDC-AI). It autonomously conducts open-ended investigations by integrating complex information retrieval with multi-ste…"
+      "description": "QwenSeek-2B - distillation of thinking of DeepSeek V4 into Qwen3.5-2B!"
     }
   ]
 }
