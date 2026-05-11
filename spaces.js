@@ -48,6 +48,7 @@ function buildSpaceCard(space, onSelect, history) {
         <a href="${space.url}" target="_blank" rel="noopener noreferrer" tabindex="-1">${escapeHtmlSpaces(space.id)}</a>
       </span>
     </div>
+    ${space.description ? `<p class="card-desc">${escapeHtmlSpaces(space.description)}</p>` : ''}
     ${sdkLabel ? `<div class="card-pipeline">${escapeHtmlSpaces(sdkLabel)}</div>` : ''}
     ${tagsHtml ? `<div class="card-tags">${tagsHtml}</div>` : ''}
     <div class="card-meta">

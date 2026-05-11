@@ -60,6 +60,7 @@ function buildModelCard(model, onSelect, history) {
         <a href="${model.url}" target="_blank" rel="noopener noreferrer" tabindex="-1">${escapeHtmlHF(model.id)}</a>
       </span>
     </div>
+    ${model.description ? `<p class="card-desc">${escapeHtmlHF(model.description)}</p>` : ''}
     ${pipelineLabel ? `<div class="card-pipeline">${escapeHtmlHF(pipelineLabel)}</div>` : ''}
     ${tagsHtml ? `<div class="card-tags">${tagsHtml}</div>` : ''}
     <div class="card-meta">

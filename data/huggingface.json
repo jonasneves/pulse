@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11T14:06:59.667Z",
+  "updated": "2026-05-11T14:41:10.550Z",
   "models": [
     {
       "rank": 1,
@@ -16,7 +16,8 @@
         "onnx",
         "safetensors"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "This is a sentence-transformers model: It maps sentences & paragraphs to a 384 dimensional dense vector space and can be used for tasks like clustering or semantic search."
     },
     {
       "rank": 2,
@@ -24,7 +25,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct",
       "pipelineTag": "image-text-to-text",
       "downloads": 186971599,
-      "likes": 397,
+      "likes": 398,
       "tags": [
         "transformers",
         "safetensors",
@@ -33,7 +34,8 @@
         "conversational",
         "license:apache-2.0"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Meet Qwen3-VL — the most powerful vision-language model in the Qwen series to date."
     },
     {
       "rank": 3,
@@ -50,7 +52,8 @@
         "rust",
         "coreml"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model is uncased: it does not make a difference between english and English."
     },
     {
       "rank": 4,
@@ -67,7 +70,8 @@
         "rust",
         "electra"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "ELECTRA is a new method for self-supervised language representation learning. It can be used to pre-train transformer networks using relatively little compute. ELECTRA models are trained to distinguish \"real\" input tokens vs \"fake\" input…"
     },
     {
       "rank": 5,
@@ -84,7 +88,8 @@
         "safetensors",
         "openvino"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "This model was trained on the MS Marco Passage Ranking task."
     },
     {
       "rank": 6,
@@ -101,7 +106,8 @@
         "safetensors",
         "openvino"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "This is a sentence-transformers model: It maps sentences & paragraphs to a 384 dimensional dense vector space and can be used for tasks like clustering or semantic search."
     },
     {
       "rank": 7,
@@ -118,7 +124,8 @@
         "bert",
         "feature-extraction"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "If you are looking for a model that supports more languages, longer texts, and other retrieval methods, you can try using bge-m3."
     },
     {
       "rank": 8,
@@ -135,7 +142,8 @@
         "openvino",
         "mpnet"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "This is a sentence-transformers model: It maps sentences & paragraphs to a 768 dimensional dense vector space and can be used for tasks like clustering or semantic search."
     },
     {
       "rank": 9,
@@ -152,7 +160,8 @@
         "safetensors",
         "clip"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Disclaimer: The model card is taken and modified from the official CLIP repository, it can be found here."
     },
     {
       "rank": 10,
@@ -169,7 +178,8 @@
         "feature-extraction",
         "sentence-similarity"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "For more details please refer to our github repo: https://github.com/FlagOpen/FlagEmbedding"
     },
     {
       "rank": 11,
@@ -186,7 +196,8 @@
         "clip",
         "zero-shot-image-classification"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Disclaimer: The model card is taken and modified from the official CLIP repository, it can be found here."
     },
     {
       "rank": 12,
@@ -203,7 +214,8 @@
         "feature-extraction",
         "zero-shot audio classification"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "You can use this model for zero shot audio classification or extracting audio and/or textual features."
     },
     {
       "rank": 13,
@@ -220,7 +232,8 @@
         "onnx",
         "safetensors"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "XLM-RoBERTa model pre-trained on 2.5TB of filtered CommonCrawl data containing 100 languages. It was introduced in the paper Unsupervised Cross-lingual Representation Learning at Scale by Conneau et al. and first released in this reposit…"
     },
     {
       "rank": 14,
@@ -237,7 +250,8 @@
         "onnx",
         "safetensors"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model is case-sensitive: it makes a difference between english and English."
     },
     {
       "rank": 15,
@@ -254,7 +268,8 @@
         "transformers",
         "dataset:imagenet-1k"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "A MobileNet-v3 image classification model. Trained on ImageNet-1k in timm using recipe template described below."
     },
     {
       "rank": 16,
@@ -271,7 +286,8 @@
         "conversational",
         "license:apache-2.0"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
       "rank": 17,
@@ -288,7 +304,8 @@
         "rust",
         "safetensors"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model is case-sensitive: it makes a difference between english and English."
     },
     {
       "rank": 18,
@@ -305,7 +322,8 @@
         "forecasting",
         "foundation models"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Update Dec 30, 2025: ☁️ Deploy Chronos-2 on Amazon SageMaker. New guide covers real-time GPU and CPU inference, serverless endpoints (run on demand, no idle costs), and batch transform for large-scale forecasting."
     },
     {
       "rank": 19,
@@ -313,7 +331,7 @@
       "url": "https://huggingface.co/distilbert/distilbert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 16186558,
-      "likes": 877,
+      "likes": 878,
       "tags": [
         "transformers",
         "pytorch",
@@ -322,7 +340,8 @@
         "rust",
         "safetensors"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "This model is a distilled version of the BERT base model. It was introduced in this paper. The code for the distillation process can be found here. This model is uncased: it does not make a difference between english and English."
     },
     {
       "rank": 20,
@@ -330,7 +349,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 15869233,
-      "likes": 3235,
+      "likes": 3236,
       "tags": [
         "transformers",
         "pytorch",
@@ -339,7 +358,8 @@
         "tflite",
         "rust"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Test the whole generation capabilities here: https://transformer.huggingface.co/doc/gpt2-large"
     },
     {
       "rank": 21,
@@ -356,7 +376,8 @@
         "feature-extraction",
         "sentence-similarity"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Exciting Update!: nomic-embed-text-v1.5 is now multimodal! nomic-embed-vision-v1.5 is aligned to the embedding space of nomic-embed-text-v1.5, meaning any text embedding is multimodal!"
     },
     {
       "rank": 22,
@@ -373,7 +394,8 @@
         "doi:10.57967/hf/3633",
         "license:apache-2.0"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Since getattr is classified as a dangerous pickle function, any segmentation model that uses it is classified as unsafe."
     },
     {
       "rank": 23,
@@ -381,7 +403,7 @@
       "url": "https://huggingface.co/Falconsai/nsfw_image_detection",
       "pipelineTag": "image-classification",
       "downloads": 15384704,
-      "likes": 1064,
+      "likes": 1065,
       "tags": [
         "transformers",
         "pytorch",
@@ -390,7 +412,8 @@
         "image-classification",
         "license:apache-2.0"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "The Fine-Tuned Vision Transformer (ViT) is a variant of the transformer encoder architecture, similar to BERT, that has been adapted for image classification tasks. This specific model, named \"google/vit-base-patch16-224-in21k,\" is pre-t…"
     },
     {
       "rank": 24,
@@ -407,7 +430,8 @@
         "bert",
         "ColBERT"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "As Figure 1 illustrates, ColBERT relies on fine-grained contextual late interaction: it encodes each passage into a matrix of token-level embeddings (shown above in blue). Then at search time, it embeds every query into another matrix (s…"
     },
     {
       "rank": 25,
@@ -424,7 +448,8 @@
         "bert",
         "feature-extraction"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "If you are looking for a model that supports more languages, longer texts, and other retrieval methods, you can try using bge-m3."
     },
     {
       "rank": 26,
@@ -441,7 +466,8 @@
         "chat",
         "conversational"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
       "rank": 27,
@@ -458,7 +484,8 @@
         "chat",
         "conversational"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
       "rank": 28,
@@ -475,7 +502,8 @@
         "conversational",
         "license:apache-2.0"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
       "rank": 29,
@@ -483,7 +511,7 @@
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2",
       "pipelineTag": "text-generation",
       "downloads": 11120947,
-      "likes": 1429,
+      "likes": 1430,
       "tags": [
         "transformers",
         "safetensors",
@@ -492,7 +520,8 @@
         "conversational",
         "license:mit"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "We introduce DeepSeek-V3.2, a model that harmonizes high computational efficiency with superior reasoning and agent performance. Our approach is built upon three key technical breakthroughs:"
     },
     {
       "rank": 30,
@@ -509,7 +538,8 @@
         "quantized",
         "automatic-speech-recognition"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "pretty_name: \"WhisperKit\" viewer: false library_name: whisperkit tags:"
     }
   ],
   "smallModels": [
@@ -528,7 +558,8 @@
         "WebWorld",
         "web-agent"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "WebWorld is a large-scale open-web world model series for training and evaluating web agents. It is trained on 1M+ real-world web interaction trajectories via a scalable hierarchical data pipeline, supporting:"
     },
     {
       "rank": 2,
@@ -545,7 +576,8 @@
         "language",
         "granite-4.1"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Model Summary: Granite-4.1-8B is a 8B parameter long-context instruct model finetuned from Granite-4.1-8B-Base using a combination of open source instruction datasets with permissive license and internally collected synthetic datasets. G…"
     },
     {
       "rank": 3,
@@ -553,7 +585,7 @@
       "url": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
       "pipelineTag": "text-generation",
       "downloads": 178233,
-      "likes": 129,
+      "likes": 130,
       "tags": [
         "transformers",
         "safetensors",
@@ -562,10 +594,28 @@
         "text-generation",
         "reasoning"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "A reasoning-distilled variant of Qwen3.6-35B-A3B taught to imitate the chain-of-thought style of Claude Opus 4.7, the frontier reasoning model from Anthropic. The goal: port Claude-grade reasoning behavior into a permissively-licensed Mi…"
     },
     {
       "rank": 4,
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 9389311,
+      "likes": 5811,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 5,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
@@ -579,10 +629,11 @@
         "conversational",
         "license:apache-2.0"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "id": "unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
       "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
       "pipelineTag": "text-generation",
@@ -596,24 +647,8 @@
         "multimodal",
         "text-generation"
       ],
-      "lastModified": null
-    },
-    {
-      "rank": 6,
-      "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 9389311,
-      "likes": 5810,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows. It extends the …"
     },
     {
       "rank": 7,
@@ -647,10 +682,29 @@
         "conversational",
         "license:apache-2.0"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
       "rank": 9,
+      "id": "WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
+      "url": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
+      "pipelineTag": "text-generation",
+      "downloads": 19434,
+      "likes": 48,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "text-generation",
+        "code",
+        "coding",
+        "reasoning"
+      ],
+      "lastModified": null,
+      "description": "Opus4.7 – GODsGhost Codex 4B is a compact, high-efficiency code-specialized language model designed for local inference via GGUF-compatible runtimes like llama.cpp and LM Studio."
+    },
+    {
+      "rank": 10,
       "id": "CoreWorxLab/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-int4-AutoRound",
       "url": "https://huggingface.co/CoreWorxLab/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-int4-AutoRound",
       "pipelineTag": "text-generation",
@@ -664,10 +718,11 @@
         "qwen",
         "qwen3"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Int4 AutoRound quantized version of TeichAI/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2."
     },
     {
-      "rank": 10,
+      "rank": 11,
       "id": "Qwen/Qwen2.5-7B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
@@ -681,24 +736,8 @@
         "chat",
         "conversational"
       ],
-      "lastModified": null
-    },
-    {
-      "rank": 11,
-      "id": "WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
-      "url": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
-      "pipelineTag": "text-generation",
-      "downloads": 19434,
-      "likes": 47,
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "text-generation",
-        "code",
-        "coding",
-        "reasoning"
-      ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
       "rank": 12,
@@ -715,24 +754,26 @@
         "text-generation",
         "conversational"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "📄 Tech Report &nbsp&nbsp|&nbsp&nbsp 🤗 Efficient-DLM-4B &nbsp&nbsp|&nbsp&nbsp 🤗 Efficient-DLM-8B"
     },
     {
       "rank": 13,
-      "id": "Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
-      "url": "https://huggingface.co/Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
+      "id": "faunix/QwenSeek-2B-GGUF",
+      "url": "https://huggingface.co/faunix/QwenSeek-2B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 1328,
-      "likes": 9,
+      "downloads": 4726,
+      "likes": 12,
       "tags": [
         "transformers",
-        "safetensors",
+        "gguf",
         "qwen3_5",
-        "image-text-to-text",
-        "qwen3",
-        "qwen3.6"
+        "deepseek",
+        "reasoning",
+        "faunix"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "QwenSeek-2B - distillation of thinking of DeepSeek V4 into Qwen3.5-2B!"
     }
   ]
 }

@@ -118,6 +118,89 @@ function parseModel(m, rank) {
   };
 }
 
+// Pull the first substantive prose paragraph out of a model README.
+// Walks line-by-line so a heading immediately followed by prose (no blank
+// line) still surfaces the prose. Tracks code fences to avoid returning
+// import statements as "description."
+function parseReadmeIntro(md) {
+  if (!md) return null;
+  let text = md;
+  if (text.startsWith('---')) {
+    const end = text.indexOf('\n---', 3);
+    if (end !== -1) text = text.slice(end + 4);
+  }
+
+  const lines = text.split('\n');
+  let inCodeBlock = false;
+  let buffer = [];
+
+  const flush = () => {
+    if (buffer.length === 0) return null;
+    const joined = buffer.join(' ')
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+      .replace(/!\[[^\]]*\]\([^)]+\)/g, '')
+      .replace(/`([^`]+)`/g, '$1')
+      .replace(/\*\*([^*]+)\*\*/g, '$1')
+      .replace(/\*([^*]+)\*/g, '$1')
+      .replace(/<[^>]+>/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    buffer = [];
+    if (joined.length < 60) return null;
+    const letters = (joined.match(/[a-zA-Z]/g) || []).length;
+    if (letters < 40) return null; // skip strings that are mostly punctuation/code
+    return joined.length > 240 ? joined.slice(0, 237) + '…' : joined;
+  };
+
+  for (const raw of lines) {
+    const line = raw.trim();
+
+    if (line.startsWith('```')) {
+      inCodeBlock = !inCodeBlock;
+      const out = flush();
+      if (out) return out;
+      continue;
+    }
+    if (inCodeBlock) continue;
+
+    if (!line) {
+      const out = flush();
+      if (out) return out;
+      continue;
+    }
+
+    if (line.startsWith('#'))      continue;          // headings — transparent
+    if (line.startsWith('<'))      continue;          // raw HTML / badges
+    if (line.startsWith('>'))      continue;          // blockquote / admonition
+    if (line.startsWith('|'))      continue;          // table row
+    if (/^[-*]\s/.test(line))      continue;          // list bullet
+    if (/^\d+\.\s/.test(line))     continue;          // ordered list
+    if (/^!\[.*\]\(/.test(line))   continue;          // image
+    if (/^\[!\[/.test(line))       continue;          // shield/badge link
+    if (line === '---' || line === '***' || line === '___') continue;
+
+    buffer.push(line);
+  }
+  return flush();
+}
+
+async function fetchModelDescription(id) {
+  try {
+    const res = await get(`https://huggingface.co/${id}/raw/main/README.md`);
+    if (res.status !== 200) return null;
+    return parseReadmeIntro(res.body);
+  } catch {
+    return null;
+  }
+}
+
+async function attachDescriptions(models) {
+  const results = await Promise.allSettled(models.map(m => fetchModelDescription(m.id)));
+  results.forEach((r, i) => {
+    if (r.status === 'fulfilled' && r.value) models[i].description = r.value;
+  });
+}
+
 async function fetchHuggingFace() {
   console.log('Fetching HuggingFace models…');
   const [topRes, trendingRes] = await Promise.allSettled([
@@ -141,26 +224,38 @@ async function fetchHuggingFace() {
     console.warn('  Trending models fetch failed — small models section will be empty');
   }
 
+  // Fetch READMEs in parallel for one-liner descriptions
+  console.log('  Fetching READMEs for descriptions…');
+  await Promise.all([attachDescriptions(models), attachDescriptions(smallModels)]);
+  const withDesc = models.filter(m => m.description).length + smallModels.filter(m => m.description).length;
+  console.log(`  Attached descriptions to ${withDesc} / ${models.length + smallModels.length} models`);
+
   return { updated: new Date().toISOString(), models, smallModels };
 }
 
 function parseSpaces(raw) {
-  return raw.map((s, i) => ({
-    rank: i + 1,
-    id: s.id,
-    url: `https://huggingface.co/spaces/${s.id}`,
-    sdk: s.sdk || null,
-    likes: s.likes || 0,
-    tags: (s.tags || []).filter(t => !t.startsWith('arxiv:') && !t.startsWith('base_model:')).slice(0, 6),
-    lastModified: s.lastModified || null,
-  }));
+  return raw.map((s, i) => {
+    const card = s.cardData || {};
+    return {
+      rank: i + 1,
+      id: s.id,
+      title: card.title || null,
+      description: card.short_description || null,
+      url: `https://huggingface.co/spaces/${s.id}`,
+      sdk: s.sdk || null,
+      likes: s.likes || 0,
+      tags: (s.tags || []).filter(t => !t.startsWith('arxiv:') && !t.startsWith('base_model:')).slice(0, 6),
+      lastModified: s.lastModified || null,
+    };
+  });
 }
 
 async function fetchHuggingFaceSpaces() {
   console.log('Fetching HuggingFace spaces…');
+  const expand = '&expand[]=cardData&expand[]=tags&expand[]=sdk&expand[]=likes&expand[]=lastModified';
   const [trendingRes, webmlRes] = await Promise.allSettled([
-    get('https://huggingface.co/api/spaces?sort=likes&direction=-1&limit=30', { Accept: 'application/json' }),
-    get('https://huggingface.co/api/spaces?author=webml-community&sort=likes&direction=-1&limit=30', { Accept: 'application/json' }),
+    get(`https://huggingface.co/api/spaces?sort=likes&direction=-1&limit=30${expand}`, { Accept: 'application/json' }),
+    get(`https://huggingface.co/api/spaces?author=webml-community&sort=likes&direction=-1&limit=30${expand}`, { Accept: 'application/json' }),
   ]);
 
   let trending = [];
