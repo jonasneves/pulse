@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12T18:41:32.476Z",
+  "updated": "2026-05-12T21:31:31.039Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 255877152,
-      "likes": 4780,
+      "likes": 4781,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -25,7 +25,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct",
       "pipelineTag": "image-text-to-text",
       "downloads": 186971599,
-      "likes": 400,
+      "likes": 401,
       "tags": [
         "transformers",
         "safetensors",
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "pipelineTag": "feature-extraction",
       "downloads": 40607415,
-      "likes": 455,
+      "likes": 456,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 23743215,
-      "likes": 2992,
+      "likes": 2993,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -493,7 +493,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 11478261,
-      "likes": 1085,
+      "likes": 1086,
       "tags": [
         "transformers",
         "safetensors",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Qwen/WebWorld-8B",
       "pipelineTag": "text-generation",
       "downloads": 279,
-      "likes": 30,
+      "likes": 31,
       "tags": [
         "transformers",
         "safetensors",
@@ -634,29 +634,11 @@
     },
     {
       "rank": 6,
-      "id": "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
-      "url": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
-      "pipelineTag": "text-generation",
-      "downloads": 178233,
-      "likes": 133,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5_moe",
-        "image-text-to-text",
-        "text-generation",
-        "reasoning"
-      ],
-      "lastModified": null,
-      "description": "A reasoning-distilled variant of Qwen3.6-35B-A3B taught to imitate the chain-of-thought style of Claude Opus 4.7, the frontier reasoning model from Anthropic. The goal: port Claude-grade reasoning behavior into a permissively-licensed Mi…"
-    },
-    {
-      "rank": 7,
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 11478261,
-      "likes": 1085,
+      "likes": 1086,
       "tags": [
         "transformers",
         "safetensors",
@@ -669,30 +651,30 @@
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
-      "rank": 8,
-      "id": "unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
-      "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
+      "rank": 7,
+      "id": "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
+      "url": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
       "pipelineTag": "text-generation",
-      "downloads": 64199,
-      "likes": 113,
+      "downloads": 178233,
+      "likes": 134,
       "tags": [
-        "gguf",
-        "nvidia",
-        "unsloth",
-        "nemotron-3",
-        "multimodal",
-        "text-generation"
+        "transformers",
+        "safetensors",
+        "qwen3_5_moe",
+        "image-text-to-text",
+        "text-generation",
+        "reasoning"
       ],
       "lastModified": null,
-      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows. It extends the …"
+      "description": "A reasoning-distilled variant of Qwen3.6-35B-A3B taught to imitate the chain-of-thought style of Claude Opus 4.7, the frontier reasoning model from Anthropic. The goal: port Claude-grade reasoning behavior into a permissively-licensed Mi…"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "id": "Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
       "url": "https://huggingface.co/Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
       "pipelineTag": "text-generation",
       "downloads": 1328,
-      "likes": 12,
+      "likes": 13,
       "tags": [
         "transformers",
         "safetensors",
@@ -705,7 +687,7 @@
       "description": "Claude Opus + Sonnet distilled Qwen 3.6 27B optimized for higher token efficiency, preserved deep reasoning, and MTP-accelerated vLLM deployment on Blackwell-class GPUs."
     },
     {
-      "rank": 10,
+      "rank": 9,
       "id": "meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
@@ -722,7 +704,7 @@
       "lastModified": null
     },
     {
-      "rank": 11,
+      "rank": 10,
       "id": "Qwen/Qwen2.5-7B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
@@ -740,22 +722,40 @@
       "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
-      "rank": 12,
-      "id": "CoreWorxLab/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-int4-AutoRound",
-      "url": "https://huggingface.co/CoreWorxLab/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-int4-AutoRound",
+      "rank": 11,
+      "id": "unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
+      "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 1024,
-      "likes": 13,
+      "downloads": 64199,
+      "likes": 113,
       "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "qwen",
-        "qwen3"
+        "gguf",
+        "nvidia",
+        "unsloth",
+        "nemotron-3",
+        "multimodal",
+        "text-generation"
       ],
       "lastModified": null,
-      "description": "Int4 AutoRound quantized version of TeichAI/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2."
+      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows. It extends the …"
+    },
+    {
+      "rank": 12,
+      "id": "faunix/QwenSeek-2B-GGUF",
+      "url": "https://huggingface.co/faunix/QwenSeek-2B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 4726,
+      "likes": 16,
+      "tags": [
+        "transformers",
+        "gguf",
+        "qwen3_5",
+        "deepseek",
+        "reasoning",
+        "faunix"
+      ],
+      "lastModified": null,
+      "description": "QwenSeek-2B - distillation of thinking of DeepSeek V4 into Qwen3.5-2B!"
     },
     {
       "rank": 13,
@@ -777,24 +777,6 @@
     },
     {
       "rank": 14,
-      "id": "faunix/QwenSeek-2B-GGUF",
-      "url": "https://huggingface.co/faunix/QwenSeek-2B-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 4726,
-      "likes": 15,
-      "tags": [
-        "transformers",
-        "gguf",
-        "qwen3_5",
-        "deepseek",
-        "reasoning",
-        "faunix"
-      ],
-      "lastModified": null,
-      "description": "QwenSeek-2B - distillation of thinking of DeepSeek V4 into Qwen3.5-2B!"
-    },
-    {
-      "rank": 15,
       "id": "IAAR-Shanghai/MemPrivacy-1.7B-RL",
       "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-1.7B-RL",
       "pipelineTag": "text-generation",
@@ -812,25 +794,7 @@
       "description": "MemPrivacy-1.7B-RL is a lightweight, privacy-preserving model developed from the Qwen3-1.7B base model and further optimized through reinforcement learning. It is designed specifically for personalized memory management in edge-cloud age…"
     },
     {
-      "rank": 16,
-      "id": "WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
-      "url": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
-      "pipelineTag": "text-generation",
-      "downloads": 19434,
-      "likes": 48,
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "text-generation",
-        "code",
-        "coding",
-        "reasoning"
-      ],
-      "lastModified": null,
-      "description": "Opus4.7 – GODsGhost Codex 4B is a compact, high-efficiency code-specialized language model designed for local inference via GGUF-compatible runtimes like llama.cpp and LM Studio."
-    },
-    {
-      "rank": 17,
+      "rank": 15,
       "id": "prism-ml/Ternary-Bonsai-8B-gguf",
       "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-8B-gguf",
       "pipelineTag": "text-generation",
@@ -846,6 +810,24 @@
       ],
       "lastModified": null,
       "description": "Ternary (1.58-bit) language model in GGUF Q2_0 format for llama.cpp"
+    },
+    {
+      "rank": 16,
+      "id": "hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+      "url": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 258905,
+      "likes": 240,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "qwen",
+        "qwen3.6",
+        "qwen3_5_moe",
+        "moe"
+      ],
+      "lastModified": null,
+      "description": "GGUF quantizations of hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled, a reasoning SFT fine-tune of Qwen/Qwen3.6-35B-A3B on Claude Opus 4.6-style chain-of-thought distillation data."
     }
   ]
 }
