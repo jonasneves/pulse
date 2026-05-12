@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12T12:46:58.546Z",
+  "updated": "2026-05-12T15:52:18.960Z",
   "models": [
     {
       "rank": 1,
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 23743215,
-      "likes": 2991,
+      "likes": 2993,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -277,7 +277,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 18238415,
-      "likes": 1238,
+      "likes": 1239,
       "tags": [
         "transformers",
         "safetensors",
@@ -349,7 +349,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 16004555,
-      "likes": 3236,
+      "likes": 3237,
       "tags": [
         "transformers",
         "pytorch",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Qwen/WebWorld-8B",
       "pipelineTag": "text-generation",
       "downloads": 279,
-      "likes": 29,
+      "likes": 30,
       "tags": [
         "transformers",
         "safetensors",
@@ -581,24 +581,6 @@
     },
     {
       "rank": 3,
-      "id": "ibm-granite/granite-4.1-8b",
-      "url": "https://huggingface.co/ibm-granite/granite-4.1-8b",
-      "pipelineTag": "text-generation",
-      "downloads": 34216,
-      "likes": 167,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "granite",
-        "text-generation",
-        "language",
-        "granite-4.1"
-      ],
-      "lastModified": null,
-      "description": "Model Summary: Granite-4.1-8B is a 8B parameter long-context instruct model finetuned from Granite-4.1-8B-Base using a combination of open source instruction datasets with permissive license and internally collected synthetic datasets. G…"
-    },
-    {
-      "rank": 4,
       "id": "IAAR-Shanghai/MemPrivacy-1.7B-SFT",
       "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-1.7B-SFT",
       "pipelineTag": "text-generation",
@@ -616,12 +598,12 @@
       "description": "MemPrivacy-1.7B-SFT is a lightweight, privacy-preserving model fine-tuned from the Qwen3-1.7B base model. It is designed specifically for personalized memory management in edge-cloud agents."
     },
     {
-      "rank": 5,
+      "rank": 4,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 9548227,
-      "likes": 5812,
+      "likes": 5813,
       "tags": [
         "transformers",
         "safetensors",
@@ -633,12 +615,12 @@
       "lastModified": null
     },
     {
-      "rank": 6,
+      "rank": 5,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 18238415,
-      "likes": 1238,
+      "likes": 1239,
       "tags": [
         "transformers",
         "safetensors",
@@ -649,6 +631,24 @@
       ],
       "lastModified": null,
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
+      "rank": 6,
+      "id": "ibm-granite/granite-4.1-8b",
+      "url": "https://huggingface.co/ibm-granite/granite-4.1-8b",
+      "pipelineTag": "text-generation",
+      "downloads": 34216,
+      "likes": 167,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "granite",
+        "text-generation",
+        "language",
+        "granite-4.1"
+      ],
+      "lastModified": null,
+      "description": "Model Summary: Granite-4.1-8B is a 8B parameter long-context instruct model finetuned from Granite-4.1-8B-Base using a combination of open source instruction datasets with permissive license and internally collected synthetic datasets. G…"
     },
     {
       "rank": 7,
@@ -670,24 +670,6 @@
     },
     {
       "rank": 8,
-      "id": "Qwen/Qwen2.5-7B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 13252297,
-      "likes": 1272,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "chat",
-        "conversational"
-      ],
-      "lastModified": null,
-      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
-    },
-    {
-      "rank": 9,
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
@@ -705,7 +687,43 @@
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
+      "rank": 9,
+      "id": "Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
+      "url": "https://huggingface.co/Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
+      "pipelineTag": "text-generation",
+      "downloads": 1328,
+      "likes": 12,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "qwen3",
+        "qwen3.6"
+      ],
+      "lastModified": null,
+      "description": "Claude Opus + Sonnet distilled Qwen 3.6 27B optimized for higher token efficiency, preserved deep reasoning, and MTP-accelerated vLLM deployment on Blackwell-class GPUs."
+    },
+    {
       "rank": 10,
+      "id": "Qwen/Qwen2.5-7B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 13252297,
+      "likes": 1272,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "chat",
+        "conversational"
+      ],
+      "lastModified": null,
+      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
+    },
+    {
+      "rank": 11,
       "id": "CoreWorxLab/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-int4-AutoRound",
       "url": "https://huggingface.co/CoreWorxLab/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-int4-AutoRound",
       "pipelineTag": "text-generation",
@@ -721,24 +739,6 @@
       ],
       "lastModified": null,
       "description": "Int4 AutoRound quantized version of TeichAI/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2."
-    },
-    {
-      "rank": 11,
-      "id": "Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
-      "url": "https://huggingface.co/Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
-      "pipelineTag": "text-generation",
-      "downloads": 1328,
-      "likes": 11,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "qwen3",
-        "qwen3.6"
-      ],
-      "lastModified": null,
-      "description": "Claude Opus + Sonnet distilled Qwen 3.6 27B optimized for higher token efficiency, preserved deep reasoning, and MTP-accelerated vLLM deployment on Blackwell-class GPUs."
     },
     {
       "rank": 12,
@@ -828,6 +828,24 @@
       ],
       "lastModified": null,
       "description": "Opus4.7 – GODsGhost Codex 4B is a compact, high-efficiency code-specialized language model designed for local inference via GGUF-compatible runtimes like llama.cpp and LM Studio."
+    },
+    {
+      "rank": 17,
+      "id": "prism-ml/Ternary-Bonsai-8B-gguf",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-8B-gguf",
+      "pipelineTag": "text-generation",
+      "downloads": 24864,
+      "likes": 70,
+      "tags": [
+        "gguf",
+        "ternary",
+        "1.58-bit",
+        "llama-cpp",
+        "q2_0",
+        "on-device"
+      ],
+      "lastModified": null,
+      "description": "Ternary (1.58-bit) language model in GGUF Q2_0 format for llama.cpp"
     }
   ]
 }
