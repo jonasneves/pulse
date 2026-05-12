@@ -1,13 +1,13 @@
 {
-  "updated": "2026-05-12T04:19:01.146Z",
+  "updated": "2026-05-12T07:05:07.986Z",
   "models": [
     {
       "rank": 1,
       "id": "sentence-transformers/all-MiniLM-L6-v2",
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 253586595,
-      "likes": 4777,
+      "downloads": 255877152,
+      "likes": 4778,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -42,7 +42,7 @@
       "id": "google-bert/bert-base-uncased",
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
-      "downloads": 62885243,
+      "downloads": 63595758,
       "likes": 2649,
       "tags": [
         "transformers",
@@ -60,7 +60,7 @@
       "id": "google/electra-base-discriminator",
       "url": "https://huggingface.co/google/electra-base-discriminator",
       "pipelineTag": null,
-      "downloads": 53356832,
+      "downloads": 53630336,
       "likes": 105,
       "tags": [
         "transformers",
@@ -78,7 +78,7 @@
       "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
       "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
       "pipelineTag": "text-ranking",
-      "downloads": 46870445,
+      "downloads": 48169217,
       "likes": 235,
       "tags": [
         "sentence-transformers",
@@ -96,7 +96,7 @@
       "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 46861154,
+      "downloads": 47227307,
       "likes": 1222,
       "tags": [
         "sentence-transformers",
@@ -132,7 +132,7 @@
       "id": "sentence-transformers/all-mpnet-base-v2",
       "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 36073754,
+      "downloads": 35961364,
       "likes": 1290,
       "tags": [
         "sentence-transformers",
@@ -150,7 +150,7 @@
       "id": "openai/clip-vit-large-patch14",
       "url": "https://huggingface.co/openai/clip-vit-large-patch14",
       "pipelineTag": "zero-shot-image-classification",
-      "downloads": 28346353,
+      "downloads": 29398068,
       "likes": 2008,
       "tags": [
         "transformers",
@@ -186,7 +186,7 @@
       "id": "openai/clip-vit-base-patch32",
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
-      "downloads": 21453525,
+      "downloads": 21473213,
       "likes": 933,
       "tags": [
         "transformers",
@@ -201,28 +201,10 @@
     },
     {
       "rank": 12,
-      "id": "laion/clap-htsat-fused",
-      "url": "https://huggingface.co/laion/clap-htsat-fused",
-      "pipelineTag": "audio-classification",
-      "downloads": 20041593,
-      "likes": 85,
-      "tags": [
-        "transformers",
-        "pytorch",
-        "safetensors",
-        "clap",
-        "feature-extraction",
-        "zero-shot audio classification"
-      ],
-      "lastModified": null,
-      "description": "You can use this model for zero shot audio classification or extracting audio and/or textual features."
-    },
-    {
-      "rank": 13,
       "id": "FacebookAI/xlm-roberta-base",
       "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
       "pipelineTag": "fill-mask",
-      "downloads": 19711705,
+      "downloads": 20171900,
       "likes": 826,
       "tags": [
         "transformers",
@@ -236,11 +218,29 @@
       "description": "XLM-RoBERTa model pre-trained on 2.5TB of filtered CommonCrawl data containing 100 languages. It was introduced in the paper Unsupervised Cross-lingual Representation Learning at Scale by Conneau et al. and first released in this reposit…"
     },
     {
+      "rank": 13,
+      "id": "laion/clap-htsat-fused",
+      "url": "https://huggingface.co/laion/clap-htsat-fused",
+      "pipelineTag": "audio-classification",
+      "downloads": 19865441,
+      "likes": 85,
+      "tags": [
+        "transformers",
+        "pytorch",
+        "safetensors",
+        "clap",
+        "feature-extraction",
+        "zero-shot audio classification"
+      ],
+      "lastModified": null,
+      "description": "You can use this model for zero shot audio classification or extracting audio and/or textual features."
+    },
+    {
       "rank": 14,
       "id": "FacebookAI/roberta-large",
       "url": "https://huggingface.co/FacebookAI/roberta-large",
       "pipelineTag": "fill-mask",
-      "downloads": 19604849,
+      "downloads": 19859386,
       "likes": 286,
       "tags": [
         "transformers",
@@ -258,7 +258,7 @@
       "id": "timm/mobilenetv3_small_100.lamb_in1k",
       "url": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
       "pipelineTag": "image-classification",
-      "downloads": 18655969,
+      "downloads": 18262514,
       "likes": 68,
       "tags": [
         "timm",
@@ -294,7 +294,7 @@
       "id": "FacebookAI/roberta-base",
       "url": "https://huggingface.co/FacebookAI/roberta-base",
       "pipelineTag": "fill-mask",
-      "downloads": 18088567,
+      "downloads": 17836304,
       "likes": 598,
       "tags": [
         "transformers",
@@ -330,7 +330,7 @@
       "id": "distilbert/distilbert-base-uncased",
       "url": "https://huggingface.co/distilbert/distilbert-base-uncased",
       "pipelineTag": "fill-mask",
-      "downloads": 16186558,
+      "downloads": 16437627,
       "likes": 878,
       "tags": [
         "transformers",
@@ -348,7 +348,7 @@
       "id": "openai-community/gpt2",
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
-      "downloads": 15869233,
+      "downloads": 16004555,
       "likes": 3236,
       "tags": [
         "transformers",
@@ -381,10 +381,28 @@
     },
     {
       "rank": 22,
+      "id": "colbert-ir/colbertv2.0",
+      "url": "https://huggingface.co/colbert-ir/colbertv2.0",
+      "pipelineTag": null,
+      "downloads": 15644978,
+      "likes": 340,
+      "tags": [
+        "transformers",
+        "pytorch",
+        "onnx",
+        "safetensors",
+        "bert",
+        "ColBERT"
+      ],
+      "lastModified": null,
+      "description": "As Figure 1 illustrates, ColBERT relies on fine-grained contextual late interaction: it encodes each passage into a matrix of token-level embeddings (shown above in blue). Then at search time, it embeds every query into another matrix (s…"
+    },
+    {
+      "rank": 23,
       "id": "Bingsu/adetailer",
       "url": "https://huggingface.co/Bingsu/adetailer",
       "pipelineTag": null,
-      "downloads": 15501796,
+      "downloads": 15423690,
       "likes": 693,
       "tags": [
         "ultralytics",
@@ -398,7 +416,7 @@
       "description": "Since getattr is classified as a dangerous pickle function, any segmentation model that uses it is classified as unsafe."
     },
     {
-      "rank": 23,
+      "rank": 24,
       "id": "Falconsai/nsfw_image_detection",
       "url": "https://huggingface.co/Falconsai/nsfw_image_detection",
       "pipelineTag": "image-classification",
@@ -414,24 +432,6 @@
       ],
       "lastModified": null,
       "description": "The Fine-Tuned Vision Transformer (ViT) is a variant of the transformer encoder architecture, similar to BERT, that has been adapted for image classification tasks. This specific model, named \"google/vit-base-patch16-224-in21k,\" is pre-t…"
-    },
-    {
-      "rank": 24,
-      "id": "colbert-ir/colbertv2.0",
-      "url": "https://huggingface.co/colbert-ir/colbertv2.0",
-      "pipelineTag": null,
-      "downloads": 15378174,
-      "likes": 340,
-      "tags": [
-        "transformers",
-        "pytorch",
-        "onnx",
-        "safetensors",
-        "bert",
-        "ColBERT"
-      ],
-      "lastModified": null,
-      "description": "As Figure 1 illustrates, ColBERT relies on fine-grained contextual late interaction: it encodes each passage into a matrix of token-level embeddings (shown above in blue). Then at search time, it embeds every query into another matrix (s…"
     },
     {
       "rank": 25,
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Qwen/WebWorld-8B",
       "pipelineTag": "text-generation",
       "downloads": 279,
-      "likes": 25,
+      "likes": 26,
       "tags": [
         "transformers",
         "safetensors",
@@ -617,6 +617,23 @@
     },
     {
       "rank": 5,
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 9389311,
+      "likes": 5811,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 6,
       "id": "unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
       "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
       "pipelineTag": "text-generation",
@@ -632,23 +649,6 @@
       ],
       "lastModified": null,
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows. It extends the …"
-    },
-    {
-      "rank": 6,
-      "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 9389311,
-      "likes": 5811,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
     },
     {
       "rank": 7,
