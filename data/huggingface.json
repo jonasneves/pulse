@@ -1,13 +1,13 @@
 {
-  "updated": "2026-05-13T04:22:47.721Z",
+  "updated": "2026-05-13T07:08:58.857Z",
   "models": [
     {
       "rank": 1,
       "id": "sentence-transformers/all-MiniLM-L6-v2",
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 255877152,
-      "likes": 4781,
+      "downloads": 258046486,
+      "likes": 4782,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -42,7 +42,7 @@
       "id": "google-bert/bert-base-uncased",
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
-      "downloads": 63595758,
+      "downloads": 63886651,
       "likes": 2650,
       "tags": [
         "transformers",
@@ -60,7 +60,7 @@
       "id": "google/electra-base-discriminator",
       "url": "https://huggingface.co/google/electra-base-discriminator",
       "pipelineTag": null,
-      "downloads": 53630336,
+      "downloads": 53263418,
       "likes": 105,
       "tags": [
         "transformers",
@@ -78,7 +78,7 @@
       "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
       "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
       "pipelineTag": "text-ranking",
-      "downloads": 48169217,
+      "downloads": 49570967,
       "likes": 235,
       "tags": [
         "sentence-transformers",
@@ -96,7 +96,7 @@
       "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 47227307,
+      "downloads": 47546081,
       "likes": 1224,
       "tags": [
         "sentence-transformers",
@@ -114,7 +114,7 @@
       "id": "BAAI/bge-small-en-v1.5",
       "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "pipelineTag": "feature-extraction",
-      "downloads": 40607415,
+      "downloads": 41629690,
       "likes": 456,
       "tags": [
         "sentence-transformers",
@@ -132,7 +132,7 @@
       "id": "sentence-transformers/all-mpnet-base-v2",
       "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 35961364,
+      "downloads": 36077309,
       "likes": 1290,
       "tags": [
         "sentence-transformers",
@@ -150,7 +150,7 @@
       "id": "openai/clip-vit-large-patch14",
       "url": "https://huggingface.co/openai/clip-vit-large-patch14",
       "pipelineTag": "zero-shot-image-classification",
-      "downloads": 29398068,
+      "downloads": 31492842,
       "likes": 2009,
       "tags": [
         "transformers",
@@ -168,7 +168,7 @@
       "id": "BAAI/bge-m3",
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
-      "downloads": 23743215,
+      "downloads": 24319063,
       "likes": 2993,
       "tags": [
         "sentence-transformers",
@@ -186,7 +186,7 @@
       "id": "openai/clip-vit-base-patch32",
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
-      "downloads": 21473213,
+      "downloads": 21621629,
       "likes": 933,
       "tags": [
         "transformers",
@@ -204,7 +204,7 @@
       "id": "FacebookAI/xlm-roberta-base",
       "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
       "pipelineTag": "fill-mask",
-      "downloads": 20171900,
+      "downloads": 20434774,
       "likes": 826,
       "tags": [
         "transformers",
@@ -219,28 +219,10 @@
     },
     {
       "rank": 13,
-      "id": "laion/clap-htsat-fused",
-      "url": "https://huggingface.co/laion/clap-htsat-fused",
-      "pipelineTag": "audio-classification",
-      "downloads": 19865441,
-      "likes": 85,
-      "tags": [
-        "transformers",
-        "pytorch",
-        "safetensors",
-        "clap",
-        "feature-extraction",
-        "zero-shot audio classification"
-      ],
-      "lastModified": null,
-      "description": "You can use this model for zero shot audio classification or extracting audio and/or textual features."
-    },
-    {
-      "rank": 14,
       "id": "FacebookAI/roberta-large",
       "url": "https://huggingface.co/FacebookAI/roberta-large",
       "pipelineTag": "fill-mask",
-      "downloads": 19859386,
+      "downloads": 20231004,
       "likes": 286,
       "tags": [
         "transformers",
@@ -254,11 +236,47 @@
       "description": "Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model is case-sensitive: it makes a difference between english and English."
     },
     {
+      "rank": 14,
+      "id": "laion/clap-htsat-fused",
+      "url": "https://huggingface.co/laion/clap-htsat-fused",
+      "pipelineTag": "audio-classification",
+      "downloads": 20066807,
+      "likes": 85,
+      "tags": [
+        "transformers",
+        "pytorch",
+        "safetensors",
+        "clap",
+        "feature-extraction",
+        "zero-shot audio classification"
+      ],
+      "lastModified": null,
+      "description": "You can use this model for zero shot audio classification or extracting audio and/or textual features."
+    },
+    {
       "rank": 15,
+      "id": "Qwen/Qwen3-0.6B",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "pipelineTag": "text-generation",
+      "downloads": 18238415,
+      "likes": 1240,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "conversational",
+        "license:apache-2.0"
+      ],
+      "lastModified": null,
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
+      "rank": 16,
       "id": "timm/mobilenetv3_small_100.lamb_in1k",
       "url": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
       "pipelineTag": "image-classification",
-      "downloads": 18262514,
+      "downloads": 17735447,
       "likes": 68,
       "tags": [
         "timm",
@@ -272,43 +290,7 @@
       "description": "A MobileNet-v3 image classification model. Trained on ImageNet-1k in timm using recipe template described below."
     },
     {
-      "rank": 16,
-      "id": "Qwen/Qwen3-0.6B",
-      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
-      "pipelineTag": "text-generation",
-      "downloads": 18238415,
-      "likes": 1239,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "conversational",
-        "license:apache-2.0"
-      ],
-      "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
       "rank": 17,
-      "id": "FacebookAI/roberta-base",
-      "url": "https://huggingface.co/FacebookAI/roberta-base",
-      "pipelineTag": "fill-mask",
-      "downloads": 17836304,
-      "likes": 598,
-      "tags": [
-        "transformers",
-        "pytorch",
-        "tf",
-        "jax",
-        "rust",
-        "safetensors"
-      ],
-      "lastModified": null,
-      "description": "Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model is case-sensitive: it makes a difference between english and English."
-    },
-    {
-      "rank": 18,
       "id": "amazon/chronos-2",
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
@@ -326,11 +308,29 @@
       "description": "Update Dec 30, 2025: ☁️ Deploy Chronos-2 on Amazon SageMaker. New guide covers real-time GPU and CPU inference, serverless endpoints (run on demand, no idle costs), and batch transform for large-scale forecasting."
     },
     {
+      "rank": 18,
+      "id": "FacebookAI/roberta-base",
+      "url": "https://huggingface.co/FacebookAI/roberta-base",
+      "pipelineTag": "fill-mask",
+      "downloads": 17579848,
+      "likes": 598,
+      "tags": [
+        "transformers",
+        "pytorch",
+        "tf",
+        "jax",
+        "rust",
+        "safetensors"
+      ],
+      "lastModified": null,
+      "description": "Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model is case-sensitive: it makes a difference between english and English."
+    },
+    {
       "rank": 19,
       "id": "distilbert/distilbert-base-uncased",
       "url": "https://huggingface.co/distilbert/distilbert-base-uncased",
       "pipelineTag": "fill-mask",
-      "downloads": 16437627,
+      "downloads": 16697880,
       "likes": 878,
       "tags": [
         "transformers",
@@ -348,7 +348,7 @@
       "id": "openai-community/gpt2",
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
-      "downloads": 16004555,
+      "downloads": 16195419,
       "likes": 3238,
       "tags": [
         "transformers",
@@ -363,6 +363,24 @@
     },
     {
       "rank": 21,
+      "id": "colbert-ir/colbertv2.0",
+      "url": "https://huggingface.co/colbert-ir/colbertv2.0",
+      "pipelineTag": null,
+      "downloads": 16087506,
+      "likes": 340,
+      "tags": [
+        "transformers",
+        "pytorch",
+        "onnx",
+        "safetensors",
+        "bert",
+        "ColBERT"
+      ],
+      "lastModified": null,
+      "description": "As Figure 1 illustrates, ColBERT relies on fine-grained contextual late interaction: it encodes each passage into a matrix of token-level embeddings (shown above in blue). Then at search time, it embeds every query into another matrix (s…"
+    },
+    {
+      "rank": 22,
       "id": "nomic-ai/nomic-embed-text-v1.5",
       "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
       "pipelineTag": "sentence-similarity",
@@ -380,47 +398,11 @@
       "description": "Exciting Update!: nomic-embed-text-v1.5 is now multimodal! nomic-embed-vision-v1.5 is aligned to the embedding space of nomic-embed-text-v1.5, meaning any text embedding is multimodal!"
     },
     {
-      "rank": 22,
-      "id": "colbert-ir/colbertv2.0",
-      "url": "https://huggingface.co/colbert-ir/colbertv2.0",
-      "pipelineTag": null,
-      "downloads": 15644978,
-      "likes": 340,
-      "tags": [
-        "transformers",
-        "pytorch",
-        "onnx",
-        "safetensors",
-        "bert",
-        "ColBERT"
-      ],
-      "lastModified": null,
-      "description": "As Figure 1 illustrates, ColBERT relies on fine-grained contextual late interaction: it encodes each passage into a matrix of token-level embeddings (shown above in blue). Then at search time, it embeds every query into another matrix (s…"
-    },
-    {
       "rank": 23,
-      "id": "Bingsu/adetailer",
-      "url": "https://huggingface.co/Bingsu/adetailer",
-      "pipelineTag": null,
-      "downloads": 15423690,
-      "likes": 694,
-      "tags": [
-        "ultralytics",
-        "pytorch",
-        "dataset:wider_face",
-        "dataset:skytnt/anime-segmentation",
-        "doi:10.57967/hf/3633",
-        "license:apache-2.0"
-      ],
-      "lastModified": null,
-      "description": "Since getattr is classified as a dangerous pickle function, any segmentation model that uses it is classified as unsafe."
-    },
-    {
-      "rank": 24,
       "id": "BAAI/bge-large-en-v1.5",
       "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
       "pipelineTag": "feature-extraction",
-      "downloads": 15418380,
+      "downloads": 15515158,
       "likes": 662,
       "tags": [
         "sentence-transformers",
@@ -432,6 +414,24 @@
       ],
       "lastModified": null,
       "description": "If you are looking for a model that supports more languages, longer texts, and other retrieval methods, you can try using bge-m3."
+    },
+    {
+      "rank": 24,
+      "id": "Bingsu/adetailer",
+      "url": "https://huggingface.co/Bingsu/adetailer",
+      "pipelineTag": null,
+      "downloads": 15443483,
+      "likes": 694,
+      "tags": [
+        "ultralytics",
+        "pytorch",
+        "dataset:wider_face",
+        "dataset:skytnt/anime-segmentation",
+        "doi:10.57967/hf/3633",
+        "license:apache-2.0"
+      ],
+      "lastModified": null,
+      "description": "Since getattr is classified as a dangerous pickle function, any segmentation model that uses it is classified as unsafe."
     },
     {
       "rank": 25,
@@ -528,7 +528,7 @@
       "id": "pyannote/wespeaker-voxceleb-resnet34-LM",
       "url": "https://huggingface.co/pyannote/wespeaker-voxceleb-resnet34-LM",
       "pipelineTag": null,
-      "downloads": 10961115,
+      "downloads": 11097990,
       "likes": 129,
       "tags": [
         "pyannote-audio",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Qwen/WebWorld-8B",
       "pipelineTag": "text-generation",
       "downloads": 279,
-      "likes": 31,
+      "likes": 32,
       "tags": [
         "transformers",
         "safetensors",
@@ -585,7 +585,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 9548227,
-      "likes": 5818,
+      "likes": 5819,
       "tags": [
         "transformers",
         "safetensors",
@@ -602,7 +602,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 18238415,
-      "likes": 1239,
+      "likes": 1240,
       "tags": [
         "transformers",
         "safetensors",
@@ -634,24 +634,6 @@
     },
     {
       "rank": 6,
-      "id": "ibm-granite/granite-4.1-8b",
-      "url": "https://huggingface.co/ibm-granite/granite-4.1-8b",
-      "pipelineTag": "text-generation",
-      "downloads": 34216,
-      "likes": 168,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "granite",
-        "text-generation",
-        "language",
-        "granite-4.1"
-      ],
-      "lastModified": null,
-      "description": "Model Summary: Granite-4.1-8B is a 8B parameter long-context instruct model finetuned from Granite-4.1-8B-Base using a combination of open source instruction datasets with permissive license and internally collected synthetic datasets. G…"
-    },
-    {
-      "rank": 7,
       "id": "Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
       "url": "https://huggingface.co/Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
       "pipelineTag": "text-generation",
@@ -669,7 +651,7 @@
       "description": "Claude Opus + Sonnet distilled Qwen 3.6 27B optimized for higher token efficiency, preserved deep reasoning, and MTP-accelerated vLLM deployment on Blackwell-class GPUs."
     },
     {
-      "rank": 8,
+      "rank": 7,
       "id": "AIDC-AI/Marco-DeepResearch-8B",
       "url": "https://huggingface.co/AIDC-AI/Marco-DeepResearch-8B",
       "pipelineTag": "text-generation",
@@ -685,6 +667,24 @@
       ],
       "lastModified": null,
       "description": "Marco DeepResearch is an efficient 8B-scale deep research agent developed by Alibaba International Digital Commerce (AIDC-AI). It autonomously conducts open-ended investigations by integrating complex information retrieval with multi-ste…"
+    },
+    {
+      "rank": 8,
+      "id": "ibm-granite/granite-4.1-8b",
+      "url": "https://huggingface.co/ibm-granite/granite-4.1-8b",
+      "pipelineTag": "text-generation",
+      "downloads": 34216,
+      "likes": 168,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "granite",
+        "text-generation",
+        "language",
+        "granite-4.1"
+      ],
+      "lastModified": null,
+      "description": "Model Summary: Granite-4.1-8B is a 8B parameter long-context instruct model finetuned from Granite-4.1-8B-Base using a combination of open source instruction datasets with permissive license and internally collected synthetic datasets. G…"
     },
     {
       "rank": 9,
@@ -706,23 +706,6 @@
     },
     {
       "rank": 10,
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 1689850,
-      "likes": 4516,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 11,
       "id": "Qwen/Qwen2.5-7B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
@@ -738,6 +721,23 @@
       ],
       "lastModified": null,
       "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
+    },
+    {
+      "rank": 11,
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 1689850,
+      "likes": 4516,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
     },
     {
       "rank": 12,
