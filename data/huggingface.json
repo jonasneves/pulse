@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-13T09:56:29.534Z",
+  "updated": "2026-05-13T12:50:17.447Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 258046486,
-      "likes": 4782,
+      "likes": 4783,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -43,7 +43,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 63886651,
-      "likes": 2650,
+      "likes": 2651,
       "tags": [
         "transformers",
         "pytorch",
@@ -79,7 +79,7 @@
       "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
       "pipelineTag": "text-ranking",
       "downloads": 49570967,
-      "likes": 235,
+      "likes": 236,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 24319063,
-      "likes": 2993,
+      "likes": 2994,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Qwen/WebWorld-8B",
       "pipelineTag": "text-generation",
       "downloads": 555,
-      "likes": 33,
+      "likes": 32,
       "tags": [
         "transformers",
         "safetensors",
@@ -567,7 +567,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 9708754,
-      "likes": 5821,
+      "likes": 5823,
       "tags": [
         "transformers",
         "safetensors",
@@ -598,24 +598,6 @@
     },
     {
       "rank": 4,
-      "id": "Qwen/Qwen3-0.6B",
-      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
-      "pipelineTag": "text-generation",
-      "downloads": 18775733,
-      "likes": 1240,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "conversational",
-        "license:apache-2.0"
-      ],
-      "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
-      "rank": 5,
       "id": "Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
       "url": "https://huggingface.co/Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
       "pipelineTag": "text-generation",
@@ -633,25 +615,25 @@
       "description": "Claude Opus + Sonnet distilled Qwen 3.6 27B optimized for higher token efficiency, preserved deep reasoning, and MTP-accelerated vLLM deployment on Blackwell-class GPUs."
     },
     {
-      "rank": 6,
-      "id": "ibm-granite/granite-4.1-8b",
-      "url": "https://huggingface.co/ibm-granite/granite-4.1-8b",
+      "rank": 5,
+      "id": "Qwen/Qwen3-0.6B",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
-      "downloads": 39396,
-      "likes": 170,
+      "downloads": 18775733,
+      "likes": 1240,
       "tags": [
         "transformers",
         "safetensors",
-        "granite",
+        "qwen3",
         "text-generation",
-        "language",
-        "granite-4.1"
+        "conversational",
+        "license:apache-2.0"
       ],
       "lastModified": null,
-      "description": "Model Summary: Granite-4.1-8B is a 8B parameter long-context instruct model finetuned from Granite-4.1-8B-Base using a combination of open source instruction datasets with permissive license and internally collected synthetic datasets. G…"
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
-      "rank": 7,
+      "rank": 6,
       "id": "AIDC-AI/Marco-DeepResearch-8B",
       "url": "https://huggingface.co/AIDC-AI/Marco-DeepResearch-8B",
       "pipelineTag": "text-generation",
@@ -667,6 +649,24 @@
       ],
       "lastModified": null,
       "description": "Marco DeepResearch is an efficient 8B-scale deep research agent developed by Alibaba International Digital Commerce (AIDC-AI). It autonomously conducts open-ended investigations by integrating complex information retrieval with multi-ste…"
+    },
+    {
+      "rank": 7,
+      "id": "ibm-granite/granite-4.1-8b",
+      "url": "https://huggingface.co/ibm-granite/granite-4.1-8b",
+      "pipelineTag": "text-generation",
+      "downloads": 39396,
+      "likes": 170,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "granite",
+        "text-generation",
+        "language",
+        "granite-4.1"
+      ],
+      "lastModified": null,
+      "description": "Model Summary: Granite-4.1-8B is a 8B parameter long-context instruct model finetuned from Granite-4.1-8B-Base using a combination of open source instruction datasets with permissive license and internally collected synthetic datasets. G…"
     },
     {
       "rank": 8,
@@ -724,6 +724,24 @@
     },
     {
       "rank": 11,
+      "id": "IAAR-Shanghai/MemPrivacy-1.7B-RL",
+      "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-1.7B-RL",
+      "pipelineTag": "text-generation",
+      "downloads": 99,
+      "likes": 11,
+      "tags": [
+        "safetensors",
+        "qwen3",
+        "privacy",
+        "privacy-detection",
+        "memory",
+        "personalized-memory"
+      ],
+      "lastModified": null,
+      "description": "MemPrivacy-1.7B-RL is a lightweight, privacy-preserving model developed from the Qwen3-1.7B base model and further optimized through reinforcement learning. It is designed specifically for personalized memory management in edge-cloud age…"
+    },
+    {
+      "rank": 12,
       "id": "meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
@@ -738,24 +756,6 @@
         "meta"
       ],
       "lastModified": null
-    },
-    {
-      "rank": 12,
-      "id": "unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
-      "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 66694,
-      "likes": 113,
-      "tags": [
-        "gguf",
-        "nvidia",
-        "unsloth",
-        "nemotron-3",
-        "multimodal",
-        "text-generation"
-      ],
-      "lastModified": null,
-      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows. It extends the …"
     },
     {
       "rank": 13,
@@ -777,39 +777,39 @@
     },
     {
       "rank": 14,
-      "id": "IAAR-Shanghai/MemPrivacy-1.7B-RL",
-      "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-1.7B-RL",
+      "id": "hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+      "url": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 99,
-      "likes": 10,
+      "downloads": 267079,
+      "likes": 241,
       "tags": [
-        "safetensors",
-        "qwen3",
-        "privacy",
-        "privacy-detection",
-        "memory",
-        "personalized-memory"
+        "gguf",
+        "llama.cpp",
+        "qwen",
+        "qwen3.6",
+        "qwen3_5_moe",
+        "moe"
       ],
       "lastModified": null,
-      "description": "MemPrivacy-1.7B-RL is a lightweight, privacy-preserving model developed from the Qwen3-1.7B base model and further optimized through reinforcement learning. It is designed specifically for personalized memory management in edge-cloud age…"
+      "description": "GGUF quantizations of hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled, a reasoning SFT fine-tune of Qwen/Qwen3.6-35B-A3B on Claude Opus 4.6-style chain-of-thought distillation data."
     },
     {
       "rank": 15,
-      "id": "IAAR-Shanghai/MemPrivacy-4B-SFT",
-      "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-4B-SFT",
+      "id": "unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
+      "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 121,
-      "likes": 9,
+      "downloads": 66694,
+      "likes": 113,
       "tags": [
-        "safetensors",
-        "qwen3",
-        "privacy",
-        "privacy-detection",
-        "memory",
-        "personalized-memory"
+        "gguf",
+        "nvidia",
+        "unsloth",
+        "nemotron-3",
+        "multimodal",
+        "text-generation"
       ],
       "lastModified": null,
-      "description": "MemPrivacy-4B-SFT is a lightweight, privacy-preserving model fine-tuned from the Qwen3-4B base model. It is designed specifically for personalized memory management in edge-cloud agents."
+      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows. It extends the …"
     }
   ]
 }
