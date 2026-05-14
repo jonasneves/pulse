@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14T12:43:18.794Z",
+  "updated": "2026-05-14T15:51:48.549Z",
   "models": [
     {
       "rank": 1,
@@ -61,7 +61,7 @@
       "url": "https://huggingface.co/google/electra-base-discriminator",
       "pipelineTag": null,
       "downloads": 52284659,
-      "likes": 105,
+      "likes": 106,
       "tags": [
         "transformers",
         "pytorch",
@@ -79,7 +79,7 @@
       "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
       "pipelineTag": "text-ranking",
       "downloads": 50880509,
-      "likes": 238,
+      "likes": 239,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "pipelineTag": "feature-extraction",
       "downloads": 42635548,
-      "likes": 459,
+      "likes": 460,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -151,7 +151,7 @@
       "url": "https://huggingface.co/openai/clip-vit-large-patch14",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 32486672,
-      "likes": 2011,
+      "likes": 2012,
       "tags": [
         "transformers",
         "pytorch",
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 24970361,
-      "likes": 2997,
+      "likes": 2998,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -295,7 +295,7 @@
       "url": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
       "pipelineTag": "image-classification",
       "downloads": 17037373,
-      "likes": 69,
+      "likes": 70,
       "tags": [
         "timm",
         "pytorch",
@@ -439,7 +439,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 12418113,
-      "likes": 1276,
+      "likes": 1278,
       "tags": [
         "transformers",
         "safetensors",
@@ -567,7 +567,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 9751974,
-      "likes": 5825,
+      "likes": 5826,
       "tags": [
         "transformers",
         "safetensors",
@@ -620,7 +620,7 @@
       "url": "https://huggingface.co/Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
       "pipelineTag": "text-generation",
       "downloads": 1957,
-      "likes": 15,
+      "likes": 16,
       "tags": [
         "transformers",
         "safetensors",
@@ -634,6 +634,24 @@
     },
     {
       "rank": 6,
+      "id": "Qwen/Qwen2.5-7B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 12418113,
+      "likes": 1278,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "chat",
+        "conversational"
+      ],
+      "lastModified": null,
+      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
+    },
+    {
+      "rank": 7,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
@@ -651,7 +669,7 @@
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "id": "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
       "url": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
       "pipelineTag": "text-generation",
@@ -667,24 +685,6 @@
       ],
       "lastModified": null,
       "description": "A reasoning-distilled variant of Qwen3.6-35B-A3B taught to imitate the chain-of-thought style of Claude Opus 4.7, the frontier reasoning model from Anthropic. The goal: port Claude-grade reasoning behavior into a permissively-licensed Mi…"
-    },
-    {
-      "rank": 8,
-      "id": "Qwen/Qwen2.5-7B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 12418113,
-      "likes": 1276,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "chat",
-        "conversational"
-      ],
-      "lastModified": null,
-      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
       "rank": 9,
@@ -723,6 +723,24 @@
     },
     {
       "rank": 11,
+      "id": "faunix/QwenSeek-2B-GGUF",
+      "url": "https://huggingface.co/faunix/QwenSeek-2B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 6899,
+      "likes": 18,
+      "tags": [
+        "transformers",
+        "gguf",
+        "qwen3_5",
+        "deepseek",
+        "reasoning",
+        "faunix"
+      ],
+      "lastModified": null,
+      "description": "QwenSeek-2B - distillation of thinking of DeepSeek V4 into Qwen3.5-2B!"
+    },
+    {
+      "rank": 12,
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
@@ -738,24 +756,6 @@
       ],
       "lastModified": null,
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
-      "rank": 12,
-      "id": "faunix/QwenSeek-2B-GGUF",
-      "url": "https://huggingface.co/faunix/QwenSeek-2B-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 6899,
-      "likes": 17,
-      "tags": [
-        "transformers",
-        "gguf",
-        "qwen3_5",
-        "deepseek",
-        "reasoning",
-        "faunix"
-      ],
-      "lastModified": null,
-      "description": "QwenSeek-2B - distillation of thinking of DeepSeek V4 into Qwen3.5-2B!"
     },
     {
       "rank": 13,
