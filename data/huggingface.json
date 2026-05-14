@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14T15:51:48.549Z",
+  "updated": "2026-05-14T18:41:37.125Z",
   "models": [
     {
       "rank": 1,
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 24970361,
-      "likes": 2998,
+      "likes": 3000,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -259,7 +259,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 18989268,
-      "likes": 1242,
+      "likes": 1243,
       "tags": [
         "transformers",
         "safetensors",
@@ -439,7 +439,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 12418113,
-      "likes": 1278,
+      "likes": 1279,
       "tags": [
         "transformers",
         "safetensors",
@@ -457,7 +457,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 12081067,
-      "likes": 694,
+      "likes": 695,
       "tags": [
         "transformers",
         "safetensors",
@@ -616,6 +616,24 @@
     },
     {
       "rank": 5,
+      "id": "Qwen/Qwen2.5-7B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 12418113,
+      "likes": 1279,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "chat",
+        "conversational"
+      ],
+      "lastModified": null,
+      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
+    },
+    {
+      "rank": 6,
       "id": "Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
       "url": "https://huggingface.co/Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
       "pipelineTag": "text-generation",
@@ -633,30 +651,12 @@
       "description": "Claude Opus + Sonnet distilled Qwen 3.6 27B optimized for higher token efficiency, preserved deep reasoning, and MTP-accelerated vLLM deployment on Blackwell-class GPUs."
     },
     {
-      "rank": 6,
-      "id": "Qwen/Qwen2.5-7B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 12418113,
-      "likes": 1278,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "chat",
-        "conversational"
-      ],
-      "lastModified": null,
-      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
-    },
-    {
       "rank": 7,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 18989268,
-      "likes": 1242,
+      "likes": 1243,
       "tags": [
         "transformers",
         "safetensors",
@@ -741,6 +741,24 @@
     },
     {
       "rank": 12,
+      "id": "Qwen/Qwen3-1.7B",
+      "url": "https://huggingface.co/Qwen/Qwen3-1.7B",
+      "pipelineTag": "text-generation",
+      "downloads": 3535359,
+      "likes": 467,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "conversational",
+        "license:apache-2.0"
+      ],
+      "lastModified": null,
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
+      "rank": 13,
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
@@ -758,7 +776,7 @@
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "id": "ibm-granite/granite-4.1-8b",
       "url": "https://huggingface.co/ibm-granite/granite-4.1-8b",
       "pipelineTag": "text-generation",
@@ -776,43 +794,7 @@
       "description": "Model Summary: Granite-4.1-8B is a 8B parameter long-context instruct model finetuned from Granite-4.1-8B-Base using a combination of open source instruction datasets with permissive license and internally collected synthetic datasets. G…"
     },
     {
-      "rank": 14,
-      "id": "prism-ml/Ternary-Bonsai-8B-gguf",
-      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-8B-gguf",
-      "pipelineTag": "text-generation",
-      "downloads": 26835,
-      "likes": 71,
-      "tags": [
-        "gguf",
-        "ternary",
-        "1.58-bit",
-        "llama-cpp",
-        "q2_0",
-        "on-device"
-      ],
-      "lastModified": null,
-      "description": "Ternary (1.58-bit) language model in GGUF Q2_0 format for llama.cpp"
-    },
-    {
       "rank": 15,
-      "id": "hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
-      "url": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 272541,
-      "likes": 242,
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "qwen",
-        "qwen3.6",
-        "qwen3_5_moe",
-        "moe"
-      ],
-      "lastModified": null,
-      "description": "GGUF quantizations of hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled, a reasoning SFT fine-tune of Qwen/Qwen3.6-35B-A3B on Claude Opus 4.6-style chain-of-thought distillation data."
-    },
-    {
-      "rank": 16,
       "id": "IAAR-Shanghai/MemPrivacy-4B-SFT",
       "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-4B-SFT",
       "pipelineTag": "text-generation",
@@ -830,7 +812,7 @@
       "description": "MemPrivacy-4B-SFT is a lightweight, privacy-preserving model fine-tuned from the Qwen3-4B base model. It is designed specifically for personalized memory management in edge-cloud agents."
     },
     {
-      "rank": 17,
+      "rank": 16,
       "id": "IAAR-Shanghai/MemPrivacy-4B-RL",
       "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-4B-RL",
       "pipelineTag": "text-generation",
