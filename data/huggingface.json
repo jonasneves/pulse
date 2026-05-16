@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-16T04:16:08.090Z",
+  "updated": "2026-05-16T06:52:22.322Z",
   "models": [
     {
       "rank": 1,
@@ -259,7 +259,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 19312467,
-      "likes": 1246,
+      "likes": 1247,
       "tags": [
         "transformers",
         "safetensors",
@@ -349,7 +349,7 @@
       "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
       "pipelineTag": "sentence-similarity",
       "downloads": 16338728,
-      "likes": 824,
+      "likes": 825,
       "tags": [
         "sentence-transformers",
         "onnx",
@@ -367,7 +367,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 16070521,
-      "likes": 3240,
+      "likes": 3241,
       "tags": [
         "transformers",
         "pytorch",
@@ -634,6 +634,42 @@
     },
     {
       "rank": 6,
+      "id": "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
+      "url": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
+      "pipelineTag": "text-generation",
+      "downloads": 182790,
+      "likes": 138,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5_moe",
+        "image-text-to-text",
+        "text-generation",
+        "reasoning"
+      ],
+      "lastModified": null,
+      "description": "A reasoning-distilled variant of Qwen3.6-35B-A3B taught to imitate the chain-of-thought style of Claude Opus 4.7, the frontier reasoning model from Anthropic. The goal: port Claude-grade reasoning behavior into a permissively-licensed Mi…"
+    },
+    {
+      "rank": 7,
+      "id": "Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
+      "url": "https://huggingface.co/Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
+      "pipelineTag": "text-generation",
+      "downloads": 3669,
+      "likes": 19,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "qwen3",
+        "qwen3.6"
+      ],
+      "lastModified": null,
+      "description": "Claude Opus + Sonnet distilled Qwen 3.6 27B optimized for higher token efficiency, preserved deep reasoning, and MTP-accelerated vLLM deployment on Blackwell-class GPUs."
+    },
+    {
+      "rank": 8,
       "id": "IAAR-Shanghai/MemPrivacy-1.7B-RL",
       "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-1.7B-RL",
       "pipelineTag": "text-generation",
@@ -651,7 +687,7 @@
       "description": "MemPrivacy-1.7B-RL is a lightweight, privacy-preserving model developed from the Qwen3-1.7B base model and further optimized through reinforcement learning. It is designed specifically for personalized memory management in edge-cloud age…"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "id": "Qwen/Qwen2.5-7B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
@@ -669,79 +705,25 @@
       "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
-      "rank": 8,
-      "id": "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
-      "url": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
-      "pipelineTag": "text-generation",
-      "downloads": 182790,
-      "likes": 137,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5_moe",
-        "image-text-to-text",
-        "text-generation",
-        "reasoning"
-      ],
-      "lastModified": null,
-      "description": "A reasoning-distilled variant of Qwen3.6-35B-A3B taught to imitate the chain-of-thought style of Claude Opus 4.7, the frontier reasoning model from Anthropic. The goal: port Claude-grade reasoning behavior into a permissively-licensed Mi…"
-    },
-    {
-      "rank": 9,
-      "id": "Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
-      "url": "https://huggingface.co/Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
-      "pipelineTag": "text-generation",
-      "downloads": 3669,
-      "likes": 18,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "qwen3",
-        "qwen3.6"
-      ],
-      "lastModified": null,
-      "description": "Claude Opus + Sonnet distilled Qwen 3.6 27B optimized for higher token efficiency, preserved deep reasoning, and MTP-accelerated vLLM deployment on Blackwell-class GPUs."
-    },
-    {
       "rank": 10,
-      "id": "deepseek-ai/DeepSeek-R1",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "id": "Qwen/Qwen3-0.6B",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
-      "downloads": 3813218,
-      "likes": 13332,
+      "downloads": 19312467,
+      "likes": 1247,
       "tags": [
         "transformers",
         "safetensors",
-        "deepseek_v3",
+        "qwen3",
         "text-generation",
         "conversational",
-        "custom_code"
+        "license:apache-2.0"
       ],
       "lastModified": null,
-      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
       "rank": 11,
-      "id": "faunix/QwenSeek-2B-GGUF",
-      "url": "https://huggingface.co/faunix/QwenSeek-2B-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 7611,
-      "likes": 18,
-      "tags": [
-        "transformers",
-        "gguf",
-        "qwen3_5",
-        "deepseek",
-        "reasoning",
-        "faunix"
-      ],
-      "lastModified": null,
-      "description": "QwenSeek-2B - distillation of thinking of DeepSeek V4 into Qwen3.5-2B!"
-    },
-    {
-      "rank": 12,
       "id": "IAAR-Shanghai/MemPrivacy-4B-SFT",
       "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-4B-SFT",
       "pipelineTag": "text-generation",
@@ -759,7 +741,7 @@
       "description": "MemPrivacy-4B-SFT is a lightweight, privacy-preserving model fine-tuned from the Qwen3-4B base model. It is designed specifically for personalized memory management in edge-cloud agents."
     },
     {
-      "rank": 13,
+      "rank": 12,
       "id": "IAAR-Shanghai/MemPrivacy-4B-RL",
       "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-4B-RL",
       "pipelineTag": "text-generation",
@@ -777,25 +759,25 @@
       "description": "MemPrivacy-4B-RL is a lightweight, privacy-preserving model developed from the Qwen3-4B base model and further optimized through reinforcement learning. It is designed specifically for personalized memory management in edge-cloud agents,…"
     },
     {
-      "rank": 14,
-      "id": "Qwen/Qwen3-0.6B",
-      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "rank": 13,
+      "id": "deepseek-ai/DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
       "pipelineTag": "text-generation",
-      "downloads": 19312467,
-      "likes": 1246,
+      "downloads": 3813218,
+      "likes": 13332,
       "tags": [
         "transformers",
         "safetensors",
-        "qwen3",
+        "deepseek_v3",
         "text-generation",
         "conversational",
-        "license:apache-2.0"
+        "custom_code"
       ],
       "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
     },
     {
-      "rank": 15,
+      "rank": 14,
       "id": "Qwen/Qwen3-1.7B",
       "url": "https://huggingface.co/Qwen/Qwen3-1.7B",
       "pipelineTag": "text-generation",
