@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17T04:27:17.899Z",
+  "updated": "2026-05-17T07:03:22.243Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 259897391,
-      "likes": 4793,
+      "likes": 4794,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -42,7 +42,7 @@
       "id": "google-bert/bert-base-uncased",
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
-      "downloads": 66572667,
+      "downloads": 66791895,
       "likes": 2652,
       "tags": [
         "transformers",
@@ -60,7 +60,7 @@
       "id": "google/electra-base-discriminator",
       "url": "https://huggingface.co/google/electra-base-discriminator",
       "pipelineTag": null,
-      "downloads": 53769054,
+      "downloads": 54265556,
       "likes": 106,
       "tags": [
         "transformers",
@@ -78,7 +78,7 @@
       "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
       "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
       "pipelineTag": "text-ranking",
-      "downloads": 53148443,
+      "downloads": 54165137,
       "likes": 239,
       "tags": [
         "sentence-transformers",
@@ -150,7 +150,7 @@
       "id": "openai/clip-vit-large-patch14",
       "url": "https://huggingface.co/openai/clip-vit-large-patch14",
       "pipelineTag": "zero-shot-image-classification",
-      "downloads": 32956376,
+      "downloads": 33112236,
       "likes": 2012,
       "tags": [
         "transformers",
@@ -186,7 +186,7 @@
       "id": "openai/clip-vit-base-patch32",
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
-      "downloads": 21734009,
+      "downloads": 21641409,
       "likes": 935,
       "tags": [
         "transformers",
@@ -204,7 +204,7 @@
       "id": "FacebookAI/xlm-roberta-base",
       "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
       "pipelineTag": "fill-mask",
-      "downloads": 21130988,
+      "downloads": 21343749,
       "likes": 827,
       "tags": [
         "transformers",
@@ -240,7 +240,7 @@
       "id": "FacebookAI/roberta-large",
       "url": "https://huggingface.co/FacebookAI/roberta-large",
       "pipelineTag": "fill-mask",
-      "downloads": 20091378,
+      "downloads": 20005774,
       "likes": 287,
       "tags": [
         "transformers",
@@ -273,28 +273,10 @@
     },
     {
       "rank": 16,
-      "id": "distilbert/distilbert-base-uncased",
-      "url": "https://huggingface.co/distilbert/distilbert-base-uncased",
-      "pipelineTag": "fill-mask",
-      "downloads": 16959809,
-      "likes": 879,
-      "tags": [
-        "transformers",
-        "pytorch",
-        "tf",
-        "jax",
-        "rust",
-        "safetensors"
-      ],
-      "lastModified": null,
-      "description": "This model is a distilled version of the BERT base model. It was introduced in this paper. The code for the distillation process can be found here. This model is uncased: it does not make a difference between english and English."
-    },
-    {
-      "rank": 17,
       "id": "FacebookAI/roberta-base",
       "url": "https://huggingface.co/FacebookAI/roberta-base",
       "pipelineTag": "fill-mask",
-      "downloads": 16755686,
+      "downloads": 17547052,
       "likes": 600,
       "tags": [
         "transformers",
@@ -306,6 +288,24 @@
       ],
       "lastModified": null,
       "description": "Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model is case-sensitive: it makes a difference between english and English."
+    },
+    {
+      "rank": 17,
+      "id": "distilbert/distilbert-base-uncased",
+      "url": "https://huggingface.co/distilbert/distilbert-base-uncased",
+      "pipelineTag": "fill-mask",
+      "downloads": 16753119,
+      "likes": 879,
+      "tags": [
+        "transformers",
+        "pytorch",
+        "tf",
+        "jax",
+        "rust",
+        "safetensors"
+      ],
+      "lastModified": null,
+      "description": "This model is a distilled version of the BERT base model. It was introduced in this paper. The code for the distillation process can be found here. This model is uncased: it does not make a difference between english and English."
     },
     {
       "rank": 18,
@@ -348,7 +348,7 @@
       "id": "timm/mobilenetv3_small_100.lamb_in1k",
       "url": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
       "pipelineTag": "image-classification",
-      "downloads": 16306628,
+      "downloads": 16045892,
       "likes": 70,
       "tags": [
         "timm",
@@ -366,7 +366,7 @@
       "id": "openai-community/gpt2",
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
-      "downloads": 16027849,
+      "downloads": 15974270,
       "likes": 3241,
       "tags": [
         "transformers",
@@ -385,7 +385,7 @@
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
       "downloads": 15820572,
-      "likes": 282,
+      "likes": 283,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/Qwen/WebWorld-8B",
       "pipelineTag": "text-generation",
       "downloads": 1090,
-      "likes": 41,
+      "likes": 42,
       "tags": [
         "transformers",
         "safetensors",
@@ -602,7 +602,7 @@
       "url": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 281333,
-      "likes": 251,
+      "likes": 252,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -616,24 +616,6 @@
     },
     {
       "rank": 5,
-      "id": "Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
-      "url": "https://huggingface.co/Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
-      "pipelineTag": "text-generation",
-      "downloads": 4514,
-      "likes": 21,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "qwen3",
-        "qwen3.6"
-      ],
-      "lastModified": null,
-      "description": "Claude Opus + Sonnet distilled Qwen 3.6 27B optimized for higher token efficiency, preserved deep reasoning, and MTP-accelerated vLLM deployment on Blackwell-class GPUs."
-    },
-    {
-      "rank": 6,
       "id": "AIDC-AI/Marco-DeepResearch-8B",
       "url": "https://huggingface.co/AIDC-AI/Marco-DeepResearch-8B",
       "pipelineTag": "text-generation",
@@ -651,7 +633,7 @@
       "description": "Marco DeepResearch is an efficient 8B-scale deep research agent developed by Alibaba International Digital Commerce (AIDC-AI). It autonomously conducts open-ended investigations by integrating complex information retrieval with multi-ste…"
     },
     {
-      "rank": 7,
+      "rank": 6,
       "id": "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
       "url": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
       "pipelineTag": "text-generation",
@@ -667,6 +649,24 @@
       ],
       "lastModified": null,
       "description": "A reasoning-distilled variant of Qwen3.6-35B-A3B taught to imitate the chain-of-thought style of Claude Opus 4.7, the frontier reasoning model from Anthropic. The goal: port Claude-grade reasoning behavior into a permissively-licensed Mi…"
+    },
+    {
+      "rank": 7,
+      "id": "Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
+      "url": "https://huggingface.co/Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
+      "pipelineTag": "text-generation",
+      "downloads": 4514,
+      "likes": 21,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "qwen3",
+        "qwen3.6"
+      ],
+      "lastModified": null,
+      "description": "Claude Opus + Sonnet distilled Qwen 3.6 27B optimized for higher token efficiency, preserved deep reasoning, and MTP-accelerated vLLM deployment on Blackwell-class GPUs."
     },
     {
       "rank": 8,
@@ -871,7 +871,7 @@
       "url": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
       "pipelineTag": "text-generation",
       "downloads": 23878,
-      "likes": 55,
+      "likes": 56,
       "tags": [
         "gguf",
         "llama.cpp",
