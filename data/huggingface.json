@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-16T21:19:46.966Z",
+  "updated": "2026-05-17T00:52:02.149Z",
   "models": [
     {
       "rank": 1,
@@ -616,24 +616,6 @@
     },
     {
       "rank": 5,
-      "id": "AIDC-AI/Marco-DeepResearch-8B",
-      "url": "https://huggingface.co/AIDC-AI/Marco-DeepResearch-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 254,
-      "likes": 21,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "deep-research",
-        "agent"
-      ],
-      "lastModified": null,
-      "description": "Marco DeepResearch is an efficient 8B-scale deep research agent developed by Alibaba International Digital Commerce (AIDC-AI). It autonomously conducts open-ended investigations by integrating complex information retrieval with multi-ste…"
-    },
-    {
-      "rank": 6,
       "id": "Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
       "url": "https://huggingface.co/Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
       "pipelineTag": "text-generation",
@@ -649,6 +631,24 @@
       ],
       "lastModified": null,
       "description": "Claude Opus + Sonnet distilled Qwen 3.6 27B optimized for higher token efficiency, preserved deep reasoning, and MTP-accelerated vLLM deployment on Blackwell-class GPUs."
+    },
+    {
+      "rank": 6,
+      "id": "AIDC-AI/Marco-DeepResearch-8B",
+      "url": "https://huggingface.co/AIDC-AI/Marco-DeepResearch-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 254,
+      "likes": 22,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "deep-research",
+        "agent"
+      ],
+      "lastModified": null,
+      "description": "Marco DeepResearch is an efficient 8B-scale deep research agent developed by Alibaba International Digital Commerce (AIDC-AI). It autonomously conducts open-ended investigations by integrating complex information retrieval with multi-ste…"
     },
     {
       "rank": 7,
@@ -760,6 +760,24 @@
     },
     {
       "rank": 13,
+      "id": "chiennv/Orthrus-Qwen3-8B",
+      "url": "https://huggingface.co/chiennv/Orthrus-Qwen3-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 937,
+      "likes": 10,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "diffusion",
+        "parallel-decoding"
+      ],
+      "lastModified": null,
+      "description": "Orthrus is a simple and efficient dual-architecture framework that unifies the exact generation fidelity of autoregressive Large Language Models (LLMs) with the high-speed parallel token generation of diffusion models. By augmenting a fr…"
+    },
+    {
+      "rank": 14,
       "id": "IAAR-Shanghai/MemPrivacy-4B-RL",
       "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-4B-RL",
       "pipelineTag": "text-generation",
@@ -777,7 +795,7 @@
       "description": "MemPrivacy-4B-RL is a lightweight, privacy-preserving model developed from the Qwen3-4B base model and further optimized through reinforcement learning. It is designed specifically for personalized memory management in edge-cloud agents,…"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "id": "meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
@@ -794,7 +812,7 @@
       "lastModified": null
     },
     {
-      "rank": 15,
+      "rank": 16,
       "id": "Qwen/Qwen2.5-1.5B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
       "pipelineTag": "text-generation",
@@ -812,7 +830,7 @@
       "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "id": "deepseek-ai/DeepSeek-R1",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
       "pipelineTag": "text-generation",
@@ -830,7 +848,7 @@
       "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
