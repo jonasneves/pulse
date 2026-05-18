@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-18T10:33:25.410Z",
+  "updated": "2026-05-18T13:21:15.418Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 258983755,
-      "likes": 4799,
+      "likes": 4800,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -43,7 +43,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 67673868,
-      "likes": 2653,
+      "likes": 2654,
       "tags": [
         "transformers",
         "pytorch",
@@ -61,7 +61,7 @@
       "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
       "pipelineTag": "text-ranking",
       "downloads": 55108223,
-      "likes": 239,
+      "likes": 240,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "pipelineTag": "feature-extraction",
       "downloads": 45716238,
-      "likes": 460,
+      "likes": 461,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -187,7 +187,7 @@
       "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
       "pipelineTag": "fill-mask",
       "downloads": 21723904,
-      "likes": 827,
+      "likes": 828,
       "tags": [
         "transformers",
         "pytorch",
@@ -259,7 +259,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 18506640,
-      "likes": 1248,
+      "likes": 1249,
       "tags": [
         "transformers",
         "safetensors",
@@ -277,7 +277,7 @@
       "url": "https://huggingface.co/FacebookAI/roberta-base",
       "pipelineTag": "fill-mask",
       "downloads": 18064942,
-      "likes": 600,
+      "likes": 601,
       "tags": [
         "transformers",
         "pytorch",
@@ -331,7 +331,7 @@
       "url": "https://huggingface.co/distilbert/distilbert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 16688644,
-      "likes": 879,
+      "likes": 880,
       "tags": [
         "transformers",
         "pytorch",
@@ -457,7 +457,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 12767574,
-      "likes": 1282,
+      "likes": 1283,
       "tags": [
         "transformers",
         "safetensors",
@@ -475,7 +475,7 @@
       "url": "https://huggingface.co/autogluon/chronos-2",
       "pipelineTag": "time-series-forecasting",
       "downloads": 12731271,
-      "likes": 18,
+      "likes": 19,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 10442933,
-      "likes": 5849,
+      "likes": 5850,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/Qwen/WebWorld-8B",
       "pipelineTag": "text-generation",
       "downloads": 1376,
-      "likes": 44,
+      "likes": 45,
       "tags": [
         "transformers",
         "safetensors",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-1.7B-SFT",
       "pipelineTag": "text-generation",
       "downloads": 763,
-      "likes": 25,
+      "likes": 26,
       "tags": [
         "transformers",
         "safetensors",
@@ -602,7 +602,7 @@
       "url": "https://huggingface.co/FINAL-Bench/Darwin-28B-REASON",
       "pipelineTag": "text-generation",
       "downloads": 139,
-      "likes": 20,
+      "likes": 22,
       "tags": [
         "transformers",
         "safetensors",
@@ -620,7 +620,7 @@
       "url": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 289276,
-      "likes": 254,
+      "likes": 255,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -634,6 +634,60 @@
     },
     {
       "rank": 6,
+      "id": "AIDC-AI/Marco-DeepResearch-8B",
+      "url": "https://huggingface.co/AIDC-AI/Marco-DeepResearch-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 304,
+      "likes": 24,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "deep-research",
+        "agent"
+      ],
+      "lastModified": null,
+      "description": "Marco DeepResearch is an efficient 8B-scale deep research agent developed by Alibaba International Digital Commerce (AIDC-AI). It autonomously conducts open-ended investigations by integrating complex information retrieval with multi-ste…"
+    },
+    {
+      "rank": 7,
+      "id": "Simplified-Reasoning/SU-01",
+      "url": "https://huggingface.co/Simplified-Reasoning/SU-01",
+      "pipelineTag": "text-generation",
+      "downloads": 216,
+      "likes": 14,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_moe",
+        "text-generation",
+        "reasoning",
+        "olympiad"
+      ],
+      "lastModified": null,
+      "description": "A compact 30B-A3B reasoning model for rigorous mathematical and scientific olympiad problem solving."
+    },
+    {
+      "rank": 8,
+      "id": "Qwen/Qwen2.5-7B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 12767574,
+      "likes": 1283,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "chat",
+        "conversational"
+      ],
+      "lastModified": null,
+      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
+    },
+    {
+      "rank": 9,
       "id": "Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
       "url": "https://huggingface.co/Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
       "pipelineTag": "text-generation",
@@ -651,25 +705,7 @@
       "description": "Claude Opus + Sonnet distilled Qwen 3.6 27B optimized for higher token efficiency, preserved deep reasoning, and MTP-accelerated vLLM deployment on Blackwell-class GPUs."
     },
     {
-      "rank": 7,
-      "id": "AIDC-AI/Marco-DeepResearch-8B",
-      "url": "https://huggingface.co/AIDC-AI/Marco-DeepResearch-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 304,
-      "likes": 23,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "deep-research",
-        "agent"
-      ],
-      "lastModified": null,
-      "description": "Marco DeepResearch is an efficient 8B-scale deep research agent developed by Alibaba International Digital Commerce (AIDC-AI). It autonomously conducts open-ended investigations by integrating complex information retrieval with multi-ste…"
-    },
-    {
-      "rank": 8,
+      "rank": 10,
       "id": "chiennv/Orthrus-Qwen3-8B",
       "url": "https://huggingface.co/chiennv/Orthrus-Qwen3-8B",
       "pipelineTag": "text-generation",
@@ -685,42 +721,6 @@
       ],
       "lastModified": null,
       "description": "Orthrus is a simple and efficient dual-architecture framework that unifies the exact generation fidelity of autoregressive Large Language Models (LLMs) with the high-speed parallel token generation of diffusion models. By augmenting a fr…"
-    },
-    {
-      "rank": 9,
-      "id": "Simplified-Reasoning/SU-01",
-      "url": "https://huggingface.co/Simplified-Reasoning/SU-01",
-      "pipelineTag": "text-generation",
-      "downloads": 216,
-      "likes": 13,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_moe",
-        "text-generation",
-        "reasoning",
-        "olympiad"
-      ],
-      "lastModified": null,
-      "description": "A compact 30B-A3B reasoning model for rigorous mathematical and scientific olympiad problem solving."
-    },
-    {
-      "rank": 10,
-      "id": "Qwen/Qwen2.5-7B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 12767574,
-      "likes": 1282,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "chat",
-        "conversational"
-      ],
-      "lastModified": null,
-      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
       "rank": 11,
@@ -778,6 +778,24 @@
     },
     {
       "rank": 14,
+      "id": "Abiray/ZAYA1-8B-GGUF",
+      "url": "https://huggingface.co/Abiray/ZAYA1-8B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 1720,
+      "likes": 10,
+      "tags": [
+        "gguf",
+        "zaya",
+        "moe",
+        "zyphra",
+        "text-generation",
+        "reasoning"
+      ],
+      "lastModified": null,
+      "description": "This repository contains GGUF quantizations of Zyphra/ZAYA1-8B."
+    },
+    {
+      "rank": 15,
       "id": "IAAR-Shanghai/MemPrivacy-4B-SFT",
       "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-4B-SFT",
       "pipelineTag": "text-generation",
@@ -795,7 +813,7 @@
       "description": "MemPrivacy-4B-SFT is a lightweight, privacy-preserving model fine-tuned from the Qwen3-4B base model. It is designed specifically for personalized memory management in edge-cloud agents."
     },
     {
-      "rank": 15,
+      "rank": 16,
       "id": "IAAR-Shanghai/MemPrivacy-4B-RL",
       "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-4B-RL",
       "pipelineTag": "text-generation",
@@ -813,25 +831,61 @@
       "description": "MemPrivacy-4B-RL is a lightweight, privacy-preserving model developed from the Qwen3-4B base model and further optimized through reinforcement learning. It is designed specifically for personalized memory management in edge-cloud agents,…"
     },
     {
-      "rank": 16,
-      "id": "Abiray/ZAYA1-8B-GGUF",
-      "url": "https://huggingface.co/Abiray/ZAYA1-8B-GGUF",
+      "rank": 17,
+      "id": "mistralai/Mistral-7B-Instruct-v0.2",
+      "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
       "pipelineTag": "text-generation",
-      "downloads": 1720,
-      "likes": 9,
+      "downloads": 3268730,
+      "likes": 3141,
       "tags": [
-        "gguf",
-        "zaya",
-        "moe",
-        "zyphra",
+        "transformers",
+        "pytorch",
+        "safetensors",
+        "mistral",
         "text-generation",
-        "reasoning"
+        "finetuned"
       ],
       "lastModified": null,
-      "description": "This repository contains GGUF quantizations of Zyphra/ZAYA1-8B."
+      "description": "The Mistral-7B-Instruct-v0.2 Large Language Model (LLM) is an instruct fine-tuned version of the Mistral-7B-v0.2."
     },
     {
-      "rank": 17,
+      "rank": 18,
+      "id": "deepseek-ai/DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "pipelineTag": "text-generation",
+      "downloads": 3781049,
+      "likes": 13331,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code"
+      ],
+      "lastModified": null,
+      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
+    },
+    {
+      "rank": 19,
+      "id": "Qwen/Qwen3-0.6B",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "pipelineTag": "text-generation",
+      "downloads": 18506640,
+      "likes": 1249,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "conversational",
+        "license:apache-2.0"
+      ],
+      "lastModified": null,
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
+      "rank": 20,
       "id": "WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
       "url": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
       "pipelineTag": "text-generation",
@@ -849,7 +903,7 @@
       "description": "Opus4.7 – GODsGhost Codex 4B is a compact, high-efficiency code-specialized language model designed for local inference via GGUF-compatible runtimes like llama.cpp and LM Studio."
     },
     {
-      "rank": 18,
+      "rank": 21,
       "id": "rico03/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-GGUF",
       "url": "https://huggingface.co/rico03/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-GGUF",
       "pipelineTag": "text-generation",
