@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-18T18:41:21.428Z",
+  "updated": "2026-05-18T21:30:18.068Z",
   "models": [
     {
       "rank": 1,
@@ -43,7 +43,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 67673868,
-      "likes": 2654,
+      "likes": 2655,
       "tags": [
         "transformers",
         "pytorch",
@@ -638,7 +638,7 @@
       "url": "https://huggingface.co/AIDC-AI/Marco-DeepResearch-8B",
       "pipelineTag": "text-generation",
       "downloads": 304,
-      "likes": 24,
+      "likes": 25,
       "tags": [
         "transformers",
         "safetensors",
@@ -706,24 +706,6 @@
     },
     {
       "rank": 10,
-      "id": "Qwen/Qwen2.5-7B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 12767574,
-      "likes": 1283,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "chat",
-        "conversational"
-      ],
-      "lastModified": null,
-      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
-    },
-    {
-      "rank": 11,
       "id": "IAAR-Shanghai/MemPrivacy-1.7B-RL",
       "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-1.7B-RL",
       "pipelineTag": "text-generation",
@@ -739,6 +721,24 @@
       ],
       "lastModified": null,
       "description": "MemPrivacy-1.7B-RL is a lightweight, privacy-preserving model developed from the Qwen3-1.7B base model and further optimized through reinforcement learning. It is designed specifically for personalized memory management in edge-cloud age…"
+    },
+    {
+      "rank": 11,
+      "id": "Qwen/Qwen2.5-7B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 12767574,
+      "likes": 1283,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "chat",
+        "conversational"
+      ],
+      "lastModified": null,
+      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
       "rank": 12,
@@ -778,24 +778,6 @@
     },
     {
       "rank": 14,
-      "id": "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
-      "url": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
-      "pipelineTag": "text-generation",
-      "downloads": 183319,
-      "likes": 140,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5_moe",
-        "image-text-to-text",
-        "text-generation",
-        "reasoning"
-      ],
-      "lastModified": null,
-      "description": "A reasoning-distilled variant of Qwen3.6-35B-A3B taught to imitate the chain-of-thought style of Claude Opus 4.7, the frontier reasoning model from Anthropic. The goal: port Claude-grade reasoning behavior into a permissively-licensed Mi…"
-    },
-    {
-      "rank": 15,
       "id": "IAAR-Shanghai/MemPrivacy-4B-SFT",
       "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-4B-SFT",
       "pipelineTag": "text-generation",
@@ -813,7 +795,7 @@
       "description": "MemPrivacy-4B-SFT is a lightweight, privacy-preserving model fine-tuned from the Qwen3-4B base model. It is designed specifically for personalized memory management in edge-cloud agents."
     },
     {
-      "rank": 16,
+      "rank": 15,
       "id": "IAAR-Shanghai/MemPrivacy-4B-RL",
       "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-4B-RL",
       "pipelineTag": "text-generation",
@@ -829,6 +811,23 @@
       ],
       "lastModified": null,
       "description": "MemPrivacy-4B-RL is a lightweight, privacy-preserving model developed from the Qwen3-4B base model and further optimized through reinforcement learning. It is designed specifically for personalized memory management in edge-cloud agents,…"
+    },
+    {
+      "rank": 16,
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 2393297,
+      "likes": 2133,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
     },
     {
       "rank": 17,
@@ -868,39 +867,21 @@
     },
     {
       "rank": 19,
-      "id": "mistralai/Mistral-7B-Instruct-v0.2",
-      "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
+      "id": "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
+      "url": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
       "pipelineTag": "text-generation",
-      "downloads": 3268730,
-      "likes": 3141,
-      "tags": [
-        "transformers",
-        "pytorch",
-        "safetensors",
-        "mistral",
-        "text-generation",
-        "finetuned"
-      ],
-      "lastModified": null,
-      "description": "The Mistral-7B-Instruct-v0.2 Large Language Model (LLM) is an instruct fine-tuned version of the Mistral-7B-v0.2."
-    },
-    {
-      "rank": 20,
-      "id": "NousResearch/Hermes-3-Llama-3.1-8B",
-      "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 217198,
-      "likes": 425,
+      "downloads": 183319,
+      "likes": 140,
       "tags": [
         "transformers",
         "safetensors",
-        "llama",
+        "qwen3_5_moe",
+        "image-text-to-text",
         "text-generation",
-        "Llama-3",
-        "instruct"
+        "reasoning"
       ],
       "lastModified": null,
-      "description": "Hermes 3 is the latest version of our flagship Hermes series of LLMs by Nous Research."
+      "description": "A reasoning-distilled variant of Qwen3.6-35B-A3B taught to imitate the chain-of-thought style of Claude Opus 4.7, the frontier reasoning model from Anthropic. The goal: port Claude-grade reasoning behavior into a permissively-licensed Mi…"
     }
   ]
 }
