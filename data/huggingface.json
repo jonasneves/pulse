@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T07:20:16.914Z",
+  "updated": "2026-05-19T10:19:58.007Z",
   "models": [
     {
       "rank": 1,
@@ -24,7 +24,7 @@
       "id": "Qwen/Qwen3-VL-2B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct",
       "pipelineTag": "image-text-to-text",
-      "downloads": 137944458,
+      "downloads": 124774633,
       "likes": 407,
       "tags": [
         "transformers",
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 27202170,
-      "likes": 3011,
+      "likes": 3013,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -258,8 +258,8 @@
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
-      "downloads": 18506640,
-      "likes": 1249,
+      "downloads": 18497660,
+      "likes": 1250,
       "tags": [
         "transformers",
         "safetensors",
@@ -295,7 +295,7 @@
       "url": "https://huggingface.co/colbert-ir/colbertv2.0",
       "pipelineTag": null,
       "downloads": 17484425,
-      "likes": 343,
+      "likes": 344,
       "tags": [
         "transformers",
         "pytorch",
@@ -313,7 +313,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 17034548,
-      "likes": 3243,
+      "likes": 3244,
       "tags": [
         "transformers",
         "pytorch",
@@ -366,8 +366,8 @@
       "id": "amazon/chronos-2",
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
-      "downloads": 15680010,
-      "likes": 285,
+      "downloads": 16089587,
+      "likes": 286,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -453,6 +453,24 @@
     },
     {
       "rank": 26,
+      "id": "autogluon/chronos-2",
+      "url": "https://huggingface.co/autogluon/chronos-2",
+      "pipelineTag": "time-series-forecasting",
+      "downloads": 13242427,
+      "likes": 19,
+      "tags": [
+        "chronos-forecasting",
+        "safetensors",
+        "t5",
+        "time series",
+        "forecasting",
+        "foundation models"
+      ],
+      "lastModified": null,
+      "description": "Chronos-2 is a 120M-parameter, encoder-only time series foundation model for zero-shot forecasting. It supports univariate, multivariate, and covariate-informed tasks within a single architecture. Inspired by the T5 encoder, Chronos-2 pr…"
+    },
+    {
+      "rank": 27,
       "id": "Qwen/Qwen2.5-7B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
@@ -468,24 +486,6 @@
       ],
       "lastModified": null,
       "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
-    },
-    {
-      "rank": 27,
-      "id": "autogluon/chronos-2",
-      "url": "https://huggingface.co/autogluon/chronos-2",
-      "pipelineTag": "time-series-forecasting",
-      "downloads": 12731271,
-      "likes": 19,
-      "tags": [
-        "chronos-forecasting",
-        "safetensors",
-        "t5",
-        "time series",
-        "forecasting",
-        "foundation models"
-      ],
-      "lastModified": null,
-      "description": "Chronos-2 is a 120M-parameter, encoder-only time series foundation model for zero-shot forecasting. It supports univariate, multivariate, and covariate-informed tasks within a single architecture. Inspired by the T5 encoder, Chronos-2 pr…"
     },
     {
       "rank": 28,
@@ -528,7 +528,7 @@
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
-      "downloads": 11578295,
+      "downloads": 11619105,
       "likes": 1093,
       "tags": [
         "transformers",
@@ -548,8 +548,8 @@
       "id": "sapientinc/HRM-Text-1B",
       "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
       "pipelineTag": "text-generation",
-      "downloads": 57,
-      "likes": 53,
+      "downloads": 884,
+      "likes": 66,
       "tags": [
         "transformers",
         "safetensors",
@@ -567,7 +567,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 10785213,
-      "likes": 5851,
+      "likes": 5852,
       "tags": [
         "transformers",
         "safetensors",
@@ -580,28 +580,10 @@
     },
     {
       "rank": 3,
-      "id": "IAAR-Shanghai/MemPrivacy-1.7B-SFT",
-      "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-1.7B-SFT",
-      "pipelineTag": "text-generation",
-      "downloads": 763,
-      "likes": 28,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "privacy",
-        "privacy-detection"
-      ],
-      "lastModified": null,
-      "description": "MemPrivacy-1.7B-SFT is a lightweight, privacy-preserving model fine-tuned from the Qwen3-1.7B base model. It is designed specifically for personalized memory management in edge-cloud agents."
-    },
-    {
-      "rank": 4,
       "id": "Qwen/WebWorld-8B",
       "url": "https://huggingface.co/Qwen/WebWorld-8B",
       "pipelineTag": "text-generation",
-      "downloads": 1376,
+      "downloads": 1565,
       "likes": 46,
       "tags": [
         "transformers",
@@ -615,11 +597,11 @@
       "description": "WebWorld is a large-scale open-web world model series for training and evaluating web agents. It is trained on 1M+ real-world web interaction trajectories via a scalable hierarchical data pipeline, supporting:"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "id": "FINAL-Bench/Darwin-28B-REASON",
       "url": "https://huggingface.co/FINAL-Bench/Darwin-28B-REASON",
       "pipelineTag": "text-generation",
-      "downloads": 139,
+      "downloads": 202,
       "likes": 22,
       "tags": [
         "transformers",
@@ -633,11 +615,11 @@
       "description": "Darwin-28B-REASON is a reasoning-enhanced standalone model derived from Darwin-28B-Opus. It combines two components:"
     },
     {
-      "rank": 6,
+      "rank": 5,
       "id": "hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
       "url": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 289276,
+      "downloads": 283372,
       "likes": 256,
       "tags": [
         "gguf",
@@ -651,29 +633,11 @@
       "description": "GGUF quantizations of hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled, a reasoning SFT fine-tune of Qwen/Qwen3.6-35B-A3B on Claude Opus 4.6-style chain-of-thought distillation data."
     },
     {
-      "rank": 7,
-      "id": "AIDC-AI/Marco-DeepResearch-8B",
-      "url": "https://huggingface.co/AIDC-AI/Marco-DeepResearch-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 304,
-      "likes": 25,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "deep-research",
-        "agent"
-      ],
-      "lastModified": null,
-      "description": "Marco DeepResearch is an efficient 8B-scale deep research agent developed by Alibaba International Digital Commerce (AIDC-AI). It autonomously conducts open-ended investigations by integrating complex information retrieval with multi-ste…"
-    },
-    {
-      "rank": 8,
+      "rank": 6,
       "id": "chiennv/Orthrus-Qwen3-8B",
       "url": "https://huggingface.co/chiennv/Orthrus-Qwen3-8B",
       "pipelineTag": "text-generation",
-      "downloads": 1535,
+      "downloads": 1720,
       "likes": 15,
       "tags": [
         "transformers",
@@ -687,11 +651,11 @@
       "description": "Orthrus is a simple and efficient dual-architecture framework that unifies the exact generation fidelity of autoregressive Large Language Models (LLMs) with the high-speed parallel token generation of diffusion models. By augmenting a fr…"
     },
     {
-      "rank": 9,
+      "rank": 7,
       "id": "Simplified-Reasoning/SU-01",
       "url": "https://huggingface.co/Simplified-Reasoning/SU-01",
       "pipelineTag": "text-generation",
-      "downloads": 216,
+      "downloads": 265,
       "likes": 15,
       "tags": [
         "transformers",
@@ -705,12 +669,12 @@
       "description": "A compact 30B-A3B reasoning model for rigorous mathematical and scientific olympiad problem solving."
     },
     {
-      "rank": 10,
+      "rank": 8,
       "id": "Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
       "url": "https://huggingface.co/Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-NVFP4-MTP",
       "pipelineTag": "text-generation",
-      "downloads": 15013,
-      "likes": 24,
+      "downloads": 43424,
+      "likes": 25,
       "tags": [
         "transformers",
         "safetensors",
@@ -721,6 +685,42 @@
       ],
       "lastModified": null,
       "description": "Claude Opus + Sonnet distilled Qwen 3.6 27B optimized for higher token efficiency, preserved deep reasoning, and MTP-accelerated vLLM deployment on Blackwell-class GPUs."
+    },
+    {
+      "rank": 9,
+      "id": "AIDC-AI/Marco-DeepResearch-8B",
+      "url": "https://huggingface.co/AIDC-AI/Marco-DeepResearch-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 353,
+      "likes": 26,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "deep-research",
+        "agent"
+      ],
+      "lastModified": null,
+      "description": "Marco DeepResearch is an efficient 8B-scale deep research agent developed by Alibaba International Digital Commerce (AIDC-AI). It autonomously conducts open-ended investigations by integrating complex information retrieval with multi-ste…"
+    },
+    {
+      "rank": 10,
+      "id": "IAAR-Shanghai/MemPrivacy-1.7B-SFT",
+      "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-1.7B-SFT",
+      "pipelineTag": "text-generation",
+      "downloads": 901,
+      "likes": 29,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "privacy",
+        "privacy-detection"
+      ],
+      "lastModified": null,
+      "description": "MemPrivacy-1.7B-SFT is a lightweight, privacy-preserving model fine-tuned from the Qwen3-1.7B base model. It is designed specifically for personalized memory management in edge-cloud agents."
     },
     {
       "rank": 11,
@@ -745,7 +745,7 @@
       "id": "Qwen/Qwen3-1.7B",
       "url": "https://huggingface.co/Qwen/Qwen3-1.7B",
       "pipelineTag": "text-generation",
-      "downloads": 3550364,
+      "downloads": 3588521,
       "likes": 472,
       "tags": [
         "transformers",
@@ -760,28 +760,10 @@
     },
     {
       "rank": 13,
-      "id": "IAAR-Shanghai/MemPrivacy-1.7B-RL",
-      "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-1.7B-RL",
-      "pipelineTag": "text-generation",
-      "downloads": 1324,
-      "likes": 12,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "privacy",
-        "privacy-detection"
-      ],
-      "lastModified": null,
-      "description": "MemPrivacy-1.7B-RL is a lightweight, privacy-preserving model developed from the Qwen3-1.7B base model and further optimized through reinforcement learning. It is designed specifically for personalized memory management in edge-cloud age…"
-    },
-    {
-      "rank": 14,
       "id": "Abiray/ZAYA1-8B-GGUF",
       "url": "https://huggingface.co/Abiray/ZAYA1-8B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 1720,
+      "downloads": 2728,
       "likes": 11,
       "tags": [
         "gguf",
@@ -795,11 +777,29 @@
       "description": "This repository contains GGUF quantizations of Zyphra/ZAYA1-8B."
     },
     {
+      "rank": 14,
+      "id": "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
+      "url": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
+      "pipelineTag": "text-generation",
+      "downloads": 183203,
+      "likes": 143,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5_moe",
+        "image-text-to-text",
+        "text-generation",
+        "reasoning"
+      ],
+      "lastModified": null,
+      "description": "A reasoning-distilled variant of Qwen3.6-35B-A3B taught to imitate the chain-of-thought style of Claude Opus 4.7, the frontier reasoning model from Anthropic. The goal: port Claude-grade reasoning behavior into a permissively-licensed Mi…"
+    },
+    {
       "rank": 15,
       "id": "WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
       "url": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
       "pipelineTag": "text-generation",
-      "downloads": 25703,
+      "downloads": 28807,
       "likes": 58,
       "tags": [
         "gguf",
@@ -814,42 +814,24 @@
     },
     {
       "rank": 16,
-      "id": "IAAR-Shanghai/MemPrivacy-4B-SFT",
-      "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-4B-SFT",
+      "id": "mistralai/Mistral-7B-Instruct-v0.2",
+      "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
       "pipelineTag": "text-generation",
-      "downloads": 509,
-      "likes": 10,
+      "downloads": 3274617,
+      "likes": 3142,
       "tags": [
         "transformers",
+        "pytorch",
         "safetensors",
-        "qwen3",
+        "mistral",
         "text-generation",
-        "privacy",
-        "privacy-detection"
+        "finetuned"
       ],
       "lastModified": null,
-      "description": "MemPrivacy-4B-SFT is a lightweight, privacy-preserving model fine-tuned from the Qwen3-4B base model. It is designed specifically for personalized memory management in edge-cloud agents."
+      "description": "The Mistral-7B-Instruct-v0.2 Large Language Model (LLM) is an instruct fine-tuned version of the Mistral-7B-v0.2."
     },
     {
       "rank": 17,
-      "id": "IAAR-Shanghai/MemPrivacy-4B-RL",
-      "url": "https://huggingface.co/IAAR-Shanghai/MemPrivacy-4B-RL",
-      "pipelineTag": "text-generation",
-      "downloads": 631,
-      "likes": 10,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "privacy",
-        "privacy-detection"
-      ],
-      "lastModified": null,
-      "description": "MemPrivacy-4B-RL is a lightweight, privacy-preserving model developed from the Qwen3-4B base model and further optimized through reinforcement learning. It is designed specifically for personalized memory management in edge-cloud agents,…"
-    },
-    {
-      "rank": 18,
       "id": "NousResearch/Hermes-3-Llama-3.1-8B",
       "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
       "pipelineTag": "text-generation",
@@ -867,7 +849,7 @@
       "description": "Hermes 3 is the latest version of our flagship Hermes series of LLMs by Nous Research."
     },
     {
-      "rank": 19,
+      "rank": 18,
       "id": "meta-llama/Llama-3.2-1B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
       "pipelineTag": "text-generation",
@@ -884,28 +866,11 @@
       "lastModified": null
     },
     {
-      "rank": 20,
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 2400226,
-      "likes": 2134,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 21,
+      "rank": 19,
       "id": "deepseek-ai/DeepSeek-R1",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
       "pipelineTag": "text-generation",
-      "downloads": 3781049,
+      "downloads": 3924613,
       "likes": 13331,
       "tags": [
         "transformers",
@@ -919,22 +884,22 @@
       "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
     },
     {
-      "rank": 22,
-      "id": "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
-      "url": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
+      "rank": 20,
+      "id": "Qwen/Qwen3-0.6B",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
-      "downloads": 183319,
-      "likes": 141,
+      "downloads": 18497660,
+      "likes": 1250,
       "tags": [
         "transformers",
         "safetensors",
-        "qwen3_5_moe",
-        "image-text-to-text",
+        "qwen3",
         "text-generation",
-        "reasoning"
+        "conversational",
+        "license:apache-2.0"
       ],
       "lastModified": null,
-      "description": "A reasoning-distilled variant of Qwen3.6-35B-A3B taught to imitate the chain-of-thought style of Claude Opus 4.7, the frontier reasoning model from Anthropic. The goal: port Claude-grade reasoning behavior into a permissively-licensed Mi…"
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     }
   ]
 }
