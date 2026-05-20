@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T21:34:23.846Z",
+  "updated": "2026-05-20T00:55:30.432Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 260293932,
-      "likes": 4802,
+      "likes": 4803,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -259,7 +259,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 18497660,
-      "likes": 1252,
+      "likes": 1253,
       "tags": [
         "transformers",
         "safetensors",
@@ -313,7 +313,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 17034548,
-      "likes": 3245,
+      "likes": 3246,
       "tags": [
         "transformers",
         "pytorch",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
       "pipelineTag": "text-generation",
       "downloads": 884,
-      "likes": 109,
+      "likes": 119,
       "tags": [
         "transformers",
         "safetensors",
@@ -688,24 +688,6 @@
     },
     {
       "rank": 9,
-      "id": "AIDC-AI/Marco-DeepResearch-8B",
-      "url": "https://huggingface.co/AIDC-AI/Marco-DeepResearch-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 353,
-      "likes": 26,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "deep-research",
-        "agent"
-      ],
-      "lastModified": null,
-      "description": "Marco DeepResearch is an efficient 8B-scale deep research agent developed by Alibaba International Digital Commerce (AIDC-AI). It autonomously conducts open-ended investigations by integrating complex information retrieval with multi-ste…"
-    },
-    {
-      "rank": 10,
       "id": "Qwen/Qwen3-1.7B",
       "url": "https://huggingface.co/Qwen/Qwen3-1.7B",
       "pipelineTag": "text-generation",
@@ -721,6 +703,24 @@
       ],
       "lastModified": null,
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
+      "rank": 10,
+      "id": "AIDC-AI/Marco-DeepResearch-8B",
+      "url": "https://huggingface.co/AIDC-AI/Marco-DeepResearch-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 353,
+      "likes": 26,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "deep-research",
+        "agent"
+      ],
+      "lastModified": null,
+      "description": "Marco DeepResearch is an efficient 8B-scale deep research agent developed by Alibaba International Digital Commerce (AIDC-AI). It autonomously conducts open-ended investigations by integrating complex information retrieval with multi-ste…"
     },
     {
       "rank": 11,
@@ -778,6 +778,24 @@
     },
     {
       "rank": 14,
+      "id": "Qwen/Qwen3-0.6B",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "pipelineTag": "text-generation",
+      "downloads": 18497660,
+      "likes": 1253,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "conversational",
+        "license:apache-2.0"
+      ],
+      "lastModified": null,
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
+      "rank": 15,
       "id": "WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
       "url": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
       "pipelineTag": "text-generation",
@@ -795,7 +813,7 @@
       "description": "Opus4.7 – GODsGhost Codex 4B is a compact, high-efficiency code-specialized language model designed for local inference via GGUF-compatible runtimes like llama.cpp and LM Studio."
     },
     {
-      "rank": 15,
+      "rank": 16,
       "id": "mistralai/Mistral-7B-Instruct-v0.2",
       "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
       "pipelineTag": "text-generation",
@@ -813,7 +831,7 @@
       "description": "The Mistral-7B-Instruct-v0.2 Large Language Model (LLM) is an instruct fine-tuned version of the Mistral-7B-v0.2."
     },
     {
-      "rank": 16,
+      "rank": 17,
       "id": "NousResearch/Hermes-3-Llama-3.1-8B",
       "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
       "pipelineTag": "text-generation",
@@ -829,24 +847,6 @@
       ],
       "lastModified": null,
       "description": "Hermes 3 is the latest version of our flagship Hermes series of LLMs by Nous Research."
-    },
-    {
-      "rank": 17,
-      "id": "Qwen/Qwen3-0.6B",
-      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
-      "pipelineTag": "text-generation",
-      "downloads": 18497660,
-      "likes": 1252,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "conversational",
-        "license:apache-2.0"
-      ],
-      "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
       "rank": 18,
@@ -868,20 +868,21 @@
     },
     {
       "rank": 19,
-      "id": "meta-llama/Llama-3.2-1B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+      "id": "BennyDaBall/Qwen3-4b-Z-Image-Engineer-V4",
+      "url": "https://huggingface.co/BennyDaBall/Qwen3-4b-Z-Image-Engineer-V4",
       "pipelineTag": "text-generation",
-      "downloads": 7743597,
-      "likes": 1412,
+      "downloads": 23311,
+      "likes": 140,
       "tags": [
         "transformers",
         "safetensors",
-        "llama",
+        "gguf",
         "text-generation",
-        "facebook",
-        "meta"
+        "prompt-engineering",
+        "image-generation"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "This is Z-Engineer V4, the culmination of extensive research into what makes an AI prompt engineer actually good at its job. Built on the Qwen 3 architecture and trained using a novel SMART Training methodology, this 4B parameter model d…"
     }
   ]
 }
