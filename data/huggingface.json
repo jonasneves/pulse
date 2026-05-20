@@ -1,12 +1,12 @@
 {
-  "updated": "2026-05-20T04:29:43.234Z",
+  "updated": "2026-05-20T07:20:34.069Z",
   "models": [
     {
       "rank": 1,
       "id": "sentence-transformers/all-MiniLM-L6-v2",
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 260293932,
+      "downloads": 259600864,
       "likes": 4805,
       "tags": [
         "sentence-transformers",
@@ -42,7 +42,7 @@
       "id": "google-bert/bert-base-uncased",
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
-      "downloads": 68707797,
+      "downloads": 68788715,
       "likes": 2656,
       "tags": [
         "transformers",
@@ -60,7 +60,7 @@
       "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
       "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
       "pipelineTag": "text-ranking",
-      "downloads": 56250274,
+      "downloads": 57198263,
       "likes": 240,
       "tags": [
         "sentence-transformers",
@@ -78,7 +78,7 @@
       "id": "google/electra-base-discriminator",
       "url": "https://huggingface.co/google/electra-base-discriminator",
       "pipelineTag": null,
-      "downloads": 55367792,
+      "downloads": 56217353,
       "likes": 107,
       "tags": [
         "transformers",
@@ -96,7 +96,7 @@
       "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 48458741,
+      "downloads": 48557139,
       "likes": 1228,
       "tags": [
         "sentence-transformers",
@@ -114,7 +114,7 @@
       "id": "BAAI/bge-small-en-v1.5",
       "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "pipelineTag": "feature-extraction",
-      "downloads": 46342929,
+      "downloads": 46818320,
       "likes": 463,
       "tags": [
         "sentence-transformers",
@@ -132,7 +132,7 @@
       "id": "sentence-transformers/all-mpnet-base-v2",
       "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 35505316,
+      "downloads": 35460737,
       "likes": 1292,
       "tags": [
         "sentence-transformers",
@@ -150,7 +150,7 @@
       "id": "openai/clip-vit-large-patch14",
       "url": "https://huggingface.co/openai/clip-vit-large-patch14",
       "pipelineTag": "zero-shot-image-classification",
-      "downloads": 32626672,
+      "downloads": 32278226,
       "likes": 2013,
       "tags": [
         "transformers",
@@ -168,7 +168,7 @@
       "id": "BAAI/bge-m3",
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
-      "downloads": 27202170,
+      "downloads": 27505083,
       "likes": 3014,
       "tags": [
         "sentence-transformers",
@@ -186,7 +186,7 @@
       "id": "FacebookAI/xlm-roberta-base",
       "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
       "pipelineTag": "fill-mask",
-      "downloads": 22086276,
+      "downloads": 22102258,
       "likes": 829,
       "tags": [
         "transformers",
@@ -204,7 +204,7 @@
       "id": "openai/clip-vit-base-patch32",
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
-      "downloads": 21664550,
+      "downloads": 21666682,
       "likes": 936,
       "tags": [
         "transformers",
@@ -222,7 +222,7 @@
       "id": "FacebookAI/roberta-large",
       "url": "https://huggingface.co/FacebookAI/roberta-large",
       "pipelineTag": "fill-mask",
-      "downloads": 20698226,
+      "downloads": 21129690,
       "likes": 288,
       "tags": [
         "transformers",
@@ -240,7 +240,7 @@
       "id": "laion/clap-htsat-fused",
       "url": "https://huggingface.co/laion/clap-htsat-fused",
       "pipelineTag": "audio-classification",
-      "downloads": 20500168,
+      "downloads": 20135801,
       "likes": 86,
       "tags": [
         "transformers",
@@ -273,28 +273,10 @@
     },
     {
       "rank": 16,
-      "id": "FacebookAI/roberta-base",
-      "url": "https://huggingface.co/FacebookAI/roberta-base",
-      "pipelineTag": "fill-mask",
-      "downloads": 18044995,
-      "likes": 601,
-      "tags": [
-        "transformers",
-        "pytorch",
-        "tf",
-        "jax",
-        "rust",
-        "safetensors"
-      ],
-      "lastModified": null,
-      "description": "Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model is case-sensitive: it makes a difference between english and English."
-    },
-    {
-      "rank": 17,
       "id": "colbert-ir/colbertv2.0",
       "url": "https://huggingface.co/colbert-ir/colbertv2.0",
       "pipelineTag": null,
-      "downloads": 17484425,
+      "downloads": 17696821,
       "likes": 344,
       "tags": [
         "transformers",
@@ -308,11 +290,29 @@
       "description": "As Figure 1 illustrates, ColBERT relies on fine-grained contextual late interaction: it encodes each passage into a matrix of token-level embeddings (shown above in blue). Then at search time, it embeds every query into another matrix (s…"
     },
     {
+      "rank": 17,
+      "id": "FacebookAI/roberta-base",
+      "url": "https://huggingface.co/FacebookAI/roberta-base",
+      "pipelineTag": "fill-mask",
+      "downloads": 17615072,
+      "likes": 601,
+      "tags": [
+        "transformers",
+        "pytorch",
+        "tf",
+        "jax",
+        "rust",
+        "safetensors"
+      ],
+      "lastModified": null,
+      "description": "Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model is case-sensitive: it makes a difference between english and English."
+    },
+    {
       "rank": 18,
       "id": "openai-community/gpt2",
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
-      "downloads": 17034548,
+      "downloads": 17361284,
       "likes": 3246,
       "tags": [
         "transformers",
@@ -330,8 +330,8 @@
       "id": "nomic-ai/nomic-embed-text-v1.5",
       "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
       "pipelineTag": "sentence-similarity",
-      "downloads": 16928220,
-      "likes": 828,
+      "downloads": 17025493,
+      "likes": 829,
       "tags": [
         "sentence-transformers",
         "onnx",
@@ -345,24 +345,6 @@
     },
     {
       "rank": 20,
-      "id": "distilbert/distilbert-base-uncased",
-      "url": "https://huggingface.co/distilbert/distilbert-base-uncased",
-      "pipelineTag": "fill-mask",
-      "downloads": 16329797,
-      "likes": 880,
-      "tags": [
-        "transformers",
-        "pytorch",
-        "tf",
-        "jax",
-        "rust",
-        "safetensors"
-      ],
-      "lastModified": null,
-      "description": "This model is a distilled version of the BERT base model. It was introduced in this paper. The code for the distillation process can be found here. This model is uncased: it does not make a difference between english and English."
-    },
-    {
-      "rank": 21,
       "id": "amazon/chronos-2",
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
@@ -380,29 +362,29 @@
       "description": "Update Dec 30, 2025: ☁️ Deploy Chronos-2 on Amazon SageMaker. New guide covers real-time GPU and CPU inference, serverless endpoints (run on demand, no idle costs), and batch transform for large-scale forecasting."
     },
     {
-      "rank": 22,
-      "id": "timm/mobilenetv3_small_100.lamb_in1k",
-      "url": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
-      "pipelineTag": "image-classification",
-      "downloads": 15635004,
-      "likes": 71,
+      "rank": 21,
+      "id": "distilbert/distilbert-base-uncased",
+      "url": "https://huggingface.co/distilbert/distilbert-base-uncased",
+      "pipelineTag": "fill-mask",
+      "downloads": 15748855,
+      "likes": 880,
       "tags": [
-        "timm",
-        "pytorch",
-        "safetensors",
-        "image-classification",
         "transformers",
-        "dataset:imagenet-1k"
+        "pytorch",
+        "tf",
+        "jax",
+        "rust",
+        "safetensors"
       ],
       "lastModified": null,
-      "description": "A MobileNet-v3 image classification model. Trained on ImageNet-1k in timm using recipe template described below."
+      "description": "This model is a distilled version of the BERT base model. It was introduced in this paper. The code for the distillation process can be found here. This model is uncased: it does not make a difference between english and English."
     },
     {
-      "rank": 23,
+      "rank": 22,
       "id": "Bingsu/adetailer",
       "url": "https://huggingface.co/Bingsu/adetailer",
       "pipelineTag": null,
-      "downloads": 15212570,
+      "downloads": 15142798,
       "likes": 697,
       "tags": [
         "ultralytics",
@@ -416,11 +398,29 @@
       "description": "Since getattr is classified as a dangerous pickle function, any segmentation model that uses it is classified as unsafe."
     },
     {
+      "rank": 23,
+      "id": "timm/mobilenetv3_small_100.lamb_in1k",
+      "url": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
+      "pipelineTag": "image-classification",
+      "downloads": 15083118,
+      "likes": 71,
+      "tags": [
+        "timm",
+        "pytorch",
+        "safetensors",
+        "image-classification",
+        "transformers",
+        "dataset:imagenet-1k"
+      ],
+      "lastModified": null,
+      "description": "A MobileNet-v3 image classification model. Trained on ImageNet-1k in timm using recipe template described below."
+    },
+    {
       "rank": 24,
       "id": "BAAI/bge-large-en-v1.5",
       "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
       "pipelineTag": "feature-extraction",
-      "downloads": 14636266,
+      "downloads": 14621854,
       "likes": 664,
       "tags": [
         "sentence-transformers",
@@ -438,7 +438,7 @@
       "id": "Qwen/Qwen2.5-1.5B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 13480118,
+      "downloads": 13739532,
       "likes": 701,
       "tags": [
         "transformers",
@@ -474,7 +474,7 @@
       "id": "Qwen/Qwen2.5-7B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 12975576,
+      "downloads": 13118433,
       "likes": 1284,
       "tags": [
         "transformers",
@@ -492,7 +492,7 @@
       "id": "lpiccinelli/unidepth-v2-vitl14",
       "url": "https://huggingface.co/lpiccinelli/unidepth-v2-vitl14",
       "pipelineTag": null,
-      "downloads": 12383487,
+      "downloads": 12736347,
       "likes": 17,
       "tags": [
         "UniDepth",
@@ -510,7 +510,7 @@
       "id": "BAAI/bge-reranker-v2-m3",
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
-      "downloads": 11922916,
+      "downloads": 12082548,
       "likes": 989,
       "tags": [
         "sentence-transformers",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
       "pipelineTag": "text-generation",
       "downloads": 884,
-      "likes": 128,
+      "likes": 137,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 10785213,
+      "downloads": 10988783,
       "likes": 5857,
       "tags": [
         "transformers",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/FINAL-Bench/Darwin-28B-REASON",
       "pipelineTag": "text-generation",
       "downloads": 202,
-      "likes": 22,
+      "likes": 23,
       "tags": [
         "transformers",
         "safetensors",
@@ -598,24 +598,6 @@
     },
     {
       "rank": 4,
-      "id": "Qwen/WebWorld-8B",
-      "url": "https://huggingface.co/Qwen/WebWorld-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 1565,
-      "likes": 47,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "WebWorld",
-        "web-agent"
-      ],
-      "lastModified": null,
-      "description": "WebWorld is a large-scale open-web world model series for training and evaluating web agents. It is trained on 1M+ real-world web interaction trajectories via a scalable hierarchical data pipeline, supporting:"
-    },
-    {
-      "rank": 5,
       "id": "chiennv/Orthrus-Qwen3-8B",
       "url": "https://huggingface.co/chiennv/Orthrus-Qwen3-8B",
       "pipelineTag": "text-generation",
@@ -633,7 +615,43 @@
       "description": "Orthrus is a simple and efficient dual-architecture framework that unifies the exact generation fidelity of autoregressive Large Language Models (LLMs) with the high-speed parallel token generation of diffusion models. By augmenting a fr…"
     },
     {
+      "rank": 5,
+      "id": "Simplified-Reasoning/SU-01",
+      "url": "https://huggingface.co/Simplified-Reasoning/SU-01",
+      "pipelineTag": "text-generation",
+      "downloads": 265,
+      "likes": 17,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_moe",
+        "text-generation",
+        "reasoning",
+        "olympiad"
+      ],
+      "lastModified": null,
+      "description": "A compact 30B-A3B reasoning model for rigorous mathematical and scientific olympiad problem solving."
+    },
+    {
       "rank": 6,
+      "id": "Qwen/WebWorld-8B",
+      "url": "https://huggingface.co/Qwen/WebWorld-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 1565,
+      "likes": 47,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "WebWorld",
+        "web-agent"
+      ],
+      "lastModified": null,
+      "description": "WebWorld is a large-scale open-web world model series for training and evaluating web agents. It is trained on 1M+ real-world web interaction trajectories via a scalable hierarchical data pipeline, supporting:"
+    },
+    {
+      "rank": 7,
       "id": "hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
       "url": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
       "pipelineTag": "text-generation",
@@ -649,24 +667,6 @@
       ],
       "lastModified": null,
       "description": "GGUF quantizations of hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled, a reasoning SFT fine-tune of Qwen/Qwen3.6-35B-A3B on Claude Opus 4.6-style chain-of-thought distillation data."
-    },
-    {
-      "rank": 7,
-      "id": "Simplified-Reasoning/SU-01",
-      "url": "https://huggingface.co/Simplified-Reasoning/SU-01",
-      "pipelineTag": "text-generation",
-      "downloads": 265,
-      "likes": 16,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_moe",
-        "text-generation",
-        "reasoning",
-        "olympiad"
-      ],
-      "lastModified": null,
-      "description": "A compact 30B-A3B reasoning model for rigorous mathematical and scientific olympiad problem solving."
     },
     {
       "rank": 8,
@@ -742,10 +742,28 @@
     },
     {
       "rank": 12,
+      "id": "HuggingFaceBio/Carbon-8B",
+      "url": "https://huggingface.co/HuggingFaceBio/Carbon-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 149,
+      "likes": 11,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "dna",
+        "genomic"
+      ],
+      "lastModified": null,
+      "description": "A larger, higher-capacity member of the Carbon family of generative DNA foundation models."
+    },
+    {
+      "rank": 13,
       "id": "NousResearch/Hermes-3-Llama-3.1-8B",
       "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
       "pipelineTag": "text-generation",
-      "downloads": 217037,
+      "downloads": 215339,
       "likes": 430,
       "tags": [
         "transformers",
@@ -759,11 +777,11 @@
       "description": "Hermes 3 is the latest version of our flagship Hermes series of LLMs by Nous Research."
     },
     {
-      "rank": 13,
+      "rank": 14,
       "id": "Qwen/Qwen2.5-7B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 12975576,
+      "downloads": 13118433,
       "likes": 1284,
       "tags": [
         "transformers",
@@ -777,7 +795,7 @@
       "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
@@ -795,7 +813,7 @@
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "id": "WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
       "url": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
       "pipelineTag": "text-generation",
@@ -813,7 +831,7 @@
       "description": "Opus4.7 – GODsGhost Codex 4B is a compact, high-efficiency code-specialized language model designed for local inference via GGUF-compatible runtimes like llama.cpp and LM Studio."
     },
     {
-      "rank": 16,
+      "rank": 17,
       "id": "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
       "url": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
       "pipelineTag": "text-generation",
@@ -831,30 +849,12 @@
       "description": "A reasoning-distilled variant of Qwen3.6-35B-A3B taught to imitate the chain-of-thought style of Claude Opus 4.7, the frontier reasoning model from Anthropic. The goal: port Claude-grade reasoning behavior into a permissively-licensed Mi…"
     },
     {
-      "rank": 17,
-      "id": "mistralai/Mistral-7B-Instruct-v0.2",
-      "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
-      "pipelineTag": "text-generation",
-      "downloads": 3274617,
-      "likes": 3143,
-      "tags": [
-        "transformers",
-        "pytorch",
-        "safetensors",
-        "mistral",
-        "text-generation",
-        "finetuned"
-      ],
-      "lastModified": null,
-      "description": "The Mistral-7B-Instruct-v0.2 Large Language Model (LLM) is an instruct fine-tuned version of the Mistral-7B-v0.2."
-    },
-    {
       "rank": 18,
       "id": "HuggingFaceBio/Carbon-3B",
       "url": "https://huggingface.co/HuggingFaceBio/Carbon-3B",
       "pipelineTag": "text-generation",
       "downloads": 1861,
-      "likes": 9,
+      "likes": 10,
       "tags": [
         "transformers",
         "safetensors",
@@ -868,21 +868,21 @@
     },
     {
       "rank": 19,
-      "id": "HuggingFaceBio/Carbon-8B",
-      "url": "https://huggingface.co/HuggingFaceBio/Carbon-8B",
+      "id": "mistralai/Mistral-7B-Instruct-v0.2",
+      "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
       "pipelineTag": "text-generation",
-      "downloads": 149,
-      "likes": 9,
+      "downloads": 3269860,
+      "likes": 3143,
       "tags": [
         "transformers",
+        "pytorch",
         "safetensors",
-        "llama",
+        "mistral",
         "text-generation",
-        "dna",
-        "genomic"
+        "finetuned"
       ],
       "lastModified": null,
-      "description": "A larger, higher-capacity member of the Carbon family of generative DNA foundation models."
+      "description": "The Mistral-7B-Instruct-v0.2 Large Language Model (LLM) is an instruct fine-tuned version of the Mistral-7B-v0.2."
     }
   ]
 }
