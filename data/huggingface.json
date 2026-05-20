@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-20T18:52:44.444Z",
+  "updated": "2026-05-20T21:37:07.874Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 259600864,
-      "likes": 4806,
+      "likes": 4807,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 35460737,
-      "likes": 1293,
+      "likes": 1292,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -151,7 +151,7 @@
       "url": "https://huggingface.co/openai/clip-vit-large-patch14",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 32278226,
-      "likes": 2013,
+      "likes": 2012,
       "tags": [
         "transformers",
         "pytorch",
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 27505083,
-      "likes": 3016,
+      "likes": 3018,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -259,7 +259,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 18243520,
-      "likes": 1254,
+      "likes": 1255,
       "tags": [
         "transformers",
         "safetensors",
@@ -313,7 +313,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 17361284,
-      "likes": 3247,
+      "likes": 3248,
       "tags": [
         "transformers",
         "pytorch",
@@ -331,7 +331,7 @@
       "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
       "pipelineTag": "sentence-similarity",
       "downloads": 17025493,
-      "likes": 829,
+      "likes": 830,
       "tags": [
         "sentence-transformers",
         "onnx",
@@ -421,7 +421,7 @@
       "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
       "pipelineTag": "feature-extraction",
       "downloads": 14621854,
-      "likes": 664,
+      "likes": 663,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -439,7 +439,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 13739532,
-      "likes": 700,
+      "likes": 701,
       "tags": [
         "transformers",
         "safetensors",
@@ -475,7 +475,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 13118433,
-      "likes": 1283,
+      "likes": 1284,
       "tags": [
         "transformers",
         "safetensors",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
       "pipelineTag": "text-generation",
       "downloads": 23532,
-      "likes": 167,
+      "likes": 175,
       "tags": [
         "transformers",
         "safetensors",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/HuggingFaceBio/Carbon-3B",
       "pipelineTag": "text-generation",
       "downloads": 2184,
-      "likes": 24,
+      "likes": 25,
       "tags": [
         "transformers",
         "safetensors",
@@ -746,7 +746,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 18243520,
-      "likes": 1254,
+      "likes": 1255,
       "tags": [
         "transformers",
         "safetensors",
@@ -782,7 +782,7 @@
       "url": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-3B",
       "pipelineTag": "text-generation",
       "downloads": 11093,
-      "likes": 11,
+      "likes": 12,
       "tags": [
         "transformers",
         "safetensors",
@@ -850,24 +850,42 @@
     },
     {
       "rank": 18,
-      "id": "mistralai/Mistral-7B-Instruct-v0.2",
-      "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
+      "id": "Qwen/Qwen2.5-7B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 3269860,
-      "likes": 3143,
+      "downloads": 13118433,
+      "likes": 1284,
       "tags": [
         "transformers",
-        "pytorch",
         "safetensors",
-        "mistral",
+        "qwen2",
         "text-generation",
-        "finetuned"
+        "chat",
+        "conversational"
       ],
       "lastModified": null,
-      "description": "The Mistral-7B-Instruct-v0.2 Large Language Model (LLM) is an instruct fine-tuned version of the Mistral-7B-v0.2."
+      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
       "rank": 19,
+      "id": "nvidia/Nemotron-Labs-Diffusion-8B",
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 14543,
+      "likes": 10,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "nemotron_labs_diffusion",
+        "feature-extraction",
+        "nvidia",
+        "pytorch"
+      ],
+      "lastModified": null,
+      "description": "Nemotron-Labs-Diffusion is a tri-mode language model that supports both AR decoding and diffusion-based parallel decoding by simply switching the attention pattern of the same model during inference. The synergy between these two modes e…"
+    },
+    {
+      "rank": 20,
       "id": "NousResearch/Hermes-3-Llama-3.1-8B",
       "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
       "pipelineTag": "text-generation",
@@ -883,42 +901,6 @@
       ],
       "lastModified": null,
       "description": "Hermes 3 is the latest version of our flagship Hermes series of LLMs by Nous Research."
-    },
-    {
-      "rank": 20,
-      "id": "Qwen/Qwen2.5-7B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 13118433,
-      "likes": 1283,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "chat",
-        "conversational"
-      ],
-      "lastModified": null,
-      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
-    },
-    {
-      "rank": 21,
-      "id": "nvidia/Nemotron-Labs-Diffusion-8B",
-      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 14543,
-      "likes": 9,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "nemotron_labs_diffusion",
-        "feature-extraction",
-        "nvidia",
-        "pytorch"
-      ],
-      "lastModified": null,
-      "description": "Nemotron-Labs-Diffusion is a tri-mode language model that supports both AR decoding and diffusion-based parallel decoding by simply switching the attention pattern of the same model during inference. The synergy between these two modes e…"
     }
   ]
 }
