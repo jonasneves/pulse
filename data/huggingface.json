@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T00:53:23.624Z",
+  "updated": "2026-05-22T04:29:26.571Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 259912583,
-      "likes": 4813,
+      "likes": 4814,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -43,7 +43,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 69483216,
-      "likes": 2658,
+      "likes": 2660,
       "tags": [
         "transformers",
         "pytorch",
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "pipelineTag": "feature-extraction",
       "downloads": 47317877,
-      "likes": 465,
+      "likes": 466,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -241,7 +241,7 @@
       "url": "https://huggingface.co/laion/clap-htsat-fused",
       "pipelineTag": "audio-classification",
       "downloads": 19894764,
-      "likes": 88,
+      "likes": 89,
       "tags": [
         "transformers",
         "pytorch",
@@ -259,7 +259,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 18295233,
-      "likes": 1257,
+      "likes": 1258,
       "tags": [
         "transformers",
         "safetensors",
@@ -295,7 +295,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 17539076,
-      "likes": 3252,
+      "likes": 3253,
       "tags": [
         "transformers",
         "pytorch",
@@ -511,7 +511,7 @@
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
       "downloads": 12216928,
-      "likes": 991,
+      "likes": 992,
       "tags": [
         "sentence-transformers",
         "safetensors",
@@ -529,7 +529,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 11821423,
-      "likes": 1096,
+      "likes": 1097,
       "tags": [
         "transformers",
         "safetensors",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
       "pipelineTag": "text-generation",
       "downloads": 58922,
-      "likes": 213,
+      "likes": 216,
       "tags": [
         "transformers",
         "safetensors",
@@ -585,7 +585,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 10933148,
-      "likes": 5866,
+      "likes": 5867,
       "tags": [
         "transformers",
         "safetensors",
@@ -602,7 +602,7 @@
       "url": "https://huggingface.co/HuggingFaceBio/Carbon-8B",
       "pipelineTag": "text-generation",
       "downloads": 1273,
-      "likes": 27,
+      "likes": 28,
       "tags": [
         "transformers",
         "safetensors",
@@ -638,7 +638,7 @@
       "url": "https://huggingface.co/Simplified-Reasoning/SU-01",
       "pipelineTag": "text-generation",
       "downloads": 880,
-      "likes": 20,
+      "likes": 21,
       "tags": [
         "transformers",
         "safetensors",
@@ -674,7 +674,7 @@
       "url": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 254654,
-      "likes": 260,
+      "likes": 261,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -688,21 +688,21 @@
     },
     {
       "rank": 9,
-      "id": "WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
-      "url": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
+      "id": "nvidia/Nemotron-Labs-Diffusion-8B",
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-8B",
       "pipelineTag": "text-generation",
-      "downloads": 29549,
-      "likes": 65,
+      "downloads": 16453,
+      "likes": 14,
       "tags": [
-        "gguf",
-        "llama.cpp",
-        "text-generation",
-        "code",
-        "coding",
-        "reasoning"
+        "transformers",
+        "safetensors",
+        "nemotron_labs_diffusion",
+        "feature-extraction",
+        "nvidia",
+        "pytorch"
       ],
       "lastModified": null,
-      "description": "Opus4.7 – GODsGhost Codex 4B is a compact, high-efficiency code-specialized language model designed for local inference via GGUF-compatible runtimes like llama.cpp and LM Studio."
+      "description": "Nemotron-Labs-Diffusion is a tri-mode language model that supports both AR decoding and diffusion-based parallel decoding by simply switching the attention pattern of the same model during inference. The synergy between these two modes e…"
     },
     {
       "rank": 10,
@@ -724,21 +724,21 @@
     },
     {
       "rank": 11,
-      "id": "nvidia/Nemotron-Labs-Diffusion-8B",
-      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-8B",
+      "id": "WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
+      "url": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
       "pipelineTag": "text-generation",
-      "downloads": 16453,
-      "likes": 13,
+      "downloads": 29549,
+      "likes": 65,
       "tags": [
-        "transformers",
-        "safetensors",
-        "nemotron_labs_diffusion",
-        "feature-extraction",
-        "nvidia",
-        "pytorch"
+        "gguf",
+        "llama.cpp",
+        "text-generation",
+        "code",
+        "coding",
+        "reasoning"
       ],
       "lastModified": null,
-      "description": "Nemotron-Labs-Diffusion is a tri-mode language model that supports both AR decoding and diffusion-based parallel decoding by simply switching the attention pattern of the same model during inference. The synergy between these two modes e…"
+      "description": "Opus4.7 – GODsGhost Codex 4B is a compact, high-efficiency code-specialized language model designed for local inference via GGUF-compatible runtimes like llama.cpp and LM Studio."
     },
     {
       "rank": 12,
@@ -778,6 +778,42 @@
     },
     {
       "rank": 14,
+      "id": "NousResearch/Hermes-3-Llama-3.1-8B",
+      "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 217940,
+      "likes": 434,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "Llama-3",
+        "instruct"
+      ],
+      "lastModified": null,
+      "description": "Hermes 3 is the latest version of our flagship Hermes series of LLMs by Nous Research."
+    },
+    {
+      "rank": 15,
+      "id": "Qwen/Qwen3-0.6B",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "pipelineTag": "text-generation",
+      "downloads": 18295233,
+      "likes": 1258,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "conversational",
+        "license:apache-2.0"
+      ],
+      "lastModified": null,
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
+      "rank": 16,
       "id": "Abiray/ZAYA1-8B-GGUF",
       "url": "https://huggingface.co/Abiray/ZAYA1-8B-GGUF",
       "pipelineTag": "text-generation",
@@ -795,25 +831,7 @@
       "description": "This repository contains GGUF quantizations of Zyphra/ZAYA1-8B."
     },
     {
-      "rank": 15,
-      "id": "NousResearch/Hermes-3-Llama-3.1-8B",
-      "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 217940,
-      "likes": 433,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "Llama-3",
-        "instruct"
-      ],
-      "lastModified": null,
-      "description": "Hermes 3 is the latest version of our flagship Hermes series of LLMs by Nous Research."
-    },
-    {
-      "rank": 16,
+      "rank": 17,
       "id": "meta-llama/Llama-3.2-1B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
       "pipelineTag": "text-generation",
@@ -828,24 +846,6 @@
         "meta"
       ],
       "lastModified": null
-    },
-    {
-      "rank": 17,
-      "id": "Qwen/Qwen3-0.6B",
-      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
-      "pipelineTag": "text-generation",
-      "downloads": 18295233,
-      "likes": 1257,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "conversational",
-        "license:apache-2.0"
-      ],
-      "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
       "rank": 18,
