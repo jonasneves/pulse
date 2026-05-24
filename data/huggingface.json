@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T18:26:37.984Z",
+  "updated": "2026-05-24T21:21:55.143Z",
   "models": [
     {
       "rank": 1,
@@ -25,7 +25,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 69568558,
-      "likes": 2662,
+      "likes": 2663,
       "tags": [
         "transformers",
         "pytorch",
@@ -277,7 +277,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 18380264,
-      "likes": 1265,
+      "likes": 1266,
       "tags": [
         "transformers",
         "safetensors",
@@ -493,7 +493,7 @@
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
       "downloads": 12644300,
-      "likes": 997,
+      "likes": 998,
       "tags": [
         "sentence-transformers",
         "safetensors",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
       "pipelineTag": "text-generation",
       "downloads": 84346,
-      "likes": 268,
+      "likes": 269,
       "tags": [
         "transformers",
         "safetensors",
@@ -620,7 +620,7 @@
       "url": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-8B",
       "pipelineTag": "text-generation",
       "downloads": 27346,
-      "likes": 23,
+      "likes": 24,
       "tags": [
         "transformers",
         "safetensors",
@@ -688,6 +688,41 @@
     },
     {
       "rank": 9,
+      "id": "meta-llama/Llama-3.2-1B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 8056945,
+      "likes": 1429,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 10,
+      "id": "Qwen/Qwen3-0.6B",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "pipelineTag": "text-generation",
+      "downloads": 18380264,
+      "likes": 1266,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "conversational",
+        "license:apache-2.0"
+      ],
+      "lastModified": null,
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
+      "rank": 11,
       "id": "hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
       "url": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
       "pipelineTag": "text-generation",
@@ -705,7 +740,25 @@
       "description": "GGUF quantizations of hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled, a reasoning SFT fine-tune of Qwen/Qwen3.6-35B-A3B on Claude Opus 4.6-style chain-of-thought distillation data."
     },
     {
-      "rank": 10,
+      "rank": 12,
+      "id": "openbmb/BitCPM-CANN-8B-gguf",
+      "url": "https://huggingface.co/openbmb/BitCPM-CANN-8B-gguf",
+      "pipelineTag": "text-generation",
+      "downloads": 452,
+      "likes": 15,
+      "tags": [
+        "transformers",
+        "gguf",
+        "text-generation",
+        "zh",
+        "en",
+        "license:apache-2.0"
+      ],
+      "lastModified": null,
+      "description": "BitCPM-CANN is the first end-to-end 1.58-bit (ternary) large language model training system natively built on Huawei Ascend NPU. The system integrates quantization-aware training (QAT) into the Megatron-LM framework with MindSpeed accele…"
+    },
+    {
+      "rank": 13,
       "id": "aifeifei798/llama3-8B-DarkIdol-2.3-Uncensored-32K",
       "url": "https://huggingface.co/aifeifei798/llama3-8B-DarkIdol-2.3-Uncensored-32K",
       "pipelineTag": "text-generation",
@@ -723,7 +776,7 @@
       "description": "The difference with normal quantizations is that I quantize the output and embed tensors to f16. and the other tensors to 15_k,q6_k or q8_0. This creates models that are little or not degraded at all and have a smaller size. They run at …"
     },
     {
-      "rank": 11,
+      "rank": 14,
       "id": "Qwen/Qwen2.5-7B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
@@ -741,7 +794,7 @@
       "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
-      "rank": 12,
+      "rank": 15,
       "id": "meta-llama/Llama-3.2-1B",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-1B",
       "pipelineTag": "text-generation",
@@ -758,42 +811,7 @@
       "lastModified": null
     },
     {
-      "rank": 13,
-      "id": "meta-llama/Llama-3.2-1B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 8056945,
-      "likes": 1428,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 14,
-      "id": "Qwen/Qwen3-0.6B",
-      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
-      "pipelineTag": "text-generation",
-      "downloads": 18380264,
-      "likes": 1265,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "conversational",
-        "license:apache-2.0"
-      ],
-      "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
-      "rank": 15,
+      "rank": 16,
       "id": "Qwen/WebWorld-8B",
       "url": "https://huggingface.co/Qwen/WebWorld-8B",
       "pipelineTag": "text-generation",
@@ -809,24 +827,6 @@
       ],
       "lastModified": null,
       "description": "WebWorld is a large-scale open-web world model series for training and evaluating web agents. It is trained on 1M+ real-world web interaction trajectories via a scalable hierarchical data pipeline, supporting:"
-    },
-    {
-      "rank": 16,
-      "id": "openbmb/BitCPM-CANN-8B-gguf",
-      "url": "https://huggingface.co/openbmb/BitCPM-CANN-8B-gguf",
-      "pipelineTag": "text-generation",
-      "downloads": 452,
-      "likes": 13,
-      "tags": [
-        "transformers",
-        "gguf",
-        "text-generation",
-        "zh",
-        "en",
-        "license:apache-2.0"
-      ],
-      "lastModified": null,
-      "description": "BitCPM-CANN is the first end-to-end 1.58-bit (ternary) large language model training system natively built on Huawei Ascend NPU. The system integrates quantization-aware training (QAT) into the Megatron-LM framework with MindSpeed accele…"
     },
     {
       "rank": 17,
@@ -871,6 +871,23 @@
       "pipelineTag": "text-generation",
       "downloads": 1671206,
       "likes": 4535,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 20,
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 2090260,
+      "likes": 2145,
       "tags": [
         "transformers",
         "safetensors",
