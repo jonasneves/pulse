@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T09:40:23.758Z",
+  "updated": "2026-05-24T12:28:45.587Z",
   "models": [
     {
       "rank": 1,
@@ -151,7 +151,7 @@
       "url": "https://huggingface.co/openai/clip-vit-large-patch14",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 31259851,
-      "likes": 2014,
+      "likes": 2015,
       "tags": [
         "transformers",
         "pytorch",
@@ -421,7 +421,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 14583430,
-      "likes": 705,
+      "likes": 706,
       "tags": [
         "transformers",
         "safetensors",
@@ -457,7 +457,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 13549304,
-      "likes": 1294,
+      "likes": 1296,
       "tags": [
         "transformers",
         "safetensors",
@@ -511,7 +511,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 12575452,
-      "likes": 1096,
+      "likes": 1097,
       "tags": [
         "transformers",
         "safetensors",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
       "pipelineTag": "text-generation",
       "downloads": 84346,
-      "likes": 265,
+      "likes": 267,
       "tags": [
         "transformers",
         "safetensors",
@@ -563,23 +563,6 @@
     },
     {
       "rank": 2,
-      "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 10578535,
-      "likes": 5889,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 3,
       "id": "HuggingFaceBio/Carbon-3B",
       "url": "https://huggingface.co/HuggingFaceBio/Carbon-3B",
       "pipelineTag": "text-generation",
@@ -597,12 +580,29 @@
       "description": "Carbon-3B is a 3B-parameter decoder-only autoregressive genomic foundation model trained on DNA and RNA sequences, with a primary focus on eukaryotes. It has a native context length of 32,768 6-mer tokens (≈ 197k DNA base pairs) and exte…"
     },
     {
+      "rank": 3,
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 10578535,
+      "likes": 5889,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
       "rank": 4,
       "id": "HuggingFaceBio/Carbon-8B",
       "url": "https://huggingface.co/HuggingFaceBio/Carbon-8B",
       "pipelineTag": "text-generation",
       "downloads": 1566,
-      "likes": 32,
+      "likes": 33,
       "tags": [
         "transformers",
         "safetensors",
@@ -656,7 +656,7 @@
       "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
       "pipelineTag": "text-generation",
       "downloads": 221708,
-      "likes": 440,
+      "likes": 441,
       "tags": [
         "transformers",
         "safetensors",
@@ -670,6 +670,24 @@
     },
     {
       "rank": 8,
+      "id": "openbmb/BitCPM-CANN-8B",
+      "url": "https://huggingface.co/openbmb/BitCPM-CANN-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 295,
+      "likes": 16,
+      "tags": [
+        "transformers",
+        "pytorch",
+        "minicpm",
+        "text-generation",
+        "conversational",
+        "custom_code"
+      ],
+      "lastModified": null,
+      "description": "BitCPM-CANN is the first end-to-end 1.58-bit (ternary) large language model training system natively built on Huawei Ascend NPU. The system integrates quantization-aware training (QAT) into the Megatron-LM framework with MindSpeed accele…"
+    },
+    {
+      "rank": 9,
       "id": "hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
       "url": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
       "pipelineTag": "text-generation",
@@ -687,30 +705,30 @@
       "description": "GGUF quantizations of hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled, a reasoning SFT fine-tune of Qwen/Qwen3.6-35B-A3B on Claude Opus 4.6-style chain-of-thought distillation data."
     },
     {
-      "rank": 9,
-      "id": "openbmb/BitCPM-CANN-8B",
-      "url": "https://huggingface.co/openbmb/BitCPM-CANN-8B",
+      "rank": 10,
+      "id": "aifeifei798/llama3-8B-DarkIdol-2.3-Uncensored-32K",
+      "url": "https://huggingface.co/aifeifei798/llama3-8B-DarkIdol-2.3-Uncensored-32K",
       "pipelineTag": "text-generation",
-      "downloads": 295,
-      "likes": 15,
+      "downloads": 1294,
+      "likes": 36,
       "tags": [
         "transformers",
-        "pytorch",
-        "minicpm",
+        "safetensors",
+        "llama",
         "text-generation",
-        "conversational",
-        "custom_code"
+        "roleplay",
+        "llama3"
       ],
       "lastModified": null,
-      "description": "BitCPM-CANN is the first end-to-end 1.58-bit (ternary) large language model training system natively built on Huawei Ascend NPU. The system integrates quantization-aware training (QAT) into the Megatron-LM framework with MindSpeed accele…"
+      "description": "The difference with normal quantizations is that I quantize the output and embed tensors to f16. and the other tensors to 15_k,q6_k or q8_0. This creates models that are little or not degraded at all and have a smaller size. They run at …"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "id": "Qwen/Qwen2.5-7B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 13549304,
-      "likes": 1294,
+      "likes": 1296,
       "tags": [
         "transformers",
         "safetensors",
@@ -723,7 +741,7 @@
       "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "id": "meta-llama/Llama-3.2-1B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
       "pipelineTag": "text-generation",
@@ -740,7 +758,7 @@
       "lastModified": null
     },
     {
-      "rank": 12,
+      "rank": 13,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
@@ -758,7 +776,7 @@
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "id": "meta-llama/Llama-3.2-1B",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-1B",
       "pipelineTag": "text-generation",
@@ -775,7 +793,7 @@
       "lastModified": null
     },
     {
-      "rank": 14,
+      "rank": 15,
       "id": "Simplified-Reasoning/SU-01",
       "url": "https://huggingface.co/Simplified-Reasoning/SU-01",
       "pipelineTag": "text-generation",
@@ -793,25 +811,25 @@
       "description": "A compact 30B-A3B reasoning model for rigorous mathematical and scientific olympiad problem solving."
     },
     {
-      "rank": 15,
-      "id": "aifeifei798/llama3-8B-DarkIdol-2.3-Uncensored-32K",
-      "url": "https://huggingface.co/aifeifei798/llama3-8B-DarkIdol-2.3-Uncensored-32K",
+      "rank": 16,
+      "id": "openbmb/BitCPM-CANN-8B-gguf",
+      "url": "https://huggingface.co/openbmb/BitCPM-CANN-8B-gguf",
       "pipelineTag": "text-generation",
-      "downloads": 1294,
-      "likes": 34,
+      "downloads": 452,
+      "likes": 13,
       "tags": [
         "transformers",
-        "safetensors",
-        "llama",
+        "gguf",
         "text-generation",
-        "roleplay",
-        "llama3"
+        "zh",
+        "en",
+        "license:apache-2.0"
       ],
       "lastModified": null,
-      "description": "The difference with normal quantizations is that I quantize the output and embed tensors to f16. and the other tensors to 15_k,q6_k or q8_0. This creates models that are little or not degraded at all and have a smaller size. They run at …"
+      "description": "BitCPM-CANN is the first end-to-end 1.58-bit (ternary) large language model training system natively built on Huawei Ascend NPU. The system integrates quantization-aware training (QAT) into the Megatron-LM framework with MindSpeed accele…"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "id": "Qwen/WebWorld-8B",
       "url": "https://huggingface.co/Qwen/WebWorld-8B",
       "pipelineTag": "text-generation",
@@ -829,7 +847,7 @@
       "description": "WebWorld is a large-scale open-web world model series for training and evaluating web agents. It is trained on 1M+ real-world web interaction trajectories via a scalable hierarchical data pipeline, supporting:"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "id": "WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
       "url": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
       "pipelineTag": "text-generation",
@@ -847,7 +865,7 @@
       "description": "Opus4.7 – GODsGhost Codex 4B is a compact, high-efficiency code-specialized language model designed for local inference via GGUF-compatible runtimes like llama.cpp and LM Studio."
     },
     {
-      "rank": 18,
+      "rank": 19,
       "id": "meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
@@ -864,12 +882,12 @@
       "lastModified": null
     },
     {
-      "rank": 19,
+      "rank": 20,
       "id": "meta-llama/Llama-3.2-3B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 2090260,
-      "likes": 2143,
+      "likes": 2144,
       "tags": [
         "transformers",
         "safetensors",
@@ -881,7 +899,7 @@
       "lastModified": null
     },
     {
-      "rank": 20,
+      "rank": 21,
       "id": "chiennv/Orthrus-Qwen3-8B",
       "url": "https://huggingface.co/chiennv/Orthrus-Qwen3-8B",
       "pipelineTag": "text-generation",
@@ -897,42 +915,6 @@
       ],
       "lastModified": null,
       "description": "Orthrus is a simple and efficient dual-architecture framework that unifies the exact generation fidelity of autoregressive Large Language Models (LLMs) with the high-speed parallel token generation of diffusion models. By augmenting a fr…"
-    },
-    {
-      "rank": 21,
-      "id": "openbmb/BitCPM-CANN-8B-gguf",
-      "url": "https://huggingface.co/openbmb/BitCPM-CANN-8B-gguf",
-      "pipelineTag": "text-generation",
-      "downloads": 452,
-      "likes": 10,
-      "tags": [
-        "transformers",
-        "gguf",
-        "text-generation",
-        "zh",
-        "en",
-        "license:apache-2.0"
-      ],
-      "lastModified": null,
-      "description": "BitCPM-CANN is the first end-to-end 1.58-bit (ternary) large language model training system natively built on Huawei Ascend NPU. The system integrates quantization-aware training (QAT) into the Megatron-LM framework with MindSpeed accele…"
-    },
-    {
-      "rank": 22,
-      "id": "FINAL-Bench/Darwin-28B-REASON",
-      "url": "https://huggingface.co/FINAL-Bench/Darwin-28B-REASON",
-      "pipelineTag": "text-generation",
-      "downloads": 505,
-      "likes": 28,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "darwin",
-        "darwin-reason"
-      ],
-      "lastModified": null,
-      "description": "Darwin-28B-REASON is a reasoning-enhanced standalone model derived from Darwin-28B-Opus. It combines two components:"
     }
   ]
 }
