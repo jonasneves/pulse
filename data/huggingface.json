@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T16:20:28.511Z",
+  "updated": "2026-05-26T18:52:57.280Z",
   "models": [
     {
       "rank": 1,
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct",
       "pipelineTag": "image-text-to-text",
       "downloads": 35407726,
-      "likes": 415,
+      "likes": 416,
       "tags": [
         "transformers",
         "safetensors",
@@ -151,7 +151,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 30026748,
-      "likes": 3039,
+      "likes": 3040,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -511,7 +511,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 12815410,
-      "likes": 1102,
+      "likes": 1103,
       "tags": [
         "transformers",
         "safetensors",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
       "pipelineTag": "text-generation",
       "downloads": 103033,
-      "likes": 369,
+      "likes": 371,
       "tags": [
         "transformers",
         "safetensors",
@@ -567,14 +567,14 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
       "downloads": 2409,
-      "likes": 289,
+      "likes": 294,
       "tags": [
         "transformers",
         "safetensors",
-        "minicpm",
-        "minicpm5",
         "llama",
-        "text-generation"
+        "text-generation",
+        "minicpm",
+        "minicpm5"
       ],
       "lastModified": null,
       "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
@@ -723,6 +723,23 @@
     },
     {
       "rank": 11,
+      "id": "meta-llama/Llama-3.1-8B",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 1249949,
+      "likes": 2211,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 12,
       "id": "Qwen/Qwen2.5-7B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
@@ -740,29 +757,12 @@
       "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "id": "meta-llama/Llama-3.2-1B",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-1B",
       "pipelineTag": "text-generation",
       "downloads": 2168446,
       "likes": 2403,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "facebook",
-        "meta",
-        "pytorch",
-        "llama"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 13,
-      "id": "meta-llama/Llama-3.1-8B",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 1249949,
-      "likes": 2210,
       "tags": [
         "transformers",
         "safetensors",
@@ -775,6 +775,24 @@
     },
     {
       "rank": 14,
+      "id": "NousResearch/Hermes-3-Llama-3.1-8B",
+      "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 226558,
+      "likes": 443,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "Llama-3",
+        "instruct"
+      ],
+      "lastModified": null,
+      "description": "Hermes 3 is the latest version of our flagship Hermes series of LLMs by Nous Research."
+    },
+    {
+      "rank": 15,
       "id": "meta-llama/Llama-3.2-3B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
@@ -791,7 +809,7 @@
       "lastModified": null
     },
     {
-      "rank": 15,
+      "rank": 16,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
@@ -809,7 +827,7 @@
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "id": "hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
       "url": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
       "pipelineTag": "text-generation",
@@ -827,7 +845,7 @@
       "description": "GGUF quantizations of hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled, a reasoning SFT fine-tune of Qwen/Qwen3.6-35B-A3B on Claude Opus 4.6-style chain-of-thought distillation data."
     },
     {
-      "rank": 17,
+      "rank": 18,
       "id": "aifeifei798/llama3-8B-DarkIdol-2.3-Uncensored-32K",
       "url": "https://huggingface.co/aifeifei798/llama3-8B-DarkIdol-2.3-Uncensored-32K",
       "pipelineTag": "text-generation",
@@ -845,43 +863,43 @@
       "description": "The difference with normal quantizations is that I quantize the output and embed tensors to f16. and the other tensors to 15_k,q6_k or q8_0. This creates models that are little or not degraded at all and have a smaller size. They run at …"
     },
     {
-      "rank": 18,
-      "id": "WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
-      "url": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
-      "pipelineTag": "text-generation",
-      "downloads": 33626,
-      "likes": 72,
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "text-generation",
-        "code",
-        "coding",
-        "reasoning"
-      ],
-      "lastModified": null,
-      "description": "Opus4.7 – GODsGhost Codex 4B is a compact, high-efficiency code-specialized language model designed for local inference via GGUF-compatible runtimes like llama.cpp and LM Studio."
-    },
-    {
       "rank": 19,
-      "id": "Simplified-Reasoning/SU-01",
-      "url": "https://huggingface.co/Simplified-Reasoning/SU-01",
+      "id": "Qwen/Qwen3-8B",
+      "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
-      "downloads": 1143,
-      "likes": 26,
+      "downloads": 12815410,
+      "likes": 1103,
       "tags": [
         "transformers",
         "safetensors",
-        "reasoning",
-        "olympiad",
-        "mathematics",
-        "science"
+        "qwen3",
+        "text-generation",
+        "conversational",
+        "license:apache-2.0"
       ],
       "lastModified": null,
-      "description": "A compact 30B-A3B reasoning model for rigorous mathematical and scientific olympiad problem solving."
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
       "rank": 20,
+      "id": "openbmb/MiniCPM5-1B-SFT",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-1B-SFT",
+      "pipelineTag": "text-generation",
+      "downloads": 190,
+      "likes": 12,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "minicpm",
+        "minicpm5"
+      ],
+      "lastModified": null,
+      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
+    },
+    {
+      "rank": 21,
       "id": "sinimiini/HRM-Text-1B-GGUF",
       "url": "https://huggingface.co/sinimiini/HRM-Text-1B-GGUF",
       "pipelineTag": "text-generation",
@@ -899,40 +917,21 @@
       "description": "This repository contains a BF16 GGUF conversion of sapientinc/HRM-Text-1B and validated Q8_0, Q6_K, and Q5_K_M quantizations derived from that BF16 GGUF."
     },
     {
-      "rank": 21,
-      "id": "Qwen/Qwen3-8B",
-      "url": "https://huggingface.co/Qwen/Qwen3-8B",
+      "rank": 22,
+      "id": "google/gemma-3-1b-it",
+      "url": "https://huggingface.co/google/gemma-3-1b-it",
       "pipelineTag": "text-generation",
-      "downloads": 12815410,
-      "likes": 1102,
+      "downloads": 1286389,
+      "likes": 965,
       "tags": [
         "transformers",
         "safetensors",
-        "qwen3",
+        "gemma3_text",
         "text-generation",
         "conversational",
-        "license:apache-2.0"
+        "license:gemma"
       ],
-      "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
-      "rank": 22,
-      "id": "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
-      "url": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
-      "pipelineTag": "text-generation",
-      "downloads": 116753,
-      "likes": 154,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation",
-        "reasoning",
-        "distillation",
-        "chain-of-thought"
-      ],
-      "lastModified": null,
-      "description": "A reasoning-distilled variant of Qwen3.6-35B-A3B taught to imitate the chain-of-thought style of Claude Opus 4.7, the frontier reasoning model from Anthropic. The goal: port Claude-grade reasoning behavior into a permissively-licensed Mi…"
+      "lastModified": null
     }
   ]
 }
