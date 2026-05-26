@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T13:06:46.328Z",
+  "updated": "2026-05-26T16:20:28.511Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 262278076,
-      "likes": 4831,
+      "likes": 4833,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -97,7 +97,7 @@
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 49779922,
-      "likes": 1237,
+      "likes": 1238,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -115,14 +115,14 @@
       "url": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct",
       "pipelineTag": "image-text-to-text",
       "downloads": 35407726,
-      "likes": 414,
+      "likes": 415,
       "tags": [
         "transformers",
         "safetensors",
+        "qwen3_vl",
         "image-text-to-text",
-        "license:apache-2.0",
-        "eval-results",
-        "endpoints_compatible"
+        "conversational",
+        "license:apache-2.0"
       ],
       "lastModified": null,
       "description": "Meet Qwen3-VL — the most powerful vision-language model in the Qwen series to date."
@@ -281,10 +281,10 @@
       "tags": [
         "transformers",
         "safetensors",
+        "qwen3",
         "text-generation",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "deploy:azure"
+        "conversational",
+        "license:apache-2.0"
       ],
       "lastModified": null,
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
@@ -385,7 +385,7 @@
       "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
       "pipelineTag": "feature-extraction",
       "downloads": 14886648,
-      "likes": 668,
+      "likes": 669,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -403,7 +403,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 14840982,
-      "likes": 709,
+      "likes": 711,
       "tags": [
         "transformers",
         "safetensors",
@@ -493,14 +493,14 @@
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
       "downloads": 12880672,
-      "likes": 1001,
+      "likes": 1002,
       "tags": [
         "sentence-transformers",
         "safetensors",
-        "transformers",
-        "text-embeddings-inference",
+        "xlm-roberta",
         "text-classification",
-        "multilingual"
+        "transformers",
+        "text-embeddings-inference"
       ],
       "lastModified": null,
       "description": "Different from embedding model, reranker uses question and document as input and directly output similarity instead of embedding. You can get a relevance score by inputting query and passage to the reranker. And the score can be mapped t…"
@@ -515,10 +515,10 @@
       "tags": [
         "transformers",
         "safetensors",
+        "qwen3",
         "text-generation",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "deploy:azure"
+        "conversational",
+        "license:apache-2.0"
       ],
       "lastModified": null,
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
       "pipelineTag": "text-generation",
       "downloads": 103033,
-      "likes": 366,
+      "likes": 369,
       "tags": [
         "transformers",
         "safetensors",
@@ -567,7 +567,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
       "downloads": 2409,
-      "likes": 282,
+      "likes": 289,
       "tags": [
         "transformers",
         "safetensors",
@@ -599,6 +599,42 @@
     },
     {
       "rank": 4,
+      "id": "openbmb/MiniCPM5-1B-GGUF",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-1B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 1655,
+      "likes": 81,
+      "tags": [
+        "transformers",
+        "gguf",
+        "minicpm",
+        "minicpm5",
+        "llama",
+        "text-generation"
+      ],
+      "lastModified": null,
+      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
+    },
+    {
+      "rank": 5,
+      "id": "openbmb/BitCPM-CANN-8B-gguf",
+      "url": "https://huggingface.co/openbmb/BitCPM-CANN-8B-gguf",
+      "pipelineTag": "text-generation",
+      "downloads": 1282,
+      "likes": 40,
+      "tags": [
+        "transformers",
+        "gguf",
+        "text-generation",
+        "zh",
+        "en",
+        "license:apache-2.0"
+      ],
+      "lastModified": null,
+      "description": "BitCPM-CANN is the first end-to-end 1.58-bit (ternary) large language model training system natively built on Huawei Ascend NPU. The system integrates quantization-aware training (QAT) into the Megatron-LM framework with MindSpeed accele…"
+    },
+    {
+      "rank": 6,
       "id": "HuggingFaceBio/Carbon-8B",
       "url": "https://huggingface.co/HuggingFaceBio/Carbon-8B",
       "pipelineTag": "text-generation",
@@ -616,55 +652,19 @@
       "description": "A larger, higher-capacity member of the Carbon family of generative DNA foundation models."
     },
     {
-      "rank": 5,
-      "id": "openbmb/MiniCPM5-1B-GGUF",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-1B-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 1655,
-      "likes": 76,
-      "tags": [
-        "transformers",
-        "gguf",
-        "minicpm",
-        "minicpm5",
-        "llama",
-        "text-generation"
-      ],
-      "lastModified": null,
-      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
-    },
-    {
-      "rank": 6,
-      "id": "openbmb/BitCPM-CANN-8B-gguf",
-      "url": "https://huggingface.co/openbmb/BitCPM-CANN-8B-gguf",
-      "pipelineTag": "text-generation",
-      "downloads": 1282,
-      "likes": 39,
-      "tags": [
-        "transformers",
-        "gguf",
-        "text-generation",
-        "zh",
-        "en",
-        "license:apache-2.0"
-      ],
-      "lastModified": null,
-      "description": "BitCPM-CANN is the first end-to-end 1.58-bit (ternary) large language model training system natively built on Huawei Ascend NPU. The system integrates quantization-aware training (QAT) into the Megatron-LM framework with MindSpeed accele…"
-    },
-    {
       "rank": 7,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 10616159,
-      "likes": 5903,
+      "likes": 5904,
       "tags": [
         "transformers",
         "safetensors",
+        "llama",
+        "text-generation",
         "facebook",
-        "meta",
-        "pytorch",
-        "llama"
+        "meta"
       ],
       "lastModified": null
     },
@@ -706,21 +706,20 @@
     },
     {
       "rank": 10,
-      "id": "Qwen/Qwen3-0.6B",
-      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "id": "meta-llama/Llama-3.2-1B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 19010442,
-      "likes": 1268,
+      "downloads": 8253739,
+      "likes": 1435,
       "tags": [
         "transformers",
         "safetensors",
+        "llama",
         "text-generation",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "deploy:azure"
+        "facebook",
+        "meta"
       ],
-      "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+      "lastModified": null
     },
     {
       "rank": 11,
@@ -742,11 +741,11 @@
     },
     {
       "rank": 12,
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "id": "meta-llama/Llama-3.2-1B",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B",
       "pipelineTag": "text-generation",
-      "downloads": 1697520,
-      "likes": 4544,
+      "downloads": 2168446,
+      "likes": 2403,
       "tags": [
         "transformers",
         "safetensors",
@@ -759,40 +758,6 @@
     },
     {
       "rank": 13,
-      "id": "meta-llama/Llama-3.2-1B",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B",
-      "pipelineTag": "text-generation",
-      "downloads": 2168446,
-      "likes": 2402,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "facebook",
-        "meta",
-        "pytorch",
-        "llama"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 14,
-      "id": "meta-llama/Llama-3.2-1B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 8253739,
-      "likes": 1433,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "facebook",
-        "meta",
-        "pytorch",
-        "llama"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 15,
       "id": "meta-llama/Llama-3.1-8B",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
       "pipelineTag": "text-generation",
@@ -809,7 +774,7 @@
       "lastModified": null
     },
     {
-      "rank": 16,
+      "rank": 14,
       "id": "meta-llama/Llama-3.2-3B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
@@ -818,15 +783,33 @@
       "tags": [
         "transformers",
         "safetensors",
+        "llama",
+        "text-generation",
         "facebook",
-        "meta",
-        "pytorch",
-        "llama"
+        "meta"
       ],
       "lastModified": null
     },
     {
-      "rank": 17,
+      "rank": 15,
+      "id": "Qwen/Qwen3-0.6B",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "pipelineTag": "text-generation",
+      "downloads": 19010442,
+      "likes": 1268,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "conversational",
+        "license:apache-2.0"
+      ],
+      "lastModified": null,
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
+      "rank": 16,
       "id": "hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
       "url": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
       "pipelineTag": "text-generation",
@@ -844,7 +827,7 @@
       "description": "GGUF quantizations of hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled, a reasoning SFT fine-tune of Qwen/Qwen3.6-35B-A3B on Claude Opus 4.6-style chain-of-thought distillation data."
     },
     {
-      "rank": 18,
+      "rank": 17,
       "id": "aifeifei798/llama3-8B-DarkIdol-2.3-Uncensored-32K",
       "url": "https://huggingface.co/aifeifei798/llama3-8B-DarkIdol-2.3-Uncensored-32K",
       "pipelineTag": "text-generation",
@@ -862,25 +845,7 @@
       "description": "The difference with normal quantizations is that I quantize the output and embed tensors to f16. and the other tensors to 15_k,q6_k or q8_0. This creates models that are little or not degraded at all and have a smaller size. They run at …"
     },
     {
-      "rank": 19,
-      "id": "Qwen/Qwen3-8B",
-      "url": "https://huggingface.co/Qwen/Qwen3-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 12815410,
-      "likes": 1102,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "deploy:azure"
-      ],
-      "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
-      "rank": 20,
+      "rank": 18,
       "id": "WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
       "url": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF",
       "pipelineTag": "text-generation",
@@ -898,7 +863,7 @@
       "description": "Opus4.7 – GODsGhost Codex 4B is a compact, high-efficiency code-specialized language model designed for local inference via GGUF-compatible runtimes like llama.cpp and LM Studio."
     },
     {
-      "rank": 21,
+      "rank": 19,
       "id": "Simplified-Reasoning/SU-01",
       "url": "https://huggingface.co/Simplified-Reasoning/SU-01",
       "pipelineTag": "text-generation",
@@ -916,25 +881,43 @@
       "description": "A compact 30B-A3B reasoning model for rigorous mathematical and scientific olympiad problem solving."
     },
     {
-      "rank": 22,
-      "id": "Qwen/WebWorld-8B",
-      "url": "https://huggingface.co/Qwen/WebWorld-8B",
+      "rank": 20,
+      "id": "sinimiini/HRM-Text-1B-GGUF",
+      "url": "https://huggingface.co/sinimiini/HRM-Text-1B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 2581,
-      "likes": 55,
+      "downloads": 1977,
+      "likes": 11,
+      "tags": [
+        "gguf",
+        "bf16",
+        "q8_0",
+        "q6_k",
+        "q5_k_m",
+        "quantized"
+      ],
+      "lastModified": null,
+      "description": "This repository contains a BF16 GGUF conversion of sapientinc/HRM-Text-1B and validated Q8_0, Q6_K, and Q5_K_M quantizations derived from that BF16 GGUF."
+    },
+    {
+      "rank": 21,
+      "id": "Qwen/Qwen3-8B",
+      "url": "https://huggingface.co/Qwen/Qwen3-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 12815410,
+      "likes": 1102,
       "tags": [
         "transformers",
         "safetensors",
-        "WebWorld",
-        "web-agent",
-        "world-model",
-        "simulator"
+        "qwen3",
+        "text-generation",
+        "conversational",
+        "license:apache-2.0"
       ],
       "lastModified": null,
-      "description": "WebWorld is a large-scale open-web world model series for training and evaluating web agents. It is trained on 1M+ real-world web interaction trajectories via a scalable hierarchical data pipeline, supporting:"
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
-      "rank": 23,
+      "rank": 22,
       "id": "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
       "url": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
       "pipelineTag": "text-generation",
