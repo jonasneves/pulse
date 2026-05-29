@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-29T00:57:16.948Z",
+  "updated": "2026-05-29T04:32:10.865Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 262546600,
-      "likes": 4851,
+      "likes": 4852,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -475,7 +475,7 @@
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
       "downloads": 13206834,
-      "likes": 1003,
+      "likes": 1004,
       "tags": [
         "sentence-transformers",
         "safetensors",
@@ -529,7 +529,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 12033584,
-      "likes": 6228,
+      "likes": 6230,
       "tags": [
         "text-to-speech",
         "en",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
       "downloads": 15629,
-      "likes": 494,
+      "likes": 502,
       "tags": [
         "transformers",
         "safetensors",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
       "pipelineTag": "text-generation",
       "downloads": 0,
-      "likes": 110,
+      "likes": 122,
       "tags": [
         "transformers",
         "safetensors",
@@ -602,7 +602,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 42,
-      "likes": 65,
+      "likes": 75,
       "tags": [
         "gguf",
         "liquid",
@@ -638,7 +638,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 10742,
-      "likes": 109,
+      "likes": 110,
       "tags": [
         "transformers",
         "gguf",
@@ -674,7 +674,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 10490412,
-      "likes": 5919,
+      "likes": 5921,
       "tags": [
         "transformers",
         "safetensors",
@@ -687,21 +687,20 @@
     },
     {
       "rank": 9,
-      "id": "nvidia/Nemotron-Labs-Diffusion-8B",
-      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-8B",
+      "id": "meta-llama/Llama-3.2-1B",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B",
       "pipelineTag": "text-generation",
-      "downloads": 35401,
-      "likes": 31,
+      "downloads": 2225294,
+      "likes": 2412,
       "tags": [
         "transformers",
         "safetensors",
-        "nvidia",
-        "pytorch",
+        "llama",
         "text-generation",
-        "license:other"
+        "facebook",
+        "meta"
       ],
-      "lastModified": null,
-      "description": "Nemotron-Labs-Diffusion is a tri-mode language model that supports both AR decoding and diffusion-based parallel decoding by simply switching the attention pattern of the same model during inference. The synergy between these two modes e…"
+      "lastModified": null
     },
     {
       "rank": 10,
@@ -723,11 +722,11 @@
     },
     {
       "rank": 11,
-      "id": "meta-llama/Llama-3.2-1B",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B",
+      "id": "meta-llama/Llama-3.2-1B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 2225294,
-      "likes": 2411,
+      "downloads": 8289031,
+      "likes": 1443,
       "tags": [
         "transformers",
         "safetensors",
@@ -757,28 +756,29 @@
     },
     {
       "rank": 13,
+      "id": "nvidia/Nemotron-Labs-Diffusion-8B",
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 35401,
+      "likes": 31,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "nvidia",
+        "pytorch",
+        "text-generation",
+        "license:other"
+      ],
+      "lastModified": null,
+      "description": "Nemotron-Labs-Diffusion is a tri-mode language model that supports both AR decoding and diffusion-based parallel decoding by simply switching the attention pattern of the same model during inference. The synergy between these two modes e…"
+    },
+    {
+      "rank": 14,
       "id": "meta-llama/Llama-3.1-8B",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
       "pipelineTag": "text-generation",
       "downloads": 1263595,
       "likes": 2217,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 14,
-      "id": "meta-llama/Llama-3.2-1B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 8289031,
-      "likes": 1442,
       "tags": [
         "transformers",
         "safetensors",
@@ -845,24 +845,6 @@
     },
     {
       "rank": 18,
-      "id": "HuggingFaceBio/Carbon-8B",
-      "url": "https://huggingface.co/HuggingFaceBio/Carbon-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 1932,
-      "likes": 38,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "dna",
-        "genomic"
-      ],
-      "lastModified": null,
-      "description": "A larger, higher-capacity member of the Carbon family of generative DNA foundation models."
-    },
-    {
-      "rank": 19,
       "id": "Qwen/Qwen2.5-1.5B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
       "pipelineTag": "text-generation",
@@ -880,7 +862,7 @@
       "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
-      "rank": 20,
+      "rank": 19,
       "id": "google/gemma-3-1b-it",
       "url": "https://huggingface.co/google/gemma-3-1b-it",
       "pipelineTag": "text-generation",
@@ -895,6 +877,24 @@
         "license:gemma"
       ],
       "lastModified": null
+    },
+    {
+      "rank": 20,
+      "id": "HuggingFaceBio/Carbon-8B",
+      "url": "https://huggingface.co/HuggingFaceBio/Carbon-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 1932,
+      "likes": 38,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "dna",
+        "genomic"
+      ],
+      "lastModified": null,
+      "description": "A larger, higher-capacity member of the Carbon family of generative DNA foundation models."
     },
     {
       "rank": 21,
@@ -916,6 +916,24 @@
     },
     {
       "rank": 22,
+      "id": "Abiray/MiniCPM5-1B-GGUF",
+      "url": "https://huggingface.co/Abiray/MiniCPM5-1B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 2342,
+      "likes": 10,
+      "tags": [
+        "gguf",
+        "minicpm",
+        "minicpm5",
+        "llama",
+        "text-generation",
+        "tool-calling"
+      ],
+      "lastModified": null,
+      "description": "This repository contains custom GGUF format quantizations of the openbmb/MiniCPM5-1B model."
+    },
+    {
+      "rank": 23,
       "id": "NousResearch/Hermes-3-Llama-3.1-8B",
       "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
       "pipelineTag": "text-generation",
@@ -933,7 +951,7 @@
       "description": "Hermes 3 is the latest version of our flagship Hermes series of LLMs by Nous Research."
     },
     {
-      "rank": 23,
+      "rank": 24,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
@@ -951,7 +969,7 @@
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "id": "Andycurrent/Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking_GGUF",
       "url": "https://huggingface.co/Andycurrent/Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking_GGUF",
       "pipelineTag": "text-generation",
