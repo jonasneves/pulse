@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-31T09:54:40.689Z",
+  "updated": "2026-05-31T12:34:25.803Z",
   "models": [
     {
       "rank": 1,
@@ -223,7 +223,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 20336717,
-      "likes": 1277,
+      "likes": 1278,
       "tags": [
         "transformers",
         "safetensors",
@@ -241,7 +241,7 @@
       "url": "https://huggingface.co/colbert-ir/colbertv2.0",
       "pipelineTag": null,
       "downloads": 19629105,
-      "likes": 350,
+      "likes": 351,
       "tags": [
         "transformers",
         "pytorch",
@@ -493,7 +493,7 @@
       "url": "https://huggingface.co/distilbert/distilbert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 12753822,
-      "likes": 887,
+      "likes": 886,
       "tags": [
         "transformers",
         "pytorch",
@@ -511,7 +511,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 12723050,
-      "likes": 1311,
+      "likes": 1312,
       "tags": [
         "transformers",
         "safetensors",
@@ -529,7 +529,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 12562553,
-      "likes": 6241,
+      "likes": 6242,
       "tags": [
         "text-to-speech",
         "en",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
       "downloads": 36730,
-      "likes": 631,
+      "likes": 636,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
       "pipelineTag": "text-generation",
       "downloads": 27677,
-      "likes": 292,
+      "likes": 299,
       "tags": [
         "transformers",
         "safetensors",
@@ -602,7 +602,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 41828,
-      "likes": 127,
+      "likes": 129,
       "tags": [
         "gguf",
         "liquid",
@@ -620,7 +620,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 21435,
-      "likes": 123,
+      "likes": 124,
       "tags": [
         "transformers",
         "gguf",
@@ -828,24 +828,41 @@
     },
     {
       "rank": 17,
-      "id": "Qwen/Qwen2.5-7B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "id": "Gryphe/Pantheon-Reasoning-27B",
+      "url": "https://huggingface.co/Gryphe/Pantheon-Reasoning-27B",
       "pipelineTag": "text-generation",
-      "downloads": 12723050,
-      "likes": 1311,
+      "downloads": 74,
+      "likes": 14,
       "tags": [
-        "transformers",
         "safetensors",
-        "qwen2",
-        "text-generation",
-        "chat",
-        "conversational"
+        "qwen3_5",
+        "qwen3_6",
+        "conversational",
+        "instruct",
+        "finetune"
       ],
       "lastModified": null,
-      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
+      "description": "An experiment in bringing reasoning capability to the Pantheon roleplay series in the form of an uncensored dense Qwen 3.6 27B. This specific model can be thought of as a successor to both the Pantheon series and the one-time Codex relea…"
     },
     {
       "rank": 18,
+      "id": "google/gemma-3-1b-it",
+      "url": "https://huggingface.co/google/gemma-3-1b-it",
+      "pipelineTag": "text-generation",
+      "downloads": 1558431,
+      "likes": 973,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "conversational",
+        "license:gemma"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 19,
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
@@ -863,25 +880,25 @@
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
-      "rank": 19,
-      "id": "Gryphe/Pantheon-Reasoning-27B",
-      "url": "https://huggingface.co/Gryphe/Pantheon-Reasoning-27B",
+      "rank": 20,
+      "id": "Qwen/Qwen2.5-7B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 74,
-      "likes": 13,
+      "downloads": 12723050,
+      "likes": 1312,
       "tags": [
+        "transformers",
         "safetensors",
-        "qwen3_5",
-        "qwen3_6",
-        "conversational",
-        "instruct",
-        "finetune"
+        "qwen2",
+        "text-generation",
+        "chat",
+        "conversational"
       ],
       "lastModified": null,
-      "description": "An experiment in bringing reasoning capability to the Pantheon roleplay series in the form of an uncensored dense Qwen 3.6 27B. This specific model can be thought of as a successor to both the Pantheon series and the one-time Codex relea…"
+      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "id": "Qwen/Qwen2.5-1.5B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
       "pipelineTag": "text-generation",
@@ -897,23 +914,6 @@
       ],
       "lastModified": null,
       "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
-    },
-    {
-      "rank": 21,
-      "id": "google/gemma-3-1b-it",
-      "url": "https://huggingface.co/google/gemma-3-1b-it",
-      "pipelineTag": "text-generation",
-      "downloads": 1558431,
-      "likes": 973,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gemma3_text",
-        "text-generation",
-        "conversational",
-        "license:gemma"
-      ],
-      "lastModified": null
     },
     {
       "rank": 22,
@@ -938,7 +938,7 @@
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
       "pipelineTag": "text-generation",
       "downloads": 5123751,
-      "likes": 13353,
+      "likes": 13354,
       "tags": [
         "transformers",
         "safetensors",
@@ -956,7 +956,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 20336717,
-      "likes": 1277,
+      "likes": 1278,
       "tags": [
         "transformers",
         "safetensors",
@@ -970,6 +970,24 @@
     },
     {
       "rank": 25,
+      "id": "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
+      "url": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
+      "pipelineTag": "text-generation",
+      "downloads": 16035,
+      "likes": 160,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation",
+        "reasoning",
+        "distillation",
+        "chain-of-thought"
+      ],
+      "lastModified": null,
+      "description": "A reasoning-distilled variant of Qwen3.6-35B-A3B taught to imitate the chain-of-thought style of Claude Opus 4.7, the frontier reasoning model from Anthropic. The goal: port Claude-grade reasoning behavior into a permissively-licensed Mi…"
+    },
+    {
+      "rank": 26,
       "id": "Qwen/Qwen3-4B-Instruct-2507",
       "url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507",
       "pipelineTag": "text-generation",
@@ -985,24 +1003,6 @@
       ],
       "lastModified": null,
       "description": "We introduce the updated version of the Qwen3-4B non-thinking mode, named Qwen3-4B-Instruct-2507, featuring the following key enhancements:"
-    },
-    {
-      "rank": 26,
-      "id": "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
-      "url": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
-      "pipelineTag": "text-generation",
-      "downloads": 16035,
-      "likes": 159,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation",
-        "reasoning",
-        "distillation",
-        "chain-of-thought"
-      ],
-      "lastModified": null,
-      "description": "A reasoning-distilled variant of Qwen3.6-35B-A3B taught to imitate the chain-of-thought style of Claude Opus 4.7, the frontier reasoning model from Anthropic. The goal: port Claude-grade reasoning behavior into a permissively-licensed Mi…"
     },
     {
       "rank": 27,
