@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T07:49:18.602Z",
+  "updated": "2026-06-03T10:37:03.673Z",
   "models": [
     {
       "rank": 1,
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 31719810,
-      "likes": 3076,
+      "likes": 3078,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -223,7 +223,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 21592454,
-      "likes": 1286,
+      "likes": 1287,
       "tags": [
         "transformers",
         "safetensors",
@@ -295,7 +295,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 16035108,
-      "likes": 3274,
+      "likes": 3276,
       "tags": [
         "transformers",
         "pytorch",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
       "pipelineTag": "text-generation",
       "downloads": 60171,
-      "likes": 454,
+      "likes": 457,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
       "downloads": 68494,
-      "likes": 738,
+      "likes": 741,
       "tags": [
         "transformers",
         "safetensors",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 87045,
-      "likes": 162,
+      "likes": 163,
       "tags": [
         "gguf",
         "liquid",
@@ -602,7 +602,7 @@
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking",
       "pipelineTag": "text-generation",
       "downloads": 6938,
-      "likes": 152,
+      "likes": 161,
       "tags": [
         "transformers",
         "safetensors",
@@ -620,7 +620,7 @@
       "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
       "pipelineTag": "text-generation",
       "downloads": 155558,
-      "likes": 492,
+      "likes": 504,
       "tags": [
         "transformers",
         "safetensors",
@@ -656,7 +656,7 @@
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 644,
-      "likes": 39,
+      "likes": 40,
       "tags": [
         "transformers",
         "safetensors",
@@ -674,7 +674,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 10943455,
-      "likes": 5974,
+      "likes": 5975,
       "tags": [
         "transformers",
         "safetensors",
@@ -723,23 +723,6 @@
     },
     {
       "rank": 11,
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 1791558,
-      "likes": 2184,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 12,
       "id": "Gryphe/Pantheon-Reasoning-27B",
       "url": "https://huggingface.co/Gryphe/Pantheon-Reasoning-27B",
       "pipelineTag": "text-generation",
@@ -755,6 +738,23 @@
       ],
       "lastModified": null,
       "description": "An experiment in bringing reasoning capability to the Pantheon roleplay series in the form of an uncensored dense Qwen 3.6 27B. This specific model can be thought of as a successor to both the Pantheon series and the one-time Codex relea…"
+    },
+    {
+      "rank": 12,
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 1791558,
+      "likes": 2184,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
     },
     {
       "rank": 13,
@@ -776,23 +776,6 @@
     },
     {
       "rank": 14,
-      "id": "meta-llama/Llama-3.1-8B",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 1290826,
-      "likes": 2229,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 15,
       "id": "deepseek-ai/DeepSeek-R1",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
       "pipelineTag": "text-generation",
@@ -808,6 +791,24 @@
       ],
       "lastModified": null,
       "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
+    },
+    {
+      "rank": 15,
+      "id": "Qwen/Qwen3-0.6B",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "pipelineTag": "text-generation",
+      "downloads": 21592454,
+      "likes": 1287,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "conversational",
+        "license:apache-2.0"
+      ],
+      "lastModified": null,
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
       "rank": 16,
@@ -846,21 +847,20 @@
     },
     {
       "rank": 18,
-      "id": "Qwen/Qwen3-0.6B",
-      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "id": "meta-llama/Llama-3.1-8B",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
       "pipelineTag": "text-generation",
-      "downloads": 21592454,
-      "likes": 1286,
+      "downloads": 1290826,
+      "likes": 2229,
       "tags": [
         "transformers",
         "safetensors",
-        "qwen3",
+        "llama",
         "text-generation",
-        "conversational",
-        "license:apache-2.0"
+        "facebook",
+        "meta"
       ],
-      "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+      "lastModified": null
     },
     {
       "rank": 19,
@@ -882,6 +882,24 @@
     },
     {
       "rank": 20,
+      "id": "nvidia/Nemotron-Labs-Diffusion-8B",
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 55482,
+      "likes": 43,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "nvidia",
+        "pytorch",
+        "text-generation",
+        "license:other"
+      ],
+      "lastModified": null,
+      "description": "Nemotron-Labs-Diffusion is a tri-mode language model that supports both AR decoding and diffusion-based parallel decoding by simply switching the attention pattern of the same model during inference. The synergy between these two modes e…"
+    },
+    {
+      "rank": 21,
       "id": "meta-llama/Llama-3.2-1B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
       "pipelineTag": "text-generation",
@@ -898,7 +916,7 @@
       "lastModified": null
     },
     {
-      "rank": 21,
+      "rank": 22,
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
@@ -914,24 +932,6 @@
       ],
       "lastModified": null,
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
-      "rank": 22,
-      "id": "nvidia/Nemotron-Labs-Diffusion-8B",
-      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 55482,
-      "likes": 42,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "nvidia",
-        "pytorch",
-        "text-generation",
-        "license:other"
-      ],
-      "lastModified": null,
-      "description": "Nemotron-Labs-Diffusion is a tri-mode language model that supports both AR decoding and diffusion-based parallel decoding by simply switching the attention pattern of the same model during inference. The synergy between these two modes e…"
     },
     {
       "rank": 23,
@@ -989,21 +989,21 @@
     },
     {
       "rank": 26,
-      "id": "Qwen/Qwen2.5-3B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
+      "id": "unsloth/LFM2.5-8B-A1B",
+      "url": "https://huggingface.co/unsloth/LFM2.5-8B-A1B",
       "pipelineTag": "text-generation",
-      "downloads": 13976297,
-      "likes": 486,
+      "downloads": 1218,
+      "likes": 11,
       "tags": [
         "transformers",
         "safetensors",
-        "qwen2",
+        "lfm2_moe",
         "text-generation",
-        "chat",
-        "conversational"
+        "liquid",
+        "unsloth"
       ],
       "lastModified": null,
-      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     }
   ]
 }
