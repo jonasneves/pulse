@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-04T10:20:49.994Z",
+  "updated": "2026-06-04T13:12:06.903Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 255965837,
-      "likes": 4890,
+      "likes": 4891,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -205,7 +205,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 21888310,
-      "likes": 1296,
+      "likes": 1295,
       "tags": [
         "transformers",
         "safetensors",
@@ -492,7 +492,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 12384201,
-      "likes": 1326,
+      "likes": 1327,
       "tags": [
         "transformers",
         "safetensors",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
       "pipelineTag": "text-generation",
       "downloads": 72114,
-      "likes": 487,
+      "likes": 491,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
       "downloads": 79427,
-      "likes": 762,
+      "likes": 764,
       "tags": [
         "transformers",
         "safetensors",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking",
       "pipelineTag": "text-generation",
       "downloads": 12157,
-      "likes": 192,
+      "likes": 194,
       "tags": [
         "transformers",
         "safetensors",
@@ -598,6 +598,24 @@
     },
     {
       "rank": 4,
+      "id": "sapientinc/HRM-Text-1B",
+      "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
+      "pipelineTag": "text-generation",
+      "downloads": 157457,
+      "likes": 584,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "hrm_text",
+        "text-generation",
+        "hrm",
+        "hierarchical-reasoning"
+      ],
+      "lastModified": null,
+      "description": "A 1 B-parameter language model checkpoint built on the Hierarchical Reasoning Model (HRM) architecture, trained by Sapient Intelligence from scratch on structured public datasets."
+    },
+    {
+      "rank": 5,
       "id": "LiquidAI/LFM2.5-8B-A1B-GGUF",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF",
       "pipelineTag": "text-generation",
@@ -613,24 +631,6 @@
       ],
       "lastModified": null,
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 5,
-      "id": "sapientinc/HRM-Text-1B",
-      "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
-      "pipelineTag": "text-generation",
-      "downloads": 157457,
-      "likes": 574,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "hrm_text",
-        "text-generation",
-        "hrm",
-        "hierarchical-reasoning"
-      ],
-      "lastModified": null,
-      "description": "A 1 B-parameter language model checkpoint built on the Hierarchical Reasoning Model (HRM) architecture, trained by Sapient Intelligence from scratch on structured public datasets."
     },
     {
       "rank": 6,
@@ -656,7 +656,7 @@
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 1418,
-      "likes": 45,
+      "likes": 46,
       "tags": [
         "transformers",
         "safetensors",
@@ -709,7 +709,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 21888310,
-      "likes": 1296,
+      "likes": 1295,
       "tags": [
         "transformers",
         "safetensors",
@@ -741,23 +741,42 @@
     },
     {
       "rank": 12,
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "id": "Abiray/MiniCPM5-1B-GGUF",
+      "url": "https://huggingface.co/Abiray/MiniCPM5-1B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 1773833,
-      "likes": 2187,
+      "downloads": 9010,
+      "likes": 27,
       "tags": [
-        "transformers",
-        "safetensors",
+        "gguf",
+        "minicpm",
+        "minicpm5",
         "llama",
         "text-generation",
-        "facebook",
-        "meta"
+        "tool-calling"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "This repository contains custom GGUF format quantizations of the openbmb/MiniCPM5-1B model."
     },
     {
       "rank": 13,
+      "id": "deepseek-ai/DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "pipelineTag": "text-generation",
+      "downloads": 5577155,
+      "likes": 13370,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code"
+      ],
+      "lastModified": null,
+      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
+    },
+    {
+      "rank": 14,
       "id": "openbmb/MiniCPM5-1B-GGUF",
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B-GGUF",
       "pipelineTag": "text-generation",
@@ -773,24 +792,6 @@
       ],
       "lastModified": null,
       "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
-    },
-    {
-      "rank": 14,
-      "id": "Abiray/MiniCPM5-1B-GGUF",
-      "url": "https://huggingface.co/Abiray/MiniCPM5-1B-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 9010,
-      "likes": 26,
-      "tags": [
-        "gguf",
-        "minicpm",
-        "minicpm5",
-        "llama",
-        "text-generation",
-        "tool-calling"
-      ],
-      "lastModified": null,
-      "description": "This repository contains custom GGUF format quantizations of the openbmb/MiniCPM5-1B model."
     },
     {
       "rank": 15,
@@ -829,24 +830,41 @@
     },
     {
       "rank": 17,
-      "id": "deepseek-ai/DeepSeek-R1",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 5577155,
-      "likes": 13369,
+      "downloads": 1773833,
+      "likes": 2187,
       "tags": [
         "transformers",
         "safetensors",
-        "deepseek_v3",
+        "llama",
         "text-generation",
-        "conversational",
-        "custom_code"
+        "facebook",
+        "meta"
       ],
-      "lastModified": null,
-      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
+      "lastModified": null
     },
     {
       "rank": 18,
+      "id": "ibm-granite/granite-switch-4.1-3b-preview",
+      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-3b-preview",
+      "pipelineTag": "text-generation",
+      "downloads": 8452,
+      "likes": 22,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "granite_switch",
+        "text-generation",
+        "language",
+        "granite-switch"
+      ],
+      "lastModified": null,
+      "description": "Model Summary: Granite Switch 4.1 3B Preview is a modular LLM built on IBM Granite 4.1 3B with embedded adapters from the Granite Libraries collection. A single checkpoint supports multiple specialized capabilities — RAG, safety, explain…"
+    },
+    {
+      "rank": 19,
       "id": "meta-llama/Llama-3.2-1B",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-1B",
       "pipelineTag": "text-generation",
@@ -861,24 +879,6 @@
         "meta"
       ],
       "lastModified": null
-    },
-    {
-      "rank": 19,
-      "id": "Qwen/Qwen3-8B",
-      "url": "https://huggingface.co/Qwen/Qwen3-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 12227982,
-      "likes": 1123,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "conversational",
-        "license:apache-2.0"
-      ],
-      "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
       "rank": 20,
@@ -918,6 +918,42 @@
     },
     {
       "rank": 22,
+      "id": "Qwen/Qwen3-8B",
+      "url": "https://huggingface.co/Qwen/Qwen3-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 12227982,
+      "likes": 1123,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "conversational",
+        "license:apache-2.0"
+      ],
+      "lastModified": null,
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
+      "rank": 23,
+      "id": "ibm-granite/granite-switch-4.1-8b-preview",
+      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b-preview",
+      "pipelineTag": "text-generation",
+      "downloads": 540,
+      "likes": 18,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "granite_switch",
+        "text-generation",
+        "language",
+        "granite-switch"
+      ],
+      "lastModified": null,
+      "description": "Model Summary: Granite Switch 4.1 8B Preview is a modular LLM built on IBM Granite 4.1 8B with embedded adapters from the Granite Libraries collection. A single checkpoint supports multiple specialized capabilities — RAG, safety, explain…"
+    },
+    {
+      "rank": 24,
       "id": "LiquidAI/LFM2.5-8B-A1B-MLX-8bit",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-MLX-8bit",
       "pipelineTag": "text-generation",
@@ -935,7 +971,7 @@
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
-      "rank": 23,
+      "rank": 25,
       "id": "unsloth/LFM2.5-8B-A1B",
       "url": "https://huggingface.co/unsloth/LFM2.5-8B-A1B",
       "pipelineTag": "text-generation",
@@ -953,25 +989,7 @@
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
-      "rank": 24,
-      "id": "Qwen/Qwen2.5-7B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 12384201,
-      "likes": 1326,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "chat",
-        "conversational"
-      ],
-      "lastModified": null,
-      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
-    },
-    {
-      "rank": 25,
+      "rank": 26,
       "id": "meta-llama/Llama-3.2-1B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
       "pipelineTag": "text-generation",
@@ -986,59 +1004,6 @@
         "meta"
       ],
       "lastModified": null
-    },
-    {
-      "rank": 26,
-      "id": "meta-llama/Meta-Llama-3-8B",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 1761811,
-      "likes": 6564,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 27,
-      "id": "Qwen/Qwen2.5-3B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 14067461,
-      "likes": 488,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "chat",
-        "conversational"
-      ],
-      "lastModified": null,
-      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
-    },
-    {
-      "rank": 28,
-      "id": "Qwen/Qwen2.5-1.5B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 13553004,
-      "likes": 731,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "chat",
-        "conversational"
-      ],
-      "lastModified": null,
-      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     }
   ]
 }
