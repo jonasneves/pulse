@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07T12:38:27.860Z",
+  "updated": "2026-06-07T15:33:39.446Z",
   "models": [
     {
       "rank": 1,
@@ -43,7 +43,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 64555258,
-      "likes": 2677,
+      "likes": 2678,
       "tags": [
         "transformers",
         "pytorch",
@@ -97,7 +97,7 @@
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 50612915,
-      "likes": 1257,
+      "likes": 1259,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -313,7 +313,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 15387184,
-      "likes": 3287,
+      "likes": 3288,
       "tags": [
         "transformers",
         "pytorch",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
       "pipelineTag": "text-generation",
       "downloads": 162822,
-      "likes": 716,
+      "likes": 717,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking",
       "pipelineTag": "text-generation",
       "downloads": 16924,
-      "likes": 245,
+      "likes": 246,
       "tags": [
         "transformers",
         "safetensors",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
       "pipelineTag": "text-generation",
       "downloads": 118326,
-      "likes": 536,
+      "likes": 538,
       "tags": [
         "transformers",
         "safetensors",
@@ -602,7 +602,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
       "downloads": 114329,
-      "likes": 777,
+      "likes": 779,
       "tags": [
         "transformers",
         "safetensors",
@@ -656,7 +656,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 11216853,
-      "likes": 6009,
+      "likes": 6010,
       "tags": [
         "transformers",
         "safetensors",
@@ -673,7 +673,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606",
       "pipelineTag": "text-generation",
       "downloads": 1756,
-      "likes": 35,
+      "likes": 36,
       "tags": [
         "transformers",
         "safetensors",
@@ -691,7 +691,7 @@
       "url": "https://huggingface.co/SupraLabs/Supra-50M-Reasoning",
       "pipelineTag": "text-generation",
       "downloads": 1197,
-      "likes": 31,
+      "likes": 32,
       "tags": [
         "transformers",
         "safetensors",
@@ -723,24 +723,6 @@
     },
     {
       "rank": 11,
-      "id": "unsloth/LFM2.5-8B-A1B-GGUF",
-      "url": "https://huggingface.co/unsloth/LFM2.5-8B-A1B-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 48002,
-      "likes": 57,
-      "tags": [
-        "transformers",
-        "gguf",
-        "liquid",
-        "unsloth",
-        "lfm2.5",
-        "edge"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 12,
       "id": "ibm-granite/granite-switch-4.1-8b-preview",
       "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b-preview",
       "pipelineTag": "text-generation",
@@ -758,7 +740,7 @@
       "description": "Model Summary: Granite Switch 4.1 8B Preview is a modular LLM built on IBM Granite 4.1 8B with embedded adapters from the Granite Libraries collection. A single checkpoint supports multiple specialized capabilities — RAG, safety, explain…"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "id": "JetBrains/Mellum2-12B-A2.5B-Thinking-SFT",
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking-SFT",
       "pipelineTag": "text-generation",
@@ -776,7 +758,42 @@
       "description": "Mellum2 Thinking (SFT) is the supervised-fine-tuning-only intermediate checkpoint of the Mellum2 Thinking training pipeline, released by JetBrains as a research artifact."
     },
     {
+      "rank": 13,
+      "id": "unsloth/LFM2.5-8B-A1B-GGUF",
+      "url": "https://huggingface.co/unsloth/LFM2.5-8B-A1B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 48002,
+      "likes": 57,
+      "tags": [
+        "transformers",
+        "gguf",
+        "liquid",
+        "unsloth",
+        "lfm2.5",
+        "edge"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
       "rank": 14,
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 1693307,
+      "likes": 2201,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 15,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
@@ -792,23 +809,6 @@
       ],
       "lastModified": null,
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
-      "rank": 15,
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 1693307,
-      "likes": 2200,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
     },
     {
       "rank": 16,
@@ -830,6 +830,24 @@
     },
     {
       "rank": 17,
+      "id": "LiquidAI/LFM2.5-1.2B-JP-202606-GGUF",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 1135,
+      "likes": 17,
+      "tags": [
+        "gguf",
+        "liquid",
+        "lfm2",
+        "edge",
+        "llama.cpp",
+        "text-generation"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
+      "rank": 18,
       "id": "deepseek-ai/DeepSeek-R1",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
       "pipelineTag": "text-generation",
@@ -845,24 +863,6 @@
       ],
       "lastModified": null,
       "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
-    },
-    {
-      "rank": 18,
-      "id": "LiquidAI/LFM2.5-1.2B-JP-202606-GGUF",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 1135,
-      "likes": 15,
-      "tags": [
-        "gguf",
-        "liquid",
-        "lfm2",
-        "edge",
-        "llama.cpp",
-        "text-generation"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
       "rank": 19,
@@ -918,21 +918,20 @@
     },
     {
       "rank": 22,
-      "id": "Qwen/Qwen2.5-7B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "id": "meta-llama/Llama-3.1-8B",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
       "pipelineTag": "text-generation",
-      "downloads": 12466205,
-      "likes": 1333,
+      "downloads": 1319454,
+      "likes": 2244,
       "tags": [
         "transformers",
         "safetensors",
-        "qwen2",
+        "llama",
         "text-generation",
-        "chat",
-        "conversational"
+        "facebook",
+        "meta"
       ],
-      "lastModified": null,
-      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
+      "lastModified": null
     }
   ]
 }
