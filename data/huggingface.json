@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-08T16:25:19.402Z",
+  "updated": "2026-06-08T18:54:53.044Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 251654846,
-      "likes": 4916,
+      "likes": 4917,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -97,7 +97,7 @@
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 50658244,
-      "likes": 1259,
+      "likes": 1260,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 22789512,
-      "likes": 1304,
+      "likes": 1306,
       "tags": [
         "transformers",
         "safetensors",
@@ -295,7 +295,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 15344092,
-      "likes": 3292,
+      "likes": 3293,
       "tags": [
         "transformers",
         "pytorch",
@@ -421,7 +421,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 14149293,
-      "likes": 6285,
+      "likes": 6286,
       "tags": [
         "text-to-speech",
         "en",
@@ -528,7 +528,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 11782905,
-      "likes": 731,
+      "likes": 732,
       "tags": [
         "transformers",
         "safetensors",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
       "pipelineTag": "text-generation",
       "downloads": 163953,
-      "likes": 725,
+      "likes": 726,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking",
       "pipelineTag": "text-generation",
       "downloads": 17448,
-      "likes": 256,
+      "likes": 258,
       "tags": [
         "transformers",
         "safetensors",
@@ -674,7 +674,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 11146200,
-      "likes": 6019,
+      "likes": 6020,
       "tags": [
         "transformers",
         "safetensors",
@@ -727,7 +727,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 22789512,
-      "likes": 1304,
+      "likes": 1306,
       "tags": [
         "transformers",
         "safetensors",
@@ -795,24 +795,6 @@
     },
     {
       "rank": 15,
-      "id": "JetBrains/Mellum2-12B-A2.5B-Thinking-SFT",
-      "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking-SFT",
-      "pipelineTag": "text-generation",
-      "downloads": 497,
-      "likes": 21,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "mellum",
-        "text-generation",
-        "conversational",
-        "en"
-      ],
-      "lastModified": null,
-      "description": "Mellum2 Thinking (SFT) is the supervised-fine-tuning-only intermediate checkpoint of the Mellum2 Thinking training pipeline, released by JetBrains as a research artifact."
-    },
-    {
-      "rank": 16,
       "id": "JetBrains/Mellum2-12B-A2.5B-Thinking-GGUF-Q4_K_M",
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking-GGUF-Q4_K_M",
       "pipelineTag": "text-generation",
@@ -830,7 +812,7 @@
       "description": "This repository contains a GGUF Q4_K_M quantization of JetBrains/Mellum2-12B-A2.5B-Thinking, ready to run with llama.cpp, Ollama, LM Studio, and other GGUF-compatible runtimes."
     },
     {
-      "rank": 17,
+      "rank": 16,
       "id": "meta-llama/Llama-3.2-3B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
@@ -845,6 +827,24 @@
         "meta"
       ],
       "lastModified": null
+    },
+    {
+      "rank": 17,
+      "id": "Qwen/Qwen2.5-7B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 12843763,
+      "likes": 1338,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "chat",
+        "conversational"
+      ],
+      "lastModified": null,
+      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
       "rank": 18,
@@ -866,24 +866,6 @@
     },
     {
       "rank": 19,
-      "id": "Qwen/Qwen2.5-7B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 12843763,
-      "likes": 1338,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "chat",
-        "conversational"
-      ],
-      "lastModified": null,
-      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
-    },
-    {
-      "rank": 20,
       "id": "meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
@@ -900,7 +882,7 @@
       "lastModified": null
     },
     {
-      "rank": 21,
+      "rank": 20,
       "id": "JetBrains/Mellum2-12B-A2.5B-Base",
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Base",
       "pipelineTag": "text-generation",
@@ -918,21 +900,22 @@
       "description": "Mellum2 Base is a long-context pretrained causal language model trained by JetBrains."
     },
     {
-      "rank": 22,
-      "id": "google/gemma-3-1b-it",
-      "url": "https://huggingface.co/google/gemma-3-1b-it",
+      "rank": 21,
+      "id": "JetBrains/Mellum2-12B-A2.5B-Thinking-SFT",
+      "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking-SFT",
       "pipelineTag": "text-generation",
-      "downloads": 1834506,
-      "likes": 995,
+      "downloads": 497,
+      "likes": 21,
       "tags": [
         "transformers",
         "safetensors",
-        "gemma3_text",
+        "mellum",
         "text-generation",
         "conversational",
-        "license:gemma"
+        "en"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Mellum2 Thinking (SFT) is the supervised-fine-tuning-only intermediate checkpoint of the Mellum2 Thinking training pipeline, released by JetBrains as a research artifact."
     }
   ]
 }
