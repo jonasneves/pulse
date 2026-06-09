@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-09T16:02:35.414Z",
+  "updated": "2026-06-09T18:49:04.912Z",
   "models": [
     {
       "rank": 1,
@@ -61,7 +61,7 @@
       "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "pipelineTag": "feature-extraction",
       "downloads": 53187492,
-      "likes": 484,
+      "likes": 485,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -97,7 +97,7 @@
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 46775223,
-      "likes": 1261,
+      "likes": 1262,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -151,7 +151,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 21649861,
-      "likes": 1308,
+      "likes": 1309,
       "tags": [
         "transformers",
         "safetensors",
@@ -187,7 +187,7 @@
       "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
       "pipelineTag": "fill-mask",
       "downloads": 19913842,
-      "likes": 843,
+      "likes": 844,
       "tags": [
         "transformers",
         "pytorch",
@@ -403,7 +403,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 13198222,
-      "likes": 6291,
+      "likes": 6294,
       "tags": [
         "text-to-speech",
         "en",
@@ -528,7 +528,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 10622858,
-      "likes": 733,
+      "likes": 734,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking",
       "pipelineTag": "text-generation",
       "downloads": 17571,
-      "likes": 267,
+      "likes": 269,
       "tags": [
         "transformers",
         "safetensors",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
       "pipelineTag": "text-generation",
       "downloads": 137138,
-      "likes": 563,
+      "likes": 568,
       "tags": [
         "transformers",
         "safetensors",
@@ -602,7 +602,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
       "downloads": 129186,
-      "likes": 788,
+      "likes": 789,
       "tags": [
         "transformers",
         "safetensors",
@@ -638,7 +638,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 164182,
-      "likes": 200,
+      "likes": 201,
       "tags": [
         "gguf",
         "liquid",
@@ -652,6 +652,23 @@
     },
     {
       "rank": 7,
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 10031112,
+      "likes": 6035,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 8,
       "id": "SupraLabs/Supra-50M-Reasoning",
       "url": "https://huggingface.co/SupraLabs/Supra-50M-Reasoning",
       "pipelineTag": "text-generation",
@@ -667,23 +684,6 @@
       ],
       "lastModified": null,
       "description": "Supra-50M-Reasoning is the reasoning version of Supra-50M Instruct. It does \"reasoning\" before every answer for proving better answers."
-    },
-    {
-      "rank": 8,
-      "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 10031112,
-      "likes": 6031,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
     },
     {
       "rank": 9,
@@ -727,7 +727,7 @@
       "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b-preview",
       "pipelineTag": "text-generation",
       "downloads": 628,
-      "likes": 26,
+      "likes": 27,
       "tags": [
         "transformers",
         "safetensors",
@@ -745,7 +745,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 21649861,
-      "likes": 1308,
+      "likes": 1309,
       "tags": [
         "transformers",
         "safetensors",
@@ -795,6 +795,23 @@
     },
     {
       "rank": 15,
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 1509782,
+      "likes": 2211,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 16,
       "id": "Qwen/Qwen2.5-7B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
@@ -810,23 +827,6 @@
       ],
       "lastModified": null,
       "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
-    },
-    {
-      "rank": 16,
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 1509782,
-      "likes": 2210,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
     },
     {
       "rank": 17,
@@ -868,7 +868,7 @@
       "url": "https://huggingface.co/unsloth/LFM2.5-8B-A1B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 50152,
-      "likes": 61,
+      "likes": 62,
       "tags": [
         "transformers",
         "gguf",
@@ -879,6 +879,24 @@
       ],
       "lastModified": null,
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
+      "rank": 20,
+      "id": "Gryphe/Pantheon-Reasoning-26B-A4B-1.1",
+      "url": "https://huggingface.co/Gryphe/Pantheon-Reasoning-26B-A4B-1.1",
+      "pipelineTag": "text-generation",
+      "downloads": 124,
+      "likes": 13,
+      "tags": [
+        "safetensors",
+        "gemma4",
+        "conversational",
+        "instruct",
+        "finetune",
+        "axolotl"
+      ],
+      "lastModified": null,
+      "description": "An experiment in bringing reasoning capability to the Pantheon roleplay series in the shape of a Gemma 4 MoE, which is generally the only variant that doesn't take half a lifetime to train. Though Qwen 3.6 27B is a really, really smart m…"
     }
   ]
 }
