@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-09T07:21:02.714Z",
+  "updated": "2026-06-09T10:17:34.911Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 230826064,
-      "likes": 4922,
+      "likes": 4923,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -43,7 +43,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 58368774,
-      "likes": 2678,
+      "likes": 2679,
       "tags": [
         "transformers",
         "pytorch",
@@ -60,7 +60,7 @@
       "id": "BAAI/bge-small-en-v1.5",
       "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "pipelineTag": "feature-extraction",
-      "downloads": 57400709,
+      "downloads": 53187492,
       "likes": 483,
       "tags": [
         "sentence-transformers",
@@ -132,7 +132,7 @@
       "id": "BAAI/bge-m3",
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
-      "downloads": 31789934,
+      "downloads": 29227796,
       "likes": 3096,
       "tags": [
         "sentence-transformers",
@@ -150,8 +150,8 @@
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
-      "downloads": 22789512,
-      "likes": 1307,
+      "downloads": 21649861,
+      "likes": 1308,
       "tags": [
         "transformers",
         "safetensors",
@@ -219,24 +219,6 @@
     },
     {
       "rank": 13,
-      "id": "nomic-ai/nomic-embed-text-v1.5",
-      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
-      "pipelineTag": "sentence-similarity",
-      "downloads": 19001514,
-      "likes": 845,
-      "tags": [
-        "sentence-transformers",
-        "onnx",
-        "safetensors",
-        "nomic_bert",
-        "feature-extraction",
-        "sentence-similarity"
-      ],
-      "lastModified": null,
-      "description": "Exciting Update!: nomic-embed-text-v1.5 is now multimodal! nomic-embed-vision-v1.5 is aligned to the embedding space of nomic-embed-text-v1.5, meaning any text embedding is multimodal!"
-    },
-    {
-      "rank": 14,
       "id": "openai/clip-vit-large-patch14",
       "url": "https://huggingface.co/openai/clip-vit-large-patch14",
       "pipelineTag": "zero-shot-image-classification",
@@ -254,25 +236,25 @@
       "description": "Disclaimer: The model card is taken and modified from the official CLIP repository, it can be found here."
     },
     {
-      "rank": 15,
-      "id": "Qwen/Qwen3-4B",
-      "url": "https://huggingface.co/Qwen/Qwen3-4B",
-      "pipelineTag": "text-generation",
-      "downloads": 17701558,
-      "likes": 630,
+      "rank": 14,
+      "id": "nomic-ai/nomic-embed-text-v1.5",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+      "pipelineTag": "sentence-similarity",
+      "downloads": 17630308,
+      "likes": 845,
       "tags": [
-        "transformers",
+        "sentence-transformers",
+        "onnx",
         "safetensors",
-        "text-generation",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "deploy:azure"
+        "nomic_bert",
+        "feature-extraction",
+        "sentence-similarity"
       ],
       "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+      "description": "Exciting Update!: nomic-embed-text-v1.5 is now multimodal! nomic-embed-vision-v1.5 is aligned to the embedding space of nomic-embed-text-v1.5, meaning any text embedding is multimodal!"
     },
     {
-      "rank": 16,
+      "rank": 15,
       "id": "colbert-ir/colbertv2.0",
       "url": "https://huggingface.co/colbert-ir/colbertv2.0",
       "pipelineTag": null,
@@ -290,11 +272,29 @@
       "description": "As Figure 1 illustrates, ColBERT relies on fine-grained contextual late interaction: it encodes each passage into a matrix of token-level embeddings (shown above in blue). Then at search time, it embeds every query into another matrix (s…"
     },
     {
+      "rank": 16,
+      "id": "Qwen/Qwen3-4B",
+      "url": "https://huggingface.co/Qwen/Qwen3-4B",
+      "pipelineTag": "text-generation",
+      "downloads": 15898513,
+      "likes": 630,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "deploy:azure"
+      ],
+      "lastModified": null,
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
       "rank": 17,
       "id": "BAAI/bge-large-en-v1.5",
       "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
       "pipelineTag": "feature-extraction",
-      "downloads": 15341062,
+      "downloads": 14158114,
       "likes": 683,
       "tags": [
         "sentence-transformers",
@@ -312,7 +312,7 @@
       "id": "BAAI/bge-reranker-v2-m3",
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
-      "downloads": 15064071,
+      "downloads": 13950106,
       "likes": 1027,
       "tags": [
         "sentence-transformers",
@@ -327,28 +327,10 @@
     },
     {
       "rank": 19,
-      "id": "Qwen/Qwen2.5-3B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 14345798,
-      "likes": 492,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "chat",
-        "conversational"
-      ],
-      "lastModified": null,
-      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
-    },
-    {
-      "rank": 20,
       "id": "autogluon/chronos-2",
       "url": "https://huggingface.co/autogluon/chronos-2",
       "pipelineTag": "time-series-forecasting",
-      "downloads": 14180396,
+      "downloads": 13875139,
       "likes": 32,
       "tags": [
         "chronos-forecasting",
@@ -362,29 +344,12 @@
       "description": "Update Jun 5, 2026: ☁️ Deploy Chronos-2 on AWS with AutoGluon-Cloud. Real-time, serverless, or batch inference in 3 lines of code — pandas DataFrames in, forecasts out. Check out the new deployment guide."
     },
     {
-      "rank": 21,
-      "id": "hexgrad/Kokoro-82M",
-      "url": "https://huggingface.co/hexgrad/Kokoro-82M",
-      "pipelineTag": "text-to-speech",
-      "downloads": 14149293,
-      "likes": 6289,
-      "tags": [
-        "text-to-speech",
-        "en",
-        "doi:10.57967/hf/4329",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "lastModified": null,
-      "description": "Kokoro is an open-weight TTS model with 82 million parameters. Despite its lightweight architecture, it delivers comparable quality to larger models while being significantly faster and more cost-efficient. With Apache-licensed weights, …"
-    },
-    {
-      "rank": 22,
+      "rank": 20,
       "id": "openai-community/gpt2",
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 13683865,
-      "likes": 3293,
+      "likes": 3294,
       "tags": [
         "transformers",
         "pytorch",
@@ -397,25 +362,7 @@
       "description": "Test the whole generation capabilities here: https://transformer.huggingface.co/doc/gpt2-large"
     },
     {
-      "rank": 23,
-      "id": "amazon/chronos-2",
-      "url": "https://huggingface.co/amazon/chronos-2",
-      "pipelineTag": "time-series-forecasting",
-      "downloads": 13642921,
-      "likes": 316,
-      "tags": [
-        "chronos-forecasting",
-        "safetensors",
-        "t5",
-        "time series",
-        "forecasting",
-        "foundation models"
-      ],
-      "lastModified": null,
-      "description": "Update Jun 5, 2026: ☁️ Deploy Chronos-2 on AWS with AutoGluon-Cloud. Real-time, serverless, or batch inference in 3 lines of code — pandas DataFrames in, forecasts out. Check out the new deployment guide."
-    },
-    {
-      "rank": 24,
+      "rank": 21,
       "id": "FacebookAI/roberta-base",
       "url": "https://huggingface.co/FacebookAI/roberta-base",
       "pipelineTag": "fill-mask",
@@ -433,12 +380,12 @@
       "description": "Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model is case-sensitive: it makes a difference between english and English."
     },
     {
-      "rank": 25,
-      "id": "Qwen/Qwen2.5-7B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "rank": 22,
+      "id": "Qwen/Qwen2.5-3B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 12843763,
-      "likes": 1341,
+      "downloads": 13355782,
+      "likes": 493,
       "tags": [
         "transformers",
         "safetensors",
@@ -451,7 +398,24 @@
       "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
-      "rank": 26,
+      "rank": 23,
+      "id": "hexgrad/Kokoro-82M",
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "pipelineTag": "text-to-speech",
+      "downloads": 13198222,
+      "likes": 6289,
+      "tags": [
+        "text-to-speech",
+        "en",
+        "doi:10.57967/hf/4329",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "lastModified": null,
+      "description": "Kokoro is an open-weight TTS model with 82 million parameters. Despite its lightweight architecture, it delivers comparable quality to larger models while being significantly faster and more cost-efficient. With Apache-licensed weights, …"
+    },
+    {
+      "rank": 24,
       "id": "Bingsu/adetailer",
       "url": "https://huggingface.co/Bingsu/adetailer",
       "pipelineTag": null,
@@ -469,7 +433,7 @@
       "description": "Since getattr is classified as a dangerous pickle function, any segmentation model that uses it is classified as unsafe."
     },
     {
-      "rank": 27,
+      "rank": 25,
       "id": "FacebookAI/roberta-large",
       "url": "https://huggingface.co/FacebookAI/roberta-large",
       "pipelineTag": "fill-mask",
@@ -487,12 +451,48 @@
       "description": "Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model is case-sensitive: it makes a difference between english and English."
     },
     {
+      "rank": 26,
+      "id": "amazon/chronos-2",
+      "url": "https://huggingface.co/amazon/chronos-2",
+      "pipelineTag": "time-series-forecasting",
+      "downloads": 12508825,
+      "likes": 317,
+      "tags": [
+        "chronos-forecasting",
+        "safetensors",
+        "t5",
+        "time series",
+        "forecasting",
+        "foundation models"
+      ],
+      "lastModified": null,
+      "description": "Update Jun 5, 2026: ☁️ Deploy Chronos-2 on AWS with AutoGluon-Cloud. Real-time, serverless, or batch inference in 3 lines of code — pandas DataFrames in, forecasts out. Check out the new deployment guide."
+    },
+    {
+      "rank": 27,
+      "id": "Qwen/Qwen2.5-7B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 11890117,
+      "likes": 1341,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "chat",
+        "conversational"
+      ],
+      "lastModified": null,
+      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
+    },
+    {
       "rank": 28,
       "id": "google/gemma-4-26B-A4B-it",
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
-      "downloads": 12294214,
-      "likes": 1103,
+      "downloads": 11410793,
+      "likes": 1105,
       "tags": [
         "transformers",
         "safetensors",
@@ -509,7 +509,7 @@
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
-      "downloads": 11861550,
+      "downloads": 10950977,
       "likes": 1127,
       "tags": [
         "transformers",
@@ -527,7 +527,7 @@
       "id": "Qwen/Qwen2.5-1.5B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 11782905,
+      "downloads": 10622858,
       "likes": 733,
       "tags": [
         "transformers",
@@ -547,8 +547,8 @@
       "id": "sapientinc/HRM-Text-1B",
       "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
       "pipelineTag": "text-generation",
-      "downloads": 163953,
-      "likes": 729,
+      "downloads": 133351,
+      "likes": 730,
       "tags": [
         "transformers",
         "safetensors",
@@ -565,8 +565,8 @@
       "id": "JetBrains/Mellum2-12B-A2.5B-Thinking",
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking",
       "pipelineTag": "text-generation",
-      "downloads": 17448,
-      "likes": 262,
+      "downloads": 17571,
+      "likes": 264,
       "tags": [
         "transformers",
         "safetensors",
@@ -583,8 +583,8 @@
       "id": "LiquidAI/LFM2.5-8B-A1B",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
       "pipelineTag": "text-generation",
-      "downloads": 135131,
-      "likes": 552,
+      "downloads": 137138,
+      "likes": 557,
       "tags": [
         "transformers",
         "safetensors",
@@ -601,8 +601,8 @@
       "id": "openbmb/MiniCPM5-1B",
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
-      "downloads": 126061,
-      "likes": 786,
+      "downloads": 129186,
+      "likes": 787,
       "tags": [
         "transformers",
         "safetensors",
@@ -619,7 +619,7 @@
       "id": "LiquidAI/LFM2.5-8B-A1B-GGUF",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 162930,
+      "downloads": 164182,
       "likes": 200,
       "tags": [
         "gguf",
@@ -637,8 +637,8 @@
       "id": "LiquidAI/LFM2.5-1.2B-JP-202606",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606",
       "pipelineTag": "text-generation",
-      "downloads": 2717,
-      "likes": 51,
+      "downloads": 2856,
+      "likes": 52,
       "tags": [
         "transformers",
         "safetensors",
@@ -655,7 +655,7 @@
       "id": "JetBrains/Mellum2-12B-A2.5B-Instruct",
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 2087,
+      "downloads": 2128,
       "likes": 62,
       "tags": [
         "transformers",
@@ -673,7 +673,7 @@
       "id": "SupraLabs/Supra-50M-Reasoning",
       "url": "https://huggingface.co/SupraLabs/Supra-50M-Reasoning",
       "pipelineTag": "text-generation",
-      "downloads": 1447,
+      "downloads": 1647,
       "likes": 37,
       "tags": [
         "transformers",
@@ -691,8 +691,8 @@
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 11146200,
-      "likes": 6021,
+      "downloads": 10031112,
+      "likes": 6024,
       "tags": [
         "transformers",
         "safetensors",
@@ -708,7 +708,7 @@
       "id": "ibm-granite/granite-switch-4.1-3b-preview",
       "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-3b-preview",
       "pipelineTag": "text-generation",
-      "downloads": 8335,
+      "downloads": 7461,
       "likes": 31,
       "tags": [
         "transformers",
@@ -723,10 +723,28 @@
     },
     {
       "rank": 11,
+      "id": "Qwen/Qwen3-0.6B",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "pipelineTag": "text-generation",
+      "downloads": 21649861,
+      "likes": 1308,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "conversational",
+        "license:apache-2.0"
+      ],
+      "lastModified": null,
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
+      "rank": 12,
       "id": "ibm-granite/granite-switch-4.1-8b-preview",
       "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b-preview",
       "pipelineTag": "text-generation",
-      "downloads": 660,
+      "downloads": 628,
       "likes": 26,
       "tags": [
         "transformers",
@@ -740,47 +758,11 @@
       "description": "Model Summary: Granite Switch 4.1 8B Preview is a modular LLM built on IBM Granite 4.1 8B with embedded adapters from the Granite Libraries collection. A single checkpoint supports multiple specialized capabilities — RAG, safety, explain…"
     },
     {
-      "rank": 12,
-      "id": "Qwen/Qwen3-0.6B",
-      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
-      "pipelineTag": "text-generation",
-      "downloads": 22789512,
-      "likes": 1307,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "conversational",
-        "license:apache-2.0"
-      ],
-      "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
       "rank": 13,
-      "id": "Qwen/Qwen2.5-7B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 12843763,
-      "likes": 1341,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "chat",
-        "conversational"
-      ],
-      "lastModified": null,
-      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
-    },
-    {
-      "rank": 14,
       "id": "LiquidAI/LFM2.5-1.2B-JP-202606-GGUF",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 1880,
+      "downloads": 2037,
       "likes": 18,
       "tags": [
         "gguf",
@@ -794,11 +776,29 @@
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
+      "rank": 14,
+      "id": "Qwen/Qwen2.5-7B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 11890117,
+      "likes": 1341,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "chat",
+        "conversational"
+      ],
+      "lastModified": null,
+      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
+    },
+    {
       "rank": 15,
       "id": "meta-llama/Llama-3.2-3B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 1643427,
+      "downloads": 1509782,
       "likes": 2209,
       "tags": [
         "transformers",
@@ -815,7 +815,7 @@
       "id": "JetBrains/Mellum2-12B-A2.5B-Thinking-GGUF-Q4_K_M",
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking-GGUF-Q4_K_M",
       "pipelineTag": "text-generation",
-      "downloads": 9447,
+      "downloads": 9562,
       "likes": 16,
       "tags": [
         "gguf",
@@ -830,27 +830,10 @@
     },
     {
       "rank": 17,
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 1469945,
-      "likes": 4581,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 18,
       "id": "unsloth/LFM2.5-8B-A1B-GGUF",
       "url": "https://huggingface.co/unsloth/LFM2.5-8B-A1B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 49822,
+      "downloads": 50152,
       "likes": 61,
       "tags": [
         "transformers",
@@ -864,11 +847,28 @@
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
+      "rank": 18,
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 1362807,
+      "likes": 4581,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
       "rank": 19,
       "id": "Gryphe/Pantheon-Reasoning-26B-A4B-1.1",
       "url": "https://huggingface.co/Gryphe/Pantheon-Reasoning-26B-A4B-1.1",
       "pipelineTag": "text-generation",
-      "downloads": 81,
+      "downloads": 124,
       "likes": 13,
       "tags": [
         "safetensors",
@@ -883,10 +883,27 @@
     },
     {
       "rank": 20,
+      "id": "meta-llama/Llama-3.2-1B",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B",
+      "pipelineTag": "text-generation",
+      "downloads": 2096885,
+      "likes": 2440,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 21,
       "id": "deepseek-ai/DeepSeek-R1",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
       "pipelineTag": "text-generation",
-      "downloads": 5694709,
+      "downloads": 5348466,
       "likes": 13379,
       "tags": [
         "transformers",
@@ -898,41 +915,6 @@
       ],
       "lastModified": null,
       "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
-    },
-    {
-      "rank": 21,
-      "id": "JetBrains/Mellum2-12B-A2.5B-Thinking-GGUF-Q8_0",
-      "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking-GGUF-Q8_0",
-      "pipelineTag": "text-generation",
-      "downloads": 1096,
-      "likes": 12,
-      "tags": [
-        "gguf",
-        "mellum",
-        "llama.cpp",
-        "quantized",
-        "moe",
-        "thinking"
-      ],
-      "lastModified": null,
-      "description": "This repository contains a GGUF Q8_0 quantization of JetBrains/Mellum2-12B-A2.5B-Thinking, ready to run with llama.cpp, Ollama, LM Studio, and other GGUF-compatible runtimes."
-    },
-    {
-      "rank": 22,
-      "id": "meta-llama/Llama-3.2-1B",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B",
-      "pipelineTag": "text-generation",
-      "downloads": 2348376,
-      "likes": 2439,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
     }
   ]
 }
