@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-10T10:28:21.233Z",
+  "updated": "2026-06-10T13:17:22.657Z",
   "models": [
     {
       "rank": 1,
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 28406789,
-      "likes": 3098,
+      "likes": 3097,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -151,7 +151,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 21649861,
-      "likes": 1311,
+      "likes": 1312,
       "tags": [
         "transformers",
         "safetensors",
@@ -295,7 +295,7 @@
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
       "downloads": 13950106,
-      "likes": 1028,
+      "likes": 1029,
       "tags": [
         "sentence-transformers",
         "safetensors",
@@ -420,7 +420,7 @@
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
       "downloads": 12508825,
-      "likes": 317,
+      "likes": 318,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -474,7 +474,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 11890117,
-      "likes": 1346,
+      "likes": 1347,
       "tags": [
         "transformers",
         "safetensors",
@@ -492,7 +492,7 @@
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 11410793,
-      "likes": 1108,
+      "likes": 1109,
       "tags": [
         "transformers",
         "safetensors",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
       "pipelineTag": "text-generation",
       "downloads": 133351,
-      "likes": 737,
+      "likes": 739,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
       "pipelineTag": "text-generation",
       "downloads": 137138,
-      "likes": 575,
+      "likes": 578,
       "tags": [
         "transformers",
         "safetensors",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking",
       "pipelineTag": "text-generation",
       "downloads": 17571,
-      "likes": 275,
+      "likes": 277,
       "tags": [
         "transformers",
         "safetensors",
@@ -602,7 +602,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606",
       "pipelineTag": "text-generation",
       "downloads": 2856,
-      "likes": 56,
+      "likes": 58,
       "tags": [
         "transformers",
         "safetensors",
@@ -634,24 +634,6 @@
     },
     {
       "rank": 6,
-      "id": "LiquidAI/LFM2.5-8B-A1B-GGUF",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 164182,
-      "likes": 203,
-      "tags": [
-        "gguf",
-        "liquid",
-        "lfm2",
-        "edge",
-        "llama.cpp",
-        "text-generation"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 7,
       "id": "SupraLabs/Supra-50M-Reasoning",
       "url": "https://huggingface.co/SupraLabs/Supra-50M-Reasoning",
       "pipelineTag": "text-generation",
@@ -669,12 +651,12 @@
       "description": "Supra-50M-Reasoning is the reasoning version of Supra-50M Instruct. It does \"reasoning\" before every answer for proving better answers."
     },
     {
-      "rank": 8,
+      "rank": 7,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 10031112,
-      "likes": 6040,
+      "likes": 6042,
       "tags": [
         "transformers",
         "safetensors",
@@ -684,6 +666,24 @@
         "meta"
       ],
       "lastModified": null
+    },
+    {
+      "rank": 8,
+      "id": "LiquidAI/LFM2.5-8B-A1B-GGUF",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 164182,
+      "likes": 204,
+      "tags": [
+        "gguf",
+        "liquid",
+        "lfm2",
+        "edge",
+        "llama.cpp",
+        "text-generation"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
       "rank": 9,
@@ -705,24 +705,6 @@
     },
     {
       "rank": 10,
-      "id": "JetBrains/Mellum2-12B-A2.5B-Instruct",
-      "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 2128,
-      "likes": 63,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "mellum",
-        "text-generation",
-        "conversational",
-        "en"
-      ],
-      "lastModified": null,
-      "description": "Mellum2 Instruct is a post-trained assistant model trained by JetBrains."
-    },
-    {
-      "rank": 11,
       "id": "ibm-granite/granite-switch-4.1-8b-preview",
       "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b-preview",
       "pipelineTag": "text-generation",
@@ -738,6 +720,24 @@
       ],
       "lastModified": null,
       "description": "Model Summary: Granite Switch 4.1 8B Preview is a modular LLM built on IBM Granite 4.1 8B with embedded adapters from the Granite Libraries collection. A single checkpoint supports multiple specialized capabilities — RAG, safety, explain…"
+    },
+    {
+      "rank": 11,
+      "id": "JetBrains/Mellum2-12B-A2.5B-Instruct",
+      "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 2128,
+      "likes": 63,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "mellum",
+        "text-generation",
+        "conversational",
+        "en"
+      ],
+      "lastModified": null,
+      "description": "Mellum2 Instruct is a post-trained assistant model trained by JetBrains."
     },
     {
       "rank": 12,
@@ -763,7 +763,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 21649861,
-      "likes": 1311,
+      "likes": 1312,
       "tags": [
         "transformers",
         "safetensors",
@@ -777,20 +777,21 @@
     },
     {
       "rank": 14,
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "id": "LiquidAI/LFM2.5-1.2B-JP-202606-GGUF",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 1362807,
-      "likes": 4587,
+      "downloads": 2037,
+      "likes": 19,
       "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
+        "gguf",
+        "liquid",
+        "lfm2",
+        "edge",
+        "llama.cpp",
+        "text-generation"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
       "rank": 15,
@@ -811,21 +812,20 @@
     },
     {
       "rank": 16,
-      "id": "LiquidAI/LFM2.5-1.2B-JP-202606-GGUF",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606-GGUF",
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 2037,
-      "likes": 18,
+      "downloads": 1362807,
+      "likes": 4587,
       "tags": [
-        "gguf",
-        "liquid",
-        "lfm2",
-        "edge",
-        "llama.cpp",
-        "text-generation"
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
       ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+      "lastModified": null
     },
     {
       "rank": 17,
@@ -833,7 +833,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 11890117,
-      "likes": 1346,
+      "likes": 1347,
       "tags": [
         "transformers",
         "safetensors",
@@ -881,6 +881,24 @@
     },
     {
       "rank": 20,
+      "id": "JetBrains/Mellum2-12B-A2.5B-Thinking-GGUF-Q8_0",
+      "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking-GGUF-Q8_0",
+      "pipelineTag": "text-generation",
+      "downloads": 1245,
+      "likes": 13,
+      "tags": [
+        "gguf",
+        "mellum",
+        "llama.cpp",
+        "quantized",
+        "moe",
+        "thinking"
+      ],
+      "lastModified": null,
+      "description": "This repository contains a GGUF Q8_0 quantization of JetBrains/Mellum2-12B-A2.5B-Thinking, ready to run with llama.cpp, Ollama, LM Studio, and other GGUF-compatible runtimes."
+    },
+    {
+      "rank": 21,
       "id": "Gryphe/Pantheon-Reasoning-26B-A4B-1.1",
       "url": "https://huggingface.co/Gryphe/Pantheon-Reasoning-26B-A4B-1.1",
       "pipelineTag": "text-generation",
