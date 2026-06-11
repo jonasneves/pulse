@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-11T00:59:00.206Z",
+  "updated": "2026-06-11T04:34:07.157Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 227008911,
-      "likes": 4929,
+      "likes": 4931,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -97,7 +97,7 @@
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 46233278,
-      "likes": 1264,
+      "likes": 1266,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 28868200,
-      "likes": 3098,
+      "likes": 3099,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -277,7 +277,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-4B",
       "pipelineTag": "text-generation",
       "downloads": 15850097,
-      "likes": 632,
+      "likes": 633,
       "tags": [
         "transformers",
         "safetensors",
@@ -367,7 +367,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 13411836,
-      "likes": 6301,
+      "likes": 6302,
       "tags": [
         "text-to-speech",
         "en",
@@ -420,7 +420,7 @@
       "url": "https://huggingface.co/Bingsu/adetailer",
       "pipelineTag": null,
       "downloads": 12607362,
-      "likes": 719,
+      "likes": 720,
       "tags": [
         "ultralytics",
         "pytorch",
@@ -474,7 +474,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 11898561,
-      "likes": 1347,
+      "likes": 1348,
       "tags": [
         "transformers",
         "safetensors",
@@ -492,7 +492,7 @@
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 11448151,
-      "likes": 1114,
+      "likes": 1116,
       "tags": [
         "transformers",
         "safetensors",
@@ -510,7 +510,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 10762218,
-      "likes": 1128,
+      "likes": 1129,
       "tags": [
         "transformers",
         "safetensors",
@@ -528,7 +528,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 10629647,
-      "likes": 734,
+      "likes": 735,
       "tags": [
         "transformers",
         "safetensors",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
       "pipelineTag": "text-generation",
       "downloads": 134752,
-      "likes": 739,
+      "likes": 741,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
       "pipelineTag": "text-generation",
       "downloads": 142134,
-      "likes": 582,
+      "likes": 584,
       "tags": [
         "transformers",
         "safetensors",
@@ -620,7 +620,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
       "downloads": 137337,
-      "likes": 794,
+      "likes": 795,
       "tags": [
         "transformers",
         "safetensors",
@@ -634,6 +634,23 @@
     },
     {
       "rank": 6,
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 9891622,
+      "likes": 6048,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 7,
       "id": "SupraLabs/Supra-50M-Reasoning",
       "url": "https://huggingface.co/SupraLabs/Supra-50M-Reasoning",
       "pipelineTag": "text-generation",
@@ -649,23 +666,6 @@
       ],
       "lastModified": null,
       "description": "Supra-50M-Reasoning is the reasoning version of Supra-50M Instruct. It does \"reasoning\" before every answer for proving better answers."
-    },
-    {
-      "rank": 7,
-      "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 9891622,
-      "likes": 6046,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
     },
     {
       "rank": 8,
@@ -687,24 +687,6 @@
     },
     {
       "rank": 9,
-      "id": "ibm-granite/granite-switch-4.1-8b-preview",
-      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b-preview",
-      "pipelineTag": "text-generation",
-      "downloads": 626,
-      "likes": 27,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "granite_switch",
-        "text-generation",
-        "language",
-        "granite-switch"
-      ],
-      "lastModified": null,
-      "description": "Model Summary: Granite Switch 4.1 8B Preview is a modular LLM built on IBM Granite 4.1 8B with embedded adapters from the Granite Libraries collection. A single checkpoint supports multiple specialized capabilities — RAG, safety, explain…"
-    },
-    {
-      "rank": 10,
       "id": "JetBrains/Mellum2-12B-A2.5B-Thinking-GGUF-Q4_K_M",
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking-GGUF-Q4_K_M",
       "pipelineTag": "text-generation",
@@ -722,7 +704,7 @@
       "description": "This repository contains a GGUF Q4_K_M quantization of JetBrains/Mellum2-12B-A2.5B-Thinking, ready to run with llama.cpp, Ollama, LM Studio, and other GGUF-compatible runtimes."
     },
     {
-      "rank": 11,
+      "rank": 10,
       "id": "meta-llama/Llama-3.2-3B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
@@ -739,12 +721,12 @@
       "lastModified": null
     },
     {
-      "rank": 12,
-      "id": "ibm-granite/granite-switch-4.1-3b-preview",
-      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-3b-preview",
+      "rank": 11,
+      "id": "ibm-granite/granite-switch-4.1-8b-preview",
+      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b-preview",
       "pipelineTag": "text-generation",
-      "downloads": 7416,
-      "likes": 31,
+      "downloads": 626,
+      "likes": 27,
       "tags": [
         "transformers",
         "safetensors",
@@ -754,10 +736,10 @@
         "granite-switch"
       ],
       "lastModified": null,
-      "description": "Model Summary: Granite Switch 4.1 3B Preview is a modular LLM built on IBM Granite 4.1 3B with embedded adapters from the Granite Libraries collection. A single checkpoint supports multiple specialized capabilities — RAG, safety, explain…"
+      "description": "Model Summary: Granite Switch 4.1 8B Preview is a modular LLM built on IBM Granite 4.1 8B with embedded adapters from the Granite Libraries collection. A single checkpoint supports multiple specialized capabilities — RAG, safety, explain…"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "id": "JetBrains/Mellum2-12B-A2.5B-Instruct",
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Instruct",
       "pipelineTag": "text-generation",
@@ -773,6 +755,24 @@
       ],
       "lastModified": null,
       "description": "Mellum2 Instruct is a post-trained assistant model trained by JetBrains."
+    },
+    {
+      "rank": 13,
+      "id": "ibm-granite/granite-switch-4.1-3b-preview",
+      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-3b-preview",
+      "pipelineTag": "text-generation",
+      "downloads": 7416,
+      "likes": 31,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "granite_switch",
+        "text-generation",
+        "language",
+        "granite-switch"
+      ],
+      "lastModified": null,
+      "description": "Model Summary: Granite Switch 4.1 3B Preview is a modular LLM built on IBM Granite 4.1 3B with embedded adapters from the Granite Libraries collection. A single checkpoint supports multiple specialized capabilities — RAG, safety, explain…"
     },
     {
       "rank": 14,
@@ -816,7 +816,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 11898561,
-      "likes": 1347,
+      "likes": 1348,
       "tags": [
         "transformers",
         "safetensors",
@@ -883,37 +883,21 @@
     },
     {
       "rank": 20,
-      "id": "meta-llama/Llama-3.2-1B",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B",
+      "id": "apodex/Apodex-1.0-4B-SFT",
+      "url": "https://huggingface.co/apodex/Apodex-1.0-4B-SFT",
       "pipelineTag": "text-generation",
-      "downloads": 2097743,
-      "likes": 2444,
+      "downloads": 16,
+      "likes": 14,
       "tags": [
         "transformers",
         "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
+        "qwen3_5",
+        "image-text-to-text",
+        "agent",
+        "open-source"
       ],
-      "lastModified": null
-    },
-    {
-      "rank": 21,
-      "id": "google/gemma-3-1b-it",
-      "url": "https://huggingface.co/google/gemma-3-1b-it",
-      "pipelineTag": "text-generation",
-      "downloads": 1690115,
-      "likes": 1001,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gemma3_text",
-        "text-generation",
-        "conversational",
-        "license:gemma"
-      ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Apodex-1.0 is a verification-centric model for deep research. The trained model alone, Apodex-1.0, runs as a standard tool-using ReAct agent. Deployed in our heavy-duty mode — an asynchronous agent team in which sub-agents specialize in …"
     }
   ]
 }
