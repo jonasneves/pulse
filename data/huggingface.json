@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-12T21:36:42.721Z",
+  "updated": "2026-06-13T01:00:53.230Z",
   "models": [
     {
       "rank": 1,
@@ -277,7 +277,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 14394070,
-      "likes": 6311,
+      "likes": 6312,
       "tags": [
         "text-to-speech",
         "en",
@@ -438,7 +438,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 11927867,
-      "likes": 1352,
+      "likes": 1353,
       "tags": [
         "transformers",
         "safetensors",
@@ -580,6 +580,24 @@
     },
     {
       "rank": 3,
+      "id": "sapientinc/HRM-Text-1B",
+      "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
+      "pipelineTag": "text-generation",
+      "downloads": 123036,
+      "likes": 753,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "hrm_text",
+        "text-generation",
+        "hrm",
+        "hierarchical-reasoning"
+      ],
+      "lastModified": null,
+      "description": "A 1 B-parameter language model checkpoint built on the Hierarchical Reasoning Model (HRM) architecture, trained by Sapient Intelligence from scratch on structured public datasets."
+    },
+    {
+      "rank": 4,
       "id": "LiquidAI/LFM2.5-1.2B-JP-202606",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606",
       "pipelineTag": "text-generation",
@@ -597,30 +615,12 @@
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
-      "rank": 4,
-      "id": "sapientinc/HRM-Text-1B",
-      "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
-      "pipelineTag": "text-generation",
-      "downloads": 123036,
-      "likes": 752,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "hrm_text",
-        "text-generation",
-        "hrm",
-        "hierarchical-reasoning"
-      ],
-      "lastModified": null,
-      "description": "A 1 B-parameter language model checkpoint built on the Hierarchical Reasoning Model (HRM) architecture, trained by Sapient Intelligence from scratch on structured public datasets."
-    },
-    {
       "rank": 5,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 9870983,
-      "likes": 6061,
+      "likes": 6063,
       "tags": [
         "transformers",
         "safetensors",
@@ -651,6 +651,24 @@
     },
     {
       "rank": 7,
+      "id": "Muhammadreza/alduin-4b-it-base",
+      "url": "https://huggingface.co/Muhammadreza/alduin-4b-it-base",
+      "pipelineTag": "text-generation",
+      "downloads": 117,
+      "likes": 23,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3",
+        "image-text-to-text",
+        "unsloth",
+        "heretic"
+      ],
+      "lastModified": null,
+      "description": "This model is a heretic version based on Gemma 3 4B and meant to be an uncensored limitless version of the original model."
+    },
+    {
+      "rank": 8,
       "id": "SupraLabs/Supra-50M-Reasoning",
       "url": "https://huggingface.co/SupraLabs/Supra-50M-Reasoning",
       "pipelineTag": "text-generation",
@@ -666,24 +684,6 @@
       ],
       "lastModified": null,
       "description": "Supra-50M-Reasoning is the reasoning version of Supra-50M Instruct. It does \"reasoning\" before every answer for proving better answers."
-    },
-    {
-      "rank": 8,
-      "id": "Muhammadreza/alduin-4b-it-base",
-      "url": "https://huggingface.co/Muhammadreza/alduin-4b-it-base",
-      "pipelineTag": "text-generation",
-      "downloads": 117,
-      "likes": 22,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gemma3",
-        "image-text-to-text",
-        "unsloth",
-        "heretic"
-      ],
-      "lastModified": null,
-      "description": "This model is a heretic version based on Gemma 3 4B and meant to be an uncensored limitless version of the original model."
     },
     {
       "rank": 9,
@@ -758,29 +758,11 @@
     },
     {
       "rank": 13,
-      "id": "LiquidAI/LFM2.5-1.2B-JP-202606-GGUF",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 2123,
-      "likes": 20,
-      "tags": [
-        "gguf",
-        "liquid",
-        "lfm2",
-        "edge",
-        "llama.cpp",
-        "text-generation"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 14,
       "id": "Qwen/Qwen2.5-7B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 11927867,
-      "likes": 1352,
+      "likes": 1353,
       "tags": [
         "transformers",
         "safetensors",
@@ -793,7 +775,7 @@
       "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
-      "rank": 15,
+      "rank": 14,
       "id": "JetBrains/Mellum2-12B-A2.5B-Thinking-GGUF-Q4_K_M",
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking-GGUF-Q4_K_M",
       "pipelineTag": "text-generation",
@@ -809,6 +791,23 @@
       ],
       "lastModified": null,
       "description": "This repository contains a GGUF Q4_K_M quantization of JetBrains/Mellum2-12B-A2.5B-Thinking, ready to run with llama.cpp, Ollama, LM Studio, and other GGUF-compatible runtimes."
+    },
+    {
+      "rank": 15,
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 1334258,
+      "likes": 4592,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
     },
     {
       "rank": 16,
@@ -830,6 +829,24 @@
     },
     {
       "rank": 17,
+      "id": "LiquidAI/LFM2.5-1.2B-JP-202606-GGUF",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 2123,
+      "likes": 20,
+      "tags": [
+        "gguf",
+        "liquid",
+        "lfm2",
+        "edge",
+        "llama.cpp",
+        "text-generation"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
+      "rank": 18,
       "id": "JetBrains/Mellum2-12B-A2.5B-Instruct",
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Instruct",
       "pipelineTag": "text-generation",
@@ -847,7 +864,7 @@
       "description": "Mellum2 Instruct is a post-trained assistant model trained by JetBrains."
     },
     {
-      "rank": 18,
+      "rank": 19,
       "id": "JetBrains/Mellum2-12B-A2.5B-Thinking-GGUF-Q8_0",
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking-GGUF-Q8_0",
       "pipelineTag": "text-generation",
@@ -865,12 +882,12 @@
       "description": "This repository contains a GGUF Q8_0 quantization of JetBrains/Mellum2-12B-A2.5B-Thinking, ready to run with llama.cpp, Ollama, LM Studio, and other GGUF-compatible runtimes."
     },
     {
-      "rank": 19,
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "rank": 20,
+      "id": "meta-llama/Llama-3.2-1B",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B",
       "pipelineTag": "text-generation",
-      "downloads": 1334258,
-      "likes": 4592,
+      "downloads": 2126226,
+      "likes": 2445,
       "tags": [
         "transformers",
         "safetensors",
@@ -880,24 +897,6 @@
         "meta"
       ],
       "lastModified": null
-    },
-    {
-      "rank": 20,
-      "id": "apodex/Apodex-1.0-0.8B-SFT",
-      "url": "https://huggingface.co/apodex/Apodex-1.0-0.8B-SFT",
-      "pipelineTag": "text-generation",
-      "downloads": 63,
-      "likes": 11,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "agent",
-        "open-source"
-      ],
-      "lastModified": null,
-      "description": "Apodex-1.0 is a verification-centric model for deep research. The trained model alone, Apodex-1.0, runs as a standard tool-using ReAct agent. Deployed in our heavy-duty mode — an asynchronous agent team in which sub-agents specialize in …"
     }
   ]
 }
