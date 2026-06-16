@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T10:40:00.321Z",
+  "updated": "2026-06-16T13:54:32.589Z",
   "models": [
     {
       "rank": 1,
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 22464568,
-      "likes": 3120,
+      "likes": 3122,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -151,7 +151,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 18936575,
-      "likes": 1329,
+      "likes": 1330,
       "tags": [
         "transformers",
         "safetensors",
@@ -187,7 +187,7 @@
       "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
       "pipelineTag": "fill-mask",
       "downloads": 15036111,
-      "likes": 845,
+      "likes": 846,
       "tags": [
         "transformers",
         "pytorch",
@@ -259,7 +259,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 12053070,
-      "likes": 6336,
+      "likes": 6337,
       "tags": [
         "text-to-speech",
         "en",
@@ -276,7 +276,7 @@
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
       "downloads": 10798950,
-      "likes": 1037,
+      "likes": 1038,
       "tags": [
         "sentence-transformers",
         "safetensors",
@@ -456,7 +456,7 @@
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 8765530,
-      "likes": 1141,
+      "likes": 1142,
       "tags": [
         "transformers",
         "safetensors",
@@ -528,7 +528,7 @@
       "url": "https://huggingface.co/FacebookAI/roberta-large",
       "pipelineTag": "fill-mask",
       "downloads": 8170569,
-      "likes": 300,
+      "likes": 301,
       "tags": [
         "transformers",
         "pytorch",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-SFT",
       "pipelineTag": "text-generation",
       "downloads": 192,
-      "likes": 124,
+      "likes": 131,
       "tags": [
         "transformers",
         "safetensors",
@@ -598,11 +598,29 @@
     },
     {
       "rank": 4,
+      "id": "WeiboAI/VibeThinker-3B",
+      "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
+      "pipelineTag": "text-generation",
+      "downloads": 0,
+      "likes": 42,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "math",
+        "code"
+      ],
+      "lastModified": null,
+      "description": "VibeThinker-3B is a further exploration of the VibeThinker series at the 3B-parameter scale, focusing on challenging reasoning tasks with clear verification signals, such as mathematics, coding, and STEM. By systematically optimizing the…"
+    },
+    {
+      "rank": 5,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 6443229,
-      "likes": 6090,
+      "likes": 6092,
       "tags": [
         "transformers",
         "safetensors",
@@ -614,7 +632,7 @@
       "lastModified": null
     },
     {
-      "rank": 5,
+      "rank": 6,
       "id": "Muhammadreza/alduin-4b-it-base",
       "url": "https://huggingface.co/Muhammadreza/alduin-4b-it-base",
       "pipelineTag": "text-generation",
@@ -632,7 +650,7 @@
       "description": "This model is a heretic version based on Gemma 3 4B and meant to be an uncensored limitless version of the original model."
     },
     {
-      "rank": 6,
+      "rank": 7,
       "id": "JetBrains/Mellum2-12B-A2.5B-Thinking",
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking",
       "pipelineTag": "text-generation",
@@ -650,7 +668,7 @@
       "description": "Mellum 2 Thinking is a post-trained reasoning-augmented assistant model trained by JetBrains."
     },
     {
-      "rank": 7,
+      "rank": 8,
       "id": "meta-llama/Llama-3.2-3B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
@@ -667,47 +685,12 @@
       "lastModified": null
     },
     {
-      "rank": 8,
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 1026019,
-      "likes": 4604,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
       "rank": 9,
-      "id": "Qwen/Qwen2.5-7B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 8786988,
-      "likes": 1365,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "chat",
-        "conversational"
-      ],
-      "lastModified": null,
-      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
-    },
-    {
-      "rank": 10,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 18936575,
-      "likes": 1329,
+      "likes": 1330,
       "tags": [
         "transformers",
         "safetensors",
@@ -718,6 +701,24 @@
       ],
       "lastModified": null,
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
+      "rank": 10,
+      "id": "microsoft/FastContext-1.0-4B-RL",
+      "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-RL",
+      "pipelineTag": "text-generation",
+      "downloads": 32,
+      "likes": 16,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "Explorer SubAgent",
+        "Repository Exploration"
+      ],
+      "lastModified": null,
+      "description": "FastContext-1.0 is a lightweight repository-exploration subagent for LLM coding agents. Instead of letting a single model both explore the repository and solve the task, FastContext separates these two roles: it is invoked on demand by a…"
     },
     {
       "rank": 11,
@@ -739,24 +740,41 @@
     },
     {
       "rank": 12,
-      "id": "microsoft/FastContext-1.0-4B-RL",
-      "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-RL",
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 32,
-      "likes": 15,
+      "downloads": 1026019,
+      "likes": 4604,
       "tags": [
         "transformers",
         "safetensors",
-        "qwen3",
+        "llama",
         "text-generation",
-        "Explorer SubAgent",
-        "Repository Exploration"
+        "facebook",
+        "meta"
       ],
-      "lastModified": null,
-      "description": "FastContext-1.0 is a lightweight repository-exploration subagent for LLM coding agents. Instead of letting a single model both explore the repository and solve the task, FastContext separates these two roles: it is invoked on demand by a…"
+      "lastModified": null
     },
     {
       "rank": 13,
+      "id": "Qwen/Qwen2.5-7B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 8786988,
+      "likes": 1365,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "chat",
+        "conversational"
+      ],
+      "lastModified": null,
+      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
+    },
+    {
+      "rank": 14,
       "id": "deepseek-ai/DeepSeek-R1",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
       "pipelineTag": "text-generation",
@@ -774,7 +792,7 @@
       "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
@@ -790,24 +808,6 @@
       ],
       "lastModified": null,
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
-      "rank": 15,
-      "id": "openbmb/MiniCPM5-1B",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
-      "pipelineTag": "text-generation",
-      "downloads": 132838,
-      "likes": 801,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "minicpm",
-        "minicpm5"
-      ],
-      "lastModified": null,
-      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
     },
     {
       "rank": 16,
@@ -829,21 +829,21 @@
     },
     {
       "rank": 17,
-      "id": "WeiboAI/VibeThinker-3B",
-      "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
+      "id": "openbmb/MiniCPM5-1B",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
-      "downloads": 0,
-      "likes": 14,
+      "downloads": 132838,
+      "likes": 801,
       "tags": [
         "transformers",
         "safetensors",
-        "qwen2",
+        "llama",
         "text-generation",
-        "math",
-        "code"
+        "minicpm",
+        "minicpm5"
       ],
       "lastModified": null,
-      "description": "VibeThinker-3B is a further exploration of the VibeThinker series at the 3B-parameter scale, focusing on challenging reasoning tasks with clear verification signals, such as mathematics, coding, and STEM. By systematically optimizing the…"
+      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
     },
     {
       "rank": 18,
