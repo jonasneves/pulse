@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T15:18:59.437Z",
+  "updated": "2026-06-19T19:49:51.455Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 245017102,
-      "likes": 4974,
+      "likes": 4975,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 31352439,
-      "likes": 3127,
+      "likes": 3128,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -420,7 +420,7 @@
       "url": "https://huggingface.co/Bingsu/adetailer",
       "pipelineTag": null,
       "downloads": 13018406,
-      "likes": 725,
+      "likes": 726,
       "tags": [
         "ultralytics",
         "pytorch",
@@ -438,7 +438,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 12905733,
-      "likes": 1371,
+      "likes": 1372,
       "tags": [
         "transformers",
         "safetensors",
@@ -474,7 +474,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 12574844,
-      "likes": 1149,
+      "likes": 1150,
       "tags": [
         "transformers",
         "safetensors",
@@ -510,7 +510,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 11534184,
-      "likes": 504,
+      "likes": 506,
       "tags": [
         "transformers",
         "safetensors",
@@ -528,7 +528,7 @@
       "url": "https://huggingface.co/google/gemma-4-31B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 11081369,
-      "likes": 3028,
+      "likes": 3031,
       "tags": [
         "transformers",
         "safetensors",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
       "pipelineTag": "text-generation",
       "downloads": 12148,
-      "likes": 431,
+      "likes": 448,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-SFT",
       "pipelineTag": "text-generation",
       "downloads": 1437,
-      "likes": 218,
+      "likes": 225,
       "tags": [
         "transformers",
         "safetensors",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-RL",
       "pipelineTag": "text-generation",
       "downloads": 1492,
-      "likes": 39,
+      "likes": 40,
       "tags": [
         "transformers",
         "safetensors",
@@ -616,6 +616,24 @@
     },
     {
       "rank": 5,
+      "id": "LiquidAI/LFM2.5-8B-A1B",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
+      "pipelineTag": "text-generation",
+      "downloads": 178777,
+      "likes": 627,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "lfm2_moe",
+        "text-generation",
+        "liquid",
+        "lfm2.5"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
+      "rank": 6,
       "id": "prithivMLmods/VibeThinker-3B-GGUF",
       "url": "https://huggingface.co/prithivMLmods/VibeThinker-3B-GGUF",
       "pipelineTag": "text-generation",
@@ -631,24 +649,6 @@
       ],
       "lastModified": null,
       "description": "LLM inference in C/C++ — https://github.com/ggml-org/llama.cpp"
-    },
-    {
-      "rank": 6,
-      "id": "LiquidAI/LFM2.5-8B-A1B",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
-      "pipelineTag": "text-generation",
-      "downloads": 178777,
-      "likes": 623,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "lfm2_moe",
-        "text-generation",
-        "liquid",
-        "lfm2.5"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
       "rank": 7,
@@ -674,7 +674,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 9845394,
-      "likes": 6112,
+      "likes": 6115,
       "tags": [
         "transformers",
         "safetensors",
@@ -705,20 +705,21 @@
     },
     {
       "rank": 10,
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "id": "WeiboAI/VibeThinker-1.5B",
+      "url": "https://huggingface.co/WeiboAI/VibeThinker-1.5B",
       "pipelineTag": "text-generation",
-      "downloads": 1772379,
-      "likes": 2245,
+      "downloads": 1593,
+      "likes": 540,
       "tags": [
         "transformers",
         "safetensors",
-        "llama",
+        "qwen2",
         "text-generation",
-        "facebook",
-        "meta"
+        "math",
+        "code"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "VibeThinker-1.5B is a 1.5-billion parameter dense language model. With a total training cost of only $7,800 USD, it achieves reasoning performance comparable to larger models like GPT OSS-20B Medium."
     },
     {
       "rank": 11,
@@ -736,24 +737,6 @@
         "meta"
       ],
       "lastModified": null
-    },
-    {
-      "rank": 12,
-      "id": "deepseek-ai/DeepSeek-R1",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-      "pipelineTag": "text-generation",
-      "downloads": 6838667,
-      "likes": 13400,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "deepseek_v3",
-        "text-generation",
-        "conversational",
-        "custom_code"
-      ],
-      "lastModified": null,
-      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
     }
   ]
 }
