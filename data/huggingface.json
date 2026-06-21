@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T16:45:33.472Z",
+  "updated": "2026-06-21T19:42:03.372Z",
   "models": [
     {
       "rank": 1,
@@ -79,7 +79,7 @@
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 51822085,
-      "likes": 1279,
+      "likes": 1280,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -402,7 +402,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 13231213,
-      "likes": 3306,
+      "likes": 3307,
       "tags": [
         "transformers",
         "pytorch",
@@ -474,7 +474,7 @@
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 12746468,
-      "likes": 1168,
+      "likes": 1170,
       "tags": [
         "transformers",
         "safetensors",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
       "pipelineTag": "text-generation",
       "downloads": 20277,
-      "likes": 545,
+      "likes": 551,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-SFT",
       "pipelineTag": "text-generation",
       "downloads": 2593,
-      "likes": 256,
+      "likes": 258,
       "tags": [
         "transformers",
         "safetensors",
@@ -652,24 +652,6 @@
     },
     {
       "rank": 7,
-      "id": "sapientinc/HRM-Text-1B",
-      "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
-      "pipelineTag": "text-generation",
-      "downloads": 105701,
-      "likes": 789,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "hrm_text",
-        "text-generation",
-        "hrm",
-        "hierarchical-reasoning"
-      ],
-      "lastModified": null,
-      "description": "A 1 B-parameter language model checkpoint built on the Hierarchical Reasoning Model (HRM) architecture, trained by Sapient Intelligence from scratch on structured public datasets."
-    },
-    {
-      "rank": 8,
       "id": "WeiboAI/VibeThinker-1.5B",
       "url": "https://huggingface.co/WeiboAI/VibeThinker-1.5B",
       "pipelineTag": "text-generation",
@@ -685,6 +667,24 @@
       ],
       "lastModified": null,
       "description": "VibeThinker-1.5B is a 1.5-billion parameter dense language model. With a total training cost of only $7,800 USD, it achieves reasoning performance comparable to larger models like GPT OSS-20B Medium."
+    },
+    {
+      "rank": 8,
+      "id": "sapientinc/HRM-Text-1B",
+      "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
+      "pipelineTag": "text-generation",
+      "downloads": 105701,
+      "likes": 789,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "hrm_text",
+        "text-generation",
+        "hrm",
+        "hierarchical-reasoning"
+      ],
+      "lastModified": null,
+      "description": "A 1 B-parameter language model checkpoint built on the Hierarchical Reasoning Model (HRM) architecture, trained by Sapient Intelligence from scratch on structured public datasets."
     },
     {
       "rank": 9,
