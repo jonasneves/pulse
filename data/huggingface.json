@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T19:48:50.013Z",
+  "updated": "2026-06-26T22:13:44.941Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 245744194,
-      "likes": 5011,
+      "likes": 5012,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -79,7 +79,7 @@
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 50724955,
-      "likes": 1289,
+      "likes": 1290,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
       "pipelineTag": "text-generation",
       "downloads": 54638,
-      "likes": 724,
+      "likes": 726,
       "tags": [
         "transformers",
         "safetensors",
@@ -602,7 +602,7 @@
       "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-RL",
       "pipelineTag": "text-generation",
       "downloads": 4067,
-      "likes": 60,
+      "likes": 61,
       "tags": [
         "transformers",
         "safetensors",
@@ -648,24 +648,6 @@
       ],
       "lastModified": null,
       "description": "Kog Laneformer 2B is a latency-oriented Transformer variant built using Delayed Tensor Parallelism (DTP) to overlap tensor-parallel communication with useful computation and weight streaming."
-    },
-    {
-      "rank": 7,
-      "id": "Nanbeige/Nanbeige4.1-3B",
-      "url": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B",
-      "pipelineTag": "text-generation",
-      "downloads": 4105,
-      "likes": 1137,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "llm",
-        "nanbeige"
-      ],
-      "lastModified": null,
-      "description": "Nanbeige4.1-3B is built upon Nanbeige4-3B-Base and represents an enhanced iteration of our previous reasoning model, Nanbeige4-3B-Thinking-2511, achieved through further post-training optimization with supervised fine-tuning (SFT) and re…"
     }
   ]
 }
