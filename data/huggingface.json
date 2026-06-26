@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T22:21:13.121Z",
+  "updated": "2026-06-26T03:45:08.548Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 245345259,
-      "likes": 5004,
+      "likes": 5005,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 31139890,
-      "likes": 3151,
+      "likes": 3153,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -187,7 +187,7 @@
       "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
       "pipelineTag": "fill-mask",
       "downloads": 21092453,
-      "likes": 853,
+      "likes": 854,
       "tags": [
         "transformers",
         "pytorch",
@@ -277,7 +277,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 16100158,
-      "likes": 6386,
+      "likes": 6387,
       "tags": [
         "text-to-speech",
         "en",
@@ -366,7 +366,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 13251890,
-      "likes": 3313,
+      "likes": 3314,
       "tags": [
         "transformers",
         "pytorch",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
       "pipelineTag": "text-generation",
       "downloads": 51717,
-      "likes": 714,
+      "likes": 716,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-SFT",
       "pipelineTag": "text-generation",
       "downloads": 5276,
-      "likes": 343,
+      "likes": 345,
       "tags": [
         "transformers",
         "safetensors",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/prithivMLmods/VibeThinker-3B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 38833,
-      "likes": 56,
+      "likes": 57,
       "tags": [
         "transformers",
         "gguf",
@@ -631,6 +631,24 @@
       ],
       "lastModified": null,
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
+      "rank": 6,
+      "id": "kogai/laneformer-2b-it",
+      "url": "https://huggingface.co/kogai/laneformer-2b-it",
+      "pipelineTag": "text-generation",
+      "downloads": 181,
+      "likes": 16,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "laneformer",
+        "text-generation",
+        "pytorch",
+        "causal-lm"
+      ],
+      "lastModified": null,
+      "description": "Kog Laneformer 2B is a latency-oriented Transformer variant built using Delayed Tensor Parallelism (DTP) to overlap tensor-parallel communication with useful computation and weight streaming."
     }
   ]
 }
