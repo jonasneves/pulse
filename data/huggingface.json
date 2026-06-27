@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T08:36:18.382Z",
+  "updated": "2026-06-27T10:57:15.639Z",
   "models": [
     {
       "rank": 1,
@@ -61,7 +61,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 60271662,
-      "likes": 2689,
+      "likes": 2690,
       "tags": [
         "transformers",
         "pytorch",
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 31360936,
-      "likes": 3156,
+      "likes": 3157,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -295,7 +295,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 15754089,
-      "likes": 6392,
+      "likes": 6393,
       "tags": [
         "text-to-speech",
         "en",
@@ -401,7 +401,7 @@
       "id": "google/gemma-4-26B-A4B-it",
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
-      "downloads": 13167935,
+      "downloads": 13172985,
       "likes": 1191,
       "tags": [
         "transformers",
@@ -456,7 +456,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 12715875,
-      "likes": 1384,
+      "likes": 1386,
       "tags": [
         "transformers",
         "safetensors",
@@ -547,8 +547,8 @@
       "id": "WeiboAI/VibeThinker-3B",
       "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
       "pipelineTag": "text-generation",
-      "downloads": 54638,
-      "likes": 735,
+      "downloads": 57521,
+      "likes": 736,
       "tags": [
         "transformers",
         "safetensors",
@@ -565,7 +565,7 @@
       "id": "microsoft/FastContext-1.0-4B-SFT",
       "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-SFT",
       "pipelineTag": "text-generation",
-      "downloads": 5735,
+      "downloads": 6447,
       "likes": 359,
       "tags": [
         "transformers",
@@ -583,7 +583,7 @@
       "id": "prithivMLmods/VibeThinker-3B-GGUF",
       "url": "https://huggingface.co/prithivMLmods/VibeThinker-3B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 41360,
+      "downloads": 43504,
       "likes": 58,
       "tags": [
         "transformers",
@@ -598,28 +598,10 @@
     },
     {
       "rank": 4,
-      "id": "microsoft/FastContext-1.0-4B-RL",
-      "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-RL",
-      "pipelineTag": "text-generation",
-      "downloads": 4067,
-      "likes": 61,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "Explorer SubAgent",
-        "Repository Exploration"
-      ],
-      "lastModified": null,
-      "description": "FastContext-1.0 is a lightweight repository-exploration subagent for LLM coding agents. Instead of letting a single model both explore the repository and solve the task, FastContext separates these two roles: it is invoked on demand by a…"
-    },
-    {
-      "rank": 5,
       "id": "kogai/laneformer-2b-it",
       "url": "https://huggingface.co/kogai/laneformer-2b-it",
       "pipelineTag": "text-generation",
-      "downloads": 355,
+      "downloads": 441,
       "likes": 19,
       "tags": [
         "transformers",
@@ -633,12 +615,30 @@
       "description": "Kog Laneformer 2B is a latency-oriented Transformer variant built using Delayed Tensor Parallelism (DTP) to overlap tensor-parallel communication with useful computation and weight streaming."
     },
     {
+      "rank": 5,
+      "id": "microsoft/FastContext-1.0-4B-RL",
+      "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-RL",
+      "pipelineTag": "text-generation",
+      "downloads": 4257,
+      "likes": 61,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "Explorer SubAgent",
+        "Repository Exploration"
+      ],
+      "lastModified": null,
+      "description": "FastContext-1.0 is a lightweight repository-exploration subagent for LLM coding agents. Instead of letting a single model both explore the repository and solve the task, FastContext separates these two roles: it is invoked on demand by a…"
+    },
+    {
       "rank": 6,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 10147881,
-      "likes": 6156,
+      "likes": 6159,
       "tags": [
         "transformers",
         "safetensors",
