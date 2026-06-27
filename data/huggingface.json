@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T16:04:59.084Z",
+  "updated": "2026-06-27T19:21:17.368Z",
   "models": [
     {
       "rank": 1,
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 31360936,
-      "likes": 3157,
+      "likes": 3158,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -205,7 +205,7 @@
       "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
       "pipelineTag": "fill-mask",
       "downloads": 20459644,
-      "likes": 854,
+      "likes": 855,
       "tags": [
         "transformers",
         "pytorch",
@@ -384,7 +384,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 13501708,
-      "likes": 1164,
+      "likes": 1165,
       "tags": [
         "transformers",
         "safetensors",
@@ -402,7 +402,7 @@
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 13172985,
-      "likes": 1193,
+      "likes": 1195,
       "tags": [
         "transformers",
         "safetensors",
@@ -420,7 +420,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 12980059,
-      "likes": 3315,
+      "likes": 3316,
       "tags": [
         "transformers",
         "pytorch",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
       "pipelineTag": "text-generation",
       "downloads": 57521,
-      "likes": 738,
+      "likes": 740,
       "tags": [
         "transformers",
         "safetensors",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/prithivMLmods/VibeThinker-3B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 43504,
-      "likes": 58,
+      "likes": 59,
       "tags": [
         "transformers",
         "gguf",
@@ -616,6 +616,23 @@
     },
     {
       "rank": 5,
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 10147881,
+      "likes": 6161,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 6,
       "id": "microsoft/FastContext-1.0-4B-RL",
       "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-RL",
       "pipelineTag": "text-generation",
@@ -631,23 +648,6 @@
       ],
       "lastModified": null,
       "description": "FastContext-1.0 is a lightweight repository-exploration subagent for LLM coding agents. Instead of letting a single model both explore the repository and solve the task, FastContext separates these two roles: it is invoked on demand by a…"
-    },
-    {
-      "rank": 6,
-      "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 10147881,
-      "likes": 6160,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
     }
   ]
 }
