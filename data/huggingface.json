@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T15:47:50.231Z",
+  "updated": "2026-06-29T19:58:15.142Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 244269075,
-      "likes": 5018,
+      "likes": 5019,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -43,7 +43,7 @@
       "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "pipelineTag": "feature-extraction",
       "downloads": 61393457,
-      "likes": 499,
+      "likes": 500,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 33094839,
-      "likes": 1314,
+      "likes": 1315,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 31290962,
-      "likes": 3162,
+      "likes": 3163,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 22768594,
-      "likes": 965,
+      "likes": 966,
       "tags": [
         "transformers",
         "pytorch",
@@ -241,7 +241,7 @@
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
       "downloads": 16212261,
-      "likes": 1059,
+      "likes": 1060,
       "tags": [
         "sentence-transformers",
         "safetensors",
@@ -277,7 +277,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 15479373,
-      "likes": 6403,
+      "likes": 6405,
       "tags": [
         "text-to-speech",
         "en",
@@ -384,7 +384,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 13624078,
-      "likes": 1167,
+      "likes": 1168,
       "tags": [
         "transformers",
         "safetensors",
@@ -402,7 +402,7 @@
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 13131107,
-      "likes": 1203,
+      "likes": 1204,
       "tags": [
         "transformers",
         "safetensors",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
       "pipelineTag": "text-generation",
       "downloads": 63449,
-      "likes": 746,
+      "likes": 747,
       "tags": [
         "transformers",
         "safetensors",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 10081174,
-      "likes": 6172,
+      "likes": 6173,
       "tags": [
         "transformers",
         "safetensors",
@@ -615,24 +615,6 @@
     },
     {
       "rank": 5,
-      "id": "prithivMLmods/VibeThinker-3B-GGUF",
-      "url": "https://huggingface.co/prithivMLmods/VibeThinker-3B-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 46314,
-      "likes": 64,
-      "tags": [
-        "transformers",
-        "gguf",
-        "math",
-        "code",
-        "reasoning",
-        "gpqa"
-      ],
-      "lastModified": null,
-      "description": "LLM inference in C/C++ — https://github.com/ggml-org/llama.cpp"
-    },
-    {
-      "rank": 6,
       "id": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
       "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
       "pipelineTag": "text-generation",
@@ -648,6 +630,24 @@
       ],
       "lastModified": null,
       "description": "Qwen2.5-Coder is the latest series of Code-Specific Qwen large language models (formerly known as CodeQwen). As of now, Qwen2.5-Coder has covered six mainstream model sizes, 0.5, 1.5, 3, 7, 14, 32 billion parameters, to meet the needs of…"
+    },
+    {
+      "rank": 6,
+      "id": "prithivMLmods/VibeThinker-3B-GGUF",
+      "url": "https://huggingface.co/prithivMLmods/VibeThinker-3B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 46314,
+      "likes": 64,
+      "tags": [
+        "transformers",
+        "gguf",
+        "math",
+        "code",
+        "reasoning",
+        "gpqa"
+      ],
+      "lastModified": null,
+      "description": "LLM inference in C/C++ — https://github.com/ggml-org/llama.cpp"
     }
   ]
 }
