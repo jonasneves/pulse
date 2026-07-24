@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T19:24:48.229Z",
+  "updated": "2026-07-24T22:04:04.679Z",
   "models": [
     {
       "rank": 1,
@@ -151,7 +151,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 29081830,
-      "likes": 1444,
+      "likes": 1445,
       "tags": [
         "transformers",
         "safetensors",
@@ -259,7 +259,7 @@
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
       "downloads": 18550347,
-      "likes": 1108,
+      "likes": 1109,
       "tags": [
         "sentence-transformers",
         "safetensors",
@@ -313,7 +313,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 16621403,
-      "likes": 1231,
+      "likes": 1232,
       "tags": [
         "transformers",
         "safetensors",
@@ -385,7 +385,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 14104620,
-      "likes": 3367,
+      "likes": 3368,
       "tags": [
         "transformers",
         "pytorch",
@@ -421,7 +421,7 @@
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 13527577,
-      "likes": 1319,
+      "likes": 1320,
       "tags": [
         "transformers",
         "safetensors",
@@ -457,7 +457,7 @@
       "url": "https://huggingface.co/google/gemma-4-31B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 12629921,
-      "likes": 3357,
+      "likes": 3358,
       "tags": [
         "transformers",
         "safetensors",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 8169,
-      "likes": 357,
+      "likes": 364,
       "tags": [
         "transformers",
         "safetensors",
@@ -567,7 +567,7 @@
       "url": "https://huggingface.co/fdtn-ai/antares-1b",
       "pipelineTag": "text-generation",
       "downloads": 4266,
-      "likes": 140,
+      "likes": 144,
       "tags": [
         "transformers",
         "safetensors",
@@ -727,7 +727,7 @@
       "url": "https://huggingface.co/mitkox/antares-1b-Q8_0-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 1524,
-      "likes": 24,
+      "likes": 25,
       "tags": [
         "transformers",
         "gguf",
@@ -745,7 +745,7 @@
       "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 254505,
-      "likes": 298,
+      "likes": 299,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -781,7 +781,7 @@
       "url": "https://huggingface.co/InternScience/Agents-A1-4B-Q8_0-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 10516,
-      "likes": 38,
+      "likes": 39,
       "tags": [
         "transformers",
         "gguf",
@@ -795,11 +795,29 @@
     },
     {
       "rank": 15,
+      "id": "owao/Nanbeige4.2-3B-GGUF",
+      "url": "https://huggingface.co/owao/Nanbeige4.2-3B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 9247,
+      "likes": 20,
+      "tags": [
+        "llama-cpp-python",
+        "gguf",
+        "llm",
+        "quantization",
+        "nanbeige",
+        "text-generation"
+      ],
+      "lastModified": null,
+      "description": "See the original model card for details on how to use with llama.cpp and ollama (you'll need to build from their fork cause their changes didn't land in llama.cpp main yet)."
+    },
+    {
+      "rank": 16,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 29081830,
-      "likes": 1444,
+      "likes": 1445,
       "tags": [
         "transformers",
         "safetensors",
