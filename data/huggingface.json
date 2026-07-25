@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T13:26:28.139Z",
+  "updated": "2026-07-25T16:03:54.484Z",
   "models": [
     {
       "rank": 1,
@@ -385,7 +385,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 14043645,
-      "likes": 3368,
+      "likes": 3369,
       "tags": [
         "transformers",
         "pytorch",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 11573,
-      "likes": 384,
+      "likes": 390,
       "tags": [
         "transformers",
         "safetensors",
@@ -567,7 +567,7 @@
       "url": "https://huggingface.co/fdtn-ai/antares-1b",
       "pipelineTag": "text-generation",
       "downloads": 5661,
-      "likes": 153,
+      "likes": 155,
       "tags": [
         "transformers",
         "safetensors",
@@ -620,7 +620,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B-Base",
       "pipelineTag": "text-generation",
       "downloads": 1206,
-      "likes": 39,
+      "likes": 40,
       "tags": [
         "transformers",
         "safetensors",
@@ -656,7 +656,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
       "downloads": 526043,
-      "likes": 999,
+      "likes": 1000,
       "tags": [
         "transformers",
         "safetensors",
@@ -670,23 +670,6 @@
     },
     {
       "rank": 8,
-      "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 8247192,
-      "likes": 6390,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 9,
       "id": "Virtue-AI-HUB/VulnLLM-R-7B",
       "url": "https://huggingface.co/Virtue-AI-HUB/VulnLLM-R-7B",
       "pipelineTag": "text-generation",
@@ -702,6 +685,23 @@
       ],
       "lastModified": null,
       "description": "VulnLLM-R is the first specialized reasoning Large Language Model designed specifically for software vulnerability detection."
+    },
+    {
+      "rank": 9,
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 8247192,
+      "likes": 6390,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
     },
     {
       "rank": 10,
@@ -763,7 +763,7 @@
       "url": "https://huggingface.co/owao/Nanbeige4.2-3B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 12573,
-      "likes": 22,
+      "likes": 23,
       "tags": [
         "llama-cpp-python",
         "gguf",
@@ -800,24 +800,6 @@
       "pipelineTag": "text-generation",
       "downloads": 11016,
       "likes": 39,
-      "tags": [
-        "transformers",
-        "gguf",
-        "quantized",
-        "vlm",
-        "vision",
-        "agentic"
-      ],
-      "lastModified": null,
-      "description": "Agents‑A1 is a long-horizon agentic model from InternScience, built to scale heterogeneous agentic abilities across multiple domains including Long‑horizon Search, Engineering, Scientific Research, Instruction Following, and Tool-calling…"
-    },
-    {
-      "rank": 16,
-      "id": "InternScience/Agents-A1-4B-Q4_K_M-GGUF",
-      "url": "https://huggingface.co/InternScience/Agents-A1-4B-Q4_K_M-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 12774,
-      "likes": 26,
       "tags": [
         "transformers",
         "gguf",
