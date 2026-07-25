@@ -1,13 +1,13 @@
 {
-  "updated": "2026-07-25T05:42:52.706Z",
+  "updated": "2026-07-25T08:06:11.866Z",
   "models": [
     {
       "rank": 1,
       "id": "sentence-transformers/all-MiniLM-L6-v2",
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 255316543,
-      "likes": 5120,
+      "downloads": 253735958,
+      "likes": 5121,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -24,7 +24,7 @@
       "id": "google-bert/bert-base-uncased",
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
-      "downloads": 93252036,
+      "downloads": 95273206,
       "likes": 2714,
       "tags": [
         "transformers",
@@ -42,7 +42,7 @@
       "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
       "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
       "pipelineTag": "text-ranking",
-      "downloads": 87308150,
+      "downloads": 87208211,
       "likes": 290,
       "tags": [
         "sentence-transformers",
@@ -60,7 +60,7 @@
       "id": "BAAI/bge-small-en-v1.5",
       "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "pipelineTag": "feature-extraction",
-      "downloads": 67610074,
+      "downloads": 67721275,
       "likes": 518,
       "tags": [
         "sentence-transformers",
@@ -78,7 +78,7 @@
       "id": "google/electra-base-discriminator",
       "url": "https://huggingface.co/google/electra-base-discriminator",
       "pipelineTag": null,
-      "downloads": 54837059,
+      "downloads": 54651607,
       "likes": 145,
       "tags": [
         "transformers",
@@ -96,7 +96,7 @@
       "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 51574810,
+      "downloads": 51431362,
       "likes": 1331,
       "tags": [
         "sentence-transformers",
@@ -114,8 +114,8 @@
       "id": "BAAI/bge-m3",
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
-      "downloads": 35474414,
-      "likes": 3261,
+      "downloads": 35328895,
+      "likes": 3263,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -129,10 +129,28 @@
     },
     {
       "rank": 8,
+      "id": "Qwen/Qwen3-0.6B",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "pipelineTag": "text-generation",
+      "downloads": 28950114,
+      "likes": 1447,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "conversational",
+        "license:apache-2.0"
+      ],
+      "lastModified": null,
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
+      "rank": 9,
       "id": "sentence-transformers/all-mpnet-base-v2",
       "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 29220242,
+      "downloads": 28938564,
       "likes": 1335,
       "tags": [
         "sentence-transformers",
@@ -146,29 +164,11 @@
       "description": "This is a sentence-transformers model: It maps sentences & paragraphs to a 768 dimensional dense vector space and can be used for tasks like clustering or semantic search."
     },
     {
-      "rank": 9,
-      "id": "Qwen/Qwen3-0.6B",
-      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
-      "pipelineTag": "text-generation",
-      "downloads": 29081830,
-      "likes": 1446,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "conversational",
-        "license:apache-2.0"
-      ],
-      "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
       "rank": 10,
       "id": "google-t5/t5-small",
       "url": "https://huggingface.co/google-t5/t5-small",
       "pipelineTag": "translation",
-      "downloads": 26974652,
+      "downloads": 26676094,
       "likes": 579,
       "tags": [
         "transformers",
@@ -186,7 +186,7 @@
       "id": "openai/clip-vit-base-patch32",
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
-      "downloads": 23991624,
+      "downloads": 23736747,
       "likes": 987,
       "tags": [
         "transformers",
@@ -204,7 +204,7 @@
       "id": "FacebookAI/xlm-roberta-base",
       "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
       "pipelineTag": "fill-mask",
-      "downloads": 23836679,
+      "downloads": 23714088,
       "likes": 875,
       "tags": [
         "transformers",
@@ -222,7 +222,7 @@
       "id": "lpiccinelli/unidepth-v2-vitl14",
       "url": "https://huggingface.co/lpiccinelli/unidepth-v2-vitl14",
       "pipelineTag": null,
-      "downloads": 20457583,
+      "downloads": 21712456,
       "likes": 46,
       "tags": [
         "UniDepth",
@@ -240,7 +240,7 @@
       "id": "timm/mobilenetv3_small_100.lamb_in1k",
       "url": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
       "pipelineTag": "image-classification",
-      "downloads": 20428795,
+      "downloads": 19949956,
       "likes": 97,
       "tags": [
         "timm",
@@ -258,7 +258,7 @@
       "id": "BAAI/bge-reranker-v2-m3",
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
-      "downloads": 18550347,
+      "downloads": 18501520,
       "likes": 1109,
       "tags": [
         "sentence-transformers",
@@ -294,7 +294,7 @@
       "id": "facebook/opt-125m",
       "url": "https://huggingface.co/facebook/opt-125m",
       "pipelineTag": "text-generation",
-      "downloads": 16790458,
+      "downloads": 16885640,
       "likes": 284,
       "tags": [
         "transformers",
@@ -312,8 +312,8 @@
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
-      "downloads": 16621403,
-      "likes": 1232,
+      "downloads": 16577631,
+      "likes": 1233,
       "tags": [
         "transformers",
         "safetensors",
@@ -327,28 +327,10 @@
     },
     {
       "rank": 19,
-      "id": "intfloat/multilingual-e5-small",
-      "url": "https://huggingface.co/intfloat/multilingual-e5-small",
-      "pipelineTag": "sentence-similarity",
-      "downloads": 15618764,
-      "likes": 371,
-      "tags": [
-        "sentence-transformers",
-        "pytorch",
-        "onnx",
-        "safetensors",
-        "openvino",
-        "bert"
-      ],
-      "lastModified": null,
-      "description": "Multilingual E5 Text Embeddings: A Technical Report. Liang Wang, Nan Yang, Xiaolong Huang, Linjun Yang, Rangan Majumder, Furu Wei, arXiv 2024"
-    },
-    {
-      "rank": 20,
       "id": "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
       "url": "https://huggingface.co/trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
       "pipelineTag": "text-generation",
-      "downloads": 15444539,
+      "downloads": 15797666,
       "likes": 17,
       "tags": [
         "transformers",
@@ -362,11 +344,29 @@
       "description": "This is a minimal model built for unit tests in the TRL library."
     },
     {
+      "rank": 20,
+      "id": "intfloat/multilingual-e5-small",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-small",
+      "pipelineTag": "sentence-similarity",
+      "downloads": 15669492,
+      "likes": 371,
+      "tags": [
+        "sentence-transformers",
+        "pytorch",
+        "onnx",
+        "safetensors",
+        "openvino",
+        "bert"
+      ],
+      "lastModified": null,
+      "description": "Multilingual E5 Text Embeddings: A Technical Report. Liang Wang, Nan Yang, Xiaolong Huang, Linjun Yang, Rangan Majumder, Furu Wei, arXiv 2024"
+    },
+    {
       "rank": 21,
       "id": "nomic-ai/nomic-embed-text-v1.5",
       "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
       "pipelineTag": "sentence-similarity",
-      "downloads": 14748408,
+      "downloads": 14628780,
       "likes": 874,
       "tags": [
         "sentence-transformers",
@@ -384,7 +384,7 @@
       "id": "openai-community/gpt2",
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
-      "downloads": 14104620,
+      "downloads": 14043645,
       "likes": 3368,
       "tags": [
         "transformers",
@@ -402,7 +402,7 @@
       "id": "BAAI/bge-large-en-v1.5",
       "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
       "pipelineTag": "feature-extraction",
-      "downloads": 13703024,
+      "downloads": 13582056,
       "likes": 705,
       "tags": [
         "sentence-transformers",
@@ -421,7 +421,7 @@
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 13527577,
-      "likes": 1321,
+      "likes": 1323,
       "tags": [
         "transformers",
         "safetensors",
@@ -438,8 +438,8 @@
       "id": "Qwen/Qwen2.5-1.5B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 13466829,
-      "likes": 782,
+      "downloads": 13437914,
+      "likes": 783,
       "tags": [
         "transformers",
         "safetensors",
@@ -457,7 +457,7 @@
       "url": "https://huggingface.co/google/gemma-4-31B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 12629921,
-      "likes": 3361,
+      "likes": 3363,
       "tags": [
         "transformers",
         "safetensors",
@@ -474,7 +474,7 @@
       "id": "autogluon/chronos-bolt-small",
       "url": "https://huggingface.co/autogluon/chronos-bolt-small",
       "pipelineTag": "time-series-forecasting",
-      "downloads": 12094174,
+      "downloads": 12550819,
       "likes": 57,
       "tags": [
         "safetensors",
@@ -492,7 +492,7 @@
       "id": "Qwen/Qwen2.5-7B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 11877310,
+      "downloads": 11946929,
       "likes": 1437,
       "tags": [
         "transformers",
@@ -507,24 +507,6 @@
     },
     {
       "rank": 29,
-      "id": "intfloat/multilingual-e5-large",
-      "url": "https://huggingface.co/intfloat/multilingual-e5-large",
-      "pipelineTag": "feature-extraction",
-      "downloads": 11873089,
-      "likes": 1232,
-      "tags": [
-        "sentence-transformers",
-        "pytorch",
-        "onnx",
-        "safetensors",
-        "openvino",
-        "xlm-roberta"
-      ],
-      "lastModified": null,
-      "description": "Multilingual E5 Text Embeddings: A Technical Report. Liang Wang, Nan Yang, Xiaolong Huang, Linjun Yang, Rangan Majumder, Furu Wei, arXiv 2024"
-    },
-    {
-      "rank": 30,
       "id": "autogluon/chronos-2",
       "url": "https://huggingface.co/autogluon/chronos-2",
       "pipelineTag": "time-series-forecasting",
@@ -540,6 +522,24 @@
       ],
       "lastModified": null,
       "description": "Update Jun 5, 2026: ☁️ Deploy Chronos-2 on AWS with AutoGluon-Cloud. Real-time, serverless, or batch inference in 3 lines of code — pandas DataFrames in, forecasts out. Check out the new deployment guide."
+    },
+    {
+      "rank": 30,
+      "id": "intfloat/multilingual-e5-large",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large",
+      "pipelineTag": "feature-extraction",
+      "downloads": 11602663,
+      "likes": 1232,
+      "tags": [
+        "sentence-transformers",
+        "pytorch",
+        "onnx",
+        "safetensors",
+        "openvino",
+        "xlm-roberta"
+      ],
+      "lastModified": null,
+      "description": "Multilingual E5 Text Embeddings: A Technical Report. Liang Wang, Nan Yang, Xiaolong Huang, Linjun Yang, Rangan Majumder, Furu Wei, arXiv 2024"
     }
   ],
   "smallModels": [
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 8169,
-      "likes": 374,
+      "likes": 376,
       "tags": [
         "transformers",
         "safetensors",
@@ -567,7 +567,7 @@
       "url": "https://huggingface.co/fdtn-ai/antares-1b",
       "pipelineTag": "text-generation",
       "downloads": 4266,
-      "likes": 150,
+      "likes": 151,
       "tags": [
         "transformers",
         "safetensors",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 140262,
-      "likes": 162,
+      "likes": 163,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -616,24 +616,6 @@
     },
     {
       "rank": 5,
-      "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking",
-      "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking",
-      "pipelineTag": "text-generation",
-      "downloads": 7342,
-      "likes": 174,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "minicpm",
-        "minicpm5"
-      ],
-      "lastModified": null,
-      "description": "GGUF quantizations for local deployment: MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF"
-    },
-    {
-      "rank": 6,
       "id": "Nanbeige/Nanbeige4.2-3B-Base",
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B-Base",
       "pipelineTag": "text-generation",
@@ -651,11 +633,29 @@
       "description": "Nanbeige4.2-3B-Base is a new base model in the Nanbeige4 series, trained from scratch with improvements to both model architecture and training data. It delivers substantial gains over the previous generation and outperforms opensource b…"
     },
     {
+      "rank": 6,
+      "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking",
+      "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking",
+      "pipelineTag": "text-generation",
+      "downloads": 7342,
+      "likes": 174,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "minicpm",
+        "minicpm5"
+      ],
+      "lastModified": null,
+      "description": "GGUF quantizations for local deployment: MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF"
+    },
+    {
       "rank": 7,
       "id": "Virtue-AI-HUB/VulnLLM-R-7B",
       "url": "https://huggingface.co/Virtue-AI-HUB/VulnLLM-R-7B",
       "pipelineTag": "text-generation",
-      "downloads": 50418,
+      "downloads": 50434,
       "likes": 224,
       "tags": [
         "safetensors",
@@ -673,7 +673,7 @@
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 8429683,
+      "downloads": 8247192,
       "likes": 6390,
       "tags": [
         "transformers",
@@ -745,7 +745,7 @@
       "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 254505,
-      "likes": 300,
+      "likes": 301,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -777,21 +777,21 @@
     },
     {
       "rank": 14,
-      "id": "RavichandranJ/Dolphin3-Cyber-8B-GGUF",
-      "url": "https://huggingface.co/RavichandranJ/Dolphin3-Cyber-8B-GGUF",
+      "id": "Qwen/Qwen3-0.6B",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
-      "downloads": 63013,
-      "likes": 120,
+      "downloads": 28950114,
+      "likes": 1447,
       "tags": [
         "transformers",
-        "gguf",
-        "llama",
+        "safetensors",
+        "qwen3",
         "text-generation",
-        "GGUF",
-        "llama-cpp"
+        "conversational",
+        "license:apache-2.0"
       ],
       "lastModified": null,
-      "description": "Fine-tuned for Offensive Security • Defensive Security • Vulnerability Research • Exploit Development"
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
       "rank": 15,
@@ -813,21 +813,39 @@
     },
     {
       "rank": 16,
-      "id": "Qwen/Qwen3-0.6B",
-      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "id": "RavichandranJ/Dolphin3-Cyber-8B-GGUF",
+      "url": "https://huggingface.co/RavichandranJ/Dolphin3-Cyber-8B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 29081830,
-      "likes": 1446,
+      "downloads": 63013,
+      "likes": 120,
       "tags": [
         "transformers",
-        "safetensors",
-        "qwen3",
+        "gguf",
+        "llama",
         "text-generation",
-        "conversational",
-        "license:apache-2.0"
+        "GGUF",
+        "llama-cpp"
       ],
       "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+      "description": "Fine-tuned for Offensive Security • Defensive Security • Vulnerability Research • Exploit Development"
+    },
+    {
+      "rank": 17,
+      "id": "InternScience/Agents-A1-4B-Q4_K_M-GGUF",
+      "url": "https://huggingface.co/InternScience/Agents-A1-4B-Q4_K_M-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 12058,
+      "likes": 26,
+      "tags": [
+        "transformers",
+        "gguf",
+        "quantized",
+        "vlm",
+        "vision",
+        "agentic"
+      ],
+      "lastModified": null,
+      "description": "Agents‑A1 is a long-horizon agentic model from InternScience, built to scale heterogeneous agentic abilities across multiple domains including Long‑horizon Search, Engineering, Scientific Research, Instruction Following, and Tool-calling…"
     }
   ]
 }
