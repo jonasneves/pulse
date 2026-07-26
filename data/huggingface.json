@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T16:00:38.395Z",
+  "updated": "2026-07-26T19:10:34.573Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 253380060,
-      "likes": 5125,
+      "likes": 5126,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -295,7 +295,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 16764566,
-      "likes": 1239,
+      "likes": 1240,
       "tags": [
         "transformers",
         "safetensors",
@@ -457,7 +457,7 @@
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 13226618,
-      "likes": 1324,
+      "likes": 1325,
       "tags": [
         "transformers",
         "safetensors",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 14049,
-      "likes": 432,
+      "likes": 436,
       "tags": [
         "transformers",
         "safetensors",
@@ -567,7 +567,7 @@
       "url": "https://huggingface.co/fdtn-ai/antares-1b",
       "pipelineTag": "text-generation",
       "downloads": 5978,
-      "likes": 179,
+      "likes": 181,
       "tags": [
         "transformers",
         "safetensors",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 178668,
-      "likes": 166,
+      "likes": 167,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -602,7 +602,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B-Base",
       "pipelineTag": "text-generation",
       "downloads": 1553,
-      "likes": 41,
+      "likes": 42,
       "tags": [
         "transformers",
         "safetensors",
@@ -656,7 +656,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 8041649,
-      "likes": 6398,
+      "likes": 6399,
       "tags": [
         "transformers",
         "safetensors",
@@ -673,7 +673,7 @@
       "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking",
       "pipelineTag": "text-generation",
       "downloads": 7789,
-      "likes": 174,
+      "likes": 175,
       "tags": [
         "transformers",
         "safetensors",
@@ -723,6 +723,24 @@
     },
     {
       "rank": 11,
+      "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
+      "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 279535,
+      "likes": 304,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "quantized",
+        "minicpm5",
+        "thinking",
+        "fable5"
+      ],
+      "lastModified": null,
+      "description": "GGUF quantizations of MiniCPM5-1B-Claude-Opus-Fable5-Thinking for llama.cpp, Ollama, LM Studio, jan, KoboldCpp, and other GGUF runtimes."
+    },
+    {
+      "rank": 12,
       "id": "mitkox/antares-1b-Q8_0-GGUF",
       "url": "https://huggingface.co/mitkox/antares-1b-Q8_0-GGUF",
       "pipelineTag": "text-generation",
@@ -738,24 +756,6 @@
       ],
       "lastModified": null,
       "description": "This model was converted to GGUF format from fdtn-ai/antares-1b using llama.cpp via the ggml.ai's GGUF-my-repo space. Refer to the original model card for more details on the model."
-    },
-    {
-      "rank": 12,
-      "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
-      "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 279535,
-      "likes": 303,
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "quantized",
-        "minicpm5",
-        "thinking",
-        "fable5"
-      ],
-      "lastModified": null,
-      "description": "GGUF quantizations of MiniCPM5-1B-Claude-Opus-Fable5-Thinking for llama.cpp, Ollama, LM Studio, jan, KoboldCpp, and other GGUF runtimes."
     },
     {
       "rank": 13,
@@ -781,7 +781,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 16764566,
-      "likes": 1239,
+      "likes": 1240,
       "tags": [
         "transformers",
         "safetensors",
