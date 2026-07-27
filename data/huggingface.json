@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T19:26:53.194Z",
+  "updated": "2026-07-27T22:07:14.366Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 253094980,
-      "likes": 5128,
+      "likes": 5130,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -61,7 +61,7 @@
       "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "pipelineTag": "feature-extraction",
       "downloads": 68390818,
-      "likes": 518,
+      "likes": 519,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -394,7 +394,8 @@
         "tflite",
         "rust"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Test the whole generation capabilities here: https://transformer.huggingface.co/doc/gpt2-large"
     },
     {
       "rank": 23,
@@ -411,7 +412,8 @@
         "pretrained models",
         "foundation models"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "🚀 Update Feb 14, 2025: Chronos-Bolt models are now available on Amazon SageMaker JumpStart! Check out the tutorial notebook to learn how to deploy Chronos endpoints for production use in a few lines of code."
     },
     {
       "rank": 24,
@@ -437,7 +439,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 13344230,
-      "likes": 783,
+      "likes": 784,
       "tags": [
         "transformers",
         "safetensors",
@@ -446,7 +448,8 @@
         "chat",
         "conversational"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
       "rank": 26,
@@ -454,7 +457,7 @@
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 13092825,
-      "likes": 1328,
+      "likes": 1329,
       "tags": [
         "transformers",
         "safetensors",
@@ -472,7 +475,7 @@
       "url": "https://huggingface.co/google/gemma-4-31B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 12401314,
-      "likes": 3381,
+      "likes": 3385,
       "tags": [
         "transformers",
         "safetensors",
@@ -546,7 +549,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 16518,
-      "likes": 487,
+      "likes": 491,
       "tags": [
         "transformers",
         "safetensors",
@@ -564,7 +567,7 @@
       "url": "https://huggingface.co/fdtn-ai/antares-1b",
       "pipelineTag": "text-generation",
       "downloads": 6421,
-      "likes": 204,
+      "likes": 206,
       "tags": [
         "transformers",
         "safetensors",
@@ -595,23 +598,6 @@
     },
     {
       "rank": 4,
-      "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
-      "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 196357,
-      "likes": 169,
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "quantized",
-        "minicpm5",
-        "thinking",
-        "fable5"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 5,
       "id": "Virtue-AI-HUB/VulnLLM-R-7B",
       "url": "https://huggingface.co/Virtue-AI-HUB/VulnLLM-R-7B",
       "pipelineTag": "text-generation",
@@ -627,6 +613,24 @@
       ],
       "lastModified": null,
       "description": "VulnLLM-R is the first specialized reasoning Large Language Model designed specifically for software vulnerability detection."
+    },
+    {
+      "rank": 5,
+      "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
+      "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 196357,
+      "likes": 169,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "quantized",
+        "minicpm5",
+        "thinking",
+        "fable5"
+      ],
+      "lastModified": null,
+      "description": "GGUF quantizations of MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking for llama.cpp, Ollama, LM Studio, jan, KoboldCpp, and other GGUF runtimes."
     },
     {
       "rank": 6,
@@ -652,7 +656,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 7952157,
-      "likes": 6404,
+      "likes": 6406,
       "tags": [
         "transformers",
         "safetensors",
