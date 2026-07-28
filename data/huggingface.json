@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T08:33:50.216Z",
+  "updated": "2026-07-28T11:17:03.644Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 253941670,
-      "likes": 5132,
+      "likes": 5134,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 35491258,
-      "likes": 3279,
+      "likes": 3281,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 28383533,
-      "likes": 1455,
+      "likes": 1457,
       "tags": [
         "transformers",
         "safetensors",
@@ -241,7 +241,7 @@
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
       "downloads": 21446879,
-      "likes": 379,
+      "likes": 380,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -456,8 +456,8 @@
       "id": "google/gemma-4-26B-A4B-it",
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
-      "downloads": 13092825,
-      "likes": 1330,
+      "downloads": 13007085,
+      "likes": 1331,
       "tags": [
         "transformers",
         "safetensors",
@@ -492,8 +492,8 @@
       "id": "google/gemma-4-31B-it",
       "url": "https://huggingface.co/google/gemma-4-31B-it",
       "pipelineTag": "image-text-to-text",
-      "downloads": 12401314,
-      "likes": 3391,
+      "downloads": 12393109,
+      "likes": 3392,
       "tags": [
         "transformers",
         "safetensors",
@@ -548,8 +548,8 @@
       "id": "Nanbeige/Nanbeige4.2-3B",
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
-      "downloads": 16518,
-      "likes": 502,
+      "downloads": 18933,
+      "likes": 503,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,8 +566,8 @@
       "id": "fdtn-ai/antares-1b",
       "url": "https://huggingface.co/fdtn-ai/antares-1b",
       "pipelineTag": "text-generation",
-      "downloads": 6421,
-      "likes": 211,
+      "downloads": 7666,
+      "likes": 213,
       "tags": [
         "transformers",
         "safetensors",
@@ -583,7 +583,7 @@
       "id": "Nanbeige/Nanbeige4.2-3B-Base",
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B-Base",
       "pipelineTag": "text-generation",
-      "downloads": 1712,
+      "downloads": 1959,
       "likes": 45,
       "tags": [
         "transformers",
@@ -619,7 +619,7 @@
       "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
       "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 196357,
+      "downloads": 216689,
       "likes": 172,
       "tags": [
         "gguf",
@@ -637,8 +637,8 @@
       "id": "owao/Nanbeige4.2-3B-GGUF",
       "url": "https://huggingface.co/owao/Nanbeige4.2-3B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 24009,
-      "likes": 30,
+      "downloads": 29029,
+      "likes": 31,
       "tags": [
         "llama-cpp-python",
         "gguf",
@@ -652,10 +652,28 @@
     },
     {
       "rank": 7,
+      "id": "openbmb/MiniCPM5-1B",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+      "pipelineTag": "text-generation",
+      "downloads": 626363,
+      "likes": 1011,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "minicpm",
+        "minicpm5"
+      ],
+      "lastModified": null,
+      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
+    },
+    {
+      "rank": 8,
       "id": "mitkox/antares-1b-Q8_0-GGUF",
       "url": "https://huggingface.co/mitkox/antares-1b-Q8_0-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 2673,
+      "downloads": 3044,
       "likes": 26,
       "tags": [
         "transformers",
@@ -669,30 +687,30 @@
       "description": "This model was converted to GGUF format from fdtn-ai/antares-1b using llama.cpp via the ggml.ai's GGUF-my-repo space. Refer to the original model card for more details on the model."
     },
     {
-      "rank": 8,
-      "id": "openbmb/MiniCPM5-1B",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+      "rank": 9,
+      "id": "FermionResearch/Neutrino-8B",
+      "url": "https://huggingface.co/FermionResearch/Neutrino-8B",
       "pipelineTag": "text-generation",
-      "downloads": 594706,
-      "likes": 1010,
+      "downloads": 1165,
+      "likes": 25,
       "tags": [
         "transformers",
-        "safetensors",
-        "llama",
+        "gguf",
+        "trtc_v4",
         "text-generation",
-        "minicpm",
-        "minicpm5"
+        "ternary",
+        "sub-2-bit"
       ],
       "lastModified": null,
-      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
+      "description": "An 8B chat model whose every transformer linear is stored five-valued (sub-2 bits per weight) in a single 3.88 GB (3.61 GiB) container, and which loads as a native transformers model in one from_pretrained call."
     },
     {
-      "rank": 9,
+      "rank": 10,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 8022692,
-      "likes": 6406,
+      "likes": 6407,
       "tags": [
         "transformers",
         "safetensors",
@@ -704,7 +722,7 @@
       "lastModified": null
     },
     {
-      "rank": 10,
+      "rank": 11,
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
