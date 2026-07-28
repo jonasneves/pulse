@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T16:39:51.801Z",
+  "updated": "2026-07-28T19:24:10.753Z",
   "models": [
     {
       "rank": 1,
@@ -187,7 +187,7 @@
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 23796306,
-      "likes": 988,
+      "likes": 989,
       "tags": [
         "transformers",
         "pytorch",
@@ -277,7 +277,7 @@
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
       "downloads": 18854283,
-      "likes": 1114,
+      "likes": 1115,
       "tags": [
         "sentence-transformers",
         "safetensors",
@@ -313,7 +313,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 16574019,
-      "likes": 1249,
+      "likes": 1250,
       "tags": [
         "transformers",
         "safetensors",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 18933,
-      "likes": 515,
+      "likes": 519,
       "tags": [
         "transformers",
         "safetensors",
@@ -567,7 +567,7 @@
       "url": "https://huggingface.co/fdtn-ai/antares-1b",
       "pipelineTag": "text-generation",
       "downloads": 7666,
-      "likes": 216,
+      "likes": 219,
       "tags": [
         "transformers",
         "safetensors",
@@ -602,7 +602,7 @@
       "url": "https://huggingface.co/Virtue-AI-HUB/VulnLLM-R-7B",
       "pipelineTag": "text-generation",
       "downloads": 50558,
-      "likes": 232,
+      "likes": 233,
       "tags": [
         "safetensors",
         "qwen2",
@@ -620,7 +620,7 @@
       "url": "https://huggingface.co/FermionResearch/Neutrino-8B",
       "pipelineTag": "text-generation",
       "downloads": 1165,
-      "likes": 35,
+      "likes": 37,
       "tags": [
         "transformers",
         "gguf",
@@ -638,7 +638,7 @@
       "url": "https://huggingface.co/owao/Nanbeige4.2-3B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 29029,
-      "likes": 32,
+      "likes": 33,
       "tags": [
         "llama-cpp-python",
         "gguf",
@@ -652,6 +652,42 @@
     },
     {
       "rank": 7,
+      "id": "Qwen/Qwen3-8B",
+      "url": "https://huggingface.co/Qwen/Qwen3-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 16574019,
+      "likes": 1250,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "conversational",
+        "license:apache-2.0"
+      ],
+      "lastModified": null,
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
+      "rank": 8,
+      "id": "openbmb/MiniCPM5-1B",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+      "pipelineTag": "text-generation",
+      "downloads": 626363,
+      "likes": 1012,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "minicpm",
+        "minicpm5"
+      ],
+      "lastModified": null,
+      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
+    },
+    {
+      "rank": 9,
       "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
       "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
       "pipelineTag": "text-generation",
@@ -669,66 +705,12 @@
       "description": "GGUF quantizations of MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking for llama.cpp, Ollama, LM Studio, jan, KoboldCpp, and other GGUF runtimes."
     },
     {
-      "rank": 8,
-      "id": "Qwen/Qwen3-8B",
-      "url": "https://huggingface.co/Qwen/Qwen3-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 16574019,
-      "likes": 1249,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "conversational",
-        "license:apache-2.0"
-      ],
-      "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
-      "rank": 9,
-      "id": "openbmb/MiniCPM5-1B",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
-      "pipelineTag": "text-generation",
-      "downloads": 626363,
-      "likes": 1011,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "minicpm",
-        "minicpm5"
-      ],
-      "lastModified": null,
-      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
-    },
-    {
       "rank": 10,
-      "id": "mitkox/antares-1b-Q8_0-GGUF",
-      "url": "https://huggingface.co/mitkox/antares-1b-Q8_0-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 3044,
-      "likes": 26,
-      "tags": [
-        "transformers",
-        "gguf",
-        "security",
-        "vulnerability-detection",
-        "agentic",
-        "terminal-agent"
-      ],
-      "lastModified": null,
-      "description": "This model was converted to GGUF format from fdtn-ai/antares-1b using llama.cpp via the ggml.ai's GGUF-my-repo space. Refer to the original model card for more details on the model."
-    },
-    {
-      "rank": 11,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 8022692,
-      "likes": 6409,
+      "likes": 6411,
       "tags": [
         "transformers",
         "safetensors",
@@ -740,7 +722,7 @@
       "lastModified": null
     },
     {
-      "rank": 12,
+      "rank": 11,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
@@ -756,6 +738,24 @@
       ],
       "lastModified": null,
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
+      "rank": 12,
+      "id": "mitkox/antares-1b-Q8_0-GGUF",
+      "url": "https://huggingface.co/mitkox/antares-1b-Q8_0-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 3044,
+      "likes": 26,
+      "tags": [
+        "transformers",
+        "gguf",
+        "security",
+        "vulnerability-detection",
+        "agentic",
+        "terminal-agent"
+      ],
+      "lastModified": null,
+      "description": "This model was converted to GGUF format from fdtn-ai/antares-1b using llama.cpp via the ggml.ai's GGUF-my-repo space. Refer to the original model card for more details on the model."
     }
   ]
 }
