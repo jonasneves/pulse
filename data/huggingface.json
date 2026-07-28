@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T19:24:10.753Z",
+  "updated": "2026-07-28T22:03:55.330Z",
   "models": [
     {
       "rank": 1,
@@ -25,7 +25,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 96981785,
-      "likes": 2714,
+      "likes": 2715,
       "tags": [
         "transformers",
         "pytorch",
@@ -241,7 +241,7 @@
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
       "downloads": 21446879,
-      "likes": 380,
+      "likes": 381,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -367,7 +367,7 @@
       "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
       "pipelineTag": "sentence-similarity",
       "downloads": 14781422,
-      "likes": 878,
+      "likes": 879,
       "tags": [
         "sentence-transformers",
         "onnx",
@@ -457,7 +457,7 @@
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 13007085,
-      "likes": 1332,
+      "likes": 1333,
       "tags": [
         "transformers",
         "safetensors",
@@ -493,7 +493,7 @@
       "url": "https://huggingface.co/google/gemma-4-31B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 12393109,
-      "likes": 3395,
+      "likes": 3398,
       "tags": [
         "transformers",
         "safetensors",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 18933,
-      "likes": 519,
+      "likes": 524,
       "tags": [
         "transformers",
         "safetensors",
@@ -598,6 +598,24 @@
     },
     {
       "rank": 4,
+      "id": "FermionResearch/Neutrino-8B",
+      "url": "https://huggingface.co/FermionResearch/Neutrino-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 1165,
+      "likes": 38,
+      "tags": [
+        "transformers",
+        "gguf",
+        "trtc_v4",
+        "text-generation",
+        "ternary",
+        "sub-2-bit"
+      ],
+      "lastModified": null,
+      "description": "An 8B chat model whose every transformer linear is stored five-valued (sub-2 bits per weight) in a single 2.56 GB container, and which loads as a native transformers model in one from_pretrained call."
+    },
+    {
+      "rank": 5,
       "id": "Virtue-AI-HUB/VulnLLM-R-7B",
       "url": "https://huggingface.co/Virtue-AI-HUB/VulnLLM-R-7B",
       "pipelineTag": "text-generation",
@@ -613,24 +631,6 @@
       ],
       "lastModified": null,
       "description": "VulnLLM-R is the first specialized reasoning Large Language Model designed specifically for software vulnerability detection."
-    },
-    {
-      "rank": 5,
-      "id": "FermionResearch/Neutrino-8B",
-      "url": "https://huggingface.co/FermionResearch/Neutrino-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 1165,
-      "likes": 37,
-      "tags": [
-        "transformers",
-        "gguf",
-        "trtc_v4",
-        "text-generation",
-        "ternary",
-        "sub-2-bit"
-      ],
-      "lastModified": null,
-      "description": "An 8B chat model whose every transformer linear is stored five-valued (sub-2 bits per weight) in a single 2.56 GB container, and which loads as a native transformers model in one from_pretrained call."
     },
     {
       "rank": 6,
@@ -652,6 +652,24 @@
     },
     {
       "rank": 7,
+      "id": "openbmb/MiniCPM5-1B",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+      "pipelineTag": "text-generation",
+      "downloads": 626363,
+      "likes": 1013,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "minicpm",
+        "minicpm5"
+      ],
+      "lastModified": null,
+      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
+    },
+    {
+      "rank": 8,
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
@@ -667,24 +685,6 @@
       ],
       "lastModified": null,
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
-      "rank": 8,
-      "id": "openbmb/MiniCPM5-1B",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
-      "pipelineTag": "text-generation",
-      "downloads": 626363,
-      "likes": 1012,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "minicpm",
-        "minicpm5"
-      ],
-      "lastModified": null,
-      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
     },
     {
       "rank": 9,
@@ -741,21 +741,21 @@
     },
     {
       "rank": 12,
-      "id": "mitkox/antares-1b-Q8_0-GGUF",
-      "url": "https://huggingface.co/mitkox/antares-1b-Q8_0-GGUF",
+      "id": "ai9stars/G9v3-3B",
+      "url": "https://huggingface.co/ai9stars/G9v3-3B",
       "pipelineTag": "text-generation",
-      "downloads": 3044,
-      "likes": 26,
+      "downloads": 629,
+      "likes": 20,
       "tags": [
         "transformers",
-        "gguf",
-        "security",
-        "vulnerability-detection",
-        "agentic",
-        "terminal-agent"
+        "safetensors",
+        "llama",
+        "text-generation",
+        "g9v3",
+        "long-context"
       ],
       "lastModified": null,
-      "description": "This model was converted to GGUF format from fdtn-ai/antares-1b using llama.cpp via the ggml.ai's GGUF-my-repo space. Refer to the original model card for more details on the model."
+      "description": "G9v3-3B is a dense 3B causal language model from the AI9Stars team, built for local deployment and resource-constrained scenarios. It targets everyday assistant use, coding, tool-use workflows, and reasoning tasks where a compact model i…"
     }
   ]
 }
