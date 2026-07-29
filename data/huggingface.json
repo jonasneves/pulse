@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T02:38:53.882Z",
+  "updated": "2026-07-29T05:52:14.517Z",
   "models": [
     {
       "rank": 1,
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 35491258,
-      "likes": 3282,
+      "likes": 3283,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -349,7 +349,7 @@
       "url": "https://huggingface.co/intfloat/multilingual-e5-small",
       "pipelineTag": "sentence-similarity",
       "downloads": 15831228,
-      "likes": 375,
+      "likes": 376,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -493,7 +493,7 @@
       "url": "https://huggingface.co/google/gemma-4-31B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 12393109,
-      "likes": 3399,
+      "likes": 3401,
       "tags": [
         "transformers",
         "safetensors",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 18933,
-      "likes": 530,
+      "likes": 532,
       "tags": [
         "transformers",
         "safetensors",
@@ -567,7 +567,7 @@
       "url": "https://huggingface.co/fdtn-ai/antares-1b",
       "pipelineTag": "text-generation",
       "downloads": 7666,
-      "likes": 223,
+      "likes": 224,
       "tags": [
         "transformers",
         "safetensors",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/FermionResearch/Neutrino-8B",
       "pipelineTag": "text-generation",
       "downloads": 1165,
-      "likes": 40,
+      "likes": 42,
       "tags": [
         "transformers",
         "gguf",
@@ -616,6 +616,24 @@
     },
     {
       "rank": 5,
+      "id": "openbmb/MiniCPM5-1B",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+      "pipelineTag": "text-generation",
+      "downloads": 626363,
+      "likes": 1017,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "minicpm",
+        "minicpm5"
+      ],
+      "lastModified": null,
+      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
+    },
+    {
+      "rank": 6,
       "id": "Nanbeige/Nanbeige4.2-3B-Base",
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B-Base",
       "pipelineTag": "text-generation",
@@ -633,7 +651,7 @@
       "description": "Nanbeige4.2-3B-Base is a new base model in the Nanbeige4 series, trained from scratch with improvements to both model architecture and training data. It delivers substantial gains over the previous generation and outperforms opensource b…"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "id": "owao/Nanbeige4.2-3B-GGUF",
       "url": "https://huggingface.co/owao/Nanbeige4.2-3B-GGUF",
       "pipelineTag": "text-generation",
@@ -651,7 +669,7 @@
       "description": "See the original model card for details on how to use with llama.cpp and ollama (you'll need to build from their fork cause their changes didn't land in llama.cpp main yet)."
     },
     {
-      "rank": 7,
+      "rank": 8,
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
@@ -669,30 +687,12 @@
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
-      "rank": 8,
-      "id": "openbmb/MiniCPM5-1B",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
-      "pipelineTag": "text-generation",
-      "downloads": 626363,
-      "likes": 1015,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "minicpm",
-        "minicpm5"
-      ],
-      "lastModified": null,
-      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
-    },
-    {
       "rank": 9,
       "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
       "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 216689,
-      "likes": 172,
+      "likes": 173,
       "tags": [
         "gguf",
         "llama.cpp",
