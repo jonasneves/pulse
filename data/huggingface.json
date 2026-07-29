@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T19:16:10.258Z",
+  "updated": "2026-07-29T22:01:05.652Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 253857817,
-      "likes": 5139,
+      "likes": 5140,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -97,7 +97,7 @@
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 52722748,
-      "likes": 1333,
+      "likes": 1334,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -313,7 +313,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 16574019,
-      "likes": 1255,
+      "likes": 1256,
       "tags": [
         "transformers",
         "safetensors",
@@ -385,7 +385,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 13797400,
-      "likes": 3373,
+      "likes": 3377,
       "tags": [
         "transformers",
         "pytorch",
@@ -493,7 +493,7 @@
       "url": "https://huggingface.co/google/gemma-4-31B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 12393109,
-      "likes": 3405,
+      "likes": 3407,
       "tags": [
         "transformers",
         "safetensors",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 18933,
-      "likes": 547,
+      "likes": 553,
       "tags": [
         "transformers",
         "safetensors",
@@ -567,7 +567,7 @@
       "url": "https://huggingface.co/fdtn-ai/antares-1b",
       "pipelineTag": "text-generation",
       "downloads": 7666,
-      "likes": 229,
+      "likes": 230,
       "tags": [
         "transformers",
         "safetensors",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/FermionResearch/Neutrino-8B",
       "pipelineTag": "text-generation",
       "downloads": 1165,
-      "likes": 45,
+      "likes": 46,
       "tags": [
         "transformers",
         "gguf",
@@ -598,24 +598,6 @@
     },
     {
       "rank": 4,
-      "id": "Qwen/Qwen3-8B",
-      "url": "https://huggingface.co/Qwen/Qwen3-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 16574019,
-      "likes": 1255,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "conversational",
-        "license:apache-2.0"
-      ],
-      "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
-      "rank": 5,
       "id": "openbmb/MiniCPM5-1B",
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
@@ -633,12 +615,30 @@
       "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
     },
     {
+      "rank": 5,
+      "id": "Qwen/Qwen3-8B",
+      "url": "https://huggingface.co/Qwen/Qwen3-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 16574019,
+      "likes": 1256,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "conversational",
+        "license:apache-2.0"
+      ],
+      "lastModified": null,
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
       "rank": 6,
       "id": "owao/Nanbeige4.2-3B-GGUF",
       "url": "https://huggingface.co/owao/Nanbeige4.2-3B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 29029,
-      "likes": 35,
+      "likes": 36,
       "tags": [
         "llama-cpp-python",
         "gguf",
@@ -702,6 +702,24 @@
       ],
       "lastModified": null,
       "description": "G9v3-3B is a dense 3B causal language model from the AI9Stars team, built for local deployment and resource-constrained scenarios. It targets everyday assistant use, coding, tool-use workflows, and reasoning tasks where a compact model i…"
+    },
+    {
+      "rank": 10,
+      "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
+      "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 216689,
+      "likes": 174,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "quantized",
+        "minicpm5",
+        "thinking",
+        "fable5"
+      ],
+      "lastModified": null,
+      "description": "GGUF quantizations of MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking for llama.cpp, Ollama, LM Studio, jan, KoboldCpp, and other GGUF runtimes."
     }
   ]
 }
