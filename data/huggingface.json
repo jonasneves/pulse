@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T16:21:19.906Z",
+  "updated": "2026-07-29T19:16:10.258Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 253857817,
-      "likes": 5138,
+      "likes": 5139,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -493,7 +493,7 @@
       "url": "https://huggingface.co/google/gemma-4-31B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 12393109,
-      "likes": 3403,
+      "likes": 3405,
       "tags": [
         "transformers",
         "safetensors",
@@ -511,7 +511,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 12114062,
-      "likes": 1442,
+      "likes": 1443,
       "tags": [
         "transformers",
         "safetensors",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 18933,
-      "likes": 545,
+      "likes": 547,
       "tags": [
         "transformers",
         "safetensors",
@@ -567,7 +567,7 @@
       "url": "https://huggingface.co/fdtn-ai/antares-1b",
       "pipelineTag": "text-generation",
       "downloads": 7666,
-      "likes": 228,
+      "likes": 229,
       "tags": [
         "transformers",
         "safetensors",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/FermionResearch/Neutrino-8B",
       "pipelineTag": "text-generation",
       "downloads": 1165,
-      "likes": 43,
+      "likes": 45,
       "tags": [
         "transformers",
         "gguf",
@@ -620,7 +620,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
       "downloads": 626363,
-      "likes": 1020,
+      "likes": 1021,
       "tags": [
         "transformers",
         "safetensors",
@@ -687,24 +687,6 @@
     },
     {
       "rank": 9,
-      "id": "Virtue-AI-HUB/VulnLLM-R-7B",
-      "url": "https://huggingface.co/Virtue-AI-HUB/VulnLLM-R-7B",
-      "pipelineTag": "text-generation",
-      "downloads": 50558,
-      "likes": 233,
-      "tags": [
-        "safetensors",
-        "qwen2",
-        "security",
-        "vulnerability-detection",
-        "code-analysis",
-        "reasoning"
-      ],
-      "lastModified": null,
-      "description": "VulnLLM-R is the first specialized reasoning Large Language Model designed specifically for software vulnerability detection."
-    },
-    {
-      "rank": 10,
       "id": "ai9stars/G9v3-3B",
       "url": "https://huggingface.co/ai9stars/G9v3-3B",
       "pipelineTag": "text-generation",
@@ -720,24 +702,6 @@
       ],
       "lastModified": null,
       "description": "G9v3-3B is a dense 3B causal language model from the AI9Stars team, built for local deployment and resource-constrained scenarios. It targets everyday assistant use, coding, tool-use workflows, and reasoning tasks where a compact model i…"
-    },
-    {
-      "rank": 11,
-      "id": "deepseek-ai/DeepSeek-R1",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-      "pipelineTag": "text-generation",
-      "downloads": 9214462,
-      "likes": 13518,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "deepseek_v3",
-        "text-generation",
-        "conversational",
-        "custom_code"
-      ],
-      "lastModified": null,
-      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
     }
   ]
 }
