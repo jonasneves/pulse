@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T11:25:50.112Z",
+  "updated": "2026-07-29T14:09:57.911Z",
   "models": [
     {
       "rank": 1,
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 28383533,
-      "likes": 1461,
+      "likes": 1462,
       "tags": [
         "transformers",
         "safetensors",
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/google-t5/t5-small",
       "pipelineTag": "translation",
       "downloads": 26012265,
-      "likes": 580,
+      "likes": 581,
       "tags": [
         "transformers",
         "pytorch",
@@ -385,7 +385,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 13797400,
-      "likes": 3372,
+      "likes": 3373,
       "tags": [
         "transformers",
         "pytorch",
@@ -457,7 +457,7 @@
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 13007085,
-      "likes": 1334,
+      "likes": 1335,
       "tags": [
         "transformers",
         "safetensors",
@@ -493,7 +493,7 @@
       "url": "https://huggingface.co/google/gemma-4-31B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 12393109,
-      "likes": 3401,
+      "likes": 3402,
       "tags": [
         "transformers",
         "safetensors",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 18933,
-      "likes": 539,
+      "likes": 542,
       "tags": [
         "transformers",
         "safetensors",
@@ -598,24 +598,6 @@
     },
     {
       "rank": 4,
-      "id": "Virtue-AI-HUB/VulnLLM-R-7B",
-      "url": "https://huggingface.co/Virtue-AI-HUB/VulnLLM-R-7B",
-      "pipelineTag": "text-generation",
-      "downloads": 50558,
-      "likes": 233,
-      "tags": [
-        "safetensors",
-        "qwen2",
-        "security",
-        "vulnerability-detection",
-        "code-analysis",
-        "reasoning"
-      ],
-      "lastModified": null,
-      "description": "VulnLLM-R is the first specialized reasoning Large Language Model designed specifically for software vulnerability detection."
-    },
-    {
-      "rank": 5,
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
@@ -633,7 +615,7 @@
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
-      "rank": 6,
+      "rank": 5,
       "id": "openbmb/MiniCPM5-1B",
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
@@ -651,7 +633,7 @@
       "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
     },
     {
-      "rank": 7,
+      "rank": 6,
       "id": "owao/Nanbeige4.2-3B-GGUF",
       "url": "https://huggingface.co/owao/Nanbeige4.2-3B-GGUF",
       "pipelineTag": "text-generation",
@@ -669,12 +651,12 @@
       "description": "See the original model card for details on how to use with llama.cpp and ollama (you'll need to build from their fork cause their changes didn't land in llama.cpp main yet)."
     },
     {
-      "rank": 8,
+      "rank": 7,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 8022692,
-      "likes": 6414,
+      "likes": 6416,
       "tags": [
         "transformers",
         "safetensors",
@@ -686,12 +668,30 @@
       "lastModified": null
     },
     {
+      "rank": 8,
+      "id": "Virtue-AI-HUB/VulnLLM-R-7B",
+      "url": "https://huggingface.co/Virtue-AI-HUB/VulnLLM-R-7B",
+      "pipelineTag": "text-generation",
+      "downloads": 50558,
+      "likes": 233,
+      "tags": [
+        "safetensors",
+        "qwen2",
+        "security",
+        "vulnerability-detection",
+        "code-analysis",
+        "reasoning"
+      ],
+      "lastModified": null,
+      "description": "VulnLLM-R is the first specialized reasoning Large Language Model designed specifically for software vulnerability detection."
+    },
+    {
       "rank": 9,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 28383533,
-      "likes": 1461,
+      "likes": 1462,
       "tags": [
         "transformers",
         "safetensors",
