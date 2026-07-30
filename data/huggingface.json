@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T22:01:05.652Z",
+  "updated": "2026-07-30T02:25:49.282Z",
   "models": [
     {
       "rank": 1,
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 35491258,
-      "likes": 3283,
+      "likes": 3285,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -457,7 +457,7 @@
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 13007085,
-      "likes": 1336,
+      "likes": 1337,
       "tags": [
         "transformers",
         "safetensors",
@@ -475,7 +475,7 @@
       "url": "https://huggingface.co/autogluon/chronos-2",
       "pipelineTag": "time-series-forecasting",
       "downloads": 12513503,
-      "likes": 44,
+      "likes": 45,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -493,7 +493,7 @@
       "url": "https://huggingface.co/google/gemma-4-31B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 12393109,
-      "likes": 3407,
+      "likes": 3408,
       "tags": [
         "transformers",
         "safetensors",
@@ -511,7 +511,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 12114062,
-      "likes": 1443,
+      "likes": 1444,
       "tags": [
         "transformers",
         "safetensors",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 18933,
-      "likes": 553,
+      "likes": 556,
       "tags": [
         "transformers",
         "safetensors",
@@ -567,7 +567,7 @@
       "url": "https://huggingface.co/fdtn-ai/antares-1b",
       "pipelineTag": "text-generation",
       "downloads": 7666,
-      "likes": 230,
+      "likes": 233,
       "tags": [
         "transformers",
         "safetensors",
@@ -638,7 +638,7 @@
       "url": "https://huggingface.co/owao/Nanbeige4.2-3B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 29029,
-      "likes": 36,
+      "likes": 37,
       "tags": [
         "llama-cpp-python",
         "gguf",
@@ -656,7 +656,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 8022692,
-      "likes": 6416,
+      "likes": 6419,
       "tags": [
         "transformers",
         "safetensors",
@@ -702,24 +702,6 @@
       ],
       "lastModified": null,
       "description": "G9v3-3B is a dense 3B causal language model from the AI9Stars team, built for local deployment and resource-constrained scenarios. It targets everyday assistant use, coding, tool-use workflows, and reasoning tasks where a compact model i…"
-    },
-    {
-      "rank": 10,
-      "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
-      "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 216689,
-      "likes": 174,
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "quantized",
-        "minicpm5",
-        "thinking",
-        "fable5"
-      ],
-      "lastModified": null,
-      "description": "GGUF quantizations of MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking for llama.cpp, Ollama, LM Studio, jan, KoboldCpp, and other GGUF runtimes."
     }
   ]
 }
