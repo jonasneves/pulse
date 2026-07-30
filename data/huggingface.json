@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T14:01:53.600Z",
+  "updated": "2026-07-30T16:26:06.843Z",
   "models": [
     {
       "rank": 1,
@@ -61,7 +61,7 @@
       "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "pipelineTag": "feature-extraction",
       "downloads": 70010908,
-      "likes": 519,
+      "likes": 520,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 24542,
-      "likes": 571,
+      "likes": 574,
       "tags": [
         "transformers",
         "safetensors",
@@ -616,6 +616,24 @@
     },
     {
       "rank": 5,
+      "id": "owao/Nanbeige4.2-3B-GGUF",
+      "url": "https://huggingface.co/owao/Nanbeige4.2-3B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 39464,
+      "likes": 40,
+      "tags": [
+        "llama-cpp-python",
+        "gguf",
+        "llm",
+        "quantization",
+        "nanbeige",
+        "text-generation"
+      ],
+      "lastModified": null,
+      "description": "See the original model card for details on how to use with llama.cpp and ollama (you'll need to build from their fork cause their changes didn't land in llama.cpp main yet)."
+    },
+    {
+      "rank": 6,
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
@@ -633,30 +651,12 @@
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
-      "rank": 6,
-      "id": "owao/Nanbeige4.2-3B-GGUF",
-      "url": "https://huggingface.co/owao/Nanbeige4.2-3B-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 39464,
-      "likes": 39,
-      "tags": [
-        "llama-cpp-python",
-        "gguf",
-        "llm",
-        "quantization",
-        "nanbeige",
-        "text-generation"
-      ],
-      "lastModified": null,
-      "description": "See the original model card for details on how to use with llama.cpp and ollama (you'll need to build from their fork cause their changes didn't land in llama.cpp main yet)."
-    },
-    {
       "rank": 7,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 7927807,
-      "likes": 6423,
+      "likes": 6425,
       "tags": [
         "transformers",
         "safetensors",
@@ -687,6 +687,24 @@
     },
     {
       "rank": 9,
+      "id": "Goekdeniz-Guelmez/JOSIE-2-4B-Preview",
+      "url": "https://huggingface.co/Goekdeniz-Guelmez/JOSIE-2-4B-Preview",
+      "pipelineTag": "text-generation",
+      "downloads": 1018,
+      "likes": 20,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "qwen3_5",
+        "josie",
+        "josie-2",
+        "text-generation"
+      ],
+      "lastModified": null,
+      "description": "JOSIE-2-4B-Preview is the first model in the JOSIE family to combine structured reasoning, a consistent personality, and self-awareness while being trained entirely on consumer Apple Silicon. More importantly, it explores a simple hypoth…"
+    },
+    {
+      "rank": 10,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
