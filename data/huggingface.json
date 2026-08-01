@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T19:07:36.555Z",
+  "updated": "2026-08-01T21:56:12.662Z",
   "models": [
     {
       "rank": 1,
@@ -529,7 +529,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 11883439,
-      "likes": 1451,
+      "likes": 1452,
       "tags": [
         "transformers",
         "safetensors",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 27892,
-      "likes": 607,
+      "likes": 609,
       "tags": [
         "transformers",
         "safetensors",
@@ -651,6 +651,24 @@
     },
     {
       "rank": 7,
+      "id": "openbmb/MiniCPM5-1B",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+      "pipelineTag": "text-generation",
+      "downloads": 724853,
+      "likes": 1025,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "minicpm",
+        "minicpm5"
+      ],
+      "lastModified": null,
+      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
+    },
+    {
+      "rank": 8,
       "id": "owao/Nanbeige4.2-3B-GGUF",
       "url": "https://huggingface.co/owao/Nanbeige4.2-3B-GGUF",
       "pipelineTag": "text-generation",
@@ -666,24 +684,6 @@
       ],
       "lastModified": null,
       "description": "See the original model card for details on how to use with llama.cpp and ollama (you'll need to build from their fork cause their changes didn't land in llama.cpp main yet)."
-    },
-    {
-      "rank": 8,
-      "id": "openbmb/MiniCPM5-1B",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
-      "pipelineTag": "text-generation",
-      "downloads": 724853,
-      "likes": 1024,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "minicpm",
-        "minicpm5"
-      ],
-      "lastModified": null,
-      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
     }
   ]
 }
