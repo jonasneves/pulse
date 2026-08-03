@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T02:49:21.880Z",
+  "updated": "2026-08-03T06:23:08.356Z",
   "models": [
     {
       "rank": 1,
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 35383954,
-      "likes": 3298,
+      "likes": 3299,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
       "downloads": 27567777,
-      "likes": 387,
+      "likes": 388,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -241,7 +241,7 @@
       "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
       "pipelineTag": "fill-mask",
       "downloads": 21796871,
-      "likes": 876,
+      "likes": 877,
       "tags": [
         "transformers",
         "pytorch",
@@ -313,7 +313,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 15945414,
-      "likes": 1269,
+      "likes": 1271,
       "tags": [
         "transformers",
         "safetensors",
@@ -385,7 +385,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 14188333,
-      "likes": 787,
+      "likes": 788,
       "tags": [
         "transformers",
         "safetensors",
@@ -529,7 +529,7 @@
       "url": "https://huggingface.co/google/gemma-4-31B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 11922017,
-      "likes": 3430,
+      "likes": 3432,
       "tags": [
         "transformers",
         "safetensors",
@@ -549,7 +549,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 33042,
-      "likes": 628,
+      "likes": 641,
       "tags": [
         "transformers",
         "safetensors",
@@ -563,6 +563,24 @@
     },
     {
       "rank": 2,
+      "id": "FermionResearch/Neutrino-8B",
+      "url": "https://huggingface.co/FermionResearch/Neutrino-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 6319,
+      "likes": 64,
+      "tags": [
+        "transformers",
+        "gguf",
+        "trtc_v4",
+        "text-generation",
+        "ternary",
+        "sub-2-bit"
+      ],
+      "lastModified": null,
+      "description": "An 8B chat model whose every transformer linear is stored five-valued (sub-2 bits per weight) in a single 2.56 GB container, and which loads as a native transformers model in one from_pretrained call."
+    },
+    {
+      "rank": 3,
       "id": "fdtn-ai/antares-1b",
       "url": "https://huggingface.co/fdtn-ai/antares-1b",
       "pipelineTag": "text-generation",
@@ -579,30 +597,12 @@
       "lastModified": null
     },
     {
-      "rank": 3,
-      "id": "FermionResearch/Neutrino-8B",
-      "url": "https://huggingface.co/FermionResearch/Neutrino-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 6319,
-      "likes": 63,
-      "tags": [
-        "transformers",
-        "gguf",
-        "trtc_v4",
-        "text-generation",
-        "ternary",
-        "sub-2-bit"
-      ],
-      "lastModified": null,
-      "description": "An 8B chat model whose every transformer linear is stored five-valued (sub-2 bits per weight) in a single 2.56 GB container, and which loads as a native transformers model in one from_pretrained call."
-    },
-    {
       "rank": 4,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 7916062,
-      "likes": 6453,
+      "likes": 6454,
       "tags": [
         "transformers",
         "safetensors",
@@ -619,7 +619,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 15945414,
-      "likes": 1269,
+      "likes": 1271,
       "tags": [
         "transformers",
         "safetensors",
@@ -651,21 +651,21 @@
     },
     {
       "rank": 7,
-      "id": "deepseek-ai/DeepSeek-R1",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "id": "Qwen/Qwen3-0.6B",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
-      "downloads": 9612174,
-      "likes": 13536,
+      "downloads": 28903185,
+      "likes": 1478,
       "tags": [
         "transformers",
         "safetensors",
-        "deepseek_v3",
+        "qwen3",
         "text-generation",
         "conversational",
-        "custom_code"
+        "license:apache-2.0"
       ],
       "lastModified": null,
-      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     }
   ]
 }
