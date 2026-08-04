@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T02:32:49.185Z",
+  "updated": "2026-08-04T05:46:22.345Z",
   "models": [
     {
       "rank": 1,
@@ -529,7 +529,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 11893425,
-      "likes": 6630,
+      "likes": 6631,
       "tags": [
         "text-to-speech",
         "en",
@@ -601,7 +601,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 7886695,
-      "likes": 6456,
+      "likes": 6457,
       "tags": [
         "transformers",
         "safetensors",
@@ -647,6 +647,24 @@
       ],
       "lastModified": null,
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
+      "rank": 7,
+      "id": "owao/Nanbeige4.2-3B-GGUF",
+      "url": "https://huggingface.co/owao/Nanbeige4.2-3B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 58814,
+      "likes": 47,
+      "tags": [
+        "llama-cpp-python",
+        "gguf",
+        "llm",
+        "quantization",
+        "nanbeige",
+        "text-generation"
+      ],
+      "lastModified": null,
+      "description": "See the original model card for details on how to use with llama.cpp and ollama (you'll need to build from their fork cause their changes didn't land in llama.cpp main yet)."
     }
   ]
 }
