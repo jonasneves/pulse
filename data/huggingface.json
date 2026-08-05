@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T16:41:56.644Z",
+  "updated": "2026-08-05T19:34:24.943Z",
   "models": [
     {
       "rank": 1,
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 34991851,
-      "likes": 3365,
+      "likes": 3366,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
       "downloads": 29542402,
-      "likes": 389,
+      "likes": 390,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -493,7 +493,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 12117940,
-      "likes": 1526,
+      "likes": 1525,
       "tags": [
         "transformers",
         "safetensors",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 47393,
-      "likes": 248,
+      "likes": 261,
       "tags": [
         "transformers",
         "safetensors",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 8014793,
-      "likes": 6532,
+      "likes": 6534,
       "tags": [
         "transformers",
         "safetensors",
@@ -601,7 +601,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 185,
-      "likes": 80,
+      "likes": 84,
       "tags": [
         "gguf",
         "liquid",
@@ -619,7 +619,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 12117940,
-      "likes": 1526,
+      "likes": 1525,
       "tags": [
         "transformers",
         "safetensors",
@@ -633,6 +633,24 @@
     },
     {
       "rank": 6,
+      "id": "LiquidAI/LFM2.5-2.6B-Base",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-Base",
+      "pipelineTag": "text-generation",
+      "downloads": 151,
+      "likes": 31,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "lfm2",
+        "text-generation",
+        "liquid",
+        "lfm2.5"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
+      "rank": 7,
       "id": "fdtn-ai/antares-1b",
       "url": "https://huggingface.co/fdtn-ai/antares-1b",
       "pipelineTag": "text-generation",
@@ -647,42 +665,6 @@
         "vulnerability-detection"
       ],
       "lastModified": null
-    },
-    {
-      "rank": 7,
-      "id": "LiquidAI/LFM2.5-2.6B-Base",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-Base",
-      "pipelineTag": "text-generation",
-      "downloads": 151,
-      "likes": 30,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "lfm2",
-        "text-generation",
-        "liquid",
-        "lfm2.5"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 8,
-      "id": "FermionResearch/Neutrino-8B",
-      "url": "https://huggingface.co/FermionResearch/Neutrino-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 7089,
-      "likes": 66,
-      "tags": [
-        "transformers",
-        "gguf",
-        "trtc_v4",
-        "text-generation",
-        "ternary",
-        "sub-2-bit"
-      ],
-      "lastModified": null,
-      "description": "An 8B chat model whose every transformer linear is stored five-valued (sub-2 bits per weight) in a single 2.56 GB container, and which loads as a native transformers model in one from_pretrained call."
     }
   ]
 }
