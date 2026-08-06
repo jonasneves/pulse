@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T08:35:40.382Z",
+  "updated": "2026-08-06T11:22:34.468Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 252446310,
-      "likes": 5182,
+      "likes": 5183,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 34203869,
-      "likes": 3368,
+      "likes": 3370,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -510,7 +510,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 11703110,
-      "likes": 1528,
+      "likes": 1529,
       "tags": [
         "transformers",
         "safetensors",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 73573,
-      "likes": 298,
+      "likes": 306,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 12790,
-      "likes": 103,
+      "likes": 108,
       "tags": [
         "gguf",
         "liquid",
@@ -602,7 +602,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 7788831,
-      "likes": 6538,
+      "likes": 6539,
       "tags": [
         "transformers",
         "safetensors",
@@ -619,7 +619,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 11703110,
-      "likes": 1528,
+      "likes": 1529,
       "tags": [
         "transformers",
         "safetensors",
@@ -672,7 +672,7 @@
       "url": "https://huggingface.co/KBlueLeaf/TIPOv2-1B-A200M",
       "pipelineTag": "text-generation",
       "downloads": 51,
-      "likes": 24,
+      "likes": 25,
       "tags": [
         "transformers",
         "safetensors",
@@ -683,6 +683,24 @@
       ],
       "lastModified": null,
       "description": "TIPOv2-1B-A200M is a 1B-A200M sparse model. 991M total parameters, ~200M active per token, plus a ~50M embedding table. The second generation of TIPO, rebuilt from the dataset up on the KohakUwU MoE architecture."
+    },
+    {
+      "rank": 9,
+      "id": "LiquidAI/LFM2.5-2.6B-MLX",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-MLX",
+      "pipelineTag": "text-generation",
+      "downloads": 0,
+      "likes": 20,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "liquid",
+        "lfm2.5",
+        "edge",
+        "text-generation"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     }
   ]
 }
