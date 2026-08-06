@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T02:34:22.863Z",
+  "updated": "2026-08-06T05:48:35.848Z",
   "models": [
     {
       "rank": 1,
@@ -529,7 +529,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 11958398,
-      "likes": 6644,
+      "likes": 6646,
       "tags": [
         "text-to-speech",
         "en",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 47393,
-      "likes": 286,
+      "likes": 292,
       "tags": [
         "transformers",
         "safetensors",
@@ -562,6 +562,24 @@
     },
     {
       "rank": 2,
+      "id": "LiquidAI/LFM2.5-2.6B-GGUF",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 185,
+      "likes": 100,
+      "tags": [
+        "gguf",
+        "liquid",
+        "lfm2.5",
+        "llama.cpp",
+        "text-generation",
+        "ar"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
+      "rank": 3,
       "id": "Nanbeige/Nanbeige4.2-3B",
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
@@ -579,30 +597,12 @@
       "description": "Nanbeige4.2-3B is a compact agentic model built on Nanbeige4.2-3B-Base, designed to combine strong agentic behavior with broad reasoning and alignment capabilities. Its Looped Transformer architecture reuses the transformer layers to inc…"
     },
     {
-      "rank": 3,
-      "id": "LiquidAI/LFM2.5-2.6B-GGUF",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 185,
-      "likes": 96,
-      "tags": [
-        "gguf",
-        "liquid",
-        "lfm2.5",
-        "llama.cpp",
-        "text-generation",
-        "ar"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
       "rank": 4,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 8014793,
-      "likes": 6536,
+      "likes": 6537,
       "tags": [
         "transformers",
         "safetensors",
@@ -665,6 +665,24 @@
         "vulnerability-detection"
       ],
       "lastModified": null
+    },
+    {
+      "rank": 8,
+      "id": "KBlueLeaf/TIPOv2-1B-A200M",
+      "url": "https://huggingface.co/KBlueLeaf/TIPOv2-1B-A200M",
+      "pipelineTag": "text-generation",
+      "downloads": 0,
+      "likes": 23,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gguf",
+        "text-generation",
+        "text-generation-inference",
+        "mixture-of-experts"
+      ],
+      "lastModified": null,
+      "description": "TIPOv2-1B-A200M is a 1B-A200M sparse model. 991M total parameters, ~200M active per token, plus a ~50M embedding table. The second generation of TIPO, rebuilt from the dataset up on the KohakUwU MoE architecture."
     }
   ]
 }
