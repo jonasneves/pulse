@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T07:15:21.640Z",
+  "updated": "2026-08-07T10:01:15.181Z",
   "models": [
     {
       "rank": 1,
@@ -114,7 +114,7 @@
       "id": "lpiccinelli/unidepth-v2-vitl14",
       "url": "https://huggingface.co/lpiccinelli/unidepth-v2-vitl14",
       "pipelineTag": null,
-      "downloads": 38791828,
+      "downloads": 38400895,
       "likes": 49,
       "tags": [
         "UniDepth",
@@ -132,7 +132,7 @@
       "id": "BAAI/bge-m3",
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
-      "downloads": 34203869,
+      "downloads": 33584944,
       "likes": 3373,
       "tags": [
         "sentence-transformers",
@@ -150,7 +150,7 @@
       "id": "amazon/chronos-2",
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
-      "downloads": 30565039,
+      "downloads": 31142302,
       "likes": 393,
       "tags": [
         "chronos-forecasting",
@@ -168,8 +168,8 @@
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
-      "downloads": 28862849,
-      "likes": 1490,
+      "downloads": 28385565,
+      "likes": 1491,
       "tags": [
         "transformers",
         "safetensors",
@@ -258,7 +258,7 @@
       "id": "BAAI/bge-reranker-v2-m3",
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
-      "downloads": 18552022,
+      "downloads": 18229459,
       "likes": 1127,
       "tags": [
         "sentence-transformers",
@@ -312,7 +312,7 @@
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
-      "downloads": 15485922,
+      "downloads": 15176720,
       "likes": 1278,
       "tags": [
         "transformers",
@@ -330,7 +330,7 @@
       "id": "nomic-ai/nomic-embed-text-v1.5",
       "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
       "pipelineTag": "sentence-similarity",
-      "downloads": 15340393,
+      "downloads": 15099753,
       "likes": 886,
       "tags": [
         "sentence-transformers",
@@ -348,7 +348,7 @@
       "id": "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
       "url": "https://huggingface.co/trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
       "pipelineTag": "text-generation",
-      "downloads": 15206588,
+      "downloads": 15010558,
       "likes": 19,
       "tags": [
         "transformers",
@@ -366,7 +366,7 @@
       "id": "intfloat/multilingual-e5-small",
       "url": "https://huggingface.co/intfloat/multilingual-e5-small",
       "pipelineTag": "sentence-similarity",
-      "downloads": 15043068,
+      "downloads": 14804481,
       "likes": 380,
       "tags": [
         "sentence-transformers",
@@ -384,7 +384,7 @@
       "id": "Qwen/Qwen2.5-1.5B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 13521479,
+      "downloads": 13341646,
       "likes": 790,
       "tags": [
         "transformers",
@@ -438,7 +438,7 @@
       "id": "Qwen/Qwen3.5-9B",
       "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "pipelineTag": "image-text-to-text",
-      "downloads": 12264300,
+      "downloads": 12159684,
       "likes": 1794,
       "tags": [
         "transformers",
@@ -471,29 +471,11 @@
     },
     {
       "rank": 27,
-      "id": "autogluon/chronos-bolt-small",
-      "url": "https://huggingface.co/autogluon/chronos-bolt-small",
-      "pipelineTag": "time-series-forecasting",
-      "downloads": 11900901,
-      "likes": 59,
-      "tags": [
-        "safetensors",
-        "t5",
-        "time series",
-        "forecasting",
-        "pretrained models",
-        "foundation models"
-      ],
-      "lastModified": null,
-      "description": "🚀 Update Feb 14, 2025: Chronos-Bolt models are now available on Amazon SageMaker JumpStart! Check out the tutorial notebook to learn how to deploy Chronos endpoints for production use in a few lines of code."
-    },
-    {
-      "rank": 28,
       "id": "hexgrad/Kokoro-82M",
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
-      "downloads": 11774539,
-      "likes": 6652,
+      "downloads": 11658420,
+      "likes": 6654,
       "tags": [
         "text-to-speech",
         "en",
@@ -505,11 +487,11 @@
       "description": "Kokoro is an open-weight TTS model with 82 million parameters. Despite its lightweight architecture, it delivers comparable quality to larger models while being significantly faster and more cost-efficient. With Apache-licensed weights, …"
     },
     {
-      "rank": 29,
+      "rank": 28,
       "id": "Qwen/Qwen2.5-7B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 11703110,
+      "downloads": 11516790,
       "likes": 1531,
       "tags": [
         "transformers",
@@ -523,7 +505,7 @@
       "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
     },
     {
-      "rank": 30,
+      "rank": 29,
       "id": "FacebookAI/roberta-base",
       "url": "https://huggingface.co/FacebookAI/roberta-base",
       "pipelineTag": "fill-mask",
@@ -539,6 +521,24 @@
       ],
       "lastModified": null,
       "description": "Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model is case-sensitive: it makes a difference between english and English."
+    },
+    {
+      "rank": 30,
+      "id": "autogluon/chronos-bolt-small",
+      "url": "https://huggingface.co/autogluon/chronos-bolt-small",
+      "pipelineTag": "time-series-forecasting",
+      "downloads": 11168050,
+      "likes": 59,
+      "tags": [
+        "safetensors",
+        "t5",
+        "time series",
+        "forecasting",
+        "pretrained models",
+        "foundation models"
+      ],
+      "lastModified": null,
+      "description": "🚀 Update Feb 14, 2025: Chronos-Bolt models are now available on Amazon SageMaker JumpStart! Check out the tutorial notebook to learn how to deploy Chronos endpoints for production use in a few lines of code."
     }
   ],
   "smallModels": [
@@ -547,8 +547,8 @@
       "id": "LiquidAI/LFM2.5-2.6B",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
-      "downloads": 73573,
-      "likes": 343,
+      "downloads": 77973,
+      "likes": 348,
       "tags": [
         "transformers",
         "safetensors",
@@ -565,8 +565,8 @@
       "id": "LiquidAI/LFM2.5-2.6B-GGUF",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 12790,
-      "likes": 130,
+      "downloads": 31489,
+      "likes": 134,
       "tags": [
         "gguf",
         "liquid",
@@ -583,7 +583,7 @@
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 7788831,
+      "downloads": 7666987,
       "likes": 6544,
       "tags": [
         "transformers",
@@ -600,7 +600,7 @@
       "id": "Nanbeige/Nanbeige4.2-3B",
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
-      "downloads": 41035,
+      "downloads": 41552,
       "likes": 684,
       "tags": [
         "transformers",
@@ -618,7 +618,7 @@
       "id": "Qwen/Qwen2.5-7B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 11703110,
+      "downloads": 11516790,
       "likes": 1531,
       "tags": [
         "transformers",
@@ -636,8 +636,8 @@
       "id": "LiquidAI/LFM2.5-2.6B-Base",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-Base",
       "pipelineTag": "text-generation",
-      "downloads": 431,
-      "likes": 33,
+      "downloads": 614,
+      "likes": 34,
       "tags": [
         "transformers",
         "safetensors",
@@ -654,7 +654,7 @@
       "id": "KBlueLeaf/TIPOv2-1B-A200M",
       "url": "https://huggingface.co/KBlueLeaf/TIPOv2-1B-A200M",
       "pipelineTag": "text-generation",
-      "downloads": 51,
+      "downloads": 1659,
       "likes": 27,
       "tags": [
         "transformers",
