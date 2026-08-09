@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T12:50:06.086Z",
+  "updated": "2026-08-09T15:31:23.179Z",
   "models": [
     {
       "rank": 1,
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 27776325,
-      "likes": 1497,
+      "likes": 1498,
       "tags": [
         "transformers",
         "safetensors",
@@ -313,7 +313,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 15044963,
-      "likes": 1280,
+      "likes": 1281,
       "tags": [
         "transformers",
         "safetensors",
@@ -493,7 +493,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 11551504,
-      "likes": 6663,
+      "likes": 6664,
       "tags": [
         "text-to-speech",
         "en",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 85651,
-      "likes": 433,
+      "likes": 441,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 68468,
-      "likes": 166,
+      "likes": 170,
       "tags": [
         "gguf",
         "liquid",
@@ -723,21 +723,21 @@
     },
     {
       "rank": 11,
-      "id": "openbmb/MiniCPM5-1B",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+      "id": "RavichandranJ/Dolphin3-Cyber-8B-GGUF",
+      "url": "https://huggingface.co/RavichandranJ/Dolphin3-Cyber-8B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 967353,
-      "likes": 1042,
+      "downloads": 59950,
+      "likes": 150,
       "tags": [
         "transformers",
-        "safetensors",
+        "gguf",
         "llama",
         "text-generation",
-        "minicpm",
-        "minicpm5"
+        "GGUF",
+        "llama-cpp"
       ],
       "lastModified": null,
-      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
+      "description": "Fine-tuned for Offensive Security • Defensive Security • Vulnerability Research • Exploit Development"
     }
   ]
 }
