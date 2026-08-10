@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T07:40:57.089Z",
+  "updated": "2026-08-10T10:15:45.023Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 240967501,
-      "likes": 5190,
+      "likes": 5193,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 32432096,
-      "likes": 3379,
+      "likes": 3381,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -150,7 +150,7 @@
       "id": "amazon/chronos-2",
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
-      "downloads": 31469807,
+      "downloads": 31725940,
       "likes": 394,
       "tags": [
         "chronos-forecasting",
@@ -168,7 +168,7 @@
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
-      "downloads": 27776325,
+      "downloads": 27734708,
       "likes": 1500,
       "tags": [
         "transformers",
@@ -312,7 +312,7 @@
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
-      "downloads": 15044963,
+      "downloads": 15171032,
       "likes": 1282,
       "tags": [
         "transformers",
@@ -403,7 +403,7 @@
       "url": "https://huggingface.co/intfloat/multilingual-e5-small",
       "pipelineTag": "sentence-similarity",
       "downloads": 12332091,
-      "likes": 380,
+      "likes": 381,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -420,8 +420,8 @@
       "id": "Qwen/Qwen3.5-9B",
       "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "pipelineTag": "image-text-to-text",
-      "downloads": 12207758,
-      "likes": 1799,
+      "downloads": 12258618,
+      "likes": 1800,
       "tags": [
         "transformers",
         "safetensors",
@@ -524,21 +524,21 @@
     },
     {
       "rank": 30,
-      "id": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
-      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
-      "pipelineTag": "sentence-similarity",
-      "downloads": 10514349,
-      "likes": 486,
+      "id": "nvidia/Qwen3.6-35B-A3B-NVFP4",
+      "url": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
+      "pipelineTag": "text-generation",
+      "downloads": 10583321,
+      "likes": 544,
       "tags": [
-        "sentence-transformers",
-        "pytorch",
-        "tf",
-        "onnx",
+        "Model Optimizer",
         "safetensors",
-        "openvino"
+        "qwen3_5_moe",
+        "nvidia",
+        "ModelOpt",
+        "Qwen3.6"
       ],
       "lastModified": null,
-      "description": "This is a sentence-transformers model: It maps sentences & paragraphs to a 768 dimensional dense vector space and can be used for tasks like clustering or semantic search."
+      "description": "The NVIDIA Qwen3.6-35B-A3B-NVFP4 model is the quantized version of Alibaba's Qwen3.6-35B-A3B model, which is an auto-regressive language model that uses an optimized transformer architecture. For more information, please check here. The …"
     }
   ],
   "smallModels": [
@@ -547,8 +547,8 @@
       "id": "LiquidAI/LFM2.5-2.6B",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
-      "downloads": 85651,
-      "likes": 465,
+      "downloads": 89680,
+      "likes": 468,
       "tags": [
         "transformers",
         "safetensors",
@@ -565,7 +565,7 @@
       "id": "LiquidAI/LFM2.5-2.6B-GGUF",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 68468,
+      "downloads": 89611,
       "likes": 176,
       "tags": [
         "gguf",
@@ -618,7 +618,7 @@
       "id": "LiquidAI/LFM2.5-2.6B-Base",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-Base",
       "pipelineTag": "text-generation",
-      "downloads": 1108,
+      "downloads": 1511,
       "likes": 38,
       "tags": [
         "transformers",
@@ -636,7 +636,7 @@
       "id": "Nanbeige/Nanbeige4.2-3B",
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
-      "downloads": 42297,
+      "downloads": 42852,
       "likes": 686,
       "tags": [
         "transformers",
@@ -654,7 +654,7 @@
       "id": "KBlueLeaf/TIPOv2-1B-A200M",
       "url": "https://huggingface.co/KBlueLeaf/TIPOv2-1B-A200M",
       "pipelineTag": "text-generation",
-      "downloads": 2283,
+      "downloads": 2423,
       "likes": 32,
       "tags": [
         "transformers",
@@ -690,7 +690,7 @@
       "id": "LiquidAI/LFM2.5-8B-A1B",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
       "pipelineTag": "text-generation",
-      "downloads": 169117,
+      "downloads": 169340,
       "likes": 709,
       "tags": [
         "transformers",
@@ -708,7 +708,7 @@
       "id": "LiquidAI/LFM2.5-2.6B-ONNX",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-ONNX",
       "pipelineTag": "text-generation",
-      "downloads": 1900,
+      "downloads": 2122,
       "likes": 18,
       "tags": [
         "onnx",
@@ -726,7 +726,7 @@
       "id": "openbmb/MiniCPM5-1B",
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
-      "downloads": 967353,
+      "downloads": 954946,
       "likes": 1044,
       "tags": [
         "transformers",
