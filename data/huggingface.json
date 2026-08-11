@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T13:04:27.893Z",
+  "updated": "2026-08-11T16:00:34.001Z",
   "models": [
     {
       "rank": 1,
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 27629624,
-      "likes": 1504,
+      "likes": 1505,
       "tags": [
         "transformers",
         "safetensors",
@@ -331,7 +331,7 @@
       "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
       "pipelineTag": "sentence-similarity",
       "downloads": 14554274,
-      "likes": 889,
+      "likes": 890,
       "tags": [
         "sentence-transformers",
         "onnx",
@@ -493,7 +493,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 11218582,
-      "likes": 1535,
+      "likes": 1536,
       "tags": [
         "transformers",
         "safetensors",
@@ -511,7 +511,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 11186136,
-      "likes": 6670,
+      "likes": 6671,
       "tags": [
         "text-to-speech",
         "en",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 93668,
-      "likes": 524,
+      "likes": 530,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 111942,
-      "likes": 193,
+      "likes": 195,
       "tags": [
         "gguf",
         "liquid",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 7345657,
-      "likes": 6578,
+      "likes": 6580,
       "tags": [
         "transformers",
         "safetensors",
@@ -601,7 +601,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 11218582,
-      "likes": 1535,
+      "likes": 1536,
       "tags": [
         "transformers",
         "safetensors",
@@ -619,7 +619,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-Base",
       "pipelineTag": "text-generation",
       "downloads": 2324,
-      "likes": 39,
+      "likes": 40,
       "tags": [
         "transformers",
         "safetensors",
@@ -651,29 +651,11 @@
     },
     {
       "rank": 7,
-      "id": "LiquidAI/LFM2.5-2.6B-MLX",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-MLX",
-      "pipelineTag": "text-generation",
-      "downloads": 0,
-      "likes": 26,
-      "tags": [
-        "mlx",
-        "safetensors",
-        "liquid",
-        "lfm2.5",
-        "edge",
-        "text-generation"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 8,
       "id": "Nanbeige/Nanbeige4.2-3B",
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 43200,
-      "likes": 689,
+      "likes": 690,
       "tags": [
         "transformers",
         "safetensors",
@@ -686,7 +668,7 @@
       "description": "Nanbeige4.2-3B is a compact agentic model built on Nanbeige4.2-3B-Base, designed to combine strong agentic behavior with broad reasoning and alignment capabilities. Its Looped Transformer architecture reuses the transformer layers to inc…"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "id": "LiquidAI/LFM2.5-8B-A1B",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
       "pipelineTag": "text-generation",
@@ -704,30 +686,30 @@
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
-      "rank": 10,
-      "id": "LiquidAI/LFM2.5-2.6B-ONNX",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-ONNX",
+      "rank": 9,
+      "id": "LiquidAI/LFM2.5-2.6B-MLX",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-MLX",
       "pipelineTag": "text-generation",
-      "downloads": 2374,
-      "likes": 18,
+      "downloads": 0,
+      "likes": 26,
       "tags": [
-        "onnx",
-        "lfm2",
+        "mlx",
+        "safetensors",
         "liquid",
-        "edge",
         "lfm2.5",
-        "onnxruntime"
+        "edge",
+        "text-generation"
       ],
       "lastModified": null,
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "id": "openbmb/MiniCPM5-1B",
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
       "downloads": 969444,
-      "likes": 1046,
+      "likes": 1047,
       "tags": [
         "transformers",
         "safetensors",
