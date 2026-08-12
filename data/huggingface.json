@@ -1,13 +1,13 @@
 {
-  "updated": "2026-08-12T04:46:15.850Z",
+  "updated": "2026-08-12T07:23:58.622Z",
   "models": [
     {
       "rank": 1,
       "id": "sentence-transformers/all-MiniLM-L6-v2",
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 239172154,
-      "likes": 5199,
+      "downloads": 240250376,
+      "likes": 5201,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -24,7 +24,7 @@
       "id": "google-bert/bert-base-uncased",
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
-      "downloads": 113216000,
+      "downloads": 111558274,
       "likes": 2732,
       "tags": [
         "transformers",
@@ -42,8 +42,8 @@
       "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
       "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
       "pipelineTag": "text-ranking",
-      "downloads": 82030034,
-      "likes": 299,
+      "downloads": 82636907,
+      "likes": 300,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -61,7 +61,7 @@
       "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "pipelineTag": "feature-extraction",
       "downloads": 67120536,
-      "likes": 529,
+      "likes": 531,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -78,8 +78,8 @@
       "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 54829128,
-      "likes": 1342,
+      "downloads": 54783685,
+      "likes": 1343,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -96,8 +96,8 @@
       "id": "google/electra-base-discriminator",
       "url": "https://huggingface.co/google/electra-base-discriminator",
       "pipelineTag": null,
-      "downloads": 52440813,
-      "likes": 150,
+      "downloads": 52574506,
+      "likes": 152,
       "tags": [
         "transformers",
         "pytorch",
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/lpiccinelli/unidepth-v2-vitl14",
       "pipelineTag": null,
       "downloads": 37228909,
-      "likes": 49,
+      "likes": 50,
       "tags": [
         "UniDepth",
         "pytorch",
@@ -151,7 +151,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 32216425,
-      "likes": 3387,
+      "likes": 3389,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -186,8 +186,8 @@
       "id": "sentence-transformers/all-mpnet-base-v2",
       "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 23005920,
-      "likes": 1339,
+      "downloads": 23119964,
+      "likes": 1340,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -204,8 +204,8 @@
       "id": "google-t5/t5-small",
       "url": "https://huggingface.co/google-t5/t5-small",
       "pipelineTag": "translation",
-      "downloads": 21860546,
-      "likes": 589,
+      "downloads": 21801256,
+      "likes": 591,
       "tags": [
         "transformers",
         "pytorch",
@@ -222,8 +222,8 @@
       "id": "openai/clip-vit-base-patch32",
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
-      "downloads": 19855698,
-      "likes": 997,
+      "downloads": 19867359,
+      "likes": 998,
       "tags": [
         "transformers",
         "pytorch",
@@ -241,7 +241,7 @@
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
       "downloads": 17384907,
-      "likes": 1129,
+      "likes": 1130,
       "tags": [
         "sentence-transformers",
         "safetensors",
@@ -258,8 +258,8 @@
       "id": "facebook/opt-125m",
       "url": "https://huggingface.co/facebook/opt-125m",
       "pipelineTag": "text-generation",
-      "downloads": 17142724,
-      "likes": 290,
+      "downloads": 17081438,
+      "likes": 292,
       "tags": [
         "transformers",
         "pytorch",
@@ -273,28 +273,10 @@
     },
     {
       "rank": 16,
-      "id": "FacebookAI/xlm-roberta-base",
-      "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
-      "pipelineTag": "fill-mask",
-      "downloads": 17025548,
-      "likes": 879,
-      "tags": [
-        "transformers",
-        "pytorch",
-        "tf",
-        "jax",
-        "onnx",
-        "safetensors"
-      ],
-      "lastModified": null,
-      "description": "XLM-RoBERTa model pre-trained on 2.5TB of filtered CommonCrawl data containing 100 languages. It was introduced in the paper Unsupervised Cross-lingual Representation Learning at Scale by Conneau et al. and first released in this reposit…"
-    },
-    {
-      "rank": 17,
       "id": "timm/mobilenetv3_small_100.lamb_in1k",
       "url": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
       "pipelineTag": "image-classification",
-      "downloads": 16955008,
+      "downloads": 17066166,
       "likes": 101,
       "tags": [
         "timm",
@@ -306,6 +288,24 @@
       ],
       "lastModified": null,
       "description": "A MobileNet-v3 image classification model. Trained on ImageNet-1k in timm using recipe template described below."
+    },
+    {
+      "rank": 17,
+      "id": "FacebookAI/xlm-roberta-base",
+      "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
+      "pipelineTag": "fill-mask",
+      "downloads": 16916965,
+      "likes": 880,
+      "tags": [
+        "transformers",
+        "pytorch",
+        "tf",
+        "jax",
+        "onnx",
+        "safetensors"
+      ],
+      "lastModified": null,
+      "description": "XLM-RoBERTa model pre-trained on 2.5TB of filtered CommonCrawl data containing 100 languages. It was introduced in the paper Unsupervised Cross-lingual Representation Learning at Scale by Conneau et al. and first released in this reposit…"
     },
     {
       "rank": 18,
@@ -331,7 +331,7 @@
       "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
       "pipelineTag": "sentence-similarity",
       "downloads": 14554274,
-      "likes": 890,
+      "likes": 891,
       "tags": [
         "sentence-transformers",
         "onnx",
@@ -349,7 +349,7 @@
       "url": "https://huggingface.co/trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
       "pipelineTag": "text-generation",
       "downloads": 14031053,
-      "likes": 19,
+      "likes": 20,
       "tags": [
         "transformers",
         "safetensors",
@@ -366,8 +366,8 @@
       "id": "openai-community/gpt2",
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
-      "downloads": 12645896,
-      "likes": 3395,
+      "downloads": 12614582,
+      "likes": 3397,
       "tags": [
         "transformers",
         "pytorch",
@@ -399,29 +399,11 @@
     },
     {
       "rank": 23,
-      "id": "Qwen/Qwen2.5-1.5B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 12108126,
-      "likes": 795,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "chat",
-        "conversational"
-      ],
-      "lastModified": null,
-      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
-    },
-    {
-      "rank": 24,
       "id": "FacebookAI/roberta-base",
       "url": "https://huggingface.co/FacebookAI/roberta-base",
       "pipelineTag": "fill-mask",
-      "downloads": 11917903,
-      "likes": 635,
+      "downloads": 12221106,
+      "likes": 637,
       "tags": [
         "transformers",
         "pytorch",
@@ -434,12 +416,30 @@
       "description": "Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model is case-sensitive: it makes a difference between english and English."
     },
     {
+      "rank": 24,
+      "id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 12108126,
+      "likes": 796,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "chat",
+        "conversational"
+      ],
+      "lastModified": null,
+      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…"
+    },
+    {
       "rank": 25,
       "id": "BAAI/bge-large-en-v1.5",
       "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
       "pipelineTag": "feature-extraction",
       "downloads": 11732951,
-      "likes": 711,
+      "likes": 712,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -453,24 +453,6 @@
     },
     {
       "rank": 26,
-      "id": "FacebookAI/roberta-large",
-      "url": "https://huggingface.co/FacebookAI/roberta-large",
-      "pipelineTag": "fill-mask",
-      "downloads": 11430237,
-      "likes": 318,
-      "tags": [
-        "transformers",
-        "pytorch",
-        "tf",
-        "jax",
-        "onnx",
-        "safetensors"
-      ],
-      "lastModified": null,
-      "description": "Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model is case-sensitive: it makes a difference between english and English."
-    },
-    {
-      "rank": 27,
       "id": "intfloat/multilingual-e5-small",
       "url": "https://huggingface.co/intfloat/multilingual-e5-small",
       "pipelineTag": "sentence-similarity",
@@ -486,6 +468,24 @@
       ],
       "lastModified": null,
       "description": "Multilingual E5 Text Embeddings: A Technical Report. Liang Wang, Nan Yang, Xiaolong Huang, Linjun Yang, Rangan Majumder, Furu Wei, arXiv 2024"
+    },
+    {
+      "rank": 27,
+      "id": "FacebookAI/roberta-large",
+      "url": "https://huggingface.co/FacebookAI/roberta-large",
+      "pipelineTag": "fill-mask",
+      "downloads": 11249715,
+      "likes": 319,
+      "tags": [
+        "transformers",
+        "pytorch",
+        "tf",
+        "jax",
+        "onnx",
+        "safetensors"
+      ],
+      "lastModified": null,
+      "description": "Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model is case-sensitive: it makes a difference between english and English."
     },
     {
       "rank": 28,
@@ -511,7 +511,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 11186136,
-      "likes": 6676,
+      "likes": 6678,
       "tags": [
         "text-to-speech",
         "en",
@@ -528,7 +528,7 @@
       "url": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
       "pipelineTag": "text-generation",
       "downloads": 10593814,
-      "likes": 546,
+      "likes": 547,
       "tags": [
         "Model Optimizer",
         "safetensors",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 93668,
-      "likes": 556,
+      "likes": 557,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 111942,
-      "likes": 205,
+      "likes": 207,
       "tags": [
         "gguf",
         "liquid",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 7345657,
-      "likes": 6584,
+      "likes": 6586,
       "tags": [
         "transformers",
         "safetensors",
@@ -651,6 +651,24 @@
     },
     {
       "rank": 7,
+      "id": "openbmb/MiniCPM5-1B",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+      "pipelineTag": "text-generation",
+      "downloads": 969444,
+      "likes": 1051,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "minicpm",
+        "minicpm5"
+      ],
+      "lastModified": null,
+      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
+    },
+    {
+      "rank": 8,
       "id": "meta-llama/Llama-3.2-3B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
@@ -665,42 +683,6 @@
         "meta"
       ],
       "lastModified": null
-    },
-    {
-      "rank": 8,
-      "id": "openbmb/MiniCPM5-1B",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
-      "pipelineTag": "text-generation",
-      "downloads": 969444,
-      "likes": 1050,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "minicpm",
-        "minicpm5"
-      ],
-      "lastModified": null,
-      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
-    },
-    {
-      "rank": 9,
-      "id": "LiquidAI/LFM2.5-2.6B-Base",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-Base",
-      "pipelineTag": "text-generation",
-      "downloads": 2324,
-      "likes": 40,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "lfm2",
-        "text-generation",
-        "liquid",
-        "lfm2.5"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     }
   ]
 }
