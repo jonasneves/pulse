@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T13:08:34.703Z",
+  "updated": "2026-08-12T15:58:31.609Z",
   "models": [
     {
       "rank": 1,
@@ -223,7 +223,7 @@
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 19867359,
-      "likes": 998,
+      "likes": 999,
       "tags": [
         "transformers",
         "pytorch",
@@ -241,7 +241,7 @@
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
       "downloads": 17384907,
-      "likes": 1131,
+      "likes": 1132,
       "tags": [
         "sentence-transformers",
         "safetensors",
@@ -313,7 +313,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 15207936,
-      "likes": 1289,
+      "likes": 1290,
       "tags": [
         "transformers",
         "safetensors",
@@ -493,7 +493,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 11218582,
-      "likes": 1540,
+      "likes": 1541,
       "tags": [
         "transformers",
         "safetensors",
@@ -528,7 +528,7 @@
       "url": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
       "pipelineTag": "text-generation",
       "downloads": 10593814,
-      "likes": 547,
+      "likes": 548,
       "tags": [
         "Model Optimizer",
         "safetensors",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 93668,
-      "likes": 569,
+      "likes": 571,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 111942,
-      "likes": 208,
+      "likes": 211,
       "tags": [
         "gguf",
         "liquid",
@@ -584,7 +584,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 7345657,
-      "likes": 6587,
+      "likes": 6588,
       "tags": [
         "transformers",
         "safetensors",
@@ -615,29 +615,11 @@
     },
     {
       "rank": 5,
-      "id": "KBlueLeaf/TIPOv2-1B-A200M",
-      "url": "https://huggingface.co/KBlueLeaf/TIPOv2-1B-A200M",
-      "pipelineTag": "text-generation",
-      "downloads": 2508,
-      "likes": 33,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gguf",
-        "text-generation",
-        "text-generation-inference",
-        "mixture-of-experts"
-      ],
-      "lastModified": null,
-      "description": "TIPOv2-1B-A200M is a 1B-A200M sparse model. 991M total parameters, ~200M active per token, plus a ~50M embedding table. The second generation of TIPO, rebuilt from the dataset up on the KohakUwU MoE architecture."
-    },
-    {
-      "rank": 6,
       "id": "meta-llama/Llama-3.2-3B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 1166788,
-      "likes": 2415,
+      "likes": 2414,
       "tags": [
         "transformers",
         "safetensors",
@@ -647,6 +629,24 @@
         "meta"
       ],
       "lastModified": null
+    },
+    {
+      "rank": 6,
+      "id": "deepseek-ai/DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "pipelineTag": "text-generation",
+      "downloads": 8523653,
+      "likes": 13568,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code"
+      ],
+      "lastModified": null,
+      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
     },
     {
       "rank": 7,
@@ -668,57 +668,21 @@
     },
     {
       "rank": 8,
-      "id": "ThorOdinson246/nl2sh-1.5b-Q4_K_M",
-      "url": "https://huggingface.co/ThorOdinson246/nl2sh-1.5b-Q4_K_M",
+      "id": "KBlueLeaf/TIPOv2-1B-A200M",
+      "url": "https://huggingface.co/KBlueLeaf/TIPOv2-1B-A200M",
       "pipelineTag": "text-generation",
-      "downloads": 31,
-      "likes": 16,
+      "downloads": 2508,
+      "likes": 33,
       "tags": [
+        "transformers",
+        "safetensors",
         "gguf",
-        "shell",
-        "bash",
-        "command-generation",
-        "llama.cpp",
-        "text-generation"
-      ],
-      "lastModified": null,
-      "description": "A 941 MB model that turns a plain-English request into a single shell command. It runs on CPU through llama.cpp and answers in about a second. No GPU required."
-    },
-    {
-      "rank": 9,
-      "id": "deepseek-ai/DeepSeek-R1",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-      "pipelineTag": "text-generation",
-      "downloads": 8523653,
-      "likes": 13566,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "deepseek_v3",
         "text-generation",
-        "conversational",
-        "custom_code"
+        "text-generation-inference",
+        "mixture-of-experts"
       ],
       "lastModified": null,
-      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
-    },
-    {
-      "rank": 10,
-      "id": "LiquidAI/LFM2.5-8B-A1B",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
-      "pipelineTag": "text-generation",
-      "downloads": 169971,
-      "likes": 714,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "lfm2_moe",
-        "text-generation",
-        "liquid",
-        "lfm2.5"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+      "description": "TIPOv2-1B-A200M is a 1B-A200M sparse model. 991M total parameters, ~200M active per token, plus a ~50M embedding table. The second generation of TIPO, rebuilt from the dataset up on the KohakUwU MoE architecture."
     }
   ]
 }
