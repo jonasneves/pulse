@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T19:01:34.970Z",
+  "updated": "2026-08-12T21:44:22.887Z",
   "models": [
     {
       "rank": 1,
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 27629624,
-      "likes": 1507,
+      "likes": 1508,
       "tags": [
         "transformers",
         "safetensors",
@@ -511,7 +511,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 11186136,
-      "likes": 6679,
+      "likes": 6680,
       "tags": [
         "text-to-speech",
         "en",
@@ -528,7 +528,7 @@
       "url": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
       "pipelineTag": "text-generation",
       "downloads": 10593814,
-      "likes": 548,
+      "likes": 549,
       "tags": [
         "Model Optimizer",
         "safetensors",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 93668,
-      "likes": 577,
+      "likes": 579,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 111942,
-      "likes": 212,
+      "likes": 214,
       "tags": [
         "gguf",
         "liquid",
@@ -618,7 +618,7 @@
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
       "pipelineTag": "text-generation",
       "downloads": 8523653,
-      "likes": 13568,
+      "likes": 13569,
       "tags": [
         "transformers",
         "safetensors",
@@ -665,6 +665,24 @@
       ],
       "lastModified": null,
       "description": "A 941 MB model that turns a plain-English request into a single shell command. It runs on CPU through llama.cpp and answers in about a second. No GPU required."
+    },
+    {
+      "rank": 8,
+      "id": "LiquidAI/LFM2.5-8B-A1B",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
+      "pipelineTag": "text-generation",
+      "downloads": 169971,
+      "likes": 715,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "lfm2_moe",
+        "text-generation",
+        "liquid",
+        "lfm2.5"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     }
   ]
 }
