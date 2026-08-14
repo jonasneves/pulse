@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T21:44:09.776Z",
+  "updated": "2026-08-14T01:56:53.455Z",
   "models": [
     {
       "rank": 1,
@@ -151,7 +151,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 34114402,
-      "likes": 3394,
+      "likes": 3395,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -277,7 +277,7 @@
       "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
       "pipelineTag": "fill-mask",
       "downloads": 17523850,
-      "likes": 881,
+      "likes": 882,
       "tags": [
         "transformers",
         "pytorch",
@@ -313,7 +313,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 16086018,
-      "likes": 1294,
+      "likes": 1295,
       "tags": [
         "transformers",
         "safetensors",
@@ -367,7 +367,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "pipelineTag": "image-text-to-text",
       "downloads": 13583375,
-      "likes": 1809,
+      "likes": 1810,
       "tags": [
         "transformers",
         "safetensors",
@@ -528,7 +528,7 @@
       "url": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
       "pipelineTag": "text-generation",
       "downloads": 11263181,
-      "likes": 549,
+      "likes": 550,
       "tags": [
         "Model Optimizer",
         "safetensors",
@@ -548,7 +548,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 116640,
-      "likes": 601,
+      "likes": 603,
       "tags": [
         "transformers",
         "safetensors",
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 204103,
-      "likes": 215,
+      "likes": 216,
       "tags": [
         "gguf",
         "liquid",
@@ -580,6 +580,24 @@
     },
     {
       "rank": 3,
+      "id": "ThorOdinson246/nl2sh-1.5b-Q4_K_M",
+      "url": "https://huggingface.co/ThorOdinson246/nl2sh-1.5b-Q4_K_M",
+      "pipelineTag": "text-generation",
+      "downloads": 488,
+      "likes": 26,
+      "tags": [
+        "gguf",
+        "shell",
+        "bash",
+        "command-generation",
+        "llama.cpp",
+        "text-generation"
+      ],
+      "lastModified": null,
+      "description": "A 941 MB model that turns a plain-English request into a single shell command. It runs on CPU through llama.cpp and answers in about a second. No GPU required."
+    },
+    {
+      "rank": 4,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
@@ -596,7 +614,7 @@
       "lastModified": null
     },
     {
-      "rank": 4,
+      "rank": 5,
       "id": "openbmb/MiniCPM5-1B",
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
@@ -612,24 +630,6 @@
       ],
       "lastModified": null,
       "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
-    },
-    {
-      "rank": 5,
-      "id": "ThorOdinson246/nl2sh-1.5b-Q4_K_M",
-      "url": "https://huggingface.co/ThorOdinson246/nl2sh-1.5b-Q4_K_M",
-      "pipelineTag": "text-generation",
-      "downloads": 488,
-      "likes": 21,
-      "tags": [
-        "gguf",
-        "shell",
-        "bash",
-        "command-generation",
-        "llama.cpp",
-        "text-generation"
-      ],
-      "lastModified": null,
-      "description": "A 941 MB model that turns a plain-English request into a single shell command. It runs on CPU through llama.cpp and answers in about a second. No GPU required."
     },
     {
       "rank": 6,
