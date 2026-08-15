@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T01:14:06.909Z",
+  "updated": "2026-08-15T03:38:17.092Z",
   "models": [
     {
       "rank": 1,
@@ -367,7 +367,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "pipelineTag": "image-text-to-text",
       "downloads": 13912275,
-      "likes": 1816,
+      "likes": 1817,
       "tags": [
         "transformers",
         "safetensors",
@@ -492,7 +492,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 11768622,
-      "likes": 1318,
+      "likes": 1324,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -546,7 +546,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 124172,
-      "likes": 615,
+      "likes": 616,
       "tags": [
         "transformers",
         "safetensors",
@@ -613,6 +613,23 @@
     },
     {
       "rank": 5,
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 1153146,
+      "likes": 2425,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 6,
       "id": "openbmb/MiniCPM5-1B",
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
@@ -628,23 +645,6 @@
       ],
       "lastModified": null,
       "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
-    },
-    {
-      "rank": 6,
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 1153146,
-      "likes": 2425,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
     },
     {
       "rank": 7,
