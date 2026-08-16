@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T09:26:19.258Z",
+  "updated": "2026-08-16T12:38:20.818Z",
   "models": [
     {
       "rank": 1,
@@ -385,7 +385,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 13714898,
-      "likes": 3403,
+      "likes": 3405,
       "tags": [
         "transformers",
         "pytorch",
@@ -403,7 +403,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 13406892,
-      "likes": 1364,
+      "likes": 1374,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -411,7 +411,7 @@
         "region:us"
       ],
       "lastModified": null,
-      "description": "Original model repository: https://huggingface.co/MiniMaxAI/MiniMax-H3"
+      "description": "The Qwen3-VL-32B nvfp4_awq quant is converted from: https://huggingface.co/cybermotaz/Qwen3-VL-32B-Instruct-NVFP4"
     },
     {
       "rank": 24,
@@ -473,7 +473,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 12355672,
-      "likes": 6697,
+      "likes": 6698,
       "tags": [
         "text-to-speech",
         "en",
@@ -546,7 +546,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 141009,
-      "likes": 636,
+      "likes": 638,
       "tags": [
         "transformers",
         "safetensors",
@@ -613,6 +613,23 @@
     },
     {
       "rank": 5,
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 1128173,
+      "likes": 2428,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 6,
       "id": "openbmb/MiniCPM5-1B",
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
@@ -630,29 +647,12 @@
       "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
     },
     {
-      "rank": 6,
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 1128173,
-      "likes": 2428,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
       "rank": 7,
       "id": "LiquidAI/LFM2.5-8B-A1B",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
       "pipelineTag": "text-generation",
       "downloads": 170655,
-      "likes": 725,
+      "likes": 726,
       "tags": [
         "transformers",
         "safetensors",
