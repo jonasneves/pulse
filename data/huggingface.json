@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T15:24:58.785Z",
+  "updated": "2026-08-17T18:38:31.757Z",
   "models": [
     {
       "rank": 1,
@@ -151,7 +151,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 35540813,
-      "likes": 3404,
+      "likes": 3405,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -367,7 +367,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "pipelineTag": "image-text-to-text",
       "downloads": 14080772,
-      "likes": 1825,
+      "likes": 1826,
       "tags": [
         "transformers",
         "safetensors",
@@ -385,7 +385,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 14015769,
-      "likes": 1399,
+      "likes": 1400,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -508,7 +508,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 12245511,
-      "likes": 1543,
+      "likes": 1544,
       "tags": [
         "transformers",
         "safetensors",
@@ -526,7 +526,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
       "pipelineTag": "image-text-to-text",
       "downloads": 11896063,
-      "likes": 354,
+      "likes": 355,
       "tags": [
         "transformers",
         "safetensors",
@@ -546,7 +546,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 147270,
-      "likes": 651,
+      "likes": 652,
       "tags": [
         "transformers",
         "safetensors",
@@ -578,6 +578,24 @@
     },
     {
       "rank": 3,
+      "id": "empero-ai/Qwen3.8-2B-GGUF",
+      "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 2046,
+      "likes": 30,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "quantized",
+        "empero-ai",
+        "qwen3.5",
+        "qwen3.8"
+      ],
+      "lastModified": null,
+      "description": "GGUF quantizations of empero-ai/Qwen3.8-2B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-2B architecture, the smallest member of the family — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF …"
+    },
+    {
+      "rank": 4,
       "id": "ThorOdinson246/nl2sh-1.5b-Q4_K_M",
       "url": "https://huggingface.co/ThorOdinson246/nl2sh-1.5b-Q4_K_M",
       "pipelineTag": "text-generation",
@@ -593,24 +611,6 @@
       ],
       "lastModified": null,
       "description": "A 941 MB model that turns a plain-English request into a single shell command. It runs on CPU through llama.cpp and answers in about a second. No GPU required."
-    },
-    {
-      "rank": 4,
-      "id": "empero-ai/Qwen3.8-2B-GGUF",
-      "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 2046,
-      "likes": 28,
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "quantized",
-        "empero-ai",
-        "qwen3.5",
-        "qwen3.8"
-      ],
-      "lastModified": null,
-      "description": "GGUF quantizations of empero-ai/Qwen3.8-2B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-2B architecture, the smallest member of the family — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF …"
     },
     {
       "rank": 5,
@@ -635,7 +635,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 2527,
-      "likes": 26,
+      "likes": 28,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -649,6 +649,23 @@
     },
     {
       "rank": 7,
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 1121450,
+      "likes": 2429,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 8,
       "id": "openbmb/MiniCPM5-1B",
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
@@ -664,23 +681,6 @@
       ],
       "lastModified": null,
       "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
-    },
-    {
-      "rank": 8,
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 1121450,
-      "likes": 2428,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
     }
   ]
 }
