@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T01:15:35.653Z",
+  "updated": "2026-08-17T03:49:51.091Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 258119855,
-      "likes": 5209,
+      "likes": 5210,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -151,7 +151,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 35568785,
-      "likes": 3402,
+      "likes": 3403,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -403,7 +403,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 13406892,
-      "likes": 1387,
+      "likes": 1391,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -613,6 +613,42 @@
     },
     {
       "rank": 5,
+      "id": "empero-ai/Qwen3.8-4B-GGUF",
+      "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 128,
+      "likes": 19,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "quantized",
+        "empero-ai",
+        "qwen3.5",
+        "qwen3.8"
+      ],
+      "lastModified": null,
+      "description": "GGUF quantizations of empero-ai/Qwen3.8-4B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-4B architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF runtimes."
+    },
+    {
+      "rank": 6,
+      "id": "empero-ai/Qwen3.8-2B-GGUF",
+      "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 82,
+      "likes": 19,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "quantized",
+        "empero-ai",
+        "qwen3.5",
+        "qwen3.8"
+      ],
+      "lastModified": null,
+      "description": "GGUF quantizations of empero-ai/Qwen3.8-2B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-2B architecture, the smallest member of the family — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF …"
+    },
+    {
+      "rank": 7,
       "id": "meta-llama/Llama-3.2-3B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
@@ -629,7 +665,7 @@
       "lastModified": null
     },
     {
-      "rank": 6,
+      "rank": 8,
       "id": "openbmb/MiniCPM5-1B",
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
@@ -645,24 +681,6 @@
       ],
       "lastModified": null,
       "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
-    },
-    {
-      "rank": 7,
-      "id": "LiquidAI/LFM2.5-8B-A1B",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
-      "pipelineTag": "text-generation",
-      "downloads": 170655,
-      "likes": 727,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "lfm2_moe",
-        "text-generation",
-        "liquid",
-        "lfm2.5"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     }
   ]
 }
