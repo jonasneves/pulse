@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T15:31:14.057Z",
+  "updated": "2026-08-18T18:37:30.200Z",
   "models": [
     {
       "rank": 1,
@@ -349,7 +349,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 15839582,
-      "likes": 1301,
+      "likes": 1302,
       "tags": [
         "transformers",
         "safetensors",
@@ -367,7 +367,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 14641908,
-      "likes": 1416,
+      "likes": 1418,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -573,7 +573,8 @@
         "qwen3.5",
         "qwen3.8"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "GGUF quantizations of empero-ai/Qwen3.8-4B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-4B architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF runtimes."
     },
     {
       "rank": 3,
@@ -581,7 +582,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 7277,
-      "likes": 35,
+      "likes": 36,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -599,7 +600,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 362949,
-      "likes": 231,
+      "likes": 232,
       "tags": [
         "gguf",
         "liquid",
@@ -681,6 +682,24 @@
       ],
       "lastModified": null,
       "description": "Qwen3.8-2B is a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-2B architecture — the smallest member of the family, trained on the same curriculum as its larger siblings. The student saw ~30,000 curated teacher traces …"
+    },
+    {
+      "rank": 9,
+      "id": "openbmb/MiniCPM5-1B",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+      "pipelineTag": "text-generation",
+      "downloads": 1086153,
+      "likes": 1066,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "minicpm",
+        "minicpm5"
+      ],
+      "lastModified": null,
+      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
     }
   ]
 }
