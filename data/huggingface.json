@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-18T06:42:11.136Z",
+  "updated": "2026-08-18T09:33:02.361Z",
   "models": [
     {
       "rank": 1,
       "id": "sentence-transformers/all-MiniLM-L6-v2",
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 257365486,
+      "downloads": 258193926,
       "likes": 5215,
       "tags": [
         "sentence-transformers",
@@ -24,7 +24,7 @@
       "id": "google-bert/bert-base-uncased",
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
-      "downloads": 114428580,
+      "downloads": 111424688,
       "likes": 2734,
       "tags": [
         "transformers",
@@ -42,7 +42,7 @@
       "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
       "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
       "pipelineTag": "text-ranking",
-      "downloads": 89344493,
+      "downloads": 89247481,
       "likes": 300,
       "tags": [
         "sentence-transformers",
@@ -60,7 +60,7 @@
       "id": "BAAI/bge-small-en-v1.5",
       "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "pipelineTag": "feature-extraction",
-      "downloads": 73700917,
+      "downloads": 73518672,
       "likes": 534,
       "tags": [
         "sentence-transformers",
@@ -78,7 +78,7 @@
       "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 56263986,
+      "downloads": 56248525,
       "likes": 1347,
       "tags": [
         "sentence-transformers",
@@ -96,7 +96,7 @@
       "id": "google/electra-base-discriminator",
       "url": "https://huggingface.co/google/electra-base-discriminator",
       "pipelineTag": null,
-      "downloads": 56101174,
+      "downloads": 56124815,
       "likes": 153,
       "tags": [
         "transformers",
@@ -114,7 +114,7 @@
       "id": "amazon/chronos-2",
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
-      "downloads": 38402399,
+      "downloads": 39015266,
       "likes": 399,
       "tags": [
         "chronos-forecasting",
@@ -129,28 +129,10 @@
     },
     {
       "rank": 8,
-      "id": "lpiccinelli/unidepth-v2-vitl14",
-      "url": "https://huggingface.co/lpiccinelli/unidepth-v2-vitl14",
-      "pipelineTag": null,
-      "downloads": 36305199,
-      "likes": 50,
-      "tags": [
-        "UniDepth",
-        "pytorch",
-        "safetensors",
-        "model_hub_mixin",
-        "monocular-metric-depth-estimation",
-        "pytorch_model_hub_mixin"
-      ],
-      "lastModified": null,
-      "description": "This model has been pushed to the Hub using the PytorchModelHubMixin integration:"
-    },
-    {
-      "rank": 9,
       "id": "BAAI/bge-m3",
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
-      "downloads": 35540813,
+      "downloads": 35595931,
       "likes": 3407,
       "tags": [
         "sentence-transformers",
@@ -164,11 +146,29 @@
       "description": "For more details please refer to our github repo: https://github.com/FlagOpen/FlagEmbedding"
     },
     {
+      "rank": 9,
+      "id": "lpiccinelli/unidepth-v2-vitl14",
+      "url": "https://huggingface.co/lpiccinelli/unidepth-v2-vitl14",
+      "pipelineTag": null,
+      "downloads": 34869865,
+      "likes": 50,
+      "tags": [
+        "UniDepth",
+        "pytorch",
+        "safetensors",
+        "model_hub_mixin",
+        "monocular-metric-depth-estimation",
+        "pytorch_model_hub_mixin"
+      ],
+      "lastModified": null,
+      "description": "This model has been pushed to the Hub using the PytorchModelHubMixin integration:"
+    },
+    {
       "rank": 10,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
-      "downloads": 28848552,
+      "downloads": 28826416,
       "likes": 1516,
       "tags": [
         "transformers",
@@ -186,7 +186,7 @@
       "id": "sentence-transformers/all-mpnet-base-v2",
       "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 25073877,
+      "downloads": 25162028,
       "likes": 1341,
       "tags": [
         "sentence-transformers",
@@ -204,7 +204,7 @@
       "id": "google-t5/t5-small",
       "url": "https://huggingface.co/google-t5/t5-small",
       "pipelineTag": "translation",
-      "downloads": 22855462,
+      "downloads": 22834815,
       "likes": 592,
       "tags": [
         "transformers",
@@ -222,7 +222,7 @@
       "id": "openai/clip-vit-base-patch32",
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
-      "downloads": 20842822,
+      "downloads": 20803491,
       "likes": 1001,
       "tags": [
         "transformers",
@@ -240,7 +240,7 @@
       "id": "BAAI/bge-reranker-v2-m3",
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
-      "downloads": 18790042,
+      "downloads": 18760554,
       "likes": 1138,
       "tags": [
         "sentence-transformers",
@@ -258,7 +258,7 @@
       "id": "timm/mobilenetv3_small_100.lamb_in1k",
       "url": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
       "pipelineTag": "image-classification",
-      "downloads": 18517276,
+      "downloads": 18519516,
       "likes": 101,
       "tags": [
         "timm",
@@ -276,7 +276,7 @@
       "id": "FacebookAI/xlm-roberta-base",
       "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
       "pipelineTag": "fill-mask",
-      "downloads": 17815917,
+      "downloads": 17875878,
       "likes": 882,
       "tags": [
         "transformers",
@@ -294,7 +294,7 @@
       "id": "facebook/opt-125m",
       "url": "https://huggingface.co/facebook/opt-125m",
       "pipelineTag": "text-generation",
-      "downloads": 16919764,
+      "downloads": 17048968,
       "likes": 292,
       "tags": [
         "transformers",
@@ -309,46 +309,10 @@
     },
     {
       "rank": 18,
-      "id": "nomic-ai/nomic-embed-text-v1.5",
-      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
-      "pipelineTag": "sentence-similarity",
-      "downloads": 16340303,
-      "likes": 892,
-      "tags": [
-        "sentence-transformers",
-        "onnx",
-        "safetensors",
-        "nomic_bert",
-        "feature-extraction",
-        "sentence-similarity"
-      ],
-      "lastModified": null,
-      "description": "Exciting Update!: nomic-embed-text-v1.5 is now multimodal! nomic-embed-vision-v1.5 is aligned to the embedding space of nomic-embed-text-v1.5, meaning any text embedding is multimodal!"
-    },
-    {
-      "rank": 19,
-      "id": "Qwen/Qwen3-8B",
-      "url": "https://huggingface.co/Qwen/Qwen3-8B",
-      "pipelineTag": "text-generation",
-      "downloads": 15839401,
-      "likes": 1299,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "conversational",
-        "license:apache-2.0"
-      ],
-      "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
-      "rank": 20,
       "id": "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
       "url": "https://huggingface.co/trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
       "pipelineTag": "text-generation",
-      "downloads": 15570414,
+      "downloads": 16722469,
       "likes": 20,
       "tags": [
         "transformers",
@@ -362,30 +326,48 @@
       "description": "This is a minimal model built for unit tests in the TRL library."
     },
     {
-      "rank": 21,
-      "id": "Qwen/Qwen3.5-9B",
-      "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
-      "pipelineTag": "image-text-to-text",
-      "downloads": 14080772,
-      "likes": 1829,
+      "rank": 19,
+      "id": "nomic-ai/nomic-embed-text-v1.5",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+      "pipelineTag": "sentence-similarity",
+      "downloads": 16424009,
+      "likes": 892,
+      "tags": [
+        "sentence-transformers",
+        "onnx",
+        "safetensors",
+        "nomic_bert",
+        "feature-extraction",
+        "sentence-similarity"
+      ],
+      "lastModified": null,
+      "description": "Exciting Update!: nomic-embed-text-v1.5 is now multimodal! nomic-embed-vision-v1.5 is aligned to the embedding space of nomic-embed-text-v1.5, meaning any text embedding is multimodal!"
+    },
+    {
+      "rank": 20,
+      "id": "Qwen/Qwen3-8B",
+      "url": "https://huggingface.co/Qwen/Qwen3-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 15839582,
+      "likes": 1299,
       "tags": [
         "transformers",
         "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
+        "qwen3",
+        "text-generation",
         "conversational",
         "license:apache-2.0"
       ],
       "lastModified": null,
-      "description": "Over recent months, we have intensified our focus on developing foundation models that deliver exceptional utility and performance. Qwen3.5 represents a significant leap forward, integrating breakthroughs in multimodal learning, architec…"
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
-      "rank": 22,
+      "rank": 21,
       "id": "Comfy-Org/MiniMax-H3",
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
-      "downloads": 14015769,
-      "likes": 1410,
+      "downloads": 14641908,
+      "likes": 1411,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -396,11 +378,11 @@
       "description": "The Qwen3-VL-32B nvfp4_awq quant is converted from: https://huggingface.co/cybermotaz/Qwen3-VL-32B-Instruct-NVFP4"
     },
     {
-      "rank": 23,
+      "rank": 22,
       "id": "openai-community/gpt2",
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
-      "downloads": 13806023,
+      "downloads": 13884621,
       "likes": 3407,
       "tags": [
         "transformers",
@@ -414,11 +396,29 @@
       "description": "Test the whole generation capabilities here: https://transformer.huggingface.co/doc/gpt2-large"
     },
     {
+      "rank": 23,
+      "id": "Qwen/Qwen3.5-9B",
+      "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
+      "pipelineTag": "image-text-to-text",
+      "downloads": 13835311,
+      "likes": 1830,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "conversational",
+        "license:apache-2.0"
+      ],
+      "lastModified": null,
+      "description": "Over recent months, we have intensified our focus on developing foundation models that deliver exceptional utility and performance. Qwen3.5 represents a significant leap forward, integrating breakthroughs in multimodal learning, architec…"
+    },
+    {
       "rank": 24,
       "id": "FacebookAI/roberta-base",
       "url": "https://huggingface.co/FacebookAI/roberta-base",
       "pipelineTag": "fill-mask",
-      "downloads": 13168427,
+      "downloads": 13093465,
       "likes": 638,
       "tags": [
         "transformers",
@@ -436,7 +436,7 @@
       "id": "BAAI/bge-large-en-v1.5",
       "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
       "pipelineTag": "feature-extraction",
-      "downloads": 12805164,
+      "downloads": 12923835,
       "likes": 714,
       "tags": [
         "sentence-transformers",
@@ -454,7 +454,7 @@
       "id": "intfloat/multilingual-e5-small",
       "url": "https://huggingface.co/intfloat/multilingual-e5-small",
       "pipelineTag": "sentence-similarity",
-      "downloads": 12497099,
+      "downloads": 12623980,
       "likes": 386,
       "tags": [
         "sentence-transformers",
@@ -472,7 +472,7 @@
       "id": "hexgrad/Kokoro-82M",
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
-      "downloads": 12392256,
+      "downloads": 12468773,
       "likes": 6703,
       "tags": [
         "text-to-speech",
@@ -489,7 +489,7 @@
       "id": "nvidia/Qwen3.6-35B-A3B-NVFP4",
       "url": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
       "pipelineTag": "text-generation",
-      "downloads": 12284707,
+      "downloads": 12314487,
       "likes": 557,
       "tags": [
         "Model Optimizer",
@@ -507,8 +507,8 @@
       "id": "Qwen/Qwen2.5-7B-Instruct",
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 12245511,
-      "likes": 1544,
+      "downloads": 12291736,
+      "likes": 1545,
       "tags": [
         "transformers",
         "safetensors",
@@ -525,7 +525,7 @@
       "id": "Qwen/Qwen3.6-35B-A3B-FP8",
       "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
       "pipelineTag": "image-text-to-text",
-      "downloads": 11896063,
+      "downloads": 12215955,
       "likes": 355,
       "tags": [
         "transformers",
@@ -545,7 +545,7 @@
       "id": "LiquidAI/LFM2.5-2.6B",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
-      "downloads": 147270,
+      "downloads": 154027,
       "likes": 656,
       "tags": [
         "transformers",
@@ -563,7 +563,7 @@
       "id": "LiquidAI/LFM2.5-2.6B-GGUF",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 337340,
+      "downloads": 362949,
       "likes": 231,
       "tags": [
         "gguf",
@@ -581,7 +581,7 @@
       "id": "empero-ai/Qwen3.8-4B-GGUF",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 2527,
+      "downloads": 6411,
       "likes": 35,
       "tags": [
         "gguf",
@@ -599,7 +599,7 @@
       "id": "empero-ai/Qwen3.8-2B-GGUF",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 2046,
+      "downloads": 7277,
       "likes": 32,
       "tags": [
         "gguf",
@@ -617,7 +617,7 @@
       "id": "ThorOdinson246/nl2sh-1.5b-Q4_K_M",
       "url": "https://huggingface.co/ThorOdinson246/nl2sh-1.5b-Q4_K_M",
       "pipelineTag": "text-generation",
-      "downloads": 1690,
+      "downloads": 1869,
       "likes": 46,
       "tags": [
         "gguf",
@@ -635,8 +635,8 @@
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 7316110,
-      "likes": 6619,
+      "downloads": 7268716,
+      "likes": 6620,
       "tags": [
         "transformers",
         "safetensors",
@@ -652,7 +652,7 @@
       "id": "meta-llama/Llama-3.2-3B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 1121450,
+      "downloads": 1097131,
       "likes": 2432,
       "tags": [
         "transformers",
@@ -669,7 +669,7 @@
       "id": "openbmb/MiniCPM5-1B",
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
-      "downloads": 1090785,
+      "downloads": 1086153,
       "likes": 1066,
       "tags": [
         "transformers",
