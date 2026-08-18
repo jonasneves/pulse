@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T09:33:02.361Z",
+  "updated": "2026-08-18T12:44:56.885Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 258193926,
-      "likes": 5215,
+      "likes": 5216,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -25,7 +25,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 111424688,
-      "likes": 2734,
+      "likes": 2735,
       "tags": [
         "transformers",
         "pytorch",
@@ -79,7 +79,7 @@
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 56248525,
-      "likes": 1347,
+      "likes": 1348,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -97,7 +97,7 @@
       "url": "https://huggingface.co/google/electra-base-discriminator",
       "pipelineTag": null,
       "downloads": 56124815,
-      "likes": 153,
+      "likes": 154,
       "tags": [
         "transformers",
         "pytorch",
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
       "downloads": 39015266,
-      "likes": 399,
+      "likes": 400,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -349,7 +349,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 15839582,
-      "likes": 1299,
+      "likes": 1300,
       "tags": [
         "transformers",
         "safetensors",
@@ -367,7 +367,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 14641908,
-      "likes": 1411,
+      "likes": 1414,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -401,7 +401,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "pipelineTag": "image-text-to-text",
       "downloads": 13835311,
-      "likes": 1830,
+      "likes": 1831,
       "tags": [
         "transformers",
         "safetensors",
@@ -473,7 +473,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 12468773,
-      "likes": 6703,
+      "likes": 6705,
       "tags": [
         "text-to-speech",
         "en",
@@ -582,7 +582,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 6411,
-      "likes": 35,
+      "likes": 36,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -600,7 +600,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 7277,
-      "likes": 32,
+      "likes": 33,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -636,7 +636,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 7268716,
-      "likes": 6620,
+      "likes": 6621,
       "tags": [
         "transformers",
         "safetensors",
@@ -649,6 +649,24 @@
     },
     {
       "rank": 7,
+      "id": "empero-ai/Qwen3.8-4B",
+      "url": "https://huggingface.co/empero-ai/Qwen3.8-4B",
+      "pipelineTag": "text-generation",
+      "downloads": 815,
+      "likes": 20,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "empero-ai",
+        "qwen3.5"
+      ],
+      "lastModified": null,
+      "description": "Qwen3.8-4B is a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-4B architecture. The student was trained on ~45,000 curated teacher traces from our internal Qwen3.8 distillation datasets — dense chain-of-thought spannin…"
+    },
+    {
+      "rank": 8,
       "id": "meta-llama/Llama-3.2-3B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
@@ -665,7 +683,7 @@
       "lastModified": null
     },
     {
-      "rank": 8,
+      "rank": 9,
       "id": "openbmb/MiniCPM5-1B",
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
