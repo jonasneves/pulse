@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T18:37:30.200Z",
+  "updated": "2026-08-18T21:23:59.520Z",
   "models": [
     {
       "rank": 1,
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 28826416,
-      "likes": 1516,
+      "likes": 1517,
       "tags": [
         "transformers",
         "safetensors",
@@ -367,7 +367,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 14641908,
-      "likes": 1418,
+      "likes": 1422,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -401,7 +401,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "pipelineTag": "image-text-to-text",
       "downloads": 13835311,
-      "likes": 1831,
+      "likes": 1832,
       "tags": [
         "transformers",
         "safetensors",
@@ -473,7 +473,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 12468773,
-      "likes": 6705,
+      "likes": 6708,
       "tags": [
         "text-to-speech",
         "en",
@@ -546,7 +546,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 154027,
-      "likes": 656,
+      "likes": 657,
       "tags": [
         "transformers",
         "safetensors",
@@ -600,7 +600,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 362949,
-      "likes": 232,
+      "likes": 233,
       "tags": [
         "gguf",
         "liquid",
@@ -636,7 +636,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 7268716,
-      "likes": 6623,
+      "likes": 6624,
       "tags": [
         "transformers",
         "safetensors",
@@ -700,6 +700,24 @@
       ],
       "lastModified": null,
       "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
+    },
+    {
+      "rank": 10,
+      "id": "deepseek-ai/DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "pipelineTag": "text-generation",
+      "downloads": 7212052,
+      "likes": 13580,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code"
+      ],
+      "lastModified": null,
+      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
     }
   ]
 }
