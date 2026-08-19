@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T01:14:11.958Z",
+  "updated": "2026-08-19T03:45:49.268Z",
   "models": [
     {
       "rank": 1,
@@ -187,7 +187,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 25162028,
-      "likes": 1341,
+      "likes": 1342,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -367,7 +367,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 14641908,
-      "likes": 1426,
+      "likes": 1427,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -401,7 +401,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "pipelineTag": "image-text-to-text",
       "downloads": 13835311,
-      "likes": 1833,
+      "likes": 1834,
       "tags": [
         "transformers",
         "safetensors",
@@ -455,7 +455,7 @@
       "url": "https://huggingface.co/intfloat/multilingual-e5-small",
       "pipelineTag": "sentence-similarity",
       "downloads": 12623980,
-      "likes": 386,
+      "likes": 387,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -473,7 +473,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 12468773,
-      "likes": 6711,
+      "likes": 6712,
       "tags": [
         "text-to-speech",
         "en",
@@ -564,7 +564,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 6411,
-      "likes": 38,
+      "likes": 39,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -596,24 +596,6 @@
     },
     {
       "rank": 4,
-      "id": "LiquidAI/LFM2.5-2.6B-GGUF",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 362949,
-      "likes": 233,
-      "tags": [
-        "gguf",
-        "liquid",
-        "lfm2.5",
-        "llama.cpp",
-        "text-generation",
-        "ar"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 5,
       "id": "ThorOdinson246/nl2sh-1.5b-Q4_K_M",
       "url": "https://huggingface.co/ThorOdinson246/nl2sh-1.5b-Q4_K_M",
       "pipelineTag": "text-generation",
@@ -629,6 +611,24 @@
       ],
       "lastModified": null,
       "description": "A 941 MB model that turns a plain-English request into a single shell command. It runs on CPU through llama.cpp and answers in about a second. No GPU required."
+    },
+    {
+      "rank": 5,
+      "id": "LiquidAI/LFM2.5-2.6B-GGUF",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 362949,
+      "likes": 233,
+      "tags": [
+        "gguf",
+        "liquid",
+        "lfm2.5",
+        "llama.cpp",
+        "text-generation",
+        "ar"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
       "rank": 6,
@@ -653,7 +653,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-4B",
       "pipelineTag": "text-generation",
       "downloads": 815,
-      "likes": 21,
+      "likes": 22,
       "tags": [
         "transformers",
         "safetensors",
@@ -671,7 +671,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-2B",
       "pipelineTag": "text-generation",
       "downloads": 1075,
-      "likes": 20,
+      "likes": 22,
       "tags": [
         "transformers",
         "safetensors",
@@ -682,24 +682,6 @@
       ],
       "lastModified": null,
       "description": "Qwen3.8-2B is a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-2B architecture — the smallest member of the family, trained on the same curriculum as its larger siblings. The student saw ~30,000 curated teacher traces …"
-    },
-    {
-      "rank": 9,
-      "id": "deepseek-ai/DeepSeek-R1",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-      "pipelineTag": "text-generation",
-      "downloads": 7212052,
-      "likes": 13580,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "deepseek_v3",
-        "text-generation",
-        "conversational",
-        "custom_code"
-      ],
-      "lastModified": null,
-      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
     }
   ]
 }
