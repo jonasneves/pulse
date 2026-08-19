@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T15:30:37.653Z",
+  "updated": "2026-08-19T18:34:40.835Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 257979686,
-      "likes": 5223,
+      "likes": 5224,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -367,7 +367,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 15213225,
-      "likes": 1433,
+      "likes": 1437,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -401,7 +401,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "pipelineTag": "image-text-to-text",
       "downloads": 13604767,
-      "likes": 1833,
+      "likes": 1834,
       "tags": [
         "transformers",
         "safetensors",
@@ -546,7 +546,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill",
       "pipelineTag": "text-generation",
       "downloads": 4354,
-      "likes": 135,
+      "likes": 138,
       "tags": [
         "transformers",
         "safetensors",
@@ -564,7 +564,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 71582,
-      "likes": 97,
+      "likes": 98,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -582,7 +582,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 158119,
-      "likes": 658,
+      "likes": 659,
       "tags": [
         "transformers",
         "safetensors",
@@ -600,7 +600,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 19805,
-      "likes": 40,
+      "likes": 41,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -618,7 +618,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 17828,
-      "likes": 39,
+      "likes": 40,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -632,6 +632,24 @@
     },
     {
       "rank": 6,
+      "id": "LiquidAI/LFM2.5-2.6B-GGUF",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 391869,
+      "likes": 244,
+      "tags": [
+        "gguf",
+        "liquid",
+        "lfm2.5",
+        "llama.cpp",
+        "text-generation",
+        "ar"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
+      "rank": 7,
       "id": "ThorOdinson246/nl2sh-1.5b-Q4_K_M",
       "url": "https://huggingface.co/ThorOdinson246/nl2sh-1.5b-Q4_K_M",
       "pipelineTag": "text-generation",
@@ -649,25 +667,25 @@
       "description": "A 941 MB model that turns a plain-English request into a single shell command. It runs on CPU through llama.cpp and answers in about a second. No GPU required."
     },
     {
-      "rank": 7,
-      "id": "LiquidAI/LFM2.5-2.6B-GGUF",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
+      "rank": 8,
+      "id": "empero-ai/Qwen3.8-2B-Distill",
+      "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-Distill",
       "pipelineTag": "text-generation",
-      "downloads": 391869,
-      "likes": 238,
+      "downloads": 1847,
+      "likes": 24,
       "tags": [
-        "gguf",
-        "liquid",
-        "lfm2.5",
-        "llama.cpp",
-        "text-generation",
-        "ar"
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "empero-ai",
+        "qwen3.5"
       ],
       "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+      "description": "Qwen3.8-2B is a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-2B architecture — the smallest member of the family, trained on the same curriculum as its larger siblings. The student saw ~30,000 curated teacher traces …"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "id": "empero-ai/Qwen3.8-4B-Distill",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill",
       "pipelineTag": "text-generation",
@@ -683,41 +701,6 @@
       ],
       "lastModified": null,
       "description": "Qwen3.8-4B is a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-4B architecture. The student was trained on ~45,000 curated teacher traces from our internal Qwen3.8 distillation datasets — dense chain-of-thought spannin…"
-    },
-    {
-      "rank": 9,
-      "id": "empero-ai/Qwen3.8-2B-Distill",
-      "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-Distill",
-      "pipelineTag": "text-generation",
-      "downloads": 1847,
-      "likes": 23,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "empero-ai",
-        "qwen3.5"
-      ],
-      "lastModified": null,
-      "description": "Qwen3.8-2B is a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-2B architecture — the smallest member of the family, trained on the same curriculum as its larger siblings. The student saw ~30,000 curated teacher traces …"
-    },
-    {
-      "rank": 10,
-      "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 7199331,
-      "likes": 6628,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
     }
   ]
 }
