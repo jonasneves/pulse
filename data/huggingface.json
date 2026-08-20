@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T15:32:48.942Z",
+  "updated": "2026-08-20T18:38:31.501Z",
   "models": [
     {
       "rank": 1,
@@ -349,7 +349,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 15721667,
-      "likes": 1461,
+      "likes": 1463,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -401,7 +401,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "pipelineTag": "image-text-to-text",
       "downloads": 13660443,
-      "likes": 1840,
+      "likes": 1841,
       "tags": [
         "transformers",
         "safetensors",
@@ -437,7 +437,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 12670560,
-      "likes": 6724,
+      "likes": 6725,
       "tags": [
         "text-to-speech",
         "en",
@@ -481,8 +481,7 @@
         "openvino",
         "bert"
       ],
-      "lastModified": null,
-      "description": "Multilingual E5 Text Embeddings: A Technical Report. Liang Wang, Nan Yang, Xiaolong Huang, Linjun Yang, Rangan Majumder, Furu Wei, arXiv 2024"
+      "lastModified": null
     },
     {
       "rank": 28,
@@ -546,7 +545,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill",
       "pipelineTag": "text-generation",
       "downloads": 5839,
-      "likes": 145,
+      "likes": 148,
       "tags": [
         "transformers",
         "safetensors",
@@ -564,7 +563,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 79544,
-      "likes": 112,
+      "likes": 116,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -582,7 +581,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 163222,
-      "likes": 664,
+      "likes": 665,
       "tags": [
         "transformers",
         "safetensors",
@@ -600,7 +599,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 421614,
-      "likes": 264,
+      "likes": 267,
       "tags": [
         "gguf",
         "liquid",
@@ -614,6 +613,24 @@
     },
     {
       "rank": 5,
+      "id": "empero-ai/Qwen3.8-2B-Distill-GGUF",
+      "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-Distill-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 22621,
+      "likes": 48,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "quantized",
+        "empero-ai",
+        "qwen3.5",
+        "qwen3.8"
+      ],
+      "lastModified": null,
+      "description": "GGUF quantizations of empero-ai/Qwen3.8-2B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-2B architecture, the smallest member of the family — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF …"
+    },
+    {
+      "rank": 6,
       "id": "empero-ai/Qwen3.8-4B-Distill-GGUF",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill-GGUF",
       "pipelineTag": "text-generation",
@@ -629,24 +646,6 @@
       ],
       "lastModified": null,
       "description": "GGUF quantizations of empero-ai/Qwen3.8-4B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-4B architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF runtimes."
-    },
-    {
-      "rank": 6,
-      "id": "empero-ai/Qwen3.8-2B-Distill-GGUF",
-      "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-Distill-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 22621,
-      "likes": 43,
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "quantized",
-        "empero-ai",
-        "qwen3.5",
-        "qwen3.8"
-      ],
-      "lastModified": null,
-      "description": "GGUF quantizations of empero-ai/Qwen3.8-2B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-2B architecture, the smallest member of the family — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF …"
     },
     {
       "rank": 7,
@@ -708,7 +707,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 7069520,
-      "likes": 6632,
+      "likes": 6634,
       "tags": [
         "transformers",
         "safetensors",
