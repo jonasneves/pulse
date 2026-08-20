@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T21:24:41.597Z",
+  "updated": "2026-08-20T01:13:46.340Z",
   "models": [
     {
       "rank": 1,
@@ -25,7 +25,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 108216639,
-      "likes": 2736,
+      "likes": 2737,
       "tags": [
         "transformers",
         "pytorch",
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
       "downloads": 39321377,
-      "likes": 400,
+      "likes": 401,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -223,7 +223,7 @@
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 20723092,
-      "likes": 1001,
+      "likes": 1002,
       "tags": [
         "transformers",
         "pytorch",
@@ -367,7 +367,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 15213225,
-      "likes": 1440,
+      "likes": 1443,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -473,7 +473,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 12533098,
-      "likes": 6720,
+      "likes": 6722,
       "tags": [
         "text-to-speech",
         "en",
@@ -508,7 +508,7 @@
       "url": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
       "pipelineTag": "text-generation",
       "downloads": 12307094,
-      "likes": 557,
+      "likes": 558,
       "tags": [
         "Model Optimizer",
         "safetensors",
@@ -546,7 +546,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill",
       "pipelineTag": "text-generation",
       "downloads": 4354,
-      "likes": 139,
+      "likes": 140,
       "tags": [
         "transformers",
         "safetensors",
@@ -564,7 +564,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 71582,
-      "likes": 98,
+      "likes": 102,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -600,7 +600,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 19805,
-      "likes": 41,
+      "likes": 42,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -636,7 +636,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 391869,
-      "likes": 249,
+      "likes": 252,
       "tags": [
         "gguf",
         "liquid",
@@ -654,7 +654,7 @@
       "url": "https://huggingface.co/ThorOdinson246/nl2sh-1.5b-Q4_K_M",
       "pipelineTag": "text-generation",
       "downloads": 1966,
-      "likes": 47,
+      "likes": 48,
       "tags": [
         "gguf",
         "shell",
@@ -668,6 +668,24 @@
     },
     {
       "rank": 8,
+      "id": "empero-ai/Qwen3.8-4B-Distill",
+      "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill",
+      "pipelineTag": "text-generation",
+      "downloads": 1509,
+      "likes": 25,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "empero-ai",
+        "qwen3.5"
+      ],
+      "lastModified": null,
+      "description": "Qwen3.8-4B is a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-4B architecture. The student was trained on ~45,000 curated teacher traces from our internal Qwen3.8 distillation datasets — dense chain-of-thought spannin…"
+    },
+    {
+      "rank": 9,
       "id": "empero-ai/Qwen3.8-2B-Distill",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-Distill",
       "pipelineTag": "text-generation",
@@ -685,22 +703,21 @@
       "description": "Qwen3.8-2B is a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-2B architecture — the smallest member of the family, trained on the same curriculum as its larger siblings. The student saw ~30,000 curated teacher traces …"
     },
     {
-      "rank": 9,
-      "id": "empero-ai/Qwen3.8-4B-Distill",
-      "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill",
+      "rank": 10,
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 1509,
-      "likes": 23,
+      "downloads": 7199331,
+      "likes": 6628,
       "tags": [
         "transformers",
         "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "empero-ai",
-        "qwen3.5"
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
       ],
-      "lastModified": null,
-      "description": "Qwen3.8-4B is a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-4B architecture. The student was trained on ~45,000 curated teacher traces from our internal Qwen3.8 distillation datasets — dense chain-of-thought spannin…"
+      "lastModified": null
     }
   ]
 }
