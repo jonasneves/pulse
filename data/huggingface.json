@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T03:45:46.778Z",
+  "updated": "2026-08-20T06:45:09.384Z",
   "models": [
     {
       "rank": 1,
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
       "downloads": 39321377,
-      "likes": 401,
+      "likes": 402,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 28202544,
-      "likes": 1521,
+      "likes": 1522,
       "tags": [
         "transformers",
         "safetensors",
@@ -349,7 +349,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 15796910,
-      "likes": 1305,
+      "likes": 1306,
       "tags": [
         "transformers",
         "safetensors",
@@ -367,7 +367,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 15213225,
-      "likes": 1446,
+      "likes": 1453,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -401,7 +401,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "pipelineTag": "image-text-to-text",
       "downloads": 13604767,
-      "likes": 1834,
+      "likes": 1835,
       "tags": [
         "transformers",
         "safetensors",
@@ -564,7 +564,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 71582,
-      "likes": 103,
+      "likes": 105,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -582,7 +582,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 158119,
-      "likes": 661,
+      "likes": 662,
       "tags": [
         "transformers",
         "safetensors",
@@ -600,7 +600,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 19805,
-      "likes": 42,
+      "likes": 43,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -614,29 +614,11 @@
     },
     {
       "rank": 5,
-      "id": "empero-ai/Qwen3.8-2B-Distill-GGUF",
-      "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-Distill-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 17828,
-      "likes": 41,
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "quantized",
-        "empero-ai",
-        "qwen3.5",
-        "qwen3.8"
-      ],
-      "lastModified": null,
-      "description": "GGUF quantizations of empero-ai/Qwen3.8-2B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-2B architecture, the smallest member of the family — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF …"
-    },
-    {
-      "rank": 6,
       "id": "LiquidAI/LFM2.5-2.6B-GGUF",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 391869,
-      "likes": 254,
+      "likes": 257,
       "tags": [
         "gguf",
         "liquid",
@@ -649,12 +631,30 @@
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
+      "rank": 6,
+      "id": "empero-ai/Qwen3.8-2B-Distill-GGUF",
+      "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-Distill-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 17828,
+      "likes": 42,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "quantized",
+        "empero-ai",
+        "qwen3.5",
+        "qwen3.8"
+      ],
+      "lastModified": null,
+      "description": "GGUF quantizations of empero-ai/Qwen3.8-2B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-2B architecture, the smallest member of the family — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF …"
+    },
+    {
       "rank": 7,
       "id": "ThorOdinson246/nl2sh-1.5b-Q4_K_M",
       "url": "https://huggingface.co/ThorOdinson246/nl2sh-1.5b-Q4_K_M",
       "pipelineTag": "text-generation",
       "downloads": 1966,
-      "likes": 48,
+      "likes": 49,
       "tags": [
         "gguf",
         "shell",
