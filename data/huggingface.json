@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T01:17:09.551Z",
+  "updated": "2026-08-21T03:50:01.199Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 257677220,
-      "likes": 5227,
+      "likes": 5228,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 27276140,
-      "likes": 1526,
+      "likes": 1527,
       "tags": [
         "transformers",
         "safetensors",
@@ -349,7 +349,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 15721667,
-      "likes": 1470,
+      "likes": 1477,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -365,7 +365,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 15650565,
-      "likes": 1309,
+      "likes": 1310,
       "tags": [
         "transformers",
         "safetensors",
@@ -401,7 +401,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "pipelineTag": "image-text-to-text",
       "downloads": 13660443,
-      "likes": 1841,
+      "likes": 1842,
       "tags": [
         "transformers",
         "safetensors",
@@ -437,7 +437,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 12670560,
-      "likes": 6728,
+      "likes": 6729,
       "tags": [
         "text-to-speech",
         "en",
@@ -582,7 +582,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 421614,
-      "likes": 272,
+      "likes": 274,
       "tags": [
         "gguf",
         "liquid",
@@ -596,29 +596,11 @@
     },
     {
       "rank": 4,
-      "id": "LiquidAI/LFM2.5-2.6B",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
-      "pipelineTag": "text-generation",
-      "downloads": 163222,
-      "likes": 666,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "lfm2",
-        "text-generation",
-        "liquid",
-        "lfm2.5"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 5,
       "id": "empero-ai/Qwen3.8-2B-Distill-GGUF",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 22621,
-      "likes": 51,
+      "likes": 54,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -631,12 +613,30 @@
       "description": "GGUF quantizations of empero-ai/Qwen3.8-2B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-2B architecture, the smallest member of the family — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF …"
     },
     {
+      "rank": 5,
+      "id": "LiquidAI/LFM2.5-2.6B",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+      "pipelineTag": "text-generation",
+      "downloads": 163222,
+      "likes": 667,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "lfm2",
+        "text-generation",
+        "liquid",
+        "lfm2.5"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
       "rank": 6,
       "id": "empero-ai/Qwen3.8-4B-Distill-GGUF",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 25057,
-      "likes": 46,
+      "likes": 47,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -686,24 +686,42 @@
     },
     {
       "rank": 9,
-      "id": "ThorOdinson246/nl2sh-1.5b-Q4_K_M",
-      "url": "https://huggingface.co/ThorOdinson246/nl2sh-1.5b-Q4_K_M",
+      "id": "LiquidAI/LFM2.5-1.2B-Instruct-DSpark",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-DSpark",
       "pipelineTag": "text-generation",
-      "downloads": 2078,
-      "likes": 50,
+      "downloads": 219,
+      "likes": 23,
       "tags": [
-        "gguf",
-        "shell",
-        "bash",
-        "command-generation",
-        "llama.cpp",
-        "text-generation"
+        "sglang",
+        "safetensors",
+        "qwen3",
+        "speculative-decoding",
+        "dspark",
+        "lfm2"
       ],
       "lastModified": null,
-      "description": "A 941 MB model that turns a plain-English request into a single shell command. It runs on CPU through llama.cpp and answers in about a second. No GPU required."
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
       "rank": 10,
+      "id": "LiquidAI/LFM2.5-2.6B-DSpark",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-DSpark",
+      "pipelineTag": "text-generation",
+      "downloads": 189,
+      "likes": 23,
+      "tags": [
+        "sglang",
+        "safetensors",
+        "qwen3",
+        "speculative-decoding",
+        "dspark",
+        "lfm2"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
+      "rank": 11,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
@@ -720,11 +738,11 @@
       "lastModified": null
     },
     {
-      "rank": 11,
-      "id": "LiquidAI/LFM2.5-2.6B-DSpark",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-DSpark",
+      "rank": 12,
+      "id": "LiquidAI/LFM2.5-8B-A1B-DSpark",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-DSpark",
       "pipelineTag": "text-generation",
-      "downloads": 189,
+      "downloads": 125,
       "likes": 22,
       "tags": [
         "sglang",
