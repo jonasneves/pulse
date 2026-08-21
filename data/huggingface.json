@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T12:47:02.517Z",
+  "updated": "2026-08-21T15:32:58.067Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 257827147,
-      "likes": 5230,
+      "likes": 5231,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -564,7 +564,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 102400,
-      "likes": 121,
+      "likes": 125,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -600,7 +600,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 35147,
-      "likes": 56,
+      "likes": 57,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -618,7 +618,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 169335,
-      "likes": 669,
+      "likes": 671,
       "tags": [
         "transformers",
         "safetensors",
@@ -650,6 +650,42 @@
     },
     {
       "rank": 7,
+      "id": "LiquidAI/LFM2.5-8B-A1B-DSpark",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-DSpark",
+      "pipelineTag": "text-generation",
+      "downloads": 680,
+      "likes": 27,
+      "tags": [
+        "sglang",
+        "safetensors",
+        "qwen3",
+        "speculative-decoding",
+        "dspark",
+        "lfm2"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
+      "rank": 8,
+      "id": "LiquidAI/LFM2.5-2.6B-DSpark",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-DSpark",
+      "pipelineTag": "text-generation",
+      "downloads": 401,
+      "likes": 27,
+      "tags": [
+        "sglang",
+        "safetensors",
+        "qwen3",
+        "speculative-decoding",
+        "dspark",
+        "lfm2"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
+      "rank": 9,
       "id": "empero-ai/Qwen3.8-4B-Distill",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill",
       "pipelineTag": "text-generation",
@@ -667,43 +703,43 @@
       "description": "Qwen3.8-4B is a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-4B architecture. The student was trained on ~45,000 curated teacher traces from our internal Qwen3.8 distillation datasets — dense chain-of-thought spannin…"
     },
     {
-      "rank": 8,
-      "id": "LiquidAI/LFM2.5-8B-A1B-DSpark",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-DSpark",
-      "pipelineTag": "text-generation",
-      "downloads": 680,
-      "likes": 26,
-      "tags": [
-        "sglang",
-        "safetensors",
-        "qwen3",
-        "speculative-decoding",
-        "dspark",
-        "lfm2"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 9,
-      "id": "LiquidAI/LFM2.5-2.6B-DSpark",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-DSpark",
-      "pipelineTag": "text-generation",
-      "downloads": 401,
-      "likes": 26,
-      "tags": [
-        "sglang",
-        "safetensors",
-        "qwen3",
-        "speculative-decoding",
-        "dspark",
-        "lfm2"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
       "rank": 10,
+      "id": "LiquidAI/LFM2.5-2.6B-DSpark-GGUF",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-DSpark-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 940,
+      "likes": 25,
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "speculative-decoding",
+        "dspark",
+        "lfm2",
+        "draft-model"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
+      "rank": 11,
+      "id": "LiquidAI/LFM2.5-1.2B-Instruct-DSpark",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-DSpark",
+      "pipelineTag": "text-generation",
+      "downloads": 710,
+      "likes": 24,
+      "tags": [
+        "sglang",
+        "safetensors",
+        "qwen3",
+        "speculative-decoding",
+        "dspark",
+        "lfm2"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
+      "rank": 12,
       "id": "empero-ai/Qwen3.8-2B-Distill",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-Distill",
       "pipelineTag": "text-generation",
@@ -719,24 +755,6 @@
       ],
       "lastModified": null,
       "description": "Qwen3.8-2B is a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-2B architecture — the smallest member of the family, trained on the same curriculum as its larger siblings. The student saw ~30,000 curated teacher traces …"
-    },
-    {
-      "rank": 11,
-      "id": "LiquidAI/LFM2.5-1.2B-Instruct-DSpark",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-DSpark",
-      "pipelineTag": "text-generation",
-      "downloads": 710,
-      "likes": 23,
-      "tags": [
-        "sglang",
-        "safetensors",
-        "qwen3",
-        "speculative-decoding",
-        "dspark",
-        "lfm2"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     }
   ]
 }
