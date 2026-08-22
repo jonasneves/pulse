@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T03:41:12.584Z",
+  "updated": "2026-08-22T06:39:05.636Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 257827147,
-      "likes": 5233,
+      "likes": 5235,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -331,7 +331,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 16255989,
-      "likes": 1486,
+      "likes": 1487,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -526,7 +526,7 @@
       "url": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 11939987,
-      "likes": 913,
+      "likes": 914,
       "tags": [
         "transformers",
         "gguf",
@@ -546,7 +546,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill",
       "pipelineTag": "text-generation",
       "downloads": 7925,
-      "likes": 156,
+      "likes": 157,
       "tags": [
         "transformers",
         "safetensors",
@@ -564,7 +564,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 102400,
-      "likes": 129,
+      "likes": 131,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -582,7 +582,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 35147,
-      "likes": 62,
+      "likes": 61,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -614,24 +614,6 @@
     },
     {
       "rank": 5,
-      "id": "LiquidAI/LFM2.5-2.6B",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
-      "pipelineTag": "text-generation",
-      "downloads": 169335,
-      "likes": 674,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "lfm2",
-        "text-generation",
-        "liquid",
-        "lfm2.5"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 6,
       "id": "empero-ai/Qwen3.8-4B-Distill-GGUF",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill-GGUF",
       "pipelineTag": "text-generation",
@@ -649,7 +631,43 @@
       "description": "GGUF quantizations of empero-ai/Qwen3.8-4B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-4B architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF runtimes."
     },
     {
+      "rank": 6,
+      "id": "LiquidAI/LFM2.5-2.6B",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+      "pipelineTag": "text-generation",
+      "downloads": 169335,
+      "likes": 674,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "lfm2",
+        "text-generation",
+        "liquid",
+        "lfm2.5"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
       "rank": 7,
+      "id": "LiquidAI/LFM2.5-2.6B-DSpark-GGUF",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-DSpark-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 940,
+      "likes": 29,
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "speculative-decoding",
+        "dspark",
+        "lfm2",
+        "draft-model"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
+      "rank": 8,
       "id": "LiquidAI/LFM2.5-8B-A1B-DSpark",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-DSpark",
       "pipelineTag": "text-generation",
@@ -667,7 +685,7 @@
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "id": "LiquidAI/LFM2.5-2.6B-DSpark",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-DSpark",
       "pipelineTag": "text-generation",
@@ -680,24 +698,6 @@
         "speculative-decoding",
         "dspark",
         "lfm2"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 9,
-      "id": "LiquidAI/LFM2.5-2.6B-DSpark-GGUF",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-DSpark-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 940,
-      "likes": 28,
-      "tags": [
-        "llama.cpp",
-        "gguf",
-        "speculative-decoding",
-        "dspark",
-        "lfm2",
-        "draft-model"
       ],
       "lastModified": null,
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
