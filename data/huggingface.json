@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T15:20:13.254Z",
+  "updated": "2026-08-22T18:30:07.517Z",
   "models": [
     {
       "rank": 1,
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 36157038,
-      "likes": 3415,
+      "likes": 3416,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -187,7 +187,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 25235903,
-      "likes": 1527,
+      "likes": 1529,
       "tags": [
         "transformers",
         "safetensors",
@@ -295,7 +295,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 16773838,
-      "likes": 1493,
+      "likes": 1495,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -455,7 +455,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 12615271,
-      "likes": 6735,
+      "likes": 6736,
       "tags": [
         "text-to-speech",
         "en",
@@ -490,7 +490,7 @@
       "url": "https://huggingface.co/intfloat/multilingual-e5-small",
       "pipelineTag": "sentence-similarity",
       "downloads": 12495124,
-      "likes": 390,
+      "likes": 391,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -546,7 +546,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill",
       "pipelineTag": "text-generation",
       "downloads": 9260,
-      "likes": 160,
+      "likes": 163,
       "tags": [
         "transformers",
         "safetensors",
@@ -582,7 +582,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 52977,
-      "likes": 62,
+      "likes": 63,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -600,7 +600,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 492849,
-      "likes": 279,
+      "likes": 280,
       "tags": [
         "gguf",
         "liquid",
@@ -618,7 +618,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 56968,
-      "likes": 56,
+      "likes": 57,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -650,6 +650,24 @@
     },
     {
       "rank": 7,
+      "id": "LiquidAI/LFM2.5-2.6B-DSpark-GGUF",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-DSpark-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 2992,
+      "likes": 31,
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "speculative-decoding",
+        "dspark",
+        "lfm2",
+        "draft-model"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
+      "rank": 8,
       "id": "empero-ai/Qwen3.8-4B-Distill",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill",
       "pipelineTag": "text-generation",
@@ -667,7 +685,7 @@
       "description": "Qwen3.8-4B is a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-4B architecture. The student was trained on ~45,000 curated teacher traces from our internal Qwen3.8 distillation datasets — dense chain-of-thought spannin…"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "id": "LiquidAI/LFM2.5-8B-A1B-DSpark",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-DSpark",
       "pipelineTag": "text-generation",
@@ -680,24 +698,6 @@
         "speculative-decoding",
         "dspark",
         "lfm2"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 9,
-      "id": "LiquidAI/LFM2.5-2.6B-DSpark-GGUF",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-DSpark-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 2992,
-      "likes": 29,
-      "tags": [
-        "llama.cpp",
-        "gguf",
-        "speculative-decoding",
-        "dspark",
-        "lfm2",
-        "draft-model"
       ],
       "lastModified": null,
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
@@ -762,7 +762,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-DSpark-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 1358,
-      "likes": 23,
+      "likes": 24,
       "tags": [
         "llama.cpp",
         "gguf",
@@ -773,23 +773,6 @@
       ],
       "lastModified": null,
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 14,
-      "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 6716020,
-      "likes": 6646,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
     }
   ]
 }
