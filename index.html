@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pulse</title>
+  <!-- Apply saved theme before first paint -->
+  <script>try{var t=localStorage.getItem('pulse-theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t;}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css?v=4">
+</head>
+<body>
+
+<header class="app-header">
+  <span class="app-title">pulse</span>
+  <nav class="tab-nav" role="tablist" aria-label="Data source">
+    <button class="tab-btn active" data-tab="github" role="tab" aria-selected="true">GitHub</button>
+    <button class="tab-btn" data-tab="huggingface" role="tab" aria-selected="false">HuggingFace</button>
+    <button class="tab-btn" data-tab="spaces" role="tab" aria-selected="false">Spaces</button>
+  </nav>
+  <div class="header-right">
+    <span id="updated-label" class="updated-label" aria-live="polite"></span>
+    <div class="webmcp-wrap" id="webmcp-wrap">
+      <button id="webmcp-btn" class="webmcp-btn" aria-expanded="false" aria-haspopup="true" title="WebMCP tools">
+        <span class="webmcp-dot" aria-hidden="true"></span>
+        <span id="webmcp-status-text">WebMCP</span>
+      </button>
+      <div class="webmcp-dropdown" id="webmcp-dropdown" hidden>
+        <div class="tools-count-header" id="tools-count"></div>
+        <div id="tools-list"></div>
+      </div>
+    </div>
+    <button id="theme-toggle" class="btn-icon" aria-label="Toggle theme" title="Toggle dark/light">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<main id="content-pane" aria-label="Trending items">
+  <div id="velocity-pane" class="velocity-pane"></div>
+  <div id="card-list"></div>
+</main>
+
+<div class="toast-container" id="toast-container" aria-live="assertive" aria-atomic="true"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+<script src="tools.js?v=4"></script>
+<script src="charts.js?v=4"></script>
+<script src="github.js?v=4"></script>
+<script src="huggingface.js?v=4"></script>
+<script src="spaces.js?v=4"></script>
+<script src="index.js?v=4"></script>
+</body>
+</html>
