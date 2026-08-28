@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T13:50:54.749Z",
+  "updated": "2026-08-28T00:15:44.672Z",
   "models": [
     {
       "rank": 1,
@@ -97,7 +97,7 @@
       "url": "https://huggingface.co/google/electra-base-discriminator",
       "pipelineTag": null,
       "downloads": 52198686,
-      "likes": 154,
+      "likes": 155,
       "tags": [
         "transformers",
         "pytorch",
@@ -151,7 +151,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 24304000,
-      "likes": 1344,
+      "likes": 1345,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -160,8 +160,7 @@
         "openvino",
         "mpnet"
       ],
-      "lastModified": null,
-      "description": "This is a sentence-transformers model: It maps sentences & paragraphs to a 768 dimensional dense vector space and can be used for tasks like clustering or semantic search."
+      "lastModified": null
     },
     {
       "rank": 10,
@@ -241,7 +240,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 19058789,
-      "likes": 1558,
+      "likes": 1569,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -257,7 +256,7 @@
       "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
       "pipelineTag": "fill-mask",
       "downloads": 18955182,
-      "likes": 887,
+      "likes": 888,
       "tags": [
         "transformers",
         "pytorch",
@@ -347,7 +346,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 14150547,
-      "likes": 3417,
+      "likes": 3418,
       "tags": [
         "transformers",
         "pytorch",
@@ -365,7 +364,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 14112314,
-      "likes": 1325,
+      "likes": 1326,
       "tags": [
         "transformers",
         "safetensors",
@@ -401,7 +400,7 @@
       "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
       "pipelineTag": "feature-extraction",
       "downloads": 13447158,
-      "likes": 716,
+      "likes": 717,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -437,7 +436,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "pipelineTag": "image-text-to-text",
       "downloads": 13007998,
-      "likes": 1862,
+      "likes": 1866,
       "tags": [
         "transformers",
         "safetensors",
@@ -455,7 +454,7 @@
       "url": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 12488494,
-      "likes": 927,
+      "likes": 928,
       "tags": [
         "transformers",
         "gguf",
@@ -491,7 +490,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 12039437,
-      "likes": 6755,
+      "likes": 6757,
       "tags": [
         "text-to-speech",
         "en",
@@ -517,8 +516,7 @@
         "bert",
         "feature-extraction"
       ],
-      "lastModified": null,
-      "description": "If you are looking for a model that supports more languages, longer texts, and other retrieval methods, you can try using bge-m3."
+      "lastModified": null
     },
     {
       "rank": 30,
@@ -545,7 +543,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 230102,
-      "likes": 169,
+      "likes": 175,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -563,7 +561,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 171158,
-      "likes": 97,
+      "likes": 100,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -581,7 +579,7 @@
       "url": "https://huggingface.co/ibm-granite/granite-4.2-8b",
       "pipelineTag": "text-generation",
       "downloads": 2604,
-      "likes": 44,
+      "likes": 47,
       "tags": [
         "transformers",
         "safetensors",
@@ -595,6 +593,42 @@
     },
     {
       "rank": 4,
+      "id": "ibm-granite/granite-4.2-3b",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-3b",
+      "pipelineTag": "text-generation",
+      "downloads": 3069,
+      "likes": 46,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "granite",
+        "text-generation",
+        "granite-4.2",
+        "reasoning"
+      ],
+      "lastModified": null,
+      "description": "Granite is a family of open-source large language models developed by IBM, designed for enterprise and research use. Granite models are built to be versatile, safe, and efficient — covering a range of sizes and capabilities from compact …"
+    },
+    {
+      "rank": 5,
+      "id": "LiquidAI/LFM2.5-2.6B",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+      "pipelineTag": "text-generation",
+      "downloads": 184517,
+      "likes": 705,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "lfm2",
+        "text-generation",
+        "liquid",
+        "lfm2.5"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
+      "rank": 6,
       "id": "LiquidAI/LFM2.5-2.6B-GGUF",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
@@ -612,25 +646,7 @@
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
-      "rank": 5,
-      "id": "ibm-granite/granite-4.2-3b",
-      "url": "https://huggingface.co/ibm-granite/granite-4.2-3b",
-      "pipelineTag": "text-generation",
-      "downloads": 3069,
-      "likes": 42,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "granite",
-        "text-generation",
-        "granite-4.2",
-        "reasoning"
-      ],
-      "lastModified": null,
-      "description": "Granite is a family of open-source large language models developed by IBM, designed for enterprise and research use. Granite models are built to be versatile, safe, and efficient — covering a range of sizes and capabilities from compact …"
-    },
-    {
-      "rank": 6,
+      "rank": 7,
       "id": "LiquidAI/LFM2.5-2.6B-DSpark-GGUF",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-DSpark-GGUF",
       "pipelineTag": "text-generation",
@@ -648,97 +664,24 @@
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
-      "rank": 7,
-      "id": "LiquidAI/LFM2.5-2.6B",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+      "rank": 8,
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 184517,
-      "likes": 701,
+      "downloads": 6166772,
+      "likes": 6681,
       "tags": [
         "transformers",
         "safetensors",
-        "lfm2",
+        "llama",
         "text-generation",
-        "liquid",
-        "lfm2.5"
+        "facebook",
+        "meta"
       ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 8,
-      "id": "LiquidAI/LFM2.5-8B-A1B-DSpark",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-DSpark",
-      "pipelineTag": "text-generation",
-      "downloads": 1289,
-      "likes": 33,
-      "tags": [
-        "sglang",
-        "safetensors",
-        "qwen3",
-        "speculative-decoding",
-        "dspark",
-        "lfm2"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+      "lastModified": null
     },
     {
       "rank": 9,
-      "id": "LiquidAI/LFM2.5-2.6B-DSpark",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-DSpark",
-      "pipelineTag": "text-generation",
-      "downloads": 1152,
-      "likes": 33,
-      "tags": [
-        "sglang",
-        "safetensors",
-        "qwen3",
-        "speculative-decoding",
-        "dspark",
-        "lfm2"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 10,
-      "id": "LiquidAI/LFM2.5-1.2B-Instruct-DSpark",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-DSpark",
-      "pipelineTag": "text-generation",
-      "downloads": 1281,
-      "likes": 31,
-      "tags": [
-        "sglang",
-        "safetensors",
-        "qwen3",
-        "speculative-decoding",
-        "dspark",
-        "lfm2"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 11,
-      "id": "LiquidAI/LFM2.5-1.2B-Instruct-DSpark-GGUF",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-DSpark-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 2013,
-      "likes": 29,
-      "tags": [
-        "llama.cpp",
-        "gguf",
-        "speculative-decoding",
-        "dspark",
-        "lfm2",
-        "draft-model"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 12,
       "id": "empero-ai/Qwen3.8-9B-Distill",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill",
       "pipelineTag": "text-generation",
@@ -756,29 +699,12 @@
       "description": "Qwen3.8-9B is a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-9B architecture. The student was trained on ~70,000 curated teacher traces from our internal Qwen3.8 distillation datasets — dense chain-of-thought spannin…"
     },
     {
-      "rank": 13,
-      "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 6166772,
-      "likes": 6675,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 14,
+      "rank": 10,
       "id": "empero-ai/Qwen3.8-4B-Distill-GGUF",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 175175,
-      "likes": 73,
+      "likes": 75,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -789,24 +715,6 @@
       ],
       "lastModified": null,
       "description": "GGUF quantizations of empero-ai/Qwen3.8-4B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-4B architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF runtimes."
-    },
-    {
-      "rank": 15,
-      "id": "LiquidAI/LFM2.5-8B-A1B-DSpark-GGUF",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-DSpark-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 4130,
-      "likes": 23,
-      "tags": [
-        "llama.cpp",
-        "gguf",
-        "speculative-decoding",
-        "dspark",
-        "lfm2",
-        "draft-model"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     }
   ]
 }
