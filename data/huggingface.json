@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T14:11:05.643Z",
+  "updated": "2026-08-29T18:11:36.668Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 247672573,
-      "likes": 5279,
+      "likes": 5280,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -187,7 +187,7 @@
       "url": "https://huggingface.co/google-t5/t5-small",
       "pipelineTag": "translation",
       "downloads": 22040557,
-      "likes": 594,
+      "likes": 595,
       "tags": [
         "transformers",
         "pytorch",
@@ -205,7 +205,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 20268528,
-      "likes": 1594,
+      "likes": 1598,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -383,7 +383,7 @@
       "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
       "pipelineTag": "feature-extraction",
       "downloads": 13399705,
-      "likes": 717,
+      "likes": 718,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -419,7 +419,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "pipelineTag": "image-text-to-text",
       "downloads": 12507912,
-      "likes": 1873,
+      "likes": 1875,
       "tags": [
         "transformers",
         "safetensors",
@@ -437,7 +437,7 @@
       "url": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 12391424,
-      "likes": 932,
+      "likes": 931,
       "tags": [
         "transformers",
         "gguf",
@@ -600,7 +600,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 268069,
-      "likes": 185,
+      "likes": 186,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -618,7 +618,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 191068,
-      "likes": 713,
+      "likes": 715,
       "tags": [
         "transformers",
         "safetensors",
@@ -636,7 +636,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 785151,
-      "likes": 312,
+      "likes": 313,
       "tags": [
         "gguf",
         "liquid",
@@ -654,7 +654,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 5879470,
-      "likes": 6696,
+      "likes": 6700,
       "tags": [
         "transformers",
         "safetensors",
@@ -667,24 +667,6 @@
     },
     {
       "rank": 8,
-      "id": "empero-ai/Qwen3.8-4B-Distill-GGUF",
-      "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 226061,
-      "likes": 83,
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "quantized",
-        "empero-ai",
-        "qwen3.5",
-        "qwen3.8"
-      ],
-      "lastModified": null,
-      "description": "GGUF quantizations of empero-ai/Qwen3.8-4B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-4B architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF runtimes."
-    },
-    {
-      "rank": 9,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
@@ -702,7 +684,7 @@
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "id": "empero-ai/Qwen3.8-9B-Distill",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill",
       "pipelineTag": "text-generation",
@@ -718,6 +700,24 @@
       ],
       "lastModified": null,
       "description": "Qwen3.8-9B is a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-9B architecture. The student was trained on ~70,000 curated teacher traces from our internal Qwen3.8 distillation datasets — dense chain-of-thought spannin…"
+    },
+    {
+      "rank": 10,
+      "id": "empero-ai/Qwen3.8-4B-Distill-GGUF",
+      "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 226061,
+      "likes": 83,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "quantized",
+        "empero-ai",
+        "qwen3.5",
+        "qwen3.8"
+      ],
+      "lastModified": null,
+      "description": "GGUF quantizations of empero-ai/Qwen3.8-4B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-4B architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF runtimes."
     }
   ]
 }
