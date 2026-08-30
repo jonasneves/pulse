@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T22:59:56.353Z",
+  "updated": "2026-08-30T04:00:06.751Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 247672573,
-      "likes": 5280,
+      "likes": 5279,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -205,7 +205,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 20268528,
-      "likes": 1600,
+      "likes": 1603,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -419,7 +419,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "pipelineTag": "image-text-to-text",
       "downloads": 12507912,
-      "likes": 1875,
+      "likes": 1876,
       "tags": [
         "transformers",
         "safetensors",
@@ -600,7 +600,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 223489,
-      "likes": 109,
+      "likes": 110,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -632,6 +632,23 @@
     },
     {
       "rank": 6,
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 5879470,
+      "likes": 6704,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 7,
       "id": "LiquidAI/LFM2.5-2.6B-GGUF",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
       "pipelineTag": "text-generation",
@@ -647,23 +664,6 @@
       ],
       "lastModified": null,
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 7,
-      "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 5879470,
-      "likes": 6703,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
     },
     {
       "rank": 8,
