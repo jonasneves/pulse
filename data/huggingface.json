@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T10:46:15.275Z",
+  "updated": "2026-09-02T16:04:35.932Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 250280836,
-      "likes": 5365,
+      "likes": 5377,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -25,7 +25,7 @@
       "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
       "pipelineTag": "text-ranking",
       "downloads": 85268397,
-      "likes": 309,
+      "likes": 310,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -61,7 +61,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 63694017,
-      "likes": 2842,
+      "likes": 2850,
       "tags": [
         "transformers",
         "pytorch",
@@ -97,7 +97,7 @@
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 45878934,
-      "likes": 1360,
+      "likes": 1361,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 37079940,
-      "likes": 3460,
+      "likes": 3462,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -205,7 +205,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 22661854,
-      "likes": 1651,
+      "likes": 1653,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -239,7 +239,7 @@
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 20263144,
-      "likes": 1083,
+      "likes": 1088,
       "tags": [
         "transformers",
         "pytorch",
@@ -329,7 +329,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 14290101,
-      "likes": 3518,
+      "likes": 3525,
       "tags": [
         "transformers",
         "pytorch",
@@ -347,7 +347,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 13632574,
-      "likes": 1334,
+      "likes": 1335,
       "tags": [
         "transformers",
         "safetensors",
@@ -383,7 +383,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
       "pipelineTag": "image-text-to-text",
       "downloads": 13314395,
-      "likes": 365,
+      "likes": 366,
       "tags": [
         "transformers",
         "safetensors",
@@ -436,7 +436,7 @@
       "url": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 12706054,
-      "likes": 945,
+      "likes": 946,
       "tags": [
         "transformers",
         "gguf",
@@ -546,7 +546,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 429,
-      "likes": 81,
+      "likes": 98,
       "tags": [
         "transformers",
         "safetensors",
@@ -560,46 +560,11 @@
     },
     {
       "rank": 2,
-      "id": "ibm-granite/granite-4.2-3b",
-      "url": "https://huggingface.co/ibm-granite/granite-4.2-3b",
-      "pipelineTag": "text-generation",
-      "downloads": 11111,
-      "likes": 64,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "granite",
-        "text-generation",
-        "granite-4.2",
-        "reasoning"
-      ],
-      "lastModified": null,
-      "description": "Granite is a family of open-source large language models developed by IBM, designed for enterprise and research use. Granite models are built to be versatile, safe, and efficient — covering a range of sizes and capabilities from compact …"
-    },
-    {
-      "rank": 3,
-      "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 5792238,
-      "likes": 6746,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 4,
       "id": "XHToken/Spark-X2.5-1.7B",
       "url": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
       "pipelineTag": "text-generation",
       "downloads": 197,
-      "likes": 38,
+      "likes": 41,
       "tags": [
         "transformers",
         "safetensors",
@@ -612,12 +577,47 @@
       "description": "We are introducing Spark-X2.5-4B and Spark-X2.5-1.7B, two compact, general-purpose language models designed to make capable AI more practical, efficient, and accessible. The models deliver strong performance across a broad range of every…"
     },
     {
+      "rank": 3,
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 5792238,
+      "likes": 6749,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 4,
+      "id": "ibm-granite/granite-4.2-3b",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-3b",
+      "pipelineTag": "text-generation",
+      "downloads": 11111,
+      "likes": 65,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "granite",
+        "text-generation",
+        "granite-4.2",
+        "reasoning"
+      ],
+      "lastModified": null,
+      "description": "Granite is a family of open-source large language models developed by IBM, designed for enterprise and research use. Granite models are built to be versatile, safe, and efficient — covering a range of sizes and capabilities from compact …"
+    },
+    {
       "rank": 5,
       "id": "LiquidAI/LFM2.5-2.6B",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 187515,
-      "likes": 728,
+      "likes": 729,
       "tags": [
         "transformers",
         "safetensors",
@@ -635,7 +635,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 348973,
-      "likes": 202,
+      "likes": 203,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -689,7 +689,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 344588,
-      "likes": 92,
+      "likes": 93,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -703,38 +703,39 @@
     },
     {
       "rank": 10,
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "id": "XHToken/Spark-X2.5-4B-GGUF",
+      "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 1592247,
-      "likes": 4888,
+      "downloads": 29,
+      "likes": 19,
       "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
+        "gguf",
+        "llama.cpp",
+        "ollama",
+        "lm-studio",
+        "sparkx2_5",
+        "text-generation"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Spark-X2.5 is a compact, general-purpose language model for conversation, writing, translation, reasoning, coding, tool use, and agentic workflows. It uses a hybrid attention architecture, supports a native context length of up to 1M tok…"
     },
     {
       "rank": 11,
-      "id": "LiquidAI/LFM2.5-2.6B-GGUF",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
+      "id": "ByteDance/Ouro-1.4B",
+      "url": "https://huggingface.co/ByteDance/Ouro-1.4B",
       "pipelineTag": "text-generation",
-      "downloads": 929360,
-      "likes": 317,
+      "downloads": 21330,
+      "likes": 128,
       "tags": [
-        "gguf",
-        "liquid",
-        "lfm2.5",
-        "llama.cpp",
+        "transformers",
+        "safetensors",
+        "ouro",
         "text-generation",
-        "ar"
+        "looped-language-model",
+        "reasoning"
       ],
       "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+      "description": "⚠️ IMPORTANT: This model is intended for research purposes only. It is provided as-is without warranties for production use."
     }
   ]
 }
