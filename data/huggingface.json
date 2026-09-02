@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T20:36:05.581Z",
+  "updated": "2026-09-02T23:00:55.076Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 250280836,
-      "likes": 5380,
+      "likes": 5382,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -61,7 +61,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 63694017,
-      "likes": 2850,
+      "likes": 2851,
       "tags": [
         "transformers",
         "pytorch",
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
       "downloads": 28325839,
-      "likes": 417,
+      "likes": 418,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -546,7 +546,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 429,
-      "likes": 106,
+      "likes": 115,
       "tags": [
         "transformers",
         "safetensors",
@@ -582,7 +582,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 5792238,
-      "likes": 6754,
+      "likes": 6756,
       "tags": [
         "transformers",
         "safetensors",
@@ -617,7 +617,7 @@
       "url": "https://huggingface.co/ibm-granite/granite-4.2-3b",
       "pipelineTag": "text-generation",
       "downloads": 11111,
-      "likes": 67,
+      "likes": 68,
       "tags": [
         "transformers",
         "safetensors",
@@ -635,7 +635,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 348973,
-      "likes": 204,
+      "likes": 205,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -653,7 +653,7 @@
       "url": "https://huggingface.co/ByteDance/Ouro-1.4B",
       "pipelineTag": "text-generation",
       "downloads": 21330,
-      "likes": 135,
+      "likes": 136,
       "tags": [
         "transformers",
         "safetensors",
@@ -667,29 +667,11 @@
     },
     {
       "rank": 8,
-      "id": "ibm-granite/granite-4.2-8b",
-      "url": "https://huggingface.co/ibm-granite/granite-4.2-8b",
-      "pipelineTag": "text-generation",
-      "downloads": 10380,
-      "likes": 57,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "granite",
-        "text-generation",
-        "granite-4.2",
-        "reasoning"
-      ],
-      "lastModified": null,
-      "description": "Granite is a family of open-source large language models developed by IBM, designed for enterprise and research use. Granite models are built to be versatile, safe, and efficient — covering a range of sizes and capabilities from compact …"
-    },
-    {
-      "rank": 9,
       "id": "empero-ai/Qwen3.8-2B-Distill-GGUF",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 343757,
-      "likes": 121,
+      "likes": 122,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -702,12 +684,30 @@
       "description": "GGUF quantizations of empero-ai/Qwen3.8-2B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-2B architecture, the smallest member of the family — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF …"
     },
     {
+      "rank": 9,
+      "id": "ibm-granite/granite-4.2-8b",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-8b",
+      "pipelineTag": "text-generation",
+      "downloads": 10380,
+      "likes": 58,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "granite",
+        "text-generation",
+        "granite-4.2",
+        "reasoning"
+      ],
+      "lastModified": null,
+      "description": "Granite is a family of open-source large language models developed by IBM, designed for enterprise and research use. Granite models are built to be versatile, safe, and efficient — covering a range of sizes and capabilities from compact …"
+    },
+    {
       "rank": 10,
       "id": "XHToken/Spark-X2.5-4B-GGUF",
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 29,
-      "likes": 22,
+      "likes": 23,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -725,7 +725,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 344588,
-      "likes": 93,
+      "likes": 94,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -736,6 +736,23 @@
       ],
       "lastModified": null,
       "description": "GGUF quantizations of empero-ai/Qwen3.8-4B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-4B architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF runtimes."
+    },
+    {
+      "rank": 12,
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 1592247,
+      "likes": 4891,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
     }
   ]
 }
