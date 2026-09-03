@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T20:35:13.467Z",
+  "updated": "2026-09-03T22:59:46.612Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 246135287,
-      "likes": 5441,
+      "likes": 5452,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -61,7 +61,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 58556227,
-      "likes": 2898,
+      "likes": 2901,
       "tags": [
         "transformers",
         "pytorch",
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 36725443,
-      "likes": 3464,
+      "likes": 3465,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
       "downloads": 25699844,
-      "likes": 423,
+      "likes": 424,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -239,7 +239,7 @@
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 19936700,
-      "likes": 1120,
+      "likes": 1127,
       "tags": [
         "transformers",
         "pytorch",
@@ -257,7 +257,7 @@
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
       "downloads": 17577877,
-      "likes": 1156,
+      "likes": 1159,
       "tags": [
         "sentence-transformers",
         "safetensors",
@@ -329,7 +329,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 14071683,
-      "likes": 3589,
+      "likes": 3595,
       "tags": [
         "transformers",
         "pytorch",
@@ -418,7 +418,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 12826795,
-      "likes": 1341,
+      "likes": 1342,
       "tags": [
         "transformers",
         "safetensors",
@@ -545,7 +545,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 1514,
-      "likes": 154,
+      "likes": 160,
       "tags": [
         "transformers",
         "safetensors",
@@ -581,7 +581,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 5644341,
-      "likes": 6769,
+      "likes": 6770,
       "tags": [
         "transformers",
         "safetensors",
@@ -612,6 +612,24 @@
     },
     {
       "rank": 5,
+      "id": "IFM/K2-Horizon-7B",
+      "url": "https://huggingface.co/IFM/K2-Horizon-7B",
+      "pipelineTag": "text-generation",
+      "downloads": 166,
+      "likes": 33,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "k2_horizon",
+        "text-generation",
+        "k2-horizon",
+        "7b"
+      ],
+      "lastModified": null,
+      "description": "K2-Horizon-7B is the medium dense member of the K2-Horizon family: a 7B-core decoder-only model with a 512K context window."
+    },
+    {
+      "rank": 6,
       "id": "LiquidAI/LFM2.5-2.6B",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
@@ -627,24 +645,6 @@
       ],
       "lastModified": null,
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 6,
-      "id": "empero-ai/Qwen3.8-9B-Distill-GGUF",
-      "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 370746,
-      "likes": 206,
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "quantized",
-        "empero-ai",
-        "qwen3.5",
-        "qwen3.8"
-      ],
-      "lastModified": null,
-      "description": "GGUF quantizations of empero-ai/Qwen3.8-9B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-9B architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF runtimes."
     },
     {
       "rank": 7,
@@ -666,6 +666,24 @@
     },
     {
       "rank": 8,
+      "id": "empero-ai/Qwen3.8-9B-Distill-GGUF",
+      "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 370746,
+      "likes": 206,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "quantized",
+        "empero-ai",
+        "qwen3.5",
+        "qwen3.8"
+      ],
+      "lastModified": null,
+      "description": "GGUF quantizations of empero-ai/Qwen3.8-9B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-9B architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF runtimes."
+    },
+    {
+      "rank": 9,
       "id": "ibm-granite/granite-4.2-3b",
       "url": "https://huggingface.co/ibm-granite/granite-4.2-3b",
       "pipelineTag": "text-generation",
@@ -683,25 +701,25 @@
       "description": "Granite is a family of open-source large language models developed by IBM, designed for enterprise and research use. Granite models are built to be versatile, safe, and efficient — covering a range of sizes and capabilities from compact …"
     },
     {
-      "rank": 9,
-      "id": "IFM/K2-Horizon-7B",
-      "url": "https://huggingface.co/IFM/K2-Horizon-7B",
+      "rank": 10,
+      "id": "CogEvol/CogEvol-4B",
+      "url": "https://huggingface.co/CogEvol/CogEvol-4B",
       "pipelineTag": "text-generation",
-      "downloads": 166,
-      "likes": 25,
+      "downloads": 65,
+      "likes": 24,
       "tags": [
         "transformers",
         "safetensors",
-        "k2_horizon",
-        "text-generation",
-        "k2-horizon",
-        "7b"
+        "qwen3_5",
+        "image-text-to-text",
+        "learning-environment-generation",
+        "slide-generation"
       ],
       "lastModified": null,
-      "description": "K2-Horizon-7B is the medium dense member of the K2-Horizon family: a 7B-core decoder-only model with a 512K context window."
+      "description": "CogEvol-4B is an open post-trained model for Learning Environment Generation (LEG): given a natural-language course brief, it generates complete, usable learning artifacts in a single pass — a structured-JSON slide page, or a self-contai…"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "id": "empero-ai/Qwen3.8-2B-Distill-GGUF",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-2B-Distill-GGUF",
       "pipelineTag": "text-generation",
@@ -719,30 +737,12 @@
       "description": "GGUF quantizations of empero-ai/Qwen3.8-2B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-2B architecture, the smallest member of the family — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF …"
     },
     {
-      "rank": 11,
-      "id": "CogEvol/CogEvol-4B",
-      "url": "https://huggingface.co/CogEvol/CogEvol-4B",
-      "pipelineTag": "text-generation",
-      "downloads": 65,
-      "likes": 22,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "learning-environment-generation",
-        "slide-generation"
-      ],
-      "lastModified": null,
-      "description": "CogEvol-4B is an open post-trained model for Learning Environment Generation (LEG): given a natural-language course brief, it generates complete, usable learning artifacts in a single pass — a structured-JSON slide page, or a self-contai…"
-    },
-    {
       "rank": 12,
       "id": "meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 1547051,
-      "likes": 4900,
+      "likes": 4901,
       "tags": [
         "transformers",
         "safetensors",
