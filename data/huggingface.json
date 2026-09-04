@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T20:21:41.909Z",
+  "updated": "2026-09-04T22:47:45.334Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 253789790,
-      "likes": 5500,
+      "likes": 5510,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -79,7 +79,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 58675189,
-      "likes": 2938,
+      "likes": 2945,
       "tags": [
         "transformers",
         "pytorch",
@@ -223,7 +223,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 20848248,
-      "likes": 1688,
+      "likes": 1689,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -239,7 +239,7 @@
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 20569141,
-      "likes": 1170,
+      "likes": 1178,
       "tags": [
         "transformers",
         "pytorch",
@@ -346,7 +346,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 14607268,
-      "likes": 3645,
+      "likes": 3652,
       "tags": [
         "transformers",
         "pytorch",
@@ -436,7 +436,7 @@
       "url": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 12662003,
-      "likes": 956,
+      "likes": 957,
       "tags": [
         "transformers",
         "gguf",
@@ -508,7 +508,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 11578320,
-      "likes": 6813,
+      "likes": 6814,
       "tags": [
         "text-to-speech",
         "en",
@@ -545,7 +545,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 3524,
-      "likes": 460,
+      "likes": 463,
       "tags": [
         "transformers",
         "safetensors",
@@ -581,7 +581,7 @@
       "url": "https://huggingface.co/IFM/K2-Horizon-7B",
       "pipelineTag": "text-generation",
       "downloads": 590,
-      "likes": 56,
+      "likes": 60,
       "tags": [
         "transformers",
         "safetensors",
@@ -683,6 +683,24 @@
     },
     {
       "rank": 9,
+      "id": "LiquidAI/LFM2.5-2.6B",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+      "pipelineTag": "text-generation",
+      "downloads": 132147,
+      "likes": 731,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "lfm2",
+        "text-generation",
+        "liquid",
+        "lfm2.5"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
+      "rank": 10,
       "id": "XHToken/Spark-X2.5-1.7B-GGUF",
       "url": "https://huggingface.co/XHToken/Spark-X2.5-1.7B-GGUF",
       "pipelineTag": "text-generation",
@@ -700,7 +718,7 @@
       "description": "Spark-X2.5 is a compact, general-purpose language model for conversation, writing, translation, reasoning, coding, tool use, and agentic workflows. It uses a hybrid attention architecture, supports a native context length of up to 1M tok…"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "id": "CogEvol/CogEvol-4B",
       "url": "https://huggingface.co/CogEvol/CogEvol-4B",
       "pipelineTag": "text-generation",
@@ -716,24 +734,6 @@
       ],
       "lastModified": null,
       "description": "CogEvol-4B is an open post-trained model for Learning Environment Generation (LEG): given a natural-language course brief, it generates complete, usable learning artifacts in a single pass — a structured-JSON slide page, or a self-contai…"
-    },
-    {
-      "rank": 11,
-      "id": "LiquidAI/LFM2.5-2.6B",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
-      "pipelineTag": "text-generation",
-      "downloads": 132147,
-      "likes": 730,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "lfm2",
-        "text-generation",
-        "liquid",
-        "lfm2.5"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
       "rank": 12,
