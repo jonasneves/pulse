@@ -1,13 +1,13 @@
 {
-  "updated": "2026-09-04T03:14:24.134Z",
+  "updated": "2026-09-04T10:45:04.579Z",
   "models": [
     {
       "rank": 1,
       "id": "sentence-transformers/all-MiniLM-L6-v2",
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 246135287,
-      "likes": 5461,
+      "downloads": 253789790,
+      "likes": 5471,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -24,7 +24,7 @@
       "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
       "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
       "pipelineTag": "text-ranking",
-      "downloads": 83934980,
+      "downloads": 86547620,
       "likes": 311,
       "tags": [
         "sentence-transformers",
@@ -42,8 +42,8 @@
       "id": "BAAI/bge-small-en-v1.5",
       "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "pipelineTag": "feature-extraction",
-      "downloads": 65039030,
-      "likes": 547,
+      "downloads": 66603948,
+      "likes": 548,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -57,28 +57,10 @@
     },
     {
       "rank": 4,
-      "id": "google-bert/bert-base-uncased",
-      "url": "https://huggingface.co/google-bert/bert-base-uncased",
-      "pipelineTag": "fill-mask",
-      "downloads": 58556227,
-      "likes": 2910,
-      "tags": [
-        "transformers",
-        "pytorch",
-        "tf",
-        "jax",
-        "rust",
-        "coreml"
-      ],
-      "lastModified": null,
-      "description": "Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model is uncased: it does not make a difference between english and English."
-    },
-    {
-      "rank": 5,
       "id": "google/electra-base-discriminator",
       "url": "https://huggingface.co/google/electra-base-discriminator",
       "pipelineTag": null,
-      "downloads": 56993793,
+      "downloads": 58803103,
       "likes": 158,
       "tags": [
         "transformers",
@@ -92,11 +74,29 @@
       "description": "ELECTRA is a new method for self-supervised language representation learning. It can be used to pre-train transformer networks using relatively little compute. ELECTRA models are trained to distinguish \"real\" input tokens vs \"fake\" input…"
     },
     {
+      "rank": 5,
+      "id": "google-bert/bert-base-uncased",
+      "url": "https://huggingface.co/google-bert/bert-base-uncased",
+      "pipelineTag": "fill-mask",
+      "downloads": 58675189,
+      "likes": 2916,
+      "tags": [
+        "transformers",
+        "pytorch",
+        "tf",
+        "jax",
+        "rust",
+        "coreml"
+      ],
+      "lastModified": null,
+      "description": "Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in this paper and first released in this repository. This model is uncased: it does not make a difference between english and English."
+    },
+    {
       "rank": 6,
       "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 45263676,
+      "downloads": 46830184,
       "likes": 1364,
       "tags": [
         "sentence-transformers",
@@ -114,8 +114,8 @@
       "id": "BAAI/bge-m3",
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
-      "downloads": 36725443,
-      "likes": 3466,
+      "downloads": 38033030,
+      "likes": 3467,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -132,8 +132,8 @@
       "id": "amazon/chronos-2",
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
-      "downloads": 25699844,
-      "likes": 424,
+      "downloads": 25078707,
+      "likes": 427,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -150,7 +150,7 @@
       "id": "sentence-transformers/all-mpnet-base-v2",
       "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
       "pipelineTag": "sentence-similarity",
-      "downloads": 23780509,
+      "downloads": 24544088,
       "likes": 1350,
       "tags": [
         "sentence-transformers",
@@ -168,7 +168,7 @@
       "id": "google-t5/t5-small",
       "url": "https://huggingface.co/google-t5/t5-small",
       "pipelineTag": "translation",
-      "downloads": 22647932,
+      "downloads": 23372327,
       "likes": 597,
       "tags": [
         "transformers",
@@ -186,8 +186,8 @@
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
-      "downloads": 21444854,
-      "likes": 1571,
+      "downloads": 21936261,
+      "likes": 1574,
       "tags": [
         "transformers",
         "safetensors",
@@ -201,27 +201,11 @@
     },
     {
       "rank": 12,
-      "id": "Comfy-Org/MiniMax-H3",
-      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
-      "pipelineTag": null,
-      "downloads": 21189593,
-      "likes": 1681,
-      "tags": [
-        "diffusion-single-file",
-        "comfyui",
-        "license:other",
-        "region:us"
-      ],
-      "lastModified": null,
-      "description": "The Qwen3-VL-32B nvfp4_awq quant is converted from: https://huggingface.co/cybermotaz/Qwen3-VL-32B-Instruct-NVFP4"
-    },
-    {
-      "rank": 13,
       "id": "FacebookAI/xlm-roberta-base",
       "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
       "pipelineTag": "fill-mask",
-      "downloads": 21062407,
-      "likes": 892,
+      "downloads": 21472601,
+      "likes": 893,
       "tags": [
         "transformers",
         "pytorch",
@@ -234,12 +218,28 @@
       "description": "XLM-RoBERTa model pre-trained on 2.5TB of filtered CommonCrawl data containing 100 languages. It was introduced in the paper Unsupervised Cross-lingual Representation Learning at Scale by Conneau et al. and first released in this reposit…"
     },
     {
+      "rank": 13,
+      "id": "Comfy-Org/MiniMax-H3",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+      "pipelineTag": null,
+      "downloads": 20848248,
+      "likes": 1683,
+      "tags": [
+        "diffusion-single-file",
+        "comfyui",
+        "license:other",
+        "region:us"
+      ],
+      "lastModified": null,
+      "description": "The Qwen3-VL-32B nvfp4_awq quant is converted from: https://huggingface.co/cybermotaz/Qwen3-VL-32B-Instruct-NVFP4"
+    },
+    {
       "rank": 14,
       "id": "openai/clip-vit-base-patch32",
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
-      "downloads": 19936700,
-      "likes": 1136,
+      "downloads": 20569141,
+      "likes": 1140,
       "tags": [
         "transformers",
         "pytorch",
@@ -256,8 +256,8 @@
       "id": "BAAI/bge-reranker-v2-m3",
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
-      "downloads": 17577877,
-      "likes": 1160,
+      "downloads": 18075521,
+      "likes": 1162,
       "tags": [
         "sentence-transformers",
         "safetensors",
@@ -274,7 +274,7 @@
       "id": "timm/mobilenetv3_small_100.lamb_in1k",
       "url": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
       "pipelineTag": "image-classification",
-      "downloads": 17428712,
+      "downloads": 17810578,
       "likes": 103,
       "tags": [
         "timm",
@@ -289,28 +289,10 @@
     },
     {
       "rank": 17,
-      "id": "nomic-ai/nomic-embed-text-v1.5",
-      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
-      "pipelineTag": "sentence-similarity",
-      "downloads": 15943256,
-      "likes": 901,
-      "tags": [
-        "sentence-transformers",
-        "onnx",
-        "safetensors",
-        "nomic_bert",
-        "feature-extraction",
-        "sentence-similarity"
-      ],
-      "lastModified": null,
-      "description": "Exciting Update!: nomic-embed-text-v1.5 is now multimodal! nomic-embed-vision-v1.5 is aligned to the embedding space of nomic-embed-text-v1.5, meaning any text embedding is multimodal!"
-    },
-    {
-      "rank": 18,
       "id": "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
       "url": "https://huggingface.co/trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
       "pipelineTag": "text-generation",
-      "downloads": 15479400,
+      "downloads": 16826360,
       "likes": 21,
       "tags": [
         "transformers",
@@ -324,29 +306,29 @@
       "description": "This is a minimal model built for unit tests in the TRL library."
     },
     {
-      "rank": 19,
-      "id": "openai-community/gpt2",
-      "url": "https://huggingface.co/openai-community/gpt2",
-      "pipelineTag": "text-generation",
-      "downloads": 14071683,
-      "likes": 3606,
+      "rank": 18,
+      "id": "nomic-ai/nomic-embed-text-v1.5",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+      "pipelineTag": "sentence-similarity",
+      "downloads": 16471818,
+      "likes": 901,
       "tags": [
-        "transformers",
-        "pytorch",
-        "tf",
-        "jax",
-        "tflite",
-        "rust"
+        "sentence-transformers",
+        "onnx",
+        "safetensors",
+        "nomic_bert",
+        "feature-extraction",
+        "sentence-similarity"
       ],
       "lastModified": null,
-      "description": "Test the whole generation capabilities here: https://transformer.huggingface.co/doc/gpt2-large"
+      "description": "Exciting Update!: nomic-embed-text-v1.5 is now multimodal! nomic-embed-vision-v1.5 is aligned to the embedding space of nomic-embed-text-v1.5, meaning any text embedding is multimodal!"
     },
     {
-      "rank": 20,
+      "rank": 19,
       "id": "Comfy-Org/stable-diffusion-v1-5-archive",
       "url": "https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive",
       "pipelineTag": null,
-      "downloads": 13752170,
+      "downloads": 15824278,
       "likes": 122,
       "tags": [
         "diffusion-single-file",
@@ -359,47 +341,29 @@
       "description": "Original model repository: https://huggingface.co/runwayml/stable-diffusion-v1-5"
     },
     {
-      "rank": 21,
-      "id": "Qwen/Qwen3.6-35B-A3B-FP8",
-      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
-      "pipelineTag": "image-text-to-text",
-      "downloads": 13251463,
-      "likes": 372,
+      "rank": 20,
+      "id": "openai-community/gpt2",
+      "url": "https://huggingface.co/openai-community/gpt2",
+      "pipelineTag": "text-generation",
+      "downloads": 14607268,
+      "likes": 3616,
       "tags": [
         "transformers",
-        "safetensors",
-        "qwen3_5_moe",
-        "image-text-to-text",
-        "conversational",
-        "license:apache-2.0"
-      ],
-      "lastModified": null,
-      "description": "Following the February release of the Qwen3.5 series, we're pleased to share the first open-weight variant of Qwen3.6. Built on direct feedback from the community, Qwen3.6 prioritizes stability and real-world utility, offering developers…"
-    },
-    {
-      "rank": 22,
-      "id": "BAAI/bge-large-en-v1.5",
-      "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
-      "pipelineTag": "feature-extraction",
-      "downloads": 13118409,
-      "likes": 720,
-      "tags": [
-        "sentence-transformers",
         "pytorch",
-        "onnx",
-        "safetensors",
-        "bert",
-        "feature-extraction"
+        "tf",
+        "jax",
+        "tflite",
+        "rust"
       ],
       "lastModified": null,
-      "description": "If you are looking for a model that supports more languages, longer texts, and other retrieval methods, you can try using bge-m3."
+      "description": "Test the whole generation capabilities here: https://transformer.huggingface.co/doc/gpt2-large"
     },
     {
-      "rank": 23,
+      "rank": 21,
       "id": "jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
       "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
       "pipelineTag": "automatic-speech-recognition",
-      "downloads": 12884514,
+      "downloads": 13556736,
       "likes": 63,
       "tags": [
         "transformers",
@@ -413,11 +377,47 @@
       "description": "Fine-tuned facebook/wav2vec2-large-xlsr-53 on Japanese using the train and validation splits of Common Voice 6.1, CSS10 and JSUT. When using this model, make sure that your speech input is sampled at 16kHz."
     },
     {
+      "rank": 22,
+      "id": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
+      "pipelineTag": "image-text-to-text",
+      "downloads": 13525235,
+      "likes": 372,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5_moe",
+        "image-text-to-text",
+        "conversational",
+        "license:apache-2.0"
+      ],
+      "lastModified": null,
+      "description": "Following the February release of the Qwen3.5 series, we're pleased to share the first open-weight variant of Qwen3.6. Built on direct feedback from the community, Qwen3.6 prioritizes stability and real-world utility, offering developers…"
+    },
+    {
+      "rank": 23,
+      "id": "BAAI/bge-large-en-v1.5",
+      "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
+      "pipelineTag": "feature-extraction",
+      "downloads": 13370847,
+      "likes": 720,
+      "tags": [
+        "sentence-transformers",
+        "pytorch",
+        "onnx",
+        "safetensors",
+        "bert",
+        "feature-extraction"
+      ],
+      "lastModified": null,
+      "description": "If you are looking for a model that supports more languages, longer texts, and other retrieval methods, you can try using bge-m3."
+    },
+    {
       "rank": 24,
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
-      "downloads": 12826795,
+      "downloads": 13232997,
       "likes": 1342,
       "tags": [
         "transformers",
@@ -435,8 +435,8 @@
       "id": "unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
       "url": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 12331673,
-      "likes": 950,
+      "downloads": 12662003,
+      "likes": 952,
       "tags": [
         "transformers",
         "gguf",
@@ -453,8 +453,8 @@
       "id": "Qwen/Qwen3.5-9B",
       "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "pipelineTag": "image-text-to-text",
-      "downloads": 12184741,
-      "likes": 1893,
+      "downloads": 12375273,
+      "likes": 1896,
       "tags": [
         "transformers",
         "safetensors",
@@ -468,10 +468,28 @@
     },
     {
       "rank": 27,
+      "id": "intfloat/multilingual-e5-small",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-small",
+      "pipelineTag": "sentence-similarity",
+      "downloads": 12207955,
+      "likes": 396,
+      "tags": [
+        "sentence-transformers",
+        "pytorch",
+        "onnx",
+        "safetensors",
+        "openvino",
+        "bert"
+      ],
+      "lastModified": null,
+      "description": "Multilingual E5 Text Embeddings: A Technical Report. Liang Wang, Nan Yang, Xiaolong Huang, Linjun Yang, Rangan Majumder, Furu Wei, arXiv 2024"
+    },
+    {
+      "rank": 28,
       "id": "timm/efficientnet_b3.ra2_in1k",
       "url": "https://huggingface.co/timm/efficientnet_b3.ra2_in1k",
       "pipelineTag": "image-classification",
-      "downloads": 12053138,
+      "downloads": 12163575,
       "likes": 7,
       "tags": [
         "timm",
@@ -485,30 +503,12 @@
       "description": "A EfficientNet image classification model. Trained on ImageNet-1k in timm using recipe template described below."
     },
     {
-      "rank": 28,
-      "id": "intfloat/multilingual-e5-small",
-      "url": "https://huggingface.co/intfloat/multilingual-e5-small",
-      "pipelineTag": "sentence-similarity",
-      "downloads": 11740779,
-      "likes": 395,
-      "tags": [
-        "sentence-transformers",
-        "pytorch",
-        "onnx",
-        "safetensors",
-        "openvino",
-        "bert"
-      ],
-      "lastModified": null,
-      "description": "Multilingual E5 Text Embeddings: A Technical Report. Liang Wang, Nan Yang, Xiaolong Huang, Linjun Yang, Rangan Majumder, Furu Wei, arXiv 2024"
-    },
-    {
       "rank": 29,
       "id": "hexgrad/Kokoro-82M",
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
-      "downloads": 11290774,
-      "likes": 6806,
+      "downloads": 11578320,
+      "likes": 6810,
       "tags": [
         "text-to-speech",
         "en",
@@ -524,7 +524,7 @@
       "id": "argmaxinc/whisperkit-coreml",
       "url": "https://huggingface.co/argmaxinc/whisperkit-coreml",
       "pipelineTag": "automatic-speech-recognition",
-      "downloads": 11227615,
+      "downloads": 11495642,
       "likes": 205,
       "tags": [
         "whisperkit",
@@ -544,8 +544,8 @@
       "id": "XHToken/Spark-X2.5-4B",
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
-      "downloads": 1514,
-      "likes": 168,
+      "downloads": 3524,
+      "likes": 384,
       "tags": [
         "transformers",
         "safetensors",
@@ -562,8 +562,8 @@
       "id": "XHToken/Spark-X2.5-1.7B",
       "url": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
       "pipelineTag": "text-generation",
-      "downloads": 1128,
-      "likes": 55,
+      "downloads": 1986,
+      "likes": 75,
       "tags": [
         "transformers",
         "safetensors",
@@ -577,28 +577,11 @@
     },
     {
       "rank": 3,
-      "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 5644341,
-      "likes": 6770,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 4,
       "id": "IFM/K2-Horizon-7B",
       "url": "https://huggingface.co/IFM/K2-Horizon-7B",
       "pipelineTag": "text-generation",
-      "downloads": 166,
-      "likes": 41,
+      "downloads": 590,
+      "likes": 46,
       "tags": [
         "transformers",
         "safetensors",
@@ -611,11 +594,46 @@
       "description": "K2-Horizon-7B is the medium dense member of the K2-Horizon family: a 7B-core decoder-only model with a 512K context window."
     },
     {
+      "rank": 4,
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 5734979,
+      "likes": 6775,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
       "rank": 5,
+      "id": "XHToken/Spark-X2.5-4B-GGUF",
+      "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 10853,
+      "likes": 42,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "ollama",
+        "lm-studio",
+        "sparkx2_5",
+        "text-generation"
+      ],
+      "lastModified": null,
+      "description": "Spark-X2.5 is a compact, general-purpose language model for conversation, writing, translation, reasoning, coding, tool use, and agentic workflows. It uses a hybrid attention architecture, supports a native context length of up to 1M tok…"
+    },
+    {
+      "rank": 6,
       "id": "ByteDance/Ouro-1.4B",
       "url": "https://huggingface.co/ByteDance/Ouro-1.4B",
       "pipelineTag": "text-generation",
-      "downloads": 21088,
+      "downloads": 22177,
       "likes": 144,
       "tags": [
         "transformers",
@@ -629,29 +647,11 @@
       "description": "⚠️ IMPORTANT: This model is intended for research purposes only. It is provided as-is without warranties for production use."
     },
     {
-      "rank": 6,
-      "id": "XHToken/Spark-X2.5-4B-GGUF",
-      "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 3282,
-      "likes": 28,
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "ollama",
-        "lm-studio",
-        "sparkx2_5",
-        "text-generation"
-      ],
-      "lastModified": null,
-      "description": "Spark-X2.5 is a compact, general-purpose language model for conversation, writing, translation, reasoning, coding, tool use, and agentic workflows. It uses a hybrid attention architecture, supports a native context length of up to 1M tok…"
-    },
-    {
       "rank": 7,
       "id": "LiquidAI/LFM2.5-2.6B",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
-      "downloads": 133677,
+      "downloads": 132147,
       "likes": 730,
       "tags": [
         "transformers",
@@ -666,11 +666,47 @@
     },
     {
       "rank": 8,
+      "id": "ibm-granite/granite-4.2-3b",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-3b",
+      "pipelineTag": "text-generation",
+      "downloads": 16721,
+      "likes": 73,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "granite",
+        "text-generation",
+        "granite-4.2",
+        "reasoning"
+      ],
+      "lastModified": null,
+      "description": "Granite is a family of open-source large language models developed by IBM, designed for enterprise and research use. Granite models are built to be versatile, safe, and efficient — covering a range of sizes and capabilities from compact …"
+    },
+    {
+      "rank": 9,
+      "id": "Nanbeige/Nanbeige4.2-3B",
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
+      "pipelineTag": "text-generation",
+      "downloads": 34334,
+      "likes": 739,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "nanbeige",
+        "text-generation",
+        "llm",
+        "conversational"
+      ],
+      "lastModified": null,
+      "description": "Nanbeige4.2-3B is a compact agentic model built on Nanbeige4.2-3B-Base, designed to combine strong agentic behavior with broad reasoning and alignment capabilities. Its Looped Transformer architecture reuses the transformer layers to inc…"
+    },
+    {
+      "rank": 10,
       "id": "empero-ai/Qwen3.8-9B-Distill-GGUF",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 370746,
-      "likes": 207,
+      "downloads": 409204,
+      "likes": 208,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -683,11 +719,11 @@
       "description": "GGUF quantizations of empero-ai/Qwen3.8-9B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-9B architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF runtimes."
     },
     {
-      "rank": 9,
+      "rank": 11,
       "id": "CogEvol/CogEvol-4B",
       "url": "https://huggingface.co/CogEvol/CogEvol-4B",
       "pipelineTag": "text-generation",
-      "downloads": 65,
+      "downloads": 553,
       "likes": 24,
       "tags": [
         "transformers",
@@ -701,30 +737,12 @@
       "description": "CogEvol-4B is an open post-trained model for Learning Environment Generation (LEG): given a natural-language course brief, it generates complete, usable learning artifacts in a single pass — a structured-JSON slide page, or a self-contai…"
     },
     {
-      "rank": 10,
-      "id": "ibm-granite/granite-4.2-3b",
-      "url": "https://huggingface.co/ibm-granite/granite-4.2-3b",
-      "pipelineTag": "text-generation",
-      "downloads": 14073,
-      "likes": 70,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "granite",
-        "text-generation",
-        "granite-4.2",
-        "reasoning"
-      ],
-      "lastModified": null,
-      "description": "Granite is a family of open-source large language models developed by IBM, designed for enterprise and research use. Granite models are built to be versatile, safe, and efficient — covering a range of sizes and capabilities from compact …"
-    },
-    {
-      "rank": 11,
+      "rank": 12,
       "id": "meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 1547051,
-      "likes": 4903,
+      "downloads": 1492731,
+      "likes": 4905,
       "tags": [
         "transformers",
         "safetensors",
@@ -736,22 +754,22 @@
       "lastModified": null
     },
     {
-      "rank": 12,
-      "id": "Nanbeige/Nanbeige4.2-3B",
-      "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
+      "rank": 13,
+      "id": "XHToken/Spark-X2.5-1.7B-GGUF",
+      "url": "https://huggingface.co/XHToken/Spark-X2.5-1.7B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 34879,
-      "likes": 736,
+      "downloads": 4736,
+      "likes": 20,
       "tags": [
-        "transformers",
-        "safetensors",
-        "nanbeige",
-        "text-generation",
-        "llm",
-        "conversational"
+        "gguf",
+        "llama.cpp",
+        "ollama",
+        "lm-studio",
+        "sparkx2_5",
+        "text-generation"
       ],
       "lastModified": null,
-      "description": "Nanbeige4.2-3B is a compact agentic model built on Nanbeige4.2-3B-Base, designed to combine strong agentic behavior with broad reasoning and alignment capabilities. Its Looped Transformer architecture reuses the transformer layers to inc…"
+      "description": "Spark-X2.5 is a compact, general-purpose language model for conversation, writing, translation, reasoning, coding, tool use, and agentic workflows. It uses a hybrid attention architecture, supports a native context length of up to 1M tok…"
     }
   ]
 }
