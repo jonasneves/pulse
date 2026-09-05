@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T17:10:35.267Z",
+  "updated": "2026-09-05T19:59:55.642Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 255006933,
-      "likes": 5532,
+      "likes": 5545,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -79,7 +79,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 56175564,
-      "likes": 2959,
+      "likes": 2971,
       "tags": [
         "transformers",
         "pytorch",
@@ -151,7 +151,7 @@
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
       "downloads": 24516181,
-      "likes": 428,
+      "likes": 430,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -187,7 +187,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 21952078,
-      "likes": 1577,
+      "likes": 1578,
       "tags": [
         "transformers",
         "safetensors",
@@ -223,7 +223,7 @@
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 20755211,
-      "likes": 1192,
+      "likes": 1200,
       "tags": [
         "transformers",
         "pytorch",
@@ -241,7 +241,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 20289370,
-      "likes": 1697,
+      "likes": 1698,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -346,7 +346,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 14739982,
-      "likes": 3670,
+      "likes": 3683,
       "tags": [
         "transformers",
         "pytorch",
@@ -546,7 +546,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 4755,
-      "likes": 520,
+      "likes": 528,
       "tags": [
         "transformers",
         "safetensors",
@@ -564,7 +564,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
       "pipelineTag": "text-generation",
       "downloads": 2301,
-      "likes": 87,
+      "likes": 90,
       "tags": [
         "transformers",
         "safetensors",
@@ -582,7 +582,7 @@
       "url": "https://huggingface.co/IFM/K2-Horizon-7B",
       "pipelineTag": "text-generation",
       "downloads": 1256,
-      "likes": 69,
+      "likes": 72,
       "tags": [
         "transformers",
         "safetensors",
@@ -600,7 +600,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 18982,
-      "likes": 50,
+      "likes": 52,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -618,7 +618,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 5738381,
-      "likes": 6795,
+      "likes": 6796,
       "tags": [
         "transformers",
         "safetensors",
@@ -653,7 +653,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 33979,
-      "likes": 744,
+      "likes": 745,
       "tags": [
         "transformers",
         "safetensors",
@@ -671,7 +671,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-1.7B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 5954,
-      "likes": 24,
+      "likes": 25,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -685,6 +685,23 @@
     },
     {
       "rank": 9,
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 1436009,
+      "likes": 4911,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 10,
       "id": "CogEvol/CogEvol-4B",
       "url": "https://huggingface.co/CogEvol/CogEvol-4B",
       "pipelineTag": "text-generation",
@@ -700,23 +717,6 @@
       ],
       "lastModified": null,
       "description": "CogEvol-4B is an open post-trained model for Learning Environment Generation (LEG): given a natural-language course brief, it generates complete, usable learning artifacts in a single pass — a structured-JSON slide page, or a self-contai…"
-    },
-    {
-      "rank": 10,
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 1436009,
-      "likes": 4909,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
     },
     {
       "rank": 11,
@@ -796,7 +796,7 @@
       "url": "https://huggingface.co/IFM/K2-Horizon-7B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 1941,
-      "likes": 20,
+      "likes": 21,
       "tags": [
         "transformers",
         "gguf",
