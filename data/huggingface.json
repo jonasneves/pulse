@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T22:40:11.267Z",
+  "updated": "2026-09-06T03:17:04.530Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 255006933,
-      "likes": 5554,
+      "likes": 5560,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -79,7 +79,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 56175564,
-      "likes": 2981,
+      "likes": 2986,
       "tags": [
         "transformers",
         "pytorch",
@@ -187,7 +187,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 21952078,
-      "likes": 1578,
+      "likes": 1579,
       "tags": [
         "transformers",
         "safetensors",
@@ -223,7 +223,7 @@
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 20755211,
-      "likes": 1207,
+      "likes": 1210,
       "tags": [
         "transformers",
         "pytorch",
@@ -346,7 +346,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 14739982,
-      "likes": 3695,
+      "likes": 3702,
       "tags": [
         "transformers",
         "pytorch",
@@ -508,7 +508,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "pipelineTag": "image-text-to-text",
       "downloads": 12084203,
-      "likes": 1899,
+      "likes": 1901,
       "tags": [
         "transformers",
         "safetensors",
@@ -546,7 +546,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 4755,
-      "likes": 535,
+      "likes": 549,
       "tags": [
         "transformers",
         "safetensors",
@@ -564,7 +564,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
       "pipelineTag": "text-generation",
       "downloads": 2301,
-      "likes": 92,
+      "likes": 93,
       "tags": [
         "transformers",
         "safetensors",
@@ -582,7 +582,7 @@
       "url": "https://huggingface.co/IFM/K2-Horizon-7B",
       "pipelineTag": "text-generation",
       "downloads": 1256,
-      "likes": 72,
+      "likes": 73,
       "tags": [
         "transformers",
         "safetensors",
@@ -600,7 +600,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 18982,
-      "likes": 51,
+      "likes": 52,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -618,7 +618,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 5738381,
-      "likes": 6797,
+      "likes": 6798,
       "tags": [
         "transformers",
         "safetensors",
@@ -635,7 +635,7 @@
       "url": "https://huggingface.co/ByteDance/Ouro-1.4B",
       "pipelineTag": "text-generation",
       "downloads": 22987,
-      "likes": 150,
+      "likes": 151,
       "tags": [
         "transformers",
         "safetensors",
@@ -671,7 +671,7 @@
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 1436009,
-      "likes": 4912,
+      "likes": 4913,
       "tags": [
         "transformers",
         "safetensors",
@@ -738,29 +738,11 @@
     },
     {
       "rank": 12,
-      "id": "LiquidAI/LFM2.5-2.6B",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
-      "pipelineTag": "text-generation",
-      "downloads": 131338,
-      "likes": 735,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "lfm2",
-        "text-generation",
-        "liquid",
-        "lfm2.5"
-      ],
-      "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 13,
       "id": "menezesbruno/manaca-1b-base",
       "url": "https://huggingface.co/menezesbruno/manaca-1b-base",
       "pipelineTag": "text-generation",
       "downloads": 1137,
-      "likes": 22,
+      "likes": 23,
       "tags": [
         "transformers",
         "safetensors",
@@ -771,6 +753,24 @@
       ],
       "lastModified": null,
       "description": "Manacá-1B é um modelo de linguagem decoder-only de ~1,72 bilhão de parâmetros, treinado do zero para o português do Brasil. Modelo base (pré-treinado, sem ajuste de instrução). Manacá-1B is a ~1.72B-parameter decoder-only language model …"
+    },
+    {
+      "rank": 13,
+      "id": "IFM/K2-Horizon-7B-GGUF",
+      "url": "https://huggingface.co/IFM/K2-Horizon-7B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 1941,
+      "likes": 22,
+      "tags": [
+        "transformers",
+        "gguf",
+        "k2-horizon",
+        "7b",
+        "dense",
+        "open-weights"
+      ],
+      "lastModified": null,
+      "description": "K2-Horizon-7B is the medium dense member of the K2-Horizon family: a 7B-core decoder-only model with a 512K context window."
     },
     {
       "rank": 14,
@@ -792,21 +792,21 @@
     },
     {
       "rank": 15,
-      "id": "IFM/K2-Horizon-7B-GGUF",
-      "url": "https://huggingface.co/IFM/K2-Horizon-7B-GGUF",
+      "id": "LiquidAI/LFM2.5-2.6B",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
-      "downloads": 1941,
-      "likes": 21,
+      "downloads": 131338,
+      "likes": 735,
       "tags": [
         "transformers",
-        "gguf",
-        "k2-horizon",
-        "7b",
-        "dense",
-        "open-weights"
+        "safetensors",
+        "lfm2",
+        "text-generation",
+        "liquid",
+        "lfm2.5"
       ],
       "lastModified": null,
-      "description": "K2-Horizon-7B is the medium dense member of the K2-Horizon family: a 7B-core decoder-only model with a 512K context window."
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     }
   ]
 }
