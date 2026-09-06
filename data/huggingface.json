@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T10:24:07.380Z",
+  "updated": "2026-09-06T15:01:38.451Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 253029336,
-      "likes": 5560,
+      "likes": 5561,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 37962240,
-      "likes": 3470,
+      "likes": 3472,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -241,7 +241,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 19570597,
-      "likes": 1703,
+      "likes": 1706,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -454,7 +454,7 @@
       "url": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 12639566,
-      "likes": 960,
+      "likes": 963,
       "tags": [
         "transformers",
         "gguf",
@@ -472,7 +472,7 @@
       "url": "https://huggingface.co/intfloat/multilingual-e5-small",
       "pipelineTag": "sentence-similarity",
       "downloads": 12139398,
-      "likes": 396,
+      "likes": 398,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -508,7 +508,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "pipelineTag": "image-text-to-text",
       "downloads": 11772488,
-      "likes": 1901,
+      "likes": 1902,
       "tags": [
         "transformers",
         "safetensors",
@@ -546,7 +546,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 5477,
-      "likes": 570,
+      "likes": 578,
       "tags": [
         "transformers",
         "safetensors",
@@ -564,7 +564,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
       "pipelineTag": "text-generation",
       "downloads": 2439,
-      "likes": 94,
+      "likes": 95,
       "tags": [
         "transformers",
         "safetensors",
@@ -582,7 +582,7 @@
       "url": "https://huggingface.co/IFM/K2-Horizon-7B",
       "pipelineTag": "text-generation",
       "downloads": 1656,
-      "likes": 78,
+      "likes": 79,
       "tags": [
         "transformers",
         "safetensors",
@@ -600,7 +600,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 34104,
-      "likes": 53,
+      "likes": 54,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -618,7 +618,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 5630085,
-      "likes": 6800,
+      "likes": 6803,
       "tags": [
         "transformers",
         "safetensors",
@@ -653,7 +653,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 33674,
-      "likes": 746,
+      "likes": 749,
       "tags": [
         "transformers",
         "safetensors",
@@ -707,7 +707,7 @@
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 1385115,
-      "likes": 4913,
+      "likes": 4914,
       "tags": [
         "transformers",
         "safetensors",
@@ -720,24 +720,6 @@
     },
     {
       "rank": 11,
-      "id": "ibm-granite/granite-4.2-3b",
-      "url": "https://huggingface.co/ibm-granite/granite-4.2-3b",
-      "pipelineTag": "text-generation",
-      "downloads": 19003,
-      "likes": 77,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "granite",
-        "text-generation",
-        "granite-4.2",
-        "reasoning"
-      ],
-      "lastModified": null,
-      "description": "Granite is a family of open-source large language models developed by IBM, designed for enterprise and research use. Granite models are built to be versatile, safe, and efficient — covering a range of sizes and capabilities from compact …"
-    },
-    {
-      "rank": 12,
       "id": "menezesbruno/manaca-1b-base",
       "url": "https://huggingface.co/menezesbruno/manaca-1b-base",
       "pipelineTag": "text-generation",
@@ -755,7 +737,7 @@
       "description": "Manacá-1B é um modelo de linguagem decoder-only de ~1,72 bilhão de parâmetros, treinado do zero para o português do Brasil. Modelo base (pré-treinado, sem ajuste de instrução). Manacá-1B is a ~1.72B-parameter decoder-only language model …"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "id": "IFM/K2-Horizon-7B-GGUF",
       "url": "https://huggingface.co/IFM/K2-Horizon-7B-GGUF",
       "pipelineTag": "text-generation",
@@ -773,7 +755,43 @@
       "description": "K2-Horizon-7B is the medium dense member of the K2-Horizon family: a 7B-core decoder-only model with a 512K context window."
     },
     {
+      "rank": 13,
+      "id": "LiquidAI/LFM2.5-2.6B",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+      "pipelineTag": "text-generation",
+      "downloads": 124360,
+      "likes": 737,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "lfm2",
+        "text-generation",
+        "liquid",
+        "lfm2.5"
+      ],
+      "lastModified": null,
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+    },
+    {
       "rank": 14,
+      "id": "ibm-granite/granite-4.2-3b",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-3b",
+      "pipelineTag": "text-generation",
+      "downloads": 19003,
+      "likes": 77,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "granite",
+        "text-generation",
+        "granite-4.2",
+        "reasoning"
+      ],
+      "lastModified": null,
+      "description": "Granite is a family of open-source large language models developed by IBM, designed for enterprise and research use. Granite models are built to be versatile, safe, and efficient — covering a range of sizes and capabilities from compact …"
+    },
+    {
+      "rank": 15,
       "id": "Nanbeige/Nanbeige4.2-3B-DSpark",
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B-DSpark",
       "pipelineTag": "text-generation",
@@ -791,22 +809,58 @@
       "description": "Nanbeige4.2-3B is a compact agentic model built on Nanbeige4.2-3B-Base, designed to combine strong agentic behavior with broad reasoning and alignment capabilities. Its Looped Transformer architecture reuses the transformer layers to inc…"
     },
     {
-      "rank": 15,
-      "id": "LiquidAI/LFM2.5-2.6B",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+      "rank": 16,
+      "id": "empero-ai/Qwen3.8-9B-Distill-GGUF",
+      "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 124360,
-      "likes": 735,
+      "downloads": 444781,
+      "likes": 211,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "quantized",
+        "empero-ai",
+        "qwen3.5",
+        "qwen3.8"
+      ],
+      "lastModified": null,
+      "description": "GGUF quantizations of empero-ai/Qwen3.8-9B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-9B architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF runtimes."
+    },
+    {
+      "rank": 17,
+      "id": "IFM/K2-Horizon-7B-Uno",
+      "url": "https://huggingface.co/IFM/K2-Horizon-7B-Uno",
+      "pipelineTag": "text-generation",
+      "downloads": 10140,
+      "likes": 18,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "diffusion-language-model",
+        "conditional-lora",
+        "uno"
+      ],
+      "lastModified": null,
+      "description": "Paper: Unlocking Lossless Speedups in LLMs via Discrete Diffusion Project Page: https://s-sahoo.github.io/uno/ Code: https://github.com/ifm-ai/uno"
+    },
+    {
+      "rank": 18,
+      "id": "Akahsizrr/Cyber-Prime-1-2.6B",
+      "url": "https://huggingface.co/Akahsizrr/Cyber-Prime-1-2.6B",
+      "pipelineTag": "text-generation",
+      "downloads": 363,
+      "likes": 18,
       "tags": [
         "transformers",
         "safetensors",
         "lfm2",
         "text-generation",
-        "liquid",
-        "lfm2.5"
+        "cybersecurity",
+        "security"
       ],
       "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+      "description": "A fine-tuned cybersecurity specialist built on LiquidAI/LFM2-2.6B. Despite having only 2.6 billion parameters, Cyber-Prime 1 outperforms Llama-2-7B on every CyberBench task and beats GPT-3.5-Turbo on named entity recognition and threat i…"
     }
   ]
 }
