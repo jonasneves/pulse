@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T20:29:23.383Z",
+  "updated": "2026-09-10T22:56:51.154Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 254324263,
-      "likes": 5751,
+      "likes": 5761,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -79,7 +79,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 47826795,
-      "likes": 3158,
+      "likes": 3170,
       "tags": [
         "transformers",
         "pytorch",
@@ -223,7 +223,7 @@
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 21008990,
-      "likes": 1381,
+      "likes": 1391,
       "tags": [
         "transformers",
         "pytorch",
@@ -241,7 +241,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 18813055,
-      "likes": 1755,
+      "likes": 1758,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -364,7 +364,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 14981665,
-      "likes": 3890,
+      "likes": 3897,
       "tags": [
         "transformers",
         "pytorch",
@@ -436,7 +436,7 @@
       "url": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 12756868,
-      "likes": 980,
+      "likes": 982,
       "tags": [
         "transformers",
         "gguf",
@@ -545,7 +545,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "pipelineTag": "text-generation",
       "downloads": 42289,
-      "likes": 1096,
+      "likes": 1104,
       "tags": [
         "transformers",
         "safetensors",
@@ -563,7 +563,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 15930,
-      "likes": 1058,
+      "likes": 1062,
       "tags": [
         "transformers",
         "safetensors",
@@ -581,7 +581,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 51179,
-      "likes": 149,
+      "likes": 151,
       "tags": [
         "transformers",
         "gguf",
@@ -599,7 +599,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 73777,
-      "likes": 133,
+      "likes": 134,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -617,7 +617,7 @@
       "url": "https://huggingface.co/IFM/K2-Horizon-7B",
       "pipelineTag": "text-generation",
       "downloads": 4313,
-      "likes": 109,
+      "likes": 110,
       "tags": [
         "transformers",
         "safetensors",
@@ -671,7 +671,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 5630964,
-      "likes": 6878,
+      "likes": 6879,
       "tags": [
         "transformers",
         "safetensors",
@@ -738,24 +738,6 @@
     },
     {
       "rank": 12,
-      "id": "IFM/K2-Horizon-7B-Uno",
-      "url": "https://huggingface.co/IFM/K2-Horizon-7B-Uno",
-      "pipelineTag": "text-generation",
-      "downloads": 26365,
-      "likes": 32,
-      "tags": [
-        "peft",
-        "safetensors",
-        "lora",
-        "diffusion-language-model",
-        "conditional-lora",
-        "uno"
-      ],
-      "lastModified": null,
-      "description": "Paper: Unlocking Lossless Speedups in LLMs via Discrete Diffusion Project Page: https://s-sahoo.github.io/uno/ Code: https://github.com/ifm-ai/uno"
-    },
-    {
-      "rank": 13,
       "id": "openbmb/MiniCPM5-2B-MLX",
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B-MLX",
       "pipelineTag": "text-generation",
@@ -771,6 +753,23 @@
       ],
       "lastModified": null,
       "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…"
+    },
+    {
+      "rank": 13,
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 1264622,
+      "likes": 4956,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
     },
     {
       "rank": 14,
@@ -792,20 +791,21 @@
     },
     {
       "rank": 15,
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "id": "IFM/K2-Horizon-7B-Uno",
+      "url": "https://huggingface.co/IFM/K2-Horizon-7B-Uno",
       "pipelineTag": "text-generation",
-      "downloads": 1264622,
-      "likes": 4955,
+      "downloads": 26365,
+      "likes": 32,
       "tags": [
-        "transformers",
+        "peft",
         "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
+        "lora",
+        "diffusion-language-model",
+        "conditional-lora",
+        "uno"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Paper: Unlocking Lossless Speedups in LLMs via Discrete Diffusion Project Page: https://s-sahoo.github.io/uno/ Code: https://github.com/ifm-ai/uno"
     },
     {
       "rank": 16,
@@ -827,23 +827,6 @@
     },
     {
       "rank": 17,
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 1566456,
-      "likes": 2549,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 18,
       "id": "LiquidAI/LFM2.5-2.6B",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
@@ -861,30 +844,29 @@
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
-      "rank": 19,
-      "id": "IFM/K2-Horizon-3.7B",
-      "url": "https://huggingface.co/IFM/K2-Horizon-3.7B",
+      "rank": 18,
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 3579,
-      "likes": 26,
+      "downloads": 1566456,
+      "likes": 2549,
       "tags": [
         "transformers",
         "safetensors",
-        "k2_horizon",
+        "llama",
         "text-generation",
-        "k2-horizon",
-        "3.7b"
+        "facebook",
+        "meta"
       ],
-      "lastModified": null,
-      "description": "K2-Horizon-3.7B is the small dense member of the K2-Horizon family: a 3.7B-core decoder-only model with a 512K context window."
+      "lastModified": null
     },
     {
-      "rank": 20,
+      "rank": 19,
       "id": "meta-llama/Llama-3.1-8B",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
       "pipelineTag": "text-generation",
       "downloads": 508538,
-      "likes": 2461,
+      "likes": 2462,
       "tags": [
         "transformers",
         "safetensors",
