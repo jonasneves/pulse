@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T10:46:08.394Z",
+  "updated": "2026-09-10T15:55:49.594Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 254324263,
-      "likes": 5725,
+      "likes": 5737,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -79,7 +79,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 47826795,
-      "likes": 3130,
+      "likes": 3141,
       "tags": [
         "transformers",
         "pytorch",
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 37891167,
-      "likes": 3488,
+      "likes": 3489,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -223,7 +223,7 @@
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 21008990,
-      "likes": 1349,
+      "likes": 1359,
       "tags": [
         "transformers",
         "pytorch",
@@ -241,7 +241,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 18813055,
-      "likes": 1749,
+      "likes": 1752,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -257,7 +257,7 @@
       "url": "https://huggingface.co/trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
       "pipelineTag": "text-generation",
       "downloads": 18620166,
-      "likes": 22,
+      "likes": 23,
       "tags": [
         "transformers",
         "safetensors",
@@ -328,7 +328,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct",
       "pipelineTag": "image-text-to-text",
       "downloads": 16473284,
-      "likes": 1086,
+      "likes": 1088,
       "tags": [
         "transformers",
         "safetensors",
@@ -346,7 +346,7 @@
       "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
       "pipelineTag": "sentence-similarity",
       "downloads": 16124079,
-      "likes": 906,
+      "likes": 907,
       "tags": [
         "sentence-transformers",
         "onnx",
@@ -364,7 +364,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 14981665,
-      "likes": 3869,
+      "likes": 3877,
       "tags": [
         "transformers",
         "pytorch",
@@ -490,7 +490,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
       "pipelineTag": "image-text-to-text",
       "downloads": 12066045,
-      "likes": 380,
+      "likes": 381,
       "tags": [
         "transformers",
         "safetensors",
@@ -545,7 +545,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "pipelineTag": "text-generation",
       "downloads": 42289,
-      "likes": 1019,
+      "likes": 1068,
       "tags": [
         "transformers",
         "safetensors",
@@ -563,7 +563,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 15930,
-      "likes": 1030,
+      "likes": 1045,
       "tags": [
         "transformers",
         "safetensors",
@@ -581,7 +581,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 51179,
-      "likes": 142,
+      "likes": 146,
       "tags": [
         "transformers",
         "gguf",
@@ -599,7 +599,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 73777,
-      "likes": 126,
+      "likes": 130,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -617,7 +617,7 @@
       "url": "https://huggingface.co/IFM/K2-Horizon-7B",
       "pipelineTag": "text-generation",
       "downloads": 4313,
-      "likes": 105,
+      "likes": 108,
       "tags": [
         "transformers",
         "safetensors",
@@ -631,29 +631,11 @@
     },
     {
       "rank": 6,
-      "id": "XHToken/Spark-X2.5-1.7B",
-      "url": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
-      "pipelineTag": "text-generation",
-      "downloads": 4362,
-      "likes": 123,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "spark2_5",
-        "text-generation",
-        "llm",
-        "sparkx2_5"
-      ],
-      "lastModified": null,
-      "description": "We are introducing Spark-X2.5-4B and Spark-X2.5-1.7B, two compact, general-purpose language models designed to make capable AI more practical, efficient, and accessible. The models deliver strong performance across a broad range of every…"
-    },
-    {
-      "rank": 7,
       "id": "TokenRhythm/NeoHorse-1-4B",
       "url": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B",
       "pipelineTag": "text-generation",
       "downloads": 5329,
-      "likes": 506,
+      "likes": 793,
       "tags": [
         "transformers",
         "safetensors",
@@ -666,12 +648,30 @@
       "description": "/ Reusable benchmark table architecture. Inline styles remain as a fallback for HF rendering. / .vl-table { width: 100%; min-width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px; } .vl-table th { font-size: 15px !…"
     },
     {
+      "rank": 7,
+      "id": "XHToken/Spark-X2.5-1.7B",
+      "url": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
+      "pipelineTag": "text-generation",
+      "downloads": 4362,
+      "likes": 124,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "spark2_5",
+        "text-generation",
+        "llm",
+        "sparkx2_5"
+      ],
+      "lastModified": null,
+      "description": "We are introducing Spark-X2.5-4B and Spark-X2.5-1.7B, two compact, general-purpose language models designed to make capable AI more practical, efficient, and accessible. The models deliver strong performance across a broad range of every…"
+    },
+    {
       "rank": 8,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 5630964,
-      "likes": 6869,
+      "likes": 6873,
       "tags": [
         "transformers",
         "safetensors",
@@ -688,7 +688,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 33868,
-      "likes": 768,
+      "likes": 771,
       "tags": [
         "transformers",
         "safetensors",
@@ -724,7 +724,7 @@
       "url": "https://huggingface.co/IFM/K2-Horizon-7B-Uno",
       "pipelineTag": "text-generation",
       "downloads": 26365,
-      "likes": 31,
+      "likes": 32,
       "tags": [
         "peft",
         "safetensors",
@@ -738,6 +738,24 @@
     },
     {
       "rank": 12,
+      "id": "openbmb/MiniCPM5-2B-MLX",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-2B-MLX",
+      "pipelineTag": "text-generation",
+      "downloads": 12206,
+      "likes": 30,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "minicpm",
+        "minicpm5"
+      ],
+      "lastModified": null,
+      "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…"
+    },
+    {
+      "rank": 13,
       "id": "openbmb/MiniCPM5-2B-DSpark",
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B-DSpark",
       "pipelineTag": "text-generation",
@@ -755,66 +773,29 @@
       "description": "MiniCPM5-2B-DSpark is a DSpark draft checkpoint trained for exact pairing with MiniCPM5-2B and its tokenizer."
     },
     {
-      "rank": 13,
-      "id": "IFM/K2-Horizon-3.7B",
-      "url": "https://huggingface.co/IFM/K2-Horizon-3.7B",
-      "pipelineTag": "text-generation",
-      "downloads": 3579,
-      "likes": 25,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "k2_horizon",
-        "text-generation",
-        "k2-horizon",
-        "3.7b"
-      ],
-      "lastModified": null,
-      "description": "K2-Horizon-3.7B is the small dense member of the K2-Horizon family: a 3.7B-core decoder-only model with a 512K context window."
-    },
-    {
       "rank": 14,
-      "id": "IFM/K2-Horizon-7B-GGUF",
-      "url": "https://huggingface.co/IFM/K2-Horizon-7B-GGUF",
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 4064,
-      "likes": 26,
-      "tags": [
-        "transformers",
-        "gguf",
-        "k2-horizon",
-        "7b",
-        "dense",
-        "open-weights"
-      ],
-      "lastModified": null,
-      "description": "K2-Horizon-7B is the medium dense member of the K2-Horizon family: a 7B-core decoder-only model with a 512K context window."
-    },
-    {
-      "rank": 15,
-      "id": "openbmb/MiniCPM5-2B-MLX",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-2B-MLX",
-      "pipelineTag": "text-generation",
-      "downloads": 12206,
-      "likes": 29,
+      "downloads": 1264622,
+      "likes": 4952,
       "tags": [
         "transformers",
         "safetensors",
         "llama",
         "text-generation",
-        "minicpm",
-        "minicpm5"
+        "facebook",
+        "meta"
       ],
-      "lastModified": null,
-      "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…"
+      "lastModified": null
     },
     {
-      "rank": 16,
+      "rank": 15,
       "id": "openbmb/MiniCPM5-1B",
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
       "downloads": 669403,
-      "likes": 1119,
+      "likes": 1120,
       "tags": [
         "transformers",
         "safetensors",
@@ -827,29 +808,48 @@
       "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
     },
     {
-      "rank": 17,
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "rank": 16,
+      "id": "IFM/K2-Horizon-3.7B",
+      "url": "https://huggingface.co/IFM/K2-Horizon-3.7B",
       "pipelineTag": "text-generation",
-      "downloads": 1264622,
-      "likes": 4951,
+      "downloads": 3579,
+      "likes": 26,
       "tags": [
         "transformers",
         "safetensors",
-        "llama",
+        "k2_horizon",
         "text-generation",
-        "facebook",
-        "meta"
+        "k2-horizon",
+        "3.7b"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "K2-Horizon-3.7B is the small dense member of the K2-Horizon family: a 3.7B-core decoder-only model with a 512K context window."
+    },
+    {
+      "rank": 17,
+      "id": "IFM/K2-Horizon-7B-GGUF",
+      "url": "https://huggingface.co/IFM/K2-Horizon-7B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 4064,
+      "likes": 27,
+      "tags": [
+        "transformers",
+        "gguf",
+        "k2-horizon",
+        "7b",
+        "dense",
+        "open-weights"
+      ],
+      "lastModified": null,
+      "description": "K2-Horizon-7B is the medium dense member of the K2-Horizon family: a 7B-core decoder-only model with a 512K context window."
     },
     {
       "rank": 18,
-      "id": "meta-llama/Llama-3.1-8B",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 508538,
-      "likes": 2455,
+      "downloads": 1566456,
+      "likes": 2545,
       "tags": [
         "transformers",
         "safetensors",
@@ -862,11 +862,29 @@
     },
     {
       "rank": 19,
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "id": "Edge0/Edge0-8B-A1B-preview",
+      "url": "https://huggingface.co/Edge0/Edge0-8B-A1B-preview",
       "pipelineTag": "text-generation",
-      "downloads": 1566456,
-      "likes": 2542,
+      "downloads": 332,
+      "likes": 23,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "moe",
+        "edge-inference",
+        "prerouter",
+        "lora"
+      ],
+      "lastModified": null,
+      "description": "Edge0-8b-a1b — an 8B MoE LLM that runs at viable speed in under 1 GiB of active memory, via the edge0 streaming inference framework."
+    },
+    {
+      "rank": 20,
+      "id": "meta-llama/Llama-3.1-8B",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
+      "pipelineTag": "text-generation",
+      "downloads": 508538,
+      "likes": 2456,
       "tags": [
         "transformers",
         "safetensors",
