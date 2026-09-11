@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T20:33:52.748Z",
+  "updated": "2026-09-11T23:00:44.678Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 254035929,
-      "likes": 5814,
+      "likes": 5821,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -79,7 +79,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 47177338,
-      "likes": 3209,
+      "likes": 3219,
       "tags": [
         "transformers",
         "pytorch",
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/google-t5/t5-small",
       "pipelineTag": "translation",
       "downloads": 24270514,
-      "likes": 603,
+      "likes": 604,
       "tags": [
         "transformers",
         "pytorch",
@@ -205,7 +205,7 @@
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 21183912,
-      "likes": 1427,
+      "likes": 1434,
       "tags": [
         "transformers",
         "pytorch",
@@ -257,7 +257,7 @@
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
       "downloads": 18178285,
-      "likes": 1168,
+      "likes": 1169,
       "tags": [
         "sentence-transformers",
         "safetensors",
@@ -364,7 +364,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 15074191,
-      "likes": 3936,
+      "likes": 3940,
       "tags": [
         "transformers",
         "pytorch",
@@ -545,7 +545,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "pipelineTag": "text-generation",
       "downloads": 67550,
-      "likes": 1188,
+      "likes": 1190,
       "tags": [
         "transformers",
         "safetensors",
@@ -563,7 +563,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 17712,
-      "likes": 1097,
+      "likes": 1100,
       "tags": [
         "transformers",
         "safetensors",
@@ -599,7 +599,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 82991,
-      "likes": 144,
+      "likes": 145,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -617,7 +617,7 @@
       "url": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B",
       "pipelineTag": "text-generation",
       "downloads": 6109,
-      "likes": 1093,
+      "likes": 1103,
       "tags": [
         "transformers",
         "safetensors",
@@ -631,6 +631,23 @@
     },
     {
       "rank": 6,
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 5620096,
+      "likes": 6901,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 7,
       "id": "IFM/K2-Horizon-7B",
       "url": "https://huggingface.co/IFM/K2-Horizon-7B",
       "pipelineTag": "text-generation",
@@ -646,23 +663,6 @@
       ],
       "lastModified": null,
       "description": "K2-Horizon-7B is the medium dense member of the K2-Horizon family: a 7B-core decoder-only model with a 512K context window."
-    },
-    {
-      "rank": 7,
-      "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 5620096,
-      "likes": 6900,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
     },
     {
       "rank": 8,
@@ -706,7 +706,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 32515,
-      "likes": 775,
+      "likes": 776,
       "tags": [
         "transformers",
         "safetensors",
@@ -778,7 +778,7 @@
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 1232117,
-      "likes": 4964,
+      "likes": 4965,
       "tags": [
         "transformers",
         "safetensors",
@@ -813,7 +813,7 @@
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 108352,
-      "likes": 753,
+      "likes": 754,
       "tags": [
         "transformers",
         "safetensors",
@@ -827,21 +827,20 @@
     },
     {
       "rank": 17,
-      "id": "IFM/K2-Horizon-7B-Uno",
-      "url": "https://huggingface.co/IFM/K2-Horizon-7B-Uno",
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 26378,
-      "likes": 34,
+      "downloads": 1587087,
+      "likes": 2559,
       "tags": [
-        "peft",
+        "transformers",
         "safetensors",
-        "lora",
-        "diffusion-language-model",
-        "conditional-lora",
-        "uno"
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
       ],
-      "lastModified": null,
-      "description": "Paper: Unlocking Lossless Speedups in LLMs via Discrete Diffusion Project Page: https://s-sahoo.github.io/uno/ Code: https://github.com/ifm-ai/uno"
+      "lastModified": null
     },
     {
       "rank": 18,
