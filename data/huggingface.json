@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T22:56:51.154Z",
+  "updated": "2026-09-11T03:21:41.896Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 254324263,
-      "likes": 5761,
+      "likes": 5773,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -79,7 +79,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 47826795,
-      "likes": 3170,
+      "likes": 3179,
       "tags": [
         "transformers",
         "pytorch",
@@ -223,7 +223,7 @@
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 21008990,
-      "likes": 1391,
+      "likes": 1397,
       "tags": [
         "transformers",
         "pytorch",
@@ -364,7 +364,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 14981665,
-      "likes": 3897,
+      "likes": 3906,
       "tags": [
         "transformers",
         "pytorch",
@@ -545,7 +545,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "pipelineTag": "text-generation",
       "downloads": 42289,
-      "likes": 1104,
+      "likes": 1125,
       "tags": [
         "transformers",
         "safetensors",
@@ -563,7 +563,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 15930,
-      "likes": 1062,
+      "likes": 1070,
       "tags": [
         "transformers",
         "safetensors",
@@ -581,7 +581,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 51179,
-      "likes": 151,
+      "likes": 155,
       "tags": [
         "transformers",
         "gguf",
@@ -599,7 +599,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 73777,
-      "likes": 134,
+      "likes": 137,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -613,6 +613,24 @@
     },
     {
       "rank": 5,
+      "id": "TokenRhythm/NeoHorse-1-4B",
+      "url": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B",
+      "pipelineTag": "text-generation",
+      "downloads": 5329,
+      "likes": 816,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5_text",
+        "text-generation",
+        "agentic",
+        "tool-use"
+      ],
+      "lastModified": null,
+      "description": "/ Reusable benchmark table architecture. Inline styles remain as a fallback for HF rendering. / .vl-table { width: 100%; min-width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px; } .vl-table th { font-size: 15px !…"
+    },
+    {
+      "rank": 6,
       "id": "IFM/K2-Horizon-7B",
       "url": "https://huggingface.co/IFM/K2-Horizon-7B",
       "pipelineTag": "text-generation",
@@ -628,24 +646,6 @@
       ],
       "lastModified": null,
       "description": "K2-Horizon-7B is the medium dense member of the K2-Horizon family: a 7B-core decoder-only model with a 512K context window."
-    },
-    {
-      "rank": 6,
-      "id": "TokenRhythm/NeoHorse-1-4B",
-      "url": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B",
-      "pipelineTag": "text-generation",
-      "downloads": 5329,
-      "likes": 810,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5_text",
-        "text-generation",
-        "agentic",
-        "tool-use"
-      ],
-      "lastModified": null,
-      "description": "/ Reusable benchmark table architecture. Inline styles remain as a fallback for HF rendering. / .vl-table { width: 100%; min-width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px; } .vl-table th { font-size: 15px !…"
     },
     {
       "rank": 7,
@@ -671,7 +671,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 5630964,
-      "likes": 6879,
+      "likes": 6881,
       "tags": [
         "transformers",
         "safetensors",
@@ -688,7 +688,7 @@
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
       "downloads": 33868,
-      "likes": 772,
+      "likes": 773,
       "tags": [
         "transformers",
         "safetensors",
@@ -724,7 +724,7 @@
       "url": "https://huggingface.co/Edge0/Edge0-8B-A1B-preview",
       "pipelineTag": "text-generation",
       "downloads": 332,
-      "likes": 31,
+      "likes": 33,
       "tags": [
         "mlx",
         "safetensors",
@@ -756,23 +756,6 @@
     },
     {
       "rank": 13,
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 1264622,
-      "likes": 4956,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 14,
       "id": "openbmb/MiniCPM5-2B-DSpark",
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B-DSpark",
       "pipelineTag": "text-generation",
@@ -790,22 +773,39 @@
       "description": "MiniCPM5-2B-DSpark is a DSpark draft checkpoint trained for exact pairing with MiniCPM5-2B and its tokenizer."
     },
     {
-      "rank": 15,
-      "id": "IFM/K2-Horizon-7B-Uno",
-      "url": "https://huggingface.co/IFM/K2-Horizon-7B-Uno",
+      "rank": 14,
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 26365,
-      "likes": 32,
+      "downloads": 1264622,
+      "likes": 4957,
       "tags": [
-        "peft",
+        "transformers",
         "safetensors",
-        "lora",
-        "diffusion-language-model",
-        "conditional-lora",
-        "uno"
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 15,
+      "id": "LiquidAI/LFM2.5-2.6B",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+      "pipelineTag": "text-generation",
+      "downloads": 109992,
+      "likes": 753,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "lfm2",
+        "text-generation",
+        "liquid",
+        "lfm2.5"
       ],
       "lastModified": null,
-      "description": "Paper: Unlocking Lossless Speedups in LLMs via Discrete Diffusion Project Page: https://s-sahoo.github.io/uno/ Code: https://github.com/ifm-ai/uno"
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
       "rank": 16,
@@ -827,21 +827,21 @@
     },
     {
       "rank": 17,
-      "id": "LiquidAI/LFM2.5-2.6B",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+      "id": "IFM/K2-Horizon-7B-Uno",
+      "url": "https://huggingface.co/IFM/K2-Horizon-7B-Uno",
       "pipelineTag": "text-generation",
-      "downloads": 109992,
-      "likes": 752,
+      "downloads": 26365,
+      "likes": 32,
       "tags": [
-        "transformers",
+        "peft",
         "safetensors",
-        "lfm2",
-        "text-generation",
-        "liquid",
-        "lfm2.5"
+        "lora",
+        "diffusion-language-model",
+        "conditional-lora",
+        "uno"
       ],
       "lastModified": null,
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
+      "description": "Paper: Unlocking Lossless Speedups in LLMs via Discrete Diffusion Project Page: https://s-sahoo.github.io/uno/ Code: https://github.com/ifm-ai/uno"
     },
     {
       "rank": 18,
@@ -862,20 +862,21 @@
     },
     {
       "rank": 19,
-      "id": "meta-llama/Llama-3.1-8B",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
+      "id": "ai-sage/GigaChat3.5-432B-A28B-Reasoning",
+      "url": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
       "pipelineTag": "text-generation",
-      "downloads": 508538,
-      "likes": 2462,
+      "downloads": 0,
+      "likes": 21,
       "tags": [
-        "transformers",
         "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
+        "gigachat3_5",
+        "instruct",
+        "reasoning",
+        "moe",
+        "multilingual"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "GigaChat 3.5 Reasoning is the first GigaChat model with full reasoning trained with online RL. Compared with GigaChat 3.5 Ultra Instruct, the largest gains are in mathematics, code, instruction following, and structured output."
     }
   ]
 }
