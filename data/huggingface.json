@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T15:58:44.789Z",
+  "updated": "2026-09-11T20:33:52.748Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 254035929,
-      "likes": 5794,
+      "likes": 5814,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -79,7 +79,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 47177338,
-      "likes": 3194,
+      "likes": 3209,
       "tags": [
         "transformers",
         "pytorch",
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
       "downloads": 23166191,
-      "likes": 443,
+      "likes": 445,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -205,7 +205,7 @@
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 21183912,
-      "likes": 1410,
+      "likes": 1427,
       "tags": [
         "transformers",
         "pytorch",
@@ -241,7 +241,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 18981590,
-      "likes": 1769,
+      "likes": 1772,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -364,7 +364,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 15074191,
-      "likes": 3914,
+      "likes": 3936,
       "tags": [
         "transformers",
         "pytorch",
@@ -436,7 +436,7 @@
       "url": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 12853002,
-      "likes": 988,
+      "likes": 989,
       "tags": [
         "transformers",
         "gguf",
@@ -508,7 +508,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 11603416,
-      "likes": 6847,
+      "likes": 6851,
       "tags": [
         "text-to-speech",
         "en",
@@ -545,7 +545,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "pipelineTag": "text-generation",
       "downloads": 67550,
-      "likes": 1172,
+      "likes": 1188,
       "tags": [
         "transformers",
         "safetensors",
@@ -563,7 +563,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 17712,
-      "likes": 1091,
+      "likes": 1097,
       "tags": [
         "transformers",
         "safetensors",
@@ -581,7 +581,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 70755,
-      "likes": 166,
+      "likes": 168,
       "tags": [
         "transformers",
         "gguf",
@@ -599,7 +599,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 82991,
-      "likes": 142,
+      "likes": 144,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -617,7 +617,7 @@
       "url": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B",
       "pipelineTag": "text-generation",
       "downloads": 6109,
-      "likes": 1023,
+      "likes": 1093,
       "tags": [
         "transformers",
         "safetensors",
@@ -653,7 +653,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 5620096,
-      "likes": 6893,
+      "likes": 6900,
       "tags": [
         "transformers",
         "safetensors",
@@ -670,7 +670,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
       "pipelineTag": "text-generation",
       "downloads": 4862,
-      "likes": 126,
+      "likes": 127,
       "tags": [
         "transformers",
         "safetensors",
@@ -688,7 +688,7 @@
       "url": "https://huggingface.co/Edge0/Edge0-8B-A1B-preview",
       "pipelineTag": "text-generation",
       "downloads": 801,
-      "likes": 39,
+      "likes": 40,
       "tags": [
         "mlx",
         "safetensors",
@@ -738,6 +738,24 @@
     },
     {
       "rank": 12,
+      "id": "ai-sage/GigaChat3.5-432B-A28B-Reasoning",
+      "url": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
+      "pipelineTag": "text-generation",
+      "downloads": 187,
+      "likes": 29,
+      "tags": [
+        "safetensors",
+        "gigachat3_5",
+        "instruct",
+        "reasoning",
+        "moe",
+        "multilingual"
+      ],
+      "lastModified": null,
+      "description": "GigaChat 3.5 Reasoning is the first GigaChat model with full reasoning trained with online RL. Compared with GigaChat 3.5 Ultra Instruct, the largest gains are in mathematics, code, instruction following, and structured output."
+    },
+    {
+      "rank": 13,
       "id": "openbmb/MiniCPM5-2B-MLX",
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B-MLX",
       "pipelineTag": "text-generation",
@@ -753,24 +771,6 @@
       ],
       "lastModified": null,
       "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…"
-    },
-    {
-      "rank": 13,
-      "id": "ai-sage/GigaChat3.5-432B-A28B-Reasoning",
-      "url": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
-      "pipelineTag": "text-generation",
-      "downloads": 187,
-      "likes": 27,
-      "tags": [
-        "safetensors",
-        "gigachat3_5",
-        "instruct",
-        "reasoning",
-        "moe",
-        "multilingual"
-      ],
-      "lastModified": null,
-      "description": "GigaChat 3.5 Reasoning is the first GigaChat model with full reasoning trained with online RL. Compared with GigaChat 3.5 Ultra Instruct, the largest gains are in mathematics, code, instruction following, and structured output."
     },
     {
       "rank": 14,
@@ -842,6 +842,24 @@
       ],
       "lastModified": null,
       "description": "Paper: Unlocking Lossless Speedups in LLMs via Discrete Diffusion Project Page: https://s-sahoo.github.io/uno/ Code: https://github.com/ifm-ai/uno"
+    },
+    {
+      "rank": 18,
+      "id": "openbmb/MiniCPM5-1B",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+      "pipelineTag": "text-generation",
+      "downloads": 673081,
+      "likes": 1121,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "minicpm",
+        "minicpm5"
+      ],
+      "lastModified": null,
+      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
     }
   ]
 }
