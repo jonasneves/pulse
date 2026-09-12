@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T20:25:40.420Z",
+  "updated": "2026-09-12T22:51:42.149Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 253739900,
-      "likes": 5859,
+      "likes": 5862,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -43,7 +43,7 @@
       "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "pipelineTag": "feature-extraction",
       "downloads": 64344683,
-      "likes": 552,
+      "likes": 553,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -79,7 +79,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 47340648,
-      "likes": 3244,
+      "likes": 3246,
       "tags": [
         "transformers",
         "pytorch",
@@ -241,7 +241,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 18990370,
-      "likes": 1794,
+      "likes": 1795,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -382,7 +382,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 15150566,
-      "likes": 3979,
+      "likes": 3980,
       "tags": [
         "transformers",
         "pytorch",
@@ -508,7 +508,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 11576384,
-      "likes": 6860,
+      "likes": 6861,
       "tags": [
         "text-to-speech",
         "en",
@@ -525,7 +525,7 @@
       "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
       "pipelineTag": null,
       "downloads": 11529203,
-      "likes": 3941,
+      "likes": 3945,
       "tags": [
         "gguf",
         "qwen3_5",
@@ -545,7 +545,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "pipelineTag": "text-generation",
       "downloads": 102334,
-      "likes": 1248,
+      "likes": 1258,
       "tags": [
         "transformers",
         "safetensors",
@@ -563,7 +563,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 19733,
-      "likes": 1132,
+      "likes": 1134,
       "tags": [
         "transformers",
         "safetensors",
@@ -599,7 +599,7 @@
       "url": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B",
       "pipelineTag": "text-generation",
       "downloads": 6860,
-      "likes": 1559,
+      "likes": 1561,
       "tags": [
         "transformers",
         "safetensors",
@@ -617,7 +617,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 102339,
-      "likes": 154,
+      "likes": 155,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -635,7 +635,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 5591444,
-      "likes": 6914,
+      "likes": 6917,
       "tags": [
         "transformers",
         "safetensors",
@@ -760,7 +760,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B-MLX",
       "pipelineTag": "text-generation",
       "downloads": 27708,
-      "likes": 34,
+      "likes": 35,
       "tags": [
         "transformers",
         "safetensors",
@@ -774,23 +774,6 @@
     },
     {
       "rank": 14,
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 1215081,
-      "likes": 4973,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 15,
       "id": "openbmb/MiniCPM5-2B-DSpark",
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B-DSpark",
       "pipelineTag": "text-generation",
@@ -808,12 +791,29 @@
       "description": "MiniCPM5-2B-DSpark is a DSpark draft checkpoint trained for exact pairing with MiniCPM5-2B and its tokenizer."
     },
     {
+      "rank": 15,
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 1215081,
+      "likes": 4973,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
       "rank": 16,
       "id": "meta-llama/Llama-3.2-3B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 1605242,
-      "likes": 2564,
+      "likes": 2565,
       "tags": [
         "transformers",
         "safetensors",
