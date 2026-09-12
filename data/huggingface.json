@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T23:00:44.678Z",
+  "updated": "2026-09-12T03:27:04.013Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 254035929,
-      "likes": 5821,
+      "likes": 5825,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -79,7 +79,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 47177338,
-      "likes": 3219,
+      "likes": 3223,
       "tags": [
         "transformers",
         "pytorch",
@@ -97,7 +97,7 @@
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 46383496,
-      "likes": 1370,
+      "likes": 1371,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
       "downloads": 23166191,
-      "likes": 445,
+      "likes": 446,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -196,8 +196,7 @@
         "onnx",
         "safetensors"
       ],
-      "lastModified": null,
-      "description": "XLM-RoBERTa model pre-trained on 2.5TB of filtered CommonCrawl data containing 100 languages. It was introduced in the paper Unsupervised Cross-lingual Representation Learning at Scale by Conneau et al. and first released in this reposit…"
+      "lastModified": null
     },
     {
       "rank": 12,
@@ -205,7 +204,7 @@
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 21183912,
-      "likes": 1434,
+      "likes": 1437,
       "tags": [
         "transformers",
         "pytorch",
@@ -223,7 +222,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 20685071,
-      "likes": 1596,
+      "likes": 1598,
       "tags": [
         "transformers",
         "safetensors",
@@ -241,7 +240,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 18981590,
-      "likes": 1772,
+      "likes": 1774,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -328,7 +327,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct",
       "pipelineTag": "image-text-to-text",
       "downloads": 16515105,
-      "likes": 1087,
+      "likes": 1088,
       "tags": [
         "transformers",
         "safetensors",
@@ -346,7 +345,7 @@
       "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
       "pipelineTag": "sentence-similarity",
       "downloads": 16063720,
-      "likes": 908,
+      "likes": 909,
       "tags": [
         "sentence-transformers",
         "onnx",
@@ -364,7 +363,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 15074191,
-      "likes": 3940,
+      "likes": 3942,
       "tags": [
         "transformers",
         "pytorch",
@@ -409,8 +408,7 @@
         "bert",
         "feature-extraction"
       ],
-      "lastModified": null,
-      "description": "If you are looking for a model that supports more languages, longer texts, and other retrieval methods, you can try using bge-m3."
+      "lastModified": null
     },
     {
       "rank": 24,
@@ -418,7 +416,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 12880447,
-      "likes": 1366,
+      "likes": 1367,
       "tags": [
         "transformers",
         "safetensors",
@@ -508,7 +506,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 11603416,
-      "likes": 6851,
+      "likes": 6852,
       "tags": [
         "text-to-speech",
         "en",
@@ -545,7 +543,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "pipelineTag": "text-generation",
       "downloads": 67550,
-      "likes": 1190,
+      "likes": 1199,
       "tags": [
         "transformers",
         "safetensors",
@@ -563,7 +561,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 17712,
-      "likes": 1100,
+      "likes": 1107,
       "tags": [
         "transformers",
         "safetensors",
@@ -581,7 +579,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 70755,
-      "likes": 168,
+      "likes": 169,
       "tags": [
         "transformers",
         "gguf",
@@ -599,7 +597,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 82991,
-      "likes": 145,
+      "likes": 146,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -617,7 +615,7 @@
       "url": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B",
       "pipelineTag": "text-generation",
       "downloads": 6109,
-      "likes": 1103,
+      "likes": 1110,
       "tags": [
         "transformers",
         "safetensors",
@@ -635,7 +633,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 5620096,
-      "likes": 6901,
+      "likes": 6904,
       "tags": [
         "transformers",
         "safetensors",
@@ -666,29 +664,11 @@
     },
     {
       "rank": 8,
-      "id": "XHToken/Spark-X2.5-1.7B",
-      "url": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
-      "pipelineTag": "text-generation",
-      "downloads": 4862,
-      "likes": 127,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "spark2_5",
-        "text-generation",
-        "llm",
-        "sparkx2_5"
-      ],
-      "lastModified": null,
-      "description": "We are introducing Spark-X2.5-4B and Spark-X2.5-1.7B, two compact, general-purpose language models designed to make capable AI more practical, efficient, and accessible. The models deliver strong performance across a broad range of every…"
-    },
-    {
-      "rank": 9,
       "id": "Edge0/Edge0-8B-A1B-preview",
       "url": "https://huggingface.co/Edge0/Edge0-8B-A1B-preview",
       "pipelineTag": "text-generation",
       "downloads": 801,
-      "likes": 40,
+      "likes": 42,
       "tags": [
         "mlx",
         "safetensors",
@@ -701,7 +681,7 @@
       "description": "Edge0-8b-a1b — an 8B MoE LLM that runs at viable speed in under 1 GiB of active memory, via the edge0 streaming inference framework."
     },
     {
-      "rank": 10,
+      "rank": 9,
       "id": "Nanbeige/Nanbeige4.2-3B",
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
@@ -719,12 +699,30 @@
       "description": "Nanbeige4.2-3B is a compact agentic model built on Nanbeige4.2-3B-Base, designed to combine strong agentic behavior with broad reasoning and alignment capabilities. Its Looped Transformer architecture reuses the transformer layers to inc…"
     },
     {
+      "rank": 10,
+      "id": "XHToken/Spark-X2.5-1.7B",
+      "url": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
+      "pipelineTag": "text-generation",
+      "downloads": 4862,
+      "likes": 127,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "spark2_5",
+        "text-generation",
+        "llm",
+        "sparkx2_5"
+      ],
+      "lastModified": null,
+      "description": "We are introducing Spark-X2.5-4B and Spark-X2.5-1.7B, two compact, general-purpose language models designed to make capable AI more practical, efficient, and accessible. The models deliver strong performance across a broad range of every…"
+    },
+    {
       "rank": 11,
       "id": "gdiamos/amx-reasoning-v1-instruct",
       "url": "https://huggingface.co/gdiamos/amx-reasoning-v1-instruct",
       "pipelineTag": "text-generation",
       "downloads": 621,
-      "likes": 33,
+      "likes": 34,
       "tags": [
         "pytorch",
         "safetensors",
@@ -738,6 +736,24 @@
     },
     {
       "rank": 12,
+      "id": "openbmb/MiniCPM5-2B-MLX",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-2B-MLX",
+      "pipelineTag": "text-generation",
+      "downloads": 19958,
+      "likes": 34,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "minicpm",
+        "minicpm5"
+      ],
+      "lastModified": null,
+      "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…"
+    },
+    {
+      "rank": 13,
       "id": "ai-sage/GigaChat3.5-432B-A28B-Reasoning",
       "url": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
       "pipelineTag": "text-generation",
@@ -755,25 +771,25 @@
       "description": "GigaChat 3.5 Reasoning is the first GigaChat model with full reasoning trained with online RL. Compared with GigaChat 3.5 Ultra Instruct, the largest gains are in mathematics, code, instruction following, and structured output."
     },
     {
-      "rank": 13,
-      "id": "openbmb/MiniCPM5-2B-MLX",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-2B-MLX",
+      "rank": 14,
+      "id": "openbmb/MiniCPM5-2B-DSpark",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-2B-DSpark",
       "pipelineTag": "text-generation",
-      "downloads": 19958,
-      "likes": 33,
+      "downloads": 42500,
+      "likes": 31,
       "tags": [
         "transformers",
         "safetensors",
-        "llama",
-        "text-generation",
+        "qwen3",
         "minicpm",
-        "minicpm5"
+        "minicpm5",
+        "llama"
       ],
       "lastModified": null,
-      "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…"
+      "description": "MiniCPM5-2B-DSpark is a DSpark draft checkpoint trained for exact pairing with MiniCPM5-2B and its tokenizer."
     },
     {
-      "rank": 14,
+      "rank": 15,
       "id": "meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
@@ -790,25 +806,25 @@
       "lastModified": null
     },
     {
-      "rank": 15,
-      "id": "openbmb/MiniCPM5-2B-DSpark",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-2B-DSpark",
+      "rank": 16,
+      "id": "openbmb/MiniCPM5-1B",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
-      "downloads": 42500,
-      "likes": 30,
+      "downloads": 673081,
+      "likes": 1124,
       "tags": [
         "transformers",
         "safetensors",
-        "qwen3",
+        "llama",
+        "text-generation",
         "minicpm",
-        "minicpm5",
-        "llama"
+        "minicpm5"
       ],
       "lastModified": null,
-      "description": "MiniCPM5-2B-DSpark is a DSpark draft checkpoint trained for exact pairing with MiniCPM5-2B and its tokenizer."
+      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
     },
     {
-      "rank": 16,
+      "rank": 17,
       "id": "LiquidAI/LFM2.5-2.6B",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
@@ -826,12 +842,12 @@
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "id": "meta-llama/Llama-3.2-3B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 1587087,
-      "likes": 2559,
+      "likes": 2560,
       "tags": [
         "transformers",
         "safetensors",
@@ -843,22 +859,22 @@
       "lastModified": null
     },
     {
-      "rank": 18,
-      "id": "openbmb/MiniCPM5-1B",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+      "rank": 19,
+      "id": "empero-ai/Qwen3.8-9B-Distill-GGUF",
+      "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 673081,
-      "likes": 1121,
+      "downloads": 616745,
+      "likes": 231,
       "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "minicpm",
-        "minicpm5"
+        "gguf",
+        "llama.cpp",
+        "quantized",
+        "empero-ai",
+        "qwen3.5",
+        "qwen3.8"
       ],
       "lastModified": null,
-      "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
+      "description": "GGUF quantizations of empero-ai/Qwen3.8-9B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-9B architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF runtimes."
     }
   ]
 }
