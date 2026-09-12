@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T10:12:21.424Z",
+  "updated": "2026-09-12T15:07:14.711Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 253739900,
-      "likes": 5838,
+      "likes": 5843,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -79,7 +79,7 @@
       "url": "https://huggingface.co/google-bert/bert-base-uncased",
       "pipelineTag": "fill-mask",
       "downloads": 47340648,
-      "likes": 3226,
+      "likes": 3227,
       "tags": [
         "transformers",
         "pytorch",
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 37776672,
-      "likes": 3494,
+      "likes": 3495,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -187,7 +187,7 @@
       "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
       "pipelineTag": "fill-mask",
       "downloads": 21817063,
-      "likes": 895,
+      "likes": 896,
       "tags": [
         "transformers",
         "pytorch",
@@ -241,7 +241,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 18990370,
-      "likes": 1780,
+      "likes": 1787,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -400,7 +400,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 12884290,
-      "likes": 1368,
+      "likes": 1369,
       "tags": [
         "transformers",
         "safetensors",
@@ -418,7 +418,7 @@
       "url": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 12862655,
-      "likes": 990,
+      "likes": 989,
       "tags": [
         "transformers",
         "gguf",
@@ -490,7 +490,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
       "pipelineTag": "image-text-to-text",
       "downloads": 11708210,
-      "likes": 385,
+      "likes": 386,
       "tags": [
         "transformers",
         "safetensors",
@@ -508,7 +508,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 11576384,
-      "likes": 6856,
+      "likes": 6859,
       "tags": [
         "text-to-speech",
         "en",
@@ -525,7 +525,7 @@
       "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
       "pipelineTag": null,
       "downloads": 11529203,
-      "likes": 3922,
+      "likes": 3927,
       "tags": [
         "gguf",
         "qwen3_5",
@@ -544,8 +544,8 @@
       "id": "openbmb/MiniCPM5-2B",
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "pipelineTag": "text-generation",
-      "downloads": 67550,
-      "likes": 1220,
+      "downloads": 102334,
+      "likes": 1233,
       "tags": [
         "transformers",
         "safetensors",
@@ -563,7 +563,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 19733,
-      "likes": 1124,
+      "likes": 1129,
       "tags": [
         "transformers",
         "safetensors",
@@ -580,8 +580,8 @@
       "id": "openbmb/MiniCPM5-2B-GGUF",
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 70755,
-      "likes": 184,
+      "downloads": 87316,
+      "likes": 189,
       "tags": [
         "transformers",
         "gguf",
@@ -595,29 +595,11 @@
     },
     {
       "rank": 4,
-      "id": "XHToken/Spark-X2.5-4B-GGUF",
-      "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 82991,
-      "likes": 149,
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "ollama",
-        "lm-studio",
-        "sparkx2_5",
-        "text-generation"
-      ],
-      "lastModified": null,
-      "description": "Spark-X2.5 is a compact, general-purpose language model for conversation, writing, translation, reasoning, coding, tool use, and agentic workflows. It uses a hybrid attention architecture, supports a native context length of up to 1M tok…"
-    },
-    {
-      "rank": 5,
       "id": "TokenRhythm/NeoHorse-1-4B",
       "url": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B",
       "pipelineTag": "text-generation",
-      "downloads": 6109,
-      "likes": 1258,
+      "downloads": 6860,
+      "likes": 1457,
       "tags": [
         "transformers",
         "safetensors",
@@ -630,12 +612,30 @@
       "description": "/ Reusable benchmark table architecture. Inline styles remain as a fallback for HF rendering. / .vl-table { width: 100%; min-width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px; } .vl-table th { font-size: 15px !…"
     },
     {
+      "rank": 5,
+      "id": "XHToken/Spark-X2.5-4B-GGUF",
+      "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 102339,
+      "likes": 151,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "ollama",
+        "lm-studio",
+        "sparkx2_5",
+        "text-generation"
+      ],
+      "lastModified": null,
+      "description": "Spark-X2.5 is a compact, general-purpose language model for conversation, writing, translation, reasoning, coding, tool use, and agentic workflows. It uses a hybrid attention architecture, supports a native context length of up to 1M tok…"
+    },
+    {
       "rank": 6,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 5591444,
-      "likes": 6908,
+      "likes": 6910,
       "tags": [
         "transformers",
         "safetensors",
@@ -648,10 +648,28 @@
     },
     {
       "rank": 7,
+      "id": "Edge0/Edge0-8B-A1B-preview",
+      "url": "https://huggingface.co/Edge0/Edge0-8B-A1B-preview",
+      "pipelineTag": "text-generation",
+      "downloads": 1049,
+      "likes": 48,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "moe",
+        "edge-inference",
+        "prerouter",
+        "lora"
+      ],
+      "lastModified": null,
+      "description": "Edge0-8b-a1b — an 8B MoE LLM that runs at viable speed in under 1 GiB of active memory, via the edge0 streaming inference framework."
+    },
+    {
+      "rank": 8,
       "id": "IFM/K2-Horizon-7B",
       "url": "https://huggingface.co/IFM/K2-Horizon-7B",
       "pipelineTag": "text-generation",
-      "downloads": 4835,
+      "downloads": 5402,
       "likes": 113,
       "tags": [
         "transformers",
@@ -665,25 +683,25 @@
       "description": "K2-Horizon-7B is the medium dense member of the K2-Horizon family: a 7B-core decoder-only model with a 512K context window."
     },
     {
-      "rank": 8,
-      "id": "Edge0/Edge0-8B-A1B-preview",
-      "url": "https://huggingface.co/Edge0/Edge0-8B-A1B-preview",
+      "rank": 9,
+      "id": "XHToken/Spark-X2.5-1.7B",
+      "url": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
       "pipelineTag": "text-generation",
-      "downloads": 801,
-      "likes": 43,
+      "downloads": 5251,
+      "likes": 129,
       "tags": [
-        "mlx",
+        "transformers",
         "safetensors",
-        "moe",
-        "edge-inference",
-        "prerouter",
-        "lora"
+        "spark2_5",
+        "text-generation",
+        "llm",
+        "sparkx2_5"
       ],
       "lastModified": null,
-      "description": "Edge0-8b-a1b — an 8B MoE LLM that runs at viable speed in under 1 GiB of active memory, via the edge0 streaming inference framework."
+      "description": "We are introducing Spark-X2.5-4B and Spark-X2.5-1.7B, two compact, general-purpose language models designed to make capable AI more practical, efficient, and accessible. The models deliver strong performance across a broad range of every…"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "id": "Nanbeige/Nanbeige4.2-3B",
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "pipelineTag": "text-generation",
@@ -701,29 +719,11 @@
       "description": "Nanbeige4.2-3B is a compact agentic model built on Nanbeige4.2-3B-Base, designed to combine strong agentic behavior with broad reasoning and alignment capabilities. Its Looped Transformer architecture reuses the transformer layers to inc…"
     },
     {
-      "rank": 10,
-      "id": "XHToken/Spark-X2.5-1.7B",
-      "url": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
-      "pipelineTag": "text-generation",
-      "downloads": 5251,
-      "likes": 127,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "spark2_5",
-        "text-generation",
-        "llm",
-        "sparkx2_5"
-      ],
-      "lastModified": null,
-      "description": "We are introducing Spark-X2.5-4B and Spark-X2.5-1.7B, two compact, general-purpose language models designed to make capable AI more practical, efficient, and accessible. The models deliver strong performance across a broad range of every…"
-    },
-    {
       "rank": 11,
       "id": "gdiamos/amx-reasoning-v1-instruct",
       "url": "https://huggingface.co/gdiamos/amx-reasoning-v1-instruct",
       "pipelineTag": "text-generation",
-      "downloads": 621,
+      "downloads": 651,
       "likes": 34,
       "tags": [
         "pytorch",
@@ -741,7 +741,7 @@
       "id": "ai-sage/GigaChat3.5-432B-A28B-Reasoning",
       "url": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
       "pipelineTag": "text-generation",
-      "downloads": 187,
+      "downloads": 235,
       "likes": 30,
       "tags": [
         "safetensors",
@@ -759,7 +759,7 @@
       "id": "openbmb/MiniCPM5-2B-MLX",
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B-MLX",
       "pipelineTag": "text-generation",
-      "downloads": 19958,
+      "downloads": 27708,
       "likes": 34,
       "tags": [
         "transformers",
@@ -777,7 +777,7 @@
       "id": "openbmb/MiniCPM5-2B-DSpark",
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B-DSpark",
       "pipelineTag": "text-generation",
-      "downloads": 42500,
+      "downloads": 77785,
       "likes": 31,
       "tags": [
         "transformers",
@@ -796,7 +796,7 @@
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 1215081,
-      "likes": 4966,
+      "likes": 4969,
       "tags": [
         "transformers",
         "safetensors",
@@ -809,6 +809,23 @@
     },
     {
       "rank": 16,
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 1605242,
+      "likes": 2563,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 17,
       "id": "openbmb/MiniCPM5-1B",
       "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
       "pipelineTag": "text-generation",
@@ -826,29 +843,12 @@
       "description": "We are releasing MiniCPM5-1B, the first model in the MiniCPM5 series. It is a dense 1B Transformer built for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA."
     },
     {
-      "rank": 17,
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 1605242,
-      "likes": 2561,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
       "rank": 18,
       "id": "LiquidAI/LFM2.5-2.6B",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "pipelineTag": "text-generation",
       "downloads": 107587,
-      "likes": 754,
+      "likes": 755,
       "tags": [
         "transformers",
         "safetensors",
@@ -866,7 +866,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 650943,
-      "likes": 236,
+      "likes": 235,
       "tags": [
         "gguf",
         "llama.cpp",
