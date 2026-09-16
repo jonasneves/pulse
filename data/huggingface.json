@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T20:57:04.351Z",
+  "updated": "2026-09-16T23:35:24.738Z",
   "models": [
     {
       "rank": 1,
@@ -241,7 +241,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 20053814,
-      "likes": 1866,
+      "likes": 1867,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -490,7 +490,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 11751590,
-      "likes": 6939,
+      "likes": 6940,
       "tags": [
         "text-to-speech",
         "en",
@@ -545,7 +545,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "pipelineTag": "text-generation",
       "downloads": 324322,
-      "likes": 1501,
+      "likes": 1504,
       "tags": [
         "transformers",
         "safetensors",
@@ -634,7 +634,7 @@
       "url": "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD",
       "pipelineTag": "text-generation",
       "downloads": 0,
-      "likes": 102,
+      "likes": 115,
       "tags": [
         "mlx",
         "structured-generation",
@@ -652,7 +652,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 130756,
-      "likes": 241,
+      "likes": 243,
       "tags": [
         "transformers",
         "gguf",
@@ -670,7 +670,7 @@
       "url": "https://huggingface.co/IFM/K2-Horizon-7B",
       "pipelineTag": "text-generation",
       "downloads": 9168,
-      "likes": 190,
+      "likes": 193,
       "tags": [
         "transformers",
         "safetensors",
@@ -684,6 +684,24 @@
     },
     {
       "rank": 9,
+      "id": "Edge0/Edge0-8B-A1B-preview",
+      "url": "https://huggingface.co/Edge0/Edge0-8B-A1B-preview",
+      "pipelineTag": "text-generation",
+      "downloads": 3569,
+      "likes": 65,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "moe",
+        "edge-inference",
+        "prerouter",
+        "lora"
+      ],
+      "lastModified": null,
+      "description": "Edge0-8b-a1b — an 8B MoE LLM that runs at viable speed in under 1 GiB of active memory, via the edge0 streaming inference framework."
+    },
+    {
+      "rank": 10,
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
@@ -699,24 +717,6 @@
       ],
       "lastModified": null,
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
-      "rank": 10,
-      "id": "Edge0/Edge0-8B-A1B-preview",
-      "url": "https://huggingface.co/Edge0/Edge0-8B-A1B-preview",
-      "pipelineTag": "text-generation",
-      "downloads": 3569,
-      "likes": 63,
-      "tags": [
-        "mlx",
-        "safetensors",
-        "moe",
-        "edge-inference",
-        "prerouter",
-        "lora"
-      ],
-      "lastModified": null,
-      "description": "Edge0-8b-a1b — an 8B MoE LLM that runs at viable speed in under 1 GiB of active memory, via the edge0 streaming inference framework."
     },
     {
       "rank": 11,
@@ -760,7 +760,7 @@
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 1207551,
-      "likes": 5034,
+      "likes": 5036,
       "tags": [
         "transformers",
         "safetensors",
@@ -808,6 +808,23 @@
     },
     {
       "rank": 16,
+      "id": "meta-llama/Llama-3.2-1B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 6731334,
+      "likes": 1663,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 17,
       "id": "IFM/K2-Horizon-3.7B",
       "url": "https://huggingface.co/IFM/K2-Horizon-3.7B",
       "pipelineTag": "text-generation",
@@ -825,24 +842,25 @@
       "description": "K2-Horizon-3.7B is the small dense member of the K2-Horizon family: a 3.7B-core decoder-only model with a 512K context window."
     },
     {
-      "rank": 17,
-      "id": "meta-llama/Llama-3.2-1B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+      "rank": 18,
+      "id": "bartowski/MiniCPM5-2B-GGUF",
+      "url": "https://huggingface.co/bartowski/MiniCPM5-2B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 6731334,
-      "likes": 1663,
+      "downloads": 11149,
+      "likes": 28,
       "tags": [
-        "transformers",
-        "safetensors",
+        "gguf",
+        "minicpm",
+        "minicpm5",
         "llama",
         "text-generation",
-        "facebook",
-        "meta"
+        "long-context"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "Don't know which to choose? Grab Q4_K_M (1.62GB) - usually a good mix of size and performance. Download instructions available here"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "id": "empero-ai/Qwen3.8-9B-Distill-GGUF",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
       "pipelineTag": "text-generation",
@@ -858,24 +876,6 @@
       ],
       "lastModified": null,
       "description": "GGUF quantizations of empero-ai/Qwen3.8-9B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-9B architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF runtimes."
-    },
-    {
-      "rank": 19,
-      "id": "bartowski/MiniCPM5-2B-GGUF",
-      "url": "https://huggingface.co/bartowski/MiniCPM5-2B-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 11149,
-      "likes": 27,
-      "tags": [
-        "gguf",
-        "minicpm",
-        "minicpm5",
-        "llama",
-        "text-generation",
-        "long-context"
-      ],
-      "lastModified": null,
-      "description": "Don't know which to choose? Grab Q4_K_M (1.62GB) - usually a good mix of size and performance. Download instructions available here"
     },
     {
       "rank": 20,
