@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T21:00:03.186Z",
+  "updated": "2026-09-17T23:29:55.727Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 255618777,
-      "likes": 6046,
+      "likes": 6047,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -241,7 +241,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 20042055,
-      "likes": 1882,
+      "likes": 1883,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -545,7 +545,7 @@
       "url": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B",
       "pipelineTag": "text-generation",
       "downloads": 19789,
-      "likes": 2287,
+      "likes": 2306,
       "tags": [
         "transformers",
         "safetensors",
@@ -581,7 +581,7 @@
       "url": "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD",
       "pipelineTag": "text-generation",
       "downloads": 0,
-      "likes": 253,
+      "likes": 256,
       "tags": [
         "mlx",
         "structured-generation",
@@ -599,7 +599,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 5887953,
-      "likes": 7693,
+      "likes": 7694,
       "tags": [
         "transformers",
         "safetensors",
@@ -616,7 +616,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 28347,
-      "likes": 1259,
+      "likes": 1261,
       "tags": [
         "transformers",
         "safetensors",
@@ -706,7 +706,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 4633,
-      "likes": 60,
+      "likes": 61,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -742,7 +742,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 206937,
-      "likes": 193,
+      "likes": 195,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -760,7 +760,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-35B-A3B-Distill",
       "pipelineTag": "text-generation",
       "downloads": 261,
-      "likes": 41,
+      "likes": 42,
       "tags": [
         "transformers",
         "safetensors",
@@ -774,6 +774,24 @@
     },
     {
       "rank": 14,
+      "id": "IFM/K2-Horizon-7B-Uno",
+      "url": "https://huggingface.co/IFM/K2-Horizon-7B-Uno",
+      "pipelineTag": "text-generation",
+      "downloads": 46547,
+      "likes": 71,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "diffusion-language-model",
+        "conditional-lora",
+        "uno"
+      ],
+      "lastModified": null,
+      "description": "Paper: Unlocking Lossless Speedups in LLMs via Discrete Diffusion Project Page: https://s-sahoo.github.io/uno/ Code: https://github.com/ifm-ai/uno"
+    },
+    {
+      "rank": 15,
       "id": "Edge0/Edge0-8B-A1B-preview",
       "url": "https://huggingface.co/Edge0/Edge0-8B-A1B-preview",
       "pipelineTag": "text-generation",
@@ -789,24 +807,6 @@
       ],
       "lastModified": null,
       "description": "Edge0-8b-a1b — an 8B MoE LLM that runs at viable speed in under 1 GiB of active memory, via the edge0 streaming inference framework."
-    },
-    {
-      "rank": 15,
-      "id": "IFM/K2-Horizon-7B-Uno",
-      "url": "https://huggingface.co/IFM/K2-Horizon-7B-Uno",
-      "pipelineTag": "text-generation",
-      "downloads": 46547,
-      "likes": 67,
-      "tags": [
-        "peft",
-        "safetensors",
-        "lora",
-        "diffusion-language-model",
-        "conditional-lora",
-        "uno"
-      ],
-      "lastModified": null,
-      "description": "Paper: Unlocking Lossless Speedups in LLMs via Discrete Diffusion Project Page: https://s-sahoo.github.io/uno/ Code: https://github.com/ifm-ai/uno"
     },
     {
       "rank": 16,
@@ -827,6 +827,24 @@
     },
     {
       "rank": 17,
+      "id": "empero-ai/Qwen3.8-9B-Distill-GGUF",
+      "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 683145,
+      "likes": 260,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "quantized",
+        "empero-ai",
+        "qwen3.5",
+        "qwen3.8"
+      ],
+      "lastModified": null,
+      "description": "GGUF quantizations of empero-ai/Qwen3.8-9B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-9B architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF runtimes."
+    },
+    {
+      "rank": 18,
       "id": "meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
@@ -843,25 +861,24 @@
       "lastModified": null
     },
     {
-      "rank": 18,
-      "id": "empero-ai/Qwen3.8-9B-Distill-GGUF",
-      "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
+      "rank": 19,
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 683145,
-      "likes": 259,
+      "downloads": 1839336,
+      "likes": 2608,
       "tags": [
-        "gguf",
-        "llama.cpp",
-        "quantized",
-        "empero-ai",
-        "qwen3.5",
-        "qwen3.8"
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
       ],
-      "lastModified": null,
-      "description": "GGUF quantizations of empero-ai/Qwen3.8-9B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-9B architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF runtimes."
+      "lastModified": null
     },
     {
-      "rank": 19,
+      "rank": 20,
       "id": "IFM/K2-Horizon-3.7B",
       "url": "https://huggingface.co/IFM/K2-Horizon-3.7B",
       "pipelineTag": "text-generation",
@@ -877,23 +894,6 @@
       ],
       "lastModified": null,
       "description": "K2-Horizon-3.7B is the small dense member of the K2-Horizon family: a 3.7B-core decoder-only model with a 512K context window."
-    },
-    {
-      "rank": 20,
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 1839336,
-      "likes": 2607,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
     },
     {
       "rank": 21,
