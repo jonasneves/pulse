@@ -27,4 +27,4 @@ WebMCP tool registration requires Chrome 146+ Canary with `chrome://flags/#webmc
 
 ## Layout
 
-Flat files, one concern each. `index.html` shell, `index.css` styles, `index.js` UI wiring; `{github,huggingface,spaces}.js` card renderers; `charts.js` velocity bar + sparklines; `tools.js` the WebMCP surface. See [CLAUDE.md](CLAUDE.md) for the per-file map, data-flow notes, and visualization guidance.
+Flat files, one concern each. `index.html` shell, `index.css` styles, `index.js` UI wiring; `{github,huggingface,spaces}.js` card renderers; `charts.js` velocity bar + sparklines; `tools.js` the WebMCP surface. See [AGENTS.md](AGENTS.md) for the per-file map, data-flow notes, and visualization guidance.
