@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T10:45:40.219Z",
+  "updated": "2026-09-20T15:33:49.393Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 252170882,
-      "likes": 6091,
+      "likes": 6092,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -43,7 +43,7 @@
       "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "pipelineTag": "feature-extraction",
       "downloads": 64447211,
-      "likes": 585,
+      "likes": 586,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 37633121,
-      "likes": 3576,
+      "likes": 3577,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -241,7 +241,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 20700265,
-      "likes": 1934,
+      "likes": 1938,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -329,7 +329,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 15132408,
-      "likes": 4152,
+      "likes": 4153,
       "tags": [
         "transformers",
         "pytorch",
@@ -400,7 +400,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 12880320,
-      "likes": 2019,
+      "likes": 2021,
       "tags": [
         "transformers",
         "safetensors",
@@ -436,7 +436,7 @@
       "url": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 12697785,
-      "likes": 1039,
+      "likes": 1040,
       "tags": [
         "transformers",
         "gguf",
@@ -454,7 +454,7 @@
       "url": "https://huggingface.co/intfloat/multilingual-e5-small",
       "pipelineTag": "sentence-similarity",
       "downloads": 12267694,
-      "likes": 419,
+      "likes": 420,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -545,7 +545,7 @@
       "url": "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD",
       "pipelineTag": "text-generation",
       "downloads": 0,
-      "likes": 462,
+      "likes": 468,
       "tags": [
         "mlx",
         "structured-generation",
@@ -563,7 +563,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "pipelineTag": "text-generation",
       "downloads": 420622,
-      "likes": 1606,
+      "likes": 1617,
       "tags": [
         "transformers",
         "safetensors",
@@ -581,7 +581,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 5910102,
-      "likes": 7760,
+      "likes": 7764,
       "tags": [
         "transformers",
         "safetensors",
@@ -598,7 +598,7 @@
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
       "pipelineTag": "text-generation",
       "downloads": 772985,
-      "likes": 14270,
+      "likes": 14272,
       "tags": [
         "transformers",
         "safetensors",
@@ -616,7 +616,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 30772,
-      "likes": 1287,
+      "likes": 1289,
       "tags": [
         "transformers",
         "safetensors",
@@ -652,7 +652,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 52476,
-      "likes": 99,
+      "likes": 103,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -670,7 +670,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 180593,
-      "likes": 281,
+      "likes": 282,
       "tags": [
         "transformers",
         "gguf",
@@ -688,7 +688,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 12880320,
-      "likes": 2019,
+      "likes": 2021,
       "tags": [
         "transformers",
         "safetensors",
@@ -756,6 +756,24 @@
     },
     {
       "rank": 13,
+      "id": "empero-ai/Qwen3.8-35B-A3B-Distill",
+      "url": "https://huggingface.co/empero-ai/Qwen3.8-35B-A3B-Distill",
+      "pipelineTag": "text-generation",
+      "downloads": 3839,
+      "likes": 50,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5_moe",
+        "image-text-to-text",
+        "empero-ai",
+        "qwen3.6"
+      ],
+      "lastModified": null,
+      "description": "Qwen3.8-35B-A3B is a distillation of the Qwen3.8 frontier models into the Qwen3.6-35B-A3B Mixture-of-Experts architecture. The student was trained on curated teacher traces from our internal Qwen3.8 distillation datasets — dense chain-of…"
+    },
+    {
+      "rank": 14,
       "id": "XHToken/Spark-X2.5-4B-GGUF",
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
@@ -773,30 +791,12 @@
       "description": "Spark-X2.5 is a compact, general-purpose language model for conversation, writing, translation, reasoning, coding, tool use, and agentic workflows. It uses a hybrid attention architecture, supports a native context length of up to 1M tok…"
     },
     {
-      "rank": 14,
-      "id": "empero-ai/Qwen3.8-35B-A3B-Distill",
-      "url": "https://huggingface.co/empero-ai/Qwen3.8-35B-A3B-Distill",
-      "pipelineTag": "text-generation",
-      "downloads": 3839,
-      "likes": 49,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5_moe",
-        "image-text-to-text",
-        "empero-ai",
-        "qwen3.6"
-      ],
-      "lastModified": null,
-      "description": "Qwen3.8-35B-A3B is a distillation of the Qwen3.8 frontier models into the Qwen3.6-35B-A3B Mixture-of-Experts architecture. The student was trained on curated teacher traces from our internal Qwen3.8 distillation datasets — dense chain-of…"
-    },
-    {
       "rank": 15,
       "id": "meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 1201479,
-      "likes": 5061,
+      "likes": 5063,
       "tags": [
         "transformers",
         "safetensors",
@@ -883,7 +883,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 693486,
-      "likes": 265,
+      "likes": 266,
       "tags": [
         "gguf",
         "llama.cpp",
