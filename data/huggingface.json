@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T16:37:17.822Z",
+  "updated": "2026-09-24T21:12:54.619Z",
   "models": [
     {
       "rank": 1,
@@ -205,7 +205,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 21820807,
-      "likes": 1987,
+      "likes": 1991,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -382,7 +382,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 12522822,
-      "likes": 2039,
+      "likes": 2040,
       "tags": [
         "transformers",
         "safetensors",
@@ -436,7 +436,7 @@
       "url": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 12031627,
-      "likes": 1064,
+      "likes": 1065,
       "tags": [
         "transformers",
         "gguf",
@@ -454,7 +454,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 11870208,
-      "likes": 6996,
+      "likes": 6997,
       "tags": [
         "text-to-speech",
         "en",
@@ -471,7 +471,7 @@
       "url": "https://huggingface.co/argmaxinc/whisperkit-coreml",
       "pipelineTag": "automatic-speech-recognition",
       "downloads": 11171410,
-      "likes": 229,
+      "likes": 230,
       "tags": [
         "whisperkit",
         "coreml",
@@ -489,7 +489,7 @@
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 10715414,
-      "likes": 1547,
+      "likes": 1548,
       "tags": [
         "transformers",
         "safetensors",
@@ -545,7 +545,7 @@
       "url": "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD",
       "pipelineTag": "text-generation",
       "downloads": 0,
-      "likes": 564,
+      "likes": 565,
       "tags": [
         "mlx",
         "structured-generation",
@@ -598,7 +598,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 133496,
-      "likes": 140,
+      "likes": 141,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -630,24 +630,6 @@
     },
     {
       "rank": 6,
-      "id": "XHToken/Spark-X2.5-4B",
-      "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
-      "pipelineTag": "text-generation",
-      "downloads": 34724,
-      "likes": 1318,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "spark2_5",
-        "text-generation",
-        "llm",
-        "sparkx2_5"
-      ],
-      "lastModified": null,
-      "description": "We are introducing Spark-X2.5-4B and Spark-X2.5-1.7B, two compact, general-purpose language models designed to make capable AI more practical, efficient, and accessible. The models deliver strong performance across a broad range of every…"
-    },
-    {
-      "rank": 7,
       "id": "peculiar-ragdoll/Sharp-Spark-X2.5-4B-GGUF",
       "url": "https://huggingface.co/peculiar-ragdoll/Sharp-Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
@@ -665,12 +647,12 @@
       "description": "Dynamic imatrix GGUF quants of XHToken/Spark-X2.5-4B, a 4B dense long-context model, carrying our cyber-and-coding-weighted importance matrix, a heuristic per-tensor bit allocation, and the Sharp-Spark chat template."
     },
     {
-      "rank": 8,
+      "rank": 7,
       "id": "paradigma-inc/limite-1b-violetto",
       "url": "https://huggingface.co/paradigma-inc/limite-1b-violetto",
       "pipelineTag": "text-generation",
       "downloads": 2086,
-      "likes": 61,
+      "likes": 62,
       "tags": [
         "safetensors",
         "limite",
@@ -683,30 +665,30 @@
       "description": "Paradigma's first model, built for high-throughput mathematical reasoning."
     },
     {
-      "rank": 9,
-      "id": "IFM/K2-Horizon-7B-Uno",
-      "url": "https://huggingface.co/IFM/K2-Horizon-7B-Uno",
+      "rank": 8,
+      "id": "XHToken/Spark-X2.5-4B",
+      "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
-      "downloads": 58456,
-      "likes": 96,
+      "downloads": 34724,
+      "likes": 1320,
       "tags": [
-        "peft",
+        "transformers",
         "safetensors",
-        "lora",
-        "diffusion-language-model",
-        "conditional-lora",
-        "uno"
+        "spark2_5",
+        "text-generation",
+        "llm",
+        "sparkx2_5"
       ],
       "lastModified": null,
-      "description": "Paper: Unlocking Lossless Speedups in LLMs via Discrete Diffusion Project Page: https://s-sahoo.github.io/uno/ Code: https://github.com/ifm-ai/uno"
+      "description": "We are introducing Spark-X2.5-4B and Spark-X2.5-1.7B, two compact, general-purpose language models designed to make capable AI more practical, efficient, and accessible. The models deliver strong performance across a broad range of every…"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "id": "XHToken/Spark-X2.5-4B-GGUF",
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 345005,
-      "likes": 229,
+      "likes": 230,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -719,12 +701,12 @@
       "description": "Spark-X2.5 is a compact, general-purpose language model for conversation, writing, translation, reasoning, coding, tool use, and agentic workflows. It uses a hybrid attention architecture, supports a native context length of up to 1M tok…"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "id": "meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 1183533,
-      "likes": 5104,
+      "likes": 5105,
       "tags": [
         "transformers",
         "safetensors",
@@ -736,12 +718,30 @@
       "lastModified": null
     },
     {
+      "rank": 11,
+      "id": "IFM/K2-Horizon-7B-Uno",
+      "url": "https://huggingface.co/IFM/K2-Horizon-7B-Uno",
+      "pipelineTag": "text-generation",
+      "downloads": 58456,
+      "likes": 97,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "diffusion-language-model",
+        "conditional-lora",
+        "uno"
+      ],
+      "lastModified": null,
+      "description": "Paper: Unlocking Lossless Speedups in LLMs via Discrete Diffusion Project Page: https://s-sahoo.github.io/uno/ Code: https://github.com/ifm-ai/uno"
+    },
+    {
       "rank": 12,
       "id": "IFM/K2-Horizon-7B",
       "url": "https://huggingface.co/IFM/K2-Horizon-7B",
       "pipelineTag": "text-generation",
       "downloads": 20758,
-      "likes": 231,
+      "likes": 232,
       "tags": [
         "transformers",
         "safetensors",
@@ -822,23 +822,6 @@
       ],
       "lastModified": null,
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
-      "rank": 17,
-      "id": "DavidAU/LFM2.5-2.6B-Qwen3.8-Super-Thinker",
-      "url": "https://huggingface.co/DavidAU/LFM2.5-2.6B-Qwen3.8-Super-Thinker",
-      "pipelineTag": "text-generation",
-      "downloads": 4,
-      "likes": 33,
-      "tags": [
-        "gguf",
-        "liquid",
-        "lfm2.5",
-        "edge",
-        "text-generation",
-        "ar"
-      ],
-      "lastModified": null
     }
   ]
 }
