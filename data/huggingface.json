@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T11:13:28.996Z",
+  "updated": "2026-09-24T16:37:17.822Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 250598416,
-      "likes": 6115,
+      "likes": 6119,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -61,7 +61,7 @@
       "url": "https://huggingface.co/google/electra-base-discriminator",
       "pipelineTag": null,
       "downloads": 47287590,
-      "likes": 185,
+      "likes": 186,
       "tags": [
         "transformers",
         "pytorch",
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 37173706,
-      "likes": 3620,
+      "likes": 3628,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 27752004,
-      "likes": 1674,
+      "likes": 1676,
       "tags": [
         "transformers",
         "safetensors",
@@ -151,7 +151,7 @@
       "url": "https://huggingface.co/google-t5/t5-small",
       "pipelineTag": "translation",
       "downloads": 24567008,
-      "likes": 636,
+      "likes": 638,
       "tags": [
         "transformers",
         "pytorch",
@@ -205,7 +205,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 21820807,
-      "likes": 1985,
+      "likes": 1987,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -257,7 +257,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct",
       "pipelineTag": "image-text-to-text",
       "downloads": 19665641,
-      "likes": 1143,
+      "likes": 1144,
       "tags": [
         "transformers",
         "safetensors",
@@ -311,7 +311,7 @@
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
       "downloads": 17295429,
-      "likes": 1213,
+      "likes": 1214,
       "tags": [
         "sentence-transformers",
         "safetensors",
@@ -329,7 +329,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 15375302,
-      "likes": 4169,
+      "likes": 4170,
       "tags": [
         "transformers",
         "pytorch",
@@ -454,7 +454,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 11870208,
-      "likes": 6993,
+      "likes": 6996,
       "tags": [
         "text-to-speech",
         "en",
@@ -489,7 +489,7 @@
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 10715414,
-      "likes": 1546,
+      "likes": 1547,
       "tags": [
         "transformers",
         "safetensors",
@@ -545,7 +545,7 @@
       "url": "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD",
       "pipelineTag": "text-generation",
       "downloads": 0,
-      "likes": 563,
+      "likes": 564,
       "tags": [
         "mlx",
         "structured-generation",
@@ -563,7 +563,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "pipelineTag": "text-generation",
       "downloads": 619544,
-      "likes": 1676,
+      "likes": 1677,
       "tags": [
         "transformers",
         "safetensors",
@@ -577,11 +577,28 @@
     },
     {
       "rank": 3,
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 6247724,
+      "likes": 7876,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 4,
       "id": "empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 133496,
-      "likes": 138,
+      "likes": 140,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -594,24 +611,25 @@
       "description": "GGUF quantizations of empero-ai/Qwen3.8-35B-A3B-Distill — a distillation of the Qwen3.8 frontier models into the Qwen3.6-35B-A3B Mixture-of-Experts architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF run…"
     },
     {
-      "rank": 4,
-      "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "rank": 5,
+      "id": "openbmb/MiniCPM5-2B-GGUF",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 6247724,
-      "likes": 7869,
+      "downloads": 212034,
+      "likes": 322,
       "tags": [
         "transformers",
-        "safetensors",
+        "gguf",
+        "minicpm",
+        "minicpm5",
         "llama",
-        "text-generation",
-        "facebook",
-        "meta"
+        "text-generation"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "id": "XHToken/Spark-X2.5-4B",
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
@@ -629,30 +647,12 @@
       "description": "We are introducing Spark-X2.5-4B and Spark-X2.5-1.7B, two compact, general-purpose language models designed to make capable AI more practical, efficient, and accessible. The models deliver strong performance across a broad range of every…"
     },
     {
-      "rank": 6,
-      "id": "openbmb/MiniCPM5-2B-GGUF",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 212034,
-      "likes": 319,
-      "tags": [
-        "transformers",
-        "gguf",
-        "minicpm",
-        "minicpm5",
-        "llama",
-        "text-generation"
-      ],
-      "lastModified": null,
-      "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…"
-    },
-    {
       "rank": 7,
       "id": "peculiar-ragdoll/Sharp-Spark-X2.5-4B-GGUF",
       "url": "https://huggingface.co/peculiar-ragdoll/Sharp-Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 3736,
-      "likes": 65,
+      "likes": 67,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -670,7 +670,7 @@
       "url": "https://huggingface.co/paradigma-inc/limite-1b-violetto",
       "pipelineTag": "text-generation",
       "downloads": 2086,
-      "likes": 58,
+      "likes": 61,
       "tags": [
         "safetensors",
         "limite",
@@ -720,6 +720,23 @@
     },
     {
       "rank": 11,
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 1183533,
+      "likes": 5104,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 12,
       "id": "IFM/K2-Horizon-7B",
       "url": "https://huggingface.co/IFM/K2-Horizon-7B",
       "pipelineTag": "text-generation",
@@ -737,47 +754,12 @@
       "description": "K2-Horizon-7B is the medium dense member of the K2-Horizon family: a 7B-core decoder-only model with a 512K context window."
     },
     {
-      "rank": 12,
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 1183533,
-      "likes": 5102,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
       "rank": 13,
-      "id": "empero-ai/Qwen3.8-35B-A3B-Distill",
-      "url": "https://huggingface.co/empero-ai/Qwen3.8-35B-A3B-Distill",
-      "pipelineTag": "text-generation",
-      "downloads": 4881,
-      "likes": 58,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5_moe",
-        "image-text-to-text",
-        "empero-ai",
-        "qwen3.6"
-      ],
-      "lastModified": null,
-      "description": "Qwen3.8-35B-A3B is a distillation of the Qwen3.8 frontier models into the Qwen3.6-35B-A3B Mixture-of-Experts architecture. The student was trained on curated teacher traces from our internal Qwen3.8 distillation datasets — dense chain-of…"
-    },
-    {
-      "rank": 14,
       "id": "meta-llama/Llama-3.2-3B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 1930279,
-      "likes": 2652,
+      "likes": 2655,
       "tags": [
         "transformers",
         "safetensors",
@@ -787,6 +769,24 @@
         "meta"
       ],
       "lastModified": null
+    },
+    {
+      "rank": 14,
+      "id": "RavichandranJ/Dolphin3-Cyber-8B-GGUF",
+      "url": "https://huggingface.co/RavichandranJ/Dolphin3-Cyber-8B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 46314,
+      "likes": 217,
+      "tags": [
+        "transformers",
+        "gguf",
+        "llama",
+        "text-generation",
+        "GGUF",
+        "llama-cpp"
+      ],
+      "lastModified": null,
+      "description": "Fine-tuned for Offensive Security • Defensive Security • Vulnerability Research • Exploit Development"
     },
     {
       "rank": 15,
@@ -807,39 +807,38 @@
     },
     {
       "rank": 16,
-      "id": "TokenRhythm/NeoHorse-1-4B",
-      "url": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B",
+      "id": "Qwen/Qwen3-0.6B",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
-      "downloads": 26344,
-      "likes": 2539,
+      "downloads": 27752004,
+      "likes": 1676,
       "tags": [
         "transformers",
         "safetensors",
-        "qwen3_5_text",
+        "qwen3",
         "text-generation",
-        "agentic",
-        "tool-use"
+        "conversational",
+        "license:apache-2.0"
       ],
       "lastModified": null,
-      "description": "/ Reusable benchmark table architecture. Inline styles remain as a fallback for HF rendering. / .vl-table { width: 100%; min-width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 15px; } .vl-table th { font-size: 15px !…"
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
       "rank": 17,
-      "id": "RavichandranJ/Dolphin3-Cyber-8B-GGUF",
-      "url": "https://huggingface.co/RavichandranJ/Dolphin3-Cyber-8B-GGUF",
+      "id": "DavidAU/LFM2.5-2.6B-Qwen3.8-Super-Thinker",
+      "url": "https://huggingface.co/DavidAU/LFM2.5-2.6B-Qwen3.8-Super-Thinker",
       "pipelineTag": "text-generation",
-      "downloads": 46314,
-      "likes": 216,
+      "downloads": 4,
+      "likes": 33,
       "tags": [
-        "transformers",
         "gguf",
-        "llama",
+        "liquid",
+        "lfm2.5",
+        "edge",
         "text-generation",
-        "GGUF",
-        "llama-cpp"
+        "ar"
       ],
-      "lastModified": null,
-      "description": "Fine-tuned for Offensive Security • Defensive Security • Vulnerability Research • Exploit Development"
+      "lastModified": null
     }
   ]
 }
