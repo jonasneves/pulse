@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T20:42:53.451Z",
+  "updated": "2026-09-26T23:23:26.135Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 245656284,
-      "likes": 6125,
+      "likes": 6127,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 36622223,
-      "likes": 3673,
+      "likes": 3677,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -275,7 +275,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct",
       "pipelineTag": "image-text-to-text",
       "downloads": 18555061,
-      "likes": 1151,
+      "likes": 1152,
       "tags": [
         "transformers",
         "safetensors",
@@ -293,7 +293,7 @@
       "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "pipelineTag": "text-classification",
       "downloads": 17142564,
-      "likes": 1216,
+      "likes": 1217,
       "tags": [
         "sentence-transformers",
         "safetensors",
@@ -419,7 +419,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 11674701,
-      "likes": 7018,
+      "likes": 7021,
       "tags": [
         "text-to-speech",
         "en",
@@ -436,7 +436,7 @@
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 11529170,
-      "likes": 1556,
+      "likes": 1557,
       "tags": [
         "transformers",
         "safetensors",
@@ -471,7 +471,7 @@
       "url": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 11170170,
-      "likes": 1074,
+      "likes": 1075,
       "tags": [
         "transformers",
         "gguf",
@@ -525,7 +525,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 9971153,
-      "likes": 2289,
+      "likes": 2295,
       "tags": [
         "transformers",
         "safetensors",
@@ -581,7 +581,7 @@
       "url": "https://huggingface.co/peculiar-ragdoll/Sharp-Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 5358,
-      "likes": 75,
+      "likes": 79,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -599,7 +599,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 6191239,
-      "likes": 7939,
+      "likes": 7943,
       "tags": [
         "transformers",
         "safetensors",
@@ -652,7 +652,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 221812,
-      "likes": 150,
+      "likes": 151,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -688,7 +688,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 36138,
-      "likes": 1329,
+      "likes": 1330,
       "tags": [
         "transformers",
         "safetensors",
@@ -719,6 +719,23 @@
     },
     {
       "rank": 11,
+      "id": "meta-llama/Llama-3.2-1B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 7420279,
+      "likes": 1731,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 12,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
@@ -734,23 +751,6 @@
       ],
       "lastModified": null,
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
-      "rank": 12,
-      "id": "meta-llama/Llama-3.2-1B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 7420279,
-      "likes": 1730,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
     },
     {
       "rank": 13,
@@ -772,39 +772,21 @@
     },
     {
       "rank": 14,
-      "id": "XHToken/Spark-X2.5-4B-GGUF",
-      "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
+      "id": "RavichandranJ/Dolphin3-Cyber-8B-GGUF",
+      "url": "https://huggingface.co/RavichandranJ/Dolphin3-Cyber-8B-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 387673,
-      "likes": 234,
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "ollama",
-        "lm-studio",
-        "sparkx2_5",
-        "unsloth"
-      ],
-      "lastModified": null,
-      "description": "Spark-X2.5 is a compact, general-purpose language model for conversation, writing, translation, reasoning, coding, tool use, and agentic workflows. It uses a hybrid attention architecture, supports a native context length of up to 1M tok…"
-    },
-    {
-      "rank": 15,
-      "id": "IFM/K2-Horizon-7B",
-      "url": "https://huggingface.co/IFM/K2-Horizon-7B",
-      "pipelineTag": "text-generation",
-      "downloads": 22601,
-      "likes": 235,
+      "downloads": 46850,
+      "likes": 221,
       "tags": [
         "transformers",
-        "safetensors",
-        "k2_horizon",
+        "gguf",
+        "llama",
         "text-generation",
-        "k2-horizon",
-        "7b"
+        "GGUF",
+        "llama-cpp"
       ],
       "lastModified": null,
-      "description": "K2-Horizon-7B is the medium dense member of the K2-Horizon family: a 7B-core decoder-only model with a 512K context window."
+      "description": "Fine-tuned for Offensive Security • Defensive Security • Vulnerability Research • Exploit Development"
     }
   ]
 }
