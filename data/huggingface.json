@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T21:10:28.189Z",
+  "updated": "2026-09-26T03:52:14.973Z",
   "models": [
     {
       "rank": 1,
@@ -205,7 +205,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 21737402,
-      "likes": 2004,
+      "likes": 2006,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -365,7 +365,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 12343793,
-      "likes": 2045,
+      "likes": 2047,
       "tags": [
         "transformers",
         "safetensors",
@@ -383,7 +383,7 @@
       "url": "https://huggingface.co/intfloat/multilingual-e5-small",
       "pipelineTag": "sentence-similarity",
       "downloads": 12067232,
-      "likes": 430,
+      "likes": 431,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -401,7 +401,7 @@
       "url": "https://huggingface.co/trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
       "pipelineTag": "text-generation",
       "downloads": 11861111,
-      "likes": 50,
+      "likes": 51,
       "tags": [
         "transformers",
         "safetensors",
@@ -419,7 +419,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 11695126,
-      "likes": 7008,
+      "likes": 7009,
       "tags": [
         "text-to-speech",
         "en",
@@ -453,7 +453,7 @@
       "url": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 11599299,
-      "likes": 1069,
+      "likes": 1071,
       "tags": [
         "transformers",
         "gguf",
@@ -471,7 +471,7 @@
       "url": "https://huggingface.co/argmaxinc/whisperkit-coreml",
       "pipelineTag": "automatic-speech-recognition",
       "downloads": 11159608,
-      "likes": 231,
+      "likes": 232,
       "tags": [
         "whisperkit",
         "coreml",
@@ -489,7 +489,7 @@
       "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "pipelineTag": "image-text-to-text",
       "downloads": 11073424,
-      "likes": 1553,
+      "likes": 1555,
       "tags": [
         "transformers",
         "safetensors",
@@ -563,7 +563,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "pipelineTag": "text-generation",
       "downloads": 666066,
-      "likes": 1686,
+      "likes": 1688,
       "tags": [
         "transformers",
         "safetensors",
@@ -581,7 +581,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 6184751,
-      "likes": 7888,
+      "likes": 7890,
       "tags": [
         "transformers",
         "safetensors",
@@ -598,7 +598,7 @@
       "url": "https://huggingface.co/peculiar-ragdoll/Sharp-Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 4288,
-      "likes": 71,
+      "likes": 72,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -630,6 +630,24 @@
     },
     {
       "rank": 6,
+      "id": "empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
+      "url": "https://huggingface.co/empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 167739,
+      "likes": 147,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "quantized",
+        "empero-ai",
+        "qwen3.6",
+        "qwen3.8"
+      ],
+      "lastModified": null,
+      "description": "GGUF quantizations of empero-ai/Qwen3.8-35B-A3B-Distill — a distillation of the Qwen3.8 frontier models into the Qwen3.6-35B-A3B Mixture-of-Experts architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF run…"
+    },
+    {
+      "rank": 7,
       "id": "openbmb/MiniCPM5-2B-GGUF",
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
       "pipelineTag": "text-generation",
@@ -645,24 +663,6 @@
       ],
       "lastModified": null,
       "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…"
-    },
-    {
-      "rank": 7,
-      "id": "empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
-      "url": "https://huggingface.co/empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 167739,
-      "likes": 145,
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "quantized",
-        "empero-ai",
-        "qwen3.6",
-        "qwen3.8"
-      ],
-      "lastModified": null,
-      "description": "GGUF quantizations of empero-ai/Qwen3.8-35B-A3B-Distill — a distillation of the Qwen3.8 frontier models into the Qwen3.6-35B-A3B Mixture-of-Experts architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF run…"
     },
     {
       "rank": 8,
@@ -688,7 +688,7 @@
       "url": "https://huggingface.co/DavidAU/LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 4,
-      "likes": 51,
+      "likes": 58,
       "tags": [
         "gguf",
         "liquid",
@@ -698,7 +698,7 @@
         "12 instruct modes"
       ],
       "lastModified": null,
-      "description": "Please read this model card carefully to get the most from it - including all the reasoning and instruct modes (12+12). The Turbo Brilliance system will begin appearing in other model sizes/types shortly."
+      "description": "Please read this model card carefully to get the most from it - including all the reasoning and instruct modes (12+12) that feature model suggestions (\"context help\") for all use cases. The Turbo Brilliance system will begin appearing in…"
     },
     {
       "rank": 10,
@@ -706,7 +706,7 @@
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 1159376,
-      "likes": 5115,
+      "likes": 5118,
       "tags": [
         "transformers",
         "safetensors",
@@ -755,6 +755,23 @@
     },
     {
       "rank": 13,
+      "id": "meta-llama/Llama-3.2-1B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 7385484,
+      "likes": 1726,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 14,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
@@ -770,24 +787,6 @@
       ],
       "lastModified": null,
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
-    },
-    {
-      "rank": 14,
-      "id": "IFM/K2-Horizon-7B",
-      "url": "https://huggingface.co/IFM/K2-Horizon-7B",
-      "pipelineTag": "text-generation",
-      "downloads": 21320,
-      "likes": 234,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "k2_horizon",
-        "text-generation",
-        "k2-horizon",
-        "7b"
-      ],
-      "lastModified": null,
-      "description": "K2-Horizon-7B is the medium dense member of the K2-Horizon family: a 7B-core decoder-only model with a 512K context window."
     },
     {
       "rank": 15,
@@ -808,28 +807,11 @@
     },
     {
       "rank": 16,
-      "id": "meta-llama/Llama-3.2-1B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 7385484,
-      "likes": 1723,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 17,
       "id": "Qwen/Qwen3-8B",
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 12343793,
-      "likes": 2045,
+      "likes": 2047,
       "tags": [
         "transformers",
         "safetensors",
@@ -840,6 +822,24 @@
       ],
       "lastModified": null,
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+    },
+    {
+      "rank": 17,
+      "id": "IFM/K2-Horizon-7B",
+      "url": "https://huggingface.co/IFM/K2-Horizon-7B",
+      "pipelineTag": "text-generation",
+      "downloads": 21320,
+      "likes": 235,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "k2_horizon",
+        "text-generation",
+        "k2-horizon",
+        "7b"
+      ],
+      "lastModified": null,
+      "description": "K2-Horizon-7B is the medium dense member of the K2-Horizon family: a 7B-core decoder-only model with a 512K context window."
     }
   ]
 }
