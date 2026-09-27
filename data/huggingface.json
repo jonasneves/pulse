@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T11:31:48.177Z",
+  "updated": "2026-09-27T16:31:21.635Z",
   "models": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 243964291,
-      "likes": 6128,
+      "likes": 6129,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -133,7 +133,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 29186325,
-      "likes": 1687,
+      "likes": 1688,
       "tags": [
         "transformers",
         "safetensors",
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 21857875,
-      "likes": 2021,
+      "likes": 2022,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -185,7 +185,7 @@
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 21833701,
-      "likes": 1570,
+      "likes": 1571,
       "tags": [
         "transformers",
         "pytorch",
@@ -275,7 +275,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct",
       "pipelineTag": "image-text-to-text",
       "downloads": 18014795,
-      "likes": 1153,
+      "likes": 1154,
       "tags": [
         "transformers",
         "safetensors",
@@ -329,7 +329,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 15338274,
-      "likes": 4176,
+      "likes": 4178,
       "tags": [
         "transformers",
         "pytorch",
@@ -365,7 +365,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 12315567,
-      "likes": 2052,
+      "likes": 2055,
       "tags": [
         "transformers",
         "safetensors",
@@ -419,7 +419,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 11571618,
-      "likes": 7028,
+      "likes": 7035,
       "tags": [
         "text-to-speech",
         "en",
@@ -472,7 +472,7 @@
       "url": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 10762547,
-      "likes": 1077,
+      "likes": 1078,
       "tags": [
         "transformers",
         "gguf",
@@ -490,7 +490,7 @@
       "url": "https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive",
       "pipelineTag": null,
       "downloads": 10745108,
-      "likes": 164,
+      "likes": 165,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -559,6 +559,42 @@
     },
     {
       "rank": 2,
+      "id": "peculiar-ragdoll/Sharp-Spark-X2.5-4B-GGUF",
+      "url": "https://huggingface.co/peculiar-ragdoll/Sharp-Spark-X2.5-4B-GGUF",
+      "pipelineTag": "text-generation",
+      "downloads": 6417,
+      "likes": 81,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "imatrix",
+        "spark2_5",
+        "long-context",
+        "coding"
+      ],
+      "lastModified": null,
+      "description": "Dynamic imatrix GGUF quants of XHToken/Spark-X2.5-4B, a 4B dense long-context model, carrying our cyber-and-coding-weighted importance matrix, a heuristic per-tensor bit allocation, and the Sharp-Spark chat template."
+    },
+    {
+      "rank": 3,
+      "id": "paradigma-inc/limite-1b-violetto",
+      "url": "https://huggingface.co/paradigma-inc/limite-1b-violetto",
+      "pipelineTag": "text-generation",
+      "downloads": 2878,
+      "likes": 78,
+      "tags": [
+        "safetensors",
+        "limite",
+        "mathematics",
+        "reasoning",
+        "vllm",
+        "text-generation"
+      ],
+      "lastModified": null,
+      "description": "Paradigma's first model, built for high-throughput mathematical reasoning."
+    },
+    {
+      "rank": 4,
       "id": "openbmb/MiniCPM5-2B",
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "pipelineTag": "text-generation",
@@ -576,48 +612,12 @@
       "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…"
     },
     {
-      "rank": 3,
-      "id": "peculiar-ragdoll/Sharp-Spark-X2.5-4B-GGUF",
-      "url": "https://huggingface.co/peculiar-ragdoll/Sharp-Spark-X2.5-4B-GGUF",
-      "pipelineTag": "text-generation",
-      "downloads": 6417,
-      "likes": 80,
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "imatrix",
-        "spark2_5",
-        "long-context",
-        "coding"
-      ],
-      "lastModified": null,
-      "description": "Dynamic imatrix GGUF quants of XHToken/Spark-X2.5-4B, a 4B dense long-context model, carrying our cyber-and-coding-weighted importance matrix, a heuristic per-tensor bit allocation, and the Sharp-Spark chat template."
-    },
-    {
-      "rank": 4,
-      "id": "paradigma-inc/limite-1b-violetto",
-      "url": "https://huggingface.co/paradigma-inc/limite-1b-violetto",
-      "pipelineTag": "text-generation",
-      "downloads": 2878,
-      "likes": 75,
-      "tags": [
-        "safetensors",
-        "limite",
-        "mathematics",
-        "reasoning",
-        "vllm",
-        "text-generation"
-      ],
-      "lastModified": null,
-      "description": "Paradigma's first model, built for high-throughput mathematical reasoning."
-    },
-    {
       "rank": 5,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 6107664,
-      "likes": 7974,
+      "likes": 7976,
       "tags": [
         "transformers",
         "safetensors",
@@ -634,7 +634,7 @@
       "url": "https://huggingface.co/DavidAU/LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 4636,
-      "likes": 76,
+      "likes": 80,
       "tags": [
         "gguf",
         "liquid",
@@ -652,7 +652,7 @@
       "url": "https://huggingface.co/empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 255910,
-      "likes": 153,
+      "likes": 154,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -706,7 +706,7 @@
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 1088123,
-      "likes": 5123,
+      "likes": 5125,
       "tags": [
         "transformers",
         "safetensors",
@@ -723,7 +723,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 7323660,
-      "likes": 1737,
+      "likes": 1738,
       "tags": [
         "transformers",
         "safetensors",
@@ -740,7 +740,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
       "downloads": 29186325,
-      "likes": 1687,
+      "likes": 1688,
       "tags": [
         "transformers",
         "safetensors",
@@ -758,7 +758,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "pipelineTag": "text-generation",
       "downloads": 12315567,
-      "likes": 2052,
+      "likes": 2055,
       "tags": [
         "transformers",
         "safetensors",
@@ -776,7 +776,7 @@
       "url": "https://huggingface.co/RavichandranJ/Dolphin3-Cyber-8B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 47145,
-      "likes": 221,
+      "likes": 222,
       "tags": [
         "transformers",
         "gguf",
@@ -790,6 +790,23 @@
     },
     {
       "rank": 15,
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 1936038,
+      "likes": 2670,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 16,
       "id": "XHToken/Spark-X2.5-4B-GGUF",
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
@@ -807,21 +824,22 @@
       "description": "Spark-X2.5 is a compact, general-purpose language model for conversation, writing, translation, reasoning, coding, tool use, and agentic workflows. It uses a hybrid attention architecture, supports a native context length of up to 1M tok…"
     },
     {
-      "rank": 16,
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "rank": 17,
+      "id": "empero-ai/Qwen3.8-4B-Distill-GGUF",
+      "url": "https://huggingface.co/empero-ai/Qwen3.8-4B-Distill-GGUF",
       "pipelineTag": "text-generation",
-      "downloads": 1936038,
-      "likes": 2668,
+      "downloads": 734131,
+      "likes": 156,
       "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
+        "gguf",
+        "llama.cpp",
+        "quantized",
+        "empero-ai",
+        "qwen3.5",
+        "qwen3.8"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "GGUF quantizations of empero-ai/Qwen3.8-4B — a full-parameter distillation of Qwen3.8 2.4T A95B into the Qwen3.5-4B architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF runtimes."
     }
   ]
 }
