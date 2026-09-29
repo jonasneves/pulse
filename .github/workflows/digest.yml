@@ -1,0 +1,36 @@
+name: Weekly Digest
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'   # Mondays, after the daily fetch
+  workflow_dispatch:
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Render digest
+        run: node scripts/digest.js > digest.md
+
+      # One open issue labelled `digest` collects a comment per week; subscribers get each by email.
+      - name: Post digest
+        run: |
+          gh label create digest --color 5319e7 --description "Weekly growth digest" 2>/dev/null || true
+          issue=$(gh issue list --label digest --state open --json number --jq '.[0].number')
+          if [ -z "$issue" ]; then
+            issue=$(gh issue create --label digest --title "Weekly digest" \
+              --body "A comment per week with the items that gained the most. Written by .github/workflows/digest.yml." | grep -o '[0-9]*$')
+          fi
+          gh issue comment "$issue" --body-file digest.md

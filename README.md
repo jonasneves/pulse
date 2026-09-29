@@ -1,30 +1,40 @@
 # pulse
 
-A zero-build GitHub Pages dashboard tracking velocity across GitHub trending repos, HuggingFace models, and HF Spaces — a scheduled Action scrapes every 3h, appends to a 90-day observation log, and the static page renders deltas as bar charts and per-card sparklines.
+A zero-build GitHub Pages dashboard that tracks growth of GitHub trending repos (stars), trending Hugging Face models (likes), and trending Hugging Face Spaces (likes). A daily Action snapshots the lists, appends one observation per item per day to a 90-day log, and keeps observing items for 30 days after they leave a list. The page shows each item's gain per day over the last 7 days (or since first seen) and a 90-day trace; a weekly Action posts the largest gains as an issue comment.
 
-Tools (`set_focus`, `open_url`, `filter_tab`) register with the browser's AI context via [WebMCP](https://github.com/webmachinelearning/webmcp) (`navigator.modelContext`), so an external agent can drive the view instead of an embedded chat.
+GitHub trending mixes software with reading lists and courses. [Jev](https://docs.typesafe.ai) (TypeSafe's `jev-1.13.0`) judges each catalogued repo's kind once; repos judged a curated list or learning material with p ≥ 0.7 are hidden by default and stay reachable in a collapsed section.
+
+Tools (`list_items`, `get_history`, `show_tab`, `focus_item`, `set_hide_judged`) register with the browser through [WebMCP](https://github.com/webmachinelearning/webmcp) (`document.modelContext`, falling back to `navigator.modelContext`), so an agent in the browser can read the data and drive the view.
 
 ```
-GitHub Action (cron 0 */3 * * *)
-  └─ scripts/fetch.js ──► data/{github,huggingface,spaces}.json
-                          data/history.json   (90-day log: source→id→[{d,v,r}])
+GitHub Action, daily (cron 17 5 * * *)
+  └─ scripts/fetch.js ──► data/{github,models,spaces}.json   today's lists
+                          data/history.json    90-day log: source → id → [{d,v,r}]
+                          data/catalog.json    url/description per tracked item
+                          data/judgments.json  Jev kind per GitHub repo
                           commit [skip ci]
                                    │
 static page (index.html) ◄─ fetch() data/*.json on load
-  ├─ velocity bar chart  (ECharts, observed span)
-  ├─ per-card sparklines (plain SVG)
-  └─ tools.js ──► navigator.modelContext.registerTool(...)
+  ├─ fastest-growing bars   (plain HTML, 7-day rate)
+  ├─ per-row traces         (plain SVG, shared 90-day axis)
+  └─ tools.js ──► document.modelContext.registerTool(...)
+
+GitHub Action, Mondays (cron 0 8 * * 1)
+  └─ scripts/digest.js ──► comment on the open issue labelled `digest`
 ```
 
 ## Run locally
 
 ```bash
-node scripts/fetch.js          # populate data/ once (no npm deps, Node built-ins only)
-python3 -m http.server 8080    # serve — fetch() won't work over file://
+node scripts/fetch.js          # populate data/ (no npm deps, Node 20+ built-ins only)
+python3 -m http.server 8080    # serve; fetch() does not work over file://
+node scripts/digest.js         # print the weekly digest as markdown
 ```
 
-WebMCP tool registration requires Chrome 146+ Canary with `chrome://flags/#webmcp-for-testing`; the dashboard renders fine without it.
+Set `TYPESAFE_API_KEY` to have `fetch.js` judge new repos with Jev; without it judging is skipped. In CI it comes from the repo secret of the same name.
+
+In Chrome stable, ordinary visitors get `document.modelContext` only through the WebMCP origin trial (a token served in the page) or `chrome://flags/#enable-webmcp-testing`. The dashboard renders without it.
 
 ## Layout
 
-Flat files, one concern each. `index.html` shell, `index.css` styles, `index.js` UI wiring; `{github,huggingface,spaces}.js` card renderers; `charts.js` velocity bar + sparklines; `tools.js` the WebMCP surface. See [AGENTS.md](AGENTS.md) for the per-file map, data-flow notes, and visualization guidance.
+Flat files, one concern each: `index.html` shell, `index.css` styles, `index.js` page state and rendering, `rows.js` per-source row config and renderer, `trace.js` traces and gain bars, `rules.js` derivations shared with the digest, `tools.js` the WebMCP surface. See [AGENTS.md](AGENTS.md) for the per-file map, data flow, and design rules.

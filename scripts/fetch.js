@@ -1,37 +1,47 @@
 #!/usr/bin/env node
-// Scrapes GitHub trending and fetches HuggingFace trending models.
-// Writes results to data/github.json and data/huggingface.json.
-// No npm dependencies — uses only Node.js built-ins.
+// Snapshots GitHub trending repos and Hugging Face trending models and Spaces, appends one
+// observation per item per day to data/history.json, keeps observing items for FOLLOW_DAYS after
+// they leave the lists, and has Jev judge what kind of thing each new GitHub repo is.
+// No npm dependencies — Node 20+ built-ins only.
 
-const https = require('https');
-const fs    = require('fs');
-const path  = require('path');
+const fs   = require('fs');
+const path = require('path');
 
-function get(url, extraHeaders = {}, maxRedirects = 5) {
-  return new Promise((resolve, reject) => {
-    const u = new URL(url);
-    const options = {
-      hostname: u.hostname,
-      path: u.pathname + u.search,
-      method: 'GET',
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,*/*;q=0.9',
-        'Accept-Language': 'en-US,en;q=0.9',
-        ...extraHeaders,
-      },
-    };
-    https.request(options, res => {
-      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        if (maxRedirects <= 0) return reject(new Error(`Too many redirects: ${url}`));
-        return get(res.headers.location, extraHeaders, maxRedirects - 1).then(resolve).catch(reject);
-      }
-      let body = '';
-      res.on('data', c => body += c);
-      res.on('end', () => resolve({ status: res.statusCode, body }));
-    }).on('error', reject).end();
-  });
+const DATA_DIR         = path.join(__dirname, '..', 'data');
+const HISTORY_MAX_DAYS = 90;
+const FOLLOW_DAYS      = 30;
+const JEV_MODEL        = 'jev-1.13.0';
+const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
+
+async function getText(url, headers = {}) {
+  const res = await fetch(url, { headers: { 'User-Agent': UA, ...headers } });
+  return { status: res.status, body: await res.text() };
 }
+
+async function getJSON(url, headers = {}) {
+  const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/json', ...headers } });
+  if (!res.ok) throw new Error(`HTTP ${res.status} from ${url}`);
+  return res.json();
+}
+
+// Runs fn over items with at most `limit` in flight.
+async function pool(items, limit, fn) {
+  let next = 0;
+  const worker = async () => { while (next < items.length) await fn(items[next++]); };
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, worker));
+}
+
+const day = offsetDays => new Date(Date.now() - offsetDays * 86_400_000).toISOString().slice(0, 10);
+
+function readJSON(name, fallback) {
+  try { return JSON.parse(fs.readFileSync(path.join(DATA_DIR, name), 'utf8')); } catch { return fallback; }
+}
+
+function writeJSON(name, value, pretty = true) {
+  fs.writeFileSync(path.join(DATA_DIR, name), JSON.stringify(value, null, pretty ? 2 : 0));
+}
+
+// ── GitHub trending ───────────────────────────────────────────────────────
 
 function stripTags(html) {
   return html.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/\s+/g, ' ').trim();
@@ -45,83 +55,71 @@ function parseGitHubTrending(html) {
   const repos = [];
   const articleRe = /<article[^>]*class="[^"]*Box-row[^"]*"[^>]*>([\s\S]*?)<\/article>/g;
   let article;
-  let rank = 0;
 
   while ((article = articleRe.exec(html)) !== null) {
-    rank++;
     const block = article[1];
 
-    // Repo path from h2 anchor
     const h2 = block.match(/<h2[^>]*>([\s\S]*?)<\/h2>/);
-    if (!h2) continue;
-    const hrefM = h2[1].match(/href="\/([\w.-]+\/[\w.-]+)"/);
+    const hrefM = h2 && h2[1].match(/href="\/([\w.-]+\/[\w.-]+)"/);
     if (!hrefM) continue;
     const fullName = hrefM[1];
-    const [owner, name] = fullName.split('/');
 
-    // Description
-    const descM = block.match(/<p[^>]*class="[^"]*col-9[^"]*"[^>]*>([\s\S]*?)<\/p>/);
-    const description = descM ? stripTags(descM[1]) : '';
+    const descM   = block.match(/<p[^>]*class="[^"]*col-9[^"]*"[^>]*>([\s\S]*?)<\/p>/);
+    const langM   = block.match(/itemprop="programmingLanguage"[^>]*>([\s\S]*?)<\/span>/);
+    const starsM  = block.match(/href="\/[\w.-]+\/[\w.-]+\/stargazers"[^>]*>[\s\S]*?([\d,]+)\s*<\/a>/);
+    const forksM  = block.match(/href="\/[\w.-]+\/[\w.-]+\/(?:forks|network\/members)"[^>]*>[\s\S]*?([\d,]+)\s*<\/a>/);
+    const todayM  = block.match(/([\d,]+)\s+stars?\s+today/i);
 
-    // Language
-    const langM = block.match(/itemprop="programmingLanguage"[^>]*>([\s\S]*?)<\/span>/);
-    const language = langM ? stripTags(langM[1]) : null;
-
-    // Total stars (link to /stargazers)
-    const starsM = block.match(/href="\/[\w.-]+\/[\w.-]+\/stargazers"[^>]*>[\s\S]*?([\d,]+)\s*<\/a>/);
-    const stars = starsM ? parseNumber(starsM[1]) : 0;
-
-    // Forks (link to /network/members)
-    const forksM = block.match(/href="\/[\w.-]+\/[\w.-]+\/(?:forks|network\/members)"[^>]*>[\s\S]*?([\d,]+)\s*<\/a>/);
-    const forks = forksM ? parseNumber(forksM[1]) : 0;
-
-    // Stars today
-    const todayM = block.match(/([\d,]+)\s+stars?\s+today/i);
-    const starsToday = todayM ? parseNumber(todayM[1]) : 0;
-
-    repos.push({ rank, owner, name, fullName, url: `https://github.com/${fullName}`, description, language, stars, forks, starsToday });
+    repos.push({
+      rank: repos.length + 1,
+      fullName,
+      url: `https://github.com/${fullName}`,
+      description: descM ? stripTags(descM[1]) : '',
+      language: langM ? stripTags(langM[1]) : null,
+      stars: starsM ? parseNumber(starsM[1]) : 0,
+      forks: forksM ? parseNumber(forksM[1]) : 0,
+      starsToday: todayM ? parseNumber(todayM[1]) : 0,
+    });
   }
-
   return repos;
 }
 
 async function fetchGitHub() {
-  console.log('Fetching GitHub trending…');
-  const { status, body } = await get('https://github.com/trending');
+  const { status, body } = await getText('https://github.com/trending', { Accept: 'text/html' });
   if (status !== 200) throw new Error(`GitHub trending returned HTTP ${status}`);
   const repos = parseGitHubTrending(body);
   if (repos.length === 0) throw new Error('Parsed 0 repos — GitHub HTML may have changed');
-  console.log(`  Found ${repos.length} repos`);
-  return { updated: new Date().toISOString(), since: 'daily', repos };
+  console.log(`GitHub: ${repos.length} trending repos`);
+  return { updated: new Date().toISOString(), repos };
 }
 
-// Matches small model size markers in a model ID (case-insensitive).
-// Covers: 0.5B 1B 1.5B 2B 3B 3.8B 4B 6B 7B 8B
+// ── Hugging Face models ───────────────────────────────────────────────────
+
+// Small model size markers in a model ID: 0.5B 1B 1.5B 2B 3B 3.8B 4B … 8B
 const SMALL_SIZE_RE = /\b(0\.5|1\.5|3\.8|[1-8])b\b/i;
-// Matches distillation or reasoning fine-tune patterns
+// Distillation or reasoning fine-tune markers
 const DISTILL_RE = /distill|reason|\br1[-_]|[-_]r1\b/i;
 
-function isSmallDistilled(id) {
-  return SMALL_SIZE_RE.test(id) || DISTILL_RE.test(id);
-}
+const isSmallDistilled = id => SMALL_SIZE_RE.test(id) || DISTILL_RE.test(id);
 
-function parseModel(m, rank) {
+const hfTags = tags => (tags || []).filter(t => !/^(arxiv|base_model|license|region|endpoints_compatible|dataset):?/.test(t)).slice(0, 6);
+
+function parseModel(m, i) {
   return {
-    rank,
+    rank: i + 1,
     id: m.id,
     url: `https://huggingface.co/${m.id}`,
     pipelineTag: m.pipeline_tag || null,
-    downloads: m.downloads || 0,
     likes: m.likes || 0,
-    tags: (m.tags || []).filter(t => !t.startsWith('arxiv:') && !t.startsWith('base_model:')).slice(0, 6),
+    downloads: m.downloads || 0,
+    trendingScore: m.trendingScore || 0,
+    tags: hfTags(m.tags),
     lastModified: m.lastModified || null,
   };
 }
 
-// Pull the first substantive prose paragraph out of a model README.
-// Walks line-by-line so a heading immediately followed by prose (no blank
-// line) still surfaces the prose. Tracks code fences to avoid returning
-// import statements as "description."
+// First substantive prose paragraph of a model README. Walks line by line so a heading directly
+// followed by prose still surfaces the prose, and tracks code fences so imports never pass as prose.
 function parseReadmeIntro(md) {
   if (!md) return null;
   let text = md;
@@ -130,31 +128,30 @@ function parseReadmeIntro(md) {
     if (end !== -1) text = text.slice(end + 4);
   }
 
-  const lines = text.split('\n');
   let inCodeBlock = false;
   let buffer = [];
 
   const flush = () => {
     if (buffer.length === 0) return null;
     const joined = buffer.join(' ')
-      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
       .replace(/!\[[^\]]*\]\([^)]+\)/g, '')
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
       .replace(/`([^`]+)`/g, '$1')
       .replace(/\*\*([^*]+)\*\*/g, '$1')
       .replace(/\*([^*]+)\*/g, '$1')
       .replace(/<[^>]+>/g, '')
+      .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"')
       .replace(/\s+/g, ' ')
       .trim();
     buffer = [];
     if (joined.length < 60) return null;
-    const letters = (joined.match(/[a-zA-Z]/g) || []).length;
-    if (letters < 40) return null; // skip strings that are mostly punctuation/code
+    if ((joined.match(/ \| /g) || []).length >= 2) return null; // a row of links, not prose
+    if ((joined.match(/[a-zA-Z]/g) || []).length < 40) return null;
     return joined.length > 240 ? joined.slice(0, 237) + '…' : joined;
   };
 
-  for (const raw of lines) {
+  for (const raw of text.split('\n')) {
     const line = raw.trim();
-
     if (line.startsWith('```')) {
       inCodeBlock = !inCodeBlock;
       const out = flush();
@@ -162,227 +159,232 @@ function parseReadmeIntro(md) {
       continue;
     }
     if (inCodeBlock) continue;
-
     if (!line) {
       const out = flush();
       if (out) return out;
       continue;
     }
-
-    if (line.startsWith('#'))      continue;          // headings — transparent
-    if (line.startsWith('<'))      continue;          // raw HTML / badges
-    if (line.startsWith('>'))      continue;          // blockquote / admonition
-    if (line.startsWith('|'))      continue;          // table row
-    if (/^[-*]\s/.test(line))      continue;          // list bullet
-    if (/^\d+\.\s/.test(line))     continue;          // ordered list
-    if (/^!\[.*\]\(/.test(line))   continue;          // image
-    if (/^\[!\[/.test(line))       continue;          // shield/badge link
-    if (line === '---' || line === '***' || line === '___') continue;
-
+    // headings, HTML/badges, blockquotes, tables, lists, images, rules
+    if (/^(#|<|>|\||[-*]\s|\d+\.\s|!\[|\[!\[)/.test(line) || /^(---|\*\*\*|___)$/.test(line)) continue;
     buffer.push(line);
   }
   return flush();
 }
 
-async function fetchModelDescription(id) {
-  try {
-    const res = await get(`https://huggingface.co/${id}/raw/main/README.md`);
-    if (res.status !== 200) return null;
-    return parseReadmeIntro(res.body);
-  } catch {
-    return null;
-  }
-}
-
 async function attachDescriptions(models) {
-  const results = await Promise.allSettled(models.map(m => fetchModelDescription(m.id)));
-  results.forEach((r, i) => {
-    if (r.status === 'fulfilled' && r.value) models[i].description = r.value;
+  await pool(models, 8, async m => {
+    try {
+      const { status, body } = await getText(`https://huggingface.co/${m.id}/raw/main/README.md`);
+      if (status === 200) m.description = parseReadmeIntro(body) || undefined;
+    } catch {}
   });
 }
 
-async function fetchHuggingFace() {
-  console.log('Fetching HuggingFace models…');
-  const [topRes, trendingRes] = await Promise.allSettled([
-    get('https://huggingface.co/api/models?sort=downloads&direction=-1&limit=30', { Accept: 'application/json' }),
-    get('https://huggingface.co/api/models?pipeline_tag=text-generation&sort=trendingScore&direction=-1&limit=60', { Accept: 'application/json' }),
+const MODEL_EXPAND = ['downloads', 'likes', 'pipeline_tag', 'tags', 'lastModified', 'trendingScore'].map(f => `&expand[]=${f}`).join('');
+
+async function fetchModels() {
+  const [all, textGen] = await Promise.all([
+    getJSON(`https://huggingface.co/api/models?sort=trendingScore&direction=-1&limit=30${MODEL_EXPAND}`),
+    getJSON(`https://huggingface.co/api/models?pipeline_tag=text-generation&sort=trendingScore&direction=-1&limit=60${MODEL_EXPAND}`),
   ]);
-
-  if (topRes.status !== 'fulfilled' || topRes.value.status !== 200) {
-    throw new Error(`HuggingFace top models API failed`);
-  }
-  const models = JSON.parse(topRes.value.body).map((m, i) => parseModel(m, i + 1));
-  console.log(`  Found ${models.length} top models`);
-
-  let smallModels = [];
-  if (trendingRes.status === 'fulfilled' && trendingRes.value.status === 200) {
-    const raw = JSON.parse(trendingRes.value.body);
-    const filtered = raw.filter(m => isSmallDistilled(m.id));
-    smallModels = filtered.map((m, i) => parseModel(m, i + 1));
-    console.log(`  Found ${smallModels.length} small/distilled models (from ${raw.length} trending)`);
-  } else {
-    console.warn('  Trending models fetch failed — small models section will be empty');
-  }
-
-  // Fetch READMEs in parallel for one-liner descriptions
-  console.log('  Fetching READMEs for descriptions…');
-  await Promise.all([attachDescriptions(models), attachDescriptions(smallModels)]);
-  const withDesc = models.filter(m => m.description).length + smallModels.filter(m => m.description).length;
-  console.log(`  Attached descriptions to ${withDesc} / ${models.length + smallModels.length} models`);
-
-  return { updated: new Date().toISOString(), models, smallModels };
+  const trending = all.map(parseModel);
+  const small = textGen.filter(m => isSmallDistilled(m.id)).map(parseModel);
+  await attachDescriptions([...trending, ...small]);
+  console.log(`Models: ${trending.length} trending, ${small.length} small/distilled (of ${textGen.length} trending text-generation)`);
+  return { updated: new Date().toISOString(), trending, small };
 }
 
-function parseSpaces(raw) {
-  return raw.map((s, i) => {
-    const card = s.cardData || {};
-    return {
-      rank: i + 1,
-      id: s.id,
-      title: card.title || null,
-      description: card.short_description || null,
-      url: `https://huggingface.co/spaces/${s.id}`,
-      sdk: s.sdk || null,
-      likes: s.likes || 0,
-      tags: (s.tags || []).filter(t => !t.startsWith('arxiv:') && !t.startsWith('base_model:')).slice(0, 6),
-      lastModified: s.lastModified || null,
-    };
+// ── Hugging Face Spaces ───────────────────────────────────────────────────
+
+const SPACE_EXPAND = ['cardData', 'tags', 'sdk', 'likes', 'lastModified', 'trendingScore'].map(f => `&expand[]=${f}`).join('');
+
+function parseSpace(s, i) {
+  const card = s.cardData || {};
+  return {
+    rank: i + 1,
+    id: s.id,
+    url: `https://huggingface.co/spaces/${s.id}`,
+    title: card.title || null,
+    description: card.short_description || null,
+    sdk: s.sdk || null,
+    likes: s.likes || 0,
+    trendingScore: s.trendingScore || 0,
+    tags: hfTags(s.tags).filter(t => t !== s.sdk),
+    lastModified: s.lastModified || null,
+  };
+}
+
+async function fetchSpaces() {
+  const [trending, webml] = await Promise.all([
+    getJSON(`https://huggingface.co/api/spaces?sort=trendingScore&direction=-1&limit=30${SPACE_EXPAND}`),
+    getJSON(`https://huggingface.co/api/spaces?author=webml-community&sort=trendingScore&direction=-1&limit=30${SPACE_EXPAND}`),
+  ]);
+  console.log(`Spaces: ${trending.length} trending, ${webml.length} webml-community`);
+  return { updated: new Date().toISOString(), trending: trending.map(parseSpace), webml: webml.map(parseSpace) };
+}
+
+// ── Sources ───────────────────────────────────────────────────────────────
+// `metric` is the cumulative count history tracks; `follow` reads it, plus catalog fields where the
+// API has them, for one item that is no longer listed.
+
+const githubAuth = process.env.GITHUB_TOKEN ? { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` } : {};
+
+const SOURCES = {
+  github: {
+    fetch: fetchGitHub,
+    items: s => s.repos,
+    id: r => r.fullName,
+    metric: r => r.stars,
+    catalog: r => ({ url: r.url, description: r.description, language: r.language }),
+    follow: async id => {
+      const r = await getJSON(`https://api.github.com/repos/${id}`, githubAuth);
+      return { v: r.stargazers_count, catalog: { url: r.html_url, description: r.description || '', language: r.language } };
+    },
+  },
+  models: {
+    fetch: fetchModels,
+    items: s => [...s.trending, ...s.small],
+    id: m => m.id,
+    metric: m => m.likes,
+    catalog: m => ({ url: m.url, description: m.description || null, pipelineTag: m.pipelineTag }),
+    follow: async id => ({ v: (await getJSON(`https://huggingface.co/api/models/${id}`)).likes }),
+  },
+  spaces: {
+    fetch: fetchSpaces,
+    items: s => [...s.trending, ...s.webml],
+    id: s => s.id,
+    metric: s => s.likes,
+    catalog: s => ({ url: s.url, title: s.title, description: s.description, sdk: s.sdk }),
+    follow: async id => ({ v: (await getJSON(`https://huggingface.co/api/spaces/${id}`)).likes }),
+  },
+};
+
+// ── History ───────────────────────────────────────────────────────────────
+// history[source][id] = [{d, v, r}], one per day, latest of each day wins. `r` is the item's rank
+// on its list that day, or null when it was observed only because it listed within FOLLOW_DAYS.
+// The committed file is the only record: a lost history.json starts every series over.
+
+function record(bucket, id, v, r) {
+  const today = day(0);
+  const arr = (bucket[id] || []).filter(o => o.d !== today);
+  arr.push({ d: today, v, r });
+  bucket[id] = arr;
+}
+
+async function followUp(name, bucket, cat, listedToday) {
+  const since = day(FOLLOW_DAYS);
+  const ids = Object.keys(bucket).filter(id => !listedToday.has(id) && bucket[id].some(o => o.r != null && o.d >= since));
+  let failed = 0;
+  await pool(ids, 8, async id => {
+    try {
+      const { v, catalog } = await SOURCES[name].follow(id);
+      if (Number.isFinite(v)) record(bucket, id, v, null);
+      if (catalog && !cat[id]) cat[id] = catalog;
+    } catch { failed++; }
   });
+  console.log(`${name}: followed ${ids.length - failed} of ${ids.length} unlisted items`);
 }
 
-async function fetchHuggingFaceSpaces() {
-  console.log('Fetching HuggingFace spaces…');
-  const expand = '&expand[]=cardData&expand[]=tags&expand[]=sdk&expand[]=likes&expand[]=lastModified';
-  const [trendingRes, webmlRes] = await Promise.allSettled([
-    get(`https://huggingface.co/api/spaces?sort=likes&direction=-1&limit=30${expand}`, { Accept: 'application/json' }),
-    get(`https://huggingface.co/api/spaces?author=webml-community&sort=likes&direction=-1&limit=30${expand}`, { Accept: 'application/json' }),
-  ]);
-
-  let trending = [];
-  if (trendingRes.status === 'fulfilled' && trendingRes.value.status === 200) {
-    trending = parseSpaces(JSON.parse(trendingRes.value.body));
-    console.log(`  Found ${trending.length} trending spaces`);
-  } else {
-    console.warn('  Trending spaces fetch failed');
-  }
-
-  let webml = [];
-  if (webmlRes.status === 'fulfilled' && webmlRes.value.status === 200) {
-    webml = parseSpaces(JSON.parse(webmlRes.value.body));
-    console.log(`  Found ${webml.length} webml-community spaces`);
-  } else {
-    console.warn('  WebML community spaces fetch failed');
-  }
-
-  if (trending.length === 0 && webml.length === 0) throw new Error('All spaces fetches returned empty');
-  return { updated: new Date().toISOString(), trending, webml };
-}
-
-// ── History accumulation ──────────────────────────────────────────────────
-// data/history.json tracks day-keyed observations per item, appended each run and pruned to
-// HISTORY_MAX_DAYS below. The committed file is the only record — there is no rebuild path, so
-// a lost or corrupted history.json starts the series over.
-
-const HISTORY_MAX_DAYS = 90;
-
-function extractObservations(sourceKey, snapshot) {
-  if (sourceKey === 'github') {
-    return (snapshot.repos || []).map(r => ({ id: r.fullName, v: r.stars, r: r.rank }));
-  }
-  if (sourceKey === 'huggingface') {
-    const out = [];
-    for (const m of (snapshot.models || []))      out.push({ id: m.id, v: m.downloads, r: m.rank });
-    for (const m of (snapshot.smallModels || [])) out.push({ id: m.id, v: m.downloads, r: m.rank });
-    return out;
-  }
-  if (sourceKey === 'spaces') {
-    const out = [];
-    for (const s of (snapshot.trending || [])) out.push({ id: s.id, v: s.likes, r: s.rank });
-    for (const s of (snapshot.webml || []))    out.push({ id: s.id, v: s.likes, r: s.rank });
-    return out;
-  }
-  return [];
-}
-
-function updateHistory(historyPath, updates) {
-  let history = {};
-  try { history = JSON.parse(fs.readFileSync(historyPath, 'utf8')); } catch {}
-
-  const today    = new Date().toISOString().slice(0, 10);
-  const cutoffMs = Date.now() - HISTORY_MAX_DAYS * 86_400_000;
-  const cutoff   = new Date(cutoffMs).toISOString().slice(0, 10);
-
-  for (const [sourceKey, observations] of Object.entries(updates)) {
-    if (!history[sourceKey]) history[sourceKey] = {};
-    const bucket = history[sourceKey];
-
-    // Append/replace today's observation per item
-    for (const { id, v, r } of observations) {
-      const arr = bucket[id] || [];
-      const filtered = arr.filter(o => o.d !== today && o.d >= cutoff);
-      filtered.push({ d: today, v, r });
-      filtered.sort((a, b) => a.d.localeCompare(b.d));
-      bucket[id] = filtered;
-    }
-
-    // Drop items whose newest observation is older than cutoff
-    for (const id of Object.keys(bucket)) {
-      const arr = bucket[id];
-      if (arr.length === 0 || arr[arr.length - 1].d < cutoff) delete bucket[id];
+function prune(history) {
+  const cutoff = day(HISTORY_MAX_DAYS);
+  for (const bucket of Object.values(history)) {
+    if (typeof bucket !== 'object') continue;
+    for (const [id, arr] of Object.entries(bucket)) {
+      const kept = arr.filter(o => o.d >= cutoff);
+      if (kept.length) bucket[id] = kept; else delete bucket[id];
     }
   }
-
-  history.updated = new Date().toISOString();
-  fs.writeFileSync(historyPath, JSON.stringify(history));
 }
+
+// ── Jev: what kind of repo is this ────────────────────────────────────────
+// GitHub trending mixes software with reading lists and courses. Each catalogued repo is judged once,
+// on its name, description and language; the answer is model output and lives apart from observations.
+
+const KIND_QUESTION = 'What kind of repository is `repo`, judging from its name, description and language?';
+const KIND_CRITERIA = {
+  project:    'Software someone runs or builds on: an application, library, framework, CLI, agent, service, model, or dataset.',
+  collection: 'A curated collection rather than software: an awesome-list, link roundup, or a set of prompts, skills, templates or configs gathered from elsewhere.',
+  learning:   'Material for learning: a course, tutorial, book, guide, lecture notes, interview preparation, or a roadmap.',
+  unclear:    'The name and description are too thin to tell.',
+};
+
+async function judgeKind(id, entry, key) {
+  const res = await fetch('https://api.typesafe.ai/v1/systemone', {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${key}`, 'content-type': 'application/json' },
+    body: JSON.stringify({
+      model: JEV_MODEL,
+      state: { repo: { name: id, description: entry.description || '(none)', language: entry.language || '(none)' } },
+      questions: { kind: { type: 'choice', instructions: KIND_QUESTION, criteria: KIND_CRITERIA } },
+    }),
+  });
+  if (!res.ok) throw new Error(`Jev HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
+  const { kind } = (await res.json()).answers;
+  return { kind: kind.choice, p: Math.round(kind.probabilities[kind.choice] * 100) / 100 };
+}
+
+async function judgeNewRepos(entries, judgments) {
+  const key = process.env.TYPESAFE_API_KEY;
+  const todo = Object.keys(entries).filter(id => !judgments.github[id]);
+  if (!todo.length) return;
+  if (!key) { console.log(`Jev: TYPESAFE_API_KEY unset, ${todo.length} repos left unjudged`); return; }
+  let failed = 0;
+  await pool(todo, 4, async id => {
+    try { judgments.github[id] = { ...(await judgeKind(id, entries[id], key)), d: day(0) }; }
+    catch (e) { failed++; console.warn(`Jev: ${id}: ${e.message}`); }
+  });
+  console.log(`Jev: judged ${todo.length - failed} of ${todo.length} new repos`);
+}
+
+// ── Main ──────────────────────────────────────────────────────────────────
 
 async function main() {
-  const dataDir = path.join(__dirname, '..', 'data');
-  fs.mkdirSync(dataDir, { recursive: true });
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+  const history   = readJSON('history.json', {});
+  const catalog   = readJSON('catalog.json', {});
+  const judgments = readJSON('judgments.json', {});
+  judgments.model = JEV_MODEL;
+  judgments.github ??= {};
 
-  const [ghResult, hfResult, spacesResult] = await Promise.allSettled([
-    fetchGitHub(), fetchHuggingFace(), fetchHuggingFaceSpaces(),
-  ]);
+  const names = Object.keys(SOURCES);
+  const results = await Promise.allSettled(names.map(n => SOURCES[n].fetch()));
 
-  let anyFailed = false;
-  const historyUpdates = {};
+  for (const [i, name] of names.entries()) {
+    const result = results[i];
+    if (result.status !== 'fulfilled') { console.error(`${name} failed: ${result.reason.message}`); continue; }
+    const src = SOURCES[name];
+    const snapshot = result.value;
+    writeJSON(`${name}.json`, snapshot);
 
-  if (ghResult.status === 'fulfilled') {
-    fs.writeFileSync(path.join(dataDir, 'github.json'), JSON.stringify(ghResult.value, null, 2));
-    historyUpdates.github = extractObservations('github', ghResult.value);
-    console.log('Wrote data/github.json');
-  } else {
-    console.error('GitHub fetch failed:', ghResult.reason.message);
-    anyFailed = true;
+    const bucket = history[name] ??= {};
+    const cat = catalog[name] ??= {};
+    const listed = new Set();
+    for (const item of src.items(snapshot)) {
+      const id = src.id(item);
+      if (listed.has(id)) continue; // an item on two lists records its first-list rank
+      listed.add(id);
+      record(bucket, id, src.metric(item), item.rank);
+      cat[id] = src.catalog(item);
+    }
+    // Only follow when today's list is known, or listed items would be recorded as unlisted.
+    await followUp(name, bucket, cat, listed);
   }
 
-  if (hfResult.status === 'fulfilled') {
-    fs.writeFileSync(path.join(dataDir, 'huggingface.json'), JSON.stringify(hfResult.value, null, 2));
-    historyUpdates.huggingface = extractObservations('huggingface', hfResult.value);
-    console.log('Wrote data/huggingface.json');
-  } else {
-    console.error('HuggingFace fetch failed:', hfResult.reason.message);
-    anyFailed = true;
-  }
+  await judgeNewRepos(catalog.github || {}, judgments);
 
-  if (spacesResult.status === 'fulfilled') {
-    fs.writeFileSync(path.join(dataDir, 'spaces.json'), JSON.stringify(spacesResult.value, null, 2));
-    historyUpdates.spaces = extractObservations('spaces', spacesResult.value);
-    console.log('Wrote data/spaces.json');
-  } else {
-    console.error('HuggingFace Spaces fetch failed:', spacesResult.reason.message);
-    anyFailed = true;
+  prune(history);
+  for (const name of names) {
+    const ids = history[name] || {};
+    for (const id of Object.keys(catalog[name] || {})) if (!ids[id]) delete catalog[name][id];
   }
+  for (const id of Object.keys(judgments.github)) if (!history.github?.[id]) delete judgments.github[id];
 
-  if (Object.keys(historyUpdates).length > 0) {
-    updateHistory(path.join(dataDir, 'history.json'), historyUpdates);
-    console.log('Updated data/history.json');
-  }
+  history.updated = new Date().toISOString();
+  writeJSON('history.json', history, false);
+  writeJSON('catalog.json', catalog);
+  writeJSON('judgments.json', judgments);
 
-  // Only fail hard if all sources failed — partial data is better than no commit
-  if (anyFailed && ghResult.status !== 'fulfilled' && hfResult.status !== 'fulfilled' && spacesResult.status !== 'fulfilled') {
-    process.exitCode = 1;
-  }
+  if (results.every(r => r.status !== 'fulfilled')) process.exitCode = 1;
 }
 
 main();

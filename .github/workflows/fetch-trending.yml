@@ -2,8 +2,8 @@ name: Fetch Trending Data
 
 on:
   schedule:
-    - cron: '0 */3 * * *'   # every 3 hours
-  workflow_dispatch:          # manual trigger from GitHub UI
+    - cron: '17 5 * * *'   # daily; history keeps one observation per item per day
+  workflow_dispatch:
   push:
     branches: [main]
     paths:
@@ -28,6 +28,9 @@ jobs:
 
       - name: Fetch trending data
         run: node scripts/fetch.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}          # follow-up star counts: 5000 req/h instead of 60
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}  # Jev kind judgments; skipped when unset
 
       - name: Commit updated data
         run: |

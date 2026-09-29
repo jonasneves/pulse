@@ -1,80 +1,88 @@
-/* ── Tool surface (WebMCP) ────────────────────────────────────────────────
-   Declarative manifest of tools this page exposes to AI agents.
-   Each entry declares trust annotations, a JSON schema, and an execute
-   handler used when registering with navigator.modelContext.
+/* ── WebMCP tool surface ──────────────────────────────────────────────────
+   Tools this page registers with document.modelContext so an agent in the
+   browser can read the data and steer the view. `pulse` is the page state
+   and actions index.js exposes.
    ──────────────────────────────────────────────────────────────────────── */
+
+const TAB_ENUM = ['github', 'models', 'spaces'];
 
 const TOOL_DEFS = [
   {
-    name: 'set_focus',
-    description: 'Highlight a specific card in the content pane to draw attention to it.',
-    readOnlyHint: true,
-    idempotentHint: true,
-    destructiveHint: false,
-    schema: {
+    name: 'list_items',
+    description: 'List the items on a tab (GitHub trending repos, trending Hugging Face models, or trending Spaces) in list order, with each one\'s description, total, gain over the last 7 days (and the days it covers), and, for GitHub, Jev\'s judgment of whether it is a project, a curated list, or learning material.',
+    annotations: { readOnlyHint: true },
+    inputSchema: {
       type: 'object',
-      properties: {
-        index: {
-          type: 'number',
-          description: '1-based rank of the item to highlight',
-        },
-      },
-      required: ['index'],
+      properties: { tab: { type: 'string', enum: TAB_ENUM, description: 'Defaults to the tab on screen' } },
     },
-    execute(input) {
-      const cards = document.querySelectorAll('#card-list [data-rank]');
-      cards.forEach(c => c.classList.remove('active'));
-      const target = document.querySelector(`#card-list [data-rank="${input.index}"]`);
-      if (target) {
-        target.classList.add('active');
-        target.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        return { ok: true, focused: input.index };
-      }
-      return { ok: false, error: `Item #${input.index} not found` };
-    },
+    execute: ({ tab } = {}) => pulse.listItems(tab || pulse.activeTab),
   },
   {
-    name: 'open_url',
-    description: 'Open a GitHub repo or HuggingFace model page in a new browser tab.',
-    readOnlyHint: false,
-    idempotentHint: false,
-    destructiveHint: false,
-    schema: {
+    name: 'get_history',
+    description: 'Daily observations for one item over up to 90 days: date, total (stars or likes), and rank on its list that day (null on days it was followed after leaving the list).',
+    annotations: { readOnlyHint: true },
+    inputSchema: {
       type: 'object',
       properties: {
-        url: { type: 'string', description: 'Full URL to open' },
+        tab: { type: 'string', enum: TAB_ENUM },
+        id:  { type: 'string', description: 'owner/name for a repo, model, or Space' },
       },
-      required: ['url'],
+      required: ['tab', 'id'],
     },
-    execute(input) {
-      if (/^https:\/\/(github\.com|huggingface\.co)\//.test(input.url)) {
-        window.open(input.url, '_blank', 'noopener,noreferrer');
-        return { ok: true, opened: input.url };
-      }
-      return { ok: false, error: 'URL not allowed (only github.com and huggingface.co)' };
-    },
+    execute: ({ tab, id }) => pulse.history?.[tab]?.[id] ?? { error: `No history for ${id} on ${tab}` },
   },
   {
-    name: 'filter_tab',
-    description: 'Switch the active tab to show GitHub trending repos or HuggingFace models.',
-    readOnlyHint: false,
-    idempotentHint: true,
-    destructiveHint: false,
-    schema: {
+    name: 'show_tab',
+    description: 'Switch the page to a tab.',
+    annotations: { readOnlyHint: false },
+    inputSchema: {
       type: 'object',
-      properties: {
-        tab: {
-          type: 'string',
-          enum: ['github', 'huggingface'],
-          description: 'Tab to activate',
-        },
-      },
+      properties: { tab: { type: 'string', enum: TAB_ENUM } },
       required: ['tab'],
     },
-    execute(input) {
-      const btn = document.querySelector(`.tab-btn[data-tab="${input.tab}"]`);
-      if (btn) { btn.click(); return { ok: true, tab: input.tab }; }
-      return { ok: false, error: `Unknown tab: ${input.tab}` };
+    execute: ({ tab }) => { pulse.showTab(tab); return { tab }; },
+  },
+  {
+    name: 'focus_item',
+    description: 'Scroll to one item on the current tab and highlight it.',
+    annotations: { readOnlyHint: false },
+    inputSchema: {
+      type: 'object',
+      properties: { id: { type: 'string', description: 'owner/name as returned by list_items' } },
+      required: ['id'],
     },
+    execute: ({ id }) => pulse.focusItem(id) ? { focused: id } : { error: `${id} is not on the current tab` },
+  },
+  {
+    name: 'set_hide_judged',
+    description: 'Hide or show GitHub repos Jev judged to be curated lists or learning material (p ≥ 0.7).',
+    annotations: { readOnlyHint: false },
+    inputSchema: {
+      type: 'object',
+      properties: { hide: { type: 'boolean' } },
+      required: ['hide'],
+    },
+    execute: ({ hide }) => { pulse.setHideJudged(hide); return { hide }; },
   },
 ];
+
+async function registerWebMCPTools() {
+  const mc = document.modelContext ?? navigator.modelContext;
+  if (!mc?.registerTool) return 0;
+  let count = 0;
+  for (const t of TOOL_DEFS) {
+    try {
+      await mc.registerTool({
+        name: t.name,
+        description: t.description,
+        inputSchema: t.inputSchema,
+        annotations: t.annotations,
+        execute: async args => ({ content: [{ type: 'text', text: JSON.stringify(await t.execute(args ?? {})) }] }),
+      });
+      count++;
+    } catch (e) {
+      console.warn(`[WebMCP] ${t.name} not registered:`, e);
+    }
+  }
+  return count;
+}
