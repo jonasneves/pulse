@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T21:05:11.069Z",
+  "updated": "2026-09-29T04:36:07.668Z",
   "models": [
     {
       "rank": 1,
@@ -61,7 +61,7 @@
       "url": "https://huggingface.co/google/electra-base-discriminator",
       "pipelineTag": null,
       "downloads": 46262071,
-      "likes": 187,
+      "likes": 188,
       "tags": [
         "transformers",
         "pytorch",
@@ -79,7 +79,7 @@
       "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
       "pipelineTag": "sentence-similarity",
       "downloads": 45537597,
-      "likes": 1414,
+      "likes": 1413,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -115,7 +115,7 @@
       "url": "https://huggingface.co/BAAI/bge-m3",
       "pipelineTag": "sentence-similarity",
       "downloads": 36143759,
-      "likes": 3709,
+      "likes": 3710,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -169,7 +169,7 @@
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "pipelineTag": null,
       "downloads": 21935560,
-      "likes": 2034,
+      "likes": 2037,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -185,7 +185,7 @@
       "url": "https://huggingface.co/openai/clip-vit-base-patch32",
       "pipelineTag": "zero-shot-image-classification",
       "downloads": 21696118,
-      "likes": 1571,
+      "likes": 1572,
       "tags": [
         "transformers",
         "pytorch",
@@ -203,7 +203,7 @@
       "url": "https://huggingface.co/amazon/chronos-2",
       "pipelineTag": "time-series-forecasting",
       "downloads": 21444350,
-      "likes": 497,
+      "likes": 498,
       "tags": [
         "chronos-forecasting",
         "safetensors",
@@ -329,7 +329,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "pipelineTag": "text-generation",
       "downloads": 15368885,
-      "likes": 4183,
+      "likes": 4184,
       "tags": [
         "transformers",
         "pytorch",
@@ -401,7 +401,7 @@
       "url": "https://huggingface.co/intfloat/multilingual-e5-small",
       "pipelineTag": "sentence-similarity",
       "downloads": 11941920,
-      "likes": 431,
+      "likes": 432,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -419,7 +419,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "pipelineTag": "text-to-speech",
       "downloads": 11561982,
-      "likes": 7044,
+      "likes": 7045,
       "tags": [
         "text-to-speech",
         "en",
@@ -489,7 +489,7 @@
       "url": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 10325876,
-      "likes": 1083,
+      "likes": 1084,
       "tags": [
         "transformers",
         "gguf",
@@ -507,7 +507,7 @@
       "url": "https://huggingface.co/BAAI/bge-base-en-v1.5",
       "pipelineTag": "feature-extraction",
       "downloads": 9985377,
-      "likes": 502,
+      "likes": 503,
       "tags": [
         "sentence-transformers",
         "pytorch",
@@ -542,7 +542,7 @@
       "url": "https://huggingface.co/DavidAU/LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 6489,
-      "likes": 95,
+      "likes": 96,
       "tags": [
         "gguf",
         "liquid",
@@ -556,11 +556,28 @@
     },
     {
       "rank": 2,
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "downloads": 6079804,
+      "likes": 8011,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 3,
       "id": "paradigma-inc/limite-1b-violetto",
       "url": "https://huggingface.co/paradigma-inc/limite-1b-violetto",
       "pipelineTag": "text-generation",
       "downloads": 4542,
-      "likes": 87,
+      "likes": 88,
       "tags": [
         "safetensors",
         "limite",
@@ -573,12 +590,12 @@
       "description": "Paradigma's first model, built for high-throughput mathematical reasoning."
     },
     {
-      "rank": 3,
+      "rank": 4,
       "id": "peculiar-ragdoll/Sharp-Spark-X2.5-4B-GGUF",
       "url": "https://huggingface.co/peculiar-ragdoll/Sharp-Spark-X2.5-4B-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 18641,
-      "likes": 91,
+      "likes": 93,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -591,24 +608,25 @@
       "description": "Dynamic imatrix GGUF quants of XHToken/Spark-X2.5-4B, a 4B dense long-context model, carrying our cyber-and-coding-weighted importance matrix, a heuristic per-tensor bit allocation, and the Sharp-Spark chat template."
     },
     {
-      "rank": 4,
-      "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "rank": 5,
+      "id": "openbmb/MiniCPM5-2B",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "pipelineTag": "text-generation",
-      "downloads": 6079804,
-      "likes": 8006,
+      "downloads": 814813,
+      "likes": 1696,
       "tags": [
         "transformers",
         "safetensors",
         "llama",
         "text-generation",
-        "facebook",
-        "meta"
+        "minicpm",
+        "minicpm5"
       ],
-      "lastModified": null
+      "lastModified": null,
+      "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "id": "harshatheg/Qwen-2.5-1B-RLCD",
       "url": "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD",
       "pipelineTag": "text-generation",
@@ -626,30 +644,12 @@
       "description": "A high-throughput inference engine for structured information extraction, decision routing, and categorical classification on Apple Silicon using MLX."
     },
     {
-      "rank": 6,
-      "id": "openbmb/MiniCPM5-2B",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
-      "pipelineTag": "text-generation",
-      "downloads": 814813,
-      "likes": 1695,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "minicpm",
-        "minicpm5"
-      ],
-      "lastModified": null,
-      "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…"
-    },
-    {
       "rank": 7,
       "id": "empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
       "pipelineTag": "text-generation",
       "downloads": 303921,
-      "likes": 158,
+      "likes": 160,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -667,7 +667,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "downloads": 37447,
-      "likes": 1340,
+      "likes": 1343,
       "tags": [
         "transformers",
         "safetensors",
@@ -703,7 +703,7 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
       "pipelineTag": "text-generation",
       "downloads": 7318887,
-      "likes": 1744,
+      "likes": 1749,
       "tags": [
         "transformers",
         "safetensors",
@@ -716,23 +716,6 @@
     },
     {
       "rank": 11,
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "downloads": 1067152,
-      "likes": 5130,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "lastModified": null
-    },
-    {
-      "rank": 12,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
@@ -750,22 +733,39 @@
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
-      "rank": 13,
-      "id": "Qwen/Qwen3-8B",
-      "url": "https://huggingface.co/Qwen/Qwen3-8B",
+      "rank": 12,
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
-      "downloads": 11999934,
-      "likes": 2058,
+      "downloads": 1067152,
+      "likes": 5132,
       "tags": [
         "transformers",
         "safetensors",
-        "qwen3",
+        "llama",
         "text-generation",
-        "conversational",
-        "license:apache-2.0"
+        "facebook",
+        "meta"
+      ],
+      "lastModified": null
+    },
+    {
+      "rank": 13,
+      "id": "togethercomputer/Tev1-4B-experimental",
+      "url": "https://huggingface.co/togethercomputer/Tev1-4B-experimental",
+      "pipelineTag": "text-generation",
+      "downloads": 1945,
+      "likes": 22,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "together-ai",
+        "qwen3.5"
       ],
       "lastModified": null,
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
+      "description": "Tev1-4B-experimental is an experimental 4B decision model from Together AI. It is a supervised fine-tune of Qwen3.5-4B trained to choose one option from a structured state, question, and list of choices."
     },
     {
       "rank": 14,
@@ -784,24 +784,6 @@
       ],
       "lastModified": null,
       "description": "Spark-X2.5 is a compact, general-purpose language model for conversation, writing, translation, reasoning, coding, tool use, and agentic workflows. It uses a hybrid attention architecture, supports a native context length of up to 1M tok…"
-    },
-    {
-      "rank": 15,
-      "id": "togethercomputer/Tev1-4B-experimental",
-      "url": "https://huggingface.co/togethercomputer/Tev1-4B-experimental",
-      "pipelineTag": "text-generation",
-      "downloads": 1945,
-      "likes": 21,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "together-ai",
-        "qwen3.5"
-      ],
-      "lastModified": null,
-      "description": "Tev1-4B-experimental is an experimental 4B decision model from Together AI. It is a supervised fine-tune of Qwen3.5-4B trained to choose one option from a structured state, question, and list of choices."
     }
   ]
 }
