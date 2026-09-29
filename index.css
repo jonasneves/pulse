@@ -2,6 +2,7 @@
    Hue encodes the source (GitHub / Models / Spaces) and nothing else.
    Font family encodes content type: condensed for names and figures,
    sans for prose, mono for data. Dashed outlines mark model output (Jev).
+   Motion: state changes ease out over 120–320ms; nothing moves on its own.
    ──────────────────────────────────────────────────────────────────────── */
 :root {
   --bg: #eceff2;
@@ -22,9 +23,15 @@
   --f-body: 'IBM Plex Sans', system-ui, sans-serif;
   --f-mono: 'IBM Plex Mono', ui-monospace, monospace;
 
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --t-fast: 120ms;
+  --t: 200ms;
+  --t-slow: 320ms;
+
   --trace-w: 240px;
   --gutter: clamp(16px, 4vw, 40px);
   color-scheme: light;
+  interpolate-size: allow-keywords;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -58,8 +65,11 @@
   color-scheme: dark;
 }
 
-:root[data-source="models"] { --src: var(--models); }
-:root[data-source="spaces"] { --src: var(--spaces); }
+/* The overview has no single source; each card and row there sets its own. */
+:root[data-source="all"] { --src: var(--ink); }
+[data-source="github"] { --src: var(--github); }
+[data-source="models"] { --src: var(--models); }
+[data-source="spaces"] { --src: var(--spaces); }
 
 /* ── Base ──────────────────────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; }
@@ -75,6 +85,22 @@ a { color: inherit; }
 code { font: 0.9em var(--f-mono); }
 button { font: inherit; color: inherit; }
 :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 3px; }
+
+/* Pressed controls give way slightly, so a click registers before its result arrives. */
+.tab, .icon-btn, .agent-btn, .gain-bar {
+  transition: color var(--t-fast), background-color var(--t-fast), border-color var(--t-fast), transform var(--t-fast) var(--ease-out);
+}
+.tab:active, .icon-btn:active, .agent-btn:active { transform: scale(0.96); }
+.gain-bar:active { transform: scale(0.99); }
+
+/* Tab switches and theme changes crossfade the page; the masthead stays live so the tab
+   underline can slide instead of fading. */
+.masthead { view-transition-name: masthead; }
+:root[data-transition="theme"] .masthead { view-transition-name: none; }
+::view-transition-group(root) { animation-duration: var(--t); animation-timing-function: var(--ease-out); }
+::view-transition-old(masthead) { display: none; }
+::view-transition-new(masthead) { animation: none; }
+::view-transition-group(masthead) { animation: none; }
 
 /* ── Masthead ──────────────────────────────────────────────────────────── */
 .masthead {
@@ -93,7 +119,7 @@ button { font: inherit; color: inherit; }
 .brand-mark { width: 28px; height: 14px; fill: none; stroke: var(--src); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; transition: stroke .2s; }
 .brand-name { font: 700 22px/1 var(--f-display); letter-spacing: -0.02em; }
 
-.tabs { display: flex; gap: 4px; }
+.tabs { display: flex; gap: 4px; position: relative; }
 .tab {
   border: 0;
   background: none;
@@ -106,13 +132,16 @@ button { font: inherit; color: inherit; }
 }
 .tab:hover { color: var(--ink); }
 .tab[aria-pressed="true"] { color: var(--ink); }
-.tab[aria-pressed="true"]::after {
-  content: '';
+.tab-indicator {
   position: absolute;
-  left: 10px; right: 10px; bottom: -13px;
+  left: 0; bottom: -13px;
+  width: calc(var(--w, 0px) - 20px);
   height: 2px;
+  transform: translateX(calc(var(--x, 0px) + 10px));
   background: var(--src);
+  pointer-events: none;
 }
+.tab-indicator.placed { transition: transform var(--t-slow) var(--ease-out), width var(--t-slow) var(--ease-out), background-color var(--t); }
 
 .masthead-end { margin-left: auto; display: flex; align-items: center; gap: 12px; }
 .updated { font: 12px var(--f-mono); color: var(--ink-3); white-space: nowrap; }
@@ -146,6 +175,8 @@ button { font: inherit; color: inherit; }
 .agent-panel {
   position: absolute;
   right: 0; top: calc(100% + 8px);
+  transform-origin: top right;
+  transition: opacity var(--t-fast), transform var(--t-fast) var(--ease-out), display var(--t-fast) allow-discrete;
   width: min(360px, calc(100vw - 32px));
   max-height: 70vh;
   overflow: auto;
@@ -154,6 +185,10 @@ button { font: inherit; color: inherit; }
   border: 1px solid var(--rule-strong);
   border-radius: 10px;
   box-shadow: 0 12px 32px rgb(0 0 0 / 0.14);
+}
+.agent-panel[hidden] { display: none; opacity: 0; transform: translateY(-4px) scale(0.98); }
+@starting-style {
+  .agent-panel:not([hidden]) { opacity: 0; transform: translateY(-4px) scale(0.98); }
 }
 .agent-status { margin: 0 0 10px; font-size: 13px; color: var(--ink-2); }
 .agent-tools { list-style: none; margin: 0; padding: 0; }
@@ -210,7 +245,40 @@ main { max-width: 1120px; margin: 0 auto; padding: 20px var(--gutter) 80px; }
 }
 .gain-bar:hover { background: color-mix(in srgb, var(--src) 8%, transparent); }
 .gain-bar-name { font: 500 14px var(--f-display); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.gain-bar-fill { height: 10px; width: var(--w); background: var(--src); border-radius: 0 3px 3px 0; }
+.gain-bar-fill {
+  height: 10px; width: var(--w); background: var(--src); border-radius: 0 3px 3px 0;
+  transform-origin: left;
+  animation: grow var(--t-slow) var(--ease-out) calc(var(--i, 0) * 30ms) both;
+}
+/* Bars measure from zero, so they arrive from zero. */
+@keyframes grow { from { transform: scaleX(0); } }
+
+/* ── All sources ───────────────────────────────────────────────────────── */
+.gains.gains-trio { background: none; border: 0; border-radius: 0; padding: 0; }
+.gains-trio { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-bottom: 36px; }
+.gains-trio:empty { display: none; }
+.gains-trio .gains { margin: 0; padding: 14px 12px 10px; border-top: 3px solid var(--src); }
+.gains-trio .gains-head { flex-direction: column; gap: 2px; padding: 0 6px; }
+.gains-trio .gain-bar { grid-template-columns: minmax(0, 1fr) auto; grid-template-rows: auto auto; gap: 2px 10px; }
+.gains-trio .gain-bar-value { white-space: nowrap; }
+.gains-empty { margin: 10px 6px 4px; font-size: 13px; color: var(--ink-2); }
+.gains-trio .gain-bar-name { grid-column: 1 / -1; font-size: 13px; }
+.gains-trio .gain-bar-value { font-size: 12px; }
+
+.group { margin-top: 26px; }
+.group-head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 14px; padding: 0 8px 6px; border-bottom: 1px solid var(--rule-strong); }
+.group-head h3 { margin: 0; font: 600 19px/1.2 var(--f-display); overflow-wrap: anywhere; }
+/* The label is text in a text colour; the square beside it carries the source hue. */
+.row-source {
+  align-self: start; padding-top: 3px;
+  display: flex; align-items: center; justify-content: flex-end; gap: 5px;
+  font: 500 11px var(--f-mono); color: var(--ink-2); text-transform: uppercase; letter-spacing: 0.04em;
+}
+.row-source::before { content: ''; width: 7px; height: 7px; border-radius: 2px; background: var(--src); flex: none; }
+.row.member { grid-template-columns: 4.25rem minmax(0, 1fr) var(--trace-w) 8rem; padding: 10px 8px; }
+.section-lede { margin: 10px 0 0; max-width: 68ch; font-size: 14px; color: var(--ink-2); }
+.member .row-name { font-size: 16px; }
+.row-rel { margin: 2px 0 0; font-size: 13px; color: var(--ink-2); overflow-wrap: anywhere; }
 .gain-bar-value { font: 500 13px var(--f-mono); text-align: right; color: var(--ink-2); font-variant-numeric: tabular-nums; }
 
 /* ── Sections and rows ─────────────────────────────────────────────────── */
@@ -233,8 +301,15 @@ main { max-width: 1120px; margin: 0 auto; padding: 20px var(--gutter) 80px; }
   border-bottom: 1px solid var(--rule);
   scroll-margin-top: 80px;
 }
+.row { transition: background-color var(--t-fast); }
 .row:hover { background: color-mix(in srgb, var(--surface) 70%, transparent); }
-.row.focused { background: color-mix(in srgb, var(--src) 10%, var(--surface)); box-shadow: inset 3px 0 0 var(--src); }
+.row.focused {
+  background: color-mix(in srgb, var(--src) 10%, var(--surface));
+  box-shadow: inset 3px 0 0 var(--src);
+  animation: arrive 900ms var(--ease-out);
+}
+/* A row picked from the chart lands brighter, then settles, so the eye finds it after the scroll. */
+@keyframes arrive { from { background: color-mix(in srgb, var(--src) 30%, var(--surface)); } }
 
 .row-rank { align-self: start; padding-top: 2px; font: 500 13px var(--f-mono); color: var(--ink-3); text-align: right; font-variant-numeric: tabular-nums; }
 .row-main { min-width: 0; }
@@ -287,6 +362,12 @@ main { max-width: 1120px; margin: 0 auto; padding: 20px var(--gutter) 80px; }
   list-style-position: inside;
 }
 .hidden-rows .row { opacity: 0.8; }
+.hidden-rows::details-content {
+  block-size: 0;
+  overflow: clip;
+  transition: block-size var(--t-slow) var(--ease-out), content-visibility var(--t-slow) allow-discrete;
+}
+.hidden-rows[open]::details-content { block-size: auto; }
 
 .empty { padding: 40px 0; color: var(--ink-2); }
 
@@ -295,7 +376,9 @@ main { max-width: 1120px; margin: 0 auto; padding: 20px var(--gutter) 80px; }
   .masthead { flex-wrap: wrap; gap: 10px 16px; }
   .masthead-end { gap: 8px; }
   .updated { font-size: 11px; }
-  .tab[aria-pressed="true"]::after { bottom: -4px; }
+  .tab-indicator { bottom: -4px; }
+  .gains-trio { grid-template-columns: minmax(0, 1fr); }
+  .row.member { grid-template-columns: 4.25rem minmax(0, 1fr) auto; }
   .row { grid-template-columns: 1.75rem minmax(0, 1fr) auto; gap: 8px 12px; }
   .row-main { grid-column: 2 / -1; }
   .row-trace { grid-column: 2; grid-row: 2; }
@@ -305,5 +388,9 @@ main { max-width: 1120px; margin: 0 auto; padding: 20px var(--gutter) 80px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  * { transition: none !important; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+/* Its own rule: a browser without ::details-content would drop the whole list above. */
+@media (prefers-reduced-motion: reduce) {
+  .hidden-rows::details-content { transition: none !important; }
 }

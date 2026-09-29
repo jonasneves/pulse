@@ -3,7 +3,7 @@
    axis, so rows line up in time. Solid where the item was on its list that
    day, dotted where it was only followed. Y is scaled per row: the trace
    shows shape, the gain column shows size.
-   renderGains(): the tab's largest 7-day gains as plain HTML bars.
+   renderGains(): largest 7-day gains as plain HTML bars, drawn from zero.
    ──────────────────────────────────────────────────────────────────────── */
 
 const TRACE_W = 240;
@@ -54,29 +54,31 @@ function buildTrace(obs, axis) {
   return svg;
 }
 
-// rows: [{id, label, g}] already sorted
-function renderGains(rows, container, metric, hiddenCount, onPick) {
+// rows: [{id, label, g}] already sorted; head: {title, note, metric}
+function renderGains(rows, container, head, onPick) {
   container.replaceChildren();
   if (!rows.length) return;
   const max = Math.max(...rows.map(r => r.g.delta / r.g.span));
 
-  const head = document.createElement('div');
-  head.className = 'gains-head';
-  const hiddenNote = hiddenCount ? ` · ${hiddenCount} more hidden by Jev` : '';
-  head.innerHTML = `<h2>Fastest growing</h2><span>${metric} per day over the last 7 days, or since first seen${hiddenNote}</span>`;
-  container.appendChild(head);
+  const headEl = document.createElement('div');
+  headEl.className = 'gains-head';
+  headEl.innerHTML = `<h2></h2><span></span>`;
+  headEl.querySelector('h2').textContent = head.title;
+  headEl.querySelector('span').textContent = head.note;
+  container.appendChild(headEl);
 
   const list = document.createElement('ol');
   list.className = 'gains-list';
-  for (const r of rows) {
+  for (const [i, r] of rows.entries()) {
     const rate = r.g.delta / r.g.span;
     const li = document.createElement('li');
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'gain-bar';
     btn.style.setProperty('--w', `${Math.max(2, (rate / max) * 100)}%`);
-    btn.title = `${fmtSigned(r.g.delta)} ${metric} from ${r.g.from} to ${r.g.to}`;
-    btn.innerHTML = `<span class="gain-bar-name"></span><span class="gain-bar-fill" aria-hidden="true"></span><span class="gain-bar-value">${fmtSigned(Math.round(rate))}/d${r.g.span < 7 ? ` · ${r.g.span}d` : ''}</span>`;
+    btn.style.setProperty('--i', i);
+    btn.title = `${r.label}: ${fmtSigned(r.g.delta)} ${head.metric} from ${r.g.from} to ${r.g.to}`;
+    btn.innerHTML = `<span class="gain-bar-name"></span><span class="gain-bar-fill" aria-hidden="true"></span><span class="gain-bar-value">${fmtRate(rate)}/d${r.g.span < 7 ? ` · ${r.g.span}d` : ''}</span>`;
     btn.querySelector('.gain-bar-name').textContent = r.label;
     btn.addEventListener('click', () => onPick(r.id));
     li.appendChild(btn);

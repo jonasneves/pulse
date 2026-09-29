@@ -1,6 +1,6 @@
 # pulse
 
-A zero-build GitHub Pages dashboard that tracks growth of GitHub trending repos (stars), trending Hugging Face models (likes), and trending Hugging Face Spaces (likes). A daily Action snapshots the lists, appends one observation per item per day to a 90-day log, and keeps observing items for 30 days after they leave a list. The page shows each item's gain per day over the last 7 days (or since first seen) and a 90-day trace; a weekly Action posts the largest gains as an issue comment.
+A zero-build GitHub Pages dashboard that tracks growth of GitHub trending repos (stars), trending Hugging Face models (likes), and trending Hugging Face Spaces (likes). A daily Action snapshots the lists, appends one observation per item per day to a 90-day log, and keeps observing items for 30 days after they leave a list. The page shows each item's gain per day over the last 7 days (or since first seen) and a 90-day trace. The All tab shows each source's fastest growers side by side, and groups related items across sources, such as a model, the models built on it, and the Spaces that use them. A weekly Action posts the largest gains as an issue comment.
 
 GitHub trending mixes software with reading lists and courses. [Jev](https://docs.typesafe.ai) (TypeSafe's `jev-1.13.0`) judges each catalogued repo's kind once; repos judged a curated list or learning material with p ≥ 0.7 are hidden by default and stay reachable in a collapsed section.
 
@@ -37,4 +37,4 @@ In Chrome stable, ordinary visitors get `document.modelContext` only through the
 
 ## Layout
 
-Flat files, one concern each: `index.html` shell, `index.css` styles, `index.js` page state and rendering, `rows.js` per-source row config and renderer, `trace.js` traces and gain bars, `rules.js` derivations shared with the digest, `tools.js` the WebMCP surface. See [AGENTS.md](AGENTS.md) for the per-file map, data flow, and design rules.
+Flat files, one concern each: `index.html` shell, `index.css` styles, `index.js` page state and rendering, `rows.js` per-source row config and renderer, `trace.js` traces and gain bars, `rules.js` derivations shared with the digest, `links.js` cross-source grouping, `overview.js` the All tab, `tools.js` the WebMCP surface. See [AGENTS.md](AGENTS.md) for the per-file map, data flow, and design rules.

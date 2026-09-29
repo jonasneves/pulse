@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="index.css?v=5">
+  <link rel="stylesheet" href="index.css?v=6">
 </head>
 <body>
 
@@ -19,9 +19,11 @@
     <span class="brand-name">pulse</span>
   </div>
   <nav class="tabs" aria-label="Source">
-    <button class="tab" type="button" data-tab="github" aria-pressed="true">GitHub</button>
+    <button class="tab" type="button" data-tab="all" aria-pressed="true">All</button>
+    <button class="tab" type="button" data-tab="github" aria-pressed="false">GitHub</button>
     <button class="tab" type="button" data-tab="models" aria-pressed="false">Models</button>
     <button class="tab" type="button" data-tab="spaces" aria-pressed="false">Spaces</button>
+    <span class="tab-indicator" aria-hidden="true"></span>
   </nav>
   <div class="masthead-end">
     <time id="updated" class="updated"></time>
@@ -57,10 +59,12 @@
   <div id="rows"></div>
 </main>
 
-<script src="rules.js?v=5"></script>
-<script src="trace.js?v=5"></script>
-<script src="rows.js?v=5"></script>
-<script src="tools.js?v=5"></script>
-<script src="index.js?v=5"></script>
+<script src="rules.js?v=6"></script>
+<script src="trace.js?v=6"></script>
+<script src="links.js?v=6"></script>
+<script src="rows.js?v=6"></script>
+<script src="overview.js?v=6"></script>
+<script src="tools.js?v=6"></script>
+<script src="index.js?v=6"></script>
 </body>
 </html>

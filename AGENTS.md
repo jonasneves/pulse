@@ -16,13 +16,15 @@ Flat files, no build step. Keep concerns in separate files.
 | `.github/workflows/digest.yml` | Weekly Action: runs `digest.js`, comments on the open issue labelled `digest` (creates the label and issue if missing). |
 | `data/{github,models,spaces}.json` | Today's lists. `github`: `repos`; `models`: `trending`, `small` (text-generation up to 8B or distilled); `spaces`: `trending`, `webml` (webml-community). Committed by the Action; never edit by hand. |
 | `data/history.json` | 90-day log keyed by source → id → `[{d,v,r}]`: day, cumulative metric, rank on its list that day or `null` when only followed. One entry per day, latest wins. Sources: `github` (stars), `models` (likes), `spaces` (likes). The old `huggingface` bucket (30-day download counts) is no longer appended and ages out after 90 days. No rebuild path: the committed file is the record. |
-| `data/catalog.json` | source → id → url, description and source-specific fields, for every item in history, including ones no longer listed. |
+| `data/catalog.json` | source → id → url, description and source-specific fields, for every item in history, including ones no longer listed. Models carry `baseModels` (from `base_model:` Hub tags); Spaces carry `models` (the models they declare, empty when more than 8). |
 | `data/judgments.json` | `model` plus `github` → repo → `{kind, p, d}`. Jev output, kept apart from observations. |
 | `rules.js` | Derivations shared by the page and `digest.js`: `hiddenKind` (collection/learning at p ≥ 0.7), `windowGain`, `growth` (7-day gain, pace vs the 3 weeks before, first seen, last ranked), number formatting. |
+| `links.js` | `crossSourceGroups()`: related tracked items, joined by a Space's declared models, a model's declared base model, or (across sources only) the same owner with a matching name. Links chain. Keeps groups spanning two or more sources with a member listed in the last 7 days. |
+| `overview.js` | The All tab: each source's top 5 by daily rate side by side, then the cross-source groups as member rows. |
 | `rows.js` | `TABS` (per source: label, metric, sections, row facts) and `buildRow()`. |
 | `trace.js` | `buildTrace()` (one item's history as SVG on the tab's date axis) and `renderGains()` (fastest-growing bars). |
 | `tools.js` | `TOOL_DEFS`, the WebMCP tool surface (name, description, `annotations.readOnlyHint`, JSON schema, `execute`), and `registerWebMCPTools()`. |
-| `index.js` | `pulse` page state and actions (called by tools), `render()`, tabs, hide toggle, theme toggle, agent-tools panel, data load. |
+| `index.js` | `pulse` page state and actions (called by tools), `render()`, tabs, hide toggle, theme toggle, agent-tools panel, data load, view transitions. |
 | `index.html` | Shell and layout. Only external resource is Google Fonts. |
 | `index.css` | All styles. CSS custom properties for theming, light and dark. |
 
@@ -78,4 +80,12 @@ In Chrome stable, ordinary visitors get `document.modelContext` only through the
 - Time windows must be labeled. Row gains show their actual span ("+1.2k in 5d"), never a presumed window; the digest omits the span only when it is exactly 7 days.
 - Traces share one 90-day date axis per tab so rows line up in time; solid where the item was on its list that day, dotted where it was only followed; y is scaled per row, so the trace shows shape and the gain column shows size. Hover surfaces the values, dates, and listed days in a `<title>`.
 - Bars start at zero (delta encoding requires it). Lines do not.
+- Stars and likes are different units: the All tab never ranks items from different sources against each other; each source keeps its own scale.
+- A name-matched link is a heuristic; the group row states which evidence joined each member.
+
+### Motion
+
+- Motion reports a state change the reader caused (tab, theme, pick, panel, disclosure); nothing animates on its own or loops.
+- Ease out, 120–320ms (`--t-fast`, `--t`, `--t-slow`). Tab and theme changes crossfade through a same-document view transition, the masthead excluded so the tab underline slides live.
+- `prefers-reduced-motion: reduce` removes every transition and animation, and `transition()` skips the view transition.
 - LLM-generated judgments, themes or clusters are model output: they must be visibly distinguishable from raw observations (labelled with the model and p), and must keep the source items reachable.

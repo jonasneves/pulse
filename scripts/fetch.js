@@ -114,9 +114,13 @@ function parseModel(m, i) {
     downloads: m.downloads || 0,
     trendingScore: m.trendingScore || 0,
     tags: hfTags(m.tags),
+    baseModels: baseModels(m.tags),
     lastModified: m.lastModified || null,
   };
 }
+
+// Hub tags carry the declared base model as base_model:<id> or base_model:<relation>:<id>.
+const baseModels = tags => [...new Set((tags || []).filter(t => t.startsWith('base_model:')).map(t => t.split(':').at(-1)))];
 
 // First substantive prose paragraph of a model README. Walks line by line so a heading directly
 // followed by prose still surfaces the prose, and tracks code fences so imports never pass as prose.
@@ -196,7 +200,9 @@ async function fetchModels() {
 
 // ── Hugging Face Spaces ───────────────────────────────────────────────────
 
-const SPACE_EXPAND = ['cardData', 'tags', 'sdk', 'likes', 'lastModified', 'trendingScore'].map(f => `&expand[]=${f}`).join('');
+const SPACE_EXPAND = ['cardData', 'tags', 'sdk', 'likes', 'lastModified', 'trendingScore', 'models'].map(f => `&expand[]=${f}`).join('');
+
+const SPACE_MAX_MODELS = 8;
 
 function parseSpace(s, i) {
   const card = s.cardData || {};
@@ -210,6 +216,8 @@ function parseSpace(s, i) {
     likes: s.likes || 0,
     trendingScore: s.trendingScore || 0,
     tags: hfTags(s.tags).filter(t => t !== s.sdk),
+    // A Space declaring many models is a leaderboard or a toolbox, not a demo of any one of them.
+    models: (s.models || []).length <= SPACE_MAX_MODELS ? s.models || [] : [],
     lastModified: s.lastModified || null,
   };
 }
@@ -246,7 +254,7 @@ const SOURCES = {
     items: s => [...s.trending, ...s.small],
     id: m => m.id,
     metric: m => m.likes,
-    catalog: m => ({ url: m.url, description: m.description || null, pipelineTag: m.pipelineTag }),
+    catalog: m => ({ url: m.url, description: m.description || null, pipelineTag: m.pipelineTag, baseModels: m.baseModels }),
     follow: async id => ({ v: (await getJSON(`https://huggingface.co/api/models/${id}`)).likes }),
   },
   spaces: {
@@ -254,7 +262,7 @@ const SOURCES = {
     items: s => [...s.trending, ...s.webml],
     id: s => s.id,
     metric: s => s.likes,
-    catalog: s => ({ url: s.url, title: s.title, description: s.description, sdk: s.sdk }),
+    catalog: s => ({ url: s.url, title: s.title, description: s.description, sdk: s.sdk, models: s.models }),
     follow: async id => ({ v: (await getJSON(`https://huggingface.co/api/spaces/${id}`)).likes }),
   },
 };

@@ -74,6 +74,7 @@ function buildRow(item, ctx) {
   const row = document.createElement('li');
   row.className = 'row';
   row.dataset.itemId = id;
+  row.dataset.source = ctx.tab;
   row.dataset.rank = item.rank;
 
   const facts = tab.facts(item).filter(Boolean)
@@ -86,7 +87,7 @@ function buildRow(item, ctx) {
     : '';
 
   const gain = g
-    ? `<span class="gain-num">${fmtSigned(Math.round(g.delta / g.span))}<small>/day</small></span><span class="gain-span">${fmtSigned(g.delta)} in ${g.span}d</span>`
+    ? `<span class="gain-num">${fmtRate(g.delta / g.span)}<small>/day</small></span><span class="gain-span">${fmtSigned(g.delta)} in ${g.span}d</span>`
     : ctx.markNew ? `<span class="gain-span">new today</span>` : '';
 
   row.innerHTML = `

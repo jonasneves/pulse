@@ -56,6 +56,11 @@ function fmtSigned(n) {
   return `${sign}${abs}`;
 }
 
+// Daily rates: a Space gaining three likes a week reads +0.4, not +0.
+function fmtRate(r) {
+  return Math.abs(r) < 9.95 ? `${r < 0 ? '−' : '+'}${Math.abs(r).toFixed(1)}` : fmtSigned(Math.round(r));
+}
+
 function fmtCount(n) {
   if (n >= 1_000_000) return (n / 1_000_000).toFixed(1) + 'M';
   if (n >= 10_000)    return Math.round(n / 1_000) + 'k';
@@ -63,4 +68,4 @@ function fmtCount(n) {
   return String(n ?? 0);
 }
 
-if (typeof module !== 'undefined') module.exports = { HIDDEN_KINDS, HIDE_MIN_P, hiddenKind, daysBetween, shiftDay, windowGain, growth, fmtSigned, fmtCount };
+if (typeof module !== 'undefined') module.exports = { HIDDEN_KINDS, HIDE_MIN_P, hiddenKind, daysBetween, shiftDay, windowGain, growth, fmtSigned, fmtRate, fmtCount };

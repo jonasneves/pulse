@@ -4,12 +4,13 @@
    and actions index.js exposes.
    ──────────────────────────────────────────────────────────────────────── */
 
-const TAB_ENUM = ['github', 'models', 'spaces'];
+const SOURCE_ENUM = ['github', 'models', 'spaces'];
+const TAB_ENUM = ['all', ...SOURCE_ENUM];
 
 const TOOL_DEFS = [
   {
     name: 'list_items',
-    description: 'List the items on a tab (GitHub trending repos, trending Hugging Face models, or trending Spaces) in list order, with each one\'s description, total, gain over the last 7 days (and the days it covers), and, for GitHub, Jev\'s judgment of whether it is a project, a curated list, or learning material.',
+    description: 'List the items on a tab (GitHub trending repos, trending Hugging Face models, or trending Spaces) in list order, with each one\'s description, total, gain over the last 7 days (and the days it covers), and, for GitHub, Jev\'s judgment of whether it is a project, a curated list, or learning material. For the "all" tab: the fastest growers on each source, and groups of related items spanning several sources (a model, models built on it, Spaces using them, a repo with a matching name), with the evidence for each link.',
     annotations: { readOnlyHint: true },
     inputSchema: {
       type: 'object',
@@ -24,7 +25,7 @@ const TOOL_DEFS = [
     inputSchema: {
       type: 'object',
       properties: {
-        tab: { type: 'string', enum: TAB_ENUM },
+        tab: { type: 'string', enum: SOURCE_ENUM },
         id:  { type: 'string', description: 'owner/name for a repo, model, or Space' },
       },
       required: ['tab', 'id'],
@@ -40,7 +41,7 @@ const TOOL_DEFS = [
       properties: { tab: { type: 'string', enum: TAB_ENUM } },
       required: ['tab'],
     },
-    execute: ({ tab }) => { pulse.showTab(tab); return { tab }; },
+    execute: async ({ tab }) => { await pulse.showTab(tab); return { tab }; },
   },
   {
     name: 'focus_item',
@@ -48,10 +49,13 @@ const TOOL_DEFS = [
     annotations: { readOnlyHint: false },
     inputSchema: {
       type: 'object',
-      properties: { id: { type: 'string', description: 'owner/name as returned by list_items' } },
+      properties: {
+        id: { type: 'string', description: 'owner/name as returned by list_items' },
+        source: { type: 'string', enum: SOURCE_ENUM, description: 'On the "all" tab, which source\'s row to focus when an id is both a model and a Space' },
+      },
       required: ['id'],
     },
-    execute: ({ id }) => pulse.focusItem(id) ? { focused: id } : { error: `${id} is not on the current tab` },
+    execute: ({ id, source }) => pulse.focusItem(id, source) ? { focused: id } : { error: `${id} is not on the current tab` },
   },
   {
     name: 'set_hide_judged',
