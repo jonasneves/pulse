@@ -22,8 +22,16 @@ const SECTIONS = [
   { source: 'spaces', title: 'Hugging Face Spaces', metric: 'likes' },
 ];
 
-// Descriptions are third-party text: keep them from breaking the table, opening HTML or @-mentioning anyone.
-const cell = s => String(s ?? '').replace(/[|<>@]/g, c => `\\${c}`).replace(/\s+/g, ' ').trim();
+// Third-party text: no table breaks, HTML, @-mentions, links or images.
+const cell = s => String(s ?? '').replace(/[\\`*_[\]()!#~|<>@]/g, c => `\\${c}`).replace(/\s+/g, ' ').trim();
+
+// Links come from the id, never from fetched URLs.
+const PAGE = {
+  github: id => `https://github.com/${id}`,
+  models: id => `https://huggingface.co/${id}`,
+  spaces: id => `https://huggingface.co/spaces/${id}`,
+};
+const link = (source, id) => /^[\w.-]+\/[\w.-]+$/.test(id) ? `[${cell(id)}](${PAGE[source](id)})` : cell(id);
 const shortDate = d => new Date(d + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
 
 function note(g) {
@@ -34,8 +42,8 @@ function note(g) {
   return notes.join('; ');
 }
 
-function row(i, id, g, entry) {
-  const name = entry?.url ? `[${cell(id)}](${entry.url})` : cell(id);
+function row(i, source, id, g, entry) {
+  const name = link(source, id);
   const desc = entry?.description ? ` — ${cell(entry.description.length > 110 ? entry.description.slice(0, 107) + '…' : entry.description)}` : '';
   const span = g.span === 7 ? '' : ` in ${g.span}d`;
   return `| ${i} | ${name}${desc} | ${fmtSigned(g.delta)}${span} | ${fmtCount(g.now)} | ${note(g)} |`;
@@ -59,11 +67,11 @@ for (const { source, title, metric } of SECTIONS) {
   out.push('', `### ${title}`);
   if (!shown.length) { out.push('', `No ${metric} gains recorded yet.`); continue; }
   out.push('', `| | | ${metric} | total | |`, '|--:|---|--:|--:|---|');
-  shown.forEach((x, i) => out.push(row(i + 1, x.id, x.g, catalog[source]?.[x.id])));
+  shown.forEach((x, i) => out.push(row(i + 1, source, x.id, x.g, catalog[source]?.[x.id])));
 
   if (hidden.length) {
     out.push('', `<details><summary>${hidden.length} lists and courses hidden (Jev ${judgments.model})</summary>`, '');
-    for (const x of hidden) out.push(`- ${kind(x.id)}: [${x.id}](${catalog[source]?.[x.id]?.url || `https://github.com/${x.id}`}) ${fmtSigned(x.g.delta)}`);
+    for (const x of hidden) out.push(`- ${kind(x.id)}: ${link(source, x.id)} ${fmtSigned(x.g.delta)}`);
     out.push('', '</details>');
   }
 }
