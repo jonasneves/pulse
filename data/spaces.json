@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T12:36:51.649Z",
+  "updated": "2026-09-29T12:57:36.792Z",
   "trending": [
     {
       "rank": 1,
@@ -9,8 +9,9 @@
       "description": "Benchmarks and news on various repros of TypeSafe's Jev",
       "sdk": "static",
       "likes": 315,
-      "trendingScore": 189,
+      "trendingScore": 187,
       "tags": [],
+      "models": [],
       "lastModified": "2026-09-28T00:40:34.000Z"
     },
     {
@@ -23,6 +24,13 @@
       "likes": 854,
       "trendingScore": 180,
       "tags": [],
+      "models": [
+        "hfmlsoc/ncii-light-guard-v01",
+        "larryvrh/MiniMax-H3-Turbo-Lora",
+        "lightx2v/Minimax-h3-Turbo",
+        "MiniMaxAI/MiniMax-H3",
+        "multimodalart/minimax-h3-aoti"
+      ],
       "lastModified": "2026-08-16T13:57:05.000Z"
     },
     {
@@ -33,8 +41,12 @@
       "description": null,
       "sdk": "gradio",
       "likes": 297,
-      "trendingScore": 147,
+      "trendingScore": 145,
       "tags": [],
+      "models": [
+        "hfmlsoc/ncii-guard-v02",
+        "Qwen/Qwen-Image-2.1"
+      ],
       "lastModified": "2026-09-27T14:59:47.000Z"
     },
     {
@@ -45,8 +57,11 @@
       "description": "Fast System 1 decisions with calibrated probabilities",
       "sdk": "gradio",
       "likes": 243,
-      "trendingScore": 108,
+      "trendingScore": 107,
       "tags": [],
+      "models": [
+        "convaiinnovations/laya"
+      ],
       "lastModified": "2026-09-19T09:32:25.000Z"
     },
     {
@@ -56,13 +71,17 @@
       "title": "Viggle Turbo for Qwen-Image-2.1",
       "description": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
       "sdk": "gradio",
-      "likes": 110,
-      "trendingScore": 103,
+      "likes": 111,
+      "trendingScore": 104,
       "tags": [
         "text-to-image",
         "image-editing",
         "distillation",
         "dmd"
+      ],
+      "models": [
+        "Viggle/Qwen-Image-2.1-viggle-turbo",
+        "Qwen/Qwen-Image-2.1"
       ],
       "lastModified": "2026-09-28T18:24:59.000Z"
     },
@@ -74,9 +93,16 @@
       "description": "AnyPose pose still with a strong pose-reference lock",
       "sdk": "gradio",
       "likes": 593,
-      "trendingScore": 101,
+      "trendingScore": 100,
       "tags": [
         "mcp-server"
+      ],
+      "models": [
+        "huggingface/documentation-images",
+        "jonathandinu/face-parsing",
+        "kernels-community/vllm-flash-attn3",
+        "Qwen/Qwen-Image-Edit-2509",
+        "Qwen/Qwen2.5-VL-7B-Instruct"
       ],
       "lastModified": "2026-09-25T04:09:09.000Z"
     },
@@ -90,6 +116,14 @@
       "likes": 200,
       "trendingScore": 95,
       "tags": [],
+      "models": [
+        "EllaPriest45/MinimaxH3_Actions",
+        "Hearmeman/minimax-h3-loras",
+        "InstantX/MiniMax-H3-Turbo-Lora-Diffusers",
+        "MiniMaxAI/MiniMax-H3",
+        "multimodalart/minimax-h3-aoti",
+        "observantdistressed/plora-h3"
+      ],
       "lastModified": "2026-09-26T21:33:02.000Z"
     },
     {
@@ -103,6 +137,11 @@
       "trendingScore": 90,
       "tags": [
         "mcp-server"
+      ],
+      "models": [
+        "hfmlsoc/ncii-guard-v02",
+        "hugging-apps/qwen-image-2-1-aoti",
+        "Qwen/Qwen-Image-2.1"
       ],
       "lastModified": "2026-09-21T13:39:32.000Z"
     },
@@ -118,6 +157,10 @@
       "tags": [
         "mcp-server"
       ],
+      "models": [
+        "KasugaiSakura/Qwen-Image-2.1-Uncensored-Abenzerps-GGUF",
+        "Qwen/Qwen-Image-2.1"
+      ],
       "lastModified": "2026-09-26T12:23:32.000Z"
     },
     {
@@ -127,9 +170,16 @@
       "title": "Krea 2 Turbo Image Generator",
       "description": "Krea 2 Turbo text2image and image editing",
       "sdk": "gradio",
-      "likes": 175,
-      "trendingScore": 88,
+      "likes": 176,
+      "trendingScore": 89,
       "tags": [],
+      "models": [
+        "Comfy-Org/Krea-2",
+        "conradlocke/krea2-identity-edit",
+        "metaloz/imgstuff",
+        "mpasila/Krea-2-LoRAs",
+        "mpasila/Krea-2-Models"
+      ],
       "lastModified": "2026-09-14T02:27:15.000Z"
     },
     {
@@ -142,6 +192,11 @@
       "likes": 86,
       "trendingScore": 85,
       "tags": [],
+      "models": [
+        "nvidia/multitalker-parakeet-streaming-0.6b-v1",
+        "nvidia/Nemotron-3-Diarization",
+        "nvidia/nemotron-3.5-asr-streaming-0.6b"
+      ],
       "lastModified": "2026-09-23T02:01:45.000Z"
     },
     {
@@ -151,10 +206,14 @@
       "title": "Qwen Image 2.1 GGUF Studio",
       "description": "Qwen Image 2.1 Uncensored GGUF demo with Q4_K_M weights",
       "sdk": "gradio",
-      "likes": 105,
-      "trendingScore": 84,
+      "likes": 106,
+      "trendingScore": 85,
       "tags": [
         "mcp-server"
+      ],
+      "models": [
+        "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+        "Qwen/Qwen-Image-2.1"
       ],
       "lastModified": "2026-09-21T12:13:28.000Z"
     },
@@ -170,6 +229,12 @@
       "tags": [
         "mcp-server"
       ],
+      "models": [
+        "Mothersuperior/YuE2-hum-to-song",
+        "m-a-p/YuE2-3B",
+        "m-a-p/YuE2-Vae",
+        "m-a-p/SheetSage2"
+      ],
       "lastModified": "2026-09-16T12:24:24.000Z"
     },
     {
@@ -183,6 +248,12 @@
       "trendingScore": 60,
       "tags": [
         "mcp-server"
+      ],
+      "models": [
+        "cbensimon/WanTransformer3DModel-sm120-cu130-raa",
+        "r3gm/RIFE",
+        "TestOrganizationPleaseIgnore/WAMU_v3_WAN2.2_I2V_LIGHTNING",
+        "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
       ],
       "lastModified": "2026-08-23T15:26:43.000Z"
     },
@@ -198,6 +269,7 @@
       "tags": [
         "mcp-server"
       ],
+      "models": [],
       "lastModified": "2026-09-25T17:05:00.000Z"
     },
     {
@@ -210,6 +282,7 @@
       "likes": 94,
       "trendingScore": 46,
       "tags": [],
+      "models": [],
       "lastModified": "2026-08-30T22:49:23.000Z"
     },
     {
@@ -224,10 +297,29 @@
       "tags": [
         "mcp-server"
       ],
+      "models": [
+        "cbensimon/Wan2.2-I2V-A14B-bf16-Diffusers",
+        "cbensimon/WanTransformer3DModel-sm120-cu130-raa",
+        "Kijai/WanVideo_comfy",
+        "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
+      ],
       "lastModified": "2026-08-25T20:31:17.000Z"
     },
     {
       "rank": 18,
+      "id": "00000tt/LTX-2.3-10Eros",
+      "url": "https://huggingface.co/spaces/00000tt/LTX-2.3-10Eros",
+      "title": "LTX 2.3 10Eros Image-to-Video",
+      "description": "ltx 2.3 improved image-to-video with 10eros & native audio",
+      "sdk": "gradio",
+      "likes": 84,
+      "trendingScore": 44,
+      "tags": [],
+      "models": [],
+      "lastModified": "2026-08-17T00:27:57.000Z"
+    },
+    {
+      "rank": 19,
       "id": "Hittler-AI/FLUX.2-Klein-Multi-LoRA",
       "url": "https://huggingface.co/spaces/Hittler-AI/FLUX.2-Klein-Multi-LoRA",
       "title": "FLUX.2 Klein multi-LoRA",
@@ -238,19 +330,8 @@
       "tags": [
         "mcp-server"
       ],
+      "models": [],
       "lastModified": "2026-07-03T08:47:23.000Z"
-    },
-    {
-      "rank": 19,
-      "id": "00000tt/LTX-2.3-10Eros",
-      "url": "https://huggingface.co/spaces/00000tt/LTX-2.3-10Eros",
-      "title": "LTX 2.3 10Eros Image-to-Video",
-      "description": "ltx 2.3 improved image-to-video with 10eros & native audio",
-      "sdk": "gradio",
-      "likes": 83,
-      "trendingScore": 43,
-      "tags": [],
-      "lastModified": "2026-08-17T00:27:57.000Z"
     },
     {
       "rank": 20,
@@ -262,6 +343,7 @@
       "likes": 163,
       "trendingScore": 42,
       "tags": [],
+      "models": [],
       "lastModified": "2026-09-16T06:01:53.000Z"
     },
     {
@@ -274,6 +356,9 @@
       "likes": 2727,
       "trendingScore": 40,
       "tags": [],
+      "models": [
+        "Falconsai/nsfw_image_detection"
+      ],
       "lastModified": "2026-08-20T15:42:04.000Z"
     },
     {
@@ -292,6 +377,12 @@
         "qwen3.5",
         "mcp-server"
       ],
+      "models": [
+        "jaredpalmer/kev-4b",
+        "jaredpalmer/kev-0.8b",
+        "Qwen/Qwen3.5-4B-Base",
+        "Qwen/Qwen3.5-0.8B-Base"
+      ],
       "lastModified": "2026-09-25T23:28:31.000Z"
     },
     {
@@ -301,10 +392,19 @@
       "title": "Wan2.2 14B Cum explosion lora",
       "description": "generate a video from an image with a text prompt with text",
       "sdk": "gradio",
-      "likes": 72,
-      "trendingScore": 38,
+      "likes": 73,
+      "trendingScore": 39,
       "tags": [
         "mcp-server"
+      ],
+      "models": [
+        "cbensimon/WanTransformer3DModel-sm120-cu130-raa",
+        "FlutterGuyAzaza/Deepthroat_Blowjob_Wan_2_X_I2V_T2V",
+        "r3gm/RIFE",
+        "Robertopaulson/DeepthroatBlowjobWan2XI2VT2V",
+        "Robertopaulson/F4C3SPL4SH_Cumshotwan2.2i2v",
+        "TestOrganizationPleaseIgnore/wamu-tools",
+        "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
       ],
       "lastModified": "2026-07-28T12:43:16.000Z"
     },
@@ -320,6 +420,13 @@
       "tags": [
         "mcp-server"
       ],
+      "models": [
+        "kulkas2pintu/kv-i2v-lora32-aoti",
+        "kulkas2pintu/kv-w22-i2v-a",
+        "r3gm/RIFE",
+        "TestOrganizationPleaseIgnore/WAMU_v3_WAN2.2_I2V_LIGHTNING",
+        "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
+      ],
       "lastModified": "2026-09-29T10:58:38.000Z"
     },
     {
@@ -334,6 +441,14 @@
       "tags": [
         "mcp-server"
       ],
+      "models": [
+        "huggingface/documentation-images",
+        "kernels-community/vllm-flash-attn3",
+        "prithivMLmods/Qwen-Image-Edit-Rapid-AIO-V4",
+        "Qwen/Qwen-Image-Edit-2509",
+        "Qwen/Qwen2.5-VL-7B-Instruct",
+        "wiikoo/Qwen-lora-nsfw"
+      ],
       "lastModified": "2026-08-24T11:50:33.000Z"
     },
     {
@@ -346,6 +461,7 @@
       "likes": 144,
       "trendingScore": 34,
       "tags": [],
+      "models": [],
       "lastModified": "2026-09-29T10:01:59.000Z"
     },
     {
@@ -358,6 +474,7 @@
       "likes": 608,
       "trendingScore": 31,
       "tags": [],
+      "models": [],
       "lastModified": "2026-09-10T06:54:00.000Z"
     },
     {
@@ -374,6 +491,7 @@
         "rl-environments",
         "agents"
       ],
+      "models": [],
       "lastModified": "2026-09-28T15:18:32.000Z"
     },
     {
@@ -386,6 +504,13 @@
       "likes": 191,
       "trendingScore": 29,
       "tags": [],
+      "models": [
+        "m-a-p/YuE2-3B",
+        "m-a-p/YuE2-Vae",
+        "m-a-p/SheetSage2",
+        "Qwen/Qwen3-4B",
+        "Qwen/Qwen3-ASR-1.7B"
+      ],
       "lastModified": "2026-09-17T22:34:06.000Z"
     },
     {
@@ -399,6 +524,13 @@
       "trendingScore": 28,
       "tags": [
         "mcp-server"
+      ],
+      "models": [
+        "cbensimon/WanTransformer3DModel-sm120-cu130-raa",
+        "CompVis/stable-diffusion-safety-checker",
+        "r3gm/RIFE",
+        "TestOrganizationPleaseIgnore/WAMU_v2_WAN2.2_I2V_LIGHTNING",
+        "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
       ],
       "lastModified": "2026-08-21T11:42:58.000Z"
     }
@@ -414,6 +546,9 @@
       "likes": 145,
       "trendingScore": 24,
       "tags": [],
+      "models": [
+        "prism-ml/Ternary-Bonsai-2-27B-gguf"
+      ],
       "lastModified": "2026-09-17T18:25:15.000Z"
     },
     {
@@ -423,9 +558,10 @@
       "title": "Semantic Image Field",
       "description": "Multimodal Jev (a.k.a. CLIP)",
       "sdk": "static",
-      "likes": 27,
-      "trendingScore": 19,
+      "likes": 28,
+      "trendingScore": 20,
       "tags": [],
+      "models": [],
       "lastModified": "2026-09-22T02:00:31.000Z"
     },
     {
@@ -438,6 +574,9 @@
       "likes": 466,
       "trendingScore": 3,
       "tags": [],
+      "models": [
+        "prism-ml/Bonsai-27B-gguf"
+      ],
       "lastModified": "2026-07-14T23:12:47.000Z"
     },
     {
@@ -450,6 +589,9 @@
       "likes": 225,
       "trendingScore": 2,
       "tags": [],
+      "models": [
+        "onnx-community/Kokoro-82M-ONNX"
+      ],
       "lastModified": "2025-04-05T17:04:06.000Z"
     },
     {
@@ -462,6 +604,10 @@
       "likes": 83,
       "trendingScore": 2,
       "tags": [],
+      "models": [
+        "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+        "onnx-community/NVIDIA-Nemotron-3-Nano-4B-BF16-ONNX"
+      ],
       "lastModified": "2026-03-19T21:30:19.000Z"
     },
     {
@@ -474,6 +620,9 @@
       "likes": 180,
       "trendingScore": 1,
       "tags": [],
+      "models": [
+        "onnx-community/whisper-large-v3-turbo"
+      ],
       "lastModified": "2024-10-03T13:09:32.000Z"
     },
     {
@@ -486,6 +635,9 @@
       "likes": 569,
       "trendingScore": 1,
       "tags": [],
+      "models": [
+        "onnx-community/DeepSeek-R1-Distill-Qwen-1.5B-ONNX"
+      ],
       "lastModified": "2025-04-16T23:53:17.000Z"
     },
     {
@@ -498,6 +650,9 @@
       "likes": 365,
       "trendingScore": 1,
       "tags": [],
+      "models": [
+        "onnx-community/Kokoro-82M-ONNX"
+      ],
       "lastModified": "2025-02-07T15:46:09.000Z"
     },
     {
@@ -510,6 +665,9 @@
       "likes": 327,
       "trendingScore": 1,
       "tags": [],
+      "models": [
+        "google/gemma-4-E2B-it-qat-mobile-transformers"
+      ],
       "lastModified": "2026-06-17T22:28:48.000Z"
     },
     {
@@ -522,6 +680,9 @@
       "likes": 44,
       "trendingScore": 0,
       "tags": [],
+      "models": [
+        "Xenova/slimsam-77-uniform"
+      ],
       "lastModified": "2025-04-16T21:57:34.000Z"
     },
     {
@@ -534,6 +695,9 @@
       "likes": 18,
       "trendingScore": 0,
       "tags": [],
+      "models": [
+        "HuggingFaceTB/SmolLM-360M-Instruct"
+      ],
       "lastModified": "2024-08-19T14:56:46.000Z"
     },
     {
@@ -546,6 +710,9 @@
       "likes": 59,
       "trendingScore": 0,
       "tags": [],
+      "models": [
+        "onnx-community/Phi-3.5-mini-instruct-onnx-web"
+      ],
       "lastModified": "2025-04-07T18:56:08.000Z"
     },
     {
@@ -558,6 +725,9 @@
       "likes": 160,
       "trendingScore": 0,
       "tags": [],
+      "models": [
+        "Xenova/modnet"
+      ],
       "lastModified": "2024-08-27T21:47:14.000Z"
     },
     {
@@ -570,6 +740,9 @@
       "likes": 103,
       "trendingScore": 0,
       "tags": [],
+      "models": [
+        "onnx-community/Llama-3.2-1B-Instruct-ONNX"
+      ],
       "lastModified": "2026-05-12T19:33:08.000Z"
     },
     {
@@ -582,6 +755,9 @@
       "likes": 8,
       "trendingScore": 0,
       "tags": [],
+      "models": [
+        "onnx-community/gemma-2-2b-jpn-it"
+      ],
       "lastModified": "2025-04-16T23:31:51.000Z"
     },
     {
@@ -594,6 +770,7 @@
       "likes": 8,
       "trendingScore": 0,
       "tags": [],
+      "models": [],
       "lastModified": "2025-02-05T14:33:05.000Z"
     },
     {
@@ -606,6 +783,9 @@
       "likes": 43,
       "trendingScore": 0,
       "tags": [],
+      "models": [
+        "onnx-community/Janus-1.3B-ONNX"
+      ],
       "lastModified": "2025-09-08T23:45:47.000Z"
     },
     {
@@ -618,6 +798,7 @@
       "likes": 45,
       "trendingScore": 0,
       "tags": [],
+      "models": [],
       "lastModified": "2025-11-24T17:11:19.000Z"
     },
     {
@@ -630,6 +811,9 @@
       "likes": 144,
       "trendingScore": 0,
       "tags": [],
+      "models": [
+        "onnx-community/moonshine-base-ONNX"
+      ],
       "lastModified": "2024-12-18T15:11:39.000Z"
     },
     {
@@ -642,6 +826,7 @@
       "likes": 198,
       "trendingScore": 0,
       "tags": [],
+      "models": [],
       "lastModified": "2024-12-31T16:33:55.000Z"
     },
     {
@@ -654,6 +839,7 @@
       "likes": 231,
       "trendingScore": 0,
       "tags": [],
+      "models": [],
       "lastModified": "2025-04-16T23:47:43.000Z"
     },
     {
@@ -666,6 +852,9 @@
       "likes": 215,
       "trendingScore": 0,
       "tags": [],
+      "models": [
+        "onnx-community/Janus-Pro-1B-ONNX"
+      ],
       "lastModified": "2025-01-27T23:11:42.000Z"
     },
     {
@@ -678,6 +867,9 @@
       "likes": 19,
       "trendingScore": 0,
       "tags": [],
+      "models": [
+        "onnx-community/TinySwallow-1.5B-Instruct-ONNX"
+      ],
       "lastModified": "2025-02-05T12:54:53.000Z"
     },
     {
@@ -690,6 +882,7 @@
       "likes": 4,
       "trendingScore": 0,
       "tags": [],
+      "models": [],
       "lastModified": "2025-02-05T14:45:18.000Z"
     },
     {
@@ -702,6 +895,9 @@
       "likes": 19,
       "trendingScore": 0,
       "tags": [],
+      "models": [
+        "onnx-community/ZR1-1.5B-ONNX"
+      ],
       "lastModified": "2025-04-16T16:53:59.000Z"
     },
     {
@@ -714,6 +910,9 @@
       "likes": 1,
       "trendingScore": 0,
       "tags": [],
+      "models": [
+        "Xenova/mobileclip_s0"
+      ],
       "lastModified": "2025-04-16T22:55:02.000Z"
     },
     {
@@ -726,6 +925,9 @@
       "likes": 3,
       "trendingScore": 0,
       "tags": [],
+      "models": [
+        "Xenova/mobileclip_s0"
+      ],
       "lastModified": "2025-04-17T02:02:43.000Z"
     },
     {
@@ -738,6 +940,9 @@
       "likes": 3,
       "trendingScore": 0,
       "tags": [],
+      "models": [
+        "Xenova/mobileclip_s0"
+      ],
       "lastModified": "2025-04-17T02:03:03.000Z"
     },
     {
@@ -750,6 +955,7 @@
       "likes": 80,
       "trendingScore": 0,
       "tags": [],
+      "models": [],
       "lastModified": "2025-04-23T17:59:27.000Z"
     },
     {
@@ -762,6 +968,9 @@
       "likes": 109,
       "trendingScore": 0,
       "tags": [],
+      "models": [
+        "onnx-community/Qwen3-0.6B-ONNX"
+      ],
       "lastModified": "2025-04-29T02:03:46.000Z"
     }
   ]

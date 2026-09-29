@@ -2525,232 +2525,332 @@
     "convaiinnovations/laya": {
       "url": "https://huggingface.co/convaiinnovations/laya",
       "description": "Multilingual, non-autoregressive System 1 decision model. Give it a state (text, email, ticket, or JSON) and typed questions; it returns typed answers with mathematically calibrated probabilities in a single forward pass (~33 ms) across …",
-      "pipelineTag": "text-classification"
+      "pipelineTag": "text-classification",
+      "baseModels": []
     },
     "Edge0/Audio8-ASR-Infinite": {
       "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
       "description": "Audio8 ASR Infinite is a native streaming speech recognition model built to be as responsive as possible. It offers a selectable audio clock (80/120/160 ms) and a transcription delay (240–560 ms). With our adapted vLLM build it transcrib…",
-      "pipelineTag": "automatic-speech-recognition"
+      "pipelineTag": "automatic-speech-recognition",
+      "baseModels": []
     },
     "abenzerps/Qwen-Image-2.1-Uncensored-GGUF": {
       "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
       "description": "GGUF quantizations of Qwen/Qwen-Image-2.1 for local image generation using the original upstream base weights.",
-      "pipelineTag": "text-to-image"
+      "pipelineTag": "text-to-image",
+      "baseModels": [
+        "Qwen/Qwen-Image-2.1"
+      ]
     },
     "Qwen/Qwen-Image-2.1": {
       "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
       "description": "We are excited to open-source Qwen-Image-2.1, a unified text-to-image generation and image editing model in the Qwen family. With just 7B parameters in its visual generation component (32 Single-Stream DiT layers), Qwen-Image-2.1 balance…",
-      "pipelineTag": "text-to-image"
+      "pipelineTag": "text-to-image",
+      "baseModels": []
     },
     "XingChen-AGI/TeleOCR": {
       "url": "https://huggingface.co/XingChen-AGI/TeleOCR",
       "description": "TeleOCR: Navigating Document Parsing Across Digital and Camera-Captured Documents",
-      "pipelineTag": "image-text-to-text"
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
     },
     "XingChen-AGI/Xing4.0-29B-A4B": {
       "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
       "description": "Xing4.0-29B-A4B is a next-generation large language model in the Xing series (formerly TeleChat), developed by China Telecom Artificial Intelligence Technology Co., Ltd. With 29B total parameters and only 4B activated per token, it nativ…",
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": []
     },
     "Contrastive-LM/CLM-v0.1-8B": {
       "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
       "description": "Contrastive Language Model (CLM) is a new class of System One model trained with a contrastive learning objective that connects states and actions. CLM-8B consists of two small projection heads (a state head and an action head) on top of…",
-      "pipelineTag": "text-ranking"
+      "pipelineTag": "text-ranking",
+      "baseModels": [
+        "Qwen/Qwen3-8B"
+      ]
     },
     "nvidia/Nemotron-3-Diarization": {
       "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
       "description": "Nemotron 3 Diarization is an open-weight speaker diarization model designed to determine \"who spoke when\" in real-world audio. It supports both streaming and offline inference and handles up to eight speakers. Following Sortformer [\\[1\\]…",
-      "pipelineTag": "voice-activity-detection"
+      "pipelineTag": "voice-activity-detection",
+      "baseModels": []
     },
     "prism-ml/Ternary-Bonsai-2-27B-gguf": {
       "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
       "description": "Full 27B-class reasoning in ternary transformer weights, for llama.cpp (CUDA, Metal, CPU)",
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "TaichuAI/ZDTaichu5.0-9B": {
       "url": "https://huggingface.co/TaichuAI/ZDTaichu5.0-9B",
       "description": "ZDTaichu5.0-9B is a multimodal foundation model for general visual understanding, spatial reasoning, agentic tool use, and embodied-AI research. It combines a Qwen3.5-9B language backbone with a C-RADIOv4-H vision encoder, supports text,…",
-      "pipelineTag": "image-text-to-text"
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
     },
     "Viggle/Qwen-Image-2.1-viggle-turbo": {
       "url": "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo",
       "description": "Built with Qwen. A few-step distilled student of Qwen/Qwen-Image-2.1, trained by Viggle with Distribution Matching Distillation. It does both text-to-image and instruction-driven editing with 1–3 reference images in 6 transformer passes …",
-      "pipelineTag": "text-to-image"
+      "pipelineTag": "text-to-image",
+      "baseModels": [
+        "Qwen/Qwen-Image-2.1"
+      ]
     },
     "Qwen/Qwen3.8-27B": {
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
       "description": "Following the widespread community adoption of the Qwen3.5 and Qwen3.6 series, we are pleased to introduce Qwen3.8, the most capable generation in the Qwen open-model family to date.",
-      "pipelineTag": "image-text-to-text"
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
     },
     "Lightricks/LTX-2.5": {
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
       "description": null,
-      "pipelineTag": "image-to-video"
+      "pipelineTag": "image-to-video",
+      "baseModels": []
     },
     "inclusionAI/Ming-Image-0.1-Design": {
       "url": "https://huggingface.co/inclusionAI/Ming-Image-0.1-Design",
       "description": "🧩 ModelScope · 🤗 Hugging Face · 📄 Blog · 🖥️ Demo 🎨 Design Skill · 📊 PPT Skill",
-      "pipelineTag": "text-to-image"
+      "pipelineTag": "text-to-image",
+      "baseModels": []
     },
     "Altworld/Hemmingway-1": {
       "url": "https://huggingface.co/Altworld/Hemmingway-1",
       "description": "The AI that writes like a person. 27B parameters, open weights, free for non-commercial use.",
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "Comfy-Org/Qwen-Image-2.1": {
       "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
       "description": "Original model repository: https://huggingface.co/Qwen/Qwen-Image-2.1",
-      "pipelineTag": null
+      "pipelineTag": null,
+      "baseModels": [
+        "Qwen/Qwen-Image-2.1"
+      ]
     },
     "akhilaaa3/Jev-Omni": {
       "url": "https://huggingface.co/akhilaaa3/Jev-Omni",
       "description": "A multimodal decision classifier for text, images, audio and video. Supply a question and options; receive a probability for each option—not a generated explanation.",
-      "pipelineTag": "text-classification"
+      "pipelineTag": "text-classification",
+      "baseModels": [
+        "google/gemma-4-12B-it"
+      ]
     },
     "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B": {
       "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
       "description": "MiMo-V2.6-Distill-Qwen-9B is a 9B agentic model developed by Xiaomi MiMo through supervised fine-tuning of Qwen3.5-9B on MiMo-generated data. It covers coding, general-purpose agent tasks, visual coding, and cybersecurity. We release thi…",
-      "pipelineTag": "image-text-to-text"
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "Qwen/Qwen3.5-9B"
+      ]
     },
     "unsloth/Qwen-Image-2.1-GGUF": {
       "url": "https://huggingface.co/unsloth/Qwen-Image-2.1-GGUF",
       "description": "This is a GGUF quantized version of Qwen-Image-2.1. unsloth/Qwen-Image-2.1-GGUF uses Unsloth Dynamic 2.0 methodology for SOTA performance.",
-      "pipelineTag": "text-to-image"
+      "pipelineTag": "text-to-image",
+      "baseModels": [
+        "Qwen/Qwen-Image-2.1"
+      ]
     },
     "pottokao/Qwen-Image-2.1-Text-Encoder-Heretic-GGUF": {
       "url": "https://huggingface.co/pottokao/Qwen-Image-2.1-Text-Encoder-Heretic-GGUF",
       "description": "The sample / showcase images in this repo were generated with the technique behind ComfyUI-QwenImage-PhotoStyles — a small ComfyUI node (17 photographic styles; one short prompt becomes a full styled prompt via the PE-T2I rewriter). If y…",
-      "pipelineTag": null
+      "pipelineTag": null,
+      "baseModels": [
+        "pottokao/Qwen-Image-2.1-Text-Encoder-Heretic"
+      ]
     },
     "SupersonicLabs/Julia-1": {
       "url": "https://huggingface.co/SupersonicLabs/Julia-1",
       "description": "Julia 1 is the first model in the Julia family and the first released test of our training system. At 144.3M parameters, it turns a state, a question, and possible answers into one clear decision. The same interface handles classificatio…",
-      "pipelineTag": "text-classification"
+      "pipelineTag": "text-classification",
+      "baseModels": [
+        "jhu-clsp/mmBERT-small"
+      ]
     },
     "XiaomiMiMo/MiMo-V2.6-Pro-RL": {
       "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
       "description": "MiMo-V2.6-Pro-RL is the flagship checkpoint of the MiMo-V2.6 series. The series is built to scale reinforcement learning toward self-improvement — scaling RL compute, environment diversity, and grader compute together, so the model keeps…",
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": []
     },
     "apple/LensVLM-9B": {
       "url": "https://huggingface.co/apple/LensVLM-9B",
       "description": "LensVLM is a 9B Vision Language Model (VLM) that scans compressed images of text, then selectively expands only the relevant pages to their uncompressed form via learned tools.",
-      "pipelineTag": "image-text-to-text"
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "Qwen/Qwen3.5-9B"
+      ]
     },
     "fastino/GLiNER2.5-Decide": {
       "url": "https://huggingface.co/fastino/GLiNER2.5-Decide",
       "description": "The 340M English classification model in the GLiNER2.5 family. Pass any label set at call time: intent, routing, sentiment, priority, policy, and multi-label tags, in a single forward pass. No prompt template. No generated tokens. Load i…",
-      "pipelineTag": "token-classification"
+      "pipelineTag": "token-classification",
+      "baseModels": [
+        "fastino/gliner2-large-v1"
+      ]
     },
     "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF": {
       "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
       "description": "GSQ-RCO GGUF release card, TEMPLATE (filled with Qwen3.8-27B as the example). To publish a new model, copy this folder and change only: python tools/make_plots.py tools/results/.json then paste the printed Markdown table into \"Results\". …",
-      "pipelineTag": "image-text-to-text"
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "orcarouter/OrcaSAQ-2-27B": {
       "url": "https://huggingface.co/orcarouter/OrcaSAQ-2-27B",
       "description": "OrcaSAQ2 is a proprietary sensitivity-aware mixed-precision quantization system developed by OrcaRouter and its research team behind.",
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "XiaomiMiMo/MiMo-V2.6-Flash-RL": {
       "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL",
       "description": "MiMo-V2.6-Flash-RL is the efficiency-balanced checkpoint of the MiMo-V2.6 series. The series is built to scale reinforcement learning toward self-improvement — scaling RL compute, environment diversity, and grader compute together, so th…",
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": []
     },
     "netease-youdao/Confucius4-R2T2": {
       "url": "https://huggingface.co/netease-youdao/Confucius4-R2T2",
       "description": "Confucius4-R2T2 is a low-latency and high-accuracy true streaming Automatic Speech Recognition (ASR) model that features fine-grained and configurable decoding chunks from 80 ms to 2 s. The model operates in append-only output mode: comm…",
-      "pipelineTag": "automatic-speech-recognition"
+      "pipelineTag": "automatic-speech-recognition",
+      "baseModels": [
+        "Qwen/Qwen3-ASR-1.7B"
+      ]
     },
     "deepseek-ai/DeepSeek-V4.1-Flash": {
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
       "description": "We introduce DeepSeek-V4.1-Flash, a multimodal Mixture-of-Experts (MoE) model with 552B backbone parameters and support for contexts of up to one million tokens. The model natively processes images and text, and generates text autoregres…",
-      "pipelineTag": "image-text-to-text"
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
     },
     "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF": {
       "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
       "description": "in 8 bit and over 718 arc-c in 4 bit. This version is called TURBO because it drastically reduces thinking tokens (by 1/2 to as high as 1/10), yet maintains output detail and quality. In otherwords while \"reg\" Qwen3.8 27B is thinking abo…",
-      "pipelineTag": "image-text-to-text"
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU"
+      ]
     },
     "DavidAU/LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF": {
       "url": "https://huggingface.co/DavidAU/LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
       "description": "Please read this model card carefully to get the most from it - including all the reasoning and instruct modes (12+12) that feature model suggestions (\"context help\") for all use cases. The Turbo Brilliance system will begin appearing in…",
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "LiquidAI/LFM2.5-2.6B"
+      ]
     },
     "meta-llama/Llama-3.1-8B-Instruct": {
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "description": null,
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "meta-llama/Llama-3.1-8B"
+      ]
     },
     "peculiar-ragdoll/Sharp-Spark-X2.5-4B-GGUF": {
       "url": "https://huggingface.co/peculiar-ragdoll/Sharp-Spark-X2.5-4B-GGUF",
       "description": "Dynamic imatrix GGUF quants of XHToken/Spark-X2.5-4B, a 4B dense long-context model, carrying our cyber-and-coding-weighted importance matrix, a heuristic per-tensor bit allocation, and the Sharp-Spark chat template.",
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "XHToken/Spark-X2.5-4B"
+      ]
     },
     "openbmb/MiniCPM5-2B": {
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…",
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": []
     },
     "paradigma-inc/limite-1b-violetto": {
       "url": "https://huggingface.co/paradigma-inc/limite-1b-violetto",
       "description": "Paradigma's first model, built for high-throughput mathematical reasoning.",
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": []
     },
     "harshatheg/Qwen-2.5-1B-RLCD": {
       "url": "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD",
       "description": "A high-throughput inference engine for structured information extraction, decision routing, and categorical classification on Apple Silicon using MLX.",
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen2.5-1.5B-Instruct"
+      ]
     },
     "empero-ai/Qwen3.8-35B-A3B-Distill-GGUF": {
       "url": "https://huggingface.co/empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
       "description": "GGUF quantizations of empero-ai/Qwen3.8-35B-A3B-Distill — a distillation of the Qwen3.8 frontier models into the Qwen3.6-35B-A3B Mixture-of-Experts architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF run…",
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "empero-ai/Qwen3.8-35B-A3B-Distill"
+      ]
     },
     "XHToken/Spark-X2.5-4B": {
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "description": "We are introducing Spark-X2.5-4B and Spark-X2.5-1.7B, two compact, general-purpose language models designed to make capable AI more practical, efficient, and accessible. The models deliver strong performance across a broad range of every…",
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "XHToken/Spark-X2.5-4B-Base"
+      ]
     },
     "openbmb/MiniCPM5-2B-GGUF": {
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
       "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…",
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": []
     },
     "meta-llama/Llama-3.2-1B-Instruct": {
       "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
       "description": null,
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": []
     },
     "Qwen/Qwen3-0.6B": {
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …",
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen3-0.6B-Base"
+      ]
     },
     "togethercomputer/Tev1-4B-experimental": {
       "url": "https://huggingface.co/togethercomputer/Tev1-4B-experimental",
       "description": "Tev1-4B-experimental is an experimental 4B decision model from Together AI. It is a supervised fine-tune of Qwen3.5-4B trained to choose one option from a structured state, question, and list of choices.",
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen3.5-4B"
+      ]
     },
     "XHToken/Spark-X2.5-4B-GGUF": {
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
       "description": "Spark-X2.5 is a compact, general-purpose language model for conversation, writing, translation, reasoning, coding, tool use, and agentic workflows. It uses a hybrid attention architecture, supports a native context length of up to 1M tok…",
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "XHToken/Spark-X2.5-4B"
+      ]
     },
     "meta-llama/Meta-Llama-3-8B-Instruct": {
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "description": null,
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": []
     },
     "meta-llama/Llama-3.2-3B-Instruct": {
       "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "description": null,
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": []
     },
     "Qwen/Qwen3-8B": {
       "url": "https://huggingface.co/Qwen/Qwen3-8B",
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …",
-      "pipelineTag": "text-generation"
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen3-8B-Base"
+      ]
     }
   },
   "spaces": {
@@ -2758,361 +2858,570 @@
       "url": "https://huggingface.co/spaces/multimodalart/jev-decision-index",
       "title": "Jev Decision Index",
       "description": "Benchmarks and news on various repros of TypeSafe's Jev",
-      "sdk": "static"
+      "sdk": "static",
+      "models": []
     },
     "Pepe104/MiniMax-H3-Turbo-Lora-UNCENSORED": {
       "url": "https://huggingface.co/spaces/Pepe104/MiniMax-H3-Turbo-Lora-UNCENSORED",
       "title": "MiniMax H3 Turbo LoRA",
       "description": "Video generation with a synchronized soundtrack",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "hfmlsoc/ncii-light-guard-v01",
+        "larryvrh/MiniMax-H3-Turbo-Lora",
+        "lightx2v/Minimax-h3-Turbo",
+        "MiniMaxAI/MiniMax-H3",
+        "multimodalart/minimax-h3-aoti"
+      ]
     },
     "Qwen/Qwen-Image-2.1": {
       "url": "https://huggingface.co/spaces/Qwen/Qwen-Image-2.1",
       "title": "Qwen-Image-2.1",
       "description": null,
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "hfmlsoc/ncii-guard-v02",
+        "Qwen/Qwen-Image-2.1"
+      ]
     },
     "convaiinnovations/laya-demo": {
       "url": "https://huggingface.co/spaces/convaiinnovations/laya-demo",
       "title": "Laya Demo",
       "description": "Fast System 1 decisions with calibrated probabilities",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "convaiinnovations/laya"
+      ]
     },
     "Viggle/Qwen-Image-2.1-viggle-turbo": {
       "url": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo",
       "title": "Viggle Turbo for Qwen-Image-2.1",
       "description": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "Viggle/Qwen-Image-2.1-viggle-turbo",
+        "Qwen/Qwen-Image-2.1"
+      ]
     },
     "kulkas2pintu/QWEN_EDIT_IMAGE": {
       "url": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE",
       "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
       "description": "AnyPose pose still with a strong pose-reference lock",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "huggingface/documentation-images",
+        "jonathandinu/face-parsing",
+        "kernels-community/vllm-flash-attn3",
+        "Qwen/Qwen-Image-Edit-2509",
+        "Qwen/Qwen2.5-VL-7B-Instruct"
+      ]
     },
     "observantdistressed/minimax-h3": {
       "url": "https://huggingface.co/spaces/observantdistressed/minimax-h3",
       "title": "minimax h3 turbo + lora's",
       "description": "Video generation with a synchronized soundtrack",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "EllaPriest45/MinimaxH3_Actions",
+        "Hearmeman/minimax-h3-loras",
+        "InstantX/MiniMax-H3-Turbo-Lora-Diffusers",
+        "MiniMaxAI/MiniMax-H3",
+        "multimodalart/minimax-h3-aoti",
+        "observantdistressed/plora-h3"
+      ]
     },
     "hugging-apps/qwen-image-2-1": {
       "url": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1",
       "title": "Qwen-Image-2.1",
       "description": "Generate and edit images with Qwen-Image-2.1",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "hfmlsoc/ncii-guard-v02",
+        "hugging-apps/qwen-image-2-1-aoti",
+        "Qwen/Qwen-Image-2.1"
+      ]
     },
     "arudradey/qwen-image-2.1-uncensored-gguf": {
       "url": "https://huggingface.co/spaces/arudradey/qwen-image-2.1-uncensored-gguf",
       "title": "Qwen Image 2.1 Uncensored GGUF Studio",
       "description": "Qwen-Image-2.1 Uncensored GGUF demo on ZeroGPU",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "KasugaiSakura/Qwen-Image-2.1-Uncensored-Abenzerps-GGUF",
+        "Qwen/Qwen-Image-2.1"
+      ]
     },
     "Jackiesixnine/Krea-2-Turbo_v2": {
       "url": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2",
       "title": "Krea 2 Turbo Image Generator",
       "description": "Krea 2 Turbo text2image and image editing",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "Comfy-Org/Krea-2",
+        "conradlocke/krea2-identity-edit",
+        "metaloz/imgstuff",
+        "mpasila/Krea-2-LoRAs",
+        "mpasila/Krea-2-Models"
+      ]
     },
     "nvidia/nemotron-diarization": {
       "url": "https://huggingface.co/spaces/nvidia/nemotron-diarization",
       "title": "Live Speaker Diarization",
       "description": null,
-      "sdk": "docker"
+      "sdk": "docker",
+      "models": [
+        "nvidia/multitalker-parakeet-streaming-0.6b-v1",
+        "nvidia/Nemotron-3-Diarization",
+        "nvidia/nemotron-3.5-asr-streaming-0.6b"
+      ]
     },
     "assembledchaos/qwen-image-2-1-studio": {
       "url": "https://huggingface.co/spaces/assembledchaos/qwen-image-2-1-studio",
       "title": "Qwen Image 2.1 GGUF Studio",
       "description": "Qwen Image 2.1 Uncensored GGUF demo with Q4_K_M weights",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+        "Qwen/Qwen-Image-2.1"
+      ]
     },
     "Mothersuperior/yue2-hum-to-song": {
       "url": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song",
       "title": "Hum to Song",
       "description": "Hum a melody, get a finished song",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "Mothersuperior/YuE2-hum-to-song",
+        "m-a-p/YuE2-3B",
+        "m-a-p/YuE2-Vae",
+        "m-a-p/SheetSage2"
+      ]
     },
     "kulkas2pintu/wan777": {
       "url": "https://huggingface.co/spaces/kulkas2pintu/wan777",
       "title": "Wan2.2 14B Preview",
       "description": "generate a video from an image with a text prompt",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "cbensimon/WanTransformer3DModel-sm120-cu130-raa",
+        "r3gm/RIFE",
+        "TestOrganizationPleaseIgnore/WAMU_v3_WAN2.2_I2V_LIGHTNING",
+        "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
+      ]
     },
     "aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental": {
       "url": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
       "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
       "description": "Demo of the Collection of Qwen Image Edit LoRAs",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": []
     },
     "vamo455/Omni-videos-custom-auto_prompt_high-quality": {
       "url": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality",
       "title": "Omni Video Factory",
       "description": "text to video, image to video, video extend",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": []
     },
     "zerogpu-aoti/wan2-2-fp8da-aoti-faster": {
       "url": "https://huggingface.co/spaces/zerogpu-aoti/wan2-2-fp8da-aoti-faster",
       "title": "Wan2.2 14B Fast",
       "description": "generate a video from an image with a text prompt",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "cbensimon/Wan2.2-I2V-A14B-bf16-Diffusers",
+        "cbensimon/WanTransformer3DModel-sm120-cu130-raa",
+        "Kijai/WanVideo_comfy",
+        "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
+      ]
     },
     "Hittler-AI/FLUX.2-Klein-Multi-LoRA": {
       "url": "https://huggingface.co/spaces/Hittler-AI/FLUX.2-Klein-Multi-LoRA",
       "title": "FLUX.2 Klein multi-LoRA",
       "description": "Use multiple FLUX.2-Klein LoRAs",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": []
     },
     "00000tt/LTX-2.3-10Eros": {
       "url": "https://huggingface.co/spaces/00000tt/LTX-2.3-10Eros",
       "title": "LTX 2.3 10Eros Image-to-Video",
       "description": "ltx 2.3 improved image-to-video with 10eros & native audio",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": []
     },
     "stepfun-ai/StepAudio-3-Music": {
       "url": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music",
       "title": "StepAudio 3 Music Studio",
       "description": "Create songs, arrange vocals, and remix music with StepFun",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": []
     },
     "jaredpalmer/kev": {
       "url": "https://huggingface.co/spaces/jaredpalmer/kev",
       "title": "Kev",
       "description": "Typed questions in, calibrated probabilities out",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "jaredpalmer/kev-4b",
+        "jaredpalmer/kev-0.8b",
+        "Qwen/Qwen3.5-4B-Base",
+        "Qwen/Qwen3.5-0.8B-Base"
+      ]
     },
     "selfit-camera/Omni-Image-Editor": {
       "url": "https://huggingface.co/spaces/selfit-camera/Omni-Image-Editor",
       "title": "Omni Image Editor",
       "description": "Image edit, text to image, image upscale, remove watermark",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "Falconsai/nsfw_image_detection"
+      ]
     },
     "gaalos/wan2-2-fp8da-aoti-preview-2c-finishing": {
       "url": "https://huggingface.co/spaces/gaalos/wan2-2-fp8da-aoti-preview-2c-finishing",
       "title": "Wan2.2 14B Cum explosion lora",
       "description": "generate a video from an image with a text prompt with text",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "cbensimon/WanTransformer3DModel-sm120-cu130-raa",
+        "FlutterGuyAzaza/Deepthroat_Blowjob_Wan_2_X_I2V_T2V",
+        "r3gm/RIFE",
+        "Robertopaulson/DeepthroatBlowjobWan2XI2VT2V",
+        "Robertopaulson/F4C3SPL4SH_Cumshotwan2.2i2v",
+        "TestOrganizationPleaseIgnore/wamu-tools",
+        "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
+      ]
     },
     "kulkas2pintu/kv-i2v": {
       "url": "https://huggingface.co/spaces/kulkas2pintu/kv-i2v",
       "title": "KV Image to Clip",
       "description": "Wan 2.2 image-to-clip with KV adapters",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "kulkas2pintu/kv-i2v-lora32-aoti",
+        "kulkas2pintu/kv-w22-i2v-a",
+        "r3gm/RIFE",
+        "TestOrganizationPleaseIgnore/WAMU_v3_WAN2.2_I2V_LIGHTNING",
+        "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
+      ]
     },
     "Onise/Qwen-Image-Edit-2509-LoRAs-Fast2": {
       "url": "https://huggingface.co/spaces/Onise/Qwen-Image-Edit-2509-LoRAs-Fast2",
       "title": "Qwen Image Edit 2509 LoRAs Fast",
       "description": "Demo of the Collection of Qwen Image Editing LoRAs",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "huggingface/documentation-images",
+        "kernels-community/vllm-flash-attn3",
+        "prithivMLmods/Qwen-Image-Edit-Rapid-AIO-V4",
+        "Qwen/Qwen-Image-Edit-2509",
+        "Qwen/Qwen2.5-VL-7B-Instruct",
+        "wiikoo/Qwen-lora-nsfw"
+      ]
     },
     "embedl/hfviewer": {
       "url": "https://huggingface.co/spaces/embedl/hfviewer",
       "title": "HF Viewer · Model Architecture Explorer",
       "description": "Interactive architecture graph for any HF model",
-      "sdk": "static"
+      "sdk": "static",
+      "models": []
     },
     "pollen-robotics/microduck-simulator": {
       "url": "https://huggingface.co/spaces/pollen-robotics/microduck-simulator",
       "title": "Microduck Sandbox",
       "description": null,
-      "sdk": "docker"
+      "sdk": "docker",
+      "models": []
     },
     "FineEnvs/MiMo-RL-Envs-Explorer": {
       "url": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer",
       "title": "MiMo RL Environment Explorer",
       "description": "Explore the MiMo-V2.6 RL environments and run rollouts",
-      "sdk": "docker"
+      "sdk": "docker",
+      "models": []
     },
     "mrfakename/yue2-3b": {
       "url": "https://huggingface.co/spaces/mrfakename/yue2-3b",
       "title": "YuE2-3B Music Generator",
       "description": "Generate songs and covers from style prompts and lyrics.",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "m-a-p/YuE2-3B",
+        "m-a-p/YuE2-Vae",
+        "m-a-p/SheetSage2",
+        "Qwen/Qwen3-4B",
+        "Qwen/Qwen3-ASR-1.7B"
+      ]
     },
     "r3gm/wan2-2-fp8da-aoti-preview": {
       "url": "https://huggingface.co/spaces/r3gm/wan2-2-fp8da-aoti-preview",
       "title": "Wan2.2 14B Preview",
       "description": "generate a video from an image with a text prompt",
-      "sdk": "gradio"
+      "sdk": "gradio",
+      "models": [
+        "cbensimon/WanTransformer3DModel-sm120-cu130-raa",
+        "CompVis/stable-diffusion-safety-checker",
+        "r3gm/RIFE",
+        "TestOrganizationPleaseIgnore/WAMU_v2_WAN2.2_I2V_LIGHTNING",
+        "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
+      ]
     },
     "webml-community/ternary-bonsai-2-webgpu-kernels": {
       "url": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels",
       "title": "Ternary Bonsai 2 WebGPU Kernels",
       "description": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "prism-ml/Ternary-Bonsai-2-27B-gguf"
+      ]
     },
     "webml-community/semantic-image-field": {
       "url": "https://huggingface.co/spaces/webml-community/semantic-image-field",
       "title": "Semantic Image Field",
       "description": "Multimodal Jev (a.k.a. CLIP)",
-      "sdk": "static"
+      "sdk": "static",
+      "models": []
     },
     "webml-community/bonsai-webgpu-kernels": {
       "url": "https://huggingface.co/spaces/webml-community/bonsai-webgpu-kernels",
       "title": "Bonsai 27B WebGPU Kernels",
       "description": "Run a 1-bit 27B LLM locally in your browser on WebGPU",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "prism-ml/Bonsai-27B-gguf"
+      ]
     },
     "webml-community/kokoro-web": {
       "url": "https://huggingface.co/spaces/webml-community/kokoro-web",
       "title": "Kokoro Text-to-Speech",
       "description": "High-quality speech synthesis powered by Kokoro TTS",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "onnx-community/Kokoro-82M-ONNX"
+      ]
     },
     "webml-community/Nemotron-3-Nano-WebGPU": {
       "url": "https://huggingface.co/spaces/webml-community/Nemotron-3-Nano-WebGPU",
       "title": "Nemotron 3 Nano WebGPU",
       "description": "A compact reasoning-capable model running in your browser.",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+        "onnx-community/NVIDIA-Nemotron-3-Nano-4B-BF16-ONNX"
+      ]
     },
     "webml-community/whisper-large-v3-turbo-webgpu": {
       "url": "https://huggingface.co/spaces/webml-community/whisper-large-v3-turbo-webgpu",
       "title": "Whisper Large V3 Turbo WebGPU",
       "description": "ML-powered speech recognition directly in your browser",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "onnx-community/whisper-large-v3-turbo"
+      ]
     },
     "webml-community/deepseek-r1-webgpu": {
       "url": "https://huggingface.co/spaces/webml-community/deepseek-r1-webgpu",
       "title": "DeepSeek-R1 WebGPU",
       "description": "Next-generation reasoning model that runs locally in-browser",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "onnx-community/DeepSeek-R1-Distill-Qwen-1.5B-ONNX"
+      ]
     },
     "webml-community/kokoro-webgpu": {
       "url": "https://huggingface.co/spaces/webml-community/kokoro-webgpu",
       "title": "Kokoro Text-to-Speech (WebGPU)",
       "description": "High-quality speech synthesis powered by Kokoro TTS",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "onnx-community/Kokoro-82M-ONNX"
+      ]
     },
     "webml-community/gemma-4-webgpu-kernels": {
       "url": "https://huggingface.co/spaces/webml-community/gemma-4-webgpu-kernels",
       "title": "Gemma 4 WebGPU Kernels",
       "description": null,
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "google/gemma-4-E2B-it-qat-mobile-transformers"
+      ]
     },
     "webml-community/segment-anything-webgpu": {
       "url": "https://huggingface.co/spaces/webml-community/segment-anything-webgpu",
       "title": "Segment Anything WebGPU",
       "description": "In-browser image segmentation w/ 🤗 Transformers.js",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "Xenova/slimsam-77-uniform"
+      ]
     },
     "webml-community/smollm-webgpu": {
       "url": "https://huggingface.co/spaces/webml-community/smollm-webgpu",
       "title": "SmolLM WebGPU",
       "description": "A powerful AI chatbot that runs locally in your browser",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "HuggingFaceTB/SmolLM-360M-Instruct"
+      ]
     },
     "webml-community/phi-3.5-webgpu": {
       "url": "https://huggingface.co/spaces/webml-community/phi-3.5-webgpu",
       "title": "Phi-3.5 WebGPU",
       "description": "A powerful AI chatbot that runs locally in your browser",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "onnx-community/Phi-3.5-mini-instruct-onnx-web"
+      ]
     },
     "webml-community/remove-background-webgpu": {
       "url": "https://huggingface.co/spaces/webml-community/remove-background-webgpu",
       "title": "Remove Background WebGPU",
       "description": "In-browser image background removal",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "Xenova/modnet"
+      ]
     },
     "webml-community/llama-3.2-webgpu": {
       "url": "https://huggingface.co/spaces/webml-community/llama-3.2-webgpu",
       "title": "Llama 3.2 WebGPU",
       "description": "A powerful AI chatbot that runs locally in your browser",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "onnx-community/Llama-3.2-1B-Instruct-ONNX"
+      ]
     },
     "webml-community/gemma-2-2b-jpn-webgpu": {
       "url": "https://huggingface.co/spaces/webml-community/gemma-2-2b-jpn-webgpu",
       "title": "Gemma 2 JPN WebGPU",
       "description": "Gemma-2-JPN running locally in your browser on WebGPU",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "onnx-community/gemma-2-2b-jpn-it"
+      ]
     },
     "webml-community/next-server-template": {
       "url": "https://huggingface.co/spaces/webml-community/next-server-template",
       "title": "Next.js + Transformers.js Server Template",
       "description": null,
-      "sdk": "docker"
+      "sdk": "docker",
+      "models": []
     },
     "webml-community/Janus-1.3B-WebGPU": {
       "url": "https://huggingface.co/spaces/webml-community/Janus-1.3B-WebGPU",
       "title": "Janus 1.3B WebGPU",
       "description": "In-browser unified multimodal understanding and generation.",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "onnx-community/Janus-1.3B-ONNX"
+      ]
     },
     "webml-community/OuteTTS-WebGPU": {
       "url": "https://huggingface.co/spaces/webml-community/OuteTTS-WebGPU",
       "title": "OuteTTS WebGPU",
       "description": "WebGPU text-to-Speech powered by OuteTTS and Transformers.js",
-      "sdk": "static"
+      "sdk": "static",
+      "models": []
     },
     "webml-community/moonshine-web": {
       "url": "https://huggingface.co/spaces/webml-community/moonshine-web",
       "title": "Moonshine Web",
       "description": "Real-time in-browser speech recognition",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "onnx-community/moonshine-base-ONNX"
+      ]
     },
     "webml-community/attention-visualization": {
       "url": "https://huggingface.co/spaces/webml-community/attention-visualization",
       "title": "Attention Visualization",
       "description": "Vision Transformer Attention Visualization",
-      "sdk": "static"
+      "sdk": "static",
+      "models": []
     },
     "webml-community/llama-3.2-reasoning-webgpu": {
       "url": "https://huggingface.co/spaces/webml-community/llama-3.2-reasoning-webgpu",
       "title": "Llama 3.2 Reasoning WebGPU",
       "description": "Small and powerful reasoning LLM that runs in your browser",
-      "sdk": "static"
+      "sdk": "static",
+      "models": []
     },
     "webml-community/janus-pro-webgpu": {
       "url": "https://huggingface.co/spaces/webml-community/janus-pro-webgpu",
       "title": "Janus Pro WebGPU",
       "description": "In-browser unified multimodal understanding and generation.",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "onnx-community/Janus-Pro-1B-ONNX"
+      ]
     },
     "webml-community/TinySwallow-1.5B-Instruct-WebGPU": {
       "url": "https://huggingface.co/spaces/webml-community/TinySwallow-1.5B-Instruct-WebGPU",
       "title": "TinySwallow-1.5B-Instruct-WebGPU",
       "description": "A compact Japanese LLM that runs locally in your browser.",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "onnx-community/TinySwallow-1.5B-Instruct-ONNX"
+      ]
     },
     "webml-community/next-client-template": {
       "url": "https://huggingface.co/spaces/webml-community/next-client-template",
       "title": "Next.js + Transformers.js Client Template",
       "description": null,
-      "sdk": "docker"
+      "sdk": "docker",
+      "models": []
     },
     "webml-community/Zyphra-ZR1-WebGPU": {
       "url": "https://huggingface.co/spaces/webml-community/Zyphra-ZR1-WebGPU",
       "title": "Zyphra-ZR1 WebGPU",
       "description": "Small reasoning model that runs locally in-browser",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "onnx-community/ZR1-1.5B-ONNX"
+      ]
     },
     "webml-community/mobileclip-webgpu": {
       "url": "https://huggingface.co/spaces/webml-community/mobileclip-webgpu",
       "title": "MobileCLIP WebGPU",
       "description": null,
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "Xenova/mobileclip_s0"
+      ]
     },
     "webml-community/mobileclip-webnn-cpu": {
       "url": "https://huggingface.co/spaces/webml-community/mobileclip-webnn-cpu",
       "title": "MobileCLIP WebNN CPU",
       "description": null,
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "Xenova/mobileclip_s0"
+      ]
     },
     "webml-community/mobileclip-webnn-gpu": {
       "url": "https://huggingface.co/spaces/webml-community/mobileclip-webnn-gpu",
       "title": "MobileCLIP WebNN GPU",
       "description": null,
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "Xenova/mobileclip_s0"
+      ]
     },
     "webml-community/os1": {
       "url": "https://huggingface.co/spaces/webml-community/os1",
       "title": "OS1 (Ultravox Llama 3.2 1b + Kokoro TTS + Whisper)",
       "description": "In-browser local conversational AI inspired by 'Her'",
-      "sdk": "static"
+      "sdk": "static",
+      "models": []
     },
     "webml-community/qwen3-webgpu": {
       "url": "https://huggingface.co/spaces/webml-community/qwen3-webgpu",
       "title": "Qwen3 WebGPU",
       "description": "A hybrid reasoning model that runs locally in your browser.",
-      "sdk": "static"
+      "sdk": "static",
+      "models": [
+        "onnx-community/Qwen3-0.6B-ONNX"
+      ]
     }
   }
 }
