@@ -535,11 +535,6 @@
       "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
       "language": "Python"
     },
-    "xbtlin/ai-berkshire": {
-      "url": "https://github.com/xbtlin/ai-berkshire",
-      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
-      "language": "HTML"
-    },
     "heygen-com/hyperframes": {
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
@@ -569,11 +564,6 @@
       "url": "https://github.com/every-app/open-seo",
       "description": "Open source alternative to Semrush and Ahrefs",
       "language": "TypeScript"
-    },
-    "simplex-chat/simplex-chat": {
-      "url": "https://github.com/simplex-chat/simplex-chat",
-      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
-      "language": "Haskell"
     },
     "anomalyco/opencode": {
       "url": "https://github.com/anomalyco/opencode",
@@ -633,11 +623,6 @@
     "Unclecheng-li/VulnClaw": {
       "url": "https://github.com/Netw0rkNoob/VulnClaw",
       "description": "基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。",
-      "language": "Python"
-    },
-    "google/agents-cli": {
-      "url": "https://github.com/google/agents-cli",
-      "description": "The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.",
       "language": "Python"
     },
     "hasaneyldrm/exercises-dataset": {
@@ -2851,6 +2836,30 @@
       "baseModels": [
         "Qwen/Qwen3-8B-Base"
       ]
+    },
+    "akatz-ai/MiniMax-H3-Character-Swap-LoRA": {
+      "url": "https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA",
+      "description": "An experimental character-replacement LoRA trained by Akatz Labs for 1,000 updates. It aims to replace a selected character using an image reference while preserving the source scene. In our local comparisons it often preserved the backg…",
+      "pipelineTag": "video-to-video",
+      "baseModels": [
+        "Comfy-Org/MiniMax-H3"
+      ]
+    },
+    "Alissonerdx/BFS-Best-Face-Swap": {
+      "url": "https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap",
+      "description": "BFS is a collection of LoRAs for face, head, and body replacement across Qwen Image 2.1, Qwen Image Edit 2509/2511, Flux 2 Klein, Krea 2, and experimental LTX-2 workflows. Each release has its own base-model, input-order, prompt, and wor…",
+      "pipelineTag": "image-to-image",
+      "baseModels": [
+        "Qwen/Qwen-Image-2.1"
+      ]
+    },
+    "peculiar-ragdoll/Sharp-MiniCPM5-2B-GGUF": {
+      "url": "https://huggingface.co/peculiar-ragdoll/Sharp-MiniCPM5-2B-GGUF",
+      "description": "Dynamic imatrix quants of openbmb/MiniCPM5-2B, a 2.5B dense 131k-context model, carrying our cyber-and-coding-weighted importance matrix, an unsloth-dynamic-style per-tensor quant policy, and the Sharp-MiniCPM chat template with fixes an…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "openbmb/MiniCPM5-2B"
+      ]
     }
   },
   "spaces": {
@@ -3421,6 +3430,50 @@
       "sdk": "static",
       "models": [
         "onnx-community/Qwen3-0.6B-ONNX"
+      ]
+    },
+    "arudradey/qwen-image-2.1-uncensored-aio-loras": {
+      "url": "https://huggingface.co/spaces/arudradey/qwen-image-2.1-uncensored-aio-loras",
+      "title": "Qwen Image 2.1 Uncensored All-In-One LoRA Studio",
+      "description": "Uncensored Qwen 2.1 with All-In-One LoRAs",
+      "sdk": "gradio",
+      "models": [
+        "KasugaiSakura/Qwen-Image-2.1-Uncensored-Abenzerps-GGUF",
+        "Qwen/Qwen-Image-2.1",
+        "WarmBloodAban/Qwen-Image-2.1-LoRAs",
+        "prithivMLmods/Qwen-Image-2.1-Natural-Exposure-LoRA",
+        "alibaba-pai/Qwen-Image-2.1-Fun-Acc-LoRAs",
+        "Viggle/Qwen-Image-2.1-viggle-turbo",
+        "Alissonerdx/BFS-Best-Face-Swap",
+        "lilylilith/AnyPose"
+      ]
+    },
+    "Rchoks/wan555": {
+      "url": "https://huggingface.co/spaces/Rchoks/wan555",
+      "title": "Wan2.2 14B Fast Preview",
+      "description": "generate a video from an image with a text prompt",
+      "sdk": "gradio",
+      "models": [
+        "cbensimon/WanTransformer3DModel-sm120-cu130-raa",
+        "r3gm/RIFE",
+        "TestOrganizationPleaseIgnore/wamu-tools",
+        "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
+      ]
+    },
+    "zai-org/OpenVuln": {
+      "url": "https://huggingface.co/spaces/zai-org/OpenVuln",
+      "title": "OpenVuln",
+      "description": "Find bugs in your repository with GLM",
+      "sdk": "docker",
+      "models": []
+    },
+    "webml-community/smolvlm-realtime-webgpu": {
+      "url": "https://huggingface.co/spaces/webml-community/smolvlm-realtime-webgpu",
+      "title": "SmolVLM realtime WebGPU",
+      "description": null,
+      "sdk": "static",
+      "models": [
+        "HuggingFaceTB/SmolVLM-500M-Instruct"
       ]
     }
   }
