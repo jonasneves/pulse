@@ -27,7 +27,7 @@
     },
     "mvschwarz/openrig": {
       "url": "https://github.com/mvschwarz/openrig",
-      "description": "Build your own network of agents from Claude Code, Codex and Pi: long-running teams with roles, shared context and owned work.",
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
       "language": "TypeScript"
     },
     "oblien/openship": {
@@ -640,16 +640,6 @@
       "description": "Specification and documentation for Agent Skills",
       "language": "Python"
     },
-    "ryanmcdermott/clean-code-javascript": {
-      "url": "https://github.com/ryanmcdermott/clean-code-javascript",
-      "description": "Clean Code concepts adapted for JavaScript",
-      "language": "JavaScript"
-    },
-    "langflow-ai/langflow": {
-      "url": "https://github.com/langflow-ai/langflow",
-      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-      "language": "Python"
-    },
     "pytorch/pytorch": {
       "url": "https://github.com/pytorch/pytorch",
       "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
@@ -699,11 +689,6 @@
       "url": "https://github.com/crynta/terax-ai",
       "description": "Lightweight (7MB) Terminal-first AI-native dev workspace",
       "language": "TypeScript"
-    },
-    "safishamsi/graphify": {
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-      "language": "Python"
     },
     "hesreallyhim/awesome-claude-code": {
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
@@ -2489,6 +2474,21 @@
       "url": "https://github.com/Friedrich-M/UniMate",
       "description": "[SIGGRAPH Asia 2026] UniMate: One Unified Model to Animate Diverse Skeletons",
       "language": "Python"
+    },
+    "getsentry/sentry": {
+      "url": "https://github.com/getsentry/sentry",
+      "description": "Developer-first error tracking and performance monitoring",
+      "language": "Python"
+    },
+    "colbymchenry/codegraph": {
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "C"
+    },
+    "Effect-TS/effect": {
+      "url": "https://github.com/Effect-TS/effect",
+      "description": "Build production-ready applications in TypeScript",
+      "language": "TypeScript"
     }
   },
   "models": {
@@ -2905,6 +2905,22 @@
       "description": null,
       "pipelineTag": "text-generation",
       "baseModels": []
+    },
+    "Cloudflare/clef": {
+      "url": "https://huggingface.co/Cloudflare/clef",
+      "description": "Clef is a 27B multimodal model that turns a state and a schema of typed questions into decisions. It reads the state as text, JSON, images, or video, and returns a probability for every allowed option of every question in a single forwar…",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "Qwen/Qwen3.8-27B"
+      ]
+    },
+    "Cloudflare/clef-flash": {
+      "url": "https://huggingface.co/Cloudflare/clef-flash",
+      "description": "Clef-Flash is a 9B multimodal model that turns a state and a schema of typed questions into decisions. It reads the state as text, JSON, images, or video, and returns a probability for every allowed option of every question in a single f…",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "Qwen/Qwen3.5-9B"
+      ]
     }
   },
   "spaces": {
@@ -3538,6 +3554,37 @@
       "models": [
         "Qwen/Qwen-Image-2.1",
         "Viggle/Qwen-Image-2.1-viggle-turbo"
+      ]
+    },
+    "M3st3rJ4k3l/FLUX.2-Klein-Multi-LoRA-v2": {
+      "url": "https://huggingface.co/spaces/M3st3rJ4k3l/FLUX.2-Klein-Multi-LoRA-v2",
+      "title": "FLUX.2 Klein Multi LoRA V2",
+      "description": "Experimental space for image editing with FLUX.2 Klein 9B",
+      "sdk": "gradio",
+      "models": []
+    },
+    "hugging-apps/bfs-best-face-swap": {
+      "url": "https://huggingface.co/spaces/hugging-apps/bfs-best-face-swap",
+      "title": "BFS Best Face Swap",
+      "description": "Head swap with the BFS LoRA on Qwen-Image-2.1 (+turbo)",
+      "sdk": "gradio",
+      "models": [
+        "Alissonerdx/BFS-Best-Face-Swap",
+        "Qwen/Qwen-Image-2.1",
+        "Viggle/Qwen-Image-2.1-viggle-turbo"
+      ]
+    },
+    "k2-fsa/OmniVoice": {
+      "url": "https://huggingface.co/spaces/k2-fsa/OmniVoice",
+      "title": "OmniVoice",
+      "description": "High-quality voice cloning TTS for 600+ languages",
+      "sdk": "gradio",
+      "models": [
+        "eustlb/higgs-audio-v2-tokenizer",
+        "k2-fsa/OmniVoice",
+        "k2-fsa/TTS_eval_models",
+        "openai/whisper-large-v3-turbo",
+        "Qwen/Qwen3-0.6B"
       ]
     }
   }
