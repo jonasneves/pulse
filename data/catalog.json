@@ -635,11 +635,6 @@
       "description": "Machine Learning Systems: Foundations, Scaling, Agentic AI, and Physical AI (Vols I–IV) • Harvard CS249r | https://mlsysbook.ai",
       "language": "Python"
     },
-    "agentskills/agentskills": {
-      "url": "https://github.com/agentskills/agentskills",
-      "description": "Specification and documentation for Agent Skills",
-      "language": "Python"
-    },
     "rommapp/romm": {
       "url": "https://github.com/rommapp/romm",
       "description": "A beautiful, powerful, self-hosted ROM manager and player.",
@@ -660,20 +655,10 @@
       "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
       "language": "Rust"
     },
-    "chthollyphile/folia-major": {
-      "url": "https://github.com/chthollyphile/folia-major",
-      "description": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方多平台在线音乐播放器",
-      "language": "TypeScript"
-    },
     "alirezarezvani/claude-skills": {
       "url": "https://github.com/alirezarezvani/claude-skills",
       "description": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
       "language": "Python"
-    },
-    "crynta/terax-ai": {
-      "url": "https://github.com/crynta/terax-ai",
-      "description": "Lightweight (7MB) Terminal-first AI-native dev workspace",
-      "language": "TypeScript"
     },
     "hesreallyhim/awesome-claude-code": {
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
@@ -1787,7 +1772,7 @@
     },
     "thedotmack/claude-mem": {
       "url": "https://github.com/thedotmack/claude-mem",
-      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript"
     },
     "JetBrains/go-modern-guidelines": {
@@ -2474,6 +2459,21 @@
       "url": "https://github.com/Effect-TS/effect",
       "description": "Build production-ready applications in TypeScript",
       "language": "TypeScript"
+    },
+    "cloudflare/cloudflare-os": {
+      "url": "https://github.com/cloudflare/cloudflare-os",
+      "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
+      "language": "TypeScript"
+    },
+    "jamwithai/production-agentic-rag-course": {
+      "url": "https://github.com/jamwithai/production-agentic-rag-course",
+      "description": "",
+      "language": "Python"
+    },
+    "meituan-longcat/LongCat-Video": {
+      "url": "https://github.com/meituan-longcat/LongCat-Video",
+      "description": "",
+      "language": "Python"
     }
   },
   "models": {
@@ -2927,6 +2927,36 @@
       "url": "https://huggingface.co/NaiveAI/Naive-N0.5-Flash",
       "description": "[🏠 Homepage][website] · [📰 Technical Blog][blog] · [💻 GitHub][github]",
       "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "Aleph-Alpha/Kolibri-1": {
+      "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+      "description": "Kolibri is Aleph Alpha's mixture-of-experts (MoE) reasoning model, with a focus on German and English. The model supports an explicit reasoning mode and tool calling. It is optimized for long-context and inference efficiency.",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Aleph-Alpha/Kolibri-1-BF16"
+      ]
+    },
+    "Venastine-Research/Xing4.0-29B-A4B-GGUF": {
+      "url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
+      "description": "Xing4.0-29B-A4B is a next-generation large language model in the Xing series (formerly TeleChat), developed by China Telecom Artificial Intelligence Technology Co., Ltd. With 29B total parameters and only 4B activated per token, it nativ…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "XingChen-AGI/Xing4.0-29B-A4B"
+      ]
+    },
+    "Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw": {
+      "url": "https://huggingface.co/Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
+      "description": "EXL3 quantization of dealignai/GLM-5.3-UNCENSORED-FP8, itself a weight-edited (no fine-tune) variant of zai-org/GLM-5.3. The edit is documented in CRACK_SURGERY.json (copied unchanged from the source repo). This repo is not affiliated wi…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "dealignai/GLM-5.3-UNCENSORED-FP8"
+      ]
+    },
+    "Qwen/Qwen3.8-Flash-Next": {
+      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+      "description": "As the frontier of foundation models pushes toward ever-larger parameter counts and ever-longer context windows, the question is no longer just how much we can scale, but how efficiently we can do so. Sustainable progress toward artifici…",
+      "pipelineTag": "image-text-to-text",
       "baseModels": []
     }
   },
@@ -3601,6 +3631,17 @@
       "sdk": "docker",
       "models": [
         "XiaomiMiMo/MiMo-V2.6-Pro-RL"
+      ]
+    },
+    "hugging-apps/minimax-h3-character-swap-lora": {
+      "url": "https://huggingface.co/spaces/hugging-apps/minimax-h3-character-swap-lora",
+      "title": "MiniMax-H3 Character Swap LoRA",
+      "description": "Swap one character in a clip for a reference character",
+      "sdk": "gradio",
+      "models": [
+        "akatz-ai/MiniMax-H3-Character-Swap-LoRA",
+        "multimodalart/MiniMax-H3-Pruned",
+        "MiniMaxAI/MiniMax-H3"
       ]
     }
   }
