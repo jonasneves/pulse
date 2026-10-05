@@ -530,11 +530,6 @@
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript"
     },
-    "alibaba/page-agent": {
-      "url": "https://github.com/alibaba/page-agent",
-      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
-      "language": "TypeScript"
-    },
     "NanmiCoder/MediaCrawler": {
       "url": "https://github.com/NanmiCoder/MediaCrawler",
       "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫",
@@ -605,11 +600,6 @@
       "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there. ",
       "language": "TypeScript"
     },
-    "facebook/astryx": {
-      "url": "https://github.com/facebook/astryx",
-      "description": "An open source design system that's fully customizable and agent ready",
-      "language": "TypeScript"
-    },
     "microsoft/AI-For-Beginners": {
       "url": "https://github.com/microsoft/AI-For-Beginners",
       "description": "12 Weeks, 24 Lessons, AI for All!",
@@ -629,16 +619,6 @@
       "url": "https://github.com/openai/codex-plugin-cc",
       "description": "Use Codex from Claude Code to review code or delegate tasks.",
       "language": "JavaScript"
-    },
-    "harvard-edge/cs249r_book": {
-      "url": "https://github.com/harvard-edge/cs249r_book",
-      "description": "Machine Learning Systems: Foundations, Scaling, Agentic AI, and Physical AI (Vols I–IV) • Harvard CS249r | https://mlsysbook.ai",
-      "language": "Python"
-    },
-    "rommapp/romm": {
-      "url": "https://github.com/rommapp/romm",
-      "description": "A beautiful, powerful, self-hosted ROM manager and player.",
-      "language": "Python"
     },
     "ansible/ansible": {
       "url": "https://github.com/ansible/ansible",
@@ -664,16 +644,6 @@
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
       "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
       "language": "Python"
-    },
-    "CoplayDev/unity-mcp": {
-      "url": "https://github.com/CoplayDev/unity-mcp",
-      "description": "Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
-      "language": "C#"
-    },
-    "OthmanAdi/planning-with-files": {
-      "url": "https://github.com/OthmanAdi/planning-with-files",
-      "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
-      "language": "Shell"
     },
     "gastownhall/gastown": {
       "url": "https://github.com/gastownhall/gastown",
@@ -1037,7 +1007,7 @@
     },
     "earthtojake/text-to-cad": {
       "url": "https://github.com/earthtojake/text-to-cad",
-      "description": "A library of agent skills for CAD, CAE and CAM",
+      "description": "Give your agent CAD superpowers.",
       "language": "Python"
     },
     "moonshine-ai/moonshine": {
@@ -2474,6 +2444,26 @@
       "url": "https://github.com/meituan-longcat/LongCat-Video",
       "description": "",
       "language": "Python"
+    },
+    "tester-army/e2e": {
+      "url": "https://github.com/tester-army/e2e",
+      "description": "Next generation e2e testing framework for web and mobile apps.",
+      "language": "TypeScript"
+    },
+    "boykopovar/AnyPS5": {
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "language": "C++"
+    },
+    "caddyserver/caddy": {
+      "url": "https://github.com/caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go"
+    },
+    "DuarteSantos8/openGym": {
+      "url": "https://github.com/DuarteSantos8/openGym",
+      "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
+      "language": "JavaScript"
     }
   },
   "models": {
@@ -2958,6 +2948,14 @@
       "description": "As the frontier of foundation models pushes toward ever-larger parameter counts and ever-longer context windows, the question is no longer just how much we can scale, but how efficiently we can do so. Sustainable progress toward artifici…",
       "pipelineTag": "image-text-to-text",
       "baseModels": []
+    },
+    "jialinyyzz/humanizer": {
+      "url": "https://huggingface.co/jialinyyzz/humanizer",
+      "description": "A 12B model that rewrites AI-written drafts (emails, essays, reports, forum posts; English and Chinese) so they read like a person wrote them. It is trained to keep every number, unit, date, name and quote, and to add nothing. It runs lo…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "google/gemma-4-12B"
+      ]
     }
   },
   "spaces": {
@@ -3642,6 +3640,36 @@
         "akatz-ai/MiniMax-H3-Character-Swap-LoRA",
         "multimodalart/MiniMax-H3-Pruned",
         "MiniMaxAI/MiniMax-H3"
+      ]
+    },
+    "autotrust/JEV-27B-Demo": {
+      "url": "https://huggingface.co/spaces/autotrust/JEV-27B-Demo",
+      "title": "JEV-27B Live Demo",
+      "description": "Play Mario, Rubik's Cube and Tetris with JEV-27B",
+      "sdk": "docker",
+      "models": [
+        "autotrust/JEV-27B"
+      ]
+    },
+    "autotrust/jev-9b-decision-demo": {
+      "url": "https://huggingface.co/spaces/autotrust/jev-9b-decision-demo",
+      "title": "JEV-9B — typed decisions",
+      "description": "Calibrated typed decisions + System 2 reasoning",
+      "sdk": "gradio",
+      "models": [
+        "autotrust/JEV-27B",
+        "autotrust/JEV-9B",
+        "Qwen/Qwen3.5-9B"
+      ]
+    },
+    "inclusionAI/ming-image-0-1-design-demo": {
+      "url": "https://huggingface.co/spaces/inclusionAI/ming-image-0-1-design-demo",
+      "title": "Ming-Image 0.1 Design",
+      "description": "Text-to-image model for UI, infographics and poster design",
+      "sdk": "gradio",
+      "models": [
+        "inclusionAI/Ming-Image-0.1-Design",
+        "Tongyi-MAI/Z-Image"
       ]
     }
   }
