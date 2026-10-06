@@ -370,11 +370,6 @@
       "description": "Repository for skills to assist AI coding agents with .NET and C#",
       "language": "C#"
     },
-    "Leonxlnx/taste-skill": {
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
-      "language": "JavaScript"
-    },
     "unclecode/crawl4ai": {
       "url": "https://github.com/unclecode/crawl4ai",
       "description": "Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key.",
@@ -615,11 +610,6 @@
       "description": "Action for checking out a repo",
       "language": "TypeScript"
     },
-    "openai/codex-plugin-cc": {
-      "url": "https://github.com/openai/codex-plugin-cc",
-      "description": "Use Codex from Claude Code to review code or delegate tasks.",
-      "language": "JavaScript"
-    },
     "ansible/ansible": {
       "url": "https://github.com/ansible/ansible",
       "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
@@ -635,20 +625,10 @@
       "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
       "language": "Rust"
     },
-    "alirezarezvani/claude-skills": {
-      "url": "https://github.com/alirezarezvani/claude-skills",
-      "description": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
-      "language": "Python"
-    },
     "hesreallyhim/awesome-claude-code": {
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
       "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
       "language": "Python"
-    },
-    "gastownhall/gastown": {
-      "url": "https://github.com/gastownhall/gastown",
-      "description": "Gas Town - multi-agent workspace manager",
-      "language": "Go"
     },
     "steipete/CodexBar": {
       "url": "https://github.com/steipete/CodexBar",
@@ -660,11 +640,6 @@
       "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
       "language": "Python"
     },
-    "sindresorhus/awesome": {
-      "url": "https://github.com/sindresorhus/awesome",
-      "description": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
-      "language": null
-    },
     "MadsLorentzen/ai-job-search": {
       "url": "https://github.com/MadsLorentzen/ai-job-search",
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
@@ -674,16 +649,6 @@
       "url": "https://github.com/AhmadIbrahiim/Website-downloader",
       "description": "💡  Download the complete source code of any website (including all assets). [ Javascripts, Stylesheets, Images ]  using Node.js  ",
       "language": "HTML"
-    },
-    "karakeep-app/karakeep": {
-      "url": "https://github.com/karakeep-app/karakeep",
-      "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
-      "language": "TypeScript"
-    },
-    "ogulcancelik/herdr": {
-      "url": "https://github.com/herdrdev/herdr",
-      "description": "the runtime your coding agents live on",
-      "language": "Rust"
     },
     "kyutai-labs/pocket-tts": {
       "url": "https://github.com/kyutai-labs/pocket-tts",
@@ -1437,7 +1402,7 @@
     },
     "cathrynlavery/diagram-design": {
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "description": "Editorial diagram design for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML"
     },
     "huggingface/transformers": {
@@ -2464,6 +2429,16 @@
       "url": "https://github.com/DuarteSantos8/openGym",
       "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
       "language": "JavaScript"
+    },
+    "morluto/rea": {
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript"
+    },
+    "deepseek-ai/DeepGEMM": {
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "description": "DeepGEMM: clean and efficient BLAS kernel library on GPU",
+      "language": "Cuda"
     }
   },
   "models": {
@@ -2955,6 +2930,22 @@
       "pipelineTag": "text-generation",
       "baseModels": [
         "google/gemma-4-12B"
+      ]
+    },
+    "autotrust/JEV-27B-VL": {
+      "url": "https://huggingface.co/autotrust/JEV-27B-VL",
+      "description": "Every step below is one System 1 decision: a camera image or a screenshot in, a probability for every action out, in a single forward pass.",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "Qwen/Qwen3.8-27B"
+      ]
+    },
+    "autotrust/GEV-26B-Decide": {
+      "url": "https://huggingface.co/autotrust/GEV-26B-Decide",
+      "description": "How the score was computed (our scoring with the kit's score --edition 0.2.1, not a board entry):",
+      "pipelineTag": "text-classification",
+      "baseModels": [
+        "google/gemma-4-26B-A4B-it"
       ]
     }
   },
@@ -3670,6 +3661,28 @@
       "models": [
         "inclusionAI/Ming-Image-0.1-Design",
         "Tongyi-MAI/Z-Image"
+      ]
+    },
+    "tardellirs/model-pulse": {
+      "url": "https://huggingface.co/spaces/tardellirs/model-pulse",
+      "title": "Model Pulse",
+      "description": "Hugging Face model download stats, history & trends",
+      "sdk": "static",
+      "models": []
+    },
+    "simru66/wan2-2-fp8da-aoti-preview-2c-finishing": {
+      "url": "https://huggingface.co/spaces/simru66/wan2-2-fp8da-aoti-preview-2c-finishing",
+      "title": "Wan2.2 14B Cum explosion lora",
+      "description": "generate a video from an image with a text prompt with text",
+      "sdk": "gradio",
+      "models": [
+        "cbensimon/WanTransformer3DModel-sm120-cu130-raa",
+        "FlutterGuyAzaza/Deepthroat_Blowjob_Wan_2_X_I2V_T2V",
+        "r3gm/RIFE",
+        "Robertopaulson/DeepthroatBlowjobWan2XI2VT2V",
+        "Robertopaulson/F4C3SPL4SH_Cumshotwan2.2i2v",
+        "TestOrganizationPleaseIgnore/wamu-tools",
+        "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
       ]
     }
   }
