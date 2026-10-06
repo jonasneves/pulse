@@ -6,7 +6,7 @@ Open backlog and unshipped direction live in [issues](https://github.com/jonasne
 
 ## Layout
 
-Flat files, no build step, no npm dependencies; keep concerns in separate files. Every `.js` file opens with a comment stating what it owns (`head -4 *.js scripts/*.js` is the map). `index.html`'s only external resource is Google Fonts; `index.css` holds all styles, themed light and dark with CSS custom properties. `scripts/fetch.js` runs daily and `scripts/digest.js` weekly from `.github/workflows/`; schedules, triggers, and commit behavior are in those files.
+Flat files, no build step, no npm dependencies; keep concerns in separate files. Every `.js` file opens with a comment stating what it owns (`awk 'FNR==1{print "== " FILENAME} /\*\//{nextfile} 1' *.js scripts/*.js` prints every header). `index.html`'s only external resource is Google Fonts; `index.css` holds all styles, themed light and dark with CSS custom properties. `scripts/fetch.js` runs daily and `scripts/digest.js` weekly from `.github/workflows/`; schedules, triggers, and commit behavior are in those files.
 
 To add a WebMCP tool, add an entry to `TOOL_DEFS` in `tools.js` and put the state or actions it needs on `pulse` in `index.js`; it registers and appears in the agent-tools panel automatically.
 
@@ -21,7 +21,7 @@ Everything under `data/` is written by the daily Action. Never edit it by hand. 
 | `catalog.json` | source → id → url, description and source-specific fields, for every item in history, including ones no longer listed. Models carry `baseModels` (from `base_model:` Hub tags); Spaces carry `models` (the models they declare, empty when more than 8). |
 | `judgments.json` | `model` plus `github` → repo → `{kind, p, d}`. Jev output, kept apart from observations. |
 
-Each new GitHub repo is judged once by Jev (TypeSafe's classifier model, https://docs.typesafe.ai) as project, collection, learning, or unclear. That needs the `TYPESAFE_API_KEY` repo secret; without it, judging is skipped.
+Each new GitHub repo is judged once by Jev (TypeSafe's judgment model, https://docs.typesafe.ai) as project, collection, learning, or unclear. That needs the `TYPESAFE_API_KEY` repo secret; without it, judging is skipped.
 
 ## Local development
 
