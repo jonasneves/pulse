@@ -188,7 +188,7 @@
     "trycua/cua": {
       "url": "https://github.com/trycua/cua",
       "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
-      "language": "HTML"
+      "language": "Rust"
     },
     "codecrafters-io/build-your-own-x": {
       "url": "https://github.com/codecrafters-io/build-your-own-x",
@@ -364,11 +364,6 @@
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
       "language": "Python"
-    },
-    "dotnet/skills": {
-      "url": "https://github.com/dotnet/skills",
-      "description": "Repository for skills to assist AI coding agents with .NET and C#",
-      "language": "C#"
     },
     "unclecode/crawl4ai": {
       "url": "https://github.com/unclecode/crawl4ai",
@@ -620,21 +615,6 @@
       "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
       "language": "TypeScript"
     },
-    "Zackriya-Solutions/meetily": {
-      "url": "https://github.com/Zackriya-Solutions/meetily",
-      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
-      "language": "Rust"
-    },
-    "hesreallyhim/awesome-claude-code": {
-      "url": "https://github.com/hesreallyhim/awesome-claude-code",
-      "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
-      "language": "Python"
-    },
-    "steipete/CodexBar": {
-      "url": "https://github.com/steipete/CodexBar",
-      "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
-      "language": "Swift"
-    },
     "bradautomates/claude-video": {
       "url": "https://github.com/bradautomates/claude-video",
       "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
@@ -644,11 +624,6 @@
       "url": "https://github.com/MadsLorentzen/ai-job-search",
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "language": "Python"
-    },
-    "AhmadIbrahiim/Website-downloader": {
-      "url": "https://github.com/AhmadIbrahiim/Website-downloader",
-      "description": "💡  Download the complete source code of any website (including all assets). [ Javascripts, Stylesheets, Images ]  using Node.js  ",
-      "language": "HTML"
     },
     "kyutai-labs/pocket-tts": {
       "url": "https://github.com/kyutai-labs/pocket-tts",
@@ -2439,6 +2414,16 @@
       "url": "https://github.com/deepseek-ai/DeepGEMM",
       "description": "DeepGEMM: clean and efficient BLAS kernel library on GPU",
       "language": "Cuda"
+    },
+    "EpicGames/raddebugger": {
+      "url": "https://github.com/EpicGames/raddebugger",
+      "description": "A native, user-mode, multi-process, graphical debugger.",
+      "language": "C"
+    },
+    "manaflow-ai/cmux": {
+      "url": "https://github.com/manaflow-ai/cmux",
+      "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
+      "language": "Swift"
     }
   },
   "models": {
@@ -2946,6 +2931,26 @@
       "pipelineTag": "text-classification",
       "baseModels": [
         "google/gemma-4-26B-A4B-it"
+      ]
+    },
+    "google/embeddinggemma-2": {
+      "url": "https://huggingface.co/google/embeddinggemma-2",
+      "description": "EmbeddingGemma 2 is an open multimodal embedding model built by Google DeepMind which maps text (incl. code), images, video, and audio inputs—and combinations thereof—into a single, unified 768-dimensional vector space. The model has 740…",
+      "pipelineTag": "feature-extraction",
+      "baseModels": []
+    },
+    "canberkkkkkk/ema-lightning": {
+      "url": "https://huggingface.co/canberkkkkkk/ema-lightning",
+      "description": "Tiny, fast and accurate Turkish text to speech. A 5.6M-parameter DiT acoustic model and a 3M-parameter vocoder: 8.6M in total, about 34 MB. Apache 2.0.",
+      "pipelineTag": "text-to-speech",
+      "baseModels": []
+    },
+    "DavidAU/LFM2.5-8B-A1B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF": {
+      "url": "https://huggingface.co/DavidAU/LFM2.5-8B-A1B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
+      "description": "Please read this model card carefully to get the most from it - including all 12 reasoning modes that feature model suggestions (\"context help\") for all use cases. The Turbo Brilliance system will begin appearing in other model sizes/typ…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "LiquidAI/LFM2.5-8B-A1B"
       ]
     }
   },
@@ -3683,6 +3688,114 @@
         "Robertopaulson/F4C3SPL4SH_Cumshotwan2.2i2v",
         "TestOrganizationPleaseIgnore/wamu-tools",
         "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
+      ]
+    },
+    "AlexWortega/openjev": {
+      "url": "https://huggingface.co/spaces/AlexWortega/openjev",
+      "title": "openjev",
+      "description": "NLI cross-encoder for text and images",
+      "sdk": "gradio",
+      "models": [
+        "AlexWortega/openjev"
+      ]
+    },
+    "Aura1in/Krea-2-Turbo_v2": {
+      "url": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2",
+      "title": "Krea 2 Turbo Image Generator",
+      "description": "Krea 2 Turbo text2image and image editing",
+      "sdk": "gradio",
+      "models": [
+        "Comfy-Org/Krea-2",
+        "conradlocke/krea2-identity-edit",
+        "metaloz/imgstuff",
+        "mpasila/Krea-2-LoRAs",
+        "mpasila/Krea-2-Models"
+      ]
+    },
+    "webml-community/embeddinggemma-2-webgpu": {
+      "url": "https://huggingface.co/spaces/webml-community/embeddinggemma-2-webgpu",
+      "title": "EmbeddingGemma 2 WebGPU",
+      "description": null,
+      "sdk": "static",
+      "models": [
+        "google/embeddinggemma-2",
+        "onnx-community/embeddinggemma-2-ONNX"
+      ]
+    },
+    "webml-community/embedding-gemma-2-draw-challenge": {
+      "url": "https://huggingface.co/spaces/webml-community/embedding-gemma-2-draw-challenge",
+      "title": "Embedding Gemma 2 Draw Challenge",
+      "description": null,
+      "sdk": "static",
+      "models": [
+        "onnx-community/embeddinggemma-2-ONNX"
+      ]
+    },
+    "webml-community/Supertonic-TTS-WebGPU": {
+      "url": "https://huggingface.co/spaces/webml-community/Supertonic-TTS-WebGPU",
+      "title": "Supertonic TTS WebGPU",
+      "description": "Blazingly fast text-to-speech 100% locally in your browser!",
+      "sdk": "static",
+      "models": [
+        "onnx-community/Supertonic-TTS-ONNX",
+        "Supertone/supertonic"
+      ]
+    },
+    "webml-community/YOLO26-WebGPU": {
+      "url": "https://huggingface.co/spaces/webml-community/YOLO26-WebGPU",
+      "title": "YOLO26 WebGPU",
+      "description": "Real-time object detection & pose estimation in your browser",
+      "sdk": "static",
+      "models": [
+        "onnx-community/yolo26l-ONNX",
+        "onnx-community/yolo26m-ONNX",
+        "onnx-community/yolo26n-ONNX",
+        "onnx-community/yolo26s-ONNX",
+        "onnx-community/yolo26x-ONNX"
+      ]
+    },
+    "webml-community/GPT-OSS-WebGPU": {
+      "url": "https://huggingface.co/spaces/webml-community/GPT-OSS-WebGPU",
+      "title": "GPT OSS WebGPU",
+      "description": "Run GPT-OSS-20B locally in your browser on WebGPU",
+      "sdk": "static",
+      "models": [
+        "openai/gpt-oss-20b",
+        "onnx-community/gpt-oss-20b-ONNX"
+      ]
+    },
+    "webml-community/microgpt-playground": {
+      "url": "https://huggingface.co/spaces/webml-community/microgpt-playground",
+      "title": "microgpt Playground",
+      "description": "Build, train, and run LLMs in the browser",
+      "sdk": "static",
+      "models": []
+    },
+    "webml-community/Gemma-4-WebGPU": {
+      "url": "https://huggingface.co/spaces/webml-community/Gemma-4-WebGPU",
+      "title": "Gemma 4 WebGPU",
+      "description": "Run Gemma 4 locally in-browser on WebGPU w/ Transformers.js",
+      "sdk": "static",
+      "models": [
+        "onnx-community/gemma-4-E2B-it-ONNX",
+        "google/gemma-4-E2B-it"
+      ]
+    },
+    "webml-community/bonsai-webgpu": {
+      "url": "https://huggingface.co/spaces/webml-community/bonsai-webgpu",
+      "title": "Bonsai 1-bit WebGPU",
+      "description": "Run 1-bit Bonsai LLMs locally in your browser on WebGPU",
+      "sdk": "static",
+      "models": []
+    },
+    "webml-community/bonsai-image-webgpu": {
+      "url": "https://huggingface.co/spaces/webml-community/bonsai-image-webgpu",
+      "title": "Bonsai Image WebGPU",
+      "description": "State-of-the-art image generation, in your browser.",
+      "sdk": "static",
+      "models": [
+        "prism-ml/bonsai-image-ternary-4B-mlx-2bit",
+        "prism-ml/bonsai-image-binary-4B-mlx-1bit"
       ]
     }
   }
