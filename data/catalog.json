@@ -355,11 +355,6 @@
       "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
       "language": "Rust"
     },
-    "Diolinux/PhotoGIMP": {
-      "url": "https://github.com/Diolinux/PhotoGIMP",
-      "description": "A Patch for GIMP 3+ for Photoshop Users",
-      "language": "Python"
-    },
     "mukul975/Anthropic-Cybersecurity-Skills": {
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
@@ -454,11 +449,6 @@
       "url": "https://github.com/DeusData/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "language": "C"
-    },
-    "alibaba/zvec": {
-      "url": "https://github.com/alibaba/zvec",
-      "description": "A lightweight, lightning-fast, in-process vector database",
-      "language": "C++"
     },
     "calesthio/OpenMontage": {
       "url": "https://github.com/calesthio/OpenMontage",
@@ -595,11 +585,6 @@
       "description": "12 Weeks, 24 Lessons, AI for All!",
       "language": "Jupyter Notebook"
     },
-    "TencentCloud/CubeSandbox": {
-      "url": "https://github.com/TencentCloud/CubeSandbox",
-      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
-      "language": "Go"
-    },
     "actions/checkout": {
       "url": "https://github.com/actions/checkout",
       "description": "Action for checking out a repo",
@@ -669,11 +654,6 @@
       "url": "https://github.com/prisma/orm",
       "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
       "language": "TypeScript"
-    },
-    "argoproj/argo-cd": {
-      "url": "https://github.com/argoproj/argo-cd",
-      "description": "Declarative Continuous Deployment for Kubernetes",
-      "language": "Go"
     },
     "jbeder/yaml-cpp": {
       "url": "https://github.com/jbeder/yaml-cpp",
@@ -2424,6 +2404,11 @@
       "url": "https://github.com/manaflow-ai/cmux",
       "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
       "language": "Swift"
+    },
+    "storytold/artcraft": {
+      "url": "https://github.com/storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "language": "Rust"
     }
   },
   "models": {
@@ -2911,7 +2896,7 @@
     },
     "jialinyyzz/humanizer": {
       "url": "https://huggingface.co/jialinyyzz/humanizer",
-      "description": "A 12B model that rewrites AI-written drafts (emails, essays, reports, forum posts; English and Chinese) so they read like a person wrote them. It is trained to keep every number, unit, date, name and quote, and to add nothing. It runs lo…",
+      "description": "A 12B model that rewrites AI-written drafts (emails, essays, reports, forum posts; English and Chinese) so they read like a person wrote them. It is trained to keep every number, unit, date, name and quote and to add nothing, and it runs…",
       "pipelineTag": "text-generation",
       "baseModels": [
         "google/gemma-4-12B"
@@ -2919,7 +2904,7 @@
     },
     "autotrust/JEV-27B-VL": {
       "url": "https://huggingface.co/autotrust/JEV-27B-VL",
-      "description": "Every step below is one System 1 decision: a camera image or a screenshot in, a probability for every action out, in a single forward pass.",
+      "description": "JEV-27B-VL is ranked first of 20 vision decision models on the community Jev Decision Index 0.3 — Vision board (independent evaluation, updated 7 October 2026). It is first on the Full score, first on the public benchmarks alone and firs…",
       "pipelineTag": "image-text-to-text",
       "baseModels": [
         "Qwen/Qwen3.8-27B"
@@ -2951,6 +2936,52 @@
       "pipelineTag": "text-generation",
       "baseModels": [
         "LiquidAI/LFM2.5-8B-A1B"
+      ]
+    },
+    "unsloth/embeddinggemma-2-GGUF": {
+      "url": "https://huggingface.co/unsloth/embeddinggemma-2-GGUF",
+      "description": "EmbeddingGemma 2 is an open multimodal embedding model built by Google DeepMind which maps text (incl. code), images, video, and audio inputs—and combinations thereof—into a single, unified 768-dimensional vector space. The model has 740…",
+      "pipelineTag": "feature-extraction",
+      "baseModels": [
+        "google/embeddinggemma-2"
+      ]
+    },
+    "autotrust/GLM5.3-Flash-E224-DGX-Spark": {
+      "url": "https://huggingface.co/autotrust/GLM5.3-Flash-E224-DGX-Spark",
+      "description": "autotrust/GLM5.3-Flash-E224-DGX-Spark is a compact build of zai-org/GLM-5.3-Flash for desktop Blackwell systems like NVIDIA DGX Spark. It's an unofficial derivative.",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "zai-org/GLM-5.3-Flash"
+      ]
+    },
+    "Cactus-Compute/whistle": {
+      "url": "https://huggingface.co/Cactus-Compute/whistle",
+      "description": "A speech-to-text model for mobiles, wearables, robots, smart home, automotive and microcontrollers. The whole model is a single 16.9 MB file, and it runs on the same CPU engine as Needle, from the same container and the same quantisation…",
+      "pipelineTag": "automatic-speech-recognition",
+      "baseModels": []
+    },
+    "autotrust/GEV-26B-Decide-NVFP4": {
+      "url": "https://huggingface.co/autotrust/GEV-26B-Decide-NVFP4",
+      "description": "This repository is autotrust/GEV-26B-Decide with its 3,840 routed expert MLPs (30 layers × 128 experts) quantized to NVFP4. Everything else is the bf16 model unchanged: attention, the dense MLP of every layer, the routers, the vision tow…",
+      "pipelineTag": "text-classification",
+      "baseModels": [
+        "autotrust/GEV-26B-Decide"
+      ]
+    },
+    "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF": {
+      "url": "https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
+      "description": null,
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "Qwen/Qwen3.8-Flash-Next"
+      ]
+    },
+    "LiquidAI/d1-3B": {
+      "url": "https://huggingface.co/LiquidAI/d1-3B",
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "LiquidAI/LFM2.5-VL-3B"
       ]
     }
   },
@@ -3796,6 +3827,19 @@
       "models": [
         "prism-ml/bonsai-image-ternary-4B-mlx-2bit",
         "prism-ml/bonsai-image-binary-4B-mlx-1bit"
+      ]
+    },
+    "AST-1320/Qwen-2511-Plus-Flux.2-klein-9B": {
+      "url": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein-9B",
+      "title": "Qwen 2511 + Flux.2 klein 9B",
+      "description": "Edit images with Qwen and enhance with FLUX.2 9B",
+      "sdk": "gradio",
+      "models": [
+        "AST-1320/Qwen-2511-Image-to-Image-Edit",
+        "AST-1320/vit-age-classifier",
+        "black-forest-labs/FLUX.2-klein-9B",
+        "Qwen/Qwen-Image-Edit-2511",
+        "Qwen/Qwen2.5-7B-Instruct"
       ]
     }
   }
