@@ -35,7 +35,7 @@ Set `TYPESAFE_API_KEY` to have `fetch.js` judge new repos with Jev; without it j
 
 In Chrome stable, ordinary visitors get `document.modelContext` only through the WebMCP origin trial (a token served in the page) or `chrome://flags/#enable-webmcp-testing`. The dashboard renders without it.
 
-**From Claude, Cursor or VS Code.** The page loads `relay.neves.cloud/webmcp.js`, from an MCP relay the author runs on Cloudflare. A visitor who presses **Use in Claude** gets one-click Add buttons with a private address for their tab; their AI app's tool calls then reach this page through the relay, and the results come back the same way. The relay passes them through and does not store them. Nothing connects until that button is pressed. In a browser without `document.modelContext`, the script provides one so the tools register anyway.
+**From Claude, Cursor or VS Code.** The page loads `relay.kandue.app/webmcp.js`, from an MCP relay the author runs on Cloudflare. A visitor who presses **Use in Claude** gets one-click Add buttons with a private address for their tab; their AI app's tool calls then reach this page through the relay, and the results come back the same way. The relay passes them through and does not store them. Nothing connects until that button is pressed. In a browser without `document.modelContext`, the script provides one so the tools register anyway.
 
 ## Layout
 
