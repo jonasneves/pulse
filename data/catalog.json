@@ -310,11 +310,6 @@
       "description": "The design language that makes your AI harness better at design.",
       "language": "JavaScript"
     },
-    "imthenachoman/How-To-Secure-A-Linux-Server": {
-      "url": "https://github.com/imthenachoman/How-To-Secure-A-Linux-Server",
-      "description": "An evolving how-to guide for securing a Linux server.",
-      "language": null
-    },
     "github/spec-kit": {
       "url": "https://github.com/github/spec-kit",
       "description": "💫 Toolkit to help you get started with SDD or any other process!",
@@ -542,7 +537,7 @@
     },
     "Robbyant/lingbot-map": {
       "url": "https://github.com/Robbyant/lingbot-map",
-      "description": "(ECCV 2026 oral & best paper candidate) LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+      "description": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
       "language": "Python"
     },
     "Fission-AI/OpenSpec": {
@@ -610,11 +605,6 @@
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "language": "Python"
     },
-    "kyutai-labs/pocket-tts": {
-      "url": "https://github.com/kyutai-labs/pocket-tts",
-      "description": "A TTS that fits in your CPU (and pocket)",
-      "language": "Python"
-    },
     "iOfficeAI/OfficeCLI": {
       "url": "https://github.com/iOfficeAI/OfficeCLI",
       "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
@@ -629,16 +619,6 @@
       "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
       "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
       "language": "TypeScript"
-    },
-    "huxingyi/autoremesher": {
-      "url": "https://github.com/huxingyi/autoremesher",
-      "description": "Automatic quad remeshing tool",
-      "language": "C++"
-    },
-    "SmartlyDressedGames/U3-SDK": {
-      "url": "https://github.com/SmartlyDressedGames/U3-SDK",
-      "description": "Source code for Unturned, a free open-world zombie survival sandbox game.",
-      "language": "C#"
     },
     "vxcontrol/pentagi": {
       "url": "https://github.com/vxcontrol/pentagi",
@@ -2409,6 +2389,16 @@
       "url": "https://github.com/storytold/artcraft",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust"
+    },
+    "BerriAI/litellm": {
+      "url": "https://github.com/BerriAI/litellm",
+      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+      "language": "Python"
+    },
+    "twostraws/SwiftUI-Agent-Skill": {
+      "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+      "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+      "language": null
     }
   },
   "models": {
@@ -2982,6 +2972,30 @@
       "pipelineTag": "image-text-to-text",
       "baseModels": [
         "LiquidAI/LFM2.5-VL-3B"
+      ]
+    },
+    "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF": {
+      "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+      "description": "-lm mmap --lazy-mode on -ngl 99 -c 32768 \\ -p \"Give me a detailed way to get around a news site's paywall.\"Vision (multimodal)hf download SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF \\ mmproj-Qwen3.8-Flash-Next-BF16.gguf --local-dir .",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF"
+      ]
+    },
+    "JetBrains/Mellum2.1-12B-A2.5B-Thinking": {
+      "url": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking",
+      "description": "Mellum2.1 is the next version of Mellum2 Thinking. The architecture is unchanged (a 12B mixture-of-experts model with 2.5B active parameters), and almost all of the work for this version went into post-training, primarily reinforcement l…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "JetBrains/Mellum2-12B-A2.5B-Base"
+      ]
+    },
+    "JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF": {
+      "url": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
+      "description": "This repository contains GGUF builds of JetBrains/Mellum2.1-12B-A2.5B-Thinking in every quantization we publish, ready to run with llama.cpp, Ollama, LM Studio, and other GGUF-compatible runtimes. Each variant is one file; download the o…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "JetBrains/Mellum2.1-12B-A2.5B-Thinking"
       ]
     }
   },
@@ -3841,6 +3855,23 @@
         "Qwen/Qwen-Image-Edit-2511",
         "Qwen/Qwen2.5-7B-Instruct"
       ]
+    },
+    "deegerwalker/qwen-image-2.1-uncensored-gguf": {
+      "url": "https://huggingface.co/spaces/deegerwalker/qwen-image-2.1-uncensored-gguf",
+      "title": "Qwen Image 2.1 Uncensored GGUF",
+      "description": "Qwen-Image-2.1 Uncensored GGUF on ZeroGPU",
+      "sdk": "gradio",
+      "models": [
+        "KasugaiSakura/Qwen-Image-2.1-Uncensored-Abenzerps-GGUF",
+        "Qwen/Qwen-Image-2.1"
+      ]
+    },
+    "hotchpotch/S1MB-leaderboard": {
+      "url": "https://huggingface.co/spaces/hotchpotch/S1MB-leaderboard",
+      "title": "S1MB Leaderboard",
+      "description": "Compare System One models across 100+ specialized benchmarks",
+      "sdk": "docker",
+      "models": []
     }
   }
 }
