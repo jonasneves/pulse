@@ -605,11 +605,6 @@
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "language": "Python"
     },
-    "iOfficeAI/OfficeCLI": {
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-      "language": "C#"
-    },
     "TencentCloud/TencentDB-Agent-Memory": {
       "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
       "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
@@ -634,11 +629,6 @@
       "url": "https://github.com/prisma/orm",
       "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
       "language": "TypeScript"
-    },
-    "jbeder/yaml-cpp": {
-      "url": "https://github.com/jbeder/yaml-cpp",
-      "description": "A YAML parser and emitter in C++",
-      "language": "C++"
     },
     "abseil/abseil-cpp": {
       "url": "https://github.com/abseil/abseil-cpp",
@@ -665,11 +655,6 @@
       "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
       "language": "C++"
     },
-    "tailscale/tailscale": {
-      "url": "https://github.com/tailscale/tailscale",
-      "description": "The easiest, most secure way to use WireGuard and 2FA.",
-      "language": "Go"
-    },
     "google-labs-code/stitch-skills": {
       "url": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
@@ -689,11 +674,6 @@
       "url": "https://github.com/malisper/pgrust",
       "description": "Postgres rewritten in Rust, now faster than Postgres and Clickhouse",
       "language": "Rust"
-    },
-    "grpc/grpc": {
-      "url": "https://github.com/grpc/grpc",
-      "description": "C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)",
-      "language": "C++"
     },
     "vercel/next.js": {
       "url": "https://github.com/vercel/next.js",
@@ -1337,12 +1317,12 @@
     },
     "cathrynlavery/diagram-design": {
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML"
     },
     "huggingface/transformers": {
       "url": "https://github.com/huggingface/transformers",
-      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
       "language": "Python"
     },
     "practical-tutorials/project-based-learning": {
@@ -2399,6 +2379,16 @@
       "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
       "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
       "language": null
+    },
+    "flutter/flutter": {
+      "url": "https://github.com/flutter/flutter",
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "language": "Dart"
+    },
+    "pytorch/pytorch": {
+      "url": "https://github.com/pytorch/pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "language": "Python"
     }
   },
   "models": {
@@ -2997,6 +2987,42 @@
       "baseModels": [
         "JetBrains/Mellum2.1-12B-A2.5B-Thinking"
       ]
+    },
+    "Qwen/Qwen-Image-2.1-Turbo": {
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+      "description": "Qwen-Image-2.1-Turbo is an accelerated checkpoint of Qwen-Image-2.1 for text-to-image generation and image editing with 8 denoising steps. It uses the same 7B visual generation architecture and loads directly with QwenImage21Pipeline in …",
+      "pipelineTag": "text-to-image",
+      "baseModels": [
+        "Qwen/Qwen-Image-2.1"
+      ]
+    },
+    "ConwayResearch/Underdog-Saluki-27B-1.0": {
+      "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+      "description": "Qwen3.8-27B in under 8 GB, tuned to keep tool calling intact. A standard GGUF for stock llama.cpp.",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF"
+      ]
+    },
+    "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2": {
+      "url": "https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
+      "description": "A model post-trained with several rounds of SFT and RLOO on top of Qwen3.8-27B-EfficientThink-SFT-SimPO-DFlash2, which is itself the official Qwen3.8-27B post-trained with SFT and SimPO. It is built to fix the original model's habit of f…",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "nerkyor/Qwen3.8-27B-EfficientThink-Uncensored-K3-Opus5-Grok4.6-GPT5.6Sol-SFT-SimPO-DFlash2"
+      ]
+    },
+    "FrancisRing/Prism": {
+      "url": "https://huggingface.co/FrancisRing/Prism",
+      "description": "Prism:Dynamic Sparse Attention for Native 2K Joint Video-Audio Generation Model Training Shuyuan Tu1, Qi Tian2, Yinming Huang1, Yue Wu2, Xintong Han2, Kaihang Pan3, Weijie Kong2, Jiangfeng Xiong2, Jian-Wei Zhang2, Zuxuan Wu1, Yu-Gang Jia…",
+      "pipelineTag": "image-to-video",
+      "baseModels": []
+    },
+    "deepseek-ai/DeepSeek-R1": {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …",
+      "pipelineTag": "text-generation",
+      "baseModels": []
     }
   },
   "spaces": {
@@ -3872,6 +3898,27 @@
       "description": "Compare System One models across 100+ specialized benchmarks",
       "sdk": "docker",
       "models": []
+    },
+    "Logolabs/agate-webgpu": {
+      "url": "https://huggingface.co/spaces/Logolabs/agate-webgpu",
+      "title": "Agate WebGPU",
+      "description": "Agate text-to-image, 100% in your browser on WebGPU",
+      "sdk": "static",
+      "models": [
+        "Logolabs/agate-preview-003",
+        "Logolabs/agate-preview-002",
+        "Logolabs/agate-preview-001"
+      ]
+    },
+    "sahilmahendrakar/paradee": {
+      "url": "https://huggingface.co/spaces/sahilmahendrakar/paradee",
+      "title": "Paradee",
+      "description": "8M-param English TTS distilled from Kokoro-82M",
+      "sdk": "gradio",
+      "models": [
+        "hexgrad/Kokoro-82M",
+        "sahilmahendrakar/Paradee-8M-v1.0"
+      ]
     }
   }
 }
