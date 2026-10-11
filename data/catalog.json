@@ -345,11 +345,6 @@
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": null
     },
-    "oven-sh/bun": {
-      "url": "https://github.com/oven-sh/bun",
-      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
-      "language": "Rust"
-    },
     "mukul975/Anthropic-Cybersecurity-Skills": {
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
@@ -625,50 +620,10 @@
       "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
       "language": null
     },
-    "prisma/prisma": {
-      "url": "https://github.com/prisma/orm",
-      "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
-      "language": "TypeScript"
-    },
-    "abseil/abseil-cpp": {
-      "url": "https://github.com/abseil/abseil-cpp",
-      "description": "Abseil Common Libraries (C++)",
-      "language": "C++"
-    },
-    "chriskohlhoff/asio": {
-      "url": "https://github.com/chriskohlhoff/asio",
-      "description": "Asio C++ Library",
-      "language": "C++"
-    },
-    "zeux/meshoptimizer": {
-      "url": "https://github.com/zeux/meshoptimizer",
-      "description": "Mesh optimization library that makes meshes smaller and faster to render",
-      "language": "C++"
-    },
     "microsoft/TypeScript": {
       "url": "https://github.com/microsoft/TypeScript",
       "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
       "language": "Go"
-    },
-    "catchorg/Catch2": {
-      "url": "https://github.com/catchorg/Catch2",
-      "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
-      "language": "C++"
-    },
-    "google-labs-code/stitch-skills": {
-      "url": "https://github.com/google-labs-code/stitch-skills",
-      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "language": "TypeScript"
-    },
-    "hashicorp/terraform": {
-      "url": "https://github.com/hashicorp/terraform",
-      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
-      "language": "Go"
-    },
-    "DayuanJiang/next-ai-draw-io": {
-      "url": "https://github.com/DayuanJiang/next-ai-draw-io",
-      "description": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
-      "language": "TypeScript"
     },
     "malisper/pgrust": {
       "url": "https://github.com/malisper/pgrust",
@@ -680,20 +635,10 @@
       "description": "The React Framework",
       "language": "JavaScript"
     },
-    "nasa/fprime": {
-      "url": "https://github.com/nasa/fprime",
-      "description": "F´ - A flight software and embedded systems framework",
-      "language": "C++"
-    },
     "Dicklesworthstone/destructive_command_guard": {
       "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
       "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
       "language": "Rust"
-    },
-    "nuxt/nuxt": {
-      "url": "https://github.com/nuxt/nuxt",
-      "description": "The full-stack Vue framework.",
-      "language": "TypeScript"
     },
     "ColeMurray/background-agents": {
       "url": "https://github.com/ColeMurray/background-agents",
@@ -1317,7 +1262,7 @@
     },
     "cathrynlavery/diagram-design": {
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML"
     },
     "huggingface/transformers": {
@@ -2998,7 +2943,7 @@
     },
     "ConwayResearch/Underdog-Saluki-27B-1.0": {
       "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
-      "description": "Qwen3.8-27B in under 8 GB, tuned to keep tool calling intact. A standard GGUF for stock llama.cpp.",
+      "description": "Qwen3.8-27B in under 8 GB, tuned to keep tool calling intact. A standard GGUF for stock llama.cpp. Read more: underdog.ai/saluki",
       "pipelineTag": "text-generation",
       "baseModels": [
         "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF"
@@ -3021,6 +2966,26 @@
     "deepseek-ai/DeepSeek-R1": {
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
       "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …",
+      "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF": {
+      "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+      "description": "Qwen-Image 2.1 makes a picture with three parts. Only one of them is changed here.",
+      "pipelineTag": "text-to-image",
+      "baseModels": [
+        "Qwen/Qwen3-VL-8B-Instruct"
+      ]
+    },
+    "facebook/sam3": {
+      "url": "https://huggingface.co/facebook/sam3",
+      "description": null,
+      "pipelineTag": "mask-generation",
+      "baseModels": []
+    },
+    "amazon/ALoDLM-8B": {
+      "url": "https://huggingface.co/amazon/ALoDLM-8B",
+      "description": "Paper: ALoDLM: Adaptively Looped Diffusion Language Models · Project page: https://alo-dlm.github.io/",
       "pipelineTag": "text-generation",
       "baseModels": []
     }
@@ -3918,6 +3883,18 @@
       "models": [
         "hexgrad/Kokoro-82M",
         "sahilmahendrakar/Paradee-8M-v1.0"
+      ]
+    },
+    "wank3r/minimax-h3": {
+      "url": "https://huggingface.co/spaces/wank3r/minimax-h3",
+      "title": "minimax h3 turbo + lora's",
+      "description": "Video generation with a synchronized soundtrack",
+      "sdk": "gradio",
+      "models": [
+        "fusing/unet-ldm-dummy-update",
+        "google/ddpm-celebahq-256",
+        "google/ddpm-cifar10-32",
+        "hf-internal-testing/tiny-stable-diffusion-pipe"
       ]
     }
   }
