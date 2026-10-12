@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-11T11:25:27.000Z",
+  "updated": "2026-10-12T13:11:41.415Z",
   "trending": [
     {
       "rank": 1,
       "id": "google/embeddinggemma-2",
       "url": "https://huggingface.co/google/embeddinggemma-2",
       "pipelineTag": "feature-extraction",
-      "likes": 1592,
-      "downloads": 98829,
-      "trendingScore": 1470,
+      "likes": 1847,
+      "downloads": 115763,
+      "trendingScore": 1693,
       "tags": [
         "transformers",
         "safetensors",
@@ -26,9 +26,9 @@
       "id": "jialinyyzz/humanizer",
       "url": "https://huggingface.co/jialinyyzz/humanizer",
       "pipelineTag": "text-generation",
-      "likes": 1003,
-      "downloads": 37647,
-      "trendingScore": 878,
+      "likes": 1236,
+      "downloads": 46070,
+      "trendingScore": 994,
       "tags": [
         "gguf",
         "safetensors",
@@ -48,9 +48,9 @@
       "id": "Cloudflare/clef",
       "url": "https://huggingface.co/Cloudflare/clef",
       "pipelineTag": "image-text-to-text",
-      "likes": 2010,
-      "downloads": 14351,
-      "trendingScore": 777,
+      "likes": 2063,
+      "downloads": 15064,
+      "trendingScore": 612,
       "tags": [
         "transformers",
         "safetensors",
@@ -67,56 +67,34 @@
     },
     {
       "rank": 4,
-      "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+      "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
       "pipelineTag": "text-to-image",
-      "likes": 3924,
+      "likes": 4048,
       "downloads": 2188658,
-      "trendingScore": 662,
+      "trendingScore": 598,
       "tags": [
         "gguf",
         "qwen",
         "image-generation",
         "comfyui",
         "comfyui-gguf",
-        "text-to-image"
+        "mlx"
       ],
       "baseModels": [
         "Qwen/Qwen-Image-2.1"
       ],
-      "lastModified": "2026-09-28T05:56:36.000Z",
-      "description": "GGUF quantizations of Qwen/Qwen-Image-2.1 for local image generation using the original upstream base weights."
+      "lastModified": "2026-10-12T07:10:55.000Z",
+      "description": "GGUF, Safetensors, and MLX quantized formats of Qwen/Qwen-Image-2.1 for local image generation using the original upstream base weights."
     },
     {
       "rank": 5,
-      "id": "Aleph-Alpha/Kolibri-1",
-      "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
-      "pipelineTag": "text-generation",
-      "likes": 879,
-      "downloads": 12550,
-      "trendingScore": 498,
-      "tags": [
-        "vllm",
-        "safetensors",
-        "kolibri1",
-        "reasoning",
-        "moe",
-        "text-generation"
-      ],
-      "baseModels": [
-        "Aleph-Alpha/Kolibri-1-BF16"
-      ],
-      "lastModified": "2026-10-03T08:43:53.000Z",
-      "description": "Kolibri is Aleph Alpha's mixture-of-experts (MoE) reasoning model, with a focus on German and English. The model supports an explicit reasoning mode and tool calling. It is optimized for long-context and inference efficiency."
-    },
-    {
-      "rank": 6,
       "id": "Qwen/Qwen-Image-2.1-Turbo",
       "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
       "pipelineTag": "text-to-image",
-      "likes": 489,
-      "downloads": 4702,
-      "trendingScore": 480,
+      "likes": 596,
+      "downloads": 6787,
+      "trendingScore": 575,
       "tags": [
         "diffusers",
         "safetensors",
@@ -128,17 +106,17 @@
       "baseModels": [
         "Qwen/Qwen-Image-2.1"
       ],
-      "lastModified": "2026-10-09T14:14:45.000Z",
+      "lastModified": "2026-10-12T09:45:49.000Z",
       "description": "Qwen-Image-2.1-Turbo is an accelerated checkpoint of Qwen-Image-2.1 for text-to-image generation and image editing with 8 denoising steps. It uses the same 7B visual generation architecture and loads directly with QwenImage21Pipeline in …"
     },
     {
-      "rank": 7,
+      "rank": 6,
       "id": "Lightricks/LTX-2.5",
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
       "pipelineTag": "image-to-video",
-      "likes": 7220,
-      "downloads": 1726683,
-      "trendingScore": 449,
+      "likes": 7384,
+      "downloads": 1719766,
+      "trendingScore": 423,
       "tags": [
         "diffusion-single-file",
         "image-to-video",
@@ -151,35 +129,13 @@
       "lastModified": "2026-10-11T07:00:53.000Z"
     },
     {
-      "rank": 8,
-      "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
-      "url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
-      "pipelineTag": "text-generation",
-      "likes": 687,
-      "downloads": 48389,
-      "trendingScore": 423,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gguf",
-        "xing4_0",
-        "text-generation",
-        "conversational"
-      ],
-      "baseModels": [
-        "XingChen-AGI/Xing4.0-29B-A4B"
-      ],
-      "lastModified": "2026-09-28T17:07:47.000Z",
-      "description": "Xing4.0-29B-A4B is a next-generation large language model in the Xing series (formerly TeleChat), developed by China Telecom Artificial Intelligence Technology Co., Ltd. With 29B total parameters and only 4B activated per token, it nativ…"
-    },
-    {
-      "rank": 9,
+      "rank": 7,
       "id": "Qwen/Qwen3.8-27B",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
       "pipelineTag": "image-text-to-text",
-      "likes": 17466,
-      "downloads": 6843108,
-      "trendingScore": 356,
+      "likes": 17544,
+      "downloads": 6895303,
+      "trendingScore": 360,
       "tags": [
         "transformers",
         "safetensors",
@@ -193,55 +149,13 @@
       "description": "Following the widespread community adoption of the Qwen3.5 and Qwen3.6 series, we are pleased to introduce Qwen3.8, the most capable generation in the Qwen open-model family to date."
     },
     {
-      "rank": 10,
-      "id": "canberkkkkkk/ema-lightning",
-      "url": "https://huggingface.co/canberkkkkkk/ema-lightning",
-      "pipelineTag": "text-to-speech",
-      "likes": 350,
-      "downloads": 18079,
-      "trendingScore": 319,
-      "tags": [
-        "ema-lightning",
-        "text-to-speech",
-        "tts",
-        "turkish",
-        "speech-synthesis",
-        "flow-matching"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-06T19:52:35.000Z",
-      "description": "Tiny, fast and accurate Turkish text to speech. A 5.6M-parameter DiT acoustic model and a 3M-parameter vocoder: 8.6M in total, about 34 MB. Apache 2.0."
-    },
-    {
-      "rank": 11,
-      "id": "Cloudflare/clef-flash",
-      "url": "https://huggingface.co/Cloudflare/clef-flash",
-      "pipelineTag": "image-text-to-text",
-      "likes": 746,
-      "downloads": 22123,
-      "trendingScore": 298,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "clef",
-        "cloudflare"
-      ],
-      "baseModels": [
-        "Qwen/Qwen3.5-9B"
-      ],
-      "lastModified": "2026-10-09T18:46:58.000Z",
-      "description": "Clef-Flash is a 9B multimodal model that turns a state and a schema of typed questions into decisions. It reads the state as text, JSON, images, or video, and returns a probability for every allowed option of every question in a single f…"
-    },
-    {
-      "rank": 12,
+      "rank": 8,
       "id": "ConwayResearch/Underdog-Saluki-27B-1.0",
       "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
       "pipelineTag": "text-generation",
-      "likes": 299,
-      "downloads": 108900,
-      "trendingScore": 291,
+      "likes": 348,
+      "downloads": 242329,
+      "trendingScore": 340,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -257,33 +171,13 @@
       "description": "Qwen3.8-27B in under 8 GB, tuned to keep tool calling intact. A standard GGUF for stock llama.cpp. Read more: underdog.ai/saluki"
     },
     {
-      "rank": 13,
-      "id": "convaiinnovations/laya",
-      "url": "https://huggingface.co/convaiinnovations/laya",
-      "pipelineTag": "text-classification",
-      "likes": 5482,
-      "downloads": 44088,
-      "trendingScore": 282,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "laya",
-        "system-one",
-        "calibrated-decisions",
-        "rlcd"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-03T18:00:07.000Z",
-      "description": "Multilingual, non-autoregressive System 1 decision model. Give it a state (text, email, ticket, or JSON) and typed questions; it returns typed answers with mathematically calibrated probabilities in a single forward pass (~33 ms) across …"
-    },
-    {
-      "rank": 14,
+      "rank": 9,
       "id": "LiquidAI/d1-3B",
       "url": "https://huggingface.co/LiquidAI/d1-3B",
       "pipelineTag": "image-text-to-text",
-      "likes": 285,
-      "downloads": 10843,
-      "trendingScore": 279,
+      "likes": 325,
+      "downloads": 11866,
+      "trendingScore": 317,
       "tags": [
         "transformers",
         "safetensors",
@@ -299,33 +193,33 @@
       "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
-      "rank": 15,
-      "id": "Cactus-Compute/whistle",
-      "url": "https://huggingface.co/Cactus-Compute/whistle",
-      "pipelineTag": "automatic-speech-recognition",
-      "likes": 326,
-      "downloads": 16434,
-      "trendingScore": 265,
+      "rank": 10,
+      "id": "canberkkkkkk/ema-lightning",
+      "url": "https://huggingface.co/canberkkkkkk/ema-lightning",
+      "pipelineTag": "text-to-speech",
+      "likes": 371,
+      "downloads": 20310,
+      "trendingScore": 314,
       "tags": [
-        "cactus-needle",
-        "whistle",
-        "speech-recognition",
-        "speech-to-text",
-        "on-device",
-        "edge"
+        "ema-lightning",
+        "text-to-speech",
+        "tts",
+        "turkish",
+        "speech-synthesis",
+        "flow-matching"
       ],
       "baseModels": [],
-      "lastModified": "2026-10-10T06:51:58.000Z",
-      "description": "A speech-to-text model for mobiles, wearables, robots, smart home, automotive and microcontrollers. The whole model is a single 16.9 MB file, and it runs on the same CPU engine as Needle, from the same container and the same quantisation…"
+      "lastModified": "2026-10-06T19:52:35.000Z",
+      "description": "Tiny, fast and accurate Turkish text to speech. A 5.6M-parameter DiT acoustic model and a 3M-parameter vocoder: 8.6M in total, about 34 MB. Apache 2.0."
     },
     {
-      "rank": 16,
+      "rank": 11,
       "id": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
       "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
       "pipelineTag": "text-to-image",
-      "likes": 277,
-      "downloads": 100530,
-      "trendingScore": 241,
+      "likes": 359,
+      "downloads": 161715,
+      "trendingScore": 314,
       "tags": [
         "gguf",
         "atomic-chat",
@@ -341,13 +235,121 @@
       "description": "Qwen-Image 2.1 makes a picture with three parts. Only one of them is changed here."
     },
     {
+      "rank": 12,
+      "id": "Aleph-Alpha/Kolibri-1",
+      "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+      "pipelineTag": "text-generation",
+      "likes": 904,
+      "downloads": 14018,
+      "trendingScore": 306,
+      "tags": [
+        "vllm",
+        "safetensors",
+        "kolibri1",
+        "reasoning",
+        "moe",
+        "text-generation"
+      ],
+      "baseModels": [
+        "Aleph-Alpha/Kolibri-1-BF16"
+      ],
+      "lastModified": "2026-10-03T08:43:53.000Z",
+      "description": "Kolibri is Aleph Alpha's mixture-of-experts (MoE) reasoning model, with a focus on German and English. The model supports an explicit reasoning mode and tool calling. It is optimized for long-context and inference efficiency."
+    },
+    {
+      "rank": 13,
+      "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
+      "url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
+      "pipelineTag": "text-generation",
+      "likes": 703,
+      "downloads": 52788,
+      "trendingScore": 274,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gguf",
+        "xing4_0",
+        "text-generation",
+        "conversational"
+      ],
+      "baseModels": [
+        "XingChen-AGI/Xing4.0-29B-A4B"
+      ],
+      "lastModified": "2026-10-11T13:34:13.000Z",
+      "description": "Xing4.0-29B-A4B is a next-generation large language model in the Xing series (formerly TeleChat), developed by China Telecom Artificial Intelligence Technology Co., Ltd. With 29B total parameters and only 4B activated per token, it nativ…"
+    },
+    {
+      "rank": 14,
+      "id": "Cloudflare/clef-flash",
+      "url": "https://huggingface.co/Cloudflare/clef-flash",
+      "pipelineTag": "image-text-to-text",
+      "likes": 776,
+      "downloads": 23285,
+      "trendingScore": 249,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "clef",
+        "cloudflare"
+      ],
+      "baseModels": [
+        "Qwen/Qwen3.5-9B"
+      ],
+      "lastModified": "2026-10-09T18:46:58.000Z",
+      "description": "Clef-Flash is a 9B multimodal model that turns a state and a schema of typed questions into decisions. It reads the state as text, JSON, images, or video, and returns a probability for every allowed option of every question in a single f…"
+    },
+    {
+      "rank": 15,
+      "id": "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
+      "url": "https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
+      "pipelineTag": "image-text-to-text",
+      "likes": 266,
+      "downloads": 75302,
+      "trendingScore": 248,
+      "tags": [
+        "safetensors",
+        "gguf",
+        "qwen3.8",
+        "efficient-thinking",
+        "reasoning",
+        "coding"
+      ],
+      "baseModels": [
+        "nerkyor/Qwen3.8-27B-EfficientThink-Uncensored-K3-Opus5-Grok4.6-GPT5.6Sol-SFT-SimPO-DFlash2"
+      ],
+      "lastModified": "2026-10-11T15:06:35.000Z",
+      "description": "A model post-trained with several rounds of SFT and RLOO on top of Qwen3.8-27B-EfficientThink-SFT-SimPO-DFlash2, which is itself the official Qwen3.8-27B post-trained with SFT and SimPO. It is built to fix the original model's habit of f…"
+    },
+    {
+      "rank": 16,
+      "id": "convaiinnovations/laya",
+      "url": "https://huggingface.co/convaiinnovations/laya",
+      "pipelineTag": "text-classification",
+      "likes": 5515,
+      "downloads": 45062,
+      "trendingScore": 244,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "laya",
+        "system-one",
+        "calibrated-decisions",
+        "rlcd"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-03T18:00:07.000Z",
+      "description": "Multilingual, non-autoregressive System 1 decision model. Give it a state (text, email, ticket, or JSON) and typed questions; it returns typed answers with mathematically calibrated probabilities in a single forward pass (~33 ms) across …"
+    },
+    {
       "rank": 17,
       "id": "unsloth/embeddinggemma-2-GGUF",
       "url": "https://huggingface.co/unsloth/embeddinggemma-2-GGUF",
       "pipelineTag": "feature-extraction",
-      "likes": 242,
-      "downloads": 59274,
-      "trendingScore": 236,
+      "likes": 273,
+      "downloads": 71914,
+      "trendingScore": 238,
       "tags": [
         "gguf",
         "embedding",
@@ -364,34 +366,32 @@
     },
     {
       "rank": 18,
-      "id": "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
-      "url": "https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
-      "pipelineTag": "image-text-to-text",
-      "likes": 214,
-      "downloads": 56525,
-      "trendingScore": 204,
+      "id": "Cactus-Compute/whistle",
+      "url": "https://huggingface.co/Cactus-Compute/whistle",
+      "pipelineTag": "automatic-speech-recognition",
+      "likes": 353,
+      "downloads": 18643,
+      "trendingScore": 226,
       "tags": [
-        "safetensors",
-        "gguf",
-        "qwen3.8",
-        "efficient-thinking",
-        "reasoning",
-        "coding"
+        "cactus-needle",
+        "whistle",
+        "speech-recognition",
+        "speech-to-text",
+        "on-device",
+        "edge"
       ],
-      "baseModels": [
-        "nerkyor/Qwen3.8-27B-EfficientThink-Uncensored-K3-Opus5-Grok4.6-GPT5.6Sol-SFT-SimPO-DFlash2"
-      ],
-      "lastModified": "2026-10-11T07:41:30.000Z",
-      "description": "A model post-trained with several rounds of SFT and RLOO on top of Qwen3.8-27B-EfficientThink-SFT-SimPO-DFlash2, which is itself the official Qwen3.8-27B post-trained with SFT and SimPO. It is built to fix the original model's habit of f…"
+      "baseModels": [],
+      "lastModified": "2026-10-10T06:51:58.000Z",
+      "description": "A speech-to-text model for mobiles, wearables, robots, smart home, automotive and microcontrollers. The whole model is a single 16.9 MB file, and it runs on the same CPU engine as Needle, from the same container and the same quantisation…"
     },
     {
       "rank": 19,
       "id": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
       "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
       "pipelineTag": "image-text-to-text",
-      "likes": 785,
-      "downloads": 4189006,
-      "trendingScore": 201,
+      "likes": 814,
+      "downloads": 4413142,
+      "trendingScore": 179,
       "tags": [
         "gguf",
         "gsq",
@@ -408,12 +408,32 @@
     },
     {
       "rank": 20,
+      "id": "speridlabs/iris-3b",
+      "url": "https://huggingface.co/speridlabs/iris-3b",
+      "pipelineTag": "text-to-image",
+      "likes": 179,
+      "downloads": 706,
+      "trendingScore": 179,
+      "tags": [
+        "pytorch",
+        "safetensors",
+        "text-to-image",
+        "diffusion",
+        "pixel-space",
+        "flow-matching"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-08T16:51:50.000Z",
+      "description": "Generative priors are a promising foundation for downstream vision tasks. In this project we explore pixel-space generative models as an alternative to vision foundation models such as DINOv2."
+    },
+    {
+      "rank": 21,
       "id": "Qwen/Qwen-Image-2.1",
       "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
       "pipelineTag": "text-to-image",
-      "likes": 3214,
-      "downloads": 136103,
-      "trendingScore": 193,
+      "likes": 3249,
+      "downloads": 142375,
+      "trendingScore": 178,
       "tags": [
         "diffusers",
         "safetensors",
@@ -427,13 +447,33 @@
       "description": "We are excited to open-source Qwen-Image-2.1, a unified text-to-image generation and image editing model in the Qwen family. With just 7B parameters in its visual generation component (32 Single-Stream DiT layers), Qwen-Image-2.1 balance…"
     },
     {
-      "rank": 21,
+      "rank": 22,
+      "id": "FrancisRing/Prism",
+      "url": "https://huggingface.co/FrancisRing/Prism",
+      "pipelineTag": "image-to-video",
+      "likes": 172,
+      "downloads": 0,
+      "trendingScore": 167,
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "video-generation",
+        "video diffusion transformer",
+        "joint-video-audio-generation",
+        "sparse-attention"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-06T15:17:27.000Z",
+      "description": "Prism:Dynamic Sparse Attention for Native 2K Joint Video-Audio Generation Model Training Shuyuan Tu1, Qi Tian2, Yinming Huang1, Yue Wu2, Xintong Han2, Kaihang Pan3, Weijie Kong2, Jiangfeng Xiong2, Jian-Wei Zhang2, Zuxuan Wu1, Yu-Gang Jia…"
+    },
+    {
+      "rank": 23,
       "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
       "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
       "pipelineTag": "image-text-to-text",
-      "likes": 1645,
-      "downloads": 2016567,
-      "trendingScore": 161,
+      "likes": 1677,
+      "downloads": 2025498,
+      "trendingScore": 162,
       "tags": [
         "gguf",
         "unsloth",
@@ -449,159 +489,13 @@
       "description": "in 8 bit and over 718 arc-c in 4 bit. This version is called TURBO because it drastically reduces thinking tokens (by 1/2 to as high as 1/10), yet maintains output detail and quality. In otherwords while \"reg\" Qwen3.8 27B is thinking abo…"
     },
     {
-      "rank": 22,
-      "id": "Qwen/Qwen3.8-Flash-Next",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
-      "pipelineTag": "image-text-to-text",
-      "likes": 6096,
-      "downloads": 1870465,
-      "trendingScore": 159,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen4_exp",
-        "image-text-to-text",
-        "conversational",
-        "eval-results"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-08-27T05:03:36.000Z",
-      "description": "As the frontier of foundation models pushes toward ever-larger parameter counts and ever-longer context windows, the question is no longer just how much we can scale, but how efficiently we can do so. Sustainable progress toward artifici…"
-    },
-    {
-      "rank": 23,
-      "id": "FrancisRing/Prism",
-      "url": "https://huggingface.co/FrancisRing/Prism",
-      "pipelineTag": "image-to-video",
-      "likes": 157,
-      "downloads": 0,
-      "trendingScore": 153,
-      "tags": [
-        "diffusers",
-        "safetensors",
-        "video-generation",
-        "video diffusion transformer",
-        "joint-video-audio-generation",
-        "sparse-attention"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-06T15:17:27.000Z",
-      "description": "Prism:Dynamic Sparse Attention for Native 2K Joint Video-Audio Generation Model Training Shuyuan Tu1, Qi Tian2, Yinming Huang1, Yue Wu2, Xintong Han2, Kaihang Pan3, Weijie Kong2, Jiangfeng Xiong2, Jian-Wei Zhang2, Zuxuan Wu1, Yu-Gang Jia…"
-    },
-    {
       "rank": 24,
-      "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "pipelineTag": "text-generation",
-      "likes": 2614,
-      "downloads": 4549911,
-      "trendingScore": 151,
-      "tags": [
-        "llama.cpp",
-        "gguf",
-        "ternary",
-        "2-bit",
-        "llama-cpp",
-        "cuda"
-      ],
-      "baseModels": [
-        "Qwen/Qwen3.8-27B"
-      ],
-      "lastModified": "2026-09-25T21:58:06.000Z",
-      "description": "Full 27B-class reasoning in ternary transformer weights, for llama.cpp (CUDA, Metal, CPU)"
-    },
-    {
-      "rank": 25,
-      "id": "deepseek-ai/DeepSeek-V4.1-Flash",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-      "pipelineTag": "image-text-to-text",
-      "likes": 4341,
-      "downloads": 1382367,
-      "trendingScore": 145,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "deepseek_v41",
-        "text-generation",
-        "image-text-to-text",
-        "conversational"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-01T05:56:24.000Z",
-      "description": "We introduce DeepSeek-V4.1-Flash, a multimodal Mixture-of-Experts (MoE) model with 552B backbone parameters and support for contexts of up to one million tokens. The model natively processes images and text, and generates text autoregres…"
-    },
-    {
-      "rank": 26,
-      "id": "Alissonerdx/BFS-Best-Face-Swap",
-      "url": "https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap",
-      "pipelineTag": "image-to-image",
-      "likes": 1366,
-      "downloads": 253548,
-      "trendingScore": 144,
-      "tags": [
-        "diffusers",
-        "lora",
-        "qwen-image",
-        "qwen-image-2.1",
-        "qwen-image-edit",
-        "face-swap"
-      ],
-      "baseModels": [
-        "Qwen/Qwen-Image-2.1"
-      ],
-      "lastModified": "2026-09-27T21:59:09.000Z",
-      "description": "BFS is a collection of LoRAs for face, head, and body replacement across Qwen Image 2.1, Qwen Image Edit 2509/2511, Flux 2 Klein, Krea 2, and experimental LTX-2 workflows. Each release has its own base-model, input-order, prompt, and wor…"
-    },
-    {
-      "rank": 27,
-      "id": "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
-      "url": "https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
-      "pipelineTag": "image-text-to-text",
-      "likes": 746,
-      "downloads": 614193,
-      "trendingScore": 141,
-      "tags": [
-        "gguf",
-        "abliterated",
-        "uncensored",
-        "qwen",
-        "qwen3.8",
-        "qwen4"
-      ],
-      "baseModels": [
-        "Qwen/Qwen3.8-Flash-Next"
-      ],
-      "lastModified": "2026-10-02T04:19:04.000Z"
-    },
-    {
-      "rank": 28,
-      "id": "unsloth/Qwen3.8-27B-GGUF",
-      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-      "pipelineTag": null,
-      "likes": 5014,
-      "downloads": 6488262,
-      "trendingScore": 138,
-      "tags": [
-        "gguf",
-        "qwen3_5",
-        "unsloth",
-        "imatrix",
-        "conversational"
-      ],
-      "baseModels": [
-        "Qwen/Qwen3.8-27B"
-      ],
-      "lastModified": "2026-08-20T12:04:25.000Z",
-      "description": "Analysis of best Qwen3.8 GGUF providers. Unsloth Dynamic v3.0 delivers >10% top-1% better accuracy at the same size compared to every other provider. Read more"
-    },
-    {
-      "rank": 29,
       "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
       "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
       "pipelineTag": "image-text-to-text",
-      "likes": 2127,
-      "downloads": 1489676,
-      "trendingScore": 138,
+      "likes": 2170,
+      "downloads": 1482471,
+      "trendingScore": 155,
       "tags": [
         "gguf",
         "gsq",
@@ -617,13 +511,54 @@
       "description": "GSQ-RCO GGUF release card, TEMPLATE (filled with Qwen3.8-27B as the example). To publish a new model, copy this folder and change only: python tools/make_plots.py tools/results/.json then paste the printed Markdown table into \"Results\". …"
     },
     {
-      "rank": 30,
+      "rank": 25,
+      "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "pipelineTag": "image-text-to-text",
+      "likes": 4390,
+      "downloads": 1294550,
+      "trendingScore": 155,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v41",
+        "text-generation",
+        "image-text-to-text",
+        "conversational"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-12T09:45:54.000Z",
+      "description": "We introduce DeepSeek-V4.1-Flash, a multimodal Mixture-of-Experts (MoE) model with 552B backbone parameters and support for contexts of up to one million tokens. The model natively processes images and text, and generates text autoregres…"
+    },
+    {
+      "rank": 26,
+      "id": "unsloth/Qwen3.8-27B-GGUF",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "pipelineTag": null,
+      "likes": 5043,
+      "downloads": 6597425,
+      "trendingScore": 151,
+      "tags": [
+        "gguf",
+        "qwen3_5",
+        "unsloth",
+        "imatrix",
+        "conversational"
+      ],
+      "baseModels": [
+        "Qwen/Qwen3.8-27B"
+      ],
+      "lastModified": "2026-08-20T12:04:25.000Z",
+      "description": "Analysis of best Qwen3.8 GGUF providers. Unsloth Dynamic v3.0 delivers >10% top-1% better accuracy at the same size compared to every other provider. Read more"
+    },
+    {
+      "rank": 27,
       "id": "facebook/sam3",
       "url": "https://huggingface.co/facebook/sam3",
       "pipelineTag": "mask-generation",
-      "likes": 4030,
-      "downloads": 2081596,
-      "trendingScore": 133,
+      "likes": 4116,
+      "downloads": 2054071,
+      "trendingScore": 149,
       "tags": [
         "transformers",
         "safetensors",
@@ -634,6 +569,69 @@
       ],
       "baseModels": [],
       "lastModified": "2025-11-20T22:05:08.000Z"
+    },
+    {
+      "rank": 28,
+      "id": "Qwen/Qwen3.8-Flash-Next",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+      "pipelineTag": "image-text-to-text",
+      "likes": 6130,
+      "downloads": 1934542,
+      "trendingScore": 149,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen4_exp",
+        "image-text-to-text",
+        "conversational",
+        "eval-results"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-08-27T05:03:36.000Z",
+      "description": "As the frontier of foundation models pushes toward ever-larger parameter counts and ever-longer context windows, the question is no longer just how much we can scale, but how efficiently we can do so. Sustainable progress toward artifici…"
+    },
+    {
+      "rank": 29,
+      "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "pipelineTag": "text-generation",
+      "likes": 2647,
+      "downloads": 4615462,
+      "trendingScore": 149,
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "ternary",
+        "2-bit",
+        "llama-cpp",
+        "cuda"
+      ],
+      "baseModels": [
+        "Qwen/Qwen3.8-27B"
+      ],
+      "lastModified": "2026-09-25T21:58:06.000Z",
+      "description": "Full 27B-class reasoning in ternary transformer weights, for llama.cpp (CUDA, Metal, CPU)"
+    },
+    {
+      "rank": 30,
+      "id": "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
+      "url": "https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
+      "pipelineTag": "image-text-to-text",
+      "likes": 788,
+      "downloads": 629886,
+      "trendingScore": 146,
+      "tags": [
+        "gguf",
+        "abliterated",
+        "uncensored",
+        "qwen",
+        "qwen3.8",
+        "qwen4"
+      ],
+      "baseModels": [
+        "Qwen/Qwen3.8-Flash-Next"
+      ],
+      "lastModified": "2026-10-12T03:49:53.000Z"
     }
   ],
   "small": [
@@ -642,9 +640,9 @@
       "id": "JetBrains/Mellum2.1-12B-A2.5B-Thinking",
       "url": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking",
       "pipelineTag": "text-generation",
-      "likes": 95,
-      "downloads": 803,
-      "trendingScore": 94,
+      "likes": 108,
+      "downloads": 1068,
+      "trendingScore": 107,
       "tags": [
         "transformers",
         "safetensors",
@@ -664,9 +662,9 @@
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
-      "likes": 8332,
-      "downloads": 5926413,
-      "trendingScore": 72,
+      "likes": 8365,
+      "downloads": 5858450,
+      "trendingScore": 66,
       "tags": [
         "transformers",
         "safetensors",
@@ -685,9 +683,9 @@
       "id": "JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
       "url": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
       "pipelineTag": "text-generation",
-      "likes": 55,
-      "downloads": 17646,
-      "trendingScore": 52,
+      "likes": 69,
+      "downloads": 20646,
+      "trendingScore": 65,
       "tags": [
         "gguf",
         "mellum",
@@ -707,9 +705,9 @@
       "id": "meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
-      "likes": 5302,
-      "downloads": 735822,
-      "trendingScore": 51,
+      "likes": 5322,
+      "downloads": 691424,
+      "trendingScore": 55,
       "tags": [
         "transformers",
         "safetensors",
@@ -723,12 +721,72 @@
     },
     {
       "rank": 5,
+      "id": "amazon/ALoDLM-8B",
+      "url": "https://huggingface.co/amazon/ALoDLM-8B",
+      "pipelineTag": "text-generation",
+      "likes": 32,
+      "downloads": 790,
+      "trendingScore": 32,
+      "tags": [
+        "safetensors",
+        "qwen3",
+        "alodlm",
+        "diffusion-language-model",
+        "looped-transformer",
+        "adaptive-computation"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-07T02:25:33.000Z",
+      "description": "Paper: ALoDLM: Adaptively Looped Diffusion Language Models · Project page: https://alo-dlm.github.io/"
+    },
+    {
+      "rank": 6,
+      "id": "openbmb/MiniCPM5-2B",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+      "pipelineTag": "text-generation",
+      "likes": 1748,
+      "downloads": 1278419,
+      "trendingScore": 31,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "minicpm",
+        "minicpm5"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-09-29T06:12:33.000Z",
+      "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…"
+    },
+    {
+      "rank": 7,
+      "id": "deepseek-ai/DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "pipelineTag": "text-generation",
+      "likes": 14355,
+      "downloads": 1147960,
+      "trendingScore": 29,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code"
+      ],
+      "baseModels": [],
+      "lastModified": "2025-03-27T04:01:59.000Z",
+      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
+    },
+    {
+      "rank": 8,
       "id": "Qwen/Qwen3-0.6B",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "pipelineTag": "text-generation",
-      "likes": 1767,
-      "downloads": 30575964,
-      "trendingScore": 25,
+      "likes": 1775,
+      "downloads": 30604529,
+      "trendingScore": 29,
       "tags": [
         "transformers",
         "safetensors",
@@ -744,32 +802,13 @@
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, …"
     },
     {
-      "rank": 6,
-      "id": "meta-llama/Llama-3.1-8B",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
-      "pipelineTag": "text-generation",
-      "likes": 2633,
-      "downloads": 682640,
-      "trendingScore": 23,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "baseModels": [],
-      "lastModified": "2024-10-16T22:00:37.000Z"
-    },
-    {
-      "rank": 7,
+      "rank": 9,
       "id": "XHToken/Spark-X2.5-4B",
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
-      "likes": 1400,
-      "downloads": 27213,
-      "trendingScore": 23,
+      "likes": 1405,
+      "downloads": 26679,
+      "trendingScore": 24,
       "tags": [
         "transformers",
         "safetensors",
@@ -785,75 +824,51 @@
       "description": "We are introducing Spark-X2.5-4B and Spark-X2.5-1.7B, two compact, general-purpose language models designed to make capable AI more practical, efficient, and accessible. The models deliver strong performance across a broad range of every…"
     },
     {
-      "rank": 8,
-      "id": "amazon/ALoDLM-8B",
-      "url": "https://huggingface.co/amazon/ALoDLM-8B",
-      "pipelineTag": "text-generation",
-      "likes": 23,
-      "downloads": 625,
-      "trendingScore": 23,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "alodlm",
-        "diffusion-language-model",
-        "looped-transformer",
-        "adaptive-computation"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-07T02:25:33.000Z",
-      "description": "Paper: ALoDLM: Adaptively Looped Diffusion Language Models · Project page: https://alo-dlm.github.io/"
-    },
-    {
-      "rank": 9,
-      "id": "DavidAU/LFM2.5-8B-A1B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
-      "url": "https://huggingface.co/DavidAU/LFM2.5-8B-A1B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
-      "pipelineTag": "text-generation",
-      "likes": 28,
-      "downloads": 11592,
-      "trendingScore": 22,
-      "tags": [
-        "gguf",
-        "liquid",
-        "lfm2.5",
-        "mixture of experts",
-        "MOE",
-        "sparse moe"
-      ],
-      "baseModels": [
-        "LiquidAI/LFM2.5-8B-A1B"
-      ],
-      "lastModified": "2026-10-09T01:29:53.000Z",
-      "description": "Please read this model card carefully to get the most from it - including all 12 reasoning modes that feature model suggestions (\"context help\") for all use cases. The Turbo Brilliance system will begin appearing in other model sizes/typ…"
-    },
-    {
       "rank": 10,
-      "id": "deepseek-ai/DeepSeek-R1",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "id": "meta-llama/Llama-3.1-8B",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
       "pipelineTag": "text-generation",
-      "likes": 14346,
-      "downloads": 1119761,
-      "trendingScore": 21,
+      "likes": 2637,
+      "downloads": 680583,
+      "trendingScore": 23,
       "tags": [
         "transformers",
         "safetensors",
-        "deepseek_v3",
+        "llama",
         "text-generation",
-        "conversational",
-        "custom_code"
+        "facebook",
+        "meta"
       ],
       "baseModels": [],
-      "lastModified": "2025-03-27T04:01:59.000Z",
-      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
+      "lastModified": "2024-10-16T22:00:37.000Z"
     },
     {
       "rank": 11,
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "pipelineTag": "text-generation",
+      "likes": 2775,
+      "downloads": 1468032,
+      "trendingScore": 23,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "baseModels": [],
+      "lastModified": "2024-10-24T15:07:29.000Z"
+    },
+    {
+      "rank": 12,
       "id": "empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
       "url": "https://huggingface.co/empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
       "pipelineTag": "text-generation",
-      "likes": 197,
-      "downloads": 835293,
-      "trendingScore": 20,
+      "likes": 203,
+      "downloads": 873679,
+      "trendingScore": 23,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -869,65 +884,26 @@
       "description": "GGUF quantizations of empero-ai/Qwen3.8-35B-A3B-Distill — a distillation of the Qwen3.8 frontier models into the Qwen3.6-35B-A3B Mixture-of-Experts architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF run…"
     },
     {
-      "rank": 12,
-      "id": "openbmb/MiniCPM5-2B",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
-      "pipelineTag": "text-generation",
-      "likes": 1736,
-      "downloads": 1285616,
-      "trendingScore": 19,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "minicpm",
-        "minicpm5"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-09-29T06:12:33.000Z",
-      "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…"
-    },
-    {
       "rank": 13,
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "id": "DavidAU/LFM2.5-8B-A1B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
+      "url": "https://huggingface.co/DavidAU/LFM2.5-8B-A1B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
       "pipelineTag": "text-generation",
-      "likes": 2765,
-      "downloads": 1492929,
-      "trendingScore": 18,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "baseModels": [],
-      "lastModified": "2024-10-24T15:07:29.000Z"
-    },
-    {
-      "rank": 14,
-      "id": "DavidAU/LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
-      "url": "https://huggingface.co/DavidAU/LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
-      "pipelineTag": "text-generation",
-      "likes": 154,
-      "downloads": 32175,
-      "trendingScore": 18,
+      "likes": 30,
+      "downloads": 13900,
+      "trendingScore": 19,
       "tags": [
         "gguf",
         "liquid",
         "lfm2.5",
-        "edge",
-        "12 reasoning modes",
-        "12 instruct modes"
+        "mixture of experts",
+        "MOE",
+        "sparse moe"
       ],
       "baseModels": [
-        "LiquidAI/LFM2.5-2.6B"
+        "LiquidAI/LFM2.5-8B-A1B"
       ],
-      "lastModified": "2026-10-09T01:29:13.000Z",
-      "description": "Please read this model card carefully to get the most from it - including all the reasoning and instruct modes (12+12) that feature model suggestions (\"context help\") for all use cases. The Turbo Brilliance system will begin appearing in…"
+      "lastModified": "2026-10-09T01:29:53.000Z",
+      "description": "Please read this model card carefully to get the most from it - including all 12 reasoning modes that feature model suggestions (\"context help\") for all use cases. The Turbo Brilliance system will begin appearing in other model sizes/typ…"
     }
   ]
 }

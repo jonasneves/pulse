@@ -195,11 +195,6 @@
       "description": "Master programming by recreating your favorite technologies from scratch.",
       "language": "Markdown"
     },
-    "home-assistant/core": {
-      "url": "https://github.com/home-assistant/core",
-      "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
-      "language": "Python"
-    },
     "coreyhaines31/marketingskills": {
       "url": "https://github.com/coreyhaines31/marketingskills",
       "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
@@ -364,11 +359,6 @@
       "url": "https://github.com/EveryInc/compound-engineering-plugin",
       "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
       "language": "TypeScript"
-    },
-    "chen08209/FlClash": {
-      "url": "https://github.com/chen08209/FlClash",
-      "description": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.",
-      "language": "Dart"
     },
     "lyogavin/airllm": {
       "url": "https://github.com/lyogavin/airllm",
@@ -605,11 +595,6 @@
       "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
       "language": "TypeScript"
     },
-    "wonderwhy-er/DesktopCommanderMCP": {
-      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
-      "language": "TypeScript"
-    },
     "vxcontrol/pentagi": {
       "url": "https://github.com/vxcontrol/pentagi",
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
@@ -625,11 +610,6 @@
       "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
       "language": "Go"
     },
-    "malisper/pgrust": {
-      "url": "https://github.com/malisper/pgrust",
-      "description": "Postgres rewritten in Rust, now faster than Postgres and Clickhouse",
-      "language": "Rust"
-    },
     "vercel/next.js": {
       "url": "https://github.com/vercel/next.js",
       "description": "The React Framework",
@@ -640,11 +620,6 @@
       "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
       "language": "Rust"
     },
-    "ColeMurray/background-agents": {
-      "url": "https://github.com/ColeMurray/background-agents",
-      "description": "An open-source background agents coding system",
-      "language": "TypeScript"
-    },
     "Shubhamsaboo/awesome-llm-apps": {
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
@@ -654,11 +629,6 @@
       "url": "https://github.com/k1tbyte/Wand-Enhancer",
       "description": "Advanced UX and interoperability extension for Wand (WeMod) app",
       "language": "C#"
-    },
-    "PrefectHQ/prefect": {
-      "url": "https://github.com/PrefectHQ/prefect",
-      "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
-      "language": "Python"
     },
     "Nutlope/hallmark": {
       "url": "https://github.com/Nutlope/hallmark",
@@ -2334,6 +2304,16 @@
       "url": "https://github.com/pytorch/pytorch",
       "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
       "language": "Python"
+    },
+    "open-webui/open-webui": {
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "language": "Python"
+    },
+    "microsoft/BitNet": {
+      "url": "https://github.com/microsoft/BitNet",
+      "description": "Official inference framework for 1-bit LLMs",
+      "language": "C++"
     }
   },
   "models": {
@@ -2987,6 +2967,20 @@
       "url": "https://huggingface.co/amazon/ALoDLM-8B",
       "description": "Paper: ALoDLM: Adaptively Looped Diffusion Language Models · Project page: https://alo-dlm.github.io/",
       "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "abenzerps/Qwen-Image-2.1-Uncensored-Quantized": {
+      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+      "description": "GGUF, Safetensors, and MLX quantized formats of Qwen/Qwen-Image-2.1 for local image generation using the original upstream base weights.",
+      "pipelineTag": "text-to-image",
+      "baseModels": [
+        "Qwen/Qwen-Image-2.1"
+      ]
+    },
+    "speridlabs/iris-3b": {
+      "url": "https://huggingface.co/speridlabs/iris-3b",
+      "description": "Generative priors are a promising foundation for downstream vision tasks. In this project we explore pixel-space generative models as an alternative to vision foundation models such as DINOv2.",
+      "pipelineTag": "text-to-image",
       "baseModels": []
     }
   },
@@ -3895,6 +3889,44 @@
         "google/ddpm-celebahq-256",
         "google/ddpm-cifar10-32",
         "hf-internal-testing/tiny-stable-diffusion-pipe"
+      ]
+    },
+    "Saravutw/WAN2.2_I2V_LIGHTNING_4-8step_custom": {
+      "url": "https://huggingface.co/spaces/Saravutw/WAN2.2_I2V_LIGHTNING_4-8step_custom",
+      "title": "WAN2.2 I2V LIGHTNING-Video-4-8step",
+      "description": null,
+      "sdk": "gradio",
+      "models": [
+        "cbensimon/WanTransformer3DModel-sm120-cu130-raa",
+        "r3gm/RIFE",
+        "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
+      ]
+    },
+    "google/embedding-draw-challenge": {
+      "url": "https://huggingface.co/spaces/google/embedding-draw-challenge",
+      "title": "Embedding Draw Challenge",
+      "description": "Draw Challenge with EmbeddingGemma 2",
+      "sdk": "gradio",
+      "models": [
+        "google/embeddinggemma-2"
+      ]
+    },
+    "LiquidAI/system-one-arcade": {
+      "url": "https://huggingface.co/spaces/LiquidAI/system-one-arcade",
+      "title": "System One Arcade",
+      "description": "Eleven camera, drawing and text demos of d1-3B",
+      "sdk": "docker",
+      "models": [
+        "LiquidAI/d1-3B"
+      ]
+    },
+    "webml-community/gemma-3-1b-WebGPU": {
+      "url": "https://huggingface.co/spaces/webml-community/gemma-3-1b-WebGPU",
+      "title": "Gemma 3 1b WebGPU",
+      "description": "Run Gemma-3-1b locally in the browser on WebGPU",
+      "sdk": "static",
+      "models": [
+        "onnx-community/gemma-3-1b-it-ONNX"
       ]
     }
   }
