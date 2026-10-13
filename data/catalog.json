@@ -362,7 +362,7 @@
     },
     "lyogavin/airllm": {
       "url": "https://github.com/lyogavin/airllm",
-      "description": "AirLLM 70B inference with single 4GB GPU",
+      "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
       "language": "Jupyter Notebook"
     },
     "Panniantong/Agent-Reach": {
@@ -2314,6 +2314,11 @@
       "url": "https://github.com/microsoft/BitNet",
       "description": "Official inference framework for 1-bit LLMs",
       "language": "C++"
+    },
+    "xtool-org/xtool": {
+      "url": "https://github.com/xtool-org/xtool",
+      "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+      "language": "Swift"
     }
   },
   "models": {
@@ -2981,6 +2986,52 @@
       "url": "https://huggingface.co/speridlabs/iris-3b",
       "description": "Generative priors are a promising foundation for downstream vision tasks. In this project we explore pixel-space generative models as an alternative to vision foundation models such as DINOv2.",
       "pipelineTag": "text-to-image",
+      "baseModels": []
+    },
+    "openbmb/MiniCPM-V-4.7-35B-A3B": {
+      "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+      "description": "On-device results · Evaluation · Examples · Usage · Model weights",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
+    },
+    "baidu/Unlimited-OCR": {
+      "url": "https://huggingface.co/baidu/Unlimited-OCR",
+      "description": "Inference using Huggingface transformers on NVIDIA GPUs. Requirements tested on python 3.12.3 + CUDA12.9：",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
+    },
+    "autotrust/JEV-35B": {
+      "url": "https://huggingface.co/autotrust/JEV-35B",
+      "description": "Decision Index 0.3, public suite: 59.73 (our scoring with the kit), against 53.64 for autotrust/JEV-27B-VL on the board. Approximate public vision score 71.94 (our rebuild of the vision benchmarks; JEV-27B-VL 71.67 on the same rebuild, a…",
+      "pipelineTag": "text-classification",
+      "baseModels": [
+        "Qwen/Qwen3.5-35B-A3B"
+      ]
+    },
+    "openbmb/MiniCPM-V-4.7-1B": {
+      "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B",
+      "description": "MiniCPM-V 4.7 is the latest model in the MiniCPM-V series, available in a 1B variant. It builds on the family's single-image, multi-image, and video understanding capabilities, combining stronger foundation capabilities with efficient vi…",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
+    },
+    "deepseek-ai/deepseek-coder-7b-instruct-v1.5": {
+      "url": "https://huggingface.co/deepseek-ai/deepseek-coder-7b-instruct-v1.5",
+      "description": "Deepseek-Coder-7B-Instruct-v1.5 is continue pre-trained from Deepseek-LLM 7B on 2T tokens by employing a window size of 4K and next token prediction objective, and then fine-tuned on 2B tokens of instruction data.",
+      "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "Qwen/Qwen2.5-1.5B-Instruct": {
+      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen2.5-1.5B"
+      ]
+    },
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B": {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …",
+      "pipelineTag": "text-generation",
       "baseModels": []
     }
   },
@@ -3927,6 +3978,27 @@
       "sdk": "static",
       "models": [
         "onnx-community/gemma-3-1b-it-ONNX"
+      ]
+    },
+    "lightonai/LightOnOCR-3-Demo": {
+      "url": "https://huggingface.co/spaces/lightonai/LightOnOCR-3-Demo",
+      "title": "LightOnOCR-3 Demo",
+      "description": "OCR to Markdown with layout grounding",
+      "sdk": "gradio",
+      "models": [
+        "lightonai/LightOnOCR-3-4B",
+        "lightonai/LightOnOCR-3-1B",
+        "lightonai/LightOnOCR-3-0.8B"
+      ]
+    },
+    "vclnhihihi/qwen-image-21-uncensored": {
+      "url": "https://huggingface.co/spaces/vclnhihihi/qwen-image-21-uncensored",
+      "title": "Qwen Image 2.1 Uncensored",
+      "description": "Uncensored Qwen-Image-2.1 generate + edit",
+      "sdk": "gradio",
+      "models": [
+        "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+        "Qwen/Qwen-Image-2.1"
       ]
     }
   }
