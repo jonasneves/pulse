@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- A rising growth trace ending on today's point: the dashboard plots each trending item's daily gain. -->
+  <defs><clipPath id="sq"><rect x="1" y="1" width="126" height="126" rx="28"/></clipPath></defs>
+  <g clip-path="url(#sq)">
+    <rect width="128" height="128" fill="#3a0f1c"/>
+    <path fill="#6a1f33" d="M16 94 L38 78 L56 86 L76 58 L92 66 L108 34 V128 H16 Z"/>
+    <path fill="none" stroke="#ff5c7a" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" d="M16 94 L38 78 L56 86 L76 58 L92 66 L108 34"/>
+    <circle cx="108" cy="34" r="11" fill="#ffd166"/>
+  </g>
+</svg>
