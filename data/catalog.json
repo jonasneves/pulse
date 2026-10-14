@@ -160,11 +160,6 @@
       "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
       "language": "Python"
     },
-    "penpot/penpot": {
-      "url": "https://github.com/penpot/penpot",
-      "description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
-      "language": "Clojure"
-    },
     "microsoft/VibeVoice": {
       "url": "https://github.com/microsoft/VibeVoice",
       "description": "Open-Source Frontier Voice AI",
@@ -214,11 +209,6 @@
       "url": "https://github.com/jamiepine/voicebox",
       "description": "The open-source AI voice studio. Clone, dictate, create.",
       "language": "TypeScript"
-    },
-    "virattt/ai-hedge-fund": {
-      "url": "https://github.com/virattt/ai-hedge-fund",
-      "description": "An AI Hedge Fund Team",
-      "language": "Python"
     },
     "topoteretes/cognee": {
       "url": "https://github.com/topoteretes/cognee",
@@ -450,11 +440,6 @@
       "description": "Fast, easy and reliable testing for anything that runs in a browser.",
       "language": "TypeScript"
     },
-    "Raphire/Win11Debloat": {
-      "url": "https://github.com/Raphire/Win11Debloat",
-      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
-      "language": "PowerShell"
-    },
     "dotnet/aspnetcore": {
       "url": "https://github.com/dotnet/aspnetcore",
       "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
@@ -640,20 +625,10 @@
       "description": "The open-source CapCut alternative",
       "language": "TypeScript"
     },
-    "AIEraDev/Clypra": {
-      "url": "https://github.com/AIEraDev/Clypra",
-      "description": "A hardware-accelerated video editor built on Rust, Tauri v2, and React 19. Sub-10ms frame decoding, GPU-native rendering, and a frame-accurate timeline — all free and open source under MIT.",
-      "language": "TypeScript"
-    },
     "1c7/chinese-independent-developer": {
       "url": "https://github.com/1c7/chinese-independent-developer",
       "description": "👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么",
       "language": null
-    },
-    "par274/sharpemu": {
-      "url": "https://github.com/sharpemu/sharpemu",
-      "description": "An experimental PlayStation 5 emulator for Windows, Linux and macOS.",
-      "language": "C#"
     },
     "HenryNdubuaku/maths-cs-ai-compendium": {
       "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
@@ -2990,7 +2965,7 @@
     },
     "openbmb/MiniCPM-V-4.7-35B-A3B": {
       "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
-      "description": "On-device results · Evaluation · Examples · Usage · Model weights",
+      "description": "GitHub · On-device results · Evaluation · Examples · Usage · Model weights",
       "pipelineTag": "image-text-to-text",
       "baseModels": []
     },
@@ -3030,6 +3005,66 @@
     },
     "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B": {
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …",
+      "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "LiquidAI/LFM2.5-24B-A2B": {
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "LiquidAI/LFM2.5-24B-A2B-Base"
+      ]
+    },
+    "autotrust/JEV-35B-NVFP4": {
+      "url": "https://huggingface.co/autotrust/JEV-35B-NVFP4",
+      "description": "This repository is autotrust/JEV-35B with its 10,240 routed expert MLPs (40 layers × 256 experts) quantized to NVFP4. Everything else is the bf16 model unchanged: attention, linear attention, the shared expert, the routers, the vision to…",
+      "pipelineTag": "text-classification",
+      "baseModels": [
+        "autotrust/JEV-35B"
+      ]
+    },
+    "fishaudio/drama-3": {
+      "url": "https://huggingface.co/fishaudio/drama-3",
+      "description": "Fish Audio Drama 3 is Fish Audio's new-generation text-to-speech model, built for multi-character scenes and long-form content. It supports multi-speaker generation, voice cloning and natural-language control.",
+      "pipelineTag": "text-to-speech",
+      "baseModels": []
+    },
+    "lightonai/colgrep-agent-2B": {
+      "url": "https://huggingface.co/lightonai/colgrep-agent-2B",
+      "description": "library_name: transformers base_model: openbmb/MiniCPM5-2B pipeline_tag: text-generation tags: language: license: apache-2.0",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "openbmb/MiniCPM5-2B"
+      ]
+    },
+    "Qwen/Qwen2.5-0.5B-Instruct": {
+      "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct",
+      "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters. Qwen2.5 brings the following improvemen…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen2.5-0.5B"
+      ]
+    },
+    "LiquidAI/LFM2.5-2.6B": {
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "LiquidAI/LFM2.5-2.6B-Base"
+      ]
+    },
+    "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF": {
+      "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "description": "Qwen2.5-Coder is the latest series of Code-Specific Qwen large language models (formerly known as CodeQwen). As of now, Qwen2.5-Coder has covered six mainstream model sizes, 0.5, 1.5, 3, 7, 14, 32 billion parameters, to meet the needs of…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ]
+    },
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B": {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
       "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …",
       "pipelineTag": "text-generation",
       "baseModels": []
@@ -3999,6 +4034,52 @@
       "models": [
         "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
         "Qwen/Qwen-Image-2.1"
+      ]
+    },
+    "hugging-apps/qwen-qwen-image-2-1-turbo": {
+      "url": "https://huggingface.co/spaces/hugging-apps/qwen-qwen-image-2-1-turbo",
+      "title": "Qwen-Image-2.1-Turbo",
+      "description": "8-step text-to-image and editing with Qwen-Image-2.1-Turbo",
+      "sdk": "gradio",
+      "models": [
+        "hfmlsoc/ncii-guard-v02",
+        "hugging-apps/qwen-image-2-1-aoti",
+        "Qwen/Qwen-Image-2.1-Turbo"
+      ]
+    },
+    "speridlabs/iris-3b": {
+      "url": "https://huggingface.co/spaces/speridlabs/iris-3b",
+      "title": "Iris-3B",
+      "description": "Pixel-space generation & general vision learner",
+      "sdk": "gradio",
+      "models": [
+        "Qwen/Qwen3-VL-4B-Instruct",
+        "speridlabs/iris-3b"
+      ]
+    },
+    "pollen-robotics/microduck-arena": {
+      "url": "https://huggingface.co/spaces/pollen-robotics/microduck-arena",
+      "title": "Microduck Arena",
+      "description": "Race Microduck policies on a clock you can trust",
+      "sdk": "docker",
+      "models": [
+        "cdeplanne/microduck-walk",
+        "deepseek-ai/DeepSeek-V3.1",
+        "HannesVonEssen/microduck-climb",
+        "juicenv/duckwing-v80-roller-skating",
+        "q2p/microduck-beak-throw",
+        "RemiFabre/microduck-rough-walk-e"
+      ]
+    },
+    "pablodawson/minimax-h3-360-orbit": {
+      "url": "https://huggingface.co/spaces/pablodawson/minimax-h3-360-orbit",
+      "title": "MiniMax-H3 360° Orbit LoRA",
+      "description": "One photo into a frozen-instant 360° camera orbit",
+      "sdk": "gradio",
+      "models": [
+        "pablodawson/MiniMax-H3-360-Orbit-LoRA",
+        "multimodalart/MiniMax-H3-Pruned",
+        "MiniMaxAI/MiniMax-H3"
       ]
     }
   }
