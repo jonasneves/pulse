@@ -365,11 +365,6 @@
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript"
     },
-    "HKUDS/Vibe-Trading": {
-      "url": "https://github.com/HKUDS/Vibe-Trading",
-      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-      "language": "Python"
-    },
     "JuliusBrussee/caveman": {
       "url": "https://github.com/JuliusBrussee/caveman",
       "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
@@ -600,11 +595,6 @@
       "description": "The React Framework",
       "language": "JavaScript"
     },
-    "Dicklesworthstone/destructive_command_guard": {
-      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
-      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
-      "language": "Rust"
-    },
     "Shubhamsaboo/awesome-llm-apps": {
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
@@ -624,11 +614,6 @@
       "url": "https://github.com/OpenCut-app/OpenCut",
       "description": "The open-source CapCut alternative",
       "language": "TypeScript"
-    },
-    "1c7/chinese-independent-developer": {
-      "url": "https://github.com/1c7/chinese-independent-developer",
-      "description": "👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么",
-      "language": null
     },
     "HenryNdubuaku/maths-cs-ai-compendium": {
       "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
@@ -654,11 +639,6 @@
       "url": "https://github.com/HKUDS/DeepTutor",
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "language": "Python"
-    },
-    "injaneity/pi-computer-use": {
-      "url": "https://github.com/injaneity/pi-computer-use",
-      "description": "Let Pi control your apps on MacOS & Windows",
-      "language": "Rust"
     },
     "ibelick/ui-skills": {
       "url": "https://github.com/ibelick/ui-skills",
@@ -1502,7 +1482,7 @@
     },
     "K-Dense-AI/scientific-agent-skills": {
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "language": "Python"
     },
     "bilawalsidhu/gods-eye-view": {
@@ -2294,6 +2274,21 @@
       "url": "https://github.com/xtool-org/xtool",
       "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
       "language": "Swift"
+    },
+    "ifixai-ai/iFixAi": {
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+      "language": "Python"
+    },
+    "rust-lang/rust": {
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust"
+    },
+    "ntdevlabs/tiny11builder": {
+      "url": "https://github.com/ntdevlabs/tiny11builder",
+      "description": "WinUI app for building smaller, customized Windows 11 images.",
+      "language": "C#"
     }
   },
   "models": {
@@ -2965,7 +2960,7 @@
     },
     "openbmb/MiniCPM-V-4.7-35B-A3B": {
       "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
-      "description": "GitHub · On-device results · Evaluation · Examples · Usage · Model weights",
+      "description": "GitHub · On-device results · Evaluation · Examples · Usage · Model weights · DSpark",
       "pipelineTag": "image-text-to-text",
       "baseModels": []
     },
@@ -2985,7 +2980,7 @@
     },
     "openbmb/MiniCPM-V-4.7-1B": {
       "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B",
-      "description": "MiniCPM-V 4.7 is the latest model in the MiniCPM-V series, available in a 1B variant. It builds on the family's single-image, multi-image, and video understanding capabilities, combining stronger foundation capabilities with efficient vi…",
+      "description": "GitHub · Evaluation · Examples · Usage · Model weights · DSpark",
       "pipelineTag": "image-text-to-text",
       "baseModels": []
     },
@@ -3068,6 +3063,22 @@
       "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …",
       "pipelineTag": "text-generation",
       "baseModels": []
+    },
+    "vllm-sr/d3": {
+      "url": "https://huggingface.co/vllm-sr/d3",
+      "description": "d3 is the 27B multimodal foundation decision model of Decision 3.0, the decision models of vLLM Semantic Router. Give it an input (text or JSON, optionally with images and videos) and the questions you need answered: pick one of several …",
+      "pipelineTag": "zero-shot-classification",
+      "baseModels": [
+        "Qwen/Qwen3.8-27B"
+      ]
+    },
+    "dealignai/DeepSeek-V4.1-Flash-UNCENSORED-FP8": {
+      "url": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-UNCENSORED-FP8",
+      "description": "Abliterated · No guardrails · Native FP8 · 1M-token context · Vision + tools · Reasoning-max default",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "deepseek-ai/DeepSeek-V4.1-Flash"
+      ]
     }
   },
   "spaces": {
@@ -4080,6 +4091,40 @@
         "pablodawson/MiniMax-H3-360-Orbit-LoRA",
         "multimodalart/MiniMax-H3-Pruned",
         "MiniMaxAI/MiniMax-H3"
+      ]
+    },
+    "fishaudio/Drama-3": {
+      "url": "https://huggingface.co/spaces/fishaudio/Drama-3",
+      "title": "Drama 3",
+      "description": "Direct Fish Audio Drama 3, streaming from one GPU",
+      "sdk": "gradio",
+      "models": [
+        "fishaudio/drama-3",
+        "fishaudio/s2-pro"
+      ]
+    },
+    "autotrust/news": {
+      "url": "https://huggingface.co/spaces/autotrust/news",
+      "title": "News",
+      "description": "news search",
+      "sdk": "static",
+      "models": []
+    },
+    "autotrust/shorts": {
+      "url": "https://huggingface.co/spaces/autotrust/shorts",
+      "title": "Shorts",
+      "description": "shorts videos demo",
+      "sdk": "static",
+      "models": []
+    },
+    "webml-community/text-behind-video": {
+      "url": "https://huggingface.co/spaces/webml-community/text-behind-video",
+      "title": "Text Behind Video",
+      "description": "Create cinematic video designs locally in your browser",
+      "sdk": "static",
+      "models": [
+        "onnx-community/BEN2-ONNX",
+        "PramaLLC/BEN2"
       ]
     }
   }
