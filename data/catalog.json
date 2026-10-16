@@ -75,11 +75,6 @@
       "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "language": "Python"
     },
-    "lobehub/lobehub": {
-      "url": "https://github.com/lobehub/lobehub",
-      "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
-      "language": "TypeScript"
-    },
     "addyosmani/agent-skills": {
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
@@ -530,11 +525,6 @@
       "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
       "language": "Python"
     },
-    "hasaneyldrm/exercises-dataset": {
-      "url": "https://github.com/hasaneyldrm/exercises-dataset",
-      "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
-      "language": "HTML"
-    },
     "CoreBunch/Instatic": {
       "url": "https://github.com/CoreBunch/Instatic",
       "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there. ",
@@ -620,11 +610,6 @@
       "description": "Become a cracked AI/ML researcher/engineer with this unconventional textbook covering maths, computing, and ML with intuition.",
       "language": "TypeScript"
     },
-    "Graphify-Labs/graphify": {
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-      "language": "Python"
-    },
     "chenyme/grok2api": {
       "url": "https://github.com/chenyme/grok2api",
       "description": "Multi-account API gateway for Grok Build, Grok Web, and Grok Console",
@@ -644,16 +629,6 @@
       "url": "https://github.com/ibelick/ui-skills",
       "description": "Skills for Design Engineers",
       "language": "TypeScript"
-    },
-    "YimMenu/YimMenuV2": {
-      "url": "https://github.com/YimMenu/YimMenuV2",
-      "description": "Experimental menu for GTA 5: Enhanced",
-      "language": "C++"
-    },
-    "ossu/computer-science": {
-      "url": "https://github.com/ossu/computer-science",
-      "description": "🎓 Path to a free self-taught education in Computer Science!",
-      "language": "HTML"
     },
     "apache/ossie": {
       "url": "https://github.com/apache/ossie",
@@ -2289,6 +2264,21 @@
       "url": "https://github.com/ntdevlabs/tiny11builder",
       "description": "WinUI app for building smaller, customized Windows 11 images.",
       "language": "C#"
+    },
+    "lightseekorg/tokenspeed": {
+      "url": "https://github.com/lightseekorg/tokenspeed",
+      "description": "TokenSpeed is a speed-of-light LLM inference engine.",
+      "language": "Python"
+    },
+    "xerj-org/xerj": {
+      "url": "https://github.com/xerj-org/xerj",
+      "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
+      "language": "Rust"
+    },
+    "LibreSpark/LibreTV": {
+      "url": "https://github.com/LibreSpark/LibreTV",
+      "description": "一分钟搭建影视站，支持Docker等部署方式",
+      "language": "TypeScript"
     }
   },
   "models": {
@@ -3078,6 +3068,42 @@
       "pipelineTag": "image-text-to-text",
       "baseModels": [
         "deepseek-ai/DeepSeek-V4.1-Flash"
+      ]
+    },
+    "meta-models/Muse-Spark-Open-816B-A42B": {
+      "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+      "description": null,
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
+    },
+    "black-forest-labs/flux-3-image-klein": {
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+      "description": null,
+      "pipelineTag": "image-to-image",
+      "baseModels": []
+    },
+    "black-forest-labs/flux-3-image-klein-comfy": {
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+      "description": null,
+      "pipelineTag": "image-to-image",
+      "baseModels": [
+        "black-forest-labs/flux-3-image-klein"
+      ]
+    },
+    "LiquidAI/LFM2.5-24B-A2B-GGUF": {
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF",
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "LiquidAI/LFM2.5-24B-A2B"
+      ]
+    },
+    "scratchyone/anon-1b": {
+      "url": "https://huggingface.co/scratchyone/anon-1b",
+      "description": "anon-1b is a full fine-tune of google/gemma-3-1b-pt on 157,342 greentext stories. The stories were OCR'd from screenshots posted to r/greentext, r/4chan, r/4tran and r/classic4chan. Generation can be conditioned on the source subreddit a…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "google/gemma-3-1b-pt"
       ]
     }
   },
@@ -4096,7 +4122,7 @@
     "fishaudio/Drama-3": {
       "url": "https://huggingface.co/spaces/fishaudio/Drama-3",
       "title": "Drama 3",
-      "description": "Direct Fish Audio Drama 3, streaming from one GPU",
+      "description": "Direct Fish Audio Drama 3, streaming on ZeroGPU",
       "sdk": "gradio",
       "models": [
         "fishaudio/drama-3",
@@ -4125,6 +4151,57 @@
       "models": [
         "onnx-community/BEN2-ONNX",
         "PramaLLC/BEN2"
+      ]
+    },
+    "black-forest-labs/flux-3-image-klein": {
+      "url": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein",
+      "title": "FLUX 3 Image Klein",
+      "description": "5.6B open weights. Text-to-image, editing, bounding boxes",
+      "sdk": "gradio",
+      "models": [
+        "black-forest-labs/flux-3-image-klein",
+        "black-forest-labs/flux-3-image-klein-base",
+        "black-forest-labs/flux-3-image-klein-pup",
+        "diffusers-internal-dev/f3-small-image-distilled-aoti-sm120",
+        "diffusers-internal-dev/f3-small-img-aoti-sm120",
+        "Qwen/Qwen3-VL-235B-A22B-Instruct"
+      ]
+    },
+    "raubatz/qwen-image-2.1-uncensored-aio-loras": {
+      "url": "https://huggingface.co/spaces/raubatz/qwen-image-2.1-uncensored-aio-loras",
+      "title": "Qwen Image 2.1 Uncensored All-In-One LoRA Studio",
+      "description": "Uncensored Qwen 2.1 with All-In-One LoRAs",
+      "sdk": "gradio",
+      "models": [
+        "KasugaiSakura/Qwen-Image-2.1-Uncensored-Abenzerps-GGUF",
+        "Qwen/Qwen-Image-2.1",
+        "WarmBloodAban/Qwen-Image-2.1-LoRAs",
+        "prithivMLmods/Qwen-Image-2.1-Natural-Exposure-LoRA",
+        "alibaba-pai/Qwen-Image-2.1-Fun-Acc-LoRAs",
+        "Viggle/Qwen-Image-2.1-viggle-turbo",
+        "Alissonerdx/BFS-Best-Face-Swap",
+        "lilylilith/AnyPose"
+      ]
+    },
+    "webml-community/ternary-bonsai-2-hermes-webgpu": {
+      "url": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-hermes-webgpu",
+      "title": "Ternary Bonsai 2 Hermes WebGPU",
+      "description": "Run Hermes Agent in-browser w/ Ternary Bonsai 2 on WebGPU",
+      "sdk": "static",
+      "models": [
+        "prism-ml/Ternary-Bonsai-2-2B-gguf",
+        "prism-ml/Ternary-Bonsai-2-4B-gguf",
+        "prism-ml/Ternary-Bonsai-2-9B-gguf",
+        "prism-ml/Ternary-Bonsai-2-27B-gguf"
+      ]
+    },
+    "webml-community/dinov3-web": {
+      "url": "https://huggingface.co/spaces/webml-community/dinov3-web",
+      "title": "DINOv3 Web",
+      "description": "Visualize rich, dense image features locally in your browser",
+      "sdk": "static",
+      "models": [
+        "onnx-community/dinov3-vits16-pretrain-lvd1689m-ONNX"
       ]
     }
   }
