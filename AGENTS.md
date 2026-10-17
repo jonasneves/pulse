@@ -2,11 +2,9 @@
 
 GitHub Pages dashboard tracking growth of GitHub trending repos (stars), Hugging Face trending models (likes), and Hugging Face trending Spaces (likes). Tools register with the browser through WebMCP (`document.modelContext`, falling back to `navigator.modelContext`) so an external agent can drive the view, instead of an embedded chat.
 
-Open backlog and unshipped direction live in [issues](https://github.com/jonasneves/pulse/issues), not here.
-
 ## Layout
 
-Flat files, no build step, no npm dependencies; keep concerns in separate files. Every `.js` file opens with a comment stating what it owns (`awk 'FNR==1{print "== " FILENAME} /\*\//{nextfile} 1' *.js scripts/*.js` prints every header). `index.html`'s only external resource is Google Fonts; `index.css` holds all styles, themed light and dark with CSS custom properties. `scripts/fetch.js` runs daily and `scripts/digest.js` weekly from `.github/workflows/`; schedules, triggers, and commit behavior are in those files.
+No build step, no npm dependencies. Every `.js` file opens with a comment stating what it owns (`awk 'FNR==1{print "== " FILENAME} /\*\//{nextfile} 1' *.js scripts/*.js` prints every header). `index.html` loads only Google Fonts and the MCP relay script (`relay.kandue.app/webmcp.js`, README › From Claude, Cursor or VS Code); `index.css` holds all styles, themed light and dark with CSS custom properties. `scripts/fetch.js` runs daily and `scripts/digest.js` weekly from `.github/workflows/`; schedules, triggers, and commit behavior are in those files.
 
 To add a WebMCP tool, add an entry to `TOOL_DEFS` in `tools.js` and put the state or actions it needs on `pulse` in `index.js`; it registers and appears in the agent-tools panel automatically.
 
@@ -17,21 +15,13 @@ Everything under `data/` is written by the daily Action. Never edit it by hand. 
 | File | Shape |
 |------|-------|
 | `{github,models,spaces}.json` | Today's lists. `github`: `repos`; `models`: `trending`, `small` (text-generation up to 8B or distilled); `spaces`: `trending`, `webml` (webml-community). |
-| `history.json` | 90-day log keyed by source → id → `[{d,v,r}]`: day, cumulative metric, rank on its list that day, or `null` when the item was off the list and only followed (items listed in the last 30 days keep being observed). One entry per day, latest wins. Sources: `github` (stars), `models` (likes), `spaces` (likes). The old `huggingface` bucket (30-day download counts) is no longer appended and ages out after 90 days. |
+| `history.json` | 90-day log keyed by source → id → `[{d,v,r}]`: day, cumulative metric, rank on its list that day, or `null` when the item was off the list and only followed (items listed in the last 30 days keep being observed). One entry per day, latest wins. Sources: `github` (stars), `models` (likes), `spaces` (likes). The old `huggingface` bucket (30-day download counts) is no longer appended; its last entry is 2026-09-29, so it is empty after 2026-12-28 — delete this sentence then. |
 | `catalog.json` | source → id → url, description and source-specific fields, for every item in history, including ones no longer listed. Models carry `baseModels` (from `base_model:` Hub tags); Spaces carry `models` (the models they declare, empty when more than 8). |
 | `judgments.json` | `model` plus `github` → repo → `{kind, p, d}`. Jev output, kept apart from observations. |
 
-Each new GitHub repo is judged once by Jev (TypeSafe's judgment model, https://docs.typesafe.ai) as project, collection, learning, or unclear. That needs the `TYPESAFE_API_KEY` repo secret; without it, judging is skipped.
-
 ## Local development
 
-```bash
-node scripts/fetch.js          # set TYPESAFE_API_KEY to judge new repos
-python3 -m http.server 8080    # fetch() does not work over file://
-node scripts/digest.js
-```
-
-In Chrome stable, visitors get `document.modelContext` only through the WebMCP origin trial (a token served in the page) or `chrome://flags/#enable-webmcp-testing`. Without it the page renders and the agent panel reports the tools as not registered.
+Run locally, and WebMCP availability in Chrome: README › Run locally.
 
 ## Design rules
 

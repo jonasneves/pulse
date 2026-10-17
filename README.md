@@ -39,4 +39,4 @@ In Chrome stable, ordinary visitors get `document.modelContext` only through the
 
 ## Layout
 
-Flat files, one concern each: `index.html` shell, `index.css` styles, `index.js` page state and rendering, `rows.js` per-source row config and renderer, `trace.js` traces and gain bars, `rules.js` derivations shared with the digest, `links.js` cross-source grouping, `overview.js` the All tab, `tools.js` the WebMCP surface. See [AGENTS.md](AGENTS.md) for the per-file map, data flow, and design rules.
+Flat files, one concern each: `index.html` shell, `index.css` styles, `index.js` page state and rendering, `rows.js` per-source row config and renderer, `trace.js` traces and gain bars, `rules.js` derivations shared with the digest, `links.js` cross-source grouping, `overview.js` the All tab, `tools.js` the WebMCP surface. See [AGENTS.md](AGENTS.md) for the data files and design rules.
