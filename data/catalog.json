@@ -90,11 +90,6 @@
       "description": "The agent that grows with you",
       "language": "Python"
     },
-    "docusealco/docuseal": {
-      "url": "https://github.com/docusealco/docuseal",
-      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
-      "language": "Ruby"
-    },
     "ChromeDevTools/chrome-devtools-mcp": {
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
@@ -595,30 +590,15 @@
       "description": "Advanced UX and interoperability extension for Wand (WeMod) app",
       "language": "C#"
     },
-    "Nutlope/hallmark": {
-      "url": "https://github.com/Nutlope/hallmark",
-      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "language": "CSS"
-    },
     "OpenCut-app/OpenCut": {
       "url": "https://github.com/OpenCut-app/OpenCut",
       "description": "The open-source CapCut alternative",
-      "language": "TypeScript"
-    },
-    "HenryNdubuaku/maths-cs-ai-compendium": {
-      "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
-      "description": "Become a cracked AI/ML researcher/engineer with this unconventional textbook covering maths, computing, and ML with intuition.",
       "language": "TypeScript"
     },
     "chenyme/grok2api": {
       "url": "https://github.com/chenyme/grok2api",
       "description": "Multi-account API gateway for Grok Build, Grok Web, and Grok Console",
       "language": "Go"
-    },
-    "openinterpreter/openinterpreter": {
-      "url": "https://github.com/openinterpreter/openinterpreter",
-      "description": "A coding agent for open models like Kimi K3 and GLM 5.3",
-      "language": "Rust"
     },
     "HKUDS/DeepTutor": {
       "url": "https://github.com/HKUDS/DeepTutor",
@@ -634,11 +614,6 @@
       "url": "https://github.com/apache/ossie",
       "description": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
       "language": "Python"
-    },
-    "PrismML-Eng/Bonsai-demo": {
-      "url": "https://github.com/PrismML-Eng/Bonsai-demo",
-      "description": "Bonsai Demo",
-      "language": "Shell"
     },
     "tirth8205/code-review-graph": {
       "url": "https://github.com/tirth8205/code-review-graph",
@@ -658,11 +633,6 @@
     "KnockOutEZ/wigolo": {
       "url": "https://github.com/KnockOutEZ/wigolo",
       "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
-      "language": "TypeScript"
-    },
-    "anthropics/cwc-workshops": {
-      "url": "https://github.com/anthropics/cwc-workshops",
-      "description": "",
       "language": "TypeScript"
     },
     "MoonshotAI/kimi-cli": {
@@ -2279,6 +2249,16 @@
       "url": "https://github.com/LibreSpark/LibreTV",
       "description": "一分钟搭建影视站，支持Docker等部署方式",
       "language": "TypeScript"
+    },
+    "android/skills": {
+      "url": "https://github.com/android/skills",
+      "description": "",
+      "language": "Kotlin"
+    },
+    "hmjz100/LinkSwift": {
+      "url": "https://github.com/hmjz100/LinkSwift",
+      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
+      "language": "JavaScript"
     }
   },
   "models": {
@@ -3105,6 +3085,44 @@
       "baseModels": [
         "google/gemma-3-1b-pt"
       ]
+    },
+    "deepseek-ai/DeepSeek-V4.1-Flash-1017": {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "description": "DeepSeek-V4.1-Flash-1017 is a minor update to DeepSeek-V4.1-Flash, delivering substantial improvements across reasoning, coding, agentic tasks, and visual benchmarks. Alongside these gains, the model reduces task execution time and outpu…",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
+    },
+    "OpenMOSS-Team/MOSS-Image-SFT": {
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+      "description": "MOSS-Image-SFT is a supervised fine-tuned text-to-image model in the MOSS-Image family from OpenMOSS, derived from MOSS-Image-Base. It uses the same architecture and inference pipeline, supporting natural-language prompts, tag sequences,…",
+      "pipelineTag": "text-to-image",
+      "baseModels": [
+        "OpenMOSS-Team/MOSS-Image-Base"
+      ]
+    },
+    "OpenMOSS-Team/MOSS-Image-Base": {
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+      "description": "MOSS-Image-Base is the base text-to-image model in the MOSS-Image family from OpenMOSS. It supports natural-language prompts, tag sequences, and JSON layouts for controlling text placement and object arrangement.",
+      "pipelineTag": "text-to-image",
+      "baseModels": []
+    },
+    "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16": {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+      "description": "NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16 is a looped (latent-recurrent) large language model (LLM) trained by NVIDIA. The model employs a normalized-GPT architecture with interleaved hybrid sliding window attention (SWA) and full attention l…",
+      "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF": {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF",
+      "description": "NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF is a looped (latent-recurrent) large language model (LLM) trained by NVIDIA. The model employs a normalized-GPT architecture with interleaved hybrid sliding window attention (SWA) and full attention l…",
+      "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "ibm-granite/granite-switch-4.1-8b": {
+      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b",
+      "description": "📝 Read the launch blog: Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "pipelineTag": "text-generation",
+      "baseModels": []
     }
   },
   "spaces": {
@@ -3957,7 +3975,7 @@
       "description": "Edit images with Qwen and enhance with FLUX.2 9B",
       "sdk": "gradio",
       "models": [
-        "AST-1320/Qwen-2511-Image-to-Image-Edit",
+        "AST-1320/Qwen-2511-Image-To-Image-Edit-V.17-Diffusers",
         "AST-1320/vit-age-classifier",
         "black-forest-labs/FLUX.2-klein-9B",
         "Qwen/Qwen-Image-Edit-2511",
@@ -4202,6 +4220,40 @@
       "sdk": "static",
       "models": [
         "onnx-community/dinov3-vits16-pretrain-lvd1689m-ONNX"
+      ]
+    },
+    "OpenMOSS-Team/MOSS-Image": {
+      "url": "https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image",
+      "title": "MOSS Image",
+      "description": "Official demo of MOSS-Image.",
+      "sdk": "gradio",
+      "models": [
+        "OpenMOSS-Team/MOSS-Image-Base",
+        "OpenMOSS-Team/MOSS-Image-SFT"
+      ]
+    },
+    "hitman911/wan2-2-fp8da-aoti-preview-2c-finishing": {
+      "url": "https://huggingface.co/spaces/hitman911/wan2-2-fp8da-aoti-preview-2c-finishing",
+      "title": "Wan2.2 14B Cum explosion lora",
+      "description": "generate a video from an image with a text prompt with text",
+      "sdk": "gradio",
+      "models": [
+        "cbensimon/WanTransformer3DModel-sm120-cu130-raa",
+        "FlutterGuyAzaza/Deepthroat_Blowjob_Wan_2_X_I2V_T2V",
+        "r3gm/RIFE",
+        "Robertopaulson/DeepthroatBlowjobWan2XI2VT2V",
+        "Robertopaulson/F4C3SPL4SH_Cumshotwan2.2i2v",
+        "TestOrganizationPleaseIgnore/wamu-tools",
+        "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
+      ]
+    },
+    "webml-community/bedtime-story-generator": {
+      "url": "https://huggingface.co/spaces/webml-community/bedtime-story-generator",
+      "title": "Bedtime Story Generator",
+      "description": "Craft magical tales in seconds.",
+      "sdk": "static",
+      "models": [
+        "onnx-community/gemma-3-270m-it-ONNX"
       ]
     }
   }
