@@ -447,7 +447,7 @@
     },
     "stablyai/orca": {
       "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript"
     },
     "Lightricks/LTX-2": {
@@ -605,25 +605,10 @@
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "language": "Python"
     },
-    "ibelick/ui-skills": {
-      "url": "https://github.com/ibelick/ui-skills",
-      "description": "Skills for Design Engineers",
-      "language": "TypeScript"
-    },
-    "apache/ossie": {
-      "url": "https://github.com/apache/ossie",
-      "description": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
-      "language": "Python"
-    },
     "tirth8205/code-review-graph": {
       "url": "https://github.com/tirth8205/code-review-graph",
       "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
       "language": "Python"
-    },
-    "elder-plinius/G0DM0D3": {
-      "url": "https://github.com/elder-plinius/G0DM0D3",
-      "description": "LIBERATED AI CHAT",
-      "language": "TypeScript"
     },
     "protocolbuffers/protobuf": {
       "url": "https://github.com/protocolbuffers/protobuf",
@@ -2242,7 +2227,7 @@
     },
     "xerj-org/xerj": {
       "url": "https://github.com/xerj-org/xerj",
-      "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
+      "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs.",
       "language": "Rust"
     },
     "LibreSpark/LibreTV": {
@@ -2754,7 +2739,7 @@
     },
     "autotrust/JEV-27B-VL": {
       "url": "https://huggingface.co/autotrust/JEV-27B-VL",
-      "description": "JEV-27B-VL is ranked first of 20 vision decision models on the community Jev Decision Index 0.3 — Vision board (independent evaluation, updated 7 October 2026). It is first on the Full score, first on the public benchmarks alone and firs…",
+      "description": "The benchmark. ERQA (Embodied Reasoning Question Answering) is the benchmark Google DeepMind released with Gemini Robotics (March 2025) to measure whether a vision-language model understands the physical world a robot acts in. It has 400…",
       "pipelineTag": "image-text-to-text",
       "baseModels": [
         "Qwen/Qwen3.8-27B"
@@ -3121,6 +3106,26 @@
     "ibm-granite/granite-switch-4.1-8b": {
       "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b",
       "description": "📝 Read the launch blog: Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "nvidia/Qwen3.8-Flash-Next-FP4-Local": {
+      "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local",
+      "description": "IMPORTANT: the NVFP4 scale factors in this checkpoint are in a new lossless compression format, but upstream vLLM support for this format has not yet landed. You must use one of the containers provided below.",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "Qwen/Qwen3.8-Flash-Next"
+      ]
+    },
+    "datalab-to/indra-ocr": {
+      "url": "https://huggingface.co/datalab-to/indra-ocr",
+      "description": "Indra OCR is a 1M-parameter OCR model that reads up to 49 pages per second on CPU. It turns PDFs and images into markdown, plain text, or JSON with boxes, and it has these features:",
+      "pipelineTag": "image-to-text",
+      "baseModels": []
+    },
+    "tencent/Hy-Memory-30B-A3B": {
+      "url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
+      "description": "Hy-Memory-30B-A3B is a compact long-term-memory writer model (~3B active parameters) developed by Tencent Hunyuan to execute the write path inside external memory frameworks. It directly replaces the general-purpose LLM inside Mem0, MemO…",
       "pipelineTag": "text-generation",
       "baseModels": []
     }
@@ -4254,6 +4259,33 @@
       "sdk": "static",
       "models": [
         "onnx-community/gemma-3-270m-it-ONNX"
+      ]
+    },
+    "webml-community/bonsai-ternary-webgpu": {
+      "url": "https://huggingface.co/spaces/webml-community/bonsai-ternary-webgpu",
+      "title": "Ternary Bonsai WebGPU",
+      "description": "Run 1.58-bit Bonsai LLMs locally in your browser on WebGPU",
+      "sdk": "static",
+      "models": []
+    },
+    "webml-community/muse-glimmer-webgpu-kernels": {
+      "url": "https://huggingface.co/spaces/webml-community/muse-glimmer-webgpu-kernels",
+      "title": "Muse Glimmer 30B - WebGPU Kernels",
+      "description": "Run Muse Glimmer 30B locally in your browser on WebGPU",
+      "sdk": "static",
+      "models": [
+        "meta-models/Muse-Glimmer-30B",
+        "meta-models/Muse-Glimmer-30B-GGUF",
+        "unsloth/Muse-Glimmer-30B-GGUF"
+      ]
+    },
+    "webml-community/MiniCPM5-2B-WebGPU-Pi": {
+      "url": "https://huggingface.co/spaces/webml-community/MiniCPM5-2B-WebGPU-Pi",
+      "title": "MiniCPM5 WebGPU Workspace",
+      "description": "A local coding agent with a GGUF WebGPU runtime",
+      "sdk": "static",
+      "models": [
+        "openbmb/MiniCPM5-2B-GGUF"
       ]
     }
   }
