@@ -625,11 +625,6 @@
       "description": "[Archived] Legacy Python Kimi CLI, no longer maintained. Please use Kimi Code CLI: https://github.com/MoonshotAI/kimi-code",
       "language": "Python"
     },
-    "andrewrabert/jellium-desktop": {
-      "url": "https://github.com/andrewrabert/jellium-desktop",
-      "description": "An unofficial desktop client for Jellyfin",
-      "language": "Rust"
-    },
     "kvcache-ai/ktransformers": {
       "url": "https://github.com/kvcache-ai/ktransformers",
       "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
@@ -638,16 +633,6 @@
     "AstrBotDevs/AstrBot": {
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "language": "Python"
-    },
-    "PKUFlyingPig/cs-self-learning": {
-      "url": "https://github.com/PKUFlyingPig/cs-self-learning",
-      "description": "计算机自学指南",
-      "language": "HTML"
-    },
-    "Canner/WrenAI": {
-      "url": "https://github.com/Canner/WrenAI",
-      "description": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.",
       "language": "Python"
     },
     "bojieli/ai-agent-book": {
@@ -659,11 +644,6 @@
       "url": "https://github.com/tokio-rs/topcoat",
       "description": "A batteries-included framework for building web apps",
       "language": "Rust"
-    },
-    "microsoft/terminal": {
-      "url": "https://github.com/microsoft/terminal",
-      "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
-      "language": "C++"
     },
     "PrefectHQ/fastmcp": {
       "url": "https://github.com/PrefectHQ/fastmcp",
@@ -2244,6 +2224,21 @@
       "url": "https://github.com/hmjz100/LinkSwift",
       "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
       "language": "JavaScript"
+    },
+    "headroomlabs-ai/headroom": {
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "language": "Python"
+    },
+    "withmarbleapp/os-taxonomy": {
+      "url": "https://github.com/withmarbleapp/os-taxonomy",
+      "description": "",
+      "language": "JavaScript"
+    },
+    "Kruk2/jasna": {
+      "url": "https://github.com/Kruk2/jasna",
+      "description": "Video restoration tool",
+      "language": "Python"
     }
   },
   "models": {
@@ -3128,6 +3123,22 @@
       "description": "Hy-Memory-30B-A3B is a compact long-term-memory writer model (~3B active parameters) developed by Tencent Hunyuan to execute the write path inside external memory frameworks. It directly replaces the general-purpose LLM inside Mem0, MemO…",
       "pipelineTag": "text-generation",
       "baseModels": []
+    },
+    "Comfy-Org/MOSS-Image": {
+      "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
+      "description": null,
+      "pipelineTag": null,
+      "baseModels": [
+        "OpenMOSS-Team/MOSS-Image-Base"
+      ]
+    },
+    "openbmb/MiniCPM-V-4.7-35B-A3B-gguf": {
+      "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-gguf",
+      "description": "GitHub · On-device results · Evaluation · Examples · Usage · Model weights · DSpark-gguf",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "openbmb/MiniCPM-V-4.7-35B-A3B"
+      ]
     }
   },
   "spaces": {
@@ -4229,8 +4240,8 @@
     },
     "OpenMOSS-Team/MOSS-Image": {
       "url": "https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image",
-      "title": "MOSS Image",
-      "description": "Official demo of MOSS-Image.",
+      "title": "MOSS-Image Workflow",
+      "description": "MOSS-Image text-to-image as a gr.Workflow node canvas.",
       "sdk": "gradio",
       "models": [
         "OpenMOSS-Team/MOSS-Image-Base",
@@ -4286,6 +4297,40 @@
       "sdk": "static",
       "models": [
         "openbmb/MiniCPM5-2B-GGUF"
+      ]
+    },
+    "AST-1320/Qwen-2511-Plus-Flux.2-klein": {
+      "url": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein",
+      "title": "Qwen 2511 + Flux.2 Klein",
+      "description": "Edit images with Qwen and enhance with FLUX.2 Klein",
+      "sdk": "gradio",
+      "models": [
+        "AST-1320/Qwen-2511-Image-To-Image-Edit-V.17-Diffusers",
+        "AST-1320/vit-age-classifier",
+        "black-forest-labs/FLUX.2-klein-4B",
+        "black-forest-labs/FLUX.2-klein-9B",
+        "black-forest-labs/FLUX.2-klein-9b-kv",
+        "Qwen/Qwen-Image-Edit-2511",
+        "Qwen/Qwen2.5-7B-Instruct"
+      ]
+    },
+    "ibm-granite/speech-to-decisions": {
+      "url": "https://huggingface.co/spaces/ibm-granite/speech-to-decisions",
+      "title": "Speech to Decisions with Granite",
+      "description": "Live speech, heard and sized up by one Granite Switch model",
+      "sdk": "docker",
+      "models": [
+        "ibm-granite/granite-switch-4.1-8b"
+      ]
+    },
+    "microsoft/TRELLIS.2": {
+      "url": "https://huggingface.co/spaces/microsoft/TRELLIS.2",
+      "title": "TRELLIS.2",
+      "description": "High-fidelity 3D Generation from images",
+      "sdk": "gradio",
+      "models": [
+        "microsoft/TRELLIS.2-4B",
+        "ZhengPeng7/BiRefNet"
       ]
     }
   }
