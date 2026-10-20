@@ -200,11 +200,6 @@
       "description": "The open-source AI voice studio. Clone, dictate, create.",
       "language": "TypeScript"
     },
-    "topoteretes/cognee": {
-      "url": "https://github.com/topoteretes/cognee",
-      "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small models for free",
-      "language": "Python"
-    },
     "pascalorg/editor": {
       "url": "https://github.com/pascalorg/editor",
       "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
@@ -264,11 +259,6 @@
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "language": "Python"
-    },
-    "iptv-org/iptv": {
-      "url": "https://github.com/iptv-org/iptv",
-      "description": "Collection of publicly available IPTV channels from all over the world",
-      "language": "TypeScript"
     },
     "666ghj/MiroFish": {
       "url": "https://github.com/666ghj/MiroFish",
@@ -620,16 +610,6 @@
       "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
       "language": "TypeScript"
     },
-    "MoonshotAI/kimi-cli": {
-      "url": "https://github.com/MoonshotAI/kimi-cli",
-      "description": "[Archived] Legacy Python Kimi CLI, no longer maintained. Please use Kimi Code CLI: https://github.com/MoonshotAI/kimi-code",
-      "language": "Python"
-    },
-    "kvcache-ai/ktransformers": {
-      "url": "https://github.com/kvcache-ai/ktransformers",
-      "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
-      "language": "Python"
-    },
     "AstrBotDevs/AstrBot": {
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
@@ -638,16 +618,6 @@
     "bojieli/ai-agent-book": {
       "url": "https://github.com/bojieli/ai-agent-book",
       "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-      "language": "Python"
-    },
-    "tokio-rs/topcoat": {
-      "url": "https://github.com/tokio-rs/topcoat",
-      "description": "A batteries-included framework for building web apps",
-      "language": "Rust"
-    },
-    "PrefectHQ/fastmcp": {
-      "url": "https://github.com/PrefectHQ/fastmcp",
-      "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
       "language": "Python"
     },
     "ayghri/i-have-adhd": {
@@ -660,20 +630,10 @@
       "description": "Free, open-source web app for learning about ontologies and Microsoft Fabric IQ. Explore a catalogue of pre-built ontologies, design your own visually, export as RDF/XML, and share interactive diagrams. Zero backend, fully static.",
       "language": "TypeScript"
     },
-    "handy-computer/transcribe.cpp": {
-      "url": "https://github.com/handy-computer/transcribe.cpp",
-      "description": " ggml speech-to-text inference for 16+ model families",
-      "language": "C++"
-    },
     "earthtojake/text-to-cad": {
       "url": "https://github.com/earthtojake/text-to-cad",
       "description": "Give your agent CAD superpowers.",
       "language": "Python"
-    },
-    "moonshine-ai/moonshine": {
-      "url": "https://github.com/moonshine-ai/moonshine",
-      "description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces",
-      "language": "C++"
     },
     "tradesdontlie/tradingview-mcp": {
       "url": "https://github.com/tradesdontlie/tradingview-mcp",
@@ -3114,7 +3074,7 @@
     },
     "datalab-to/indra-ocr": {
       "url": "https://huggingface.co/datalab-to/indra-ocr",
-      "description": "Indra OCR is a 1M-parameter OCR model that reads up to 49 pages per second on CPU. It turns PDFs and images into markdown, plain text, or JSON with boxes, and it has these features:",
+      "description": "Indra OCR is a 1M-parameter OCR model that runs on CPU. It turns PDFs and images into markdown, text, or JSON with boxes, and it reads handwriting, 80+ languages, and pages at any angle.",
       "pipelineTag": "image-to-text",
       "baseModels": []
     },
@@ -3138,6 +3098,50 @@
       "pipelineTag": "image-text-to-text",
       "baseModels": [
         "openbmb/MiniCPM-V-4.7-35B-A3B"
+      ]
+    },
+    "mistralai/Timestral-209M": {
+      "url": "https://huggingface.co/mistralai/Timestral-209M",
+      "description": "Timestral is a family of time series foundation models for zero-shot forecasting, available in 5M, 28M, 123M, and 209M parameter versions. This repository contains the 209M checkpoint.",
+      "pipelineTag": "time-series-forecasting",
+      "baseModels": []
+    },
+    "reflection/Beam-1.0-501B-A23B": {
+      "url": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
+      "description": "Beam is an open model built by Reflection. Beam takes text as input and generates text as output. This release includes the instruction-tuned model in BF16, FP8, and NVFP4 numerics. Beam uses a sparse mixture-of-experts (MoE) architectur…",
+      "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4": {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+      "description": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4 is the quantized release of NVIDIA Nemotron 3.5 Super VL, a vision-language model for reasoning, coding, tool use, document understanding, and video understanding. It uses NVFP4 quantization t…",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16"
+      ]
+    },
+    "meta-models/Muse-Spark-Open-816B-A42B-NVFP4": {
+      "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B-NVFP4",
+      "description": null,
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "meta-models/Muse-Spark-Open-816B-A42B"
+      ]
+    },
+    "lodestones/MOSS-Image-SFT-8-steps-dmd": {
+      "url": "https://huggingface.co/lodestones/MOSS-Image-SFT-8-steps-dmd",
+      "description": "https://huggingface.co/spaces/hugging-apps/moss-image-8-step-dmd",
+      "pipelineTag": null,
+      "baseModels": [
+        "OpenMOSS-Team/MOSS-Image-SFT"
+      ]
+    },
+    "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8": {
+      "url": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
+      "description": "Uncensored release · Native FP8 (e4m3) + FP4 experts · 40-layer MoE · 1M context · Vision + video · Reasoning tiers · Tools",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "deepseek-ai/DeepSeek-V4.1-Flash-1017"
       ]
     }
   },
@@ -4305,7 +4309,6 @@
       "description": "Edit images with Qwen and enhance with FLUX.2 Klein",
       "sdk": "gradio",
       "models": [
-        "AST-1320/Qwen-2511-Image-To-Image-Edit-V.17-Diffusers",
         "AST-1320/vit-age-classifier",
         "black-forest-labs/FLUX.2-klein-4B",
         "black-forest-labs/FLUX.2-klein-9B",
@@ -4331,6 +4334,62 @@
       "models": [
         "microsoft/TRELLIS.2-4B",
         "ZhengPeng7/BiRefNet"
+      ]
+    },
+    "glitchlab/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow": {
+      "url": "https://huggingface.co/spaces/glitchlab/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
+      "title": "MiniMax H3 Turbo Lora UNCENSORED Workflow",
+      "description": "Video generation with a synchronized soundtrack",
+      "sdk": "gradio",
+      "models": [
+        "hfmlsoc/ncii-light-guard-v01",
+        "larryvrh/MiniMax-H3-Turbo-Lora",
+        "lightx2v/Minimax-h3-Turbo",
+        "lynaNSFW/mysticxxx_MM_H3",
+        "MiniMaxAI/MiniMax-H3",
+        "multimodalart/minimax-h3-aoti"
+      ]
+    },
+    "Edisoneh/InfiniSplat2": {
+      "url": "https://huggingface.co/spaces/Edisoneh/InfiniSplat2",
+      "title": "InfiniSplat2",
+      "description": null,
+      "sdk": "gradio",
+      "models": []
+    },
+    "baidu/Unlimited-OCR": {
+      "url": "https://huggingface.co/spaces/baidu/Unlimited-OCR",
+      "title": "Unlimited OCR",
+      "description": null,
+      "sdk": "gradio",
+      "models": [
+        "baidu/Unlimited-OCR"
+      ]
+    },
+    "FineEnvs/RL-Explorer": {
+      "url": "https://huggingface.co/spaces/FineEnvs/RL-Explorer",
+      "title": "RL Environments on Hugging Face",
+      "description": "Explore RL environments, browse tasks and run agent rollouts",
+      "sdk": "docker",
+      "models": []
+    },
+    "keysersoze/Faceswap-Headswap": {
+      "url": "https://huggingface.co/spaces/keysersoze/Faceswap-Headswap",
+      "title": "Faceswap / Headswap",
+      "description": "Faceswap & headswap for photos. Pose, light and outfit stay.",
+      "sdk": "gradio",
+      "models": []
+    },
+    "webml-community/FunctionGemma-Physics-Playground": {
+      "url": "https://huggingface.co/spaces/webml-community/FunctionGemma-Physics-Playground",
+      "title": "FunctionGemma Physics Playground",
+      "description": "Use natural language to solve fun physics simulation puzzles",
+      "sdk": "static",
+      "models": [
+        "Xenova/functiongemma-270m-game",
+        "google/functiongemma-270m-it",
+        "onnx-community/functiongemma-270m-it-ONNX",
+        "onnx-community/functiongemma-270m-it-ONNX-GQA"
       ]
     }
   }
