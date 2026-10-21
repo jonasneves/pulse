@@ -605,16 +605,6 @@
       "description": "Protocol Buffers - Google's data interchange format",
       "language": "C++"
     },
-    "KnockOutEZ/wigolo": {
-      "url": "https://github.com/KnockOutEZ/wigolo",
-      "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
-      "language": "TypeScript"
-    },
-    "AstrBotDevs/AstrBot": {
-      "url": "https://github.com/AstrBotDevs/AstrBot",
-      "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "language": "Python"
-    },
     "bojieli/ai-agent-book": {
       "url": "https://github.com/bojieli/ai-agent-book",
       "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
@@ -624,11 +614,6 @@
       "url": "https://github.com/ayghri/i-have-adhd",
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python"
-    },
-    "microsoft/Ontology-Playground": {
-      "url": "https://github.com/microsoft/Ontology-Playground",
-      "description": "Free, open-source web app for learning about ontologies and Microsoft Fabric IQ. Explore a catalogue of pre-built ontologies, design your own visually, export as RDF/XML, and share interactive diagrams. Zero backend, fully static.",
-      "language": "TypeScript"
     },
     "earthtojake/text-to-cad": {
       "url": "https://github.com/earthtojake/text-to-cad",
@@ -664,11 +649,6 @@
       "url": "https://github.com/DioxusLabs/dioxus",
       "description": "Fullstack app framework for web, desktop, and mobile.",
       "language": "Rust"
-    },
-    "langchain-ai/open_deep_research": {
-      "url": "https://github.com/langchain-ai/open_deep_research",
-      "description": "",
-      "language": "Python"
     },
     "schollz/croc": {
       "url": "https://github.com/schollz/croc",
@@ -2199,6 +2179,21 @@
       "url": "https://github.com/Kruk2/jasna",
       "description": "Video restoration tool",
       "language": "Python"
+    },
+    "Graphify-Labs/graphify": {
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "language": "Python"
+    },
+    "wshobson/agents": {
+      "url": "https://github.com/wshobson/agents",
+      "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
+      "language": "Python"
+    },
+    "vllm-project/vllm": {
+      "url": "https://github.com/vllm-project/vllm",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "language": "Python"
     }
   },
   "models": {
@@ -3142,6 +3137,30 @@
       "pipelineTag": "image-text-to-text",
       "baseModels": [
         "deepseek-ai/DeepSeek-V4.1-Flash-1017"
+      ]
+    },
+    "lodestones/Kromoss": {
+      "url": "https://huggingface.co/lodestones/Kromoss",
+      "description": "Kromoss is a full fine-tune of MOSS-Image-Base at 1024 px. It uses the same architecture, inference pipeline, text encoder (Qwen3.5-9B) and VAE (FLUX.2 small decoder) as MOSS-Image-SFT, and this repo has the same layout, so it is a drop-…",
+      "pipelineTag": "text-to-image",
+      "baseModels": [
+        "OpenMOSS-Team/MOSS-Image-Base"
+      ]
+    },
+    "XHToken/Spark-X2.6-4B": {
+      "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+      "description": "A little over a month has passed since Spark-X2.5. In the rapidly evolving world of AI agents, that is enough time to rethink, refine, and move the frontier forward. Building on the Spark-X2.5-4B, we introduce Spark-X2.6-4B, the latest g…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "XHToken/Spark-X2.6-4B-Base"
+      ]
+    },
+    "XHToken/Spark-X2.6-4B-GGUF": {
+      "url": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF",
+      "description": "A little over a month has passed since Spark-X2.5. In the rapidly evolving world of AI agents, that is enough time to rethink, refine, and move the frontier forward. Building on the Spark-X2.5-4B, we introduce Spark-X2.6-4B, the latest g…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "XHToken/Spark-X2.6-4B"
       ]
     }
   },
@@ -4309,12 +4328,11 @@
       "description": "Edit images with Qwen and enhance with FLUX.2 Klein",
       "sdk": "gradio",
       "models": [
-        "AST-1320/vit-age-classifier",
         "black-forest-labs/FLUX.2-klein-4B",
         "black-forest-labs/FLUX.2-klein-9B",
         "black-forest-labs/FLUX.2-klein-9b-kv",
-        "Qwen/Qwen-Image-Edit-2511",
-        "Qwen/Qwen2.5-7B-Instruct"
+        "Phr00t/Qwen-Image-Edit-Rapid-AIO",
+        "Qwen/Qwen-Image-Edit-2511"
       ]
     },
     "ibm-granite/speech-to-decisions": {
@@ -4391,6 +4409,58 @@
         "onnx-community/functiongemma-270m-it-ONNX",
         "onnx-community/functiongemma-270m-it-ONNX-GQA"
       ]
+    },
+    "fishpasters/uncensored-imageTOimage2Ref": {
+      "url": "https://huggingface.co/spaces/fishpasters/uncensored-imageTOimage2Ref",
+      "title": "Qwen Image 2.1 Uncensored",
+      "description": "Uncensored Qwen-Image-2.1 generate + edit",
+      "sdk": "gradio",
+      "models": [
+        "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+        "Qwen/Qwen-Image-2.1"
+      ]
+    },
+    "Lynote/free-ai-humanizer": {
+      "url": "https://huggingface.co/spaces/Lynote/free-ai-humanizer",
+      "title": "Free AI Humanizer",
+      "description": "Free, no-signup AI text humanizer. Bilingual EN/ZH.",
+      "sdk": "gradio",
+      "models": [
+        "Lynote/humanize-text-model"
+      ]
+    },
+    "JCisHERE/wan2-2-i2v-v3": {
+      "url": "https://huggingface.co/spaces/JCisHERE/wan2-2-i2v-v3",
+      "title": "Wan2.2 14B Fast Preview [NEW]",
+      "description": null,
+      "sdk": "gradio",
+      "models": [
+        "lkzd7/WAN2.2_LoraSet_NSFW",
+        "lopi999/Wan2.2-I2V_General-NSFW-LoRA",
+        "Lythiga/WAN2.2_I2V_Lora",
+        "rolechar/rc_wan2.2_i2v_loraset_nsfw_private",
+        "thornmaze/RIFE",
+        "thornmaze/WAMU_v3_WAN2.2_I2V_LIGHTNING",
+        "thornmaze/WanTransformer3DModel-sm120-cu130-raa"
+      ]
+    },
+    "Qwen/Qwen3-TTS": {
+      "url": "https://huggingface.co/spaces/Qwen/Qwen3-TTS",
+      "title": "Qwen3-TTS Demo",
+      "description": null,
+      "sdk": "gradio",
+      "models": [
+        "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+        "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+        "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign"
+      ]
+    },
+    "Lynote/free-ai-detector": {
+      "url": "https://huggingface.co/spaces/Lynote/free-ai-detector",
+      "title": "Free AI Detector",
+      "description": "Free, no-signup AI detector with sentence-level analysis.",
+      "sdk": "gradio",
+      "models": []
     }
   }
 }

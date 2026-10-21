@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-20T10:06:04.894Z",
+  "updated": "2026-10-21T10:11:55.046Z",
   "trending": [
     {
       "rank": 1,
       "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "pipelineTag": "image-text-to-text",
-      "likes": 1801,
-      "downloads": 27737,
-      "trendingScore": 1621,
+      "likes": 2055,
+      "downloads": 42122,
+      "trendingScore": 1836,
       "tags": [
         "transformers",
         "safetensors",
@@ -26,9 +26,9 @@
       "id": "black-forest-labs/flux-3-image-klein-comfy",
       "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
       "pipelineTag": "image-to-image",
-      "likes": 1022,
-      "downloads": 439528,
-      "trendingScore": 784,
+      "likes": 1121,
+      "downloads": 490447,
+      "trendingScore": 844,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -47,9 +47,9 @@
       "id": "fishaudio/drama-3",
       "url": "https://huggingface.co/fishaudio/drama-3",
       "pipelineTag": "text-to-speech",
-      "likes": 790,
-      "downloads": 13495,
-      "trendingScore": 757,
+      "likes": 856,
+      "downloads": 15274,
+      "trendingScore": 624,
       "tags": [
         "safetensors",
         "fish_omni",
@@ -64,12 +64,50 @@
     },
     {
       "rank": 4,
+      "id": "meta-models/Muse-Spark-Open-816B-A42B",
+      "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+      "pipelineTag": "image-text-to-text",
+      "likes": 616,
+      "downloads": 2891,
+      "trendingScore": 558,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "muse_spark",
+        "image-text-to-text",
+        "facebook",
+        "meta"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-15T15:46:43.000Z"
+    },
+    {
+      "rank": 5,
+      "id": "black-forest-labs/flux-3-image-klein",
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+      "pipelineTag": "image-to-image",
+      "likes": 579,
+      "downloads": 92604,
+      "trendingScore": 516,
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "image-generation",
+        "image-editing",
+        "flux",
+        "flux-3"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-16T04:58:03.000Z"
+    },
+    {
+      "rank": 6,
       "id": "google/embeddinggemma-2",
       "url": "https://huggingface.co/google/embeddinggemma-2",
       "pipelineTag": "feature-extraction",
-      "likes": 2736,
-      "downloads": 172474,
-      "trendingScore": 572,
+      "likes": 2785,
+      "downloads": 179734,
+      "trendingScore": 480,
       "tags": [
         "transformers",
         "safetensors",
@@ -83,13 +121,74 @@
       "description": "EmbeddingGemma 2 is an open multimodal embedding model built by Google DeepMind which maps text (incl. code), images, video, and audio inputs—and combinations thereof—into a single, unified 768-dimensional vector space. The model has 740…"
     },
     {
-      "rank": 5,
+      "rank": 7,
+      "id": "OpenMOSS-Team/MOSS-Image-SFT",
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+      "pipelineTag": "text-to-image",
+      "likes": 511,
+      "downloads": 5840,
+      "trendingScore": 476,
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "moss-image",
+        "text-to-image",
+        "en",
+        "zh"
+      ],
+      "baseModels": [
+        "OpenMOSS-Team/MOSS-Image-Base"
+      ],
+      "lastModified": "2026-10-21T01:52:00.000Z",
+      "description": "MOSS-Image-SFT is a supervised fine-tuned text-to-image model in the MOSS-Image family from OpenMOSS, derived from MOSS-Image-Base. It uses the same architecture and inference pipeline, supporting natural-language prompts, tag sequences,…"
+    },
+    {
+      "rank": 8,
+      "id": "Lightricks/LTX-2.5",
+      "url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "pipelineTag": "image-to-video",
+      "likes": 8669,
+      "downloads": 2057942,
+      "trendingScore": 435,
+      "tags": [
+        "diffusion-single-file",
+        "image-to-video",
+        "text-to-video",
+        "video-to-video",
+        "image-text-to-video",
+        "audio-to-video"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-11T07:00:53.000Z"
+    },
+    {
+      "rank": 9,
+      "id": "OpenMOSS-Team/MOSS-Image-Base",
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+      "pipelineTag": "text-to-image",
+      "likes": 447,
+      "downloads": 4344,
+      "trendingScore": 422,
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "moss-image",
+        "text-to-image",
+        "en",
+        "zh"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-21T01:51:54.000Z",
+      "description": "MOSS-Image-Base is the base text-to-image model in the MOSS-Image family from OpenMOSS. It supports natural-language prompts, tag sequences, and JSON layouts for controlling text placement and object arrangement."
+    },
+    {
+      "rank": 10,
       "id": "jialinyyzz/humanizer",
       "url": "https://huggingface.co/jialinyyzz/humanizer",
       "pipelineTag": "text-generation",
-      "likes": 2009,
-      "downloads": 115341,
-      "trendingScore": 561,
+      "likes": 2039,
+      "downloads": 120930,
+      "trendingScore": 412,
       "tags": [
         "gguf",
         "safetensors",
@@ -105,134 +204,13 @@
       "description": "A 12B model that rewrites AI-written drafts (emails, essays, reports, forum posts; English and Chinese) so they read like a person wrote them. It is trained to keep every number, unit, date, name and quote and to add nothing, and it runs…"
     },
     {
-      "rank": 6,
-      "id": "meta-models/Muse-Spark-Open-816B-A42B",
-      "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
-      "pipelineTag": "image-text-to-text",
-      "likes": 592,
-      "downloads": 2592,
-      "trendingScore": 543,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "muse_spark",
-        "image-text-to-text",
-        "facebook",
-        "meta"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-15T15:46:43.000Z"
-    },
-    {
-      "rank": 7,
-      "id": "LiquidAI/LFM2.5-24B-A2B",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
-      "pipelineTag": "text-generation",
-      "likes": 505,
-      "downloads": 15410,
-      "trendingScore": 489,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "lfm2_moe",
-        "text-generation",
-        "liquid",
-        "lfm2.5"
-      ],
-      "baseModels": [
-        "LiquidAI/LFM2.5-24B-A2B-Base"
-      ],
-      "lastModified": "2026-10-13T16:59:33.000Z",
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 8,
-      "id": "black-forest-labs/flux-3-image-klein",
-      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
-      "pipelineTag": "image-to-image",
-      "likes": 540,
-      "downloads": 78897,
-      "trendingScore": 489,
-      "tags": [
-        "diffusers",
-        "safetensors",
-        "image-generation",
-        "image-editing",
-        "flux",
-        "flux-3"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-16T04:58:03.000Z"
-    },
-    {
-      "rank": 9,
-      "id": "OpenMOSS-Team/MOSS-Image-SFT",
-      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
-      "pipelineTag": "text-to-image",
-      "likes": 463,
-      "downloads": 4547,
-      "trendingScore": 437,
-      "tags": [
-        "diffusers",
-        "safetensors",
-        "moss-image",
-        "text-to-image",
-        "en",
-        "zh"
-      ],
-      "baseModels": [
-        "OpenMOSS-Team/MOSS-Image-Base"
-      ],
-      "lastModified": "2026-10-19T08:31:03.000Z",
-      "description": "MOSS-Image-SFT is a supervised fine-tuned text-to-image model in the MOSS-Image family from OpenMOSS, derived from MOSS-Image-Base. It uses the same architecture and inference pipeline, supporting natural-language prompts, tag sequences,…"
-    },
-    {
-      "rank": 10,
-      "id": "Lightricks/LTX-2.5",
-      "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "pipelineTag": "image-to-video",
-      "likes": 8529,
-      "downloads": 2039447,
-      "trendingScore": 434,
-      "tags": [
-        "diffusion-single-file",
-        "image-to-video",
-        "text-to-video",
-        "video-to-video",
-        "image-text-to-video",
-        "audio-to-video"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-11T07:00:53.000Z"
-    },
-    {
       "rank": 11,
-      "id": "OpenMOSS-Team/MOSS-Image-Base",
-      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
-      "pipelineTag": "text-to-image",
-      "likes": 407,
-      "downloads": 3558,
-      "trendingScore": 385,
-      "tags": [
-        "diffusers",
-        "safetensors",
-        "moss-image",
-        "text-to-image",
-        "en",
-        "zh"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-19T08:31:00.000Z",
-      "description": "MOSS-Image-Base is the base text-to-image model in the MOSS-Image family from OpenMOSS. It supports natural-language prompts, tag sequences, and JSON layouts for controlling text placement and object arrangement."
-    },
-    {
-      "rank": 12,
       "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
       "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
       "pipelineTag": "text-to-image",
-      "likes": 4658,
-      "downloads": 2788283,
-      "trendingScore": 354,
+      "likes": 4738,
+      "downloads": 2738344,
+      "trendingScore": 347,
       "tags": [
         "gguf",
         "qwen",
@@ -248,13 +226,30 @@
       "description": "GGUF, Safetensors, and MLX quantized formats of Qwen/Qwen-Image-2.1 for local image generation using the original upstream base weights."
     },
     {
+      "rank": 12,
+      "id": "Comfy-Org/MOSS-Image",
+      "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
+      "pipelineTag": null,
+      "likes": 312,
+      "downloads": 1290080,
+      "trendingScore": 297,
+      "tags": [
+        "diffusion-single-file",
+        "comfyui"
+      ],
+      "baseModels": [
+        "OpenMOSS-Team/MOSS-Image-Base"
+      ],
+      "lastModified": "2026-10-20T20:24:03.000Z"
+    },
+    {
       "rank": 13,
       "id": "Qwen/Qwen3.8-27B",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
       "pipelineTag": "image-text-to-text",
-      "likes": 18030,
-      "downloads": 7586857,
-      "trendingScore": 287,
+      "likes": 18094,
+      "downloads": 7729432,
+      "trendingScore": 295,
       "tags": [
         "transformers",
         "safetensors",
@@ -269,49 +264,34 @@
     },
     {
       "rank": 14,
-      "id": "datalab-to/indra-ocr",
-      "url": "https://huggingface.co/datalab-to/indra-ocr",
-      "pipelineTag": "image-to-text",
-      "likes": 259,
-      "downloads": 3111,
-      "trendingScore": 255,
+      "id": "LiquidAI/LFM2.5-24B-A2B",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+      "pipelineTag": "text-generation",
+      "likes": 531,
+      "downloads": 16939,
+      "trendingScore": 274,
       "tags": [
-        "onnx",
+        "transformers",
         "safetensors",
-        "indra-ocr",
-        "ocr",
-        "cpu",
-        "pdf"
+        "lfm2_moe",
+        "text-generation",
+        "liquid",
+        "lfm2.5"
       ],
-      "baseModels": [],
-      "lastModified": "2026-10-19T14:36:52.000Z",
-      "description": "Indra OCR is a 1M-parameter OCR model that runs on CPU. It turns PDFs and images into markdown, text, or JSON with boxes, and it reads handwriting, 80+ languages, and pages at any angle."
+      "baseModels": [
+        "LiquidAI/LFM2.5-24B-A2B-Base"
+      ],
+      "lastModified": "2026-10-21T01:14:14.000Z",
+      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
     },
     {
       "rank": 15,
-      "id": "Comfy-Org/MOSS-Image",
-      "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
-      "pipelineTag": null,
-      "likes": 255,
-      "downloads": 924574,
-      "trendingScore": 249,
-      "tags": [
-        "diffusion-single-file",
-        "comfyui"
-      ],
-      "baseModels": [
-        "OpenMOSS-Team/MOSS-Image-Base"
-      ],
-      "lastModified": "2026-10-18T16:56:47.000Z"
-    },
-    {
-      "rank": 16,
       "id": "nvidia/Qwen3.8-Flash-Next-FP4-Local",
       "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local",
       "pipelineTag": "image-text-to-text",
-      "likes": 244,
-      "downloads": 7345,
-      "trendingScore": 240,
+      "likes": 277,
+      "downloads": 9340,
+      "trendingScore": 271,
       "tags": [
         "Model Optimizer",
         "safetensors",
@@ -327,13 +307,92 @@
       "description": "IMPORTANT: the NVFP4 scale factors in this checkpoint are in a new lossless compression format, but upstream vLLM support for this format has not yet landed. You must use one of the containers provided below."
     },
     {
+      "rank": 16,
+      "id": "tencent/Hy-Memory-30B-A3B",
+      "url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
+      "pipelineTag": "text-generation",
+      "likes": 264,
+      "downloads": 2682,
+      "trendingScore": 259,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "hy_v3",
+        "text-generation",
+        "conversational",
+        "en"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-16T08:12:51.000Z",
+      "description": "Hy-Memory-30B-A3B is a compact long-term-memory writer model (~3B active parameters) developed by Tencent Hunyuan to execute the write path inside external memory frameworks. It directly replaces the general-purpose LLM inside Mem0, MemO…"
+    },
+    {
       "rank": 17,
+      "id": "datalab-to/indra-ocr",
+      "url": "https://huggingface.co/datalab-to/indra-ocr",
+      "pipelineTag": "image-to-text",
+      "likes": 322,
+      "downloads": 3588,
+      "trendingScore": 256,
+      "tags": [
+        "onnx",
+        "safetensors",
+        "indra-ocr",
+        "ocr",
+        "cpu",
+        "pdf"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-19T14:36:52.000Z",
+      "description": "Indra OCR is a 1M-parameter OCR model that runs on CPU. It turns PDFs and images into markdown, text, or JSON with boxes, and it reads handwriting, 80+ languages, and pages at any angle."
+    },
+    {
+      "rank": 18,
+      "id": "mistralai/Timestral-209M",
+      "url": "https://huggingface.co/mistralai/Timestral-209M",
+      "pipelineTag": "time-series-forecasting",
+      "likes": 246,
+      "downloads": 5488,
+      "trendingScore": 236,
+      "tags": [
+        "timestral",
+        "safetensors",
+        "time-series",
+        "forecasting",
+        "foundation-model",
+        "time-series-forecasting"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-15T15:33:49.000Z",
+      "description": "Timestral is a family of time series foundation models for zero-shot forecasting, available in 5M, 28M, 123M, and 209M parameter versions. This repository contains the 209M checkpoint."
+    },
+    {
+      "rank": 19,
+      "id": "facebook/sam3",
+      "url": "https://huggingface.co/facebook/sam3",
+      "pipelineTag": "mask-generation",
+      "likes": 4801,
+      "downloads": 1906176,
+      "trendingScore": 210,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "sam3_video",
+        "feature-extraction",
+        "sam3",
+        "mask-generation"
+      ],
+      "baseModels": [],
+      "lastModified": "2025-11-20T22:05:08.000Z"
+    },
+    {
+      "rank": 20,
       "id": "baidu/Unlimited-OCR",
       "url": "https://huggingface.co/baidu/Unlimited-OCR",
       "pipelineTag": "image-text-to-text",
-      "likes": 4830,
-      "downloads": 1981704,
-      "trendingScore": 229,
+      "likes": 4846,
+      "downloads": 2127860,
+      "trendingScore": 188,
       "tags": [
         "transformers",
         "safetensors",
@@ -347,13 +406,33 @@
       "description": "Inference using Huggingface transformers on NVIDIA GPUs. Requirements tested on python 3.12.3 + CUDA12.9："
     },
     {
-      "rank": 18,
+      "rank": 21,
+      "id": "reflection/Beam-1.0-501B-A23B",
+      "url": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
+      "pipelineTag": "text-generation",
+      "likes": 191,
+      "downloads": 3555,
+      "trendingScore": 188,
+      "tags": [
+        "safetensors",
+        "beam",
+        "mixture-of-experts",
+        "reasoning",
+        "code",
+        "tool-use"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-16T13:22:56.000Z",
+      "description": "Beam is an open model built by Reflection. Beam takes text as input and generates text as output. This release includes the instruction-tuned model in BF16, FP8, and NVFP4 numerics. Beam uses a sparse mixture-of-experts (MoE) architectur…"
+    },
+    {
+      "rank": 22,
       "id": "Qwen/Qwen-Image-2.1-Turbo",
       "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
       "pipelineTag": "text-to-image",
-      "likes": 1001,
-      "downloads": 27652,
-      "trendingScore": 226,
+      "likes": 1019,
+      "downloads": 29826,
+      "trendingScore": 187,
       "tags": [
         "diffusers",
         "safetensors",
@@ -369,114 +448,13 @@
       "description": "Qwen-Image-2.1-Turbo is an accelerated checkpoint of Qwen-Image-2.1 for text-to-image generation and image editing with 8 denoising steps. It uses the same 7B visual generation architecture and loads directly with QwenImage21Pipeline in …"
     },
     {
-      "rank": 19,
-      "id": "tencent/Hy-Memory-30B-A3B",
-      "url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
-      "pipelineTag": "text-generation",
-      "likes": 226,
-      "downloads": 2145,
-      "trendingScore": 223,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "hy_v3",
-        "text-generation",
-        "conversational",
-        "en"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-16T08:12:51.000Z",
-      "description": "Hy-Memory-30B-A3B is a compact long-term-memory writer model (~3B active parameters) developed by Tencent Hunyuan to execute the write path inside external memory frameworks. It directly replaces the general-purpose LLM inside Mem0, MemO…"
-    },
-    {
-      "rank": 20,
-      "id": "LiquidAI/LFM2.5-24B-A2B-GGUF",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF",
-      "pipelineTag": "text-generation",
-      "likes": 220,
-      "downloads": 132848,
-      "trendingScore": 214,
-      "tags": [
-        "gguf",
-        "liquid",
-        "lfm2.5",
-        "llama.cpp",
-        "text-generation",
-        "en"
-      ],
-      "baseModels": [
-        "LiquidAI/LFM2.5-24B-A2B"
-      ],
-      "lastModified": "2026-10-13T21:33:53.000Z",
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 21,
-      "id": "facebook/sam3",
-      "url": "https://huggingface.co/facebook/sam3",
-      "pipelineTag": "mask-generation",
-      "likes": 4728,
-      "downloads": 1902047,
-      "trendingScore": 206,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "sam3_video",
-        "feature-extraction",
-        "sam3",
-        "mask-generation"
-      ],
-      "baseModels": [],
-      "lastModified": "2025-11-20T22:05:08.000Z"
-    },
-    {
-      "rank": 22,
-      "id": "mistralai/Timestral-209M",
-      "url": "https://huggingface.co/mistralai/Timestral-209M",
-      "pipelineTag": "time-series-forecasting",
-      "likes": 209,
-      "downloads": 4008,
-      "trendingScore": 201,
-      "tags": [
-        "timestral",
-        "safetensors",
-        "time-series",
-        "forecasting",
-        "foundation-model",
-        "time-series-forecasting"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-15T15:33:49.000Z",
-      "description": "Timestral is a family of time series foundation models for zero-shot forecasting, available in 5M, 28M, 123M, and 209M parameter versions. This repository contains the 209M checkpoint."
-    },
-    {
       "rank": 23,
-      "id": "reflection/Beam-1.0-501B-A23B",
-      "url": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
-      "pipelineTag": "text-generation",
-      "likes": 172,
-      "downloads": 2930,
-      "trendingScore": 170,
-      "tags": [
-        "safetensors",
-        "beam",
-        "mixture-of-experts",
-        "reasoning",
-        "code",
-        "tool-use"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-16T13:22:56.000Z",
-      "description": "Beam is an open model built by Reflection. Beam takes text as input and generates text as output. This release includes the instruction-tuned model in BF16, FP8, and NVFP4 numerics. Beam uses a sparse mixture-of-experts (MoE) architectur…"
-    },
-    {
-      "rank": 24,
       "id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
       "pipelineTag": "image-text-to-text",
-      "likes": 176,
-      "downloads": 11459,
-      "trendingScore": 170,
+      "likes": 191,
+      "downloads": 12910,
+      "trendingScore": 184,
       "tags": [
         "transformers",
         "safetensors",
@@ -492,33 +470,75 @@
       "description": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4 is the quantized release of NVIDIA Nemotron 3.5 Super VL, a vision-language model for reasoning, coding, tool use, document understanding, and video understanding. It uses NVFP4 quantization t…"
     },
     {
-      "rank": 25,
-      "id": "Qwen/Qwen3.8-Flash-Next",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
-      "pipelineTag": "image-text-to-text",
-      "likes": 6341,
-      "downloads": 2530599,
-      "trendingScore": 168,
+      "rank": 24,
+      "id": "lodestones/MOSS-Image-SFT-8-steps-dmd",
+      "url": "https://huggingface.co/lodestones/MOSS-Image-SFT-8-steps-dmd",
+      "pipelineTag": null,
+      "likes": 187,
+      "downloads": 68289,
+      "trendingScore": 184,
       "tags": [
-        "transformers",
-        "safetensors",
-        "qwen4_exp",
-        "image-text-to-text",
-        "conversational",
-        "eval-results"
+        "diffusers",
+        "safetensors"
       ],
-      "baseModels": [],
-      "lastModified": "2026-08-27T05:03:36.000Z",
-      "description": "As the frontier of foundation models pushes toward ever-larger parameter counts and ever-longer context windows, the question is no longer just how much we can scale, but how efficiently we can do so. Sustainable progress toward artifici…"
+      "baseModels": [
+        "OpenMOSS-Team/MOSS-Image-SFT"
+      ],
+      "lastModified": "2026-10-17T03:44:54.000Z",
+      "description": "https://huggingface.co/spaces/hugging-apps/moss-image-8-step-dmd"
+    },
+    {
+      "rank": 25,
+      "id": "lodestones/Kromoss",
+      "url": "https://huggingface.co/lodestones/Kromoss",
+      "pipelineTag": "text-to-image",
+      "likes": 184,
+      "downloads": 11608,
+      "trendingScore": 183,
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "moss-image",
+        "text-to-image",
+        "en",
+        "diffusers:MOSSImagePipeline"
+      ],
+      "baseModels": [
+        "OpenMOSS-Team/MOSS-Image-Base"
+      ],
+      "lastModified": "2026-10-20T14:31:08.000Z",
+      "description": "Kromoss is a full fine-tune of MOSS-Image-Base at 1024 px. It uses the same architecture, inference pipeline, text encoder (Qwen3.5-9B) and VAE (FLUX.2 small decoder) as MOSS-Image-SFT, and this repo has the same layout, so it is a drop-…"
     },
     {
       "rank": 26,
+      "id": "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
+      "url": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
+      "pipelineTag": "image-text-to-text",
+      "likes": 198,
+      "downloads": 3458,
+      "trendingScore": 180,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v41",
+        "text-generation",
+        "deepseek",
+        "fp8"
+      ],
+      "baseModels": [
+        "deepseek-ai/DeepSeek-V4.1-Flash-1017"
+      ],
+      "lastModified": "2026-10-18T12:45:29.000Z",
+      "description": "Uncensored release · Native FP8 (e4m3) + FP4 experts · 40-layer MoE · 1M context · Vision + video · Reasoning tiers · Tools"
+    },
+    {
+      "rank": 27,
       "id": "meta-models/Muse-Spark-Open-816B-A42B-NVFP4",
       "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B-NVFP4",
       "pipelineTag": "image-text-to-text",
-      "likes": 188,
-      "downloads": 5553,
-      "trendingScore": 168,
+      "likes": 196,
+      "downloads": 6507,
+      "trendingScore": 172,
       "tags": [
         "transformers",
         "safetensors",
@@ -533,13 +553,33 @@
       "lastModified": "2026-10-15T17:18:42.000Z"
     },
     {
-      "rank": 27,
+      "rank": 28,
+      "id": "Qwen/Qwen3.8-Flash-Next",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+      "pipelineTag": "image-text-to-text",
+      "likes": 6372,
+      "downloads": 2633567,
+      "trendingScore": 167,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen4_exp",
+        "image-text-to-text",
+        "conversational",
+        "eval-results"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-08-27T05:03:36.000Z",
+      "description": "As the frontier of foundation models pushes toward ever-larger parameter counts and ever-longer context windows, the question is no longer just how much we can scale, but how efficiently we can do so. Sustainable progress toward artifici…"
+    },
+    {
+      "rank": 29,
       "id": "deepseek-ai/DeepSeek-V4.1-Flash",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
       "pipelineTag": "image-text-to-text",
-      "likes": 4663,
-      "downloads": 1431582,
-      "trendingScore": 167,
+      "likes": 4678,
+      "downloads": 1468263,
+      "trendingScore": 153,
       "tags": [
         "transformers",
         "safetensors",
@@ -553,66 +593,24 @@
       "description": "We introduce DeepSeek-V4.1-Flash, a multimodal Mixture-of-Experts (MoE) model with 552B backbone parameters and support for contexts of up to one million tokens. The model natively processes images and text, and generates text autoregres…"
     },
     {
-      "rank": 28,
-      "id": "lodestones/MOSS-Image-SFT-8-steps-dmd",
-      "url": "https://huggingface.co/lodestones/MOSS-Image-SFT-8-steps-dmd",
-      "pipelineTag": null,
-      "likes": 165,
-      "downloads": 54814,
-      "trendingScore": 163,
-      "tags": [
-        "diffusers",
-        "safetensors"
-      ],
-      "baseModels": [
-        "OpenMOSS-Team/MOSS-Image-SFT"
-      ],
-      "lastModified": "2026-10-17T03:44:54.000Z",
-      "description": "https://huggingface.co/spaces/hugging-apps/moss-image-8-step-dmd"
-    },
-    {
-      "rank": 29,
-      "id": "ConwayResearch/Underdog-Saluki-27B-1.0",
-      "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
-      "pipelineTag": "text-generation",
-      "likes": 575,
-      "downloads": 449274,
-      "trendingScore": 155,
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "2-bit",
-        "tool-calling",
-        "function-calling",
-        "agents"
-      ],
-      "baseModels": [
-        "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF"
-      ],
-      "lastModified": "2026-10-15T11:43:02.000Z",
-      "description": "Qwen3.8-27B in under 8 GB, tuned to keep tool calling intact. A standard GGUF for stock llama.cpp. Read more: underdog.ai/saluki"
-    },
-    {
       "rank": 30,
-      "id": "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
-      "url": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
-      "pipelineTag": "image-text-to-text",
-      "likes": 159,
-      "downloads": 2803,
-      "trendingScore": 149,
+      "id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+      "pipelineTag": "text-generation",
+      "likes": 149,
+      "downloads": 3062,
+      "trendingScore": 148,
       "tags": [
         "transformers",
         "safetensors",
-        "deepseek_v41",
+        "dory",
         "text-generation",
-        "deepseek",
-        "fp8"
+        "nvidia",
+        "pytorch"
       ],
-      "baseModels": [
-        "deepseek-ai/DeepSeek-V4.1-Flash-1017"
-      ],
-      "lastModified": "2026-10-18T12:45:29.000Z",
-      "description": "Uncensored release · Native FP8 (e4m3) + FP4 experts · 40-layer MoE · 1M context · Vision + video · Reasoning tiers · Tools"
+      "baseModels": [],
+      "lastModified": "2026-10-16T23:54:11.000Z",
+      "description": "NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16 is a looped (latent-recurrent) large language model (LLM) trained by NVIDIA. The model employs a normalized-GPT architecture with interleaved hybrid sliding window attention (SWA) and full attention l…"
     }
   ],
   "small": [
@@ -621,9 +619,9 @@
       "id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
       "pipelineTag": "text-generation",
-      "likes": 139,
-      "downloads": 2480,
-      "trendingScore": 138,
+      "likes": 149,
+      "downloads": 3062,
+      "trendingScore": 148,
       "tags": [
         "transformers",
         "safetensors",
@@ -638,12 +636,34 @@
     },
     {
       "rank": 2,
+      "id": "XHToken/Spark-X2.6-4B",
+      "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+      "pipelineTag": "text-generation",
+      "likes": 107,
+      "downloads": 85,
+      "trendingScore": 100,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "spark2_5",
+        "text-generation",
+        "llm",
+        "sparkx2_5"
+      ],
+      "baseModels": [
+        "XHToken/Spark-X2.6-4B-Base"
+      ],
+      "lastModified": "2026-10-21T08:51:53.000Z",
+      "description": "A little over a month has passed since Spark-X2.5. In the rapidly evolving world of AI agents, that is enough time to rethink, refine, and move the frontier forward. Building on the Spark-X2.5-4B, we introduce Spark-X2.6-4B, the latest g…"
+    },
+    {
+      "rank": 3,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
-      "likes": 8518,
-      "downloads": 5382594,
-      "trendingScore": 65,
+      "likes": 8531,
+      "downloads": 5255644,
+      "trendingScore": 58,
       "tags": [
         "transformers",
         "safetensors",
@@ -658,35 +678,52 @@
       "lastModified": "2024-09-25T17:00:57.000Z"
     },
     {
-      "rank": 3,
-      "id": "JetBrains/Mellum2.1-12B-A2.5B-Thinking",
-      "url": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking",
+      "rank": 4,
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
-      "likes": 169,
-      "downloads": 4312,
-      "trendingScore": 50,
+      "likes": 5458,
+      "downloads": 429637,
+      "trendingScore": 54,
       "tags": [
         "transformers",
         "safetensors",
-        "mellum",
+        "llama",
         "text-generation",
-        "conversational",
-        "en"
+        "facebook",
+        "meta"
       ],
-      "baseModels": [
-        "JetBrains/Mellum2-12B-A2.5B-Base"
-      ],
-      "lastModified": "2026-10-07T23:08:12.000Z",
-      "description": "Mellum2.1 is the next version of Mellum2 Thinking. The architecture is unchanged (a 12B mixture-of-experts model with 2.5B active parameters), and almost all of the work for this version went into post-training, primarily reinforcement l…"
+      "baseModels": [],
+      "lastModified": "2025-06-18T23:49:51.000Z"
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF",
+      "pipelineTag": "text-generation",
+      "likes": 54,
+      "downloads": 7729,
+      "trendingScore": 52,
+      "tags": [
+        "transformers",
+        "gguf",
+        "nvidia",
+        "pytorch",
+        "nemotron-labs",
+        "dory"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-17T00:30:11.000Z",
+      "description": "NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF is a looped (latent-recurrent) large language model (LLM) trained by NVIDIA. The model employs a normalized-GPT architecture with interleaved hybrid sliding window attention (SWA) and full attention l…"
+    },
+    {
+      "rank": 6,
       "id": "JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
       "url": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
       "pipelineTag": "text-generation",
-      "likes": 129,
-      "downloads": 151955,
-      "trendingScore": 48,
+      "likes": 134,
+      "downloads": 166804,
+      "trendingScore": 49,
       "tags": [
         "gguf",
         "mellum",
@@ -702,72 +739,35 @@
       "description": "This repository contains GGUF builds of JetBrains/Mellum2.1-12B-A2.5B-Thinking in every quantization we publish, ready to run with llama.cpp, Ollama, LM Studio, and other GGUF-compatible runtimes. Each variant is one file; download the o…"
     },
     {
-      "rank": 5,
-      "id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF",
-      "pipelineTag": "text-generation",
-      "likes": 49,
-      "downloads": 6430,
-      "trendingScore": 48,
-      "tags": [
-        "transformers",
-        "gguf",
-        "nvidia",
-        "pytorch",
-        "nemotron-labs",
-        "dory"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-17T00:30:11.000Z",
-      "description": "NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF is a looped (latent-recurrent) large language model (LLM) trained by NVIDIA. The model employs a normalized-GPT architecture with interleaved hybrid sliding window attention (SWA) and full attention l…"
-    },
-    {
-      "rank": 6,
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "likes": 5427,
-      "downloads": 451674,
-      "trendingScore": 45,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "baseModels": [],
-      "lastModified": "2025-06-18T23:49:51.000Z"
-    },
-    {
       "rank": 7,
-      "id": "openbmb/MiniCPM5-2B",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+      "id": "JetBrains/Mellum2.1-12B-A2.5B-Thinking",
+      "url": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking",
       "pipelineTag": "text-generation",
-      "likes": 1803,
-      "downloads": 1328986,
-      "trendingScore": 39,
+      "likes": 171,
+      "downloads": 4901,
+      "trendingScore": 43,
       "tags": [
         "transformers",
         "safetensors",
-        "llama",
+        "mellum",
         "text-generation",
-        "minicpm",
-        "minicpm5"
+        "conversational",
+        "en"
       ],
-      "baseModels": [],
-      "lastModified": "2026-09-29T06:12:33.000Z",
-      "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…"
+      "baseModels": [
+        "JetBrains/Mellum2-12B-A2.5B-Base"
+      ],
+      "lastModified": "2026-10-07T23:08:12.000Z",
+      "description": "Mellum2.1 is the next version of Mellum2 Thinking. The architecture is unchanged (a 12B mixture-of-experts model with 2.5B active parameters), and almost all of the work for this version went into post-training, primarily reinforcement l…"
     },
     {
       "rank": 8,
       "id": "scratchyone/anon-1b",
       "url": "https://huggingface.co/scratchyone/anon-1b",
       "pipelineTag": "text-generation",
-      "likes": 38,
-      "downloads": 1634,
-      "trendingScore": 38,
+      "likes": 39,
+      "downloads": 1835,
+      "trendingScore": 39,
       "tags": [
         "transformers",
         "safetensors",
@@ -787,9 +787,9 @@
       "id": "ibm-granite/granite-switch-4.1-8b",
       "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b",
       "pipelineTag": "text-generation",
-      "likes": 35,
-      "downloads": 1267,
-      "trendingScore": 35,
+      "likes": 38,
+      "downloads": 1483,
+      "trendingScore": 38,
       "tags": [
         "transformers",
         "safetensors",
@@ -804,12 +804,54 @@
     },
     {
       "rank": 10,
+      "id": "XHToken/Spark-X2.6-4B-GGUF",
+      "url": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF",
+      "pipelineTag": "text-generation",
+      "likes": 39,
+      "downloads": 1359,
+      "trendingScore": 38,
+      "tags": [
+        "transformers",
+        "gguf",
+        "llm",
+        "sparkx2_5",
+        "text-generation",
+        "en"
+      ],
+      "baseModels": [
+        "XHToken/Spark-X2.6-4B"
+      ],
+      "lastModified": "2026-10-21T03:14:53.000Z",
+      "description": "A little over a month has passed since Spark-X2.5. In the rapidly evolving world of AI agents, that is enough time to rethink, refine, and move the frontier forward. Building on the Spark-X2.5-4B, we introduce Spark-X2.6-4B, the latest g…"
+    },
+    {
+      "rank": 11,
+      "id": "openbmb/MiniCPM5-2B",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+      "pipelineTag": "text-generation",
+      "likes": 1804,
+      "downloads": 1322537,
+      "trendingScore": 34,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "minicpm",
+        "minicpm5"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-09-29T06:12:33.000Z",
+      "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…"
+    },
+    {
+      "rank": 12,
       "id": "meta-llama/Llama-3.2-3B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
-      "likes": 2831,
-      "downloads": 1129500,
-      "trendingScore": 27,
+      "likes": 2843,
+      "downloads": 1110545,
+      "trendingScore": 30,
       "tags": [
         "transformers",
         "safetensors",
@@ -822,55 +864,13 @@
       "lastModified": "2024-10-24T15:07:29.000Z"
     },
     {
-      "rank": 11,
-      "id": "LiquidAI/LFM2.5-2.6B",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
-      "pipelineTag": "text-generation",
-      "likes": 843,
-      "downloads": 103485,
-      "trendingScore": 26,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "lfm2",
-        "text-generation",
-        "liquid",
-        "lfm2.5"
-      ],
-      "baseModels": [
-        "LiquidAI/LFM2.5-2.6B-Base"
-      ],
-      "lastModified": "2026-08-24T21:06:45.000Z",
-      "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/2b08LKpev0DNEk6DlnWkY.png\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: inline-block; margin-bottom: 0.5em; margin-top: 0.…"
-    },
-    {
-      "rank": 12,
-      "id": "amazon/ALoDLM-8B",
-      "url": "https://huggingface.co/amazon/ALoDLM-8B",
-      "pipelineTag": "text-generation",
-      "likes": 61,
-      "downloads": 1695,
-      "trendingScore": 26,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "alodlm",
-        "diffusion-language-model",
-        "looped-transformer",
-        "adaptive-computation"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-07T02:25:33.000Z",
-      "description": "Paper: ALoDLM: Adaptively Looped Diffusion Language Models · Project page: https://alo-dlm.github.io/"
-    },
-    {
       "rank": 13,
       "id": "meta-llama/Llama-3.1-8B",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
       "pipelineTag": "text-generation",
-      "likes": 2675,
-      "downloads": 645398,
-      "trendingScore": 20,
+      "likes": 2680,
+      "downloads": 642867,
+      "trendingScore": 22,
       "tags": [
         "transformers",
         "safetensors",
@@ -884,22 +884,23 @@
     },
     {
       "rank": 14,
-      "id": "meta-llama/Llama-3.2-1B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+      "id": "amazon/ALoDLM-8B",
+      "url": "https://huggingface.co/amazon/ALoDLM-8B",
       "pipelineTag": "text-generation",
-      "likes": 1868,
-      "downloads": 4946933,
-      "trendingScore": 20,
+      "likes": 61,
+      "downloads": 1772,
+      "trendingScore": 22,
       "tags": [
-        "transformers",
         "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
+        "qwen3",
+        "alodlm",
+        "diffusion-language-model",
+        "looped-transformer",
+        "adaptive-computation"
       ],
       "baseModels": [],
-      "lastModified": "2024-10-24T15:07:51.000Z"
+      "lastModified": "2026-10-07T02:25:33.000Z",
+      "description": "Paper: ALoDLM: Adaptively Looped Diffusion Language Models · Project page: https://alo-dlm.github.io/"
     }
   ]
 }

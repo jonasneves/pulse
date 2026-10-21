@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T10:06:04.263Z",
+  "updated": "2026-10-21T10:11:54.383Z",
   "trending": [
     {
       "rank": 1,
@@ -8,8 +8,8 @@
       "title": "Wan2.2 14B Preview",
       "description": "generate a video from an image with a text prompt",
       "sdk": "gradio",
-      "likes": 703,
-      "trendingScore": 160,
+      "likes": 750,
+      "trendingScore": 165,
       "tags": [
         "mcp-server"
       ],
@@ -23,32 +23,13 @@
     },
     {
       "rank": 2,
-      "id": "hugging-apps/bfs-best-face-swap",
-      "url": "https://huggingface.co/spaces/hugging-apps/bfs-best-face-swap",
-      "title": "BFS Best Face Swap",
-      "description": "Head swap with the BFS LoRA on Qwen-Image-2.1 (+turbo)",
-      "sdk": "gradio",
-      "likes": 368,
-      "trendingScore": 133,
-      "tags": [
-        "mcp-server"
-      ],
-      "models": [
-        "Alissonerdx/BFS-Best-Face-Swap",
-        "Qwen/Qwen-Image-2.1",
-        "Viggle/Qwen-Image-2.1-viggle-turbo"
-      ],
-      "lastModified": "2026-09-28T16:41:00.000Z"
-    },
-    {
-      "rank": 3,
       "id": "black-forest-labs/flux-3-image-klein",
       "url": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein",
       "title": "FLUX 3 Image Klein",
       "description": "5.6B open weights. Text-to-image, editing, bounding boxes",
       "sdk": "gradio",
-      "likes": 123,
-      "trendingScore": 121,
+      "likes": 146,
+      "trendingScore": 142,
       "tags": [
         "mcp-server"
       ],
@@ -63,27 +44,33 @@
       "lastModified": "2026-10-18T03:50:30.000Z"
     },
     {
-      "rank": 4,
-      "id": "multimodalart/jev-decision-index",
-      "url": "https://huggingface.co/spaces/multimodalart/jev-decision-index",
-      "title": "Jev Decision Index",
-      "description": "Benchmarks and news on various repros of TypeSafe's Jev",
-      "sdk": "static",
-      "likes": 739,
-      "trendingScore": 113,
-      "tags": [],
-      "models": [],
-      "lastModified": "2026-10-16T19:00:37.000Z"
+      "rank": 3,
+      "id": "hugging-apps/bfs-best-face-swap",
+      "url": "https://huggingface.co/spaces/hugging-apps/bfs-best-face-swap",
+      "title": "BFS Best Face Swap",
+      "description": "Head swap with the BFS LoRA on Qwen-Image-2.1 (+turbo)",
+      "sdk": "gradio",
+      "likes": 411,
+      "trendingScore": 136,
+      "tags": [
+        "mcp-server"
+      ],
+      "models": [
+        "Alissonerdx/BFS-Best-Face-Swap",
+        "Qwen/Qwen-Image-2.1",
+        "Viggle/Qwen-Image-2.1-viggle-turbo"
+      ],
+      "lastModified": "2026-09-28T16:41:00.000Z"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "id": "OpenMOSS-Team/MOSS-Image",
       "url": "https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image",
       "title": "MOSS-Image Workflow",
       "description": "MOSS-Image text-to-image as a gr.Workflow node canvas.",
       "sdk": "gradio",
-      "likes": 101,
-      "trendingScore": 95,
+      "likes": 115,
+      "trendingScore": 103,
       "tags": [
         "ml-intern"
       ],
@@ -94,14 +81,27 @@
       "lastModified": "2026-10-18T16:55:32.000Z"
     },
     {
+      "rank": 5,
+      "id": "multimodalart/jev-decision-index",
+      "url": "https://huggingface.co/spaces/multimodalart/jev-decision-index",
+      "title": "Jev Decision Index",
+      "description": "Benchmarks and news on various repros of TypeSafe's Jev",
+      "sdk": "static",
+      "likes": 754,
+      "trendingScore": 101,
+      "tags": [],
+      "models": [],
+      "lastModified": "2026-10-20T14:19:53.000Z"
+    },
+    {
       "rank": 6,
       "id": "fishaudio/Drama-3",
       "url": "https://huggingface.co/spaces/fishaudio/Drama-3",
       "title": "Drama 3",
       "description": "Direct Fish Audio Drama 3, streaming on ZeroGPU",
       "sdk": "gradio",
-      "likes": 93,
-      "trendingScore": 89,
+      "likes": 112,
+      "trendingScore": 96,
       "tags": [
         "text-to-speech",
         "fish-audio",
@@ -122,64 +122,27 @@
       "title": "Qwen 2511 + Flux.2 Klein",
       "description": "Edit images with Qwen and enhance with FLUX.2 Klein",
       "sdk": "gradio",
-      "likes": 161,
-      "trendingScore": 83,
+      "likes": 179,
+      "trendingScore": 78,
       "tags": [],
       "models": [
-        "AST-1320/vit-age-classifier",
         "black-forest-labs/FLUX.2-klein-4B",
         "black-forest-labs/FLUX.2-klein-9B",
         "black-forest-labs/FLUX.2-klein-9b-kv",
-        "Qwen/Qwen-Image-Edit-2511",
-        "Qwen/Qwen2.5-7B-Instruct"
+        "Phr00t/Qwen-Image-Edit-Rapid-AIO",
+        "Qwen/Qwen-Image-Edit-2511"
       ],
-      "lastModified": "2026-10-20T07:08:14.000Z"
+      "lastModified": "2026-10-21T09:30:56.000Z"
     },
     {
       "rank": 8,
-      "id": "hugging-apps/qwen-qwen-image-2-1-turbo",
-      "url": "https://huggingface.co/spaces/hugging-apps/qwen-qwen-image-2-1-turbo",
-      "title": "Qwen-Image-2.1-Turbo",
-      "description": "8-step text-to-image and editing with Qwen-Image-2.1-Turbo",
-      "sdk": "gradio",
-      "likes": 120,
-      "trendingScore": 68,
-      "tags": [
-        "mcp-server"
-      ],
-      "models": [
-        "hfmlsoc/ncii-guard-v02",
-        "hugging-apps/qwen-image-2-1-aoti",
-        "Qwen/Qwen-Image-2.1-Turbo"
-      ],
-      "lastModified": "2026-10-09T15:54:31.000Z"
-    },
-    {
-      "rank": 9,
-      "id": "pablodawson/minimax-h3-360-orbit",
-      "url": "https://huggingface.co/spaces/pablodawson/minimax-h3-360-orbit",
-      "title": "MiniMax-H3 360° Orbit LoRA",
-      "description": "One photo into a frozen-instant 360° camera orbit",
-      "sdk": "gradio",
-      "likes": 119,
-      "trendingScore": 66,
-      "tags": [],
-      "models": [
-        "pablodawson/MiniMax-H3-360-Orbit-LoRA",
-        "multimodalart/MiniMax-H3-Pruned",
-        "MiniMaxAI/MiniMax-H3"
-      ],
-      "lastModified": "2026-09-28T11:58:26.000Z"
-    },
-    {
-      "rank": 10,
       "id": "wank3r/minimax-h3",
       "url": "https://huggingface.co/spaces/wank3r/minimax-h3",
       "title": "minimax h3 turbo + lora's",
       "description": "Video generation with a synchronized soundtrack",
       "sdk": "gradio",
-      "likes": 99,
-      "trendingScore": 61,
+      "likes": 123,
+      "trendingScore": 75,
       "tags": [],
       "models": [
         "fusing/unet-ldm-dummy-update",
@@ -190,34 +153,34 @@
       "lastModified": "2026-09-12T14:30:24.000Z"
     },
     {
-      "rank": 11,
-      "id": "Viggle/Qwen-Image-2.1-viggle-turbo",
-      "url": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo",
-      "title": "Viggle Turbo for Qwen-Image-2.1",
-      "description": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
+      "rank": 9,
+      "id": "glitchlab/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
+      "url": "https://huggingface.co/spaces/glitchlab/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
+      "title": "MiniMax H3 Turbo Lora UNCENSORED Workflow",
+      "description": "Video generation with a synchronized soundtrack",
       "sdk": "gradio",
-      "likes": 352,
-      "trendingScore": 60,
-      "tags": [
-        "text-to-image",
-        "image-editing",
-        "distillation"
-      ],
+      "likes": 130,
+      "trendingScore": 75,
+      "tags": [],
       "models": [
-        "Viggle/Qwen-Image-2.1-viggle-turbo",
-        "Qwen/Qwen-Image-2.1"
+        "hfmlsoc/ncii-light-guard-v01",
+        "larryvrh/MiniMax-H3-Turbo-Lora",
+        "lightx2v/Minimax-h3-Turbo",
+        "lynaNSFW/mysticxxx_MM_H3",
+        "MiniMaxAI/MiniMax-H3",
+        "multimodalart/minimax-h3-aoti"
       ],
-      "lastModified": "2026-10-01T03:04:50.000Z"
+      "lastModified": "2026-10-17T16:34:04.000Z"
     },
     {
-      "rank": 12,
+      "rank": 10,
       "id": "raubatz/qwen-image-2.1-uncensored-aio-loras",
       "url": "https://huggingface.co/spaces/raubatz/qwen-image-2.1-uncensored-aio-loras",
       "title": "Qwen Image 2.1 Uncensored All-In-One LoRA Studio",
       "description": "Uncensored Qwen 2.1 with All-In-One LoRAs",
       "sdk": "gradio",
-      "likes": 89,
-      "trendingScore": 56,
+      "likes": 110,
+      "trendingScore": 66,
       "tags": [
         "mcp-server"
       ],
@@ -234,14 +197,50 @@
       "lastModified": "2026-10-13T13:58:00.000Z"
     },
     {
+      "rank": 11,
+      "id": "pablodawson/minimax-h3-360-orbit",
+      "url": "https://huggingface.co/spaces/pablodawson/minimax-h3-360-orbit",
+      "title": "MiniMax-H3 360° Orbit LoRA",
+      "description": "One photo into a frozen-instant 360° camera orbit",
+      "sdk": "gradio",
+      "likes": 125,
+      "trendingScore": 64,
+      "tags": [],
+      "models": [
+        "pablodawson/MiniMax-H3-360-Orbit-LoRA",
+        "multimodalart/MiniMax-H3-Pruned",
+        "MiniMaxAI/MiniMax-H3"
+      ],
+      "lastModified": "2026-09-28T11:58:26.000Z"
+    },
+    {
+      "rank": 12,
+      "id": "hugging-apps/qwen-qwen-image-2-1-turbo",
+      "url": "https://huggingface.co/spaces/hugging-apps/qwen-qwen-image-2-1-turbo",
+      "title": "Qwen-Image-2.1-Turbo",
+      "description": "8-step text-to-image and editing with Qwen-Image-2.1-Turbo",
+      "sdk": "gradio",
+      "likes": 128,
+      "trendingScore": 59,
+      "tags": [
+        "mcp-server"
+      ],
+      "models": [
+        "hfmlsoc/ncii-guard-v02",
+        "hugging-apps/qwen-image-2-1-aoti",
+        "Qwen/Qwen-Image-2.1-Turbo"
+      ],
+      "lastModified": "2026-10-09T15:54:31.000Z"
+    },
+    {
       "rank": 13,
       "id": "hitman911/wan2-2-fp8da-aoti-preview-2c-finishing",
       "url": "https://huggingface.co/spaces/hitman911/wan2-2-fp8da-aoti-preview-2c-finishing",
       "title": "Wan2.2 14B Cum explosion lora",
       "description": "generate a video from an image with a text prompt with text",
       "sdk": "gradio",
-      "likes": 83,
-      "trendingScore": 51,
+      "likes": 97,
+      "trendingScore": 57,
       "tags": [
         "mcp-server"
       ],
@@ -258,26 +257,13 @@
     },
     {
       "rank": 14,
-      "id": "vamo455/Omni-videos-custom-auto_prompt_high-quality",
-      "url": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality",
-      "title": "Omni Video Factory",
-      "description": "text to video, image to video, video extend",
-      "sdk": "gradio",
-      "likes": 293,
-      "trendingScore": 51,
-      "tags": [],
-      "models": [],
-      "lastModified": "2026-08-30T22:49:23.000Z"
-    },
-    {
-      "rank": 15,
       "id": "Aura1in/Krea-2-Turbo_v2",
       "url": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2",
       "title": "Krea 2 Turbo Image Generator",
       "description": "Krea 2 Turbo text2image and image editing",
       "sdk": "gradio",
-      "likes": 167,
-      "trendingScore": 51,
+      "likes": 178,
+      "trendingScore": 52,
       "tags": [],
       "models": [
         "Comfy-Org/Krea-2",
@@ -289,34 +275,80 @@
       "lastModified": "2026-09-14T02:27:15.000Z"
     },
     {
-      "rank": 16,
-      "id": "glitchlab/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
-      "url": "https://huggingface.co/spaces/glitchlab/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
-      "title": "MiniMax H3 Turbo Lora UNCENSORED Workflow",
-      "description": "Video generation with a synchronized soundtrack",
+      "rank": 15,
+      "id": "Viggle/Qwen-Image-2.1-viggle-turbo",
+      "url": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo",
+      "title": "Viggle Turbo for Qwen-Image-2.1",
+      "description": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
       "sdk": "gradio",
-      "likes": 90,
-      "trendingScore": 41,
-      "tags": [],
-      "models": [
-        "hfmlsoc/ncii-light-guard-v01",
-        "larryvrh/MiniMax-H3-Turbo-Lora",
-        "lightx2v/Minimax-h3-Turbo",
-        "lynaNSFW/mysticxxx_MM_H3",
-        "MiniMaxAI/MiniMax-H3",
-        "multimodalart/minimax-h3-aoti"
+      "likes": 360,
+      "trendingScore": 49,
+      "tags": [
+        "text-to-image",
+        "image-editing",
+        "distillation"
       ],
-      "lastModified": "2026-10-17T16:34:04.000Z"
+      "models": [
+        "Viggle/Qwen-Image-2.1-viggle-turbo",
+        "Qwen/Qwen-Image-2.1"
+      ],
+      "lastModified": "2026-10-01T03:04:50.000Z"
+    },
+    {
+      "rank": 16,
+      "id": "vamo455/Omni-videos-custom-auto_prompt_high-quality",
+      "url": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality",
+      "title": "Omni Video Factory",
+      "description": "text to video, image to video, video extend",
+      "sdk": "gradio",
+      "likes": 304,
+      "trendingScore": 46,
+      "tags": [],
+      "models": [],
+      "lastModified": "2026-08-30T22:49:23.000Z"
     },
     {
       "rank": 17,
+      "id": "ibm-granite/speech-to-decisions",
+      "url": "https://huggingface.co/spaces/ibm-granite/speech-to-decisions",
+      "title": "Speech to Decisions with Granite",
+      "description": "Live speech, heard and sized up by one Granite Switch model",
+      "sdk": "docker",
+      "likes": 43,
+      "trendingScore": 41,
+      "tags": [],
+      "models": [
+        "ibm-granite/granite-switch-4.1-8b"
+      ],
+      "lastModified": "2026-10-16T16:11:28.000Z"
+    },
+    {
+      "rank": 18,
+      "id": "fishpasters/uncensored-imageTOimage2Ref",
+      "url": "https://huggingface.co/spaces/fishpasters/uncensored-imageTOimage2Ref",
+      "title": "Qwen Image 2.1 Uncensored",
+      "description": "Uncensored Qwen-Image-2.1 generate + edit",
+      "sdk": "gradio",
+      "likes": 58,
+      "trendingScore": 36,
+      "tags": [
+        "mcp-server"
+      ],
+      "models": [
+        "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+        "Qwen/Qwen-Image-2.1"
+      ],
+      "lastModified": "2026-09-29T16:35:03.000Z"
+    },
+    {
+      "rank": 19,
       "id": "tardellirs/model-pulse",
       "url": "https://huggingface.co/spaces/tardellirs/model-pulse",
       "title": "Model Pulse",
       "description": "Hugging Face model download stats, history & trends",
       "sdk": "static",
-      "likes": 188,
-      "trendingScore": 39,
+      "likes": 192,
+      "trendingScore": 29,
       "tags": [
         "downloads",
         "statistics",
@@ -325,17 +357,32 @@
         "analytics"
       ],
       "models": [],
-      "lastModified": "2026-10-20T08:38:47.000Z"
+      "lastModified": "2026-10-21T08:44:08.000Z"
     },
     {
-      "rank": 18,
+      "rank": 20,
+      "id": "selfit-camera/Omni-Image-Editor",
+      "url": "https://huggingface.co/spaces/selfit-camera/Omni-Image-Editor",
+      "title": "Omni Image Editor",
+      "description": "Image edit, text to image, image upscale, remove watermark",
+      "sdk": "gradio",
+      "likes": 2831,
+      "trendingScore": 27,
+      "tags": [],
+      "models": [
+        "Falconsai/nsfw_image_detection"
+      ],
+      "lastModified": "2026-10-04T12:31:07.000Z"
+    },
+    {
+      "rank": 21,
       "id": "lightonai/LightOnOCR-3-Demo",
       "url": "https://huggingface.co/spaces/lightonai/LightOnOCR-3-Demo",
       "title": "LightOnOCR-3 Demo",
       "description": "OCR to Markdown with layout grounding",
       "sdk": "gradio",
-      "likes": 83,
-      "trendingScore": 35,
+      "likes": 85,
+      "trendingScore": 27,
       "tags": [],
       "models": [
         "lightonai/LightOnOCR-3-4B",
@@ -345,14 +392,14 @@
       "lastModified": "2026-10-08T19:56:33.000Z"
     },
     {
-      "rank": 19,
+      "rank": 22,
       "id": "Qwen/Qwen-Image-2.1",
       "url": "https://huggingface.co/spaces/Qwen/Qwen-Image-2.1",
       "title": "Qwen-Image-2.1",
       "description": null,
       "sdk": "gradio",
-      "likes": 450,
-      "trendingScore": 30,
+      "likes": 455,
+      "trendingScore": 26,
       "tags": [],
       "models": [
         "hfmlsoc/ncii-guard-v02",
@@ -361,45 +408,35 @@
       "lastModified": "2026-09-27T14:59:47.000Z"
     },
     {
-      "rank": 20,
-      "id": "ibm-granite/speech-to-decisions",
-      "url": "https://huggingface.co/spaces/ibm-granite/speech-to-decisions",
-      "title": "Speech to Decisions with Granite",
-      "description": "Live speech, heard and sized up by one Granite Switch model",
-      "sdk": "docker",
-      "likes": 31,
-      "trendingScore": 30,
-      "tags": [],
-      "models": [
-        "ibm-granite/granite-switch-4.1-8b"
-      ],
-      "lastModified": "2026-10-16T16:11:28.000Z"
-    },
-    {
-      "rank": 21,
-      "id": "speridlabs/iris-3b",
-      "url": "https://huggingface.co/spaces/speridlabs/iris-3b",
-      "title": "Iris-3B",
-      "description": "Pixel-space generation & general vision learner",
+      "rank": 23,
+      "id": "Lynote/free-ai-humanizer",
+      "url": "https://huggingface.co/spaces/Lynote/free-ai-humanizer",
+      "title": "Free AI Humanizer",
+      "description": "Free, no-signup AI text humanizer. Bilingual EN/ZH.",
       "sdk": "gradio",
-      "likes": 58,
-      "trendingScore": 28,
-      "tags": [],
-      "models": [
-        "Qwen/Qwen3-VL-4B-Instruct",
-        "speridlabs/iris-3b"
+      "likes": 443,
+      "trendingScore": 25,
+      "tags": [
+        "ai-humanizer",
+        "humanize-ai-text",
+        "gptzero-alternative",
+        "undetectable-ai",
+        "chatgpt-humanizer"
       ],
-      "lastModified": "2026-10-13T15:44:58.000Z"
+      "models": [
+        "Lynote/humanize-text-model"
+      ],
+      "lastModified": "2026-10-20T13:08:15.000Z"
     },
     {
-      "rank": 22,
+      "rank": 24,
       "id": "microsoft/TRELLIS.2",
       "url": "https://huggingface.co/spaces/microsoft/TRELLIS.2",
       "title": "TRELLIS.2",
       "description": "High-fidelity 3D Generation from images",
       "sdk": "gradio",
-      "likes": 2244,
-      "trendingScore": 27,
+      "likes": 2249,
+      "trendingScore": 24,
       "tags": [],
       "models": [
         "microsoft/TRELLIS.2-4B",
@@ -408,44 +445,14 @@
       "lastModified": "2026-05-20T07:56:11.000Z"
     },
     {
-      "rank": 23,
-      "id": "selfit-camera/Omni-Image-Editor",
-      "url": "https://huggingface.co/spaces/selfit-camera/Omni-Image-Editor",
-      "title": "Omni Image Editor",
-      "description": "Image edit, text to image, image upscale, remove watermark",
-      "sdk": "gradio",
-      "likes": 2819,
-      "trendingScore": 25,
-      "tags": [],
-      "models": [
-        "Falconsai/nsfw_image_detection"
-      ],
-      "lastModified": "2026-10-04T12:31:07.000Z"
-    },
-    {
-      "rank": 24,
-      "id": "aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
-      "url": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
-      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
-      "description": "Demo of the Collection of Qwen Image Edit LoRAs",
-      "sdk": "gradio",
-      "likes": 469,
-      "trendingScore": 23,
-      "tags": [
-        "mcp-server"
-      ],
-      "models": [],
-      "lastModified": "2026-09-25T17:05:00.000Z"
-    },
-    {
       "rank": 25,
       "id": "hugging-apps/minimax-h3-character-swap-lora",
       "url": "https://huggingface.co/spaces/hugging-apps/minimax-h3-character-swap-lora",
       "title": "MiniMax-H3 Character Swap LoRA",
       "description": "Swap one character in a clip for a reference character",
       "sdk": "gradio",
-      "likes": 134,
-      "trendingScore": 23,
+      "likes": 137,
+      "trendingScore": 24,
       "tags": [],
       "models": [
         "akatz-ai/MiniMax-H3-Character-Swap-LoRA",
@@ -456,31 +463,39 @@
     },
     {
       "rank": 26,
+      "id": "JCisHERE/wan2-2-i2v-v3",
+      "url": "https://huggingface.co/spaces/JCisHERE/wan2-2-i2v-v3",
+      "title": "Wan2.2 14B Fast Preview [NEW]",
+      "description": null,
+      "sdk": "gradio",
+      "likes": 35,
+      "trendingScore": 24,
+      "tags": [
+        "mcp-server"
+      ],
+      "models": [
+        "lkzd7/WAN2.2_LoraSet_NSFW",
+        "lopi999/Wan2.2-I2V_General-NSFW-LoRA",
+        "Lythiga/WAN2.2_I2V_Lora",
+        "rolechar/rc_wan2.2_i2v_loraset_nsfw_private",
+        "thornmaze/RIFE",
+        "thornmaze/WAMU_v3_WAN2.2_I2V_LIGHTNING",
+        "thornmaze/WanTransformer3DModel-sm120-cu130-raa"
+      ],
+      "lastModified": "2026-08-28T19:02:47.000Z"
+    },
+    {
+      "rank": 27,
       "id": "Edisoneh/InfiniSplat2",
       "url": "https://huggingface.co/spaces/Edisoneh/InfiniSplat2",
       "title": "InfiniSplat2",
       "description": null,
       "sdk": "gradio",
-      "likes": 26,
-      "trendingScore": 22,
+      "likes": 31,
+      "trendingScore": 24,
       "tags": [],
       "models": [],
       "lastModified": "2026-10-19T08:34:13.000Z"
-    },
-    {
-      "rank": 27,
-      "id": "baidu/Unlimited-OCR",
-      "url": "https://huggingface.co/spaces/baidu/Unlimited-OCR",
-      "title": "Unlimited OCR",
-      "description": null,
-      "sdk": "gradio",
-      "likes": 486,
-      "trendingScore": 20,
-      "tags": [],
-      "models": [
-        "baidu/Unlimited-OCR"
-      ],
-      "lastModified": "2026-06-24T02:38:58.000Z"
     },
     {
       "rank": 28,
@@ -489,8 +504,8 @@
       "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
       "description": "AnyPose pose still with a strong pose-reference lock",
       "sdk": "gradio",
-      "likes": 712,
-      "trendingScore": 20,
+      "likes": 716,
+      "trendingScore": 23,
       "tags": [
         "mcp-server"
       ],
@@ -505,35 +520,39 @@
     },
     {
       "rank": 29,
-      "id": "FineEnvs/RL-Explorer",
-      "url": "https://huggingface.co/spaces/FineEnvs/RL-Explorer",
-      "title": "RL Environments on Hugging Face",
-      "description": "Explore RL environments, browse tasks and run agent rollouts",
-      "sdk": "docker",
-      "likes": 35,
-      "trendingScore": 20,
-      "tags": [
-        "reinforcement-learning",
-        "rl-environments",
-        "rl-environment",
-        "agents",
-        "agentic-rl"
+      "id": "Qwen/Qwen3-TTS",
+      "url": "https://huggingface.co/spaces/Qwen/Qwen3-TTS",
+      "title": "Qwen3-TTS Demo",
+      "description": null,
+      "sdk": "gradio",
+      "likes": 2337,
+      "trendingScore": 21,
+      "tags": [],
+      "models": [
+        "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+        "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+        "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign"
       ],
-      "models": [],
-      "lastModified": "2026-10-04T11:23:01.000Z"
+      "lastModified": "2026-06-09T06:13:30.000Z"
     },
     {
       "rank": 30,
-      "id": "keysersoze/Faceswap-Headswap",
-      "url": "https://huggingface.co/spaces/keysersoze/Faceswap-Headswap",
-      "title": "Faceswap / Headswap",
-      "description": "Faceswap & headswap for photos. Pose, light and outfit stay.",
+      "id": "Lynote/free-ai-detector",
+      "url": "https://huggingface.co/spaces/Lynote/free-ai-detector",
+      "title": "Free AI Detector",
+      "description": "Free, no-signup AI detector with sentence-level analysis.",
       "sdk": "gradio",
-      "likes": 44,
-      "trendingScore": 20,
-      "tags": [],
+      "likes": 425,
+      "trendingScore": 21,
+      "tags": [
+        "ai-detector",
+        "free-ai-detector",
+        "gptzero-alternative",
+        "turnitin",
+        "content-authenticity"
+      ],
       "models": [],
-      "lastModified": "2026-10-19T12:18:17.000Z"
+      "lastModified": "2026-10-20T13:08:17.000Z"
     }
   ],
   "webml": [
@@ -544,7 +563,7 @@
       "title": "Ternary Bonsai 2 Hermes WebGPU",
       "description": "Run Hermes Agent in-browser w/ Ternary Bonsai 2 on WebGPU",
       "sdk": "static",
-      "likes": 17,
+      "likes": 18,
       "trendingScore": 16,
       "tags": [],
       "models": [
@@ -562,8 +581,8 @@
       "title": "EmbeddingGemma 2 WebGPU",
       "description": null,
       "sdk": "static",
-      "likes": 63,
-      "trendingScore": 9,
+      "likes": 64,
+      "trendingScore": 10,
       "tags": [],
       "models": [
         "google/embeddinggemma-2",
@@ -579,7 +598,7 @@
       "description": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
       "sdk": "static",
       "likes": 158,
-      "trendingScore": 8,
+      "trendingScore": 7,
       "tags": [],
       "models": [
         "prism-ml/Ternary-Bonsai-2-27B-gguf"
@@ -588,50 +607,35 @@
     },
     {
       "rank": 4,
-      "id": "webml-community/bonsai-webgpu-kernels",
-      "url": "https://huggingface.co/spaces/webml-community/bonsai-webgpu-kernels",
-      "title": "Bonsai 27B WebGPU Kernels",
-      "description": "Run a 1-bit 27B LLM locally in your browser on WebGPU",
-      "sdk": "static",
-      "likes": 473,
-      "trendingScore": 3,
-      "tags": [],
-      "models": [
-        "prism-ml/Bonsai-27B-gguf"
-      ],
-      "lastModified": "2026-07-14T23:12:47.000Z"
-    },
-    {
-      "rank": 5,
       "id": "webml-community/semantic-image-field",
       "url": "https://huggingface.co/spaces/webml-community/semantic-image-field",
       "title": "Semantic Image Field",
       "description": "Multimodal Jev (a.k.a. CLIP)",
       "sdk": "static",
-      "likes": 64,
+      "likes": 65,
       "trendingScore": 3,
       "tags": [],
       "models": [],
       "lastModified": "2026-09-22T02:00:31.000Z"
     },
     {
-      "rank": 6,
-      "id": "webml-community/Supertonic-TTS-WebGPU",
-      "url": "https://huggingface.co/spaces/webml-community/Supertonic-TTS-WebGPU",
-      "title": "Supertonic TTS WebGPU",
-      "description": "Blazingly fast text-to-speech 100% locally in your browser!",
+      "rank": 5,
+      "id": "webml-community/Nemotron-3-Nano-WebGPU",
+      "url": "https://huggingface.co/spaces/webml-community/Nemotron-3-Nano-WebGPU",
+      "title": "Nemotron 3 Nano WebGPU",
+      "description": "A compact reasoning-capable model running in your browser.",
       "sdk": "static",
-      "likes": 124,
+      "likes": 86,
       "trendingScore": 2,
       "tags": [],
       "models": [
-        "onnx-community/Supertonic-TTS-ONNX",
-        "Supertone/supertonic"
+        "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+        "onnx-community/NVIDIA-Nemotron-3-Nano-4B-BF16-ONNX"
       ],
-      "lastModified": "2026-05-12T19:31:14.000Z"
+      "lastModified": "2026-03-19T21:30:19.000Z"
     },
     {
-      "rank": 7,
+      "rank": 6,
       "id": "webml-community/bonsai-ternary-webgpu",
       "url": "https://huggingface.co/spaces/webml-community/bonsai-ternary-webgpu",
       "title": "Ternary Bonsai WebGPU",
@@ -644,7 +648,37 @@
       "lastModified": "2026-04-16T17:29:51.000Z"
     },
     {
+      "rank": 7,
+      "id": "webml-community/bonsai-webgpu-kernels",
+      "url": "https://huggingface.co/spaces/webml-community/bonsai-webgpu-kernels",
+      "title": "Bonsai 27B WebGPU Kernels",
+      "description": "Run a 1-bit 27B LLM locally in your browser on WebGPU",
+      "sdk": "static",
+      "likes": 473,
+      "trendingScore": 2,
+      "tags": [],
+      "models": [
+        "prism-ml/Bonsai-27B-gguf"
+      ],
+      "lastModified": "2026-07-14T23:12:47.000Z"
+    },
+    {
       "rank": 8,
+      "id": "webml-community/remove-background-webgpu",
+      "url": "https://huggingface.co/spaces/webml-community/remove-background-webgpu",
+      "title": "Remove Background WebGPU",
+      "description": "In-browser image background removal",
+      "sdk": "static",
+      "likes": 161,
+      "trendingScore": 1,
+      "tags": [],
+      "models": [
+        "Xenova/modnet"
+      ],
+      "lastModified": "2024-08-27T21:47:14.000Z"
+    },
+    {
+      "rank": 9,
       "id": "webml-community/kokoro-web",
       "url": "https://huggingface.co/spaces/webml-community/kokoro-web",
       "title": "Kokoro Text-to-Speech",
@@ -659,7 +693,7 @@
       "lastModified": "2025-04-05T17:04:06.000Z"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "id": "webml-community/deepseek-r1-webgpu",
       "url": "https://huggingface.co/spaces/webml-community/deepseek-r1-webgpu",
       "title": "DeepSeek-R1 WebGPU",
@@ -674,7 +708,7 @@
       "lastModified": "2025-04-16T23:53:17.000Z"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "id": "webml-community/kokoro-webgpu",
       "url": "https://huggingface.co/spaces/webml-community/kokoro-webgpu",
       "title": "Kokoro Text-to-Speech (WebGPU)",
@@ -689,7 +723,7 @@
       "lastModified": "2025-02-07T15:46:09.000Z"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "id": "webml-community/bedtime-story-generator",
       "url": "https://huggingface.co/spaces/webml-community/bedtime-story-generator",
       "title": "Bedtime Story Generator",
@@ -704,7 +738,7 @@
       "lastModified": "2026-05-12T19:30:44.000Z"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "id": "webml-community/dinov3-web",
       "url": "https://huggingface.co/spaces/webml-community/dinov3-web",
       "title": "DINOv3 Web",
@@ -719,7 +753,23 @@
       "lastModified": "2025-08-15T23:05:49.000Z"
     },
     {
-      "rank": 13,
+      "rank": 14,
+      "id": "webml-community/Supertonic-TTS-WebGPU",
+      "url": "https://huggingface.co/spaces/webml-community/Supertonic-TTS-WebGPU",
+      "title": "Supertonic TTS WebGPU",
+      "description": "Blazingly fast text-to-speech 100% locally in your browser!",
+      "sdk": "static",
+      "likes": 124,
+      "trendingScore": 1,
+      "tags": [],
+      "models": [
+        "onnx-community/Supertonic-TTS-ONNX",
+        "Supertone/supertonic"
+      ],
+      "lastModified": "2026-05-12T19:31:14.000Z"
+    },
+    {
+      "rank": 15,
       "id": "webml-community/FunctionGemma-Physics-Playground",
       "url": "https://huggingface.co/spaces/webml-community/FunctionGemma-Physics-Playground",
       "title": "FunctionGemma Physics Playground",
@@ -737,7 +787,7 @@
       "lastModified": "2025-12-18T17:28:14.000Z"
     },
     {
-      "rank": 14,
+      "rank": 16,
       "id": "webml-community/text-behind-video",
       "url": "https://huggingface.co/spaces/webml-community/text-behind-video",
       "title": "Text Behind Video",
@@ -753,23 +803,7 @@
       "lastModified": "2026-02-24T23:36:11.000Z"
     },
     {
-      "rank": 15,
-      "id": "webml-community/Nemotron-3-Nano-WebGPU",
-      "url": "https://huggingface.co/spaces/webml-community/Nemotron-3-Nano-WebGPU",
-      "title": "Nemotron 3 Nano WebGPU",
-      "description": "A compact reasoning-capable model running in your browser.",
-      "sdk": "static",
-      "likes": 85,
-      "trendingScore": 1,
-      "tags": [],
-      "models": [
-        "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
-        "onnx-community/NVIDIA-Nemotron-3-Nano-4B-BF16-ONNX"
-      ],
-      "lastModified": "2026-03-19T21:30:19.000Z"
-    },
-    {
-      "rank": 16,
+      "rank": 17,
       "id": "webml-community/bonsai-webgpu",
       "url": "https://huggingface.co/spaces/webml-community/bonsai-webgpu",
       "title": "Bonsai 1-bit WebGPU",
@@ -782,7 +816,7 @@
       "lastModified": "2026-04-15T16:05:17.000Z"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "id": "webml-community/bonsai-image-webgpu",
       "url": "https://huggingface.co/spaces/webml-community/bonsai-image-webgpu",
       "title": "Bonsai Image WebGPU",
@@ -798,7 +832,7 @@
       "lastModified": "2026-05-29T02:57:22.000Z"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "id": "webml-community/muse-glimmer-webgpu-kernels",
       "url": "https://huggingface.co/spaces/webml-community/muse-glimmer-webgpu-kernels",
       "title": "Muse Glimmer 30B - WebGPU Kernels",
@@ -815,7 +849,7 @@
       "lastModified": "2026-08-11T15:41:36.000Z"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "id": "webml-community/MiniCPM5-2B-WebGPU-Pi",
       "url": "https://huggingface.co/spaces/webml-community/MiniCPM5-2B-WebGPU-Pi",
       "title": "MiniCPM5 WebGPU Workspace",
@@ -836,7 +870,7 @@
       "lastModified": "2026-10-17T19:03:38.000Z"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "id": "webml-community/segment-anything-webgpu",
       "url": "https://huggingface.co/spaces/webml-community/segment-anything-webgpu",
       "title": "Segment Anything WebGPU",
@@ -851,7 +885,7 @@
       "lastModified": "2025-04-16T21:57:34.000Z"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "id": "webml-community/smollm-webgpu",
       "url": "https://huggingface.co/spaces/webml-community/smollm-webgpu",
       "title": "SmolLM WebGPU",
@@ -866,7 +900,7 @@
       "lastModified": "2024-08-19T14:56:46.000Z"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "id": "webml-community/phi-3.5-webgpu",
       "url": "https://huggingface.co/spaces/webml-community/phi-3.5-webgpu",
       "title": "Phi-3.5 WebGPU",
@@ -879,21 +913,6 @@
         "onnx-community/Phi-3.5-mini-instruct-onnx-web"
       ],
       "lastModified": "2025-04-07T18:56:08.000Z"
-    },
-    {
-      "rank": 23,
-      "id": "webml-community/remove-background-webgpu",
-      "url": "https://huggingface.co/spaces/webml-community/remove-background-webgpu",
-      "title": "Remove Background WebGPU",
-      "description": "In-browser image background removal",
-      "sdk": "static",
-      "likes": 160,
-      "trendingScore": 0,
-      "tags": [],
-      "models": [
-        "Xenova/modnet"
-      ],
-      "lastModified": "2024-08-27T21:47:14.000Z"
     },
     {
       "rank": 24,
