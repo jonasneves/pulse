@@ -630,11 +630,6 @@
       "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
       "language": "Rust"
     },
-    "hyprwm/Hyprland": {
-      "url": "https://github.com/hyprwm/Hyprland",
-      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
-      "language": "C++"
-    },
     "chrislgarry/Apollo-11": {
       "url": "https://github.com/chrislgarry/Apollo-11",
       "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
@@ -645,29 +640,9 @@
       "description": "Web UI for the pi coding agent",
       "language": "TypeScript"
     },
-    "DioxusLabs/dioxus": {
-      "url": "https://github.com/DioxusLabs/dioxus",
-      "description": "Fullstack app framework for web, desktop, and mobile.",
-      "language": "Rust"
-    },
-    "schollz/croc": {
-      "url": "https://github.com/schollz/croc",
-      "description": "Easily and securely send things from one computer to another :crocodile: :package:",
-      "language": "Go"
-    },
     "likec4/likec4": {
       "url": "https://github.com/likec4/likec4",
       "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
-      "language": "TypeScript"
-    },
-    "dottxt-ai/outlines": {
-      "url": "https://github.com/dottxt-ai/outlines",
-      "description": "Structured Outputs",
-      "language": "Python"
-    },
-    "dreamhunter2333/cloudflare_temp_email": {
-      "url": "https://github.com/dreamhunter2333/cloudflare_temp_email",
-      "description": "CloudFlare free temp domain email 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot",
       "language": "TypeScript"
     },
     "ComposioHQ/awesome-claude-skills": {
@@ -694,11 +669,6 @@
       "url": "https://github.com/yorukot/superfile",
       "description": "Pretty fancy and modern terminal file manager",
       "language": "Go"
-    },
-    "Julian-adv/OpenMMO": {
-      "url": "https://github.com/Julian-adv/OpenMMO",
-      "description": "",
-      "language": "Rust"
     },
     "block/buzz": {
       "url": "https://github.com/block/buzz",
@@ -2194,6 +2164,16 @@
       "url": "https://github.com/vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "language": "Python"
+    },
+    "twentyhq/twenty": {
+      "url": "https://github.com/twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "language": "TypeScript"
+    },
+    "strelov1/freehire": {
+      "url": "https://github.com/strelov1/freehire",
+      "description": "freehire — the open-source search engine for job seekers",
+      "language": "Go"
     }
   },
   "models": {
@@ -3161,6 +3141,26 @@
       "pipelineTag": "text-generation",
       "baseModels": [
         "XHToken/Spark-X2.6-4B"
+      ]
+    },
+    "RecursiveSI/flint": {
+      "url": "https://huggingface.co/RecursiveSI/flint",
+      "description": "Flint is Recursive’s mixture-of-experts language model for coding agents, with 39.8 billion total parameters and approximately 2.5 billion active per token. It is designed to investigate codebases, fix bugs, implement features, and write…",
+      "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "InternScience/Sage-A1.5": {
+      "url": "https://huggingface.co/InternScience/Sage-A1.5",
+      "description": "Sage‑A1.5 is a 35B Mixture‑of‑Experts agentic model based on Qwen3.6 and Agents-A1 from Shanghai AI Laboratory, built to advance long-horizon scientific problem solving through adaptive capability composition. Building upon A1, Sage‑A1.5…",
+      "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "orcarouter/OrcaCyber-Nano-1.0": {
+      "url": "https://huggingface.co/orcarouter/OrcaCyber-Nano-1.0",
+      "description": null,
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "orcarouter/OrcaCyber-Nano-1.0-AI-Defense"
       ]
     }
   },
@@ -4459,6 +4459,20 @@
       "url": "https://huggingface.co/spaces/Lynote/free-ai-detector",
       "title": "Free AI Detector",
       "description": "Free, no-signup AI detector with sentence-level analysis.",
+      "sdk": "gradio",
+      "models": []
+    },
+    "dlouapre/nlp-before-llms": {
+      "url": "https://huggingface.co/spaces/dlouapre/nlp-before-llms",
+      "title": "Natural Language Processing before LLMs",
+      "description": "From n-gram counts to attention, learning by doing",
+      "sdk": "docker",
+      "models": []
+    },
+    "rdata92/LTX-2.3-10Eros": {
+      "url": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros",
+      "title": "LTX 2.3 10Eros Image-to-Video",
+      "description": "ltx 2.3 improved image-to-video with 10eros & native audio",
       "sdk": "gradio",
       "models": []
     }
