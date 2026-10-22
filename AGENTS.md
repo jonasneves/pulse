@@ -4,7 +4,7 @@ GitHub Pages dashboard tracking growth of GitHub trending repos (stars), Hugging
 
 ## Layout
 
-No build step, no npm dependencies. Every `.js` file opens with a comment stating what it owns (`awk 'FNR==1{print "== " FILENAME} /\*\//{nextfile} 1' *.js scripts/*.js` prints every header). `index.html` loads only Google Fonts and the MCP relay script (`relay.kandue.app/webmcp.js`, README › From Claude, Cursor or VS Code); `index.css` holds all styles, themed light and dark with CSS custom properties. `scripts/fetch.js` runs daily and `scripts/digest.js` weekly from `.github/workflows/`; schedules, triggers, and commit behavior are in those files.
+No build step, no npm dependencies. Every `.js` file opens with a comment stating what it owns (`awk 'FNR==1{print "== " FILENAME} /\*\//{nextfile} 1' *.js scripts/*.js` prints every header). `index.html` loads only Google Fonts and the MCP relay script (`relay.site-mcp.com/webmcp.js`, README › From Claude, Cursor or VS Code); `index.css` holds all styles, themed light and dark with CSS custom properties. `scripts/fetch.js` runs daily and `scripts/digest.js` weekly from `.github/workflows/`; schedules, triggers, and commit behavior are in those files.
 
 To add a WebMCP tool, add an entry to `TOOL_DEFS` in `tools.js` and put the state or actions it needs on `pulse` in `index.js`; it registers and appears in the agent-tools panel automatically.
 
