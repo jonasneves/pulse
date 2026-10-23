@@ -115,11 +115,6 @@
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell"
     },
-    "jellyfin/jellyfin": {
-      "url": "https://github.com/jellyfin/jellyfin",
-      "description": "The Free Software Media System - Server Backend & API",
-      "language": "C#"
-    },
     "obra/superpowers": {
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
@@ -634,11 +629,6 @@
       "url": "https://github.com/chrislgarry/Apollo-11",
       "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
       "language": "Assembly"
-    },
-    "agegr/pi-web": {
-      "url": "https://github.com/agegr/pi-web",
-      "description": "Web UI for the pi coding agent",
-      "language": "TypeScript"
     },
     "likec4/likec4": {
       "url": "https://github.com/likec4/likec4",
@@ -2174,6 +2164,26 @@
       "url": "https://github.com/strelov1/freehire",
       "description": "freehire — the open-source search engine for job seekers",
       "language": "Go"
+    },
+    "php/php-src": {
+      "url": "https://github.com/php/php-src",
+      "description": "The PHP Interpreter",
+      "language": "C"
+    },
+    "fastapi/fastapi": {
+      "url": "https://github.com/fastapi/fastapi",
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "language": "Python"
+    },
+    "luongnv89/claude-howto": {
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "language": "Python"
+    },
+    "Meloong-Git/PCL": {
+      "url": "https://github.com/Meloong-Git/PCL",
+      "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
+      "language": "Visual Basic .NET"
     }
   },
   "models": {
@@ -3162,6 +3172,26 @@
       "baseModels": [
         "orcarouter/OrcaCyber-Nano-1.0-AI-Defense"
       ]
+    },
+    "unsloth/flint-GGUF": {
+      "url": "https://huggingface.co/unsloth/flint-GGUF",
+      "description": "Flint is Recursive’s mixture-of-experts language model for coding agents, with 39.8 billion total parameters and approximately 2.5 billion active per token. It is designed to investigate codebases, fix bugs, implement features, and write…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "RecursiveSI/flint"
+      ]
+    },
+    "MiniMaxAI/MiniMax-M3.1-Flash": {
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+      "description": "MiniMax-M3.1-Flash is a native multimodal mixture-of-experts model for coding, agentic workflows, computer use, and cybersecurity. It supports text, image, and video inputs with a context window of up to 1M tokens.",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
+    },
+    "XHToken/Spark-X2.6-4B-Base": {
+      "url": "https://huggingface.co/XHToken/Spark-X2.6-4B-Base",
+      "description": "A little over a month has passed since Spark-X2.5. In the rapidly evolving world of AI agents, that is enough time to rethink, refine, and move the frontier forward. Building on the Spark-X2.5-4B, we introduce Spark-X2.6-4B, the latest g…",
+      "pipelineTag": "text-generation",
+      "baseModels": []
     }
   },
   "spaces": {
@@ -4475,6 +4505,61 @@
       "description": "ltx 2.3 improved image-to-video with 10eros & native audio",
       "sdk": "gradio",
       "models": []
+    },
+    "HuggingFaceBio/Carbon-X-Release": {
+      "url": "https://huggingface.co/spaces/HuggingFaceBio/Carbon-X-Release",
+      "title": "Introducing Carbon-X",
+      "description": "The best open model for DNA understanding",
+      "sdk": "static",
+      "models": [
+        "HuggingFaceBio/Carbon-14B-SFT",
+        "HuggingFaceBio/Carbon-3B",
+        "HuggingFaceBio/Carbon-X",
+        "HuggingFaceBio/Qwen3-14B-AGRPO",
+        "HuggingFaceBio/Qwen3-14B-Instruct-Mid-300B-AGRPO",
+        "Qwen/Qwen3-14B"
+      ]
+    },
+    "nvidia/simready-central": {
+      "url": "https://huggingface.co/spaces/nvidia/simready-central",
+      "title": "SimReady Central USD Search",
+      "description": null,
+      "sdk": "docker",
+      "models": [
+        "nvidia/srp-staging-controlled"
+      ]
+    },
+    "webml-community/microgpt.js": {
+      "url": "https://huggingface.co/spaces/webml-community/microgpt.js",
+      "title": "microgpt.js",
+      "description": "A JavaScript port of Andrej Karpathy's microgpt.py",
+      "sdk": "static",
+      "models": []
+    },
+    "webml-community/Qwen3.5-WebGPU": {
+      "url": "https://huggingface.co/spaces/webml-community/Qwen3.5-WebGPU",
+      "title": "Qwen3.5 WebGPU",
+      "description": "Run Qwen3.5 (0.8B, 2B, 4B) in-browser with Transformers.js",
+      "sdk": "static",
+      "models": [
+        "onnx-community/Qwen3.5-0.8B-ONNX",
+        "onnx-community/Qwen3.5-2B-ONNX",
+        "onnx-community/Qwen3.5-4B-ONNX",
+        "Qwen/Qwen3.5-0.8B",
+        "Qwen/Qwen3.5-2B",
+        "Qwen/Qwen3.5-4B"
+      ]
+    },
+    "webml-community/lfm2.5-webgpu-summarizer": {
+      "url": "https://huggingface.co/spaces/webml-community/lfm2.5-webgpu-summarizer",
+      "title": "LFM2.5 WebGPU Summarizer",
+      "description": "Summarize webpages locally in your browser (demo)",
+      "sdk": "static",
+      "models": [
+        "LiquidAI/LFM2.5-350M-ONNX",
+        "LiquidAI/LFM2.5-350M",
+        "onnx-community/LFM2.5-350M-ONNX"
+      ]
     }
   }
 }
