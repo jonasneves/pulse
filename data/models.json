@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-23T10:05:54.374Z",
+  "updated": "2026-10-24T09:33:36.540Z",
   "trending": [
     {
       "rank": 1,
       "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "pipelineTag": "image-text-to-text",
-      "likes": 2456,
+      "likes": 2646,
       "downloads": 57715,
-      "trendingScore": 2110,
+      "trendingScore": 1992,
       "tags": [
         "transformers",
         "safetensors",
@@ -23,12 +23,31 @@
     },
     {
       "rank": 2,
+      "id": "RecursiveSI/flint",
+      "url": "https://huggingface.co/RecursiveSI/flint",
+      "pipelineTag": "text-generation",
+      "likes": 713,
+      "downloads": 1904,
+      "trendingScore": 692,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "flint",
+        "text-generation",
+        "conversational"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-21T14:24:03.000Z",
+      "description": "Flint is Recursive’s mixture-of-experts language model for coding agents, with 39.8 billion total parameters and approximately 2.5 billion active per token. It is designed to investigate codebases, fix bugs, implement features, and write…"
+    },
+    {
+      "rank": 3,
       "id": "black-forest-labs/flux-3-image-klein-comfy",
       "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
       "pipelineTag": "image-to-image",
-      "likes": 1336,
+      "likes": 1438,
       "downloads": 534837,
-      "trendingScore": 694,
+      "trendingScore": 600,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -43,32 +62,13 @@
       "lastModified": "2026-10-17T07:10:12.000Z"
     },
     {
-      "rank": 3,
-      "id": "RecursiveSI/flint",
-      "url": "https://huggingface.co/RecursiveSI/flint",
-      "pipelineTag": "text-generation",
-      "likes": 600,
-      "downloads": 1904,
-      "trendingScore": 588,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "flint",
-        "text-generation",
-        "conversational"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-21T14:24:03.000Z",
-      "description": "Flint is Recursive’s mixture-of-experts language model for coding agents, with 39.8 billion total parameters and approximately 2.5 billion active per token. It is designed to investigate codebases, fix bugs, implement features, and write…"
-    },
-    {
       "rank": 4,
       "id": "OpenMOSS-Team/MOSS-Image-SFT",
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
       "pipelineTag": "text-to-image",
-      "likes": 612,
+      "likes": 664,
       "downloads": 7658,
-      "trendingScore": 540,
+      "trendingScore": 434,
       "tags": [
         "diffusers",
         "safetensors",
@@ -85,32 +85,12 @@
     },
     {
       "rank": 5,
-      "id": "OpenMOSS-Team/MOSS-Image-Base",
-      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
-      "pipelineTag": "text-to-image",
-      "likes": 507,
-      "downloads": 5618,
-      "trendingScore": 453,
-      "tags": [
-        "diffusers",
-        "safetensors",
-        "moss-image",
-        "text-to-image",
-        "en",
-        "zh"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-21T01:51:54.000Z",
-      "description": "MOSS-Image-Base is the base text-to-image model in the MOSS-Image family from OpenMOSS. It supports natural-language prompts, tag sequences, and JSON layouts for controlling text placement and object arrangement."
-    },
-    {
-      "rank": 6,
       "id": "Lightricks/LTX-2.5",
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
       "pipelineTag": "image-to-video",
-      "likes": 8946,
-      "downloads": 2026951,
-      "trendingScore": 416,
+      "likes": 9084,
+      "downloads": 2087721,
+      "trendingScore": 407,
       "tags": [
         "diffusion-single-file",
         "image-to-video",
@@ -123,50 +103,13 @@
       "lastModified": "2026-10-11T07:00:53.000Z"
     },
     {
-      "rank": 7,
-      "id": "fishaudio/drama-3",
-      "url": "https://huggingface.co/fishaudio/drama-3",
-      "pipelineTag": "text-to-speech",
-      "likes": 931,
-      "downloads": 17017,
-      "trendingScore": 397,
-      "tags": [
-        "safetensors",
-        "fish_omni",
-        "fish-audio",
-        "text-to-speech",
-        "multi-speaker",
-        "audio-editing"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-17T05:06:07.000Z",
-      "description": "Fish Audio Drama 3 is Fish Audio's new-generation text-to-speech model, built for multi-character scenes and long-form content. It supports multi-speaker generation, voice cloning and natural-language control."
-    },
-    {
-      "rank": 8,
-      "id": "Comfy-Org/MOSS-Image",
-      "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
-      "pipelineTag": null,
-      "likes": 383,
-      "downloads": 1606363,
-      "trendingScore": 360,
-      "tags": [
-        "diffusion-single-file",
-        "comfyui"
-      ],
-      "baseModels": [
-        "OpenMOSS-Team/MOSS-Image-Base"
-      ],
-      "lastModified": "2026-10-22T05:20:17.000Z"
-    },
-    {
-      "rank": 9,
+      "rank": 6,
       "id": "XHToken/Spark-X2.6-4B",
       "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
       "pipelineTag": "text-generation",
-      "likes": 381,
+      "likes": 425,
       "downloads": 1060,
-      "trendingScore": 349,
+      "trendingScore": 390,
       "tags": [
         "transformers",
         "safetensors",
@@ -182,33 +125,53 @@
       "description": "A little over a month has passed since Spark-X2.5. In the rapidly evolving world of AI agents, that is enough time to rethink, refine, and move the frontier forward. Building on the Spark-X2.5-4B, we introduce Spark-X2.6-4B, the latest g…"
     },
     {
-      "rank": 10,
-      "id": "google/embeddinggemma-2",
-      "url": "https://huggingface.co/google/embeddinggemma-2",
-      "pipelineTag": "feature-extraction",
-      "likes": 2857,
-      "downloads": 192741,
-      "trendingScore": 322,
+      "rank": 7,
+      "id": "fishaudio/drama-3",
+      "url": "https://huggingface.co/fishaudio/drama-3",
+      "pipelineTag": "text-to-speech",
+      "likes": 958,
+      "downloads": 17017,
+      "trendingScore": 357,
       "tags": [
-        "transformers",
         "safetensors",
-        "embedding_gemma2",
-        "feature-extraction",
-        "embedding",
-        "sentence-transformers"
+        "fish_omni",
+        "fish-audio",
+        "text-to-speech",
+        "multi-speaker",
+        "audio-editing"
       ],
       "baseModels": [],
-      "lastModified": "2026-10-06T15:29:23.000Z",
-      "description": "EmbeddingGemma 2 is an open multimodal embedding model built by Google DeepMind which maps text (incl. code), images, video, and audio inputs—and combinations thereof—into a single, unified 768-dimensional vector space. The model has 740…"
+      "lastModified": "2026-10-17T05:06:07.000Z",
+      "description": "Fish Audio Drama 3 is Fish Audio's new-generation text-to-speech model, built for multi-character scenes and long-form content. It supports multi-speaker generation, voice cloning and natural-language control."
     },
     {
-      "rank": 11,
+      "rank": 8,
+      "id": "OpenMOSS-Team/MOSS-Image-Base",
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+      "pipelineTag": "text-to-image",
+      "likes": 525,
+      "downloads": 5618,
+      "trendingScore": 321,
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "moss-image",
+        "text-to-image",
+        "en",
+        "zh"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-21T01:51:54.000Z",
+      "description": "MOSS-Image-Base is the base text-to-image model in the MOSS-Image family from OpenMOSS. It supports natural-language prompts, tag sequences, and JSON layouts for controlling text placement and object arrangement."
+    },
+    {
+      "rank": 9,
       "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
       "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
       "pipelineTag": "text-to-image",
-      "likes": 4867,
-      "downloads": 2398071,
-      "trendingScore": 311,
+      "likes": 4922,
+      "downloads": 2303585,
+      "trendingScore": 314,
       "tags": [
         "gguf",
         "qwen",
@@ -224,13 +187,13 @@
       "description": "GGUF, Safetensors, and MLX quantized formats of Qwen/Qwen-Image-2.1 for local image generation using the original upstream base weights."
     },
     {
-      "rank": 12,
+      "rank": 10,
       "id": "Qwen/Qwen3.8-27B",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
       "pipelineTag": "image-text-to-text",
-      "likes": 18250,
-      "downloads": 7710011,
-      "trendingScore": 309,
+      "likes": 18303,
+      "downloads": 7851161,
+      "trendingScore": 312,
       "tags": [
         "transformers",
         "safetensors",
@@ -244,113 +207,30 @@
       "description": "Following the widespread community adoption of the Qwen3.5 and Qwen3.6 series, we are pleased to introduce Qwen3.8, the most capable generation in the Qwen open-model family to date."
     },
     {
-      "rank": 13,
-      "id": "jialinyyzz/humanizer",
-      "url": "https://huggingface.co/jialinyyzz/humanizer",
-      "pipelineTag": "text-generation",
-      "likes": 2106,
-      "downloads": 129025,
-      "trendingScore": 284,
+      "rank": 11,
+      "id": "Comfy-Org/MOSS-Image",
+      "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
+      "pipelineTag": null,
+      "likes": 407,
+      "downloads": 1606363,
+      "trendingScore": 297,
       "tags": [
-        "gguf",
-        "safetensors",
-        "gemma4_unified",
-        "image-text-to-text",
-        "humanizer",
-        "transformers"
+        "diffusion-single-file",
+        "comfyui"
       ],
       "baseModels": [
-        "google/gemma-4-12B"
+        "OpenMOSS-Team/MOSS-Image-Base"
       ],
-      "lastModified": "2026-10-15T02:09:56.000Z",
-      "description": "A 12B model that rewrites AI-written drafts (emails, essays, reports, forum posts; English and Chinese) so they read like a person wrote them. It is trained to keep every number, unit, date, name and quote and to add nothing, and it runs…"
+      "lastModified": "2026-10-22T05:20:17.000Z"
     },
     {
-      "rank": 14,
-      "id": "tencent/Hy-Memory-30B-A3B",
-      "url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
-      "pipelineTag": "text-generation",
-      "likes": 296,
-      "downloads": 3270,
-      "trendingScore": 277,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "hy_v3",
-        "text-generation",
-        "conversational",
-        "en"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-16T08:12:51.000Z",
-      "description": "Hy-Memory-30B-A3B is a compact long-term-memory writer model (~3B active parameters) developed by Tencent Hunyuan to execute the write path inside external memory frameworks. It directly replaces the general-purpose LLM inside Mem0, MemO…"
-    },
-    {
-      "rank": 15,
-      "id": "meta-models/Muse-Spark-Open-816B-A42B",
-      "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
-      "pipelineTag": "image-text-to-text",
-      "likes": 667,
-      "downloads": 5196,
-      "trendingScore": 266,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "muse_spark",
-        "image-text-to-text",
-        "facebook",
-        "meta"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-15T15:46:43.000Z"
-    },
-    {
-      "rank": 16,
-      "id": "datalab-to/indra-ocr",
-      "url": "https://huggingface.co/datalab-to/indra-ocr",
-      "pipelineTag": "image-to-text",
-      "likes": 376,
-      "downloads": 4033,
-      "trendingScore": 256,
-      "tags": [
-        "onnx",
-        "safetensors",
-        "indra-ocr",
-        "ocr",
-        "cpu",
-        "pdf"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-19T14:36:52.000Z",
-      "description": "Indra OCR is a 1M-parameter OCR model that runs on CPU. It turns PDFs and images into markdown, text, or JSON with boxes, and it reads handwriting, 80+ languages, and pages at any angle."
-    },
-    {
-      "rank": 17,
-      "id": "black-forest-labs/flux-3-image-klein",
-      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
-      "pipelineTag": "image-to-image",
-      "likes": 643,
-      "downloads": 105768,
-      "trendingScore": 255,
-      "tags": [
-        "diffusers",
-        "safetensors",
-        "image-generation",
-        "image-editing",
-        "flux",
-        "flux-3"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-16T04:58:03.000Z"
-    },
-    {
-      "rank": 18,
+      "rank": 12,
       "id": "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
       "url": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
       "pipelineTag": "image-text-to-text",
-      "likes": 278,
+      "likes": 313,
       "downloads": 4141,
-      "trendingScore": 242,
+      "trendingScore": 274,
       "tags": [
         "transformers",
         "safetensors",
@@ -366,33 +246,53 @@
       "description": "Uncensored release · Native FP8 (e4m3) + FP4 experts · 40-layer MoE · 1M context · Vision + video · Reasoning tiers · Tools"
     },
     {
-      "rank": 19,
-      "id": "mistralai/Timestral-209M",
-      "url": "https://huggingface.co/mistralai/Timestral-209M",
-      "pipelineTag": "time-series-forecasting",
-      "likes": 294,
-      "downloads": 6815,
-      "trendingScore": 239,
+      "rank": 13,
+      "id": "google/embeddinggemma-2",
+      "url": "https://huggingface.co/google/embeddinggemma-2",
+      "pipelineTag": "feature-extraction",
+      "likes": 2879,
+      "downloads": 206909,
+      "trendingScore": 272,
       "tags": [
-        "timestral",
+        "transformers",
         "safetensors",
-        "time-series",
-        "forecasting",
-        "foundation-model",
-        "time-series-forecasting"
+        "embedding_gemma2",
+        "feature-extraction",
+        "embedding",
+        "sentence-transformers"
       ],
       "baseModels": [],
-      "lastModified": "2026-10-15T15:33:49.000Z",
-      "description": "Timestral is a family of time series foundation models for zero-shot forecasting, available in 5M, 28M, 123M, and 209M parameter versions. This repository contains the 209M checkpoint."
+      "lastModified": "2026-10-06T15:29:23.000Z",
+      "description": "EmbeddingGemma 2 is an open multimodal embedding model built by Google DeepMind which maps text (incl. code), images, video, and audio inputs—and combinations thereof—into a single, unified 768-dimensional vector space. The model has 740…"
     },
     {
-      "rank": 20,
+      "rank": 14,
+      "id": "MiniMaxAI/MiniMax-M3.1-Flash",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+      "pipelineTag": "image-text-to-text",
+      "likes": 278,
+      "downloads": 1096,
+      "trendingScore": 272,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "minimax_m3_vl",
+        "image-text-to-text",
+        "multimodal",
+        "moe"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-23T03:37:20.000Z",
+      "description": "MiniMax-M3.1-Flash is a native multimodal mixture-of-experts model for coding, agentic workflows, computer use, and cybersecurity. It supports text, image, and video inputs with a context window of up to 1M tokens."
+    },
+    {
+      "rank": 15,
       "id": "InternScience/Sage-A1.5",
       "url": "https://huggingface.co/InternScience/Sage-A1.5",
       "pipelineTag": "text-generation",
-      "likes": 242,
+      "likes": 260,
       "downloads": 924,
-      "trendingScore": 238,
+      "trendingScore": 255,
       "tags": [
         "transformers",
         "safetensors",
@@ -406,33 +306,75 @@
       "description": "Sage‑A1.5 is a 35B Mixture‑of‑Experts agentic model based on Qwen3.6 and Agents-A1 from Shanghai AI Laboratory, built to advance long-horizon scientific problem solving through adaptive capability composition. Building upon A1, Sage‑A1.5…"
     },
     {
-      "rank": 21,
-      "id": "reflection/Beam-1.0-501B-A23B",
-      "url": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
+      "rank": 16,
+      "id": "jialinyyzz/humanizer",
+      "url": "https://huggingface.co/jialinyyzz/humanizer",
       "pipelineTag": "text-generation",
-      "likes": 235,
-      "downloads": 4432,
-      "trendingScore": 225,
+      "likes": 2123,
+      "downloads": 138556,
+      "trendingScore": 239,
       "tags": [
+        "gguf",
         "safetensors",
-        "beam",
-        "mixture-of-experts",
-        "reasoning",
-        "code",
-        "tool-use"
+        "gemma4_unified",
+        "image-text-to-text",
+        "humanizer",
+        "transformers"
       ],
-      "baseModels": [],
-      "lastModified": "2026-10-21T23:26:37.000Z",
-      "description": "Beam is an open model built by Reflection. Beam takes text as input and generates text as output. This release includes the instruction-tuned model in BF16, FP8, and NVFP4 numerics. Beam uses a sparse mixture-of-experts (MoE) architectur…"
+      "baseModels": [
+        "google/gemma-4-12B"
+      ],
+      "lastModified": "2026-10-15T02:09:56.000Z",
+      "description": "A 12B model that rewrites AI-written drafts (emails, essays, reports, forum posts; English and Chinese) so they read like a person wrote them. It is trained to keep every number, unit, date, name and quote and to add nothing, and it runs…"
     },
     {
-      "rank": 22,
+      "rank": 17,
+      "id": "mistralai/Timestral-209M",
+      "url": "https://huggingface.co/mistralai/Timestral-209M",
+      "pipelineTag": "time-series-forecasting",
+      "likes": 322,
+      "downloads": 6815,
+      "trendingScore": 236,
+      "tags": [
+        "timestral",
+        "safetensors",
+        "time-series",
+        "forecasting",
+        "foundation-model",
+        "time-series-forecasting"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-15T15:33:49.000Z",
+      "description": "Timestral is a family of time series foundation models for zero-shot forecasting, available in 5M, 28M, 123M, and 209M parameter versions. This repository contains the 209M checkpoint."
+    },
+    {
+      "rank": 18,
+      "id": "datalab-to/indra-ocr",
+      "url": "https://huggingface.co/datalab-to/indra-ocr",
+      "pipelineTag": "image-to-text",
+      "likes": 394,
+      "downloads": 4033,
+      "trendingScore": 235,
+      "tags": [
+        "onnx",
+        "safetensors",
+        "indra-ocr",
+        "ocr",
+        "cpu",
+        "pdf"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-19T14:36:52.000Z",
+      "description": "Indra OCR is a 1M-parameter OCR model that runs on CPU. It turns PDFs and images into markdown, text, or JSON with boxes, and it reads handwriting, 80+ languages, and pages at any angle."
+    },
+    {
+      "rank": 19,
       "id": "lodestones/Kromoss",
       "url": "https://huggingface.co/lodestones/Kromoss",
       "pipelineTag": "text-to-image",
-      "likes": 227,
+      "likes": 239,
       "downloads": 16365,
-      "trendingScore": 222,
+      "trendingScore": 234,
       "tags": [
         "diffusers",
         "safetensors",
@@ -448,53 +390,13 @@
       "description": "Kromoss is a full fine-tune of MOSS-Image-Base at 1024 px. It uses the same architecture, inference pipeline, text encoder (Qwen3.5-9B) and VAE (FLUX.2 small decoder) as MOSS-Image-SFT, and this repo has the same layout, so it is a drop-…"
     },
     {
-      "rank": 23,
-      "id": "nvidia/Qwen3.8-Flash-Next-FP4-Local",
-      "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local",
-      "pipelineTag": "image-text-to-text",
-      "likes": 322,
-      "downloads": 11197,
-      "trendingScore": 207,
-      "tags": [
-        "Model Optimizer",
-        "safetensors",
-        "qwen4_exp",
-        "nvidia",
-        "ModelOpt",
-        "Qwen3.8"
-      ],
-      "baseModels": [
-        "Qwen/Qwen3.8-Flash-Next"
-      ],
-      "lastModified": "2026-10-15T19:45:54.000Z",
-      "description": "IMPORTANT: the NVFP4 scale factors in this checkpoint are in a new lossless compression format, but upstream vLLM support for this format has not yet landed. You must use one of the containers provided below."
-    },
-    {
-      "rank": 24,
-      "id": "lodestones/MOSS-Image-SFT-8-steps-dmd",
-      "url": "https://huggingface.co/lodestones/MOSS-Image-SFT-8-steps-dmd",
-      "pipelineTag": null,
-      "likes": 203,
-      "downloads": 79664,
-      "trendingScore": 197,
-      "tags": [
-        "diffusers",
-        "safetensors"
-      ],
-      "baseModels": [
-        "OpenMOSS-Team/MOSS-Image-SFT"
-      ],
-      "lastModified": "2026-10-17T03:44:54.000Z",
-      "description": "https://huggingface.co/spaces/hugging-apps/moss-image-8-step-dmd"
-    },
-    {
-      "rank": 25,
+      "rank": 20,
       "id": "orcarouter/OrcaCyber-Nano-1.0",
       "url": "https://huggingface.co/orcarouter/OrcaCyber-Nano-1.0",
       "pipelineTag": "image-text-to-text",
-      "likes": 202,
+      "likes": 218,
       "downloads": 22314,
-      "trendingScore": 188,
+      "trendingScore": 203,
       "tags": [
         "gguf",
         "cybersecurity",
@@ -509,52 +411,13 @@
       "lastModified": "2026-10-22T03:16:13.000Z"
     },
     {
-      "rank": 26,
-      "id": "facebook/sam3",
-      "url": "https://huggingface.co/facebook/sam3",
-      "pipelineTag": "mask-generation",
-      "likes": 4951,
-      "downloads": 1837047,
-      "trendingScore": 176,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "sam3_video",
-        "feature-extraction",
-        "sam3",
-        "mask-generation"
-      ],
-      "baseModels": [],
-      "lastModified": "2025-11-20T22:05:08.000Z"
-    },
-    {
-      "rank": 27,
-      "id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
-      "pipelineTag": "text-generation",
-      "likes": 168,
-      "downloads": 3769,
-      "trendingScore": 163,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "dory",
-        "text-generation",
-        "nvidia",
-        "pytorch"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-16T23:54:11.000Z",
-      "description": "NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16 is a looped (latent-recurrent) large language model (LLM) trained by NVIDIA. The model employs a normalized-GPT architecture with interleaved hybrid sliding window attention (SWA) and full attention l…"
-    },
-    {
-      "rank": 28,
+      "rank": 21,
       "id": "unsloth/flint-GGUF",
       "url": "https://huggingface.co/unsloth/flint-GGUF",
       "pipelineTag": "text-generation",
-      "likes": 165,
+      "likes": 200,
       "downloads": 33277,
-      "trendingScore": 163,
+      "trendingScore": 196,
       "tags": [
         "gguf",
         "flint",
@@ -570,33 +433,172 @@
       "description": "Flint is Recursive’s mixture-of-experts language model for coding agents, with 39.8 billion total parameters and approximately 2.5 billion active per token. It is designed to investigate codebases, fix bugs, implement features, and write…"
     },
     {
-      "rank": 29,
-      "id": "MiniMaxAI/MiniMax-M3.1-Flash",
-      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+      "rank": 22,
+      "id": "black-forest-labs/flux-3-image-klein",
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+      "pipelineTag": "image-to-image",
+      "likes": 660,
+      "downloads": 105768,
+      "trendingScore": 181,
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "image-generation",
+        "image-editing",
+        "flux",
+        "flux-3"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-16T04:58:03.000Z"
+    },
+    {
+      "rank": 23,
+      "id": "facebook/sam3",
+      "url": "https://huggingface.co/facebook/sam3",
+      "pipelineTag": "mask-generation",
+      "likes": 4998,
+      "downloads": 1863670,
+      "trendingScore": 175,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "sam3_video",
+        "feature-extraction",
+        "sam3",
+        "mask-generation"
+      ],
+      "baseModels": [],
+      "lastModified": "2025-11-20T22:05:08.000Z"
+    },
+    {
+      "rank": 24,
+      "id": "meta-models/Muse-Spark-Open-816B-A42B",
+      "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
       "pipelineTag": "image-text-to-text",
-      "likes": 166,
-      "downloads": 1096,
+      "likes": 680,
+      "downloads": 6811,
+      "trendingScore": 169,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "muse_spark",
+        "image-text-to-text",
+        "facebook",
+        "meta"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-15T15:46:43.000Z"
+    },
+    {
+      "rank": 25,
+      "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "pipelineTag": "image-text-to-text",
+      "likes": 2032,
+      "downloads": 1679051,
+      "trendingScore": 164,
+      "tags": [
+        "gguf",
+        "unsloth",
+        "fine tune",
+        "heretic",
+        "uncensored",
+        "abliterated"
+      ],
+      "baseModels": [
+        "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU"
+      ],
+      "lastModified": "2026-10-17T22:34:07.000Z",
+      "description": "in 8 bit and over 718 arc-c in 4 bit. This version is called TURBO because it drastically reduces thinking tokens (by 1/2 to as high as 1/10), yet maintains output detail and quality. In otherwords while \"reg\" Qwen3.8 27B is thinking abo…"
+    },
+    {
+      "rank": 26,
+      "id": "tencent/Hy-Memory-30B-A3B",
+      "url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
+      "pipelineTag": "text-generation",
+      "likes": 305,
+      "downloads": 3270,
       "trendingScore": 161,
       "tags": [
         "transformers",
         "safetensors",
-        "minimax_m3_vl",
-        "image-text-to-text",
-        "multimodal",
-        "moe"
+        "hy_v3",
+        "text-generation",
+        "conversational",
+        "en"
       ],
       "baseModels": [],
-      "lastModified": "2026-10-23T03:37:20.000Z",
-      "description": "MiniMax-M3.1-Flash is a native multimodal mixture-of-experts model for coding, agentic workflows, computer use, and cybersecurity. It supports text, image, and video inputs with a context window of up to 1M tokens."
+      "lastModified": "2026-10-16T08:12:51.000Z",
+      "description": "Hy-Memory-30B-A3B is a compact long-term-memory writer model (~3B active parameters) developed by Tencent Hunyuan to execute the write path inside external memory frameworks. It directly replaces the general-purpose LLM inside Mem0, MemO…"
+    },
+    {
+      "rank": 27,
+      "id": "Comfy-Org/Fibo-2.0",
+      "url": "https://huggingface.co/Comfy-Org/Fibo-2.0",
+      "pipelineTag": null,
+      "likes": 156,
+      "downloads": 70682,
+      "trendingScore": 156,
+      "tags": [
+        "diffusion-single-file",
+        "comfyui"
+      ],
+      "baseModels": [
+        "briaai/Fibo-2.0-dev"
+      ],
+      "lastModified": "2026-10-21T10:28:29.000Z",
+      "description": "The model weights are © BRIA AI and licensed under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0). You may use them for non-commercial purposes only. Commercial use requires a separate agreement with BRIA AI:…"
+    },
+    {
+      "rank": 28,
+      "id": "nvidia/Qwen3.8-Flash-Next-FP4-Local",
+      "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local",
+      "pipelineTag": "image-text-to-text",
+      "likes": 328,
+      "downloads": 11197,
+      "trendingScore": 154,
+      "tags": [
+        "Model Optimizer",
+        "safetensors",
+        "qwen4_exp",
+        "nvidia",
+        "ModelOpt",
+        "Qwen3.8"
+      ],
+      "baseModels": [
+        "Qwen/Qwen3.8-Flash-Next"
+      ],
+      "lastModified": "2026-10-15T19:45:54.000Z",
+      "description": "IMPORTANT: the NVFP4 scale factors in this checkpoint are in a new lossless compression format, but upstream vLLM support for this format has not yet landed. You must use one of the containers provided below."
+    },
+    {
+      "rank": 29,
+      "id": "ornith-ai/Ornith-1.5-122B",
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-122B",
+      "pipelineTag": "text-generation",
+      "likes": 152,
+      "downloads": 14049,
+      "trendingScore": 147,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5_moe",
+        "image-text-to-text",
+        "text-generation",
+        "conversational"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-21T08:29:30.000Z",
+      "description": "Chirp Chirp! 🐦 We are introducing Ornith-1.5, a major step toward building foundation models through end-to-end self-improvement."
     },
     {
       "rank": 30,
       "id": "Qwen/Qwen3.8-Flash-Next",
       "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
       "pipelineTag": "image-text-to-text",
-      "likes": 6421,
-      "downloads": 2788737,
-      "trendingScore": 153,
+      "likes": 6444,
+      "downloads": 3035077,
+      "trendingScore": 145,
       "tags": [
         "transformers",
         "safetensors",
@@ -616,9 +618,9 @@
       "id": "XHToken/Spark-X2.6-4B",
       "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
       "pipelineTag": "text-generation",
-      "likes": 381,
+      "likes": 425,
       "downloads": 1060,
-      "trendingScore": 349,
+      "trendingScore": 390,
       "tags": [
         "transformers",
         "safetensors",
@@ -638,9 +640,9 @@
       "id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
       "pipelineTag": "text-generation",
-      "likes": 168,
+      "likes": 179,
       "downloads": 3769,
-      "trendingScore": 163,
+      "trendingScore": 134,
       "tags": [
         "transformers",
         "safetensors",
@@ -658,9 +660,9 @@
       "id": "XHToken/Spark-X2.6-4B-GGUF",
       "url": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF",
       "pipelineTag": "text-generation",
-      "likes": 90,
+      "likes": 109,
       "downloads": 9824,
-      "trendingScore": 88,
+      "trendingScore": 105,
       "tags": [
         "transformers",
         "gguf",
@@ -680,9 +682,9 @@
       "id": "meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
       "pipelineTag": "text-generation",
-      "likes": 5510,
-      "downloads": 371915,
-      "trendingScore": 61,
+      "likes": 5531,
+      "downloads": 355079,
+      "trendingScore": 70,
       "tags": [
         "transformers",
         "safetensors",
@@ -696,32 +698,12 @@
     },
     {
       "rank": 5,
-      "id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF",
-      "pipelineTag": "text-generation",
-      "likes": 62,
-      "downloads": 8975,
-      "trendingScore": 59,
-      "tags": [
-        "transformers",
-        "gguf",
-        "nvidia",
-        "pytorch",
-        "nemotron-labs",
-        "dory"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-10-17T00:30:11.000Z",
-      "description": "NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF is a looped (latent-recurrent) large language model (LLM) trained by NVIDIA. The model employs a normalized-GPT architecture with interleaved hybrid sliding window attention (SWA) and full attention l…"
-    },
-    {
-      "rank": 6,
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
-      "likes": 8566,
-      "downloads": 4864172,
-      "trendingScore": 54,
+      "likes": 8584,
+      "downloads": 4880965,
+      "trendingScore": 53,
       "tags": [
         "transformers",
         "safetensors",
@@ -736,33 +718,33 @@
       "lastModified": "2024-09-25T17:00:57.000Z"
     },
     {
-      "rank": 7,
-      "id": "ibm-granite/granite-switch-4.1-8b",
-      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b",
+      "rank": 6,
+      "id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF",
       "pipelineTag": "text-generation",
-      "likes": 40,
-      "downloads": 1805,
-      "trendingScore": 32,
+      "likes": 64,
+      "downloads": 8975,
+      "trendingScore": 40,
       "tags": [
         "transformers",
-        "safetensors",
-        "granite_switch",
-        "text-generation",
-        "language",
-        "granite-switch"
+        "gguf",
+        "nvidia",
+        "pytorch",
+        "nemotron-labs",
+        "dory"
       ],
       "baseModels": [],
-      "lastModified": "2026-10-15T20:27:14.000Z",
-      "description": "📝 Read the launch blog: Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint"
+      "lastModified": "2026-10-17T00:30:11.000Z",
+      "description": "NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF is a looped (latent-recurrent) large language model (LLM) trained by NVIDIA. The model employs a normalized-GPT architecture with interleaved hybrid sliding window attention (SWA) and full attention l…"
     },
     {
-      "rank": 8,
+      "rank": 7,
       "id": "meta-llama/Llama-3.2-3B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
-      "likes": 2855,
-      "downloads": 1112418,
-      "trendingScore": 30,
+      "likes": 2866,
+      "downloads": 1120299,
+      "trendingScore": 33,
       "tags": [
         "transformers",
         "safetensors",
@@ -775,13 +757,13 @@
       "lastModified": "2024-10-24T15:07:29.000Z"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "id": "openbmb/MiniCPM5-2B",
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "pipelineTag": "text-generation",
-      "likes": 1811,
-      "downloads": 1254732,
-      "trendingScore": 29,
+      "likes": 1813,
+      "downloads": 1249910,
+      "trendingScore": 27,
       "tags": [
         "transformers",
         "safetensors",
@@ -795,35 +777,13 @@
       "description": "We are releasing MiniCPM5-2B, the second model in the MiniCPM5 series, following MiniCPM5-1B. It is a dense 2B Transformer that scales up the same training recipe, built for on-device, local deployment, and resource-constrained scenarios…"
     },
     {
-      "rank": 10,
-      "id": "JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
-      "url": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
-      "pipelineTag": "text-generation",
-      "likes": 140,
-      "downloads": 188190,
-      "trendingScore": 23,
-      "tags": [
-        "gguf",
-        "mellum",
-        "llama.cpp",
-        "quantized",
-        "moe",
-        "thinking"
-      ],
-      "baseModels": [
-        "JetBrains/Mellum2.1-12B-A2.5B-Thinking"
-      ],
-      "lastModified": "2026-10-22T02:35:26.000Z",
-      "description": "This repository contains GGUF builds of JetBrains/Mellum2.1-12B-A2.5B-Thinking in every quantization we publish, ready to run with llama.cpp, Ollama, LM Studio, and other GGUF-compatible runtimes. Each variant is one file; download the o…"
-    },
-    {
-      "rank": 11,
+      "rank": 9,
       "id": "XHToken/Spark-X2.6-4B-Base",
       "url": "https://huggingface.co/XHToken/Spark-X2.6-4B-Base",
       "pipelineTag": "text-generation",
-      "likes": 24,
+      "likes": 27,
       "downloads": 132,
-      "trendingScore": 23,
+      "trendingScore": 26,
       "tags": [
         "transformers",
         "safetensors",
@@ -835,6 +795,26 @@
       "baseModels": [],
       "lastModified": "2026-10-21T08:51:14.000Z",
       "description": "A little over a month has passed since Spark-X2.5. In the rapidly evolving world of AI agents, that is enough time to rethink, refine, and move the frontier forward. Building on the Spark-X2.5-4B, we introduce Spark-X2.6-4B, the latest g…"
+    },
+    {
+      "rank": 10,
+      "id": "ibm-granite/granite-switch-4.1-8b",
+      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b",
+      "pipelineTag": "text-generation",
+      "likes": 43,
+      "downloads": 1805,
+      "trendingScore": 23,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "granite_switch",
+        "text-generation",
+        "language",
+        "granite-switch"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-10-15T20:27:14.000Z",
+      "description": "📝 Read the launch blog: Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint"
     }
   ]
 }

@@ -180,11 +180,6 @@
       "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
       "language": "JavaScript"
     },
-    "koala73/worldmonitor": {
-      "url": "https://github.com/koala73/worldmonitor",
-      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "language": "TypeScript"
-    },
     "pingdotgg/t3code": {
       "url": "https://github.com/pingdotgg/t3code",
       "description": "",
@@ -629,11 +624,6 @@
       "url": "https://github.com/chrislgarry/Apollo-11",
       "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
       "language": "Assembly"
-    },
-    "likec4/likec4": {
-      "url": "https://github.com/likec4/likec4",
-      "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
-      "language": "TypeScript"
     },
     "ComposioHQ/awesome-claude-skills": {
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
@@ -2184,6 +2174,11 @@
       "url": "https://github.com/Meloong-Git/PCL",
       "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
       "language": "Visual Basic .NET"
+    },
+    "Renhuai123/ziwei-doushu": {
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "language": "TypeScript"
     }
   },
   "models": {
@@ -3190,6 +3185,20 @@
     "XHToken/Spark-X2.6-4B-Base": {
       "url": "https://huggingface.co/XHToken/Spark-X2.6-4B-Base",
       "description": "A little over a month has passed since Spark-X2.5. In the rapidly evolving world of AI agents, that is enough time to rethink, refine, and move the frontier forward. Building on the Spark-X2.5-4B, we introduce Spark-X2.6-4B, the latest g…",
+      "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "Comfy-Org/Fibo-2.0": {
+      "url": "https://huggingface.co/Comfy-Org/Fibo-2.0",
+      "description": "The model weights are © BRIA AI and licensed under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0). You may use them for non-commercial purposes only. Commercial use requires a separate agreement with BRIA AI:…",
+      "pipelineTag": null,
+      "baseModels": [
+        "briaai/Fibo-2.0-dev"
+      ]
+    },
+    "ornith-ai/Ornith-1.5-122B": {
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-122B",
+      "description": "Chirp Chirp! 🐦 We are introducing Ornith-1.5, a major step toward building foundation models through end-to-end self-improvement.",
       "pipelineTag": "text-generation",
       "baseModels": []
     }
@@ -4361,6 +4370,9 @@
         "black-forest-labs/FLUX.2-klein-4B",
         "black-forest-labs/FLUX.2-klein-9B",
         "black-forest-labs/FLUX.2-klein-9b-kv",
+        "LiquidAI/LFM2.5-VL-450M",
+        "nateraw/vit-age-classifier",
+        "OpenGVLab/InternVL3-1B-hf",
         "Phr00t/Qwen-Image-Edit-Rapid-AIO",
         "Qwen/Qwen-Image-Edit-2511"
       ]
@@ -4446,8 +4458,8 @@
       "description": "Uncensored Qwen-Image-2.1 generate + edit",
       "sdk": "gradio",
       "models": [
-        "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-        "Qwen/Qwen-Image-2.1"
+        "Qwen/Qwen-Image-2.1",
+        "abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
       ]
     },
     "Lynote/free-ai-humanizer": {
@@ -4559,6 +4571,30 @@
         "LiquidAI/LFM2.5-350M-ONNX",
         "LiquidAI/LFM2.5-350M",
         "onnx-community/LFM2.5-350M-ONNX"
+      ]
+    },
+    "briaai/Fibo-2.0-editing": {
+      "url": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing",
+      "title": "FIBO 2.0 Edit Turbo",
+      "description": "Fibo 2.0 Edit Turbo image editing in 4 steps",
+      "sdk": "gradio",
+      "models": [
+        "briaai/Fibo-2.0-edit-turbo",
+        "briaai/Fibo-2.0-dev"
+      ]
+    },
+    "baka999/MiniMax-H3-Turbo-Lora-UNCENSORED": {
+      "url": "https://huggingface.co/spaces/baka999/MiniMax-H3-Turbo-Lora-UNCENSORED",
+      "title": "MiniMax H3 Turbo LoRA",
+      "description": "Video generation with a synchronized soundtrack",
+      "sdk": "gradio",
+      "models": [
+        "hfmlsoc/ncii-light-guard-v01",
+        "larryvrh/MiniMax-H3-Turbo-Lora",
+        "lightx2v/Minimax-h3-Turbo",
+        "MiniMaxAI/MiniMax-H3",
+        "multimodalart/minimax-h3-aoti",
+        "ZhengmingYu/DMAD"
       ]
     }
   }
