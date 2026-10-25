@@ -80,11 +80,6 @@
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript"
     },
-    "Lordog/dive-into-llms": {
-      "url": "https://github.com/Lordog/dive-into-llms",
-      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
-      "language": "Jupyter Notebook"
-    },
     "NousResearch/hermes-agent": {
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
@@ -263,7 +258,7 @@
     "pbakaus/impeccable": {
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
-      "language": "JavaScript"
+      "language": "Rust"
     },
     "github/spec-kit": {
       "url": "https://github.com/github/spec-kit",
@@ -414,11 +409,6 @@
       "url": "https://github.com/smicallef/spiderfoot",
       "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
       "language": "Python"
-    },
-    "palmier-io/palmier-pro": {
-      "url": "https://github.com/palmier-io/palmier-pro",
-      "description": "macOS video editor built for AI",
-      "language": "Swift"
     },
     "firecrawl/firecrawl": {
       "url": "https://github.com/firecrawl/firecrawl",
@@ -653,11 +643,6 @@
     "block/buzz": {
       "url": "https://github.com/block/buzz",
       "description": "A hive mind communication platform",
-      "language": "Rust"
-    },
-    "Automattic/harper": {
-      "url": "https://github.com/Automattic/harper",
-      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
       "language": "Rust"
     },
     "OtterMind/Chat2DB": {
@@ -2179,6 +2164,36 @@
       "url": "https://github.com/Renhuai123/ziwei-doushu",
       "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
       "language": "TypeScript"
+    },
+    "aws/agent-toolkit-for-aws": {
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "language": "Python"
+    },
+    "Nutlope/hallmark": {
+      "url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS"
+    },
+    "pollen-robotics/microduck": {
+      "url": "https://github.com/pollen-robotics/microduck",
+      "description": "A Tiny biped duck robot 🦆",
+      "language": "Rust"
+    },
+    "google-gemini/gemini-cli": {
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "language": "TypeScript"
+    },
+    "jbiaojerry/ebook-treasure-chest": {
+      "url": "https://github.com/jbiaojerry/ebook-treasure-chest",
+      "description": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
+      "language": "Python"
+    },
+    "makecindy/cindy": {
+      "url": "https://github.com/makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "language": "TypeScript"
     }
   },
   "models": {
@@ -3201,6 +3216,44 @@
       "description": "Chirp Chirp! 🐦 We are introducing Ornith-1.5, a major step toward building foundation models through end-to-end self-improvement.",
       "pipelineTag": "text-generation",
       "baseModels": []
+    },
+    "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF": {
+      "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+      "description": "Non-uniform GGUF quantizations of a 763B-parameter, 384-expert MoE, produced with GSQ and RCO.",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "deepseek-ai/DeepSeek-V4.1-Flash-1017"
+      ]
+    },
+    "KRAFTON/Raon-1-mini-preview": {
+      "url": "https://huggingface.co/KRAFTON/Raon-1-mini-preview",
+      "description": "Raon-1 mini is a 30B-A4B Mixture-of-Experts (MoE) language model, designed and trained from scratch by KRAFTON AI. It demonstrates strong capabilities in Korean conversation and agentic tasks. As part of the Raon open model family, it is…",
+      "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF": {
+      "url": "https://huggingface.co/orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+      "description": null,
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated"
+      ]
+    },
+    "HuggingFaceBio/Carbon-X": {
+      "url": "https://huggingface.co/HuggingFaceBio/Carbon-X",
+      "description": "An open 14B language model for DNA understanding and generation, from the Carbon family.",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen3-14B"
+      ]
+    },
+    "Hobbylm/hobbylm-1B-computer-use": {
+      "url": "https://huggingface.co/Hobbylm/hobbylm-1B-computer-use",
+      "description": "HobbyLM-1B Computer Use is a LoRA adapter for HobbyLM-1B Instruct. It turns a plain-English request into actions on a Mac, one step at a time, and runs entirely on the device. This repository contains the adapter, the app that runs it (H…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "harims95/hobbylm-1B-instruct"
+      ]
     }
   },
   "spaces": {
@@ -4595,6 +4648,16 @@
         "MiniMaxAI/MiniMax-H3",
         "multimodalart/minimax-h3-aoti",
         "ZhengmingYu/DMAD"
+      ]
+    },
+    "openbmb/MiniCPM-V-4.7-Demo": {
+      "url": "https://huggingface.co/spaces/openbmb/MiniCPM-V-4.7-Demo",
+      "title": "MiniCPM-V 4.7 Demo",
+      "description": "MiniCPM-V 4.7 Ultra-Efficient Multimodal AI",
+      "sdk": "gradio",
+      "models": [
+        "openbmb/MiniCPM-V-4.7-1B",
+        "openbmb/MiniCPM-V-4.7-35B-A3B"
       ]
     }
   }
