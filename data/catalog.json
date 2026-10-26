@@ -195,11 +195,6 @@
       "description": "所有小初高、大学PDF教材。",
       "language": "Roff"
     },
-    "anthropics/claude-cookbooks": {
-      "url": "https://github.com/anthropics/claude-cookbooks",
-      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-      "language": "Jupyter Notebook"
-    },
     "asgeirtj/system_prompts_leaks": {
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
       "description": "Documented system prompts from Anthropic - Claude Fable 5.1, Opus 5.5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
@@ -490,11 +485,6 @@
       "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
       "language": "Python"
     },
-    "CoreBunch/Instatic": {
-      "url": "https://github.com/CoreBunch/Instatic",
-      "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there. ",
-      "language": "TypeScript"
-    },
     "microsoft/AI-For-Beginners": {
       "url": "https://github.com/microsoft/AI-For-Beginners",
       "description": "12 Weeks, 24 Lessons, AI for All!",
@@ -620,11 +610,6 @@
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
       "language": "Python"
     },
-    "Pumpkin-MC/Pumpkin": {
-      "url": "https://github.com/Pumpkin-MC/Pumpkin",
-      "description": "Empowering everyone to host fast and efficient Minecraft servers",
-      "language": "Rust"
-    },
     "citrolabs/ego-lite": {
       "url": "https://github.com/citrolabs/ego-lite",
       "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
@@ -645,11 +630,6 @@
       "description": "A hive mind communication platform",
       "language": "Rust"
     },
-    "OtterMind/Chat2DB": {
-      "url": "https://github.com/OtterMind/Chat2DB",
-      "description": "Chat2DB is a free, cross-platform, local-first database client and SQL workspace for developers, DBAs, analysts, and data teams. Connect to 40+ databases, manage data, edit and run SQL, and use your own AI model to generate, explain, and optimize queries. Available on desktop, web, Docker, and CLI, with MCP support.",
-      "language": "Java"
-    },
     "permissionlesstech/bitchat": {
       "url": "https://github.com/permissionlesstech/bitchat",
       "description": "bluetooth mesh chat, IRC vibes",
@@ -669,11 +649,6 @@
       "url": "https://github.com/vudovn/ag-kit",
       "description": "",
       "language": "TypeScript"
-    },
-    "permissionlesstech/bitchat-android": {
-      "url": "https://github.com/permissionlesstech/bitchat-android",
-      "description": "decentralized mesh chat",
-      "language": "Kotlin"
     },
     "amnezia-vpn/amnezia-client": {
       "url": "https://github.com/amnezia-vpn/amnezia-client",
@@ -2194,6 +2169,31 @@
       "url": "https://github.com/makecindy/cindy",
       "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
       "language": "TypeScript"
+    },
+    "JetBrains/thinkrail": {
+      "url": "https://github.com/JetBrains/thinkrail",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "language": "TypeScript"
+    },
+    "NVIDIA/SkillSpector": {
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "language": "Python"
+    },
+    "nightly-labs/openbot": {
+      "url": "https://github.com/nightly-labs/openbot",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "language": "TypeScript"
+    },
+    "gitroomhq/postiz-app": {
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "description": "📨 The ultimate agentic social media scheduling tool 🤖",
+      "language": "TypeScript"
+    },
+    "alchaincyf/huashu-design": {
+      "url": "https://github.com/alchaincyf/huashu-design",
+      "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+      "language": "HTML"
     }
   },
   "models": {
@@ -3253,6 +3253,28 @@
       "pipelineTag": "text-generation",
       "baseModels": [
         "harims95/hobbylm-1B-instruct"
+      ]
+    },
+    "Nanbeige/Nanbeige4.3-33B": {
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+      "description": "In Nanbeige4.3, we take a foundational step toward pushing the boundaries of lightweight agents. Our strategy centers on building a high-capacity teacher agent first, which will subsequently anchor the distillation of advanced agentic ca…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Nanbeige/Nanbeige4.3-33B-Base"
+      ]
+    },
+    "briaai/Fibo-2.0-dev": {
+      "url": "https://huggingface.co/briaai/Fibo-2.0-dev",
+      "description": null,
+      "pipelineTag": "text-to-image",
+      "baseModels": []
+    },
+    "gugujiji/novel-humanize-4b": {
+      "url": "https://huggingface.co/gugujiji/novel-humanize-4b",
+      "description": "fix_tools.py 里有 OpenAI function calling 格式的工具定义。任何支持 tools 的模型都能直接用，里面有两个工具：rewrite_novel（改写）和 fix_typos（修错字）。",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen3-4B"
       ]
     }
   },
@@ -4658,6 +4680,30 @@
       "models": [
         "openbmb/MiniCPM-V-4.7-1B",
         "openbmb/MiniCPM-V-4.7-35B-A3B"
+      ]
+    },
+    "gradium/phonon": {
+      "url": "https://huggingface.co/spaces/gradium/phonon",
+      "title": "Phonon",
+      "description": "Text-to-speech that runs in your browser",
+      "sdk": "static",
+      "models": [
+        "gradium/phonon-31m-en",
+        "gradium/phonon-40m-en",
+        "gradium/phonon-40m-multilingual"
+      ]
+    },
+    "kogutt999/Pro-Realism-Edit-Studio": {
+      "url": "https://huggingface.co/spaces/kogutt999/Pro-Realism-Edit-Studio",
+      "title": "Pro Realism Edit Studio",
+      "description": "Powerful image editing - supports one or two input images.",
+      "sdk": "gradio",
+      "models": [
+        "lovis93/next-scene-qwen-image-lora-2509",
+        "Phr00t/Qwen-Image-Edit-Rapid-AIO",
+        "Qwen/Qwen-Image-Edit-2511",
+        "Qwen/Qwen2.5-VL-7B-Instruct",
+        "SeedOfEvil/Qwen-Rapid-AIO-v18-NSFW-diffusers"
       ]
     }
   }
