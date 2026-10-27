@@ -630,11 +630,6 @@
       "description": "A hive mind communication platform",
       "language": "Rust"
     },
-    "permissionlesstech/bitchat": {
-      "url": "https://github.com/permissionlesstech/bitchat",
-      "description": "bluetooth mesh chat, IRC vibes",
-      "language": "Swift"
-    },
     "nodejs/node": {
       "url": "https://github.com/nodejs/node",
       "description": "Node.js JavaScript runtime ✨🐢🚀✨",
@@ -643,26 +638,6 @@
     "jenkinsci/jenkins": {
       "url": "https://github.com/jenkinsci/jenkins",
       "description": "Jenkins automation server",
-      "language": "Java"
-    },
-    "vudovn/ag-kit": {
-      "url": "https://github.com/vudovn/ag-kit",
-      "description": "",
-      "language": "TypeScript"
-    },
-    "amnezia-vpn/amnezia-client": {
-      "url": "https://github.com/amnezia-vpn/amnezia-client",
-      "description": "Amnezia VPN Client (Desktop+Mobile)",
-      "language": "C++"
-    },
-    "ocornut/imgui": {
-      "url": "https://github.com/ocornut/imgui",
-      "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
-      "language": "C++"
-    },
-    "apache/cassandra": {
-      "url": "https://github.com/apache/cassandra",
-      "description": "Open source transactional distributed database. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure without compromising performance.",
       "language": "Java"
     },
     "virgiliojr94/book-to-skill": {
@@ -3236,7 +3211,7 @@
       "description": null,
       "pipelineTag": "text-generation",
       "baseModels": [
-        "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated"
+        "deepseek-ai/DeepSeek-V4.1-Flash-1017"
       ]
     },
     "HuggingFaceBio/Carbon-X": {
@@ -3275,6 +3250,22 @@
       "pipelineTag": "text-generation",
       "baseModels": [
         "Qwen/Qwen3-4B"
+      ]
+    },
+    "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB": {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+      "description": "NVIDIA-Nemotron-3.5-Bolt-E4B-4GB is a small language model (SLM) further post-trained from Gemma-4-E4B-it by NVIDIA. Nemotron-3.5-Bolt-E4B carries forward Gemma’s strong conversational capabilities and further improves multi-turn tool us…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16"
+      ]
+    },
+    "microsoft/Sentiment-Analysis-7B": {
+      "url": "https://huggingface.co/microsoft/Sentiment-Analysis-7B",
+      "description": "Sentiment-Analysis-7B is a 7B-parameter autoregressive language model fine-tuned for sentiment classification of user messages directed at a service, product, or agent (the \"Target\"). It is built on top of mistralai/Mistral-7B-Instruct-v…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "mistralai/Mistral-7B-Instruct-v0.2"
       ]
     }
   },
@@ -4705,6 +4696,36 @@
         "Qwen/Qwen2.5-VL-7B-Instruct",
         "SeedOfEvil/Qwen-Rapid-AIO-v18-NSFW-diffusers"
       ]
+    },
+    "WizardTY/GEAR": {
+      "url": "https://huggingface.co/spaces/WizardTY/GEAR",
+      "title": "GEAR",
+      "description": "Recursive self-improvement of LLM agent harnesses",
+      "sdk": "static",
+      "models": []
+    },
+    "wank3r/qwen-image-2.1-uncensored-aio-loras-2": {
+      "url": "https://huggingface.co/spaces/wank3r/qwen-image-2.1-uncensored-aio-loras-2",
+      "title": "Qwen Image 2.1 Uncensored All-In-One LoRA Studio lara 2",
+      "description": "Uncensored Qwen 2.1 with All-In-One LoRAs",
+      "sdk": "gradio",
+      "models": [
+        "KasugaiSakura/Qwen-Image-2.1-Uncensored-Abenzerps-GGUF",
+        "Qwen/Qwen-Image-2.1",
+        "WarmBloodAban/Qwen-Image-2.1-LoRAs",
+        "prithivMLmods/Qwen-Image-2.1-Natural-Exposure-LoRA",
+        "alibaba-pai/Qwen-Image-2.1-Fun-Acc-LoRAs",
+        "Viggle/Qwen-Image-2.1-viggle-turbo",
+        "Alissonerdx/BFS-Best-Face-Swap",
+        "reverentelusarca/elusarcas-qwen-2.1-detail-enhancer-lora"
+      ]
+    },
+    "webml-community/neuron-studio": {
+      "url": "https://huggingface.co/spaces/webml-community/neuron-studio",
+      "title": "Neuron Studio",
+      "description": null,
+      "sdk": "static",
+      "models": []
     }
   }
 }
