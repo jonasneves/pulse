@@ -252,7 +252,7 @@
     },
     "pbakaus/impeccable": {
       "url": "https://github.com/pbakaus/impeccable",
-      "description": "The design language that makes your AI harness better at design.",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust"
     },
     "github/spec-kit": {
@@ -349,11 +349,6 @@
       "url": "https://github.com/bannedbook/fanqiang",
       "description": "翻墙-科学上网",
       "language": "Kotlin"
-    },
-    "andrewyng/aisuite": {
-      "url": "https://github.com/andrewyng/aisuite",
-      "description": "Simple, unified interface to multiple Generative AI providers ",
-      "language": "Python"
     },
     "chatwoot/chatwoot": {
       "url": "https://github.com/chatwoot/chatwoot",
@@ -505,11 +500,6 @@
       "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
       "language": "TypeScript"
     },
-    "bradautomates/claude-video": {
-      "url": "https://github.com/bradautomates/claude-video",
-      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-      "language": "Python"
-    },
     "MadsLorentzen/ai-job-search": {
       "url": "https://github.com/MadsLorentzen/ai-job-search",
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
@@ -620,11 +610,6 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go"
     },
-    "yorukot/superfile": {
-      "url": "https://github.com/yorukot/superfile",
-      "description": "Pretty fancy and modern terminal file manager",
-      "language": "Go"
-    },
     "block/buzz": {
       "url": "https://github.com/block/buzz",
       "description": "A hive mind communication platform",
@@ -655,20 +640,10 @@
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "language": "Python"
     },
-    "hello245m/free-stockdb": {
-      "url": "https://github.com/hello245m/free-stockdb",
-      "description": "面向 A 股日K、分钟K与ETF分钟数据的本地量化引擎，集成增量同步、本地缓存、复权、批量查询、回测与指标计算。",
-      "language": "HTML"
-    },
     "grokability/snipe-it": {
       "url": "https://github.com/grokability/snipe-it",
       "description": "A free open source IT asset/license management system",
       "language": "PHP"
-    },
-    "microsoft/agent-governance-toolkit": {
-      "url": "https://github.com/microsoft/agent-governance-toolkit",
-      "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
-      "language": "Python"
     },
     "deepfakes/faceswap": {
       "url": "https://github.com/deepfakes/faceswap",
@@ -2169,6 +2144,26 @@
       "url": "https://github.com/alchaincyf/huashu-design",
       "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
       "language": "HTML"
+    },
+    "elayadesign/ai-design-skills": {
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "description": "",
+      "language": null
+    },
+    "togg53192-cmd/jailbreaks": {
+      "url": "https://github.com/togg53192-cmd/jailbreaks",
+      "description": "LIST OF ALL MY JAILBREAKS",
+      "language": null
+    },
+    "expo/skills": {
+      "url": "https://github.com/expo/skills",
+      "description": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
+      "language": "Shell"
+    },
+    "xiaolai/the-craft-of-selfteaching": {
+      "url": "https://github.com/xiaolai/the-craft-of-selfteaching",
+      "description": "One has no future if one couldn't teach themself.",
+      "language": "Jupyter Notebook"
     }
   },
   "models": {
@@ -3266,6 +3261,64 @@
       "pipelineTag": "text-generation",
       "baseModels": [
         "mistralai/Mistral-7B-Instruct-v0.2"
+      ]
+    },
+    "baidu/Unlimited-OCR-2": {
+      "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+      "description": "Tested with Python 3.10, torch==2.13.0, transformers==4.52.1, huggingface-hub==0.36.0, tokenizers==0.21.4, on an NVIDIA A800-80GB:",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
+    },
+    "LiquidAI/LFM3-1.7B": {
+      "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+      "description": "src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/liquid-ai-banner.webp\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: block; margin: 0;\" />",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "LiquidAI/LFM3-1.7B-Base"
+      ]
+    },
+    "tencent/Hy-SimulMT-30B-A3B-FP8": {
+      "url": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-FP8",
+      "description": "Hy-SimulMT is a real-time simultaneous translation model developed by Tencent Hunyuan, supporting bidirectional speech-to-speech translation between Chinese and English. It continuously receives incoming audio and translates as the speak…",
+      "pipelineTag": "translation",
+      "baseModels": []
+    },
+    "ccore/Qwen3.5-4B-3D-Coder": {
+      "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+      "description": "An experiment exploring the feasibility of small language models for general-purpose coding and high-quality 3D scene generation.",
+      "pipelineTag": null,
+      "baseModels": [
+        "Qwen/Qwen3.5-4B"
+      ]
+    },
+    "LiquidAI/LFM3-1.7B-GGUF": {
+      "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF",
+      "description": "src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/liquid-ai-banner.webp\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: block; margin: 0;\" />",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "LiquidAI/LFM3-1.7B"
+      ]
+    },
+    "AtomicChat/LFM3-1.7B-Uncensored-GGUF": {
+      "url": "https://huggingface.co/AtomicChat/LFM3-1.7B-Uncensored-GGUF",
+      "description": "Safety-ablated GGUF of LiquidAI/LFM3-1.7B. A projected rank-1 LoRA (direction = mean harmful − mean harmless activations, with the harmless component projected out) is baked into the weights at W*=2.0, then AD-quantized.",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "LiquidAI/LFM3-1.7B"
+      ]
+    },
+    "LiquidAI/LFM3-1.7B-Base": {
+      "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-Base",
+      "description": "src=\"https://huggingface.co/LiquidAI/LFM3-1.7B-Base/resolve/main/assets/liquid-ai-banner.webp\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: block; margin: 0;\" />",
+      "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "XHToken/Spark-X2.6-1.7B": {
+      "url": "https://huggingface.co/XHToken/Spark-X2.6-1.7B",
+      "description": "We introduce Spark-X2.6-1.7B, the second model in the Spark-X2.6 series, following the release of Spark-X2.6-4B. Building on Spark-X2.5-1.7B, this release further advances our compact, general-purpose language models for on-device deploy…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "XHToken/Spark-X2.6-1.7B-Base"
       ]
     }
   },
@@ -4590,18 +4643,15 @@
       "description": "The best open model for DNA understanding",
       "sdk": "static",
       "models": [
-        "HuggingFaceBio/Carbon-14B-SFT",
-        "HuggingFaceBio/Carbon-3B",
         "HuggingFaceBio/Carbon-X",
-        "HuggingFaceBio/Qwen3-14B-AGRPO",
-        "HuggingFaceBio/Qwen3-14B-Instruct-Mid-300B-AGRPO",
+        "HuggingFaceBio/Carbon-3B",
         "Qwen/Qwen3-14B"
       ]
     },
     "nvidia/simready-central": {
       "url": "https://huggingface.co/spaces/nvidia/simready-central",
-      "title": "SimReady Central USD Search",
-      "description": null,
+      "title": "SimReady Central",
+      "description": "Semantic search for 3D assets with RTX simulation previews",
       "sdk": "docker",
       "models": [
         "nvidia/srp-staging-controlled"
@@ -4726,6 +4776,52 @@
       "description": null,
       "sdk": "static",
       "models": []
+    },
+    "linoyts/qwen-image-2-1-realtime": {
+      "url": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime",
+      "title": "Qwen Image 2.1 Realtime",
+      "description": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
+      "sdk": "gradio",
+      "models": [
+        "hugging-apps/qwen-image-2-1-aoti",
+        "linoyts/Qwen-Image-2.1-DMD2-2steps",
+        "Qwen/Qwen-Image-2.1"
+      ]
+    },
+    "FastVideo/FastH3-Omni": {
+      "url": "https://huggingface.co/spaces/FastVideo/FastH3-Omni",
+      "title": "FastH3-Omni",
+      "description": "FastVideo 8-step video+audio from image/video/audio refs",
+      "sdk": "gradio",
+      "models": [
+        "FastVideo/FastVideo-FastH3-Omni-8-Step-V1",
+        "FastVideo/FastH3-Omni-Comfy",
+        "FastVideo/FastH3-Omni-FP8",
+        "FastVideo/FastH3-Omni-NVFP4-QAD",
+        "FastVideo/FastH3-NVFP4-VAE-Decoder",
+        "FastVideo/FastH3-Omni-FP8-Comfy",
+        "FastVideo/FastH3-Omni-NVFP4-QAD-Comfy",
+        "MiniMaxAI/MiniMax-H3"
+      ]
+    },
+    "webml-community/LFM3-1.7B-WebGPU-Pi": {
+      "url": "https://huggingface.co/spaces/webml-community/LFM3-1.7B-WebGPU-Pi",
+      "title": "LFM3 WebGPU Workspace",
+      "description": "LFM3 coding agent running locally with WebGPU",
+      "sdk": "static",
+      "models": [
+        "LiquidAI/LFM3-1.7B-GGUF"
+      ]
+    },
+    "webml-community/LFM3-VL-2B-WebGPU": {
+      "url": "https://huggingface.co/spaces/webml-community/LFM3-VL-2B-WebGPU",
+      "title": "LFM3 VL 2B WebGPU",
+      "description": "In-browser video captioning w/ LFM3-VL-2B on WebGPU",
+      "sdk": "static",
+      "models": [
+        "LiquidAI/LFM3-VL-2B",
+        "onnx-community/LFM3-VL-2B-ONNX"
+      ]
     }
   }
 }
