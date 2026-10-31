@@ -95,11 +95,6 @@
       "description": "",
       "language": "Batchfile"
     },
-    "1jehuang/jcode": {
-      "url": "https://github.com/1jehuang/jcode",
-      "description": "The most RAM efficient harness",
-      "language": "Rust"
-    },
     "bytedance/deer-flow": {
       "url": "https://github.com/bytedance/deer-flow",
       "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
@@ -334,11 +329,6 @@
       "url": "https://github.com/bannedbook/fanqiang",
       "description": "翻墙-科学上网",
       "language": "Kotlin"
-    },
-    "chatwoot/chatwoot": {
-      "url": "https://github.com/chatwoot/chatwoot",
-      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
-      "language": "Ruby"
     },
     "google/skills": {
       "url": "https://github.com/google/skills",
@@ -615,20 +605,10 @@
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "language": "Python"
     },
-    "deepfakes/faceswap": {
-      "url": "https://github.com/deepfakes/faceswap",
-      "description": "Deepfakes Software For All",
-      "language": "Python"
-    },
     "different-ai/openwork": {
       "url": "https://github.com/different-ai/openwork",
       "description": "The open-source alternative to Claude Cowork (powered by opencode)",
       "language": "TypeScript"
-    },
-    "agavra/tuicr": {
-      "url": "https://github.com/agavra/tuicr",
-      "description": "a code review TUI with vim keybindings",
-      "language": "Rust"
     },
     "zhaoxuya520/reverse-skill": {
       "url": "https://github.com/zhaoxuya520/reverse-skill",
@@ -639,11 +619,6 @@
       "url": "https://github.com/usekaneo/kaneo",
       "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
       "language": "TypeScript"
-    },
-    "geo-tp/ESP32-Bit-Pirate": {
-      "url": "https://github.com/geo-tp/ESP32-Bit-Pirate",
-      "description": "A Hardware Hacking Tool with Web-Based CLI That Speaks Every Protocol ",
-      "language": "C++"
     },
     "abus-aikorea/voice-pro": {
       "url": "https://github.com/abus-aikorea/voice-pro",
@@ -3391,6 +3366,29 @@
       "description": "src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/liquid-ai-banner.webp\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: block; margin: 0;\" />",
       "pipelineTag": "any-to-any",
       "baseModels": []
+    },
+    "speridlabs/idol": {
+      "url": "https://huggingface.co/speridlabs/idol",
+      "description": "Idol turns one picture of an object into a 3D Gaussian splat. Give it a render, a generated image or a photo: it removes the background, frames the object and generates up to 1,048,576 Gaussians, written as a standard 3DGS .ply. It runs …",
+      "pipelineTag": "image-to-3d",
+      "baseModels": []
+    },
+    "OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM": {
+      "url": "https://huggingface.co/OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM",
+      "description": "Merge of two Minimax-H3 Ref2VA finetunes with a custom algorithm (PRISM, no mergekit):",
+      "pipelineTag": null,
+      "baseModels": [
+        "TenStrip/10Eros-Max",
+        "WarmBloodAban/Minimax-h3_Singularity"
+      ]
+    },
+    "Efficient-Large-Model/Open-H3-Regenerate-2K": {
+      "url": "https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K",
+      "description": "An open replacement for the closed H3-Regenerate-2K API: a three-step MiniMax-H3 refinement pass that regenerates a 768P H3 draft (1344×768, 121 frames) at 2560×1440.",
+      "pipelineTag": "video-to-video",
+      "baseModels": [
+        "MiniMaxAI/MiniMax-H3"
+      ]
     }
   },
   "spaces": {
@@ -4561,7 +4559,6 @@
         "black-forest-labs/FLUX.2-klein-9B",
         "black-forest-labs/FLUX.2-klein-9b-kv",
         "LiquidAI/LFM2.5-VL-450M",
-        "nateraw/vit-age-classifier",
         "OpenGVLab/InternVL3-1B-hf",
         "Phr00t/Qwen-Image-Edit-Rapid-AIO",
         "Qwen/Qwen-Image-Edit-2511"
@@ -4919,6 +4916,54 @@
       "title": "ConvFill Gemma Voice Demo",
       "description": null,
       "sdk": "docker",
+      "models": []
+    },
+    "AimeeBingmouQu/ProtectBirds": {
+      "url": "https://huggingface.co/spaces/AimeeBingmouQu/ProtectBirds",
+      "title": "ProtectBirds",
+      "description": "Protect Birds",
+      "sdk": "docker",
+      "models": []
+    },
+    "Daankular/H3EROS": {
+      "url": "https://huggingface.co/spaces/Daankular/H3EROS",
+      "title": "H3EROS",
+      "description": "Video generation with a synchronized soundtrack",
+      "sdk": "gradio",
+      "models": [
+        "hfmlsoc/ncii-light-guard-v01",
+        "larryvrh/MiniMax-H3-Turbo-Lora",
+        "lightx2v/Minimax-h3-Turbo",
+        "MiniMaxAI/MiniMax-H3",
+        "multimodalart/minimax-h3-aoti",
+        "TenStrip/10Eros-Max"
+      ]
+    },
+    "speridlabs/idol": {
+      "url": "https://huggingface.co/spaces/speridlabs/idol",
+      "title": "Idol",
+      "description": "One image to a 3D object (Gaussian splats)",
+      "sdk": "gradio",
+      "models": [
+        "speridlabs/idol",
+        "ZhengPeng7/BiRefNet"
+      ]
+    },
+    "LiquidAI/LFM3-Omni-2B-WebGPU": {
+      "url": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU",
+      "title": "LFM3 Omni 2B WebGPU",
+      "description": "Run LFM3-Omni-2B locally in the browser on WebGPU",
+      "sdk": "static",
+      "models": [
+        "LiquidAI/LFM3-Omni-2B",
+        "LiquidAI/LFM3-Omni-2B-GGUF"
+      ]
+    },
+    "Tanyakhan/pornflux-i2v-6e9et": {
+      "url": "https://huggingface.co/spaces/Tanyakhan/pornflux-i2v-6e9et",
+      "title": "PornFlux I2V 🔥",
+      "description": null,
+      "sdk": "static",
       "models": []
     }
   }
