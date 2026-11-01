@@ -33,7 +33,6 @@ Run locally, and WebMCP availability in Chrome: README › Run locally.
 
 - Time windows must be labeled. Row gains show their actual span ("+1.2k in 5d"), never a presumed window; the digest omits the span only when it is exactly 7 days.
 - Traces share one 90-day date axis per tab so rows line up in time; solid where the item was on its list that day, dotted where it was only followed; y is scaled per row, so the trace shows shape and the gain column shows size. Hover surfaces the values, dates, and listed days in a `<title>`.
-- Bars start at zero (delta encoding requires it). Lines do not.
 - Stars and likes are different units: the All tab never ranks items from different sources against each other; each source keeps its own scale.
 - A name-matched link is a heuristic; the group row states which evidence joined each member.
 
@@ -41,4 +40,4 @@ Run locally, and WebMCP availability in Chrome: README › Run locally.
 
 - Motion reports a state change the reader caused (tab, theme, pick, panel, disclosure); nothing animates on its own or loops.
 - Ease out, 120–320ms (`--t-fast`, `--t`, `--t-slow`). Tab and theme changes crossfade through a same-document view transition, the masthead excluded so the tab underline slides live.
-- `prefers-reduced-motion: reduce` removes every transition and animation, and `transition()` skips the view transition.
+- `transition()` skips the view transition under reduced motion.
