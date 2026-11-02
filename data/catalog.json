@@ -150,11 +150,6 @@
       "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
       "language": "Rust"
     },
-    "codecrafters-io/build-your-own-x": {
-      "url": "https://github.com/codecrafters-io/build-your-own-x",
-      "description": "Master programming by recreating your favorite technologies from scratch.",
-      "language": "Markdown"
-    },
     "coreyhaines31/marketingskills": {
       "url": "https://github.com/coreyhaines31/marketingskills",
       "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
@@ -227,7 +222,7 @@
     },
     "p-e-w/heretic": {
       "url": "https://github.com/p-e-w/heretic",
-      "description": "Fully automatic censorship removal for language models",
+      "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
       "language": "Python"
     },
     "pbakaus/impeccable": {
@@ -585,11 +580,6 @@
       "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
       "language": "Python"
     },
-    "different-ai/openwork": {
-      "url": "https://github.com/different-ai/openwork",
-      "description": "The open-source alternative to Claude Cowork (powered by opencode)",
-      "language": "TypeScript"
-    },
     "zhaoxuya520/reverse-skill": {
       "url": "https://github.com/zhaoxuya520/reverse-skill",
       "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
@@ -609,16 +599,6 @@
       "url": "https://github.com/iv-org/invidious",
       "description": "Invidious is an alternative front-end to YouTube",
       "language": "Crystal"
-    },
-    "HarbourMasters/Lighthouse": {
-      "url": "https://github.com/HarbourMasters/Lighthouse",
-      "description": "A Banjo-Kazooie PC port with Anchor multiplayer, romhack and multi-language support, and a built-in randomizer.",
-      "language": "C"
-    },
-    "NomaDamas/k-skill": {
-      "url": "https://github.com/NomaDamas/k-skill",
-      "description": "한국인을 위한 스킬 모음집 - 에이전트를 한국인으로",
-      "language": "JavaScript"
     },
     "antirez/ds4": {
       "url": "https://github.com/antirez/ds4",
@@ -2104,6 +2084,21 @@
       "url": "https://github.com/hyprwm/Hyprland",
       "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
       "language": "C++"
+    },
+    "vercel-labs/agent-desktop": {
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "description": "Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions stay safe to retry, instead of guessing from pixels.",
+      "language": "Rust"
+    },
+    "D4Vinci/Scrapling": {
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "language": "Python"
+    },
+    "karpathy/nanochat": {
+      "url": "https://github.com/karpathy/nanochat",
+      "description": "The best ChatGPT that $100 can buy.",
+      "language": "Python"
     }
   },
   "models": {
@@ -3404,6 +3399,66 @@
       "pipelineTag": "text-generation",
       "baseModels": [
         "XHToken/Spark-X2.6-4B"
+      ]
+    },
+    "burner22/numbat": {
+      "url": "https://huggingface.co/burner22/numbat",
+      "description": "~14T param, 114 layers, hybrid GDN/MLA, MoE (1,224 experts, top-48 + 1 shared), NVFP4. Internal codename numbat, Anthropic's next Mythos-class training run. numbat is the codename referenced in the Claude Code source leak (Mar 2026). Thi…",
+      "pipelineTag": null,
+      "baseModels": []
+    },
+    "Edge0/Audio8-TTS-Realistic-Air": {
+      "url": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air",
+      "description": "Audio8-TTS-Realistic-Air builds on Audio8-TTS-Preview-0.6b, delivering substantially improved speech realism while retaining its compact 0.6B architecture and zero-shot voice cloning capabilities.",
+      "pipelineTag": "text-to-speech",
+      "baseModels": [
+        "Edge0/Audio8-TTS-Preview-0.6b"
+      ]
+    },
+    "OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated": {
+      "url": "https://huggingface.co/OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+      "description": "DeepSeek-V4.1-Flash-1017-obliterated is a refusal-direction ablated version of DeepSeek-V4.1-Flash-1017, produced with OBLITERATUS using the failspy method. The weights are BF16 safetensors, released under the MIT license. Method details.",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "deepseek-ai/DeepSeek-V4.1-Flash-1017"
+      ]
+    },
+    "LiquidAI/d1-2B": {
+      "url": "https://huggingface.co/LiquidAI/d1-2B",
+      "description": "src=\"https://huggingface.co/LiquidAI/d1-2B/resolve/main/assets/liquid-ai-banner.webp\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: block; margin: 0;\" />",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "LiquidAI/LFM3-VL-2B"
+      ]
+    },
+    "sensenova/SenseNova-Loop-9B-Preview": {
+      "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
+      "description": "SenseNova-Loop-9B-Preview is a multimodal language model developed for long-context and agentic workflows. It accepts text and images and generates text for applications that combine document understanding, coding, and interaction with e…",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
+    },
+    "xiaomi-research/Xiaomi-OCR-0": {
+      "url": "https://huggingface.co/xiaomi-research/Xiaomi-OCR-0",
+      "description": "Xiaomi-OCR-0 is a unified 0.8B OCR-specialized vision-language model for both document parsing and OCR-centric understanding.",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "Qwen/Qwen3.5-0.8B-Base"
+      ]
+    },
+    "ccore/Qwen3.5-4B-GLB-3D-Coder": {
+      "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
+      "description": "A small 4B coding model being trained to generate Three.js scenes and assets with GLB export, so you can bring the results into editors such as Godot.",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen3.5-4B"
+      ]
+    },
+    "AtomicChat/LFM3-1.7B-GGUF": {
+      "url": "https://huggingface.co/AtomicChat/LFM3-1.7B-GGUF",
+      "description": "Atomic-Dynamic (AD) GGUF quants of LiquidAI/LFM3-1.7B, a dense short-convolution + gated-attention hybrid.",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "LiquidAI/LFM3-1.7B"
       ]
     }
   },
@@ -5003,6 +5058,47 @@
         "tencent/Hunyuan3D-2mini",
         "facebook/dinov2-large",
         "openai/clip-vit-large-patch14"
+      ]
+    },
+    "Guaryn/qwen-image-2.1-uncensored-aio-loras": {
+      "url": "https://huggingface.co/spaces/Guaryn/qwen-image-2.1-uncensored-aio-loras",
+      "title": "Qwen Image 2.1 Uncensored All-In-One LoRA Studio",
+      "description": "Uncensored Qwen 2.1 with All-In-One LoRAs",
+      "sdk": "gradio",
+      "models": [
+        "KasugaiSakura/Qwen-Image-2.1-Uncensored-Abenzerps-GGUF",
+        "Qwen/Qwen-Image-2.1",
+        "WarmBloodAban/Qwen-Image-2.1-LoRAs",
+        "prithivMLmods/Qwen-Image-2.1-Natural-Exposure-LoRA",
+        "alibaba-pai/Qwen-Image-2.1-Fun-Acc-LoRAs",
+        "Viggle/Qwen-Image-2.1-viggle-turbo",
+        "Alissonerdx/BFS-Best-Face-Swap",
+        "lilylilith/AnyPose"
+      ]
+    },
+    "aaaa33311/wan2-2-fp8da-aoti-preview-2c-finishing": {
+      "url": "https://huggingface.co/spaces/aaaa33311/wan2-2-fp8da-aoti-preview-2c-finishing",
+      "title": "Wan2.2 14B Cum explosion lora",
+      "description": "generate a video from an image with a text prompt with text",
+      "sdk": "gradio",
+      "models": [
+        "cbensimon/WanTransformer3DModel-sm120-cu130-raa",
+        "FlutterGuyAzaza/Deepthroat_Blowjob_Wan_2_X_I2V_T2V",
+        "r3gm/RIFE",
+        "Robertopaulson/DeepthroatBlowjobWan2XI2VT2V",
+        "Robertopaulson/F4C3SPL4SH_Cumshotwan2.2i2v",
+        "TestOrganizationPleaseIgnore/wamu-tools",
+        "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
+      ]
+    },
+    "webml-community/TranslateGemma-WebGPU": {
+      "url": "https://huggingface.co/spaces/webml-community/TranslateGemma-WebGPU",
+      "title": "TranslateGemma 4B WebGPU",
+      "description": "Private browser-based translator with 56 languages",
+      "sdk": "static",
+      "models": [
+        "google/translategemma-4b-it",
+        "onnx-community/translategemma-text-4b-it-ONNX"
       ]
     }
   }
