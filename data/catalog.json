@@ -440,11 +440,6 @@
       "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
       "language": "Python"
     },
-    "microsoft/AI-For-Beginners": {
-      "url": "https://github.com/microsoft/AI-For-Beginners",
-      "description": "12 Weeks, 24 Lessons, AI for All!",
-      "language": "Jupyter Notebook"
-    },
     "actions/checkout": {
       "url": "https://github.com/actions/checkout",
       "description": "Action for checking out a repo",
@@ -599,11 +594,6 @@
       "url": "https://github.com/iv-org/invidious",
       "description": "Invidious is an alternative front-end to YouTube",
       "language": "Crystal"
-    },
-    "antirez/ds4": {
-      "url": "https://github.com/antirez/ds4",
-      "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
-      "language": "C"
     },
     "esengine/DeepSeek-Reasonix": {
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
@@ -1352,7 +1342,7 @@
     },
     "JustVugg/colibri": {
       "url": "https://github.com/JustVugg/colibri",
-      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
       "language": "C"
     },
     "nashsu/llm_wiki": {
@@ -2067,7 +2057,7 @@
     },
     "anomalyco/hex": {
       "url": "https://github.com/anomalyco/hex",
-      "description": "Local-first voice dictation for macOS. Hold a shortcut, speak, and paste into any app. Native Rust, on-device speech recognition, and a Linux beta.",
+      "description": "Local voice dictation for mac, windows and linux",
       "language": "Rust"
     },
     "patchy631/ai-engineering-hub": {
@@ -2087,7 +2077,7 @@
     },
     "vercel-labs/agent-desktop": {
       "url": "https://github.com/vercel-labs/agent-desktop",
-      "description": "Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions stay safe to retry, instead of guessing from pixels.",
+      "description": "Computer use CLI for AI agents",
       "language": "Rust"
     },
     "D4Vinci/Scrapling": {
@@ -2098,6 +2088,21 @@
     "karpathy/nanochat": {
       "url": "https://github.com/karpathy/nanochat",
       "description": "The best ChatGPT that $100 can buy.",
+      "language": "Python"
+    },
+    "spotify/portal-ai-plugins": {
+      "url": "https://github.com/spotify/portal-ai-plugins",
+      "description": "",
+      "language": "TypeScript"
+    },
+    "floci-io/floci": {
+      "url": "https://github.com/floci-io/floci",
+      "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "language": "Java"
+    },
+    "Usagi-org/ai-goofish-monitor": {
+      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
       "language": "Python"
     }
   },
@@ -3460,6 +3465,36 @@
       "baseModels": [
         "LiquidAI/LFM3-1.7B"
       ]
+    },
+    "FusionCow/Sulphur-3": {
+      "url": "https://huggingface.co/FusionCow/Sulphur-3",
+      "description": null,
+      "pipelineTag": null,
+      "baseModels": [
+        "MiniMaxAI/MiniMax-H3"
+      ]
+    },
+    "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF": {
+      "url": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+      "description": "out of the dense residual writers — the same edit as AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GGUF, measured on every rung.",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
+      ]
+    },
+    "orcarouter/LFM3-1.7B-abliterated": {
+      "url": "https://huggingface.co/orcarouter/LFM3-1.7B-abliterated",
+      "description": null,
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "LiquidAI/LFM3-1.7B"
+      ]
+    },
+    "ceia-br/lumi-4b": {
+      "url": "https://huggingface.co/ceia-br/lumi-4b",
+      "description": "O CEIA Lumi-4B é um modelo de linguagem de 4B parâmetros, disponibilizado em BF16 no repositório oficial.",
+      "pipelineTag": "text-generation",
+      "baseModels": []
     }
   },
   "spaces": {
@@ -5100,6 +5135,45 @@
         "google/translategemma-4b-it",
         "onnx-community/translategemma-text-4b-it-ONNX"
       ]
+    },
+    "townbox/ava": {
+      "url": "https://huggingface.co/spaces/townbox/ava",
+      "title": "Ava",
+      "description": "Talk face to face with LFM3-Omni, running in your browser",
+      "sdk": "static",
+      "models": [
+        "LiquidAI/LFM3-Omni-2B",
+        "LiquidAI/LFM3-Omni-2B-GGUF"
+      ]
+    },
+    "nvidia/nemotron-transcribe": {
+      "url": "https://huggingface.co/spaces/nvidia/nemotron-transcribe",
+      "title": "Nemotron Transcribe",
+      "description": "NVIDIA Nemotron Transcribe Demo",
+      "sdk": "docker",
+      "models": [
+        "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
+      ]
+    },
+    "Intruzo/Krea-2-Turbo_v2": {
+      "url": "https://huggingface.co/spaces/Intruzo/Krea-2-Turbo_v2",
+      "title": "Krea 2 Turbo Image Generator",
+      "description": "Krea 2 Turbo text2image and image editing",
+      "sdk": "gradio",
+      "models": [
+        "Comfy-Org/Krea-2",
+        "conradlocke/krea2-identity-edit",
+        "metaloz/imgstuff",
+        "mpasila/Krea-2-LoRAs",
+        "mpasila/Krea-2-Models"
+      ]
+    },
+    "hide1/MOSS-Image-Character-Catalog": {
+      "url": "https://huggingface.co/spaces/hide1/MOSS-Image-Character-Catalog",
+      "title": "MOSS-Image Character & Style Catalog",
+      "description": null,
+      "sdk": "static",
+      "models": []
     }
   }
 }
