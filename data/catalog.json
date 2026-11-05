@@ -580,11 +580,6 @@
       "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
       "language": "Go"
     },
-    "donnemartin/system-design-primer": {
-      "url": "https://github.com/donnemartin/system-design-primer",
-      "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
-      "language": "Python"
-    },
     "firecrawl/pdf-inspector": {
       "url": "https://github.com/firecrawl/pdf-inspector",
       "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
@@ -594,16 +589,6 @@
       "url": "https://github.com/livekit/agents",
       "description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
       "language": "Python"
-    },
-    "uber/ADR": {
-      "url": "https://github.com/uber/ADR",
-      "description": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
-      "language": "Python"
-    },
-    "tailwindlabs/tailwindcss": {
-      "url": "https://github.com/tailwindlabs/tailwindcss",
-      "description": "A utility-first CSS framework for rapid UI development.",
-      "language": "TypeScript"
     },
     "cloudflare/computer": {
       "url": "https://github.com/cloudflare/computer",
@@ -1003,7 +988,7 @@
     "ConardLi/garden-skills": {
       "url": "https://github.com/ConardLi/garden-skills",
       "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
-      "language": "CSS"
+      "language": "JavaScript"
     },
     "zedeus/nitter": {
       "url": "https://github.com/zedeus/nitter",
@@ -2098,6 +2083,21 @@
     "scenario-labs/skills": {
       "url": "https://github.com/scenario-labs/skills",
       "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
+      "language": "Python"
+    },
+    "lz4/lz4": {
+      "url": "https://github.com/lz4/lz4",
+      "description": "Extremely Fast Compression algorithm",
+      "language": "C"
+    },
+    "vercel-labs/agent-browser": {
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust"
+    },
+    "microsoft/VibeVoice": {
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
       "language": "Python"
     }
   },
@@ -3447,7 +3447,7 @@
     },
     "ccore/Qwen3.5-4B-GLB-3D-Coder": {
       "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
-      "description": "A 4B coding model that generates standalone Three.js HTML/JavaScript scenes with GLB export, for use in editors such as Godot.",
+      "description": "CCORE GLB-3D-Coder is a specialized 4B coding model for low-poly game assets and procedural scenes. Describe a character, prop, building, or environment, and the model writes a complete Three.js HTML/JavaScript page with a preview and an…",
       "pipelineTag": "text-generation",
       "baseModels": [
         "Qwen/Qwen3.5-4B"
@@ -3521,6 +3521,50 @@
       "pipelineTag": "text-generation",
       "baseModels": [
         "XHToken/Spark-X2.6-4B"
+      ]
+    },
+    "moonshotai/Kimi-K3.1-Pro": {
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "description": "Kimi K3.1 Pro is an open-weight, natively multimodal agentic model, and our most capable 3T-class model to date. Post-trained from Kimi K3 with large-scale joint reinforcement learning across hundreds of downstream domains, it is the fir…",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
+    },
+    "ricursiveAI/Ripple-65B-Preview": {
+      "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+      "description": "Ricursive Intelligence introduces Ripple-65B Preview, a 65B parameter dense Transformer model pretrained on 12 trillion tokens with support for up to 1M context length. Ripple-65B Preview delivers strong results on agentic coding, scorin…",
+      "pipelineTag": null,
+      "baseModels": []
+    },
+    "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF": {
+      "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
+      "description": "A 763B-parameter mixture-of-experts model at 1 bit per parameter, with half of its 384 experts per layer removed and the rest quantized, built for code and agentic workflows. 72.1 GB of transformer weights, 1.05 bits per parameter measur…",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "deepseek-ai/DeepSeek-V4.1-Flash-1017"
+      ]
+    },
+    "PrunaAI/P-H3-Image-Comfy": {
+      "url": "https://huggingface.co/PrunaAI/P-H3-Image-Comfy",
+      "description": "This repository holds the ComfyUI files for P-H3-Image, an image model for text-to-image generation and image editing based on MiniMax-H3. It renders 8-megapixel images in 8 steps without CFG and edits with up to 8 input images. Every co…",
+      "pipelineTag": "text-to-image",
+      "baseModels": [
+        "PrunaAI/P-H3-Image"
+      ]
+    },
+    "nvidia/DeepSeek-V4.1-Flash-1017-NVFP4": {
+      "url": "https://huggingface.co/nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
+      "description": "The NVIDIA DeepSeek-V4.1-Flash-1017 NVFP4 model is the quantized version of DeepSeek AI's DeepSeek-V4.1-Flash-1017 model, which is an auto-regressive language model that uses an optimized transformer architecture. DeepSeek-V4.1-Flash-101…",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "deepseek-ai/DeepSeek-V4.1-Flash-1017"
+      ]
+    },
+    "webAI-Official/TwIL-8B": {
+      "url": "https://huggingface.co/webAI-Official/TwIL-8B",
+      "description": "An 8.8B reasoning model for math, code and instruction following, post-trained from ibm-granite/granite-4.2-8b with full-parameter supervised fine-tuning and GRPO/DAPO reinforcement learning. It ships in two variants that share one archi…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "ibm-granite/granite-4.2-8b"
       ]
     }
   },
@@ -5170,7 +5214,8 @@
       "sdk": "static",
       "models": [
         "LiquidAI/LFM3-Omni-2B",
-        "LiquidAI/LFM3-Omni-2B-GGUF"
+        "LiquidAI/LFM3-Omni-2B-GGUF",
+        "LiquidAI/LFM3-1.7B"
       ]
     },
     "nvidia/nemotron-transcribe": {
@@ -5214,6 +5259,22 @@
         "lynaNSFW/mysticxxx_MM_H3",
         "MiniMaxAI/MiniMax-H3",
         "multimodalart/minimax-h3-aoti"
+      ]
+    },
+    "fendouai/free-ai-humanizer": {
+      "url": "https://huggingface.co/spaces/fendouai/free-ai-humanizer",
+      "title": "AI Text Humanizer",
+      "description": "Cliché-removal rules; protects code, numbers, quotes.",
+      "sdk": "static",
+      "models": []
+    },
+    "PrunaAI/P-H3-Image": {
+      "url": "https://huggingface.co/spaces/PrunaAI/P-H3-Image",
+      "title": "P-H3-Image",
+      "description": "Text-to-image and image editing, based on MiniMax-H3",
+      "sdk": "gradio",
+      "models": [
+        "PrunaAI/P-H3-Image"
       ]
     }
   }
