@@ -445,11 +445,6 @@
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "language": "Python"
     },
-    "TencentCloud/TencentDB-Agent-Memory": {
-      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-      "language": "TypeScript"
-    },
     "vxcontrol/pentagi": {
       "url": "https://github.com/vxcontrol/pentagi",
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
@@ -493,11 +488,6 @@
     "HKUDS/DeepTutor": {
       "url": "https://github.com/HKUDS/DeepTutor",
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-      "language": "Python"
-    },
-    "tirth8205/code-review-graph": {
-      "url": "https://github.com/tirth8205/code-review-graph",
-      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
       "language": "Python"
     },
     "protocolbuffers/protobuf": {
@@ -575,11 +565,6 @@
       "description": "Invidious is an alternative front-end to YouTube",
       "language": "Crystal"
     },
-    "esengine/DeepSeek-Reasonix": {
-      "url": "https://github.com/esengine/DeepSeek-Reasonix",
-      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "language": "Go"
-    },
     "firecrawl/pdf-inspector": {
       "url": "https://github.com/firecrawl/pdf-inspector",
       "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
@@ -594,11 +579,6 @@
       "url": "https://github.com/cloudflare/computer",
       "description": "Give your agent a computer 👾",
       "language": "TypeScript"
-    },
-    "huangruiteng/loopx": {
-      "url": "https://github.com/loopx-project/loopx",
-      "description": "A control plane with a durable state kernel for long-horizon agents and teams. Keep work moving and improving across sessions, with less human attention.",
-      "language": "Python"
     },
     "Significant-Gravitas/AutoGPT": {
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
@@ -2099,6 +2079,61 @@
       "url": "https://github.com/microsoft/VibeVoice",
       "description": "Open-Source Frontier Voice AI",
       "language": "Python"
+    },
+    "zed-industries/zed": {
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "language": "Rust"
+    },
+    "rails/rails": {
+      "url": "https://github.com/rails/rails",
+      "description": "Ruby on Rails",
+      "language": "Ruby"
+    },
+    "mpv-player/mpv": {
+      "url": "https://github.com/mpv-player/mpv",
+      "description": "🎥 Command line media player",
+      "language": "C"
+    },
+    "react/react": {
+      "url": "https://github.com/react/react",
+      "description": "The library for web and native user interfaces.",
+      "language": "JavaScript"
+    },
+    "angular/angular": {
+      "url": "https://github.com/angular/angular",
+      "description": "Deliver web apps with confidence 🚀",
+      "language": "TypeScript"
+    },
+    "symfony/symfony": {
+      "url": "https://github.com/symfony/symfony",
+      "description": "The Symfony PHP framework",
+      "language": "PHP"
+    },
+    "prometheus/prometheus": {
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go"
+    },
+    "nushell/nushell": {
+      "url": "https://github.com/nushell/nushell",
+      "description": "A new type of shell",
+      "language": "Rust"
+    },
+    "etcd-io/etcd": {
+      "url": "https://github.com/etcd-io/etcd",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "language": "Go"
+    },
+    "openssl/openssl": {
+      "url": "https://github.com/openssl/openssl",
+      "description": "General purpose TLS and crypto library",
+      "language": "C"
+    },
+    "astral-sh/ruff": {
+      "url": "https://github.com/astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust"
     }
   },
   "models": {
@@ -3487,9 +3522,11 @@
     },
     "ceia-br/lumi-4b": {
       "url": "https://huggingface.co/ceia-br/lumi-4b",
-      "description": "O CEIA Lumi-4B é um modelo de linguagem de 4B parâmetros, disponibilizado em BF16 no repositório oficial.",
+      "description": "Lumi is a small language model developed by the NLP team at CEIA/UFG, available as a 4B instruct model. Built with a focus on Brazilian Portuguese, Lumi was developed through Continual Pre-Training (CPT) combined with Knowledge Distillat…",
       "pipelineTag": "text-generation",
-      "baseModels": []
+      "baseModels": [
+        "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16"
+      ]
     },
     "abenzerps/Qwen-Image-2.1-Turbo-Quantized": {
       "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized",
@@ -3531,7 +3568,7 @@
     },
     "ricursiveAI/Ripple-65B-Preview": {
       "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
-      "description": "Ricursive Intelligence introduces Ripple-65B Preview, a 65B parameter dense Transformer model pretrained on 12 trillion tokens with support for up to 1M context length. Ripple-65B Preview delivers strong results on agentic coding, scorin…",
+      "description": "Ricursive Intelligence introduces Ripple-65B Preview, a 65B parameter dense Transformer model pretrained on 12 trillion tokens with support for up to 1Mi (1,048,576 tokens) of context. Ripple-65B Preview delivers strong results on agenti…",
       "pipelineTag": null,
       "baseModels": []
     },
@@ -3565,6 +3602,14 @@
       "pipelineTag": "text-generation",
       "baseModels": [
         "ibm-granite/granite-4.2-8b"
+      ]
+    },
+    "taobao-mnn/MNN-Pocket-0.3B": {
+      "url": "https://huggingface.co/taobao-mnn/MNN-Pocket-0.3B",
+      "description": "MNN-Pocket is a family of compact language models co-designed with the MNN inference stack for on-device deployment. MNN-Pocket-0.3B is the general-purpose, instruction-tuned member of the family.",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "taobao-mnn/MNN-Pocket-0.3B-Base"
       ]
     }
   },
@@ -5275,6 +5320,30 @@
       "sdk": "gradio",
       "models": [
         "PrunaAI/P-H3-Image"
+      ]
+    },
+    "huggingface/moe-blogpost": {
+      "url": "https://huggingface.co/spaces/huggingface/moe-blogpost",
+      "title": "The Ultimate MoE Training Handbook",
+      "description": "A hands-on guide to training Mixture-of-Experts models",
+      "sdk": "docker",
+      "models": []
+    },
+    "YuyaoTechnology/MatterSeek": {
+      "url": "https://huggingface.co/spaces/YuyaoTechnology/MatterSeek",
+      "title": "MatterSeek",
+      "description": null,
+      "sdk": "static",
+      "models": []
+    },
+    "joelniklaus/harness-leaderboard": {
+      "url": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard",
+      "title": "Harness Leaderboard",
+      "description": "Which coding-agent harness should you use for your model?",
+      "sdk": "docker",
+      "models": [
+        "RecursiveSI/flint",
+        "zai-org/GLM-5.3-Flash"
       ]
     }
   }
