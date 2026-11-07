@@ -480,11 +480,6 @@
       "description": "The open-source CapCut alternative",
       "language": "TypeScript"
     },
-    "chenyme/grok2api": {
-      "url": "https://github.com/chenyme/grok2api",
-      "description": "Multi-account API gateway for Grok Build, Grok Web, and Grok Console",
-      "language": "Go"
-    },
     "HKUDS/DeepTutor": {
       "url": "https://github.com/HKUDS/DeepTutor",
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
@@ -575,25 +570,10 @@
       "description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
       "language": "Python"
     },
-    "cloudflare/computer": {
-      "url": "https://github.com/cloudflare/computer",
-      "description": "Give your agent a computer 👾",
-      "language": "TypeScript"
-    },
-    "Significant-Gravitas/AutoGPT": {
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "language": "Python"
-    },
     "google/guava": {
       "url": "https://github.com/google/guava",
       "description": "Google core libraries for Java",
       "language": "Java"
-    },
-    "jdx/mise": {
-      "url": "https://github.com/jdx/mise",
-      "description": "dev tools, env vars, task runner",
-      "language": "Rust"
     },
     "goauthentik/authentik": {
       "url": "https://github.com/goauthentik/authentik",
@@ -604,11 +584,6 @@
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
       "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "language": "TypeScript"
-    },
-    "unclebob/swarm-forge": {
-      "url": "https://github.com/unclebob/swarm-forge",
-      "description": "A simple tool for coordinating several AI agents.",
-      "language": "Clojure"
     },
     "semantica-agi/semantica": {
       "url": "https://github.com/semantica-agi/semantica",
@@ -624,11 +599,6 @@
       "url": "https://github.com/vitali87/code-graph-rag",
       "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
       "language": "Python"
-    },
-    "K2SOsint/Legendary_OSINT": {
-      "url": "https://github.com/K2SOsint/Legendary_OSINT",
-      "description": "A list of OSINT tools & resources for (fraud-)investigators, CTI-analysts, KYC, AML and more. ",
-      "language": null
     },
     "LadybirdBrowser/ladybird": {
       "url": "https://github.com/LadybirdBrowser/ladybird",
@@ -2134,6 +2104,36 @@
       "url": "https://github.com/astral-sh/ruff",
       "description": "An extremely fast Python linter and code formatter, written in Rust.",
       "language": "Rust"
+    },
+    "meta/astryx": {
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript"
+    },
+    "sherlock-project/sherlock": {
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python"
+    },
+    "tailwindlabs/tailwindcss": {
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "description": "A utility-first CSS framework for rapid UI development.",
+      "language": "TypeScript"
+    },
+    "mbillow/localthings": {
+      "url": "https://github.com/mbillow/localthings",
+      "description": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.",
+      "language": "Python"
+    },
+    "ranxianglei/billion-context": {
+      "url": "https://github.com/ranxianglei/billion-context",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "language": "TypeScript"
+    },
+    "dsx-ai-factory/nvke": {
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "language": "Go"
     }
   },
   "models": {
@@ -3610,6 +3610,44 @@
       "pipelineTag": "text-generation",
       "baseModels": [
         "taobao-mnn/MNN-Pocket-0.3B-Base"
+      ]
+    },
+    "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic": {
+      "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "description": "This project is built in close collaboration with hardware engineer Kyle Hessling, whose infrastructure, training support, and evaluation assistance helped make this release possible. The model training workflow is accelerated and memory…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B"
+      ]
+    },
+    "unsloth/Qwen3.8-Flash-Next-GGUF": {
+      "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
+      "description": "50% less token use, 0.5-8% faster inference than other quants of the same size: Run via Unsloth Desktop with browser use and more:",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "Qwen/Qwen3.8-Flash-Next"
+      ]
+    },
+    "baidu/ERNIE-5.5-Flash-Base": {
+      "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base",
+      "description": "ERNIE 5.5 Flash is an efficient sparse Mixture-of-Experts (MoE) language model with 280B total parameters and 14B activated per token, pre-trained from scratch on 33.5T tokens with a training context of up to 128K; fine-tuning and infere…",
+      "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "PrunaAI/P-H3-Image": {
+      "url": "https://huggingface.co/PrunaAI/P-H3-Image",
+      "description": "P-H3-Image is an image model for text-to-image generation and image editing, based on MiniMax-H3. It renders 8-megapixel images in 8 steps without classifier-free guidance, edits with up to 8 input images, and comes with a prompt upsampl…",
+      "pipelineTag": "text-to-image",
+      "baseModels": [
+        "MiniMaxAI/MiniMax-H3"
+      ]
+    },
+    "LastMachine/Qwen3-8B-ZeroZero-Heretic": {
+      "url": "https://huggingface.co/LastMachine/Qwen3-8B-ZeroZero-Heretic",
+      "description": "The day that Anthropic released their \"text watermark\" embedded in their models, I give you:",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen3-8B"
       ]
     }
   },
@@ -5345,6 +5383,13 @@
         "RecursiveSI/flint",
         "zai-org/GLM-5.3-Flash"
       ]
+    },
+    "harness-hub/harness-lens": {
+      "url": "https://huggingface.co/spaces/harness-hub/harness-lens",
+      "title": "Harness Lens",
+      "description": "Compare coding-agent harnesses, every claim linked to source",
+      "sdk": "docker",
+      "models": []
     }
   }
 }
