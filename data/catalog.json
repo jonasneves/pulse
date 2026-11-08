@@ -170,11 +170,6 @@
       "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
       "language": "TypeScript"
     },
-    "TapXWorld/ChinaTextbook": {
-      "url": "https://github.com/TapXWorld/ChinaTextbook",
-      "description": "所有小初高、大学PDF教材。",
-      "language": "Roff"
-    },
     "asgeirtj/system_prompts_leaks": {
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
       "description": "Documented system prompts from Anthropic - Claude Fable 5.1, Opus 5.5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
@@ -570,11 +565,6 @@
       "description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
       "language": "Python"
     },
-    "google/guava": {
-      "url": "https://github.com/google/guava",
-      "description": "Google core libraries for Java",
-      "language": "Java"
-    },
     "goauthentik/authentik": {
       "url": "https://github.com/goauthentik/authentik",
       "description": "The authentication glue you need.",
@@ -590,11 +580,6 @@
       "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
       "language": "Python"
     },
-    "litu54/DevOps-Interview-Guide": {
-      "url": "https://github.com/litu54/DevOps-Interview-Guide",
-      "description": " DevOps Interview Guide",
-      "language": null
-    },
     "vitali87/code-graph-rag": {
       "url": "https://github.com/vitali87/code-graph-rag",
       "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
@@ -604,11 +589,6 @@
       "url": "https://github.com/LadybirdBrowser/ladybird",
       "description": "Truly independent web browser",
       "language": "C++"
-    },
-    "denoland/celld": {
-      "url": "https://github.com/denoland/celld",
-      "description": "self-hosted, distributed Durable Objects",
-      "language": "Rust"
     },
     "Comfy-Org/ComfyUI": {
       "url": "https://github.com/Comfy-Org/ComfyUI",
@@ -2134,6 +2114,16 @@
       "url": "https://github.com/dsx-ai-factory/nvke",
       "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
       "language": "Go"
+    },
+    "anthropics/claude-quickstarts": {
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "language": "Python"
+    },
+    "google-deepmind/mujoco": {
+      "url": "https://github.com/google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "language": "C++"
     }
   },
   "models": {
@@ -3648,6 +3638,22 @@
       "pipelineTag": "text-generation",
       "baseModels": [
         "Qwen/Qwen3-8B"
+      ]
+    },
+    "NousResearch/Arete-27B": {
+      "url": "https://huggingface.co/NousResearch/Arete-27B",
+      "description": "We post-trained over Alibaba's Qwen3.8-27B to reinforce western values on a Chinese-trained model. We call this new model Arete-27B.",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen3.8-27B"
+      ]
+    },
+    "Viggle/Viggle-Remake": {
+      "url": "https://huggingface.co/Viggle/Viggle-Remake",
+      "description": "a new style. Unmute to hear it. Footage and music from La La Land (2016), © its owners. Not affiliated with or endorsed by them.",
+      "pipelineTag": "video-to-video",
+      "baseModels": [
+        "MiniMaxAI/MiniMax-H3"
       ]
     }
   },
@@ -5380,7 +5386,9 @@
       "description": "Which coding-agent harness should you use for your model?",
       "sdk": "docker",
       "models": [
+        "deepseek-ai/DeepSeek-V4.1-Flash",
         "RecursiveSI/flint",
+        "ricursiveAI/Ripple-65B-Preview",
         "zai-org/GLM-5.3-Flash"
       ]
     },
@@ -5390,6 +5398,16 @@
       "description": "Compare coding-agent harnesses, every claim linked to source",
       "sdk": "docker",
       "models": []
+    },
+    "FelyaHuhing/qwen-image-21-uncensored": {
+      "url": "https://huggingface.co/spaces/FelyaHuhing/qwen-image-21-uncensored",
+      "title": "Qwen Image 2.1 Uncensored",
+      "description": "Uncensored Qwen-Image-2.1 generate + edit",
+      "sdk": "gradio",
+      "models": [
+        "Qwen/Qwen-Image-2.1",
+        "abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
+      ]
     }
   }
 }
