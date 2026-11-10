@@ -340,11 +340,6 @@
       "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
       "language": "Python"
     },
-    "firecrawl/firecrawl": {
-      "url": "https://github.com/firecrawl/firecrawl",
-      "description": "The web data API to search, scrape, and interact at scale. 🔥",
-      "language": "TypeScript"
-    },
     "stablyai/orca": {
       "url": "https://github.com/stablyai/orca",
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
@@ -575,29 +570,9 @@
       "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
       "language": "Python"
     },
-    "LadybirdBrowser/ladybird": {
-      "url": "https://github.com/LadybirdBrowser/ladybird",
-      "description": "Truly independent web browser",
-      "language": "C++"
-    },
     "Comfy-Org/ComfyUI": {
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-      "language": "Python"
-    },
-    "danielmiessler/LifeOS": {
-      "url": "https://github.com/danielmiessler/LifeOS",
-      "description": "⛰️ LifeOS — The universal AI Harness designed to move you from Current to Ideal state in both life and work.",
-      "language": "TypeScript"
-    },
-    "opa334/Dopamine": {
-      "url": "https://github.com/opa334/Dopamine",
-      "description": "Dopamine is a semi-untethered jailbreak for iOS 15 to 26(.0.1)",
-      "language": "C"
-    },
-    "google-deepmind/weathernext": {
-      "url": "https://github.com/google-deepmind/weathernext",
-      "description": "",
       "language": "Python"
     },
     "harveyai/harvey-labs": {
@@ -2124,6 +2099,16 @@
       "url": "https://github.com/homeassistant-ai/ha-mcp",
       "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "language": "Python"
+    },
+    "we-promise/sure": {
+      "url": "https://github.com/we-promise/sure",
+      "description": "The personal finance app for everyone (by everyone)",
+      "language": "Ruby"
+    },
+    "tokio-rs/topcoat": {
+      "url": "https://github.com/tokio-rs/topcoat",
+      "description": "A batteries-included framework for building web apps",
+      "language": "Rust"
     }
   },
   "models": {
@@ -3694,6 +3679,44 @@
       "pipelineTag": "text-generation",
       "baseModels": [
         "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
+      ]
+    },
+    "tencent/Qwen3.8-27B-DSpine-b16": {
+      "url": "https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16",
+      "description": "DSpine generates draft tokens in parallel. Each layer passes predicted predecessor features to adjacent positions, carrying causal dependencies through network depth.",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen3.8-27B"
+      ]
+    },
+    "mradermacher/gemma-4-31B-it-ARA-heretic-GGUF": {
+      "url": "https://huggingface.co/mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
+      "description": "static quants of https://huggingface.co/richardyoung/gemma-4-31B-it-ARA-heretic",
+      "pipelineTag": null,
+      "baseModels": [
+        "richardyoung/gemma-4-31B-it-ARA-heretic"
+      ]
+    },
+    "VideoRebirthAI/hyperflow-h3-flash": {
+      "url": "https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash",
+      "description": "HyperFlow H3 Flash is Video Rebirth's compressed, few-step version of MiniMax-H3. It generates video and synchronized stereo audio together.",
+      "pipelineTag": "image-text-to-video",
+      "baseModels": [
+        "MiniMaxAI/MiniMax-H3"
+      ]
+    },
+    "ConwayResearch/Underdog-Woof": {
+      "url": "https://huggingface.co/ConwayResearch/Underdog-Woof",
+      "description": "Underdog Woof is a small English text-to-speech model with two voices: Juno and Mira. It reads phone numbers, dates, prices and codes the way people say them, and it runs on a laptop CPU with nothing but numpy, from a single 40.6 MB file…",
+      "pipelineTag": "text-to-speech",
+      "baseModels": []
+    },
+    "manuelgscom/dale-0.8b-GGUF": {
+      "url": "https://huggingface.co/manuelgscom/dale-0.8b-GGUF",
+      "description": "A full fine-tune of Qwen/Qwen3.5-0.8B that turns a natural-language request, in Spanish or English, into one bash command for Linux, answered as a small JSON object. It is the model behind dale, an offline command-line tool that runs it …",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "manuelgscom/dale-0.8b"
       ]
     }
   },
@@ -5457,6 +5480,31 @@
       "models": [
         "akhaliq/Qwen3.5-0.8B-weight-space-programming",
         "Qwen/Qwen3.5-0.8B"
+      ]
+    },
+    "thea2026/image-to-video": {
+      "url": "https://huggingface.co/spaces/thea2026/image-to-video",
+      "title": "Image to Video",
+      "description": "Make videos from text or photos — free, no GPU queue",
+      "sdk": "gradio",
+      "models": [
+        "3morg/assets"
+      ]
+    },
+    "HuggingFaceTB/smol-training-playbook": {
+      "url": "https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook",
+      "title": "The Smol Training Playbook",
+      "description": "The secrets to building world-class LLMs",
+      "sdk": "docker",
+      "models": []
+    },
+    "webml-community/semantic-galaxy": {
+      "url": "https://huggingface.co/spaces/webml-community/semantic-galaxy",
+      "title": "Semantic Galaxy",
+      "description": "Visualize embeddings in 3D space, powered by EmbeddingGemma",
+      "sdk": "static",
+      "models": [
+        "onnx-community/embeddinggemma-300m-ONNX"
       ]
     }
   }
