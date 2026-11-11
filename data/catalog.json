@@ -555,29 +555,14 @@
       "description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
       "language": "Python"
     },
-    "PrimeIntellect-ai/prime-agent": {
-      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-      "language": "TypeScript"
-    },
     "semantica-agi/semantica": {
       "url": "https://github.com/semantica-agi/semantica",
       "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
       "language": "Python"
     },
-    "vitali87/code-graph-rag": {
-      "url": "https://github.com/vitali87/code-graph-rag",
-      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
-      "language": "Python"
-    },
     "Comfy-Org/ComfyUI": {
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-      "language": "Python"
-    },
-    "harveyai/harvey-labs": {
-      "url": "https://github.com/harveyai/harvey-labs",
-      "description": "A benchmark built to evaluate and improve agent capabilities for supporting legal work.",
       "language": "Python"
     },
     "3b1b/manim": {
@@ -590,11 +575,6 @@
       "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
       "language": "Shell"
     },
-    "jaywcjlove/awesome-mac": {
-      "url": "https://github.com/jaywcjlove/awesome-mac",
-      "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
-      "language": "Swift"
-    },
     "cathrynlavery/diagram-design": {
       "url": "https://github.com/cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
@@ -603,11 +583,6 @@
     "huggingface/transformers": {
       "url": "https://github.com/huggingface/transformers",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-      "language": "Python"
-    },
-    "practical-tutorials/project-based-learning": {
-      "url": "https://github.com/practical-tutorials/project-based-learning",
-      "description": "Curated list of project-based tutorials",
       "language": "Python"
     },
     "macro-inc/macro": {
@@ -2109,6 +2084,26 @@
       "url": "https://github.com/tokio-rs/topcoat",
       "description": "A batteries-included framework for building web apps",
       "language": "Rust"
+    },
+    "GoogleChrome/modern-web-guidance-src": {
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "",
+      "language": "TypeScript"
+    },
+    "shadcn/improve": {
+      "url": "https://github.com/shadcn/improve",
+      "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+      "language": null
+    },
+    "openai/codex-security": {
+      "url": "https://github.com/openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "language": "TypeScript"
+    },
+    "TheAlgorithms/Java": {
+      "url": "https://github.com/TheAlgorithms/Java",
+      "description": "All Algorithms implemented in Java",
+      "language": "Java"
     }
   },
   "models": {
@@ -3717,6 +3712,52 @@
       "pipelineTag": "text-generation",
       "baseModels": [
         "manuelgscom/dale-0.8b"
+      ]
+    },
+    "MiniMaxAI/MiniMax-H3-Image": {
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "description": "MiniMax-H3-Image is a state-of-the-art open-source model for image generation and editing from the MiniMax H3 family. It combines intelligent understanding of creative intent with the ability to build visual worlds: with precise instruct…",
+      "pipelineTag": "text-to-image",
+      "baseModels": [
+        "MiniMaxAI/MiniMax-H3"
+      ]
+    },
+    "Comfy-Org/MiniMax-H3-Image": {
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+      "description": "Original model repository: https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "pipelineTag": "text-to-image",
+      "baseModels": [
+        "MiniMaxAI/MiniMax-H3-Image"
+      ]
+    },
+    "Cactus-Compute/mirage": {
+      "url": "https://huggingface.co/Cactus-Compute/mirage",
+      "description": "A vision model for image understanding and structured extraction.",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
+    },
+    "Comfy-Org/RelayVSR": {
+      "url": "https://huggingface.co/Comfy-Org/RelayVSR",
+      "description": "Original model repository: https://huggingface.co/kopper/RelayVSR",
+      "pipelineTag": "unconditional-image-generation",
+      "baseModels": [
+        "kopper/RelayVSR"
+      ]
+    },
+    "peculiar-ragdoll/Sharp-Spark-X2.6-4B-GGUF": {
+      "url": "https://huggingface.co/peculiar-ragdoll/Sharp-Spark-X2.6-4B-GGUF",
+      "description": "Dynamic imatrix GGUF quants of XHToken/Spark-X2.6-4B, a 4B dense long-context model, carrying our cyber-and-coding-weighted importance matrix, a heuristic per-tensor bit allocation, and the Sharp-Spark chat template.",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "XHToken/Spark-X2.6-4B"
+      ]
+    },
+    "FrostWolfAI/Spark-X2.6-4B-abliterated-GGUF": {
+      "url": "https://huggingface.co/FrostWolfAI/Spark-X2.6-4B-abliterated-GGUF",
+      "description": "GGUF quantizations of FrostWolfAI/Spark-X2.6-4B-abliterated, a decensored variant of XHToken/Spark-X2.6-4B produced with Heretic v2 using Arbitrary-Rank Ablation (ARA).",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "FrostWolfAI/Spark-X2.6-4B-abliterated"
       ]
     }
   },
@@ -5505,6 +5546,57 @@
       "sdk": "static",
       "models": [
         "onnx-community/embeddinggemma-300m-ONNX"
+      ]
+    },
+    "cfahlgren1/pixel-search": {
+      "url": "https://huggingface.co/spaces/cfahlgren1/pixel-search",
+      "title": "Pixel Search",
+      "description": "Instant semantic search over pixel art, in your browser",
+      "sdk": "static",
+      "models": []
+    },
+    "MiniMaxAI/minimax-h3-image": {
+      "url": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image",
+      "title": "MiniMax-H3-Image",
+      "description": "Text-to-image and multi-image editing in 6 steps",
+      "sdk": "gradio",
+      "models": [
+        "diffusers-internal-dev/minimax-h3-image",
+        "MiniMaxAI/MiniMax-H3-Image",
+        "MiniMaxAI/MiniMax-H3-Image-PE"
+      ]
+    },
+    "webml-community/Baguettotron-WebGPU": {
+      "url": "https://huggingface.co/spaces/webml-community/Baguettotron-WebGPU",
+      "title": "Baguettotron WebGPU",
+      "description": "A small but powerful reasoning model",
+      "sdk": "static",
+      "models": [
+        "PleIAs/Baguettotron",
+        "onnx-community/Baguettotron-ONNX"
+      ]
+    },
+    "webml-community/voyage-4-nano-webgpu": {
+      "url": "https://huggingface.co/spaces/webml-community/voyage-4-nano-webgpu",
+      "title": "voyage-4-nano WebGPU",
+      "description": null,
+      "sdk": "static",
+      "models": [
+        "onnx-community/voyage-4-nano-ONNX"
+      ]
+    },
+    "webml-community/Olmo-Hybrid-WebGPU": {
+      "url": "https://huggingface.co/spaces/webml-community/Olmo-Hybrid-WebGPU",
+      "title": "Olmo Hybrid WebGPU",
+      "description": "Run Olmo-Hybrid-7B 100% locally in your browser on WebGPU",
+      "sdk": "static",
+      "models": [
+        "onnx-community/Olmo-Hybrid-Instruct-SFT-7B-ONNX",
+        "onnx-community/Olmo-Hybrid-Instruct-DPO-7B-ONNX",
+        "onnx-community/Olmo-Hybrid-Think-SFT-7B-ONNX",
+        "allenai/Olmo-Hybrid-Instruct-SFT-7B",
+        "allenai/Olmo-Hybrid-Instruct-DPO-7B",
+        "allenai/Olmo-Hybrid-Think-SFT-7B"
       ]
     }
   }
