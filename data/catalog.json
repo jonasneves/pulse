@@ -132,7 +132,7 @@
     },
     "Alishahryar1/free-claude-code": {
       "url": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
       "language": "Python"
     },
     "PostHog/posthog": {
@@ -354,11 +354,6 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript"
-    },
-    "NanmiCoder/MediaCrawler": {
-      "url": "https://github.com/NanmiCoder/MediaCrawler",
-      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫",
-      "language": "Python"
     },
     "hugohe3/ppt-master": {
       "url": "https://github.com/hugohe3/ppt-master",
@@ -609,11 +604,6 @@
       "url": "https://github.com/localsend/localsend",
       "description": "An open-source cross-platform alternative to AirDrop",
       "language": "Dart"
-    },
-    "embabel/embabel-agent": {
-      "url": "https://github.com/embabel/embabel-agent",
-      "description": "Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/",
-      "language": "Kotlin"
     },
     "megadose/holehe": {
       "url": "https://github.com/megadose/holehe",
@@ -2104,6 +2094,26 @@
       "url": "https://github.com/TheAlgorithms/Java",
       "description": "All Algorithms implemented in Java",
       "language": "Java"
+    },
+    "pookjw/HermesEnabler": {
+      "url": "https://github.com/pookjw/HermesEnabler",
+      "description": "Enable Hermès Watch Faces on any Apple Watch devices",
+      "language": "Objective-C"
+    },
+    "QwenLM/qwen-code": {
+      "url": "https://github.com/QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "language": "TypeScript"
+    },
+    "ashhart/TensorFold": {
+      "url": "https://github.com/ashhart/TensorFold",
+      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "language": "Zig"
+    },
+    "ggml-org/llama.cpp": {
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++"
     }
   },
   "models": {
@@ -2501,7 +2511,7 @@
     },
     "unsloth/Qwen3.8-27B-GGUF": {
       "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-      "description": "Analysis of best Qwen3.8 GGUF providers. Unsloth Dynamic v3.0 delivers >10% top-1% better accuracy at the same size compared to every other provider. Read more",
+      "description": "See below for 4-bit Qwen3.8-27B run inside of Unsloth Desktop:",
       "pipelineTag": null,
       "baseModels": [
         "Qwen/Qwen3.8-27B"
@@ -3584,7 +3594,7 @@
     },
     "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic": {
       "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-      "description": "This project is built in close collaboration with hardware engineer Kyle Hessling, whose infrastructure, training support, and evaluation assistance helped make this release possible. The model training workflow is accelerated and memory…",
+      "description": "Also check out DeepThought, my science finetune based on this model: xtools-at/Qwen3.5-9B-DeepThought-STEM",
       "pipelineTag": "text-generation",
       "baseModels": [
         "Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B"
@@ -3662,7 +3672,7 @@
     },
     "xtools-at/DeepSeek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic": {
       "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic",
-      "description": "This project is built in close collaboration with hardware engineer Kyle Hessling, whose infrastructure, training support, and evaluation assistance helped make this release possible. The model training workflow is accelerated and memory…",
+      "description": "Also check out DeepThought, my science finetune based on this model: xtools-at/Qwen3.5-4B-DeepThought-STEM",
       "pipelineTag": "text-generation",
       "baseModels": [
         "Jackrong/DeepSeek-V4-Pro-Qwen3.5-4B"
@@ -3759,6 +3769,26 @@
       "baseModels": [
         "FrostWolfAI/Spark-X2.6-4B-abliterated"
       ]
+    },
+    "Zyphra/ZONOS3-Mini": {
+      "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+      "description": "ZONOS3-Mini is Zyphra’s compact, open-source text-to-speech model, delivering natural reliable speech and high-fidelity voice cloning with just 100 million active parameters. It runs in real time on phones and laptops, including directly…",
+      "pipelineTag": "text-to-speech",
+      "baseModels": []
+    },
+    "facebook/dinov3-vitl16-pretrain-lvd1689m": {
+      "url": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m",
+      "description": null,
+      "pipelineTag": "image-feature-extraction",
+      "baseModels": [
+        "facebook/dinov3-vit7b16-pretrain-lvd1689m"
+      ]
+    },
+    "MiniMaxAI/MiniMax-H3": {
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "description": "MiniMax H3 is a general-purpose, omni-modal generative system. It supports unified understanding of multimodal contexts composed of text, images, video, and audio, and can generate video with native stereo audio at resolutions up to 2K a…",
+      "pipelineTag": "image-text-to-video",
+      "baseModels": []
     }
   },
   "spaces": {
@@ -5598,6 +5628,31 @@
         "allenai/Olmo-Hybrid-Instruct-DPO-7B",
         "allenai/Olmo-Hybrid-Think-SFT-7B"
       ]
+    },
+    "fafsaf1/FlowHMR": {
+      "url": "https://huggingface.co/spaces/fafsaf1/FlowHMR",
+      "title": "FlowHMR",
+      "description": null,
+      "sdk": "gradio",
+      "models": [
+        "fafsaf1/flowhmr-0.46B",
+        "facebook/sam-3d-body-dinov3",
+        "facebook/VGGT-Omega"
+      ]
+    },
+    "fendouai/free-youtube-transcript": {
+      "url": "https://huggingface.co/spaces/fendouai/free-youtube-transcript",
+      "title": "Free Youtube Transcript",
+      "description": "YouTube to text transcript preview with timestamps.",
+      "sdk": "static",
+      "models": []
+    },
+    "CumaSystem/Omni-videos-custom": {
+      "url": "https://huggingface.co/spaces/CumaSystem/Omni-videos-custom",
+      "title": "Omni Video Custom-fast-motion",
+      "description": "text to video, image to video, video extend",
+      "sdk": "gradio",
+      "models": []
     }
   }
 }
