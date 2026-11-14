@@ -335,11 +335,6 @@
       "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
       "language": "TypeScript"
     },
-    "smicallef/spiderfoot": {
-      "url": "https://github.com/smicallef/spiderfoot",
-      "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
-      "language": "Python"
-    },
     "stablyai/orca": {
       "url": "https://github.com/stablyai/orca",
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
@@ -545,11 +540,6 @@
       "description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
       "language": "Python"
     },
-    "semantica-agi/semantica": {
-      "url": "https://github.com/semantica-agi/semantica",
-      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-      "language": "Python"
-    },
     "Comfy-Org/ComfyUI": {
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
@@ -580,11 +570,6 @@
       "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
       "language": "Rust"
     },
-    "infiniflow/ragflow": {
-      "url": "https://github.com/infiniflow/ragflow",
-      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-      "language": "Go"
-    },
     "ZuodaoTech/everyone-can-use-english": {
       "url": "https://github.com/ZuodaoTech/everyone-can-use-english",
       "description": "人人都能用英语",
@@ -609,26 +594,6 @@
       "url": "https://github.com/cactus-compute/needle",
       "description": "Automation foundation model for tiny devices: 2-bit, 8-29 MB, tool calls, structured extraction and embeddings on phones, wearables, smart homes, robots, cars and microcontrollers.",
       "language": "Python"
-    },
-    "lightningpixel/modly": {
-      "url": "https://github.com/lightningpixel/modly",
-      "description": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
-      "language": "TypeScript"
-    },
-    "holaboss-ai/holaOS": {
-      "url": "https://github.com/holaboss-ai/holaOS",
-      "description": "Open-source agentic workspace enterprises can make their own. Connect the systems you already run — 100+ integrations, MCP, chat tools, apps, browser, local files — with shared memory. Any agent (Claude Code, Codex), any model, or BYOK. Set up in clicks, not months. Local-first: your data never leaves your machines.",
-      "language": "TypeScript"
-    },
-    "rustdesk/rustdesk": {
-      "url": "https://github.com/rustdesk/rustdesk",
-      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "language": "Rust"
-    },
-    "deepseek-ai/awesome-deepseek-agent": {
-      "url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
-      "description": "",
-      "language": null
     },
     "ToolJet/ToolJet": {
       "url": "https://github.com/ToolJet/ToolJet",
@@ -3830,6 +3795,58 @@
       "baseModels": [
         "LiquidAI/LFM3-1.7B"
       ]
+    },
+    "Edge0/Edge0-145B-NVFP4": {
+      "url": "https://huggingface.co/Edge0/Edge0-145B-NVFP4",
+      "description": ".edge0-card :where(p,span,small,strong,b,summary,div,nav,li,td,th) {font-family:inherit;line-height:inherit;color:inherit;} .edge0-card{color-scheme:light; --ink:#1d1d1f; --muted:#6e6e73; --line:#e5e5e7; --signal:#E63946; --ivory:#F1FAEE…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen3.8-Flash-Next"
+      ]
+    },
+    "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized": {
+      "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+      "description": "Quantized builds at adapter weight 1.0, for text-to-image generation and image editing.",
+      "pipelineTag": "text-to-image",
+      "baseModels": [
+        "Qwen/Qwen-Image-2.1"
+      ]
+    },
+    "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF": {
+      "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+      "description": "and it does so in 4bit and 8bit. Regular and MTP (fast) NEO IMATRIX GGUFs provided. (this model is part of the Qwen 3.6 27B Fable Fusion 711 pipelines: 2200+ likes, 3 million + downloads)",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP"
+      ]
+    },
+    "adventists-ai/Sophon-Realtime-v1": {
+      "url": "https://huggingface.co/adventists-ai/Sophon-Realtime-v1",
+      "description": "An open full-duplex voice model family that hears your tone and speaks with one. Adventists AI · Apache-2.0 · Recommended: Tag · Flash · Try it online · GitHub",
+      "pipelineTag": "any-to-any",
+      "baseModels": []
+    },
+    "meituan-longcat/LongCat-2.5": {
+      "url": "https://huggingface.co/meituan-longcat/LongCat-2.5",
+      "description": "LongCat-2.5 is a native multimodal MoE model for long-horizon agentic tasks, with 1.6 trillion total parameters and approximately 48 billion activated per token. Building on LongCat-2.0, it combines visual understanding with agentic codi…",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
+    },
+    "qvac/BotPsy-0.8B": {
+      "url": "https://huggingface.co/qvac/BotPsy-0.8B",
+      "description": "BotPsy-0.8B is a 0.8B-parameter model designed for function calling and agentic workflows, built on top of Qwen3.5-0.8B and suitable for on-device deployment. BotPsy is a \"personal assistant\" that uses tools to perform a variety of simpl…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen3.5-0.8B"
+      ]
+    },
+    "ccore/Qwen3-1.7B-GLB-3D-Coder": {
+      "url": "https://huggingface.co/ccore/Qwen3-1.7B-GLB-3D-Coder",
+      "description": "Generate Three.js game assets and export them as GLB on modest hardware.",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen3-1.7B"
+      ]
     }
   },
   "spaces": {
@@ -5712,6 +5729,43 @@
       "models": [
         "mpasila/Krea-2-Models",
         "waitinghere/krea2-loras"
+      ]
+    },
+    "amisima/Qwen-2.1-Turbo-Qwen-Face-Swap-MOSS-Image-Edit-Outpaint-Qwen-Detail-Enhancer": {
+      "url": "https://huggingface.co/spaces/amisima/Qwen-2.1-Turbo-Qwen-Face-Swap-MOSS-Image-Edit-Outpaint-Qwen-Detail-Enhancer",
+      "title": "Qwen 2.1 Turbo | Relight | Camera Angle | Face Swap | MOSS",
+      "description": "Turbo, Relight, Camera, Face Swap, MOSS, Outpaint, Enhance",
+      "sdk": "gradio",
+      "models": []
+    },
+    "Lampyy/qwen-image-edit": {
+      "url": "https://huggingface.co/spaces/Lampyy/qwen-image-edit",
+      "title": "Qwen Image 2.1 Uncensored",
+      "description": "Uncensored Qwen-Image-2.1 generate + edit",
+      "sdk": "gradio",
+      "models": [
+        "Qwen/Qwen-Image-2.1",
+        "abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
+      ]
+    },
+    "hugging-apps/mirage-vision": {
+      "url": "https://huggingface.co/spaces/hugging-apps/mirage-vision",
+      "title": "Mirage · On-device structured vision",
+      "description": "22 MB vision model - description, boxes, masks, OCR, forms",
+      "sdk": "gradio",
+      "models": [
+        "Cactus-Compute/cactus",
+        "Cactus-Compute/mirage"
+      ]
+    },
+    "webml-community/learn-french-in-your-browser": {
+      "url": "https://huggingface.co/spaces/webml-community/learn-french-in-your-browser",
+      "title": "Le Livre animé",
+      "description": "Learn French in a 3D pop-up book, with on-device AI",
+      "sdk": "static",
+      "models": [
+        "LiquidAI/LFM3-Omni-2B",
+        "LiquidAI/LFM3-Omni-2B-GGUF"
       ]
     }
   }
