@@ -570,20 +570,10 @@
       "description": "An open-source cross-platform alternative to AirDrop",
       "language": "Dart"
     },
-    "unslothai/unsloth": {
-      "url": "https://github.com/unslothai/unsloth",
-      "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.",
-      "language": "Python"
-    },
     "cactus-compute/needle": {
       "url": "https://github.com/cactus-compute/needle",
       "description": "Automation foundation model for tiny devices: 2-bit, 8-29 MB, tool calls, structured extraction and embeddings on phones, wearables, smart homes, robots, cars and microcontrollers.",
       "language": "Python"
-    },
-    "ToolJet/ToolJet": {
-      "url": "https://github.com/ToolJet/ToolJet",
-      "description": "Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Claude Code, Codex and Cursor over MCP 🚀",
-      "language": "JavaScript"
     },
     "cordiverse/cordis": {
       "url": "https://github.com/cordiverse/cordis",
@@ -2079,6 +2069,41 @@
       "url": "https://github.com/martin-olivier/airgorah",
       "description": "A WiFi security auditing software",
       "language": "Rust"
+    },
+    "getarcaneapp/arcane": {
+      "url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "language": "Go"
+    },
+    "DeanChensj/jiangshan-map": {
+      "url": "https://github.com/DeanChensj/jiangshan-map",
+      "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
+      "language": "JavaScript"
+    },
+    "google-labs-code/stitch-skills": {
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript"
+    },
+    "NVIDIA/SkillEvaluator": {
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "language": "Python"
+    },
+    "google-research/paper-orchestra": {
+      "url": "https://github.com/google-research/paper-orchestra",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "language": "Python"
+    },
+    "sveltejs/svelte": {
+      "url": "https://github.com/sveltejs/svelte",
+      "description": "web development for the rest of us",
+      "language": "JavaScript"
+    },
+    "kajisho5/ffmpeg-skill": {
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+      "language": "Python"
     }
   },
   "models": {
@@ -5806,6 +5831,13 @@
         "LiquidAI/LFM3-Omni-2B",
         "LiquidAI/LFM3-Omni-2B-GGUF"
       ]
+    },
+    "MegaPotatoAI/AI-Image-Upscaler": {
+      "url": "https://huggingface.co/spaces/MegaPotatoAI/AI-Image-Upscaler",
+      "title": "AI Image Upscaler",
+      "description": "2026's #1 image upscaler · Cheapest top-tier · Free demo+API",
+      "sdk": "static",
+      "models": []
     }
   }
 }
