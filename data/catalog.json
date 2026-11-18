@@ -575,11 +575,6 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust"
     },
-    "agalwood/Motrix": {
-      "url": "https://github.com/agalwood/Motrix",
-      "description": "A full-featured download manager.",
-      "language": "TypeScript"
-    },
     "chaitanyagiri/munder-difflin": {
       "url": "https://github.com/chaitanyagiri/munder-difflin",
       "description": "A local multi-agent harness that works with your existing Claude Code, Codex subscriptions, allows you to run an office of agents",
@@ -2072,7 +2067,7 @@
     },
     "NVIDIA/SkillEvaluator": {
       "url": "https://github.com/NVIDIA/SkillEvaluator",
-      "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
       "language": "Python"
     },
     "google-research/paper-orchestra": {
@@ -2094,6 +2089,31 @@
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "language": "Python"
+    },
+    "astral-sh/uv": {
+      "url": "https://github.com/astral-sh/uv",
+      "description": "An extremely fast Python package and project manager, written in Rust.",
+      "language": "Rust"
+    },
+    "jquery/jquery": {
+      "url": "https://github.com/jquery/jquery",
+      "description": "jQuery JavaScript Library",
+      "language": "JavaScript"
+    },
+    "appwrite/appwrite": {
+      "url": "https://github.com/appwrite/appwrite",
+      "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+      "language": "TypeScript"
+    },
+    "openvinotoolkit/openvino": {
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+      "language": "C++"
+    },
+    "solidjs/solid": {
+      "url": "https://github.com/solidjs/solid",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "language": "TypeScript"
     }
   },
   "models": {
@@ -3941,6 +3961,50 @@
       "description": "Developed by the Institute of Foundation Models (IFM) at MBZUAI.",
       "pipelineTag": "image-text-to-video",
       "baseModels": []
+    },
+    "harness-hub/Qwen3.8-27B-pi-adapted": {
+      "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+      "description": "A LoRA adapter for Qwen/Qwen3.8-27B, trained with reinforcement learning to work as the model behind the pi coding agent on software-engineering and terminal tasks.",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "Qwen/Qwen3.8-27B"
+      ]
+    },
+    "tencent/Hy4-flash": {
+      "url": "https://huggingface.co/tencent/Hy4-flash",
+      "description": "Hy4 flash is our most cost-effective Hy model to date, featuring 220B total parameters (including 64B Engram parameters) with just 12B active parameters per token. It natively accepts text and image inputs, generates text, and supports a…",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
+    },
+    "apple/FastFrames-L": {
+      "url": "https://huggingface.co/apple/FastFrames-L",
+      "description": "This repository contains the official implementation of FastFrames: Video Generation at Interactive Latency. We release FastFrames-S (1.3B) and FastFrames-L (14B). Both are autoregressive, two-step video diffusion models that generate 48…",
+      "pipelineTag": "text-to-video",
+      "baseModels": [
+        "Wan-AI/Wan2.1-T2V-14B"
+      ]
+    },
+    "sensenova/SenseNova-Loop-9B": {
+      "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
+      "description": null,
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
+    },
+    "KORMo-VL/KORMo-Web-11B": {
+      "url": "https://huggingface.co/KORMo-VL/KORMo-Web-11B",
+      "description": "KORMo-Web-11B is a general-purpose bilingual AI model built on the KORMo foundation model family, developed by KAIST MLP Lab starting from a language model trained entirely from scratch. Unlike our Qwen-based KORMo-Web-4B and 9B models, …",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "KORMo-VL/KORMo-VL"
+      ]
+    },
+    "nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft": {
+      "url": "https://huggingface.co/nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft",
+      "description": "The NVIDIA Qwen3.5-4B-Qwen3.8-27B-Draft model is an external draft model for Qwen’s Qwen3.8-27B – a complete language model rather than a draft head, sharing the target's tokenizer and vocabulary. It proposes blocks of candidate tokens w…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen3.5-4B"
+      ]
     }
   },
   "spaces": {
@@ -5889,8 +5953,57 @@
       "description": "Multilingual TTS with voice cloning and steering controls",
       "sdk": "gradio",
       "models": [
-        "Zyphra/ZONOS3_Mini_release_ckpts",
         "Zyphra/ZONOS3-Mini"
+      ]
+    },
+    "cfahlgren1/slack-moji": {
+      "url": "https://huggingface.co/spaces/cfahlgren1/slack-moji",
+      "title": "Slack Moji",
+      "description": "Describe an emoji. A tiny model paints it in your browser.",
+      "sdk": "static",
+      "models": [
+        "thejagstudio/tessera-small",
+        "openai/clip-vit-base-patch32"
+      ]
+    },
+    "HuggingFaceSwarms/PyBot": {
+      "url": "https://huggingface.co/spaces/HuggingFaceSwarms/PyBot",
+      "title": "PyBot",
+      "description": "Can Python be a chatbot?",
+      "sdk": "docker",
+      "models": []
+    },
+    "thejagstudio/tessera-pixel-studio": {
+      "url": "https://huggingface.co/spaces/thejagstudio/tessera-pixel-studio",
+      "title": "Text To Pixel Art",
+      "description": "Text-to-pixel-art diffusion LLM with live unmasking",
+      "sdk": "gradio",
+      "models": [
+        "thejagstudio/tessera-small",
+        "openai/clip-vit-base-patch32"
+      ]
+    },
+    "DontPlanToEnd/UGI-Leaderboard": {
+      "url": "https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard",
+      "title": "UGI Leaderboard",
+      "description": "Uncensored General Intelligence Leaderboard",
+      "sdk": "docker",
+      "models": []
+    },
+    "webml-community/conversational-webgpu": {
+      "url": "https://huggingface.co/spaces/webml-community/conversational-webgpu",
+      "title": "Conversational WebGPU",
+      "description": null,
+      "sdk": "static",
+      "models": []
+    },
+    "webml-community/Voxtral-WebGPU": {
+      "url": "https://huggingface.co/spaces/webml-community/Voxtral-WebGPU",
+      "title": "Voxtral WebGPU",
+      "description": "State-of-the-art audio transcription in your browser",
+      "sdk": "static",
+      "models": [
+        "onnx-community/Voxtral-Mini-3B-2507-ONNX"
       ]
     }
   }
