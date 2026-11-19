@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T14:01:16.288Z",
+  "updated": "2026-11-19T14:27:27.872Z",
   "trending": [
     {
       "rank": 1,
@@ -8,8 +8,8 @@
       "title": "The Ultimate MoE Training Handbook",
       "description": "A hands-on guide to training Mixture-of-Experts models",
       "sdk": "docker",
-      "likes": 735,
-      "trendingScore": 169,
+      "likes": 752,
+      "trendingScore": 161,
       "tags": [],
       "models": [],
       "lastModified": "2026-11-05T18:07:55.000Z"
@@ -21,8 +21,8 @@
       "title": "Harness Leaderboard",
       "description": "Which coding-agent harness should you use for your model?",
       "sdk": "docker",
-      "likes": 439,
-      "trendingScore": 140,
+      "likes": 459,
+      "trendingScore": 129,
       "tags": [],
       "models": [
         "deepseek-ai/DeepSeek-V4.1-Flash",
@@ -30,7 +30,7 @@
         "ricursiveAI/Ripple-65B-Preview",
         "zai-org/GLM-5.3-Flash"
       ],
-      "lastModified": "2026-11-18T08:03:09.000Z"
+      "lastModified": "2026-11-19T08:16:06.000Z"
     },
     {
       "rank": 3,
@@ -39,8 +39,8 @@
       "title": "MiniMax-H3-Image",
       "description": "Text-to-image and multi-image editing in 6 steps",
       "sdk": "gradio",
-      "likes": 165,
-      "trendingScore": 106,
+      "likes": 190,
+      "trendingScore": 116,
       "tags": [],
       "models": [
         "diffusers-internal-dev/minimax-h3-image",
@@ -56,8 +56,8 @@
       "title": "Wan2.2 14B Fast Preview [NEW]",
       "description": null,
       "sdk": "gradio",
-      "likes": 429,
-      "trendingScore": 71,
+      "likes": 472,
+      "trendingScore": 95,
       "tags": [
         "mcp-server"
       ],
@@ -74,29 +74,12 @@
     },
     {
       "rank": 5,
-      "id": "PrunaAI/P-H3-Image",
-      "url": "https://huggingface.co/spaces/PrunaAI/P-H3-Image",
-      "title": "P-H3-Image",
-      "description": "Text-to-image and image editing, based on MiniMax-H3",
-      "sdk": "gradio",
-      "likes": 184,
-      "trendingScore": 66,
-      "tags": [
-        "ml-intern"
-      ],
-      "models": [
-        "PrunaAI/P-H3-Image"
-      ],
-      "lastModified": "2026-11-05T10:49:09.000Z"
-    },
-    {
-      "rank": 6,
       "id": "hugging-apps/bfs-best-face-swap",
       "url": "https://huggingface.co/spaces/hugging-apps/bfs-best-face-swap",
       "title": "BFS Best Face Swap",
       "description": "Head swap with the BFS LoRA on Qwen-Image-2.1 (+turbo)",
       "sdk": "gradio",
-      "likes": 973,
+      "likes": 990,
       "trendingScore": 65,
       "tags": [
         "mcp-server"
@@ -109,14 +92,48 @@
       "lastModified": "2026-09-28T16:41:00.000Z"
     },
     {
+      "rank": 6,
+      "id": "cfahlgren1/slack-moji",
+      "url": "https://huggingface.co/spaces/cfahlgren1/slack-moji",
+      "title": "Slack Moji",
+      "description": "Describe an emoji. A tiny model paints it in your browser.",
+      "sdk": "static",
+      "likes": 58,
+      "trendingScore": 56,
+      "tags": [],
+      "models": [
+        "cfahlgren1/tessera-small-onnx",
+        "thejagstudio/tessera-small",
+        "openai/clip-vit-base-patch32"
+      ],
+      "lastModified": "2026-11-18T14:56:24.000Z"
+    },
+    {
       "rank": 7,
+      "id": "PrunaAI/P-Image-OSS",
+      "url": "https://huggingface.co/spaces/PrunaAI/P-Image-OSS",
+      "title": "P-Image-OSS",
+      "description": "Text-to-image and image editing, based on MiniMax-H3",
+      "sdk": "gradio",
+      "likes": 185,
+      "trendingScore": 54,
+      "tags": [
+        "ml-intern"
+      ],
+      "models": [
+        "PrunaAI/P-Image-OSS"
+      ],
+      "lastModified": "2026-11-19T09:03:30.000Z"
+    },
+    {
+      "rank": 8,
       "id": "amisima/Qwen-2.1-Turbo-Qwen-Face-Swap-MOSS-Image-Edit-Outpaint-Qwen-Detail-Enhancer",
       "url": "https://huggingface.co/spaces/amisima/Qwen-2.1-Turbo-Qwen-Face-Swap-MOSS-Image-Edit-Outpaint-Qwen-Detail-Enhancer",
       "title": "Qwen 2.1 Turbo | Relight | Camera Angle | Face Swap | MOSS",
       "description": "Turbo, Relight, Camera, Face Swap, MOSS, Outpaint, Enhance",
       "sdk": "gradio",
-      "likes": 87,
-      "trendingScore": 42,
+      "likes": 100,
+      "trendingScore": 51,
       "tags": [
         "image-to-image",
         "image-editing",
@@ -128,30 +145,43 @@
       "lastModified": "2026-11-18T11:59:56.000Z"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "id": "waitinghere/Krea2T-Revamped",
       "url": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped",
       "title": "Krea2T Image Revamped",
       "description": "Krea2 Turbo",
       "sdk": "gradio",
-      "likes": 66,
-      "trendingScore": 42,
+      "likes": 78,
+      "trendingScore": 49,
       "tags": [],
       "models": [
         "mpasila/Krea-2-Models",
         "waitinghere/krea2-loras"
       ],
-      "lastModified": "2026-11-18T03:28:08.000Z"
+      "lastModified": "2026-11-18T21:52:27.000Z"
     },
     {
-      "rank": 9,
+      "rank": 10,
+      "id": "rdata92/LTX-2.3-10Eros",
+      "url": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros",
+      "title": "LTX 2.3 10Eros Image-to-Video",
+      "description": "ltx 2.3 improved image-to-video with 10eros & native audio",
+      "sdk": "gradio",
+      "likes": 212,
+      "trendingScore": 43,
+      "tags": [],
+      "models": [],
+      "lastModified": "2026-10-15T13:35:09.000Z"
+    },
+    {
+      "rank": 11,
       "id": "AST-1320/Qwen-2511-Plus-Flux.2-klein",
       "url": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein",
       "title": "Qwen 2511 + Flux.2 Klein",
       "description": "Edit images with Qwen and enhance with FLUX.2 Klein",
       "sdk": "gradio",
-      "likes": 447,
-      "trendingScore": 39,
+      "likes": 455,
+      "trendingScore": 40,
       "tags": [],
       "models": [
         "black-forest-labs/FLUX.2-klein-4B",
@@ -163,27 +193,30 @@
       "lastModified": "2026-11-14T12:36:00.000Z"
     },
     {
-      "rank": 10,
-      "id": "multimodalart/jev-decision-index",
-      "url": "https://huggingface.co/spaces/multimodalart/jev-decision-index",
-      "title": "Jev Decision Index",
-      "description": "Benchmarks and news on various repros of TypeSafe's Jev",
-      "sdk": "static",
-      "likes": 947,
-      "trendingScore": 37,
+      "rank": 12,
+      "id": "microsoft/TRELLIS.2",
+      "url": "https://huggingface.co/spaces/microsoft/TRELLIS.2",
+      "title": "TRELLIS.2",
+      "description": "High-fidelity 3D Generation from images",
+      "sdk": "gradio",
+      "likes": 2423,
+      "trendingScore": 38,
       "tags": [],
-      "models": [],
-      "lastModified": "2026-11-17T18:38:27.000Z"
+      "models": [
+        "microsoft/TRELLIS.2-4B",
+        "ZhengPeng7/BiRefNet"
+      ],
+      "lastModified": "2026-05-20T07:56:11.000Z"
     },
     {
-      "rank": 11,
+      "rank": 13,
       "id": "Guaryn/qwen-image-2.1-uncensored-aio-loras",
       "url": "https://huggingface.co/spaces/Guaryn/qwen-image-2.1-uncensored-aio-loras",
       "title": "Qwen Image 2.1 Uncensored All-In-One LoRA Studio",
       "description": "Uncensored Qwen 2.1 with All-In-One LoRAs",
       "sdk": "gradio",
-      "likes": 199,
-      "trendingScore": 35.699999999999996,
+      "likes": 214,
+      "trendingScore": 36.4,
       "tags": [
         "mcp-server"
       ],
@@ -200,14 +233,27 @@
       "lastModified": "2026-10-13T13:58:00.000Z"
     },
     {
-      "rank": 12,
+      "rank": 14,
+      "id": "multimodalart/jev-decision-index",
+      "url": "https://huggingface.co/spaces/multimodalart/jev-decision-index",
+      "title": "Jev Decision Index",
+      "description": "Benchmarks and news on various repros of TypeSafe's Jev",
+      "sdk": "static",
+      "likes": 951,
+      "trendingScore": 34,
+      "tags": [],
+      "models": [],
+      "lastModified": "2026-11-17T18:38:27.000Z"
+    },
+    {
+      "rank": 15,
       "id": "townbox/ava",
       "url": "https://huggingface.co/spaces/townbox/ava",
       "title": "Ava",
       "description": "Talk face to face with LFM3-Omni, running in your browser",
       "sdk": "static",
-      "likes": 126,
-      "trendingScore": 35,
+      "likes": 128,
+      "trendingScore": 31,
       "tags": [],
       "models": [
         "LiquidAI/LFM3-Omni-2B",
@@ -217,138 +263,14 @@
       "lastModified": "2026-11-16T11:57:27.000Z"
     },
     {
-      "rank": 13,
-      "id": "microsoft/TRELLIS.2",
-      "url": "https://huggingface.co/spaces/microsoft/TRELLIS.2",
-      "title": "TRELLIS.2",
-      "description": "High-fidelity 3D Generation from images",
-      "sdk": "gradio",
-      "likes": 2412,
-      "trendingScore": 34,
-      "tags": [],
-      "models": [
-        "microsoft/TRELLIS.2-4B",
-        "ZhengPeng7/BiRefNet"
-      ],
-      "lastModified": "2026-05-20T07:56:11.000Z"
-    },
-    {
-      "rank": 14,
-      "id": "cfahlgren1/slack-moji",
-      "url": "https://huggingface.co/spaces/cfahlgren1/slack-moji",
-      "title": "Slack Moji",
-      "description": "Describe an emoji. A tiny model paints it in your browser.",
-      "sdk": "static",
-      "likes": 34,
-      "trendingScore": 34,
-      "tags": [],
-      "models": [
-        "thejagstudio/tessera-small",
-        "openai/clip-vit-base-patch32"
-      ],
-      "lastModified": "2026-11-18T13:11:31.000Z"
-    },
-    {
-      "rank": 15,
-      "id": "speridlabs/idol",
-      "url": "https://huggingface.co/spaces/speridlabs/idol",
-      "title": "Idol",
-      "description": "One image to a 3D object (Gaussian splats)",
-      "sdk": "gradio",
-      "likes": 281,
-      "trendingScore": 31,
-      "tags": [],
-      "models": [
-        "speridlabs/idol",
-        "ZhengPeng7/BiRefNet"
-      ],
-      "lastModified": "2026-10-29T15:12:56.000Z"
-    },
-    {
       "rank": 16,
-      "id": "selfit-camera/Omni-Image-Editor",
-      "url": "https://huggingface.co/spaces/selfit-camera/Omni-Image-Editor",
-      "title": "Omni Image Editor",
-      "description": "Image edit, text to image, image upscale, remove watermark",
-      "sdk": "gradio",
-      "likes": 2952,
-      "trendingScore": 28,
-      "tags": [],
-      "models": [
-        "Falconsai/nsfw_image_detection"
-      ],
-      "lastModified": "2026-10-04T12:31:07.000Z"
-    },
-    {
-      "rank": 17,
-      "id": "fafsaf1/FlowHMR",
-      "url": "https://huggingface.co/spaces/fafsaf1/FlowHMR",
-      "title": "FlowHMR",
-      "description": null,
-      "sdk": "gradio",
-      "likes": 78,
-      "trendingScore": 28,
-      "tags": [
-        "motion-capture",
-        "zerogpu"
-      ],
-      "models": [
-        "fafsaf1/flowhmr-0.46B",
-        "facebook/sam-3d-body-dinov3",
-        "facebook/VGGT-Omega"
-      ],
-      "lastModified": "2026-10-31T15:50:31.000Z"
-    },
-    {
-      "rank": 18,
-      "id": "HuggingFaceSwarms/PyBot",
-      "url": "https://huggingface.co/spaces/HuggingFaceSwarms/PyBot",
-      "title": "PyBot",
-      "description": "Can Python be a chatbot?",
-      "sdk": "docker",
-      "likes": 26,
-      "trendingScore": 26,
-      "tags": [],
-      "models": [],
-      "lastModified": "2026-11-16T15:05:45.000Z"
-    },
-    {
-      "rank": 19,
-      "id": "Zyphra/ZONOS3-Mini",
-      "url": "https://huggingface.co/spaces/Zyphra/ZONOS3-Mini",
-      "title": "ZONOS3 Mini",
-      "description": "Multilingual TTS with voice cloning and steering controls",
-      "sdk": "gradio",
-      "likes": 30,
-      "trendingScore": 25,
-      "tags": [],
-      "models": [
-        "Zyphra/ZONOS3-Mini"
-      ],
-      "lastModified": "2026-11-17T23:22:58.000Z"
-    },
-    {
-      "rank": 20,
-      "id": "cfahlgren1/pixel-search",
-      "url": "https://huggingface.co/spaces/cfahlgren1/pixel-search",
-      "title": "Pixel Search",
-      "description": "Instant semantic search over pixel art, in your browser",
-      "sdk": "static",
-      "likes": 73,
-      "trendingScore": 25,
-      "tags": [],
-      "models": [],
-      "lastModified": "2026-11-16T13:50:11.000Z"
-    },
-    {
-      "rank": 21,
       "id": "thejagstudio/tessera-pixel-studio",
       "url": "https://huggingface.co/spaces/thejagstudio/tessera-pixel-studio",
       "title": "Text To Pixel Art",
       "description": "Text-to-pixel-art diffusion LLM with live unmasking",
       "sdk": "gradio",
-      "likes": 33,
-      "trendingScore": 25,
+      "likes": 41,
+      "trendingScore": 31,
       "tags": [
         "pixel-art",
         "text-to-image",
@@ -363,14 +285,72 @@
       "lastModified": "2026-11-14T00:41:14.000Z"
     },
     {
-      "rank": 22,
+      "rank": 17,
+      "id": "selfit-camera/Omni-Image-Editor",
+      "url": "https://huggingface.co/spaces/selfit-camera/Omni-Image-Editor",
+      "title": "Omni Image Editor",
+      "description": "Image edit, text to image, image upscale, remove watermark",
+      "sdk": "gradio",
+      "likes": 2962,
+      "trendingScore": 30,
+      "tags": [],
+      "models": [
+        "Falconsai/nsfw_image_detection"
+      ],
+      "lastModified": "2026-10-04T12:31:07.000Z"
+    },
+    {
+      "rank": 18,
+      "id": "Zyphra/ZONOS3-Mini",
+      "url": "https://huggingface.co/spaces/Zyphra/ZONOS3-Mini",
+      "title": "ZONOS3 Mini",
+      "description": "Multilingual TTS with voice cloning and steering controls",
+      "sdk": "gradio",
+      "likes": 36,
+      "trendingScore": 29,
+      "tags": [],
+      "models": [
+        "Zyphra/ZONOS3-Mini"
+      ],
+      "lastModified": "2026-11-17T23:22:58.000Z"
+    },
+    {
+      "rank": 19,
+      "id": "HuggingFaceSwarms/PyBot",
+      "url": "https://huggingface.co/spaces/HuggingFaceSwarms/PyBot",
+      "title": "PyBot",
+      "description": "Can Python be a chatbot?",
+      "sdk": "docker",
+      "likes": 31,
+      "trendingScore": 28,
+      "tags": [],
+      "models": [],
+      "lastModified": "2026-11-18T14:01:16.000Z"
+    },
+    {
+      "rank": 20,
+      "id": "Lakonik/pi-H3",
+      "url": "https://huggingface.co/spaces/Lakonik/pi-H3",
+      "title": "pi-H3",
+      "description": "Minimax H3 Video in 2–4 Steps Without a VAE Decoder",
+      "sdk": "gradio",
+      "likes": 39,
+      "trendingScore": 26,
+      "tags": [],
+      "models": [
+        "Lakonik/pi-H3-demo"
+      ],
+      "lastModified": "2026-11-18T11:48:14.000Z"
+    },
+    {
+      "rank": 21,
       "id": "linoyts/qwen-image-2-1-realtime",
       "url": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime",
       "title": "Qwen Image 2.1 Realtime",
       "description": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
       "sdk": "gradio",
-      "likes": 259,
-      "trendingScore": 24,
+      "likes": 263,
+      "trendingScore": 25,
       "tags": [
         "mcp-server"
       ],
@@ -382,88 +362,78 @@
       "lastModified": "2026-10-30T15:47:08.000Z"
     },
     {
-      "rank": 23,
-      "id": "aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
-      "url": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
-      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
-      "description": "Demo of the Collection of Qwen Image Edit LoRAs",
+      "rank": 22,
+      "id": "speridlabs/idol",
+      "url": "https://huggingface.co/spaces/speridlabs/idol",
+      "title": "Idol",
+      "description": "One image to a 3D object (Gaussian splats)",
       "sdk": "gradio",
-      "likes": 588,
+      "likes": 284,
+      "trendingScore": 23,
+      "tags": [],
+      "models": [
+        "speridlabs/idol",
+        "ZhengPeng7/BiRefNet"
+      ],
+      "lastModified": "2026-10-29T15:12:56.000Z"
+    },
+    {
+      "rank": 23,
+      "id": "fafsaf1/FlowHMR",
+      "url": "https://huggingface.co/spaces/fafsaf1/FlowHMR",
+      "title": "FlowHMR",
+      "description": null,
+      "sdk": "gradio",
+      "likes": 81,
       "trendingScore": 22,
       "tags": [
-        "mcp-server"
+        "motion-capture",
+        "zerogpu"
       ],
-      "models": [],
-      "lastModified": "2026-09-25T17:05:00.000Z"
+      "models": [
+        "fafsaf1/flowhmr-0.46B",
+        "facebook/sam-3d-body-dinov3",
+        "facebook/VGGT-Omega"
+      ],
+      "lastModified": "2026-10-31T15:50:31.000Z"
     },
     {
       "rank": 24,
-      "id": "akhaliq/qwen35-3d-coder-studio",
-      "url": "https://huggingface.co/spaces/akhaliq/qwen35-3d-coder-studio",
-      "title": "Qwen3.5 4B 3D Coder Studio",
-      "description": "Interactive Three.js 3D scenes from a prompt",
+      "id": "ritianyu/SplatAnything",
+      "url": "https://huggingface.co/spaces/ritianyu/SplatAnything",
+      "title": "SplatAnything (InfiniSplat v3)",
+      "description": null,
       "sdk": "gradio",
-      "likes": 53,
+      "likes": 35,
       "trendingScore": 22,
-      "tags": [
-        "ml-intern"
-      ],
+      "tags": [],
       "models": [
-        "ccore/Qwen3.5-4B-3D-Coder"
+        "ritianyu/SplatAnything"
       ],
-      "lastModified": "2026-11-10T09:02:26.000Z"
+      "lastModified": "2026-11-09T12:37:48.000Z"
     },
     {
       "rank": 25,
-      "id": "Lampyy/qwen-image-edit",
-      "url": "https://huggingface.co/spaces/Lampyy/qwen-image-edit",
-      "title": "Qwen Image 2.1 Uncensored",
-      "description": "Uncensored Qwen-Image-2.1 generate + edit",
-      "sdk": "gradio",
-      "likes": 53,
-      "trendingScore": 22,
-      "tags": [
-        "mcp-server"
-      ],
-      "models": [
-        "Qwen/Qwen-Image-2.1",
-        "abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
-      ],
-      "lastModified": "2026-09-29T16:35:03.000Z"
+      "id": "cfahlgren1/pixel-search",
+      "url": "https://huggingface.co/spaces/cfahlgren1/pixel-search",
+      "title": "Pixel Search",
+      "description": "Instant semantic search over pixel art, in your browser",
+      "sdk": "static",
+      "likes": 76,
+      "trendingScore": 21,
+      "tags": [],
+      "models": [],
+      "lastModified": "2026-11-16T13:50:11.000Z"
     },
     {
       "rank": 26,
-      "id": "Daankular/qwen-image-2.1-uncensored-aio-loras",
-      "url": "https://huggingface.co/spaces/Daankular/qwen-image-2.1-uncensored-aio-loras",
-      "title": "Qwen Image 2.1 Uncensored All-In-One LoRA Studio",
-      "description": "Uncensored Qwen 2.1 with All-In-One LoRAs",
-      "sdk": "gradio",
-      "likes": 80,
-      "trendingScore": 21,
-      "tags": [
-        "mcp-server"
-      ],
-      "models": [
-        "KasugaiSakura/Qwen-Image-2.1-Uncensored-Abenzerps-GGUF",
-        "Qwen/Qwen-Image-2.1",
-        "WarmBloodAban/Qwen-Image-2.1-LoRAs",
-        "prithivMLmods/Qwen-Image-2.1-Natural-Exposure-LoRA",
-        "alibaba-pai/Qwen-Image-2.1-Fun-Acc-LoRAs",
-        "Viggle/Qwen-Image-2.1-viggle-turbo",
-        "Alissonerdx/BFS-Best-Face-Swap",
-        "lilylilith/AnyPose"
-      ],
-      "lastModified": "2026-11-01T17:18:00.000Z"
-    },
-    {
-      "rank": 27,
       "id": "DontPlanToEnd/UGI-Leaderboard",
       "url": "https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard",
       "title": "UGI Leaderboard",
       "description": "Uncensored General Intelligence Leaderboard",
       "sdk": "docker",
-      "likes": 2221,
-      "trendingScore": 20,
+      "likes": 2222,
+      "trendingScore": 19,
       "tags": [
         "leaderboard",
         "submission:manual",
@@ -475,48 +445,71 @@
       "lastModified": "2026-10-17T01:50:46.000Z"
     },
     {
-      "rank": 28,
-      "id": "rdata92/LTX-2.3-10Eros",
-      "url": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros",
-      "title": "LTX 2.3 10Eros Image-to-Video",
-      "description": "ltx 2.3 improved image-to-video with 10eros & native audio",
+      "rank": 27,
+      "id": "aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
+      "url": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
+      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
+      "description": "Demo of the Collection of Qwen Image Edit LoRAs",
       "sdk": "gradio",
-      "likes": 204,
-      "trendingScore": 19.5,
-      "tags": [],
-      "models": [],
-      "lastModified": "2026-10-15T13:35:09.000Z"
-    },
-    {
-      "rank": 29,
-      "id": "HuggingFaceTB/smol-training-playbook",
-      "url": "https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook",
-      "title": "The Smol Training Playbook",
-      "description": "The secrets to building world-class LLMs",
-      "sdk": "docker",
-      "likes": 3401,
+      "likes": 590,
       "trendingScore": 19,
       "tags": [
-        "research-article-template",
-        "research paper",
-        "scientific paper",
-        "data visualization"
+        "mcp-server"
       ],
       "models": [],
-      "lastModified": "2026-07-28T12:15:00.000Z"
+      "lastModified": "2026-09-25T17:05:00.000Z"
     },
     {
-      "rank": 30,
+      "rank": 28,
       "id": "stepfun-ai/StepAudio-3-Music",
       "url": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music",
       "title": "StepAudio 3 Music Studio",
       "description": "Create songs, arrange vocals, and remix music with StepFun",
       "sdk": "gradio",
-      "likes": 294,
+      "likes": 299,
       "trendingScore": 19,
       "tags": [],
       "models": [],
       "lastModified": "2026-09-16T06:01:53.000Z"
+    },
+    {
+      "rank": 29,
+      "id": "Lampyy/qwen-image-edit",
+      "url": "https://huggingface.co/spaces/Lampyy/qwen-image-edit",
+      "title": "Qwen Image 2.1 Uncensored",
+      "description": "Uncensored Qwen-Image-2.1 generate + edit",
+      "sdk": "gradio",
+      "likes": 53,
+      "trendingScore": 19,
+      "tags": [
+        "mcp-server"
+      ],
+      "models": [
+        "Qwen/Qwen-Image-2.1",
+        "abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
+      ],
+      "lastModified": "2026-09-29T16:35:03.000Z"
+    },
+    {
+      "rank": 30,
+      "id": "r3gm/wan2-2-fp8da-aoti-preview",
+      "url": "https://huggingface.co/spaces/r3gm/wan2-2-fp8da-aoti-preview",
+      "title": "Wan2.2 14B Preview",
+      "description": "generate a video from an image with a text prompt",
+      "sdk": "gradio",
+      "likes": 3328,
+      "trendingScore": 18,
+      "tags": [
+        "mcp-server"
+      ],
+      "models": [
+        "cbensimon/WanTransformer3DModel-sm120-cu130-raa",
+        "CompVis/stable-diffusion-safety-checker",
+        "r3gm/RIFE",
+        "TestOrganizationPleaseIgnore/WAMU_v2_WAN2.2_I2V_LIGHTNING",
+        "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
+      ],
+      "lastModified": "2026-08-21T11:42:58.000Z"
     }
   ],
   "webml": [
@@ -527,8 +520,8 @@
       "title": "Le Livre animé",
       "description": "Learn French in a 3D pop-up book, with on-device AI",
       "sdk": "static",
-      "likes": 5,
-      "trendingScore": 5,
+      "likes": 6,
+      "trendingScore": 6,
       "tags": [
         "french",
         "language-learning",
