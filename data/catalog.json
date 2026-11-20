@@ -280,11 +280,6 @@
       "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
       "language": "Go"
     },
-    "RyanCodrai/turbovec": {
-      "url": "https://github.com/RyanCodrai/turbovec",
-      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
-      "language": "Rust"
-    },
     "openai/plugins": {
       "url": "https://github.com/openai/plugins",
       "description": "OpenAI Plugins",
@@ -560,11 +555,6 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust"
     },
-    "chaitanyagiri/munder-difflin": {
-      "url": "https://github.com/chaitanyagiri/munder-difflin",
-      "description": "A local multi-agent harness that works with your existing Claude Code, Codex subscriptions, allows you to run an office of agents",
-      "language": "TypeScript"
-    },
     "basecamp/omarchy": {
       "url": "https://github.com/omacom/omarchy",
       "description": "Beautiful, Modern & Opinionated Linux",
@@ -574,11 +564,6 @@
       "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
       "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
       "language": "PLSQL"
-    },
-    "volcengine/OpenViking": {
-      "url": "https://github.com/volcengine/OpenViking",
-      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
-      "language": "Python"
     },
     "AprilNEA/OpenLogi": {
       "url": "https://github.com/AprilNEA/OpenLogi",
@@ -4027,7 +4012,9 @@
       "url": "https://huggingface.co/Reson8/Rumble-2-Flash",
       "description": "Speech recognition model with native Hugging Face Transformers and vLLM support.",
       "pipelineTag": "automatic-speech-recognition",
-      "baseModels": []
+      "baseModels": [
+        "Qwen/Qwen3-ASR-0.6B"
+      ]
     },
     "RadixArk/DaisyRose-27B": {
       "url": "https://huggingface.co/RadixArk/DaisyRose-27B",
@@ -4040,6 +4027,32 @@
     "microsoft/Aion-1.0-Instruct-2.3B": {
       "url": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B",
       "description": "Aion Instruct serves as the foundational Small Language Model (SLM) in the Windows ecosystem, specifically optimized for on-device AI, text and operating system use cases. This 2.3B parameters base model delivers enterprise-grade languag…",
+      "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "Cloudflare/clairic": {
+      "url": "https://huggingface.co/Cloudflare/clairic",
+      "description": "Clairic is a 27B multimodal model that turns a state and a schema of typed fields into structured answers. It supports text and image inputs, extraction, numerical estimation, and forecasting. Each field has its own value and scoring inf…",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "Qwen/Qwen3.8-27B"
+      ]
+    },
+    "tencent/Hy4": {
+      "url": "https://huggingface.co/tencent/Hy4",
+      "description": "Hy4 is a new-generation Mixture-of-Experts (MoE) flagship model developed by the Tencent Hy Team, supporting text, image, and video understanding. The language backbone comprises 770B total parameters, of which 49B are activated per toke…",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
+    },
+    "Sentinel7/h3": {
+      "url": "https://huggingface.co/Sentinel7/h3",
+      "description": null,
+      "pipelineTag": null,
+      "baseModels": []
+    },
+    "meta-llama/Llama-3.2-3B": {
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B",
+      "description": null,
       "pipelineTag": "text-generation",
       "baseModels": []
     }
@@ -6070,6 +6083,50 @@
       "models": [
         "ritianyu/SplatAnything"
       ]
+    },
+    "agent-memory-leaderboard/leaderboard": {
+      "url": "https://huggingface.co/spaces/agent-memory-leaderboard/leaderboard",
+      "title": "Agent Memory Leaderboard",
+      "description": "Cycle 2 · Three memory tracks · Release November 19, 2026.",
+      "sdk": "static",
+      "models": []
+    },
+    "hugging-apps/clairic": {
+      "url": "https://huggingface.co/spaces/hugging-apps/clairic",
+      "title": "Clairic",
+      "description": "Cloudflare Clairic 27B typed structured extraction",
+      "sdk": "gradio",
+      "models": [
+        "Cloudflare/clairic"
+      ]
+    },
+    "kazufusa/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow": {
+      "url": "https://huggingface.co/spaces/kazufusa/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
+      "title": "MiniMax H3 Turbo Lora UNCENSORED Workflow",
+      "description": "Video generation with a synchronized soundtrack",
+      "sdk": "gradio",
+      "models": [
+        "hfmlsoc/ncii-light-guard-v01",
+        "larryvrh/MiniMax-H3-Turbo-Lora",
+        "lightx2v/Minimax-h3-Turbo",
+        "lynaNSFW/mysticxxx_MM_H3",
+        "MiniMaxAI/MiniMax-H3",
+        "multimodalart/minimax-h3-aoti"
+      ]
+    },
+    "nvidia/PhysicalAI-Human-1M-Explorer": {
+      "url": "https://huggingface.co/spaces/nvidia/PhysicalAI-Human-1M-Explorer",
+      "title": "Human-1M Exploration and Search",
+      "description": "Human-1M: 100K hours of sensorized human demonstrations",
+      "sdk": "static",
+      "models": []
+    },
+    "Neurips-2026-MLIntern-Repro/registration": {
+      "url": "https://huggingface.co/spaces/Neurips-2026-MLIntern-Repro/registration",
+      "title": "NeurIPS 2026 Repro Hackathon Registration",
+      "description": "Register for the NeurIPS 2026 repro hackathon",
+      "sdk": "gradio",
+      "models": []
     }
   }
 }
