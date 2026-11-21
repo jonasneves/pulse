@@ -295,11 +295,6 @@
       "description": "Agent Skills for Google products and technologies",
       "language": "Python"
     },
-    "santifer/career-ops": {
-      "url": "https://github.com/career-ops-hq/career-ops",
-      "description": "Open-source AI job search agent: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
-      "language": "JavaScript"
-    },
     "DeusData/codebase-memory-mcp": {
       "url": "https://github.com/DeusData/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
@@ -595,16 +590,6 @@
       "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "language": "TypeScript"
     },
-    "elder-plinius/OBLITERATUS": {
-      "url": "https://github.com/elder-plinius/OBLITERATUS",
-      "description": "OBLITERATE THE CHAINS THAT BIND YOU",
-      "language": "Python"
-    },
-    "TryGhost/Ghost": {
-      "url": "https://github.com/TryGhost/Ghost",
-      "description": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
-      "language": "TypeScript"
-    },
     "apache/maka": {
       "url": "https://github.com/apache/maka",
       "description": "Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.",
@@ -629,11 +614,6 @@
       "url": "https://github.com/n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "language": "TypeScript"
-    },
-    "microsoft/onnxruntime": {
-      "url": "https://github.com/microsoft/onnxruntime",
-      "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
-      "language": "C++"
     },
     "tinyhumansai/openhuman": {
       "url": "https://github.com/tinyhumansai/openhuman",
@@ -2067,7 +2047,7 @@
     },
     "firecrawl/firecrawl": {
       "url": "https://github.com/firecrawl/firecrawl",
-      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "language": "TypeScript"
     },
     "nginx/nginx": {
@@ -4055,6 +4035,42 @@
       "description": null,
       "pipelineTag": "text-generation",
       "baseModels": []
+    },
+    "thinkingmachines/Inkling-2-Mini": {
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+      "description": "Inkling 2 Mini is a general-purpose multimodal model that accepts text and image inputs and generates text outputs. It is intended for use in English and other languages, and across multiple coding languages. The model is designed to be …",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
+    },
+    "unsloth/Inkling-2-Mini-GGUF": {
+      "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+      "description": "See an example of 4-bit Inkling Mini running in Unsloth in Blender + MCP:",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "thinkingmachines/Inkling-2-Mini"
+      ]
+    },
+    "apple/DepthPro2": {
+      "url": "https://huggingface.co/apple/DepthPro2",
+      "description": "Depth Pro 2 estimates metric depth for every pixel from an ordinary camera: a single photo, a whole video, or a live feed, at the input's full resolution. Its depth is sharp at object edges and steady from frame to frame.",
+      "pipelineTag": "depth-estimation",
+      "baseModels": []
+    },
+    "harness-hub/Qwen3.8-27B-opencode-adapted": {
+      "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-opencode-adapted",
+      "description": "A LoRA adapter for Qwen/Qwen3.8-27B, trained with reinforcement learning to work as the model behind the OpenCode coding agent on software-engineering and terminal tasks.",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "Qwen/Qwen3.8-27B"
+      ]
+    },
+    "ccore/CCORE-Web-Coder-4B": {
+      "url": "https://huggingface.co/ccore/CCORE-Web-Coder-4B",
+      "description": "CCORE Web Coder 4B turns a brief into a single React HTML document for a website, slide deck, or informational page. CCORE fine-tuned the model from Qwen3.5-4B-Base.",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen3.5-4B-Base"
+      ]
     }
   },
   "spaces": {
@@ -5929,8 +5945,8 @@
     },
     "waitinghere/Krea2T-Revamped": {
       "url": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped",
-      "title": "Krea2T Image Revamped",
-      "description": "Krea2 Turbo",
+      "title": "Krea 2 Turbo Revamped: Image Editor",
+      "description": "Edit one image from a prompt. Keep the look consistent.",
       "sdk": "gradio",
       "models": [
         "mpasila/Krea-2-Models",
@@ -6071,9 +6087,7 @@
       "title": "pi-H3",
       "description": "Minimax H3 Video in 2–4 Steps Without a VAE Decoder",
       "sdk": "gradio",
-      "models": [
-        "Lakonik/pi-H3-demo"
-      ]
+      "models": []
     },
     "ritianyu/SplatAnything": {
       "url": "https://huggingface.co/spaces/ritianyu/SplatAnything",
@@ -6126,6 +6140,13 @@
       "title": "NeurIPS 2026 Repro Hackathon Registration",
       "description": "Register for the NeurIPS 2026 repro hackathon",
       "sdk": "gradio",
+      "models": []
+    },
+    "ServiceNow-AI/enterpriseops-gym-v1.1": {
+      "url": "https://huggingface.co/spaces/ServiceNow-AI/enterpriseops-gym-v1.1",
+      "title": "Enterpriseops Gym V1.1",
+      "description": "Enterprise-Ops Gym V1.1 Blog Post",
+      "sdk": "static",
       "models": []
     }
   }
