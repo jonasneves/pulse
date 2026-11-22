@@ -390,11 +390,6 @@
       "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
       "language": null
     },
-    "microsoft/TypeScript": {
-      "url": "https://github.com/microsoft/TypeScript",
-      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
-      "language": "Go"
-    },
     "vercel/next.js": {
       "url": "https://github.com/vercel/next.js",
       "description": "The React Framework",
@@ -565,25 +560,10 @@
       "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
       "language": "Rust"
     },
-    "mahlernim/google-timeline-visualizer": {
-      "url": "https://github.com/mahlernim/google-timeline-visualizer",
-      "description": "Visualize your year in travel using your Google Location History (Timeline) data",
-      "language": "Kotlin"
-    },
-    "modular/modular": {
-      "url": "https://github.com/modular/modular",
-      "description": "The Modular Platform (includes MAX & Mojo)",
-      "language": "Mojo"
-    },
     "agent-substrate/substrate": {
       "url": "https://github.com/agent-substrate/substrate",
       "description": "Agent Substrate: the core system",
       "language": "Go"
-    },
-    "Tencent/AI-Infra-Guard": {
-      "url": "https://github.com/Tencent/AI-Infra-Guard",
-      "description": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
-      "language": "Python"
     },
     "ruvnet/ruflo": {
       "url": "https://github.com/ruvnet/ruflo",
@@ -599,11 +579,6 @@
       "url": "https://github.com/freestylefly/awesome-gpt-image-2",
       "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
       "language": "JavaScript"
-    },
-    "Wei-Shaw/sub2api": {
-      "url": "https://github.com/Wei-Shaw/sub2api",
-      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-      "language": "Go"
     },
     "openai/codex": {
       "url": "https://github.com/openai/codex",
@@ -2057,7 +2032,7 @@
     },
     "mjmirza/app-store-compliance": {
       "url": "https://github.com/mjmirza/app-store-compliance",
-      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "language": "Shell"
     },
     "Tracer-Cloud/opensre": {
@@ -4044,7 +4019,7 @@
     },
     "unsloth/Inkling-2-Mini-GGUF": {
       "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
-      "description": "See an example of 4-bit Inkling Mini running in Unsloth in Blender + MCP:",
+      "description": "Run the model via the latest version of Unsloth Desktop. If running in llama.cpp or elsewhere, use our mainline GGUFs.",
       "pipelineTag": "image-text-to-text",
       "baseModels": [
         "thinkingmachines/Inkling-2-Mini"
@@ -4070,6 +4045,30 @@
       "pipelineTag": "text-generation",
       "baseModels": [
         "Qwen/Qwen3.5-4B-Base"
+      ]
+    },
+    "AtomicChat/Inkling-2-Mini-Uncensored-GGUF": {
+      "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "description": "An uncensored build of thinkingmachines/Inkling-2-Mini by AtomicChat (26.4B MoE, 3.4B active, looped core; text and image input; Apache-2.0, LICENSE in this repo). It comes as a LoRA adapter for any GGUF of AtomicChat/Inkling-2-Mini-GGUF…",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "thinkingmachines/Inkling-2-Mini"
+      ]
+    },
+    "SulphurAI/Sulphur-3": {
+      "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+      "description": "Download s3.safetensors and run it like any regular MiniMax H3 model. That's all you need, everything else in this repo is optional.",
+      "pipelineTag": null,
+      "baseModels": [
+        "MiniMaxAI/MiniMax-H3"
+      ]
+    },
+    "Lakonik/pi-H3": {
+      "url": "https://huggingface.co/Lakonik/pi-H3",
+      "description": "2-step and 4-step adapters of MiniMax H3, the fastest way to generate MiniMax H3 videos with synchronized audio. pi-H3 combines pi-Flow v2 few-step distillation with DWD (Decoding Without a Decoder), which predicts the video frames direc…",
+      "pipelineTag": "image-text-to-video",
+      "baseModels": [
+        "MiniMaxAI/MiniMax-H3"
       ]
     }
   },
@@ -6147,6 +6146,45 @@
       "title": "Enterpriseops Gym V1.1",
       "description": "Enterprise-Ops Gym V1.1 Blog Post",
       "sdk": "static",
+      "models": []
+    },
+    "xyzanonimous5/Qwen-Image-2.1-Studio": {
+      "url": "https://huggingface.co/spaces/xyzanonimous5/Qwen-Image-2.1-Studio",
+      "title": "Qwen Image 2.1 Uncensored All-In-One LoRA Studio",
+      "description": "Uncensored Qwen 2.1 with All-In-One LoRAs",
+      "sdk": "gradio",
+      "models": []
+    },
+    "software-mansion/Reverb-TTS-runntime": {
+      "url": "https://huggingface.co/spaces/software-mansion/Reverb-TTS-runntime",
+      "title": "Reverb-TTS on ruNNtime",
+      "description": "Reverb-TTS voice cloning on your GPU through WebGPU",
+      "sdk": "static",
+      "models": [
+        "software-mansion/Reverb-TTS",
+        "software-mansion/higgs-audio-v2-tokenizer-Reverb"
+      ]
+    },
+    "johnnysnowblind/wan2-2-fp8da-aoti-preview-2c-finishing": {
+      "url": "https://huggingface.co/spaces/johnnysnowblind/wan2-2-fp8da-aoti-preview-2c-finishing",
+      "title": "Wan2.2 14B Cum explosion lora",
+      "description": "generate a video from an image with a text prompt with text",
+      "sdk": "gradio",
+      "models": [
+        "cbensimon/WanTransformer3DModel-sm120-cu130-raa",
+        "FlutterGuyAzaza/Deepthroat_Blowjob_Wan_2_X_I2V_T2V",
+        "r3gm/RIFE",
+        "Robertopaulson/DeepthroatBlowjobWan2XI2VT2V",
+        "Robertopaulson/F4C3SPL4SH_Cumshotwan2.2i2v",
+        "TestOrganizationPleaseIgnore/wamu-tools",
+        "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
+      ]
+    },
+    "hf-audio/open_tts_leaderboard": {
+      "url": "https://huggingface.co/spaces/hf-audio/open_tts_leaderboard",
+      "title": "Open TTS Leaderboard",
+      "description": "TTS systems evaluated on objective metrics.",
+      "sdk": "gradio",
       "models": []
     }
   }
