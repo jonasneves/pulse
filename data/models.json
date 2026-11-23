@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-22T13:22:49.507Z",
+  "updated": "2026-11-23T15:59:56.879Z",
   "trending": [
     {
       "rank": 1,
       "id": "thinkingmachines/Inkling-2-Mini",
       "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
       "pipelineTag": "image-text-to-text",
-      "likes": 3997,
-      "downloads": 23543,
-      "trendingScore": 806,
+      "likes": 5333,
+      "downloads": 41888,
+      "trendingScore": 1057.5,
       "tags": [
         "transformers",
         "safetensors",
         "inkling2_loop",
-        "text-generation",
+        "image-text-to-text",
         "conversational",
-        "image-text-to-text"
+        "moe"
       ],
       "baseModels": [],
-      "lastModified": "2026-11-21T22:23:18.000Z",
+      "lastModified": "2026-11-23T08:08:49.000Z",
       "description": "Inkling 2 Mini is a general-purpose multimodal model that accepts text and image inputs and generates text outputs. It is intended for use in English and other languages, and across multiple coding languages. The model is designed to be …"
     },
     {
@@ -26,9 +26,9 @@
       "id": "unsloth/Inkling-2-Mini-GGUF",
       "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
       "pipelineTag": "image-text-to-text",
-      "likes": 764,
-      "downloads": 805993,
-      "trendingScore": 708,
+      "likes": 1023,
+      "downloads": 1292888,
+      "trendingScore": 914,
       "tags": [
         "gguf",
         "conversational",
@@ -40,17 +40,17 @@
       "baseModels": [
         "thinkingmachines/Inkling-2-Mini"
       ],
-      "lastModified": "2026-11-22T04:22:49.000Z",
-      "description": "Run the model via the latest version of Unsloth Desktop. If running in llama.cpp or elsewhere, use our mainline GGUFs."
+      "lastModified": "2026-11-23T15:29:27.000Z",
+      "description": "Run the model via the latest version of Unsloth Desktop or llama.cpp"
     },
     {
       "rank": 3,
       "id": "inworld/voice-isolator",
       "url": "https://huggingface.co/inworld/voice-isolator",
       "pipelineTag": "audio-to-audio",
-      "likes": 571,
+      "likes": 700,
       "downloads": 0,
-      "trendingScore": 423,
+      "trendingScore": 530,
       "tags": [
         "inworld-voice-isolation",
         "audio",
@@ -65,92 +65,12 @@
     },
     {
       "rank": 4,
-      "id": "tencent/Hy4-flash",
-      "url": "https://huggingface.co/tencent/Hy4-flash",
-      "pipelineTag": "image-text-to-text",
-      "likes": 578,
-      "downloads": 6617,
-      "trendingScore": 407,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "hy_v4_flash",
-        "text-generation",
-        "hunyuan",
-        "hy4-flash"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-11-19T11:25:34.000Z",
-      "description": "Hy4 flash is our most cost-effective Hy model to date, featuring 220B total parameters (including 64B Engram parameters) with just 12B active parameters per token. It natively accepts text and image inputs, generates text, and supports a…"
-    },
-    {
-      "rank": 5,
-      "id": "apple/FastFrames-L",
-      "url": "https://huggingface.co/apple/FastFrames-L",
-      "pipelineTag": "text-to-video",
-      "likes": 510,
-      "downloads": 0,
-      "trendingScore": 351,
-      "tags": [
-        "safetensors",
-        "text-to-video"
-      ],
-      "baseModels": [
-        "Wan-AI/Wan2.1-T2V-14B"
-      ],
-      "lastModified": "2026-11-20T02:22:20.000Z",
-      "description": "This repository contains the official implementation of FastFrames: Video Generation at Interactive Latency. We release FastFrames-S (1.3B) and FastFrames-L (14B). Both are autoregressive, two-step video diffusion models that generate 48…"
-    },
-    {
-      "rank": 6,
-      "id": "harness-hub/Qwen3.8-27B-pi-adapted",
-      "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
-      "pipelineTag": "image-text-to-text",
-      "likes": 954,
-      "downloads": 2831,
-      "trendingScore": 323,
-      "tags": [
-        "peft",
-        "safetensors",
-        "trl",
-        "grpo",
-        "async-grpo",
-        "lora"
-      ],
-      "baseModels": [
-        "Qwen/Qwen3.8-27B"
-      ],
-      "lastModified": "2026-11-21T04:31:16.000Z",
-      "description": "A LoRA adapter for Qwen/Qwen3.8-27B, trained with reinforcement learning to work as the model behind the pi coding agent on software-engineering and terminal tasks."
-    },
-    {
-      "rank": 7,
-      "id": "higurashi-ai/Haru-4B",
-      "url": "https://huggingface.co/higurashi-ai/Haru-4B",
-      "pipelineTag": "audio-to-audio",
-      "likes": 858,
-      "downloads": 8608,
-      "trendingScore": 294,
-      "tags": [
-        "safetensors",
-        "haru",
-        "speech",
-        "full-duplex",
-        "speech-to-speech",
-        "audio-to-audio"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-11-13T01:22:38.000Z",
-      "description": "Haru-4B is a low-latency and multilingual full-duplex continuous spoken dialogue foundation model: it listens and speaks at the same time, the way people do on a phone call. It is a pretrained base model, released for research."
-    },
-    {
-      "rank": 8,
       "id": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
       "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
       "pipelineTag": "image-text-to-text",
-      "likes": 366,
-      "downloads": 129693,
-      "trendingScore": 226.79999999999998,
+      "likes": 598,
+      "downloads": 329497,
+      "trendingScore": 360.5,
       "tags": [
         "gguf",
         "llama.cpp",
@@ -166,13 +86,112 @@
       "description": "An uncensored build of thinkingmachines/Inkling-2-Mini by AtomicChat (26.4B MoE, 3.4B active, looped core; text and image input; Apache-2.0, LICENSE in this repo). It comes as a LoRA adapter for any GGUF of AtomicChat/Inkling-2-Mini-GGUF…"
     },
     {
+      "rank": 5,
+      "id": "harness-hub/Qwen3.8-27B-pi-adapted",
+      "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+      "pipelineTag": "image-text-to-text",
+      "likes": 1019,
+      "downloads": 3132,
+      "trendingScore": 342.5,
+      "tags": [
+        "peft",
+        "safetensors",
+        "trl",
+        "grpo",
+        "async-grpo",
+        "lora"
+      ],
+      "baseModels": [
+        "Qwen/Qwen3.8-27B"
+      ],
+      "lastModified": "2026-11-21T04:31:16.000Z",
+      "description": "A LoRA adapter for Qwen/Qwen3.8-27B, trained with reinforcement learning to work as the model behind the pi coding agent on software-engineering and terminal tasks."
+    },
+    {
+      "rank": 6,
+      "id": "higurashi-ai/Haru-4B",
+      "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+      "pipelineTag": "audio-to-audio",
+      "likes": 917,
+      "downloads": 9087,
+      "trendingScore": 258,
+      "tags": [
+        "safetensors",
+        "haru",
+        "speech",
+        "full-duplex",
+        "speech-to-speech",
+        "audio-to-audio"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-11-13T01:22:38.000Z",
+      "description": "Haru-4B is a low-latency and multilingual full-duplex continuous spoken dialogue foundation model: it listens and speaks at the same time, the way people do on a phone call. It is a pretrained base model, released for research."
+    },
+    {
+      "rank": 7,
+      "id": "tencent/Hy4-flash",
+      "url": "https://huggingface.co/tencent/Hy4-flash",
+      "pipelineTag": "image-text-to-text",
+      "likes": 636,
+      "downloads": 7696,
+      "trendingScore": 216.5,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "hy_v4_flash",
+        "text-generation",
+        "hunyuan",
+        "hy4-flash"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-11-23T06:53:19.000Z",
+      "description": "Hy4 flash is our most cost-effective Hy model to date, featuring 220B total parameters (including 64B Engram parameters) with just 12B active parameters per token. It natively accepts text and image inputs, generates text, and supports a…"
+    },
+    {
+      "rank": 8,
+      "id": "SulphurAI/Sulphur-3",
+      "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+      "pipelineTag": null,
+      "likes": 832,
+      "downloads": 133732,
+      "trendingScore": 202,
+      "tags": [
+        "minimax-h3"
+      ],
+      "baseModels": [
+        "MiniMaxAI/MiniMax-H3"
+      ],
+      "lastModified": "2026-11-21T09:16:45.000Z",
+      "description": "Download s3.safetensors and run it like any regular MiniMax H3 model. That's all you need, everything else in this repo is optional."
+    },
+    {
       "rank": 9,
+      "id": "sensenova/SenseNova-Loop-9B",
+      "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
+      "pipelineTag": "image-text-to-text",
+      "likes": 622,
+      "downloads": 2036,
+      "trendingScore": 200,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "sensenova_loop",
+        "text-generation",
+        "multimodal",
+        "image-text-to-text"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-11-20T05:34:36.000Z",
+      "description": "🔥 2026-11-18: Added download links for the AWQ and GGUF weights."
+    },
+    {
+      "rank": 10,
       "id": "Qwen/Qwen3.8-27B",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
       "pipelineTag": "image-text-to-text",
-      "likes": 20837,
-      "downloads": 6297396,
-      "trendingScore": 209.5,
+      "likes": 21649,
+      "downloads": 6185088,
+      "trendingScore": 195,
       "tags": [
         "transformers",
         "safetensors",
@@ -186,51 +205,31 @@
       "description": "Following the widespread community adoption of the Qwen3.5 and Qwen3.6 series, we are pleased to introduce Qwen3.8, the most capable generation in the Qwen open-model family to date."
     },
     {
-      "rank": 10,
-      "id": "apple/DepthPro2",
-      "url": "https://huggingface.co/apple/DepthPro2",
-      "pipelineTag": "depth-estimation",
-      "likes": 231,
-      "downloads": 0,
-      "trendingScore": 196,
-      "tags": [
-        "depth-pro-2",
-        "depth-estimation",
-        "metric-depth",
-        "monocular-depth",
-        "video-depth"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-11-20T11:28:24.000Z",
-      "description": "Depth Pro 2 estimates metric depth for every pixel from an ordinary camera: a single photo, a whole video, or a live feed, at the input's full resolution. Its depth is sharp at object edges and steady from frame to frame."
-    },
-    {
       "rank": 11,
-      "id": "sensenova/SenseNova-Loop-9B",
-      "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
-      "pipelineTag": "image-text-to-text",
-      "likes": 476,
-      "downloads": 1863,
-      "trendingScore": 189.5,
+      "id": "apple/FastFrames-L",
+      "url": "https://huggingface.co/apple/FastFrames-L",
+      "pipelineTag": "text-to-video",
+      "likes": 553,
+      "downloads": 0,
+      "trendingScore": 186.5,
       "tags": [
-        "transformers",
         "safetensors",
-        "sensenova_loop",
-        "text-generation",
-        "multimodal",
-        "image-text-to-text"
+        "text-to-video"
       ],
-      "baseModels": [],
-      "lastModified": "2026-11-20T05:34:36.000Z"
+      "baseModels": [
+        "Wan-AI/Wan2.1-T2V-14B"
+      ],
+      "lastModified": "2026-11-20T02:22:20.000Z",
+      "description": "This repository contains the official implementation of FastFrames: Video Generation at Interactive Latency. We release FastFrames-S (1.3B) and FastFrames-L (14B). Both are autoregressive, two-step video diffusion models that generate 48…"
     },
     {
       "rank": 12,
       "id": "Lightricks/LTX-2.5",
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
       "pipelineTag": "image-to-video",
-      "likes": 13004,
-      "downloads": 2993088,
-      "trendingScore": 176.5,
+      "likes": 13148,
+      "downloads": 3002698,
+      "trendingScore": 172,
       "tags": [
         "diffusion-single-file",
         "image-to-video",
@@ -244,11 +243,30 @@
     },
     {
       "rank": 13,
+      "id": "apple/DepthPro2",
+      "url": "https://huggingface.co/apple/DepthPro2",
+      "pipelineTag": "depth-estimation",
+      "likes": 1108,
+      "downloads": 0,
+      "trendingScore": 161.5,
+      "tags": [
+        "depth-pro-2",
+        "depth-estimation",
+        "metric-depth",
+        "monocular-depth",
+        "video-depth"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-11-20T11:28:24.000Z",
+      "description": "Depth Pro 2 estimates metric depth for every pixel from an ordinary camera: a single photo, a whole video, or a live feed, at the input's full resolution. Its depth is sharp at object edges and steady from frame to frame."
+    },
+    {
+      "rank": 14,
       "id": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
       "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
       "pipelineTag": "text-to-image",
-      "likes": 767,
-      "downloads": 381769,
+      "likes": 833,
+      "downloads": 427005,
       "trendingScore": 153,
       "tags": [
         "diffusers",
@@ -261,39 +279,17 @@
       "baseModels": [
         "Qwen/Qwen-Image-2.1"
       ],
-      "lastModified": "2026-11-22T01:44:57.000Z",
+      "lastModified": "2026-11-23T01:41:20.000Z",
       "description": "Quantized builds at adapter weight 1.0, for text-to-image generation and image editing."
-    },
-    {
-      "rank": 14,
-      "id": "MiniMaxAI/MiniMax-H3-Image",
-      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
-      "pipelineTag": "text-to-image",
-      "likes": 1710,
-      "downloads": 952024,
-      "trendingScore": 144.5,
-      "tags": [
-        "minimax-h3",
-        "diffusers",
-        "safetensors",
-        "text-to-image",
-        "image-to-image",
-        "image-editing"
-      ],
-      "baseModels": [
-        "MiniMaxAI/MiniMax-H3"
-      ],
-      "lastModified": "2026-11-16T10:00:08.000Z",
-      "description": "MiniMax-H3-Image is a state-of-the-art open-source model for image generation and editing from the MiniMax H3 family. It combines intelligent understanding of creative intent with the ability to build visual worlds: with precise instruct…"
     },
     {
       "rank": 15,
       "id": "meituan-longcat/LongCat-Video-Avatar-1.6",
       "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6",
       "pipelineTag": null,
-      "likes": 406,
-      "downloads": 3483,
-      "trendingScore": 138.5,
+      "likes": 455,
+      "downloads": 4083,
+      "trendingScore": 129,
       "tags": [
         "longcat-video-avatar-1.6",
         "onnx",
@@ -310,29 +306,12 @@
     },
     {
       "rank": 16,
-      "id": "SulphurAI/Sulphur-3",
-      "url": "https://huggingface.co/SulphurAI/Sulphur-3",
-      "pipelineTag": null,
-      "likes": 739,
-      "downloads": 78931,
-      "trendingScore": 137,
-      "tags": [
-        "minimax-h3"
-      ],
-      "baseModels": [
-        "MiniMaxAI/MiniMax-H3"
-      ],
-      "lastModified": "2026-11-21T09:16:45.000Z",
-      "description": "Download s3.safetensors and run it like any regular MiniMax H3 model. That's all you need, everything else in this repo is optional."
-    },
-    {
-      "rank": 17,
       "id": "maxwell-model/Maxwell-V1-Flash",
       "url": "https://huggingface.co/maxwell-model/Maxwell-V1-Flash",
       "pipelineTag": "text-generation",
-      "likes": 333,
-      "downloads": 3317,
-      "trendingScore": 113,
+      "likes": 375,
+      "downloads": 3639,
+      "trendingScore": 119.5,
       "tags": [
         "safetensors",
         "maxwell_moe",
@@ -346,75 +325,35 @@
       "description": "Maxwell-V1.0-Flash is a next-generation, high-performance Mixture-of-Experts (MoE) language model developed by the Maxwell Team, with 35B total parameters and 3B active parameters per token (both excluding embeddings) and support for con…"
     },
     {
-      "rank": 18,
-      "id": "n4ze3m/tiny-voca",
-      "url": "https://huggingface.co/n4ze3m/tiny-voca",
-      "pipelineTag": "text-to-speech",
-      "likes": 388,
-      "downloads": 10768,
+      "rank": 17,
+      "id": "MiniMaxAI/MiniMax-H3-Image",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "pipelineTag": "text-to-image",
+      "likes": 2477,
+      "downloads": 972272,
       "trendingScore": 108,
       "tags": [
-        "onnx",
-        "gguf",
-        "text-to-speech",
-        "en"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-11-20T16:00:45.000Z",
-      "description": "tiny-voca is a small English text-to-speech model with two voices, F2 (female) and M2 (male). The complete model, including the waveform generator, has 4.5M parameters and was trained from scratch on about 18 hours of synthetic speech. I…"
-    },
-    {
-      "rank": 19,
-      "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-      "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-      "pipelineTag": "image-text-to-text",
-      "likes": 3485,
-      "downloads": 1827784,
-      "trendingScore": 106,
-      "tags": [
-        "gguf",
-        "unsloth",
-        "fine tune",
-        "heretic",
-        "uncensored",
-        "abliterated"
-      ],
-      "baseModels": [
-        "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU"
-      ],
-      "lastModified": "2026-11-13T07:11:09.000Z",
-      "description": "in 8 bit and over 718 arc-c in 4 bit. This version is called TURBO because it drastically reduces thinking tokens (by 1/2 to as high as 1/10), yet maintains output detail and quality. In otherwords while \"reg\" Qwen3.8 27B is thinking abo…"
-    },
-    {
-      "rank": 20,
-      "id": "Lakonik/pi-H3",
-      "url": "https://huggingface.co/Lakonik/pi-H3",
-      "pipelineTag": "image-text-to-video",
-      "likes": 134,
-      "downloads": 9038,
-      "trendingScore": 99,
-      "tags": [
+        "minimax-h3",
         "diffusers",
         "safetensors",
-        "flow-matching",
-        "distillation",
-        "text-to-audio-video",
-        "image-to-audio-video"
+        "text-to-image",
+        "image-to-image",
+        "image-editing"
       ],
       "baseModels": [
         "MiniMaxAI/MiniMax-H3"
       ],
-      "lastModified": "2026-11-21T12:10:13.000Z",
-      "description": "2-step and 4-step adapters of MiniMax H3, the fastest way to generate MiniMax H3 videos with synchronized audio. pi-H3 combines pi-Flow v2 few-step distillation with DWD (Decoding Without a Decoder), which predicts the video frames direc…"
+      "lastModified": "2026-11-16T10:00:08.000Z",
+      "description": "MiniMax-H3-Image is a state-of-the-art open-source model for image generation and editing from the MiniMax H3 family. It combines intelligent understanding of creative intent with the ability to build visual worlds: with precise instruct…"
     },
     {
-      "rank": 21,
+      "rank": 18,
       "id": "RadixArk/DaisyRose-27B",
       "url": "https://huggingface.co/RadixArk/DaisyRose-27B",
       "pipelineTag": "image-text-to-text",
-      "likes": 288,
-      "downloads": 1815,
-      "trendingScore": 97,
+      "likes": 327,
+      "downloads": 2130,
+      "trendingScore": 107.5,
       "tags": [
         "transformers",
         "safetensors",
@@ -430,13 +369,147 @@
       "description": "DaisyRose-27B is RadixArk's first model: a multimodal reasoning model built on Qwen3.8-27B with reinforcement learning only, without any supervised fine-tuning or distillation. It was trained on about 1,200 curated long-horizon agent tas…"
     },
     {
+      "rank": 19,
+      "id": "Sentinel7/h3",
+      "url": "https://huggingface.co/Sentinel7/h3",
+      "pipelineTag": null,
+      "likes": 1424,
+      "downloads": 0,
+      "trendingScore": 106.10000000000001,
+      "tags": [
+        "not-for-all-audiences"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-11-23T05:54:00.000Z"
+    },
+    {
+      "rank": 20,
+      "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "pipelineTag": "image-text-to-text",
+      "likes": 4253,
+      "downloads": 1833410,
+      "trendingScore": 101,
+      "tags": [
+        "gguf",
+        "unsloth",
+        "fine tune",
+        "heretic",
+        "uncensored",
+        "abliterated"
+      ],
+      "baseModels": [
+        "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU"
+      ],
+      "lastModified": "2026-11-13T07:11:09.000Z",
+      "description": "in 8 bit and over 718 arc-c in 4 bit. This version is called TURBO because it drastically reduces thinking tokens (by 1/2 to as high as 1/10), yet maintains output detail and quality. In otherwords while \"reg\" Qwen3.8 27B is thinking abo…"
+    },
+    {
+      "rank": 21,
+      "id": "facebook/sam-3d-body-dinov3",
+      "url": "https://huggingface.co/facebook/sam-3d-body-dinov3",
+      "pipelineTag": null,
+      "likes": 1784,
+      "downloads": 19493,
+      "trendingScore": 99.5,
+      "tags": [
+        "sam-3d-body",
+        "sam-3d",
+        "3d-human-mesh-recovery",
+        "human-pose-estimation",
+        "meta",
+        "en"
+      ],
+      "baseModels": [],
+      "lastModified": "2025-12-10T18:45:19.000Z"
+    },
+    {
       "rank": 22,
+      "id": "thinkingmachines/Inkling-2-Small",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+      "pipelineTag": "image-text-to-text",
+      "likes": 1431,
+      "downloads": 55885,
+      "trendingScore": 89,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "inkling2",
+        "image-text-to-text",
+        "conversational",
+        "moe"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-11-20T14:09:59.000Z",
+      "description": "Inkling 2 Small is a general-purpose multimodal model that accepts text and image inputs and generates text outputs. It is intended for use in English and other languages, and across multiple coding languages. The model is designed to be…"
+    },
+    {
+      "rank": 23,
+      "id": "facebook/sam3",
+      "url": "https://huggingface.co/facebook/sam3",
+      "pipelineTag": "mask-generation",
+      "likes": 7991,
+      "downloads": 1785519,
+      "trendingScore": 88,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "sam3_video",
+        "feature-extraction",
+        "sam3",
+        "mask-generation"
+      ],
+      "baseModels": [],
+      "lastModified": "2025-11-20T22:05:08.000Z"
+    },
+    {
+      "rank": 24,
+      "id": "inclusionAI/LingSante-3.1-flash",
+      "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+      "pipelineTag": "text-generation",
+      "likes": 92,
+      "downloads": 397,
+      "trendingScore": 85,
+      "tags": [
+        "safetensors",
+        "bailing_hybrid",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "fp8"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-11-23T09:55:51.000Z",
+      "description": "LingSante-3.1-flash is an open-weight Mixture-of-Experts model that combines complex medical reasoning, professional healthcare communication, evidence-based deep research, and long-horizon medical tasks. Built on Ling-3.1-flash, it has …"
+    },
+    {
+      "rank": 25,
+      "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "pipelineTag": "image-text-to-text",
+      "likes": 6595,
+      "downloads": 524232,
+      "trendingScore": 84,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v41",
+        "text-generation",
+        "image-text-to-text",
+        "conversational"
+      ],
+      "baseModels": [],
+      "lastModified": "2026-11-10T02:22:56.000Z",
+      "description": "DeepSeek-V4.1-Flash-1017 is a minor update to DeepSeek-V4.1-Flash, delivering substantial improvements across reasoning, coding, agentic tasks, and visual benchmarks. Alongside these gains, the model reduces task execution time and outpu…"
+    },
+    {
+      "rank": 26,
       "id": "unsloth/Qwen3.8-27B-GGUF",
       "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
       "pipelineTag": null,
-      "likes": 6283,
-      "downloads": 7683660,
-      "trendingScore": 92,
+      "likes": 7030,
+      "downloads": 7848375,
+      "trendingScore": 82,
       "tags": [
         "gguf",
         "qwen3_5",
@@ -452,73 +525,34 @@
       "description": "See below for 4-bit Qwen3.8-27B run inside of Unsloth Desktop:"
     },
     {
-      "rank": 23,
-      "id": "facebook/sam3",
-      "url": "https://huggingface.co/facebook/sam3",
-      "pipelineTag": "mask-generation",
-      "likes": 7175,
-      "downloads": 1806893,
-      "trendingScore": 91,
+      "rank": 27,
+      "id": "briaai/RMBG-3.0",
+      "url": "https://huggingface.co/briaai/RMBG-3.0",
+      "pipelineTag": "image-segmentation",
+      "likes": 549,
+      "downloads": 350,
+      "trendingScore": 81.5,
       "tags": [
-        "transformers",
+        "diffusers",
         "safetensors",
-        "sam3_video",
-        "feature-extraction",
-        "sam3",
-        "mask-generation"
-      ],
-      "baseModels": [],
-      "lastModified": "2025-11-20T22:05:08.000Z"
-    },
-    {
-      "rank": 24,
-      "id": "facebook/sam-3d-body-dinov3",
-      "url": "https://huggingface.co/facebook/sam-3d-body-dinov3",
-      "pipelineTag": null,
-      "likes": 1673,
-      "downloads": 18709,
-      "trendingScore": 88.5,
-      "tags": [
-        "sam-3d-body",
-        "sam-3d",
-        "3d-human-mesh-recovery",
-        "human-pose-estimation",
-        "meta",
-        "en"
-      ],
-      "baseModels": [],
-      "lastModified": "2025-12-10T18:45:19.000Z"
-    },
-    {
-      "rank": 25,
-      "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
-      "pipelineTag": "text-generation",
-      "likes": 704,
-      "downloads": 203420,
-      "trendingScore": 84.5,
-      "tags": [
-        "transformers",
-        "gguf",
-        "nvidia",
-        "pytorch",
-        "nemotron-3.5",
-        "text-generation"
+        "background-removal",
+        "remove-background",
+        "alpha-matting",
+        "image-matting"
       ],
       "baseModels": [
-        "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16"
+        "briaai/Fibo-2.0-dev"
       ],
-      "lastModified": "2026-10-23T19:03:57.000Z",
-      "description": "NVIDIA-Nemotron-3.5-Bolt-E4B-4GB is a small language model (SLM) further post-trained from Gemma-4-E4B-it by NVIDIA. Nemotron-3.5-Bolt-E4B carries forward Gemma’s strong conversational capabilities and further improves multi-turn tool us…"
+      "lastModified": "2026-11-17T16:17:07.000Z"
     },
     {
-      "rank": 26,
+      "rank": 28,
       "id": "black-forest-labs/flux-3-image-klein-comfy",
       "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
       "pipelineTag": "image-to-image",
-      "likes": 3655,
-      "downloads": 950169,
-      "trendingScore": 84.5,
+      "likes": 4464,
+      "downloads": 900080,
+      "trendingScore": 81,
       "tags": [
         "diffusion-single-file",
         "comfyui",
@@ -533,110 +567,56 @@
       "lastModified": "2026-11-19T14:15:46.000Z"
     },
     {
-      "rank": 27,
-      "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "pipelineTag": "image-text-to-text",
-      "likes": 5831,
-      "downloads": 515306,
-      "trendingScore": 84,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "deepseek_v41",
-        "text-generation",
-        "image-text-to-text",
-        "conversational"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-11-10T02:22:56.000Z",
-      "description": "DeepSeek-V4.1-Flash-1017 is a minor update to DeepSeek-V4.1-Flash, delivering substantial improvements across reasoning, coding, agentic tasks, and visual benchmarks. Alongside these gains, the model reduces task execution time and outpu…"
-    },
-    {
-      "rank": 28,
-      "id": "Sentinel7/h3",
-      "url": "https://huggingface.co/Sentinel7/h3",
-      "pipelineTag": null,
-      "likes": 1064,
-      "downloads": 0,
-      "trendingScore": 83.60000000000001,
-      "tags": [
-        "not-for-all-audiences"
-      ],
-      "baseModels": [],
-      "lastModified": "2026-11-19T00:03:59.000Z"
-    },
-    {
       "rank": 29,
-      "id": "thinkingmachines/Inkling-2-Small",
-      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
-      "pipelineTag": "image-text-to-text",
-      "likes": 651,
-      "downloads": 48974,
-      "trendingScore": 82.5,
+      "id": "TenStrip/10Eros-Max",
+      "url": "https://huggingface.co/TenStrip/10Eros-Max",
+      "pipelineTag": "image-text-to-video",
+      "likes": 1110,
+      "downloads": 0,
+      "trendingScore": 77,
       "tags": [
-        "transformers",
-        "safetensors",
-        "inkling2",
-        "image-text-to-text",
-        "conversational",
-        "moe"
+        "text-to-video",
+        "image-text-to-video",
+        "image-to-video"
       ],
-      "baseModels": [],
-      "lastModified": "2026-11-20T14:09:59.000Z",
-      "description": "Inkling 2 Small is a general-purpose multimodal model that accepts text and image inputs and generates text outputs. It is intended for use in English and other languages, and across multiple coding languages. The model is designed to be…"
+      "baseModels": [
+        "MiniMaxAI/MiniMax-H3"
+      ],
+      "lastModified": "2026-11-21T09:48:42.000Z",
+      "description": "Shifted base H3 with shape changes, turbo, and data from Sulphur3 while also mainting some base model capability and functions. Most NSFW anatomy and motions are possible."
     },
     {
       "rank": 30,
-      "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
-      "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
-      "pipelineTag": "image-text-to-text",
-      "likes": 2045,
-      "downloads": 2266182,
-      "trendingScore": 73.5,
+      "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+      "pipelineTag": "text-generation",
+      "likes": 1465,
+      "downloads": 206652,
+      "trendingScore": 77,
       "tags": [
+        "transformers",
         "gguf",
-        "MTP GGUFS",
-        "Regular GGUFS",
-        "NEO Imatrix",
-        "fine tune",
-        "unsloth"
+        "nvidia",
+        "pytorch",
+        "nemotron-3.5",
+        "text-generation"
       ],
       "baseModels": [
-        "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP"
+        "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16"
       ],
-      "lastModified": "2026-11-10T23:39:27.000Z",
-      "description": "and it does so in 4bit and 8bit. Regular and MTP (fast) NEO IMATRIX GGUFs provided. (this model is part of the Qwen 3.6 27B Fable Fusion 711 pipelines: 2200+ likes, 3 million + downloads)"
+      "lastModified": "2026-10-23T19:03:57.000Z",
+      "description": "NVIDIA-Nemotron-3.5-Bolt-E4B-4GB is a small language model (SLM) further post-trained from Gemma-4-E4B-it by NVIDIA. Nemotron-3.5-Bolt-E4B carries forward Gemma’s strong conversational capabilities and further improves multi-turn tool us…"
     }
   ],
   "small": [
     {
       "rank": 1,
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
-      "pipelineTag": "text-generation",
-      "likes": 6492,
-      "downloads": 428267,
-      "trendingScore": 53.5,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "baseModels": [],
-      "lastModified": "2025-06-18T23:49:51.000Z"
-    },
-    {
-      "rank": 2,
       "id": "microsoft/Aion-1.0-Instruct-2.3B",
       "url": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B",
       "pipelineTag": "text-generation",
-      "likes": 217,
-      "downloads": 3836,
-      "trendingScore": 51.5,
+      "likes": 266,
+      "downloads": 4747,
+      "trendingScore": 53,
       "tags": [
         "transformers",
         "safetensors",
@@ -650,13 +630,54 @@
       "description": "Aion Instruct serves as the foundational Small Language Model (SLM) in the Windows ecosystem, specifically optimized for on-device AI, text and operating system use cases. This 2.3B parameters base model delivers enterprise-grade languag…"
     },
     {
+      "rank": 2,
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "pipelineTag": "text-generation",
+      "likes": 6573,
+      "downloads": 433087,
+      "trendingScore": 50,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
+      ],
+      "baseModels": [],
+      "lastModified": "2025-06-18T23:49:51.000Z"
+    },
+    {
       "rank": 3,
+      "id": "ccore/CCORE-Web-Coder-4B",
+      "url": "https://huggingface.co/ccore/CCORE-Web-Coder-4B",
+      "pipelineTag": "text-generation",
+      "likes": 59,
+      "downloads": 1881,
+      "trendingScore": 43,
+      "tags": [
+        "safetensors",
+        "gguf",
+        "qwen3_5",
+        "web-development",
+        "react",
+        "text-generation"
+      ],
+      "baseModels": [
+        "Qwen/Qwen3.5-4B-Base"
+      ],
+      "lastModified": "2026-11-23T15:24:24.000Z",
+      "description": "CCORE Web Coder 4B turns a single brief into a website, slide deck, or web infographic. It returns one HTML file with the React components, styles, and interactions, ready to open in a browser and edit."
+    },
+    {
+      "rank": 4,
       "id": "nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft",
       "url": "https://huggingface.co/nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft",
       "pipelineTag": "text-generation",
-      "likes": 206,
-      "downloads": 1584,
-      "trendingScore": 41.5,
+      "likes": 263,
+      "downloads": 1825,
+      "trendingScore": 42.5,
       "tags": [
         "Model Optimizer",
         "safetensors",
@@ -672,13 +693,13 @@
       "description": "The NVIDIA Qwen3.5-4B-Qwen3.8-27B-Draft model is an external draft model for Qwen’s Qwen3.8-27B – a complete language model rather than a draft head, sharing the target's tokenizer and vocabulary. It proposes blocks of candidate tokens w…"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "id": "LiquidAI/LFM3-1.7B",
       "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
       "pipelineTag": "text-generation",
-      "likes": 1897,
-      "downloads": 142392,
-      "trendingScore": 41,
+      "likes": 1944,
+      "downloads": 146872,
+      "trendingScore": 39.5,
       "tags": [
         "transformers",
         "safetensors",
@@ -694,35 +715,13 @@
       "description": "src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/liquid-ai-banner.webp\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: block; margin: 0;\" />"
     },
     {
-      "rank": 5,
-      "id": "LiquidAI/LFM3-1.7B-GGUF",
-      "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF",
-      "pipelineTag": "text-generation",
-      "likes": 326,
-      "downloads": 445908,
-      "trendingScore": 30,
-      "tags": [
-        "gguf",
-        "liquid",
-        "lfm3",
-        "llama.cpp",
-        "text-generation",
-        "en"
-      ],
-      "baseModels": [
-        "LiquidAI/LFM3-1.7B"
-      ],
-      "lastModified": "2026-11-03T14:48:57.000Z",
-      "description": "src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/liquid-ai-banner.webp\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: block; margin: 0;\" />"
-    },
-    {
       "rank": 6,
       "id": "XHToken/Spark-X2.6-4B",
       "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
       "pipelineTag": "text-generation",
-      "likes": 1071,
-      "downloads": 35202,
-      "trendingScore": 26,
+      "likes": 1077,
+      "downloads": 35622,
+      "trendingScore": 29,
       "tags": [
         "transformers",
         "safetensors",
@@ -739,34 +738,31 @@
     },
     {
       "rank": 7,
-      "id": "ccore/CCORE-Web-Coder-4B",
-      "url": "https://huggingface.co/ccore/CCORE-Web-Coder-4B",
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
       "pipelineTag": "text-generation",
-      "likes": 26,
-      "downloads": 1124,
-      "trendingScore": 26,
+      "likes": 3078,
+      "downloads": 659130,
+      "trendingScore": 24,
       "tags": [
-        "gguf",
-        "qwen3_5",
-        "web-development",
-        "react",
-        "preview",
-        "text-generation"
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta"
       ],
-      "baseModels": [
-        "Qwen/Qwen3.5-4B-Base"
-      ],
-      "lastModified": "2026-11-21T00:58:10.000Z",
-      "description": "CCORE Web Coder 4B turns a brief into a single React HTML document for a website, slide deck, or informational page. CCORE fine-tuned the model from Qwen3.5-4B-Base."
+      "baseModels": [],
+      "lastModified": "2024-10-24T15:07:29.000Z"
     },
     {
       "rank": 8,
       "id": "meta-llama/Llama-3.1-8B",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
       "pipelineTag": "text-generation",
-      "likes": 2848,
-      "downloads": 424609,
-      "trendingScore": 25,
+      "likes": 2854,
+      "downloads": 424472,
+      "trendingScore": 22,
       "tags": [
         "transformers",
         "safetensors",
@@ -783,9 +779,9 @@
       "id": "meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "pipelineTag": "text-generation",
-      "likes": 9069,
-      "downloads": 3994051,
-      "trendingScore": 21,
+      "likes": 9083,
+      "downloads": 3965297,
+      "trendingScore": 19.5,
       "tags": [
         "transformers",
         "safetensors",
@@ -801,12 +797,12 @@
     },
     {
       "rank": 10,
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "id": "meta-llama/Llama-3.2-1B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
       "pipelineTag": "text-generation",
-      "likes": 3062,
-      "downloads": 664121,
-      "trendingScore": 20,
+      "likes": 2026,
+      "downloads": 1349582,
+      "trendingScore": 19,
       "tags": [
         "transformers",
         "safetensors",
@@ -816,16 +812,36 @@
         "meta"
       ],
       "baseModels": [],
-      "lastModified": "2024-10-24T15:07:29.000Z"
+      "lastModified": "2024-10-24T15:07:51.000Z"
     },
     {
       "rank": 11,
+      "id": "deepseek-ai/DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "pipelineTag": "text-generation",
+      "likes": 14484,
+      "downloads": 1526931,
+      "trendingScore": 17,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code"
+      ],
+      "baseModels": [],
+      "lastModified": "2025-03-27T04:01:59.000Z",
+      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
+    },
+    {
+      "rank": 12,
       "id": "ccore/Qwen3.5-4B-GLB-3D-Coder",
       "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
       "pipelineTag": "text-generation",
-      "likes": 402,
-      "downloads": 69666,
-      "trendingScore": 20,
+      "likes": 405,
+      "downloads": 71439,
+      "trendingScore": 15,
       "tags": [
         "safetensors",
         "gguf",
@@ -841,74 +857,35 @@
       "description": "CCORE GLB-3D-Coder is a specialized 4B coding model for low-poly game assets and procedural scenes. Describe a character, prop, building, or environment, and the model writes a complete Three.js HTML/JavaScript page with a preview and an…"
     },
     {
-      "rank": 12,
-      "id": "meta-llama/Llama-3.2-1B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
-      "pipelineTag": "text-generation",
-      "likes": 2021,
-      "downloads": 1338261,
-      "trendingScore": 18,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta"
-      ],
-      "baseModels": [],
-      "lastModified": "2024-10-24T15:07:51.000Z"
-    },
-    {
       "rank": 13,
-      "id": "deepseek-ai/DeepSeek-R1",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "id": "LiquidAI/LFM3-1.7B-GGUF",
+      "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF",
       "pipelineTag": "text-generation",
-      "likes": 14479,
-      "downloads": 1572427,
-      "trendingScore": 18,
+      "likes": 344,
+      "downloads": 457767,
+      "trendingScore": 14.5,
       "tags": [
-        "transformers",
-        "safetensors",
-        "deepseek_v3",
-        "text-generation",
-        "conversational",
-        "custom_code"
-      ],
-      "baseModels": [],
-      "lastModified": "2025-03-27T04:01:59.000Z",
-      "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated …"
-    },
-    {
-      "rank": 14,
-      "id": "XHToken/Spark-X2.6-4B-GGUF",
-      "url": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF",
-      "pipelineTag": "text-generation",
-      "likes": 330,
-      "downloads": 982799,
-      "trendingScore": 15,
-      "tags": [
-        "transformers",
         "gguf",
-        "llm",
-        "sparkx2_5",
+        "liquid",
+        "lfm3",
+        "llama.cpp",
         "text-generation",
         "en"
       ],
       "baseModels": [
-        "XHToken/Spark-X2.6-4B"
+        "LiquidAI/LFM3-1.7B"
       ],
-      "lastModified": "2026-11-06T12:51:43.000Z",
-      "description": "A little over a month has passed since Spark-X2.5. In the rapidly evolving world of AI agents, that is enough time to rethink, refine, and move the frontier forward. Building on the Spark-X2.5-4B, we introduce Spark-X2.6-4B, the latest g…"
+      "lastModified": "2026-11-03T14:48:57.000Z",
+      "description": "src=\"https://huggingface.co/LiquidAI/LFM3-1.7B/resolve/main/assets/liquid-ai-banner.webp\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: block; margin: 0;\" />"
     },
     {
-      "rank": 15,
+      "rank": 14,
       "id": "AtomicChat/LFM3-1.7B-Uncensored-GGUF",
       "url": "https://huggingface.co/AtomicChat/LFM3-1.7B-Uncensored-GGUF",
       "pipelineTag": "text-generation",
-      "likes": 347,
-      "downloads": 182529,
-      "trendingScore": 14.7,
+      "likes": 352,
+      "downloads": 186441,
+      "trendingScore": 14,
       "tags": [
         "gguf",
         "quantized",
@@ -924,24 +901,45 @@
       "description": "Safety-ablated GGUF of LiquidAI/LFM3-1.7B. A projected rank-1 LoRA (direction = mean harmful − mean harmless activations, with the harmless component projected out) is baked into the weights at W*=2.0, then AD-quantized."
     },
     {
-      "rank": 16,
-      "id": "LiquidAI/LFM3-1.7B-Base",
-      "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-Base",
+      "rank": 15,
+      "id": "meta-llama/Llama-3.2-3B",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-3B",
       "pipelineTag": "text-generation",
-      "likes": 169,
-      "downloads": 15475,
-      "trendingScore": 14,
+      "likes": 1123,
+      "downloads": 307376,
+      "trendingScore": 13,
       "tags": [
         "transformers",
         "safetensors",
-        "lfm3",
+        "llama",
         "text-generation",
-        "liquid",
-        "edge"
+        "facebook",
+        "meta"
       ],
       "baseModels": [],
-      "lastModified": "2026-11-03T07:40:24.000Z",
-      "description": "src=\"https://huggingface.co/LiquidAI/LFM3-1.7B-Base/resolve/main/assets/liquid-ai-banner.webp\" alt=\"Liquid AI\" style=\"width: 100%; max-width: 100%; height: auto; display: block; margin: 0;\" />"
+      "lastModified": "2024-10-24T15:07:40.000Z"
+    },
+    {
+      "rank": 16,
+      "id": "empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
+      "url": "https://huggingface.co/empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
+      "pipelineTag": "text-generation",
+      "likes": 296,
+      "downloads": 1347021,
+      "trendingScore": 13,
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "quantized",
+        "empero-ai",
+        "qwen3.6",
+        "qwen3.8"
+      ],
+      "baseModels": [
+        "empero-ai/Qwen3.8-35B-A3B-Distill"
+      ],
+      "lastModified": "2026-09-16T21:28:58.000Z",
+      "description": "GGUF quantizations of empero-ai/Qwen3.8-35B-A3B-Distill — a distillation of the Qwen3.8 frontier models into the Qwen3.6-35B-A3B Mixture-of-Experts architecture — for llama.cpp, Ollama, LM Studio, Jan, KoboldCpp, and other stock GGUF run…"
     }
   ]
 }
