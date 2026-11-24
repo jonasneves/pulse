@@ -135,11 +135,6 @@
       "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
       "language": "Python"
     },
-    "PostHog/posthog": {
-      "url": "https://github.com/PostHog/posthog",
-      "description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
-      "language": "Python"
-    },
     "ruvnet/RuView": {
       "url": "https://github.com/ruvnet/RuView",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
@@ -304,11 +299,6 @@
       "url": "https://github.com/calesthio/OpenMontage",
       "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
       "language": "Python"
-    },
-    "makeplane/plane": {
-      "url": "https://github.com/makeplane/plane",
-      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
-      "language": "TypeScript"
     },
     "stablyai/orca": {
       "url": "https://github.com/stablyai/orca",
@@ -545,11 +535,6 @@
       "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
       "language": "PLSQL"
     },
-    "AprilNEA/OpenLogi": {
-      "url": "https://github.com/AprilNEA/OpenLogi",
-      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
-      "language": "Rust"
-    },
     "agent-substrate/substrate": {
       "url": "https://github.com/agent-substrate/substrate",
       "description": "Agent Substrate: the core system",
@@ -603,11 +588,6 @@
     "tashfeenahmed/freellmapi": {
       "url": "https://github.com/tashfeenahmed/freellmapi",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-      "language": "TypeScript"
-    },
-    "openclaw/openclaw": {
-      "url": "https://github.com/openclaw/openclaw",
-      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
       "language": "TypeScript"
     },
     "anthropics/claude-plugins-community": {
@@ -1977,7 +1957,7 @@
     },
     "elementalsouls/Claude-BugHunter": {
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "language": "Python"
     },
     "astral-sh/uv": {
@@ -4004,7 +3984,7 @@
     },
     "unsloth/Inkling-2-Mini-GGUF": {
       "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
-      "description": "Run the model via the latest version of Unsloth Desktop or llama.cpp",
+      "description": "You can also train Inkling 2 via the latest version of Unsloth or run via llama.cpp. See an example of 4-bit Inkling Mini running in Unsloth in Blender + MCP:",
       "pipelineTag": "image-text-to-text",
       "baseModels": [
         "thinkingmachines/Inkling-2-Mini"
@@ -4068,6 +4048,34 @@
       "pipelineTag": "image-text-to-video",
       "baseModels": [
         "MiniMaxAI/MiniMax-H3"
+      ]
+    },
+    "inclusionAI/Ling-3.2-air": {
+      "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+      "description": "We introduce Ling-3.2-air, an open-weight model that shares the same native multimodal architecture as Ling-3.0-flash-VL. Compared with its predecessor, Ling-3.2-air shows stronger performance in workflow automation and reasoning over pr…",
+      "pipelineTag": null,
+      "baseModels": []
+    },
+    "llamaindex/OCRia-nano-1": {
+      "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
+      "description": "OCRia-nano-1 is an 8.1M-parameter model pipeline for document parsing on CPU from LlamaIndex. It pairs a detector–recognizer OCR stack with LayoutNet, a joint table and layout model, and it runs inside LiteParse, the open-source local do…",
+      "pipelineTag": "image-to-text",
+      "baseModels": []
+    },
+    "strata-engine/Inkling-2-Mini-Strata": {
+      "url": "https://huggingface.co/strata-engine/Inkling-2-Mini-Strata",
+      "description": "Inkling 2 Mini is Thinking Machines Lab's open-weights model made to run on local hardware. It is a looped transformer: the middle layers run three times for every token. It has 26.4B parameters and uses 3.4B per token (5.4B when the rep…",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "thinkingmachines/Inkling-2-Mini"
+      ]
+    },
+    "nari-labs/Qwen3.8-27B-NariQ-GGUF": {
+      "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+      "description": "(Nov 20, 2026) We are releasing NariQ v1 GGUFs of Qwen3.8-27B at 3, 2.5 and 2 bits per weight. Run them on our llama.cpp fork (required).",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": [
+        "Qwen/Qwen3.8-27B"
       ]
     }
   },
@@ -6219,6 +6227,39 @@
       "sdk": "gradio",
       "models": [
         "linlinlinlinsdada/Jeveration"
+      ]
+    },
+    "waitinghere/MINIMAX-H3-Ref2VA-Revamped": {
+      "url": "https://huggingface.co/spaces/waitinghere/MINIMAX-H3-Ref2VA-Revamped",
+      "title": "MiniMax H3 Ref2VA Revamped",
+      "description": "Uncensored video from a prompt, up to 12 typed references",
+      "sdk": "gradio",
+      "models": [
+        "fusing/unet-ldm-dummy-update",
+        "google/ddpm-celebahq-256",
+        "google/ddpm-cifar10-32",
+        "hf-internal-testing/tiny-stable-diffusion-pipe"
+      ]
+    },
+    "mrfakename/voice-isolator": {
+      "url": "https://huggingface.co/spaces/mrfakename/voice-isolator",
+      "title": "Voice Isolator",
+      "description": "Remove background noise from speech, from files or live",
+      "sdk": "gradio",
+      "models": [
+        "inworld/voice-isolator"
+      ]
+    },
+    "kulkas2pintu/wan222": {
+      "url": "https://huggingface.co/spaces/kulkas2pintu/wan222",
+      "title": "Wan2.2 14B Preview",
+      "description": "generate a video from an image with a text prompt",
+      "sdk": "gradio",
+      "models": [
+        "cbensimon/WanTransformer3DModel-sm120-cu130-raa",
+        "r3gm/RIFE",
+        "TestOrganizationPleaseIgnore/WAMU_v3_WAN2.2_I2V_LIGHTNING",
+        "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
       ]
     }
   }
