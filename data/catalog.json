@@ -545,20 +545,10 @@
       "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "language": "TypeScript"
     },
-    "apache/maka": {
-      "url": "https://github.com/apache/maka",
-      "description": "Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.",
-      "language": "TypeScript"
-    },
     "freestylefly/awesome-gpt-image-2": {
       "url": "https://github.com/freestylefly/awesome-gpt-image-2",
       "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
       "language": "JavaScript"
-    },
-    "openai/codex": {
-      "url": "https://github.com/openai/codex",
-      "description": "Lightweight coding agent that runs in your terminal",
-      "language": "Rust"
     },
     "n8n-io/n8n": {
       "url": "https://github.com/n8n-io/n8n",
@@ -4077,6 +4067,76 @@
       "baseModels": [
         "Qwen/Qwen3.8-27B"
       ]
+    },
+    "prism-ml/Ternary-Bonsai-2.5-27B-GGUF": {
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+      "description": "A 27B ternary model built for agents, for llama.cpp (CUDA, Metal, CPU)",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "Qwen/Qwen3.8-27B"
+      ]
+    },
+    "Aleph-Alpha/Kolibri-1.1": {
+      "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1.1",
+      "description": "Kolibri 1.1 is the successor to Kolibri 1, Aleph Alpha's mixture-of-experts (MoE) reasoning model, with a focus on German and English. It adds sparse attention for cheaper long contexts and improves on Kolibri 1 across several capabiliti…",
+      "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "orcarouter/Inkling-2-Mini-abliterated-GGUF": {
+      "url": "https://huggingface.co/orcarouter/Inkling-2-Mini-abliterated-GGUF",
+      "description": null,
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "thinkingmachines/Inkling-2-Mini"
+      ]
+    },
+    "baidu/ERNIE-5.5-Flash-Preview": {
+      "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+      "description": "ERNIE 5.5 Flash Preview is the first post-trained model built on ERNIE 5.5 Flash Base, which we released earlier. It is a Mixture-of-Experts (MoE) language model with 280B total parameters, 14B of them active per token, and a 1M-token co…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "baidu/ERNIE-5.5-Flash-Base"
+      ]
+    },
+    "thinkingmachines/TML-d24-varloop-research": {
+      "url": "https://huggingface.co/thinkingmachines/TML-d24-varloop-research",
+      "description": "TML-d24-varloop-research is a multimodal research model that accepts text and image inputs and generates text outputs. It is a variable-looped counterpart to Inkling 2 Mini: whereas Inkling 2 Mini always runs its looped layers a fixed nu…",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
+    },
+    "inclusionAI/LingSante-3.1-air-VL": {
+      "url": "https://huggingface.co/inclusionAI/LingSante-3.1-air-VL",
+      "description": "LingSante-3.1-air-VL is a lightweight, natively multimodal mixture-of-experts (MoE) model for real-world healthcare. Built on Ling-3.0-flash-VL, it has 124B parameters and 5.5B active parameters per token. It accepts text and images and …",
+      "pipelineTag": "image-text-to-text",
+      "baseModels": []
+    },
+    "MemTensor/MemT-1.0-Pro": {
+      "url": "https://huggingface.co/MemTensor/MemT-1.0-Pro",
+      "description": "MemT-1.0 is a new generation of memory foundation models that makes persistent, dynamically evolving memory an intrinsic part of model computation.",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"
+      ]
+    },
+    "ai-forever/OrbitLM-1.8B-Thinking": {
+      "url": "https://huggingface.co/ai-forever/OrbitLM-1.8B-Thinking",
+      "description": "OrbitLM-1.8B-Thinking is a looped language model that thinks before it answers. It applies one stack of 24 transformer layers four times to every token, and after each pass an exit gate scores how ready the token is to stop. The model ha…",
+      "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "google/gemma-3-1b-it": {
+      "url": "https://huggingface.co/google/gemma-3-1b-it",
+      "description": null,
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "google/gemma-3-1b-pt"
+      ]
+    },
+    "meta-llama/Llama-3.2-1B": {
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B",
+      "description": null,
+      "pipelineTag": "text-generation",
+      "baseModels": []
     }
   },
   "spaces": {
@@ -6260,6 +6320,17 @@
         "r3gm/RIFE",
         "TestOrganizationPleaseIgnore/WAMU_v3_WAN2.2_I2V_LIGHTNING",
         "Wan-AI/Wan2.2-I2V-A14B-Diffusers"
+      ]
+    },
+    "akhaliq/DepthPro2": {
+      "url": "https://huggingface.co/spaces/akhaliq/DepthPro2",
+      "title": "DepthPro2",
+      "description": "Metric monocular depth from photos and videos",
+      "sdk": "gradio",
+      "models": [
+        "apple/DepthPro2",
+        "apple/DepthPro2-focal",
+        "apple/DepthPro2-H"
       ]
     }
   }
