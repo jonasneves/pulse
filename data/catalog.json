@@ -525,11 +525,6 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust"
     },
-    "basecamp/omarchy": {
-      "url": "https://github.com/omacom/omarchy",
-      "description": "Beautiful, Modern & Opinionated Linux",
-      "language": "Shell"
-    },
     "NawfalMotii79/PLFM_RADAR": {
       "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
       "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
@@ -555,20 +550,10 @@
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "language": "TypeScript"
     },
-    "tinyhumansai/openhuman": {
-      "url": "https://github.com/tinyhumansai/openhuman",
-      "description": "OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust",
-      "language": "Rust"
-    },
     "dani-garcia/vaultwarden": {
       "url": "https://github.com/dani-garcia/vaultwarden",
       "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
       "language": "Rust"
-    },
-    "VoltAgent/awesome-agent-skills": {
-      "url": "https://github.com/VoltAgent/awesome-agent-skills",
-      "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
-      "language": null
     },
     "AgriciDaniel/claude-obsidian": {
       "url": "https://github.com/AgriciDaniel/claude-obsidian",
@@ -579,11 +564,6 @@
       "url": "https://github.com/tashfeenahmed/freellmapi",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "language": "TypeScript"
-    },
-    "anthropics/claude-plugins-community": {
-      "url": "https://github.com/anthropics/claude-plugins-community",
-      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
-      "language": "Python"
     },
     "marin-community/marin": {
       "url": "https://github.com/marin-community/marin",
@@ -1152,7 +1132,7 @@
     },
     "zhouxiaoka/autoclip": {
       "url": "https://github.com/zhouxiaoka/autoclip",
-      "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+      "description": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
       "language": "Python"
     },
     "mvt-project/mvt": {
@@ -1947,7 +1927,7 @@
     },
     "elementalsouls/Claude-BugHunter": {
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "language": "Python"
     },
     "astral-sh/uv": {
@@ -1987,7 +1967,7 @@
     },
     "mjmirza/app-store-compliance": {
       "url": "https://github.com/mjmirza/app-store-compliance",
-      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "language": "Shell"
     },
     "Tracer-Cloud/opensre": {
@@ -4137,6 +4117,30 @@
       "description": null,
       "pipelineTag": "text-generation",
       "baseModels": []
+    },
+    "nvidia/Nemotron-Labs-Image-30B-A3B": {
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
+      "description": "Nemotron-Labs-VisualCreation is an agentic framework for creating expressive raster images and editable visual artifacts, including webpages, presentations, documents, charts, and scientific figures. Its Pixel as Code interface connects …",
+      "pipelineTag": "text-to-image",
+      "baseModels": []
+    },
+    "KRAFTON/Raon-1-mini": {
+      "url": "https://huggingface.co/KRAFTON/Raon-1-mini",
+      "description": "Raon-1 mini is a 30B-A4B Mixture-of-Experts (MoE) language model, designed and trained from scratch by KRAFTON AI. It demonstrates strong capabilities in Korean conversation and agentic tasks. As part of the Raon open model family, it is…",
+      "pipelineTag": "text-generation",
+      "baseModels": []
+    },
+    "sand-ai/MAGI-2-preview": {
+      "url": "https://huggingface.co/sand-ai/MAGI-2-preview",
+      "description": "src=\"https://img.shields.io/badge/Twitter-Sand.ai-white?logo=x&logoColor=white\"/>",
+      "pipelineTag": "image-text-to-video",
+      "baseModels": []
+    },
+    "litert-community/Gemma3-1B-IT": {
+      "url": "https://huggingface.co/litert-community/Gemma3-1B-IT",
+      "description": null,
+      "pipelineTag": "text-generation",
+      "baseModels": []
     }
   },
   "spaces": {
@@ -6217,8 +6221,8 @@
     },
     "xyzanonimous5/Qwen-Image-2.1-Studio": {
       "url": "https://huggingface.co/spaces/xyzanonimous5/Qwen-Image-2.1-Studio",
-      "title": "Qwen Image 2.1 Uncensored All-In-One LoRA Studio",
-      "description": "Uncensored Qwen 2.1 with All-In-One LoRAs",
+      "title": "Qwen-Image-2.1-Studio",
+      "description": "Edit, swap & batch-generate images with Qwen-Image 2.1",
       "sdk": "gradio",
       "models": []
     },
@@ -6332,6 +6336,20 @@
         "apple/DepthPro2-focal",
         "apple/DepthPro2-H"
       ]
+    },
+    "HuggingFaceSwarms/scaling-swarms": {
+      "url": "https://huggingface.co/spaces/HuggingFaceSwarms/scaling-swarms",
+      "title": "Scaling swarms to thousands of agents",
+      "description": "A field report from building PyBot",
+      "sdk": "docker",
+      "models": []
+    },
+    "dlouapre/looped-transformers": {
+      "url": "https://huggingface.co/spaces/dlouapre/looped-transformers",
+      "title": "Looped transformers: thinking twice with the same weights",
+      "description": "How looped transformers work, tested on tiny models",
+      "sdk": "docker",
+      "models": []
     }
   }
 }
