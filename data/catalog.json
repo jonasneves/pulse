@@ -555,11 +555,6 @@
       "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
       "language": "Rust"
     },
-    "AgriciDaniel/claude-obsidian": {
-      "url": "https://github.com/AgriciDaniel/claude-obsidian",
-      "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
-      "language": "Python"
-    },
     "tashfeenahmed/freellmapi": {
       "url": "https://github.com/tashfeenahmed/freellmapi",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
@@ -589,11 +584,6 @@
       "url": "https://github.com/ConardLi/garden-skills",
       "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
       "language": "JavaScript"
-    },
-    "zedeus/nitter": {
-      "url": "https://github.com/zedeus/nitter",
-      "description": "Alternative Twitter front-end",
-      "language": "Nim"
     },
     "K-Dense-AI/scientific-agent-skills": {
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
@@ -4141,6 +4131,26 @@
       "description": null,
       "pipelineTag": "text-generation",
       "baseModels": []
+    },
+    "ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF": {
+      "url": "https://huggingface.co/ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+      "description": "Non-uniform GGUF quantizations of a 26B-parameter, 128-expert looped MoE, produced with GSQ and RCO.",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "thinkingmachines/Inkling-2-Mini"
+      ]
+    },
+    "kandinskylab/Kandinsky-ImageSR-2.0": {
+      "url": "https://huggingface.co/kandinskylab/Kandinsky-ImageSR-2.0",
+      "description": "Kandinsky Image Super-Resolution 2.0 as a Diffusers bundle. A single set of transformer weights serves both x2 and x4. The release uses pre-baked zero-text conditioning: the text tower and all 50 cross-attention layers are replaced by sm…",
+      "pipelineTag": "image-to-image",
+      "baseModels": []
+    },
+    "inclusionAI/Ming-Image-0.2-Design": {
+      "url": "https://huggingface.co/inclusionAI/Ming-Image-0.2-Design",
+      "description": "This release upgrades and open-sources Ming-Image-0.2-Design. The new version improves complex composition, lighting, and text rendering, and can be used to create e-commerce hero images, UI design drafts, and spatial renderings. The pre…",
+      "pipelineTag": "text-to-image",
+      "baseModels": []
     }
   },
   "spaces": {
@@ -5469,7 +5479,7 @@
     "nvidia/simready-central": {
       "url": "https://huggingface.co/spaces/nvidia/simready-central",
       "title": "SimReady Central",
-      "description": "Semantic search for 3D assets: USD + RTX simulation previews",
+      "description": "Find, use, and contribute simulation-ready OpenUSD assets",
       "sdk": "docker",
       "models": [
         "nvidia/srp-staging-controlled"
@@ -6349,6 +6359,34 @@
       "title": "Looped transformers: thinking twice with the same weights",
       "description": "How looped transformers work, tested on tiny models",
       "sdk": "docker",
+      "models": []
+    },
+    "rdata92/qwen-image-21-uncensored": {
+      "url": "https://huggingface.co/spaces/rdata92/qwen-image-21-uncensored",
+      "title": "Qwen Image 2.1 Uncensored",
+      "description": "Uncensored Qwen-Image-2.1 generate + edit",
+      "sdk": "gradio",
+      "models": [
+        "KasugaiSakura/Qwen-Image-2.1-Uncensored-Abenzerps-GGUF",
+        "Qwen/Qwen-Image-2.1",
+        "abenzerps/Qwen-Image-2.1-Turbo-Quantized"
+      ]
+    },
+    "cfahlgren1/imagine": {
+      "url": "https://huggingface.co/spaces/cfahlgren1/imagine",
+      "title": "Imagine",
+      "description": "Type anything and watch it paint, on your own GPU",
+      "sdk": "static",
+      "models": [
+        "lox9973/MiniT2I-B-16-MF-compact",
+        "cfahlgren1/MiniT2I-B-16-MF-compact-webgpu-int8"
+      ]
+    },
+    "traderharikrishna/Wan_2.2_I2V_14B_Custom_Lora": {
+      "url": "https://huggingface.co/spaces/traderharikrishna/Wan_2.2_I2V_14B_Custom_Lora",
+      "title": "Wan2.2 14B Custom Lora,Fast Options, ZeroGPU cost, settings profiles",
+      "description": null,
+      "sdk": "gradio",
       "models": []
     }
   }
