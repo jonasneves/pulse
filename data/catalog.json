@@ -560,11 +560,6 @@
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "language": "TypeScript"
     },
-    "marin-community/marin": {
-      "url": "https://github.com/marin-community/marin",
-      "description": "Open-source framework for the research and development of foundation models.",
-      "language": "Python"
-    },
     "DietrichGebert/ponytail": {
       "url": "https://github.com/DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
@@ -619,11 +614,6 @@
       "url": "https://github.com/abi/screenshot-to-code",
       "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
       "language": "Python"
-    },
-    "swoole/typephp": {
-      "url": "https://github.com/swoole/typephp",
-      "description": "Compile PHP to Native Binaries",
-      "language": "PHP"
     },
     "tailscale/tailcat": {
       "url": "https://github.com/tailscale/tailcat",
@@ -4151,6 +4141,22 @@
       "description": "This release upgrades and open-sources Ming-Image-0.2-Design. The new version improves complex composition, lighting, and text rendering, and can be used to create e-commerce hero images, UI design drafts, and spatial renderings. The pre…",
       "pipelineTag": "text-to-image",
       "baseModels": []
+    },
+    "ai-sage/GigaChat4-708B-A41B": {
+      "url": "https://huggingface.co/ai-sage/GigaChat4-708B-A41B",
+      "description": "GigaChat 4 is the flagship hybrid model of the GigaChat family. It combines a Mixture-of-Experts (MoE) architecture with DeepSeek Sparse Attention (DSA) and Gated DeltaNet (GDN) with 708B total parameters and 41B active parameters per to…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "ai-sage/GigaChat4-708B-A41B-bf16"
+      ]
+    },
+    "ai-sage/GigaChat4-37B-A4B": {
+      "url": "https://huggingface.co/ai-sage/GigaChat4-37B-A4B",
+      "description": "GigaChat 4 37B-A4B is a compact hybrid model in the GigaChat 4 family. It combines a Mixture-of-Experts (MoE) architecture with DeepSeek Sparse Attention (DSA) and Gated DeltaNet (GDN) with 37B total parameters and 4B active parameters p…",
+      "pipelineTag": "text-generation",
+      "baseModels": [
+        "ai-sage/GigaChat4-37B-A4B-bf16"
+      ]
     }
   },
   "spaces": {
@@ -6035,8 +6041,8 @@
     },
     "amisima/Qwen-2.1-Turbo-Qwen-Face-Swap-MOSS-Image-Edit-Outpaint-Qwen-Detail-Enhancer": {
       "url": "https://huggingface.co/spaces/amisima/Qwen-2.1-Turbo-Qwen-Face-Swap-MOSS-Image-Edit-Outpaint-Qwen-Detail-Enhancer",
-      "title": "Qwen 2.1 Turbo | Relight | Camera Angle | Face Swap | MOSS",
-      "description": "Turbo, Relight, Camera, Face Swap, MOSS, Outpaint, Enhance",
+      "title": "Qwen 2.1 Turbo | Fast MOSS | Relight | Camera | Face Swap",
+      "description": "Fast, cheap MOSS Edit + Qwen Turbo, Relight, Face Swap",
       "sdk": "gradio",
       "models": []
     },
@@ -6388,6 +6394,22 @@
       "description": null,
       "sdk": "gradio",
       "models": []
+    },
+    "SUGE212/Qwen-4-27B-Preview": {
+      "url": "https://huggingface.co/spaces/SUGE212/Qwen-4-27B-Preview",
+      "title": "Qwen 4 27B Preview",
+      "description": "An unexpected model preview.",
+      "sdk": "static",
+      "models": []
+    },
+    "kandinskylab/Kandinsky-ImageSR-2.0-Demo": {
+      "url": "https://huggingface.co/spaces/kandinskylab/Kandinsky-ImageSR-2.0-Demo",
+      "title": "Kandinsky ImageSR 2.0",
+      "description": "One-step image super-resolution at ×2 and ×4",
+      "sdk": "gradio",
+      "models": [
+        "kandinskylab/Kandinsky-ImageSR-2.0"
+      ]
     }
   }
 }
